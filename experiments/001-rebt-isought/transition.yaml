@@ -1,0 +1,30 @@
+schema_version: 0.1
+experiment: take2:experiment:rebt-isought-001
+transition:
+  id: tr:rebt-isought-001:record-result
+  type: record_experiment_result
+  baseline: take2:kernel
+  target: take2:experiment:rebt-isought-001
+  authority: Take-2 experiment scope
+  evidence:
+    - legacy:projects/rebt-is-ought/PROJECT_PAGE.md
+    - legacy:projects/rebt-is-ought/STATE.yaml
+    - legacy:sort-later/REBT_ISOUGHT_PILOT_AND_RECENTER_2026-09-23.md
+    - legacy:projects/pd/working/MULTI_OBJECT_CONNECTOR_VALIDATION_003_PD_FIRST_REBT_ISOUGHT_LOGIC.md
+  protected:
+    - legacy_authority
+    - demandingness_not_lexical
+    - normative_support_distinct_from_demandingness
+    - clinical_consequence_nondefinitional
+    - anti_retroactive_attribution
+  validators: [kernel_fitness, A16]
+  status: VERIFIED
+result:
+  status: SUPPORTED
+  claim: >
+    Relative to the frozen legacy evidence, REBT demandingness and normative-support
+    status are distinct coordinates and neither universal implication is licensed.
+  open:
+    - exact_REBT_classification_map
+    - contribution_of_normative_support_controlling_other_properties
+    - systematic_REBT_source_reconstruction

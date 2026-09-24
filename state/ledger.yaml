@@ -9,6 +9,14 @@ objects:
     kind: capability_set
     status: bootstrap_candidate
     authority: pd/CORE.yaml
+  - id: external:reaserch:rebt-is-ought
+    kind: external_reference
+    status: supported
+    authority: thytabakman-jpg/Reaserch
+  - id: take2:experiment:rebt-isought-001
+    kind: experiment
+    status: verified
+    authority: experiments/001-rebt-isought/REPORT.md
 relations:
   - id: rel:pd-part-of-kernel
     type: part_of
@@ -16,14 +24,38 @@ relations:
     target: take2:kernel
     authority: ARCHITECTURE.md
     evidence: [pd/CORE.yaml]
+  - id: rel:rebt001-references-legacy
+    type: references
+    source: take2:experiment:rebt-isought-001
+    target: external:reaserch:rebt-is-ought
+    authority: experiments/001-rebt-isought/REPORT.md
+    evidence: [legacy:projects/rebt-is-ought]
 events:
   - id: evt:bootstrap-pr1-fitness
     type: validation_run_started
     occurred_at: 2026-09-24T03:39:47Z
     subject: take2:kernel
     evidence: [github-actions-run:35952383407]
-transitions: []
+transitions:
+  - id: tr:rebt-isought-001:record-result
+    type: record_experiment_result
+    baseline: take2:kernel
+    target: take2:experiment:rebt-isought-001
+    authority: Take-2 experiment scope
+    evidence: [experiments/001-rebt-isought/transition.yaml]
+    protected: [legacy_authority, frozen_REBT_isought_results]
+    validators: [kernel_fitness, A16]
+    status: VERIFIED
 observations:
+  - id: obs:rebt-isought-001:analytic-result
+    type: research_result
+    subject: take2:experiment:rebt-isought-001
+    source: experiments/001-rebt-isought/REPORT.md
+    observed_at: 2026-09-24T00:00:00-04:00
+    result:
+      status: SUPPORTED
+      claim: R_and_S_distinct_no_universal_implication_licensed
+      open: [exact_mapping, source_reconstruction, empirical_validation]
   - id: obs:bootstrap-pr1-fitness-steps
     type: workflow_execution
     subject: take2:kernel
