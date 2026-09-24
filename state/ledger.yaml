@@ -1,0 +1,21 @@
+schema_version: 0.1
+kernel: take_2
+objects:
+  - id: take2:kernel
+    kind: system
+    status: bootstrap_candidate
+    authority: repository
+  - id: take2:pd-kernel
+    kind: capability_set
+    status: bootstrap_candidate
+    authority: pd/CORE.yaml
+relations:
+  - id: rel:pd-part-of-kernel
+    type: part_of
+    source: take2:pd-kernel
+    target: take2:kernel
+    authority: ARCHITECTURE.md
+    evidence: [pd/CORE.yaml]
+events: []
+transitions: []
+observations: []
