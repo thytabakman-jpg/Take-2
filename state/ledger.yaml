@@ -9,6 +9,10 @@ objects:
     kind: capability_set
     status: bootstrap_candidate
     authority: pd/CORE.yaml
+  - id: external:reaserch:rebt-is-ought
+    kind: external_reference
+    status: supported
+    authority: thytabakman-jpg/Reaserch
   - id: take2:experiment:rebt-isought-001
     kind: experiment
     status: verified
@@ -23,9 +27,9 @@ relations:
   - id: rel:rebt001-references-legacy
     type: references
     source: take2:experiment:rebt-isought-001
-    target: take2:kernel
+    target: external:reaserch:rebt-is-ought
     authority: experiments/001-rebt-isought/REPORT.md
-    evidence: [legacy:rebt-is-ought]
+    evidence: [legacy:projects/rebt-is-ought]
 events:
   - id: evt:bootstrap-pr1-fitness
     type: validation_run_started
