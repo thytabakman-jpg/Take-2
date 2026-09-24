@@ -52,18 +52,18 @@ relations:
     target: external:reaserch:compositional-core-005
     authority: experiments/003-compositional-core/REPORT.md
     evidence: [reaserch:fc4e34a5357a37c5434122bdfbf199536ebb0d78]
-events:
-  - id: evt:bootstrap-pr1-fitness
-    type: validation_run_started
-    occurred_at: 2026-09-24T03:39:47Z
-    subject: take2:kernel
-    evidence: [github-actions-run:35952383407]
   - id: rel:operator-math-002-compares-legacy
     type: compares_against
     source: take2:experiment:operator-math-002
     target: external:reaserch:operator-math-v2
     authority: experiments/002-operator-math/PLAN.md
     evidence: [legacy:PR-96]
+events:
+  - id: evt:bootstrap-pr1-fitness
+    type: validation_run_started
+    occurred_at: 2026-09-24T03:39:47Z
+    subject: take2:kernel
+    evidence: [github-actions-run:35952383407]
 transitions:
   - id: tr:compositional-core-003:record-result
     type: record_experiment_result
