@@ -32,7 +32,8 @@ observations:
     result:
       run_id: 35952383407
       job_id: 107483486323
-      status: in_progress
+      status: completed
+      conclusion: success
       kernel_check: success
       visible_steps: true
       note: >
