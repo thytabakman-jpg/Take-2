@@ -49,7 +49,21 @@ objects:
     kind: experiment
     status: verified
     authority: experiments/005-update-transition-math/REPORT.md
+  - id: external:reaserch:state-math-001
+    kind: external_reference
+    status: candidate
+    authority: thytabakman-jpg/Reaserch@c636413c544c4e73bb4cbe225fe069cb759ada64
+  - id: take2:experiment:state-math-006
+    kind: experiment
+    status: verified
+    authority: experiments/006-state-math/REPORT.md
 relations:
+  - id: rel:state-math-006-references-reaserch
+    type: references
+    source: take2:experiment:state-math-006
+    target: external:reaserch:state-math-001
+    authority: experiments/006-state-math/REPORT.md
+    evidence: [reaserch:c636413c544c4e73bb4cbe225fe069cb759ada64]
   - id: rel:update-transition-005-references-reaserch
     type: references
     source: take2:experiment:update-transition-005
@@ -93,6 +107,15 @@ events:
     subject: take2:kernel
     evidence: [github-actions-run:35952383407]
 transitions:
+  - id: tr:state-math-006:record-result
+    type: record_experiment_result
+    baseline: take2:kernel
+    target: take2:experiment:state-math-006
+    authority: Take-2 experiment scope
+    evidence: [experiments/006-state-math/REPORT.md]
+    protected: [five_durable_primitives, eight_role_semantics, OPEN, incomparability, legacy_authority]
+    validators: [kernel_fitness, A16]
+    status: VERIFIED
   - id: tr:update-transition-005:record-result
     type: record_experiment_result
     baseline: take2:kernel
@@ -130,6 +153,16 @@ transitions:
     validators: [kernel_fitness, A16]
     status: VERIFIED
 observations:
+  - id: obs:state-math-006:analytic-result
+    type: research_result
+    subject: take2:experiment:state-math-006
+    source: experiments/006-state-math/REPORT.md
+    observed_at: 2026-09-24T00:00:00-04:00
+    result:
+      status: SUPPORTED
+      state_coordinate_families: 5
+      basis: [IDENTITY_TOPOLOGY, ACTIVE_CONTENT, EPISTEMIC_STATUS, AUTHORITY_LICENSE, HISTORY_TRACE]
+      open: [resource_budget_candidate, prospective_holdout, global_completeness]
   - id: obs:update-transition-005:analytic-result
     type: research_result
     subject: take2:experiment:update-transition-005
