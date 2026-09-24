@@ -25,6 +25,14 @@ objects:
     kind: experiment
     status: ready
     authority: experiments/002-operator-math/PLAN.md
+  - id: external:reaserch:compositional-core-005
+    kind: external_reference
+    status: candidate
+    authority: thytabakman-jpg/Reaserch@fc4e34a5357a37c5434122bdfbf199536ebb0d78
+  - id: take2:experiment:compositional-core-003
+    kind: experiment
+    status: verified
+    authority: experiments/003-compositional-core/REPORT.md
 relations:
   - id: rel:pd-part-of-kernel
     type: part_of
@@ -38,6 +46,12 @@ relations:
     target: external:reaserch:rebt-is-ought
     authority: experiments/001-rebt-isought/REPORT.md
     evidence: [legacy:projects/rebt-is-ought]
+  - id: rel:core003-references-reaserch
+    type: references
+    source: take2:experiment:compositional-core-003
+    target: external:reaserch:compositional-core-005
+    authority: experiments/003-compositional-core/REPORT.md
+    evidence: [reaserch:fc4e34a5357a37c5434122bdfbf199536ebb0d78]
 events:
   - id: evt:bootstrap-pr1-fitness
     type: validation_run_started
@@ -51,6 +65,15 @@ events:
     authority: experiments/002-operator-math/PLAN.md
     evidence: [legacy:PR-96]
 transitions:
+  - id: tr:compositional-core-003:record-result
+    type: record_experiment_result
+    baseline: take2:kernel
+    target: take2:experiment:compositional-core-003
+    authority: Take-2 experiment scope
+    evidence: [experiments/003-compositional-core/REPORT.md]
+    protected: [legacy_authority, OPEN, incomparability, eight_role_boundary]
+    validators: [kernel_fitness, A16]
+    status: VERIFIED
   - id: tr:rebt-isought-001:record-result
     type: record_experiment_result
     baseline: take2:kernel
@@ -61,6 +84,18 @@ transitions:
     validators: [kernel_fitness, A16]
     status: VERIFIED
 observations:
+  - id: obs:compositional-core-003:analytic-result
+    type: research_result
+    subject: take2:experiment:compositional-core-003
+    source: experiments/003-compositional-core/REPORT.md
+    observed_at: 2026-09-24T00:00:00-04:00
+    result:
+      status: SUPPORTED
+      system_roles: 8
+      primitive_operator_families: 6
+      primitive_basis: [DIFFERENTIATE, RELATE, FACTOR, STRENGTHEN, CLASSIFY, RECONSTRUCT]
+      composite_macros: [TRACE, TRANSFER, DIAGNOSE, REPAIR, COMPRESS, REDESIGN, LOCALIZE, COMPARE, VERIFY]
+      open: [global_completeness, unlike_job_holdout]
   - id: obs:rebt-isought-001:analytic-result
     type: research_result
     subject: take2:experiment:rebt-isought-001
