@@ -33,7 +33,21 @@ objects:
     kind: experiment
     status: verified
     authority: experiments/003-compositional-core/REPORT.md
+  - id: external:reaserch:modifier-router-math-001
+    kind: external_reference
+    status: candidate
+    authority: thytabakman-jpg/Reaserch@73149692d369f397217a8e46f87764a3ec843f04
+  - id: take2:experiment:modifier-router-004
+    kind: experiment
+    status: verified
+    authority: experiments/004-modifier-router-math/REPORT.md
 relations:
+  - id: rel:modifier-router-004-references-reaserch
+    type: references
+    source: take2:experiment:modifier-router-004
+    target: external:reaserch:modifier-router-math-001
+    authority: experiments/004-modifier-router-math/REPORT.md
+    evidence: [reaserch:73149692d369f397217a8e46f87764a3ec843f04]
   - id: rel:pd-part-of-kernel
     type: part_of
     source: take2:pd-kernel
@@ -65,6 +79,15 @@ events:
     subject: take2:kernel
     evidence: [github-actions-run:35952383407]
 transitions:
+  - id: tr:modifier-router-004:record-result
+    type: record_experiment_result
+    baseline: take2:kernel
+    target: take2:experiment:modifier-router-004
+    authority: Take-2 experiment scope
+    evidence: [experiments/004-modifier-router-math/REPORT.md]
+    protected: [eight_role_boundary, OPEN, incomparability, legacy_authority]
+    validators: [kernel_fitness, A16]
+    status: VERIFIED
   - id: tr:compositional-core-003:record-result
     type: record_experiment_result
     baseline: take2:kernel
@@ -84,6 +107,16 @@ transitions:
     validators: [kernel_fitness, A16]
     status: VERIFIED
 observations:
+  - id: obs:modifier-router-004:analytic-result
+    type: research_result
+    subject: take2:experiment:modifier-router-004
+    source: experiments/004-modifier-router-math/REPORT.md
+    observed_at: 2026-09-24T00:00:00-04:00
+    result:
+      status: SUPPORTED
+      modifier_primitive_families: 6
+      router_semantics: eligibility_plus_partial_preference_frontier
+      open: [prospective_modifier_holdout, router_representation_holdout, global_completeness]
   - id: obs:compositional-core-003:analytic-result
     type: research_result
     subject: take2:experiment:compositional-core-003
