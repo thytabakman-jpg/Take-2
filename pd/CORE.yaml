@@ -12,15 +12,15 @@ stable:
   - {id: A03, job: orthogonal_counterfactual_representation_attack, source_evidence: controlled_same_object}
   - {id: A04, job: result_sensitivity_compression, source_evidence: controlled_same_object}
   - {id: A05, job: representation_invariant_localization, source_evidence: controlled_same_object}
-  - {id: A06, job: rival_clean_sheet_reconstruction, source_evidence: supported_profile}
   - {id: A07, job: source_provenance_attribution_disentanglement, source_evidence: repeated_cross_case}
-  - {id: A08, job: referent_identity_continuity, source_evidence: documented_plus_portfolio_support}
   - {id: A09, job: recurrence_root_cause_escalation_analysis, source_evidence: documented_formal_self_application_plus_history}
   - {id: A10, job: historical_architecture_corpus_reconciliation, source_evidence: repeated_cross_case}
   - {id: A12, job: spine_dependency_reconstruction, source_evidence: repeated_cross_project}
   - {id: A16, job: regression_and_post_candidate_verification, source_evidence: repeated_cross_case}
   - {id: A18, job: historical_recursive_pd_audit_hf001, source_evidence: active_historical_core_repeated_cross_case}
 experimental:
+  - {id: A06, job: rival_clean_sheet_reconstruction, reason: supported_profile_not_yet_repeated_or_controlled}
+  - {id: A08, job: referent_identity_continuity, reason: documented_plus_portfolio_support_below_initial_stable_threshold}
   - {id: A11, job: external_dependence_detection, reason: holdout_pilot}
   - {id: A13, job: layered_control_map_audit, reason: candidate_high_value_cross_project}
   - {id: A19, job: typed_failure_diagnosis, reason: candidate_prospectively_instrumented}
