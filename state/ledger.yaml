@@ -41,7 +41,21 @@ objects:
     kind: experiment
     status: verified
     authority: experiments/004-modifier-router-math/REPORT.md
+  - id: external:reaserch:update-transition-math-001
+    kind: external_reference
+    status: candidate
+    authority: thytabakman-jpg/Reaserch@fa84646ddef480f9f7e133432e5f8b72ea668bd2
+  - id: take2:experiment:update-transition-005
+    kind: experiment
+    status: verified
+    authority: experiments/005-update-transition-math/REPORT.md
 relations:
+  - id: rel:update-transition-005-references-reaserch
+    type: references
+    source: take2:experiment:update-transition-005
+    target: external:reaserch:update-transition-math-001
+    authority: experiments/005-update-transition-math/REPORT.md
+    evidence: [reaserch:fa84646ddef480f9f7e133432e5f8b72ea668bd2]
   - id: rel:modifier-router-004-references-reaserch
     type: references
     source: take2:experiment:modifier-router-004
@@ -79,6 +93,15 @@ events:
     subject: take2:kernel
     evidence: [github-actions-run:35952383407]
 transitions:
+  - id: tr:update-transition-005:record-result
+    type: record_experiment_result
+    baseline: take2:kernel
+    target: take2:experiment:update-transition-005
+    authority: Take-2 experiment scope
+    evidence: [experiments/005-update-transition-math/REPORT.md]
+    protected: [five_durable_primitives, eight_role_semantics, OPEN, incomparability, legacy_authority]
+    validators: [kernel_fitness, A16]
+    status: VERIFIED
   - id: tr:modifier-router-004:record-result
     type: record_experiment_result
     baseline: take2:kernel
@@ -107,6 +130,16 @@ transitions:
     validators: [kernel_fitness, A16]
     status: VERIFIED
 observations:
+  - id: obs:update-transition-005:analytic-result
+    type: research_result
+    subject: take2:experiment:update-transition-005
+    source: experiments/005-update-transition-math/REPORT.md
+    observed_at: 2026-09-24T00:00:00-04:00
+    result:
+      status: SUPPORTED
+      update_primitive_families: 4
+      basis: [ACCUMULATE, REVISE, STRUCTURAL, RETRACT]
+      open: [prospective_holdout, global_completeness]
   - id: obs:modifier-router-004:analytic-result
     type: research_result
     subject: take2:experiment:modifier-router-004
