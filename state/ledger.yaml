@@ -16,6 +16,27 @@ relations:
     target: take2:kernel
     authority: ARCHITECTURE.md
     evidence: [pd/CORE.yaml]
-events: []
+events:
+  - id: evt:bootstrap-pr1-fitness
+    type: validation_run_started
+    occurred_at: 2026-09-24T03:39:47Z
+    subject: take2:kernel
+    evidence: [github-actions-run:35952383407]
 transitions: []
-observations: []
+observations:
+  - id: obs:bootstrap-pr1-fitness-steps
+    type: workflow_execution
+    subject: take2:kernel
+    source: github-actions
+    observed_at: 2026-09-24T03:40:00Z
+    result:
+      run_id: 35952383407
+      job_id: 107483486323
+      status: in_progress
+      kernel_check: success
+      visible_steps: true
+      note: >
+        Take-2 Actions exposed normal step execution and the kernel validator passed.
+        This is discriminating evidence against an account-wide explanation for the
+        legacy repository's pre-step/no-log Actions failures; it does not yet identify
+        the legacy repository cause.
