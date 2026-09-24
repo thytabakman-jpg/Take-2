@@ -1,0 +1,27 @@
+schema_version: 0.1
+kernel: take_2
+status: bootstrap_candidate
+legacy_authority: thytabakman-jpg/Reaserch
+principles:
+  - distinctions_do_not_imply_surfaces
+  - consequential_change_uses_transition
+  - pd_is_epistemic_kernel
+  - preserve_OPEN_and_incomparability
+  - evidence_does_not_self_authorize
+  - observations_precede_causal_claims
+  - migrate_capabilities_not_files
+  - executable_fitness_over_policy_only
+primitives:
+  object:
+    required: [id, kind, status, authority]
+  relation:
+    required: [id, type, source, target, authority, evidence]
+  event:
+    required: [id, type, occurred_at, subject, evidence]
+  transition:
+    required: [id, type, baseline, target, authority, evidence, protected, validators, status]
+  observation:
+    required: [id, type, subject, source, observed_at, result]
+transition_statuses: [PROPOSED, AUTHORIZED, APPLIED, VERIFIED, BLOCKED, SUPERSEDED]
+epistemic_statuses: [SUPPORTED, PLURAL, OPEN, BLOCKED, REJECTED]
+migration_dispositions: [REIMPLEMENT, IMPORT, REFERENCE, DISCARD, OPEN]
