@@ -1,0 +1,38 @@
+name: ICC C65 work-intake
+on:
+  push:
+    branches: [main, icc-c65-runtime-repair-20260924]
+    paths:
+      - "**/*CHALLENGE*.md"
+      - "**/*challenge*.md"
+      - "tools/icc_work_intake.py"
+      - ".github/workflows/icc-work-intake.yml"
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  recognize-and-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Recognize queued challenge
+        run: python tools/icc_work_intake.py
+      - name: Kernel regression
+        run: |
+          python -m pip install --disable-pip-version-check pyyaml
+          python tools/check_kernel.py
+      - name: Enforce execution truth
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path("state/work_intake.json").read_text())
+          assert d["status"]=="RECOGNIZED"
+          assert d["next_state"]=="EXECUTION_REQUIRED"
+          assert d["count"]>0
+          print("C65 gate: intake recognized; execution remains explicitly open.")
+          PY
