@@ -1,0 +1,158 @@
+{
+  "schema": "FULL_CORPUS_PLACEMENT_MANIFEST/v1",
+  "date": "2026-09-26",
+  "repository": "thytabakman-jpg/Take-2",
+  "branch": "improvecore/full-corpus-placement-audit-20260926",
+  "tree_truncated": false,
+  "total_files": 23,
+  "coverage": "every blob in recursive git tree",
+  "placement_counts": {
+    "VERIFICATION": 1,
+    "ARCHITECTURE": 2,
+    "GENERAL": 3,
+    "NAVIGATION": 1,
+    "EVIDENCE_HISTORY": 13,
+    "STATE_CONFIG": 2,
+    "EXECUTABLE": 1
+  },
+  "files": [
+    {
+      "path": ".github/workflows/kernel-fitness.yml",
+      "sha": "89b055098925811f2f0051d28ecb8868e2fbb62f",
+      "size": 317,
+      "placement": "VERIFICATION"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "sha": "4756bddf214471b9480b4a55dac6be66ede20587",
+      "size": 3181,
+      "placement": "ARCHITECTURE"
+    },
+    {
+      "path": "EXPERIMENT.md",
+      "sha": "7efb69b7075bb9d19248d797e928f18f40797ba3",
+      "size": 1216,
+      "placement": "GENERAL"
+    },
+    {
+      "path": "KERNEL.yaml",
+      "sha": "97af03762c1ad3c6730dcacd73280b99e8b8ecfd",
+      "size": 1028,
+      "placement": "ARCHITECTURE"
+    },
+    {
+      "path": "MIGRATION.md",
+      "sha": "8ccc937b4ad7d3594ae2d160df39fd579b78adac",
+      "size": 787,
+      "placement": "GENERAL"
+    },
+    {
+      "path": "PLAN.md",
+      "sha": "3e312d42be71929626f327f4648a4b141acc0376",
+      "size": 2399,
+      "placement": "GENERAL"
+    },
+    {
+      "path": "README.md",
+      "sha": "6917c2c97d2e9a7448140a9166d45f339be3f20b",
+      "size": 694,
+      "placement": "NAVIGATION"
+    },
+    {
+      "path": "audits/BOOTSTRAP_REATTACK_001.md",
+      "sha": "2bff74520a4c959ac321080c0d24138bbc4425b0",
+      "size": 1669,
+      "placement": "EVIDENCE_HISTORY"
+    },
+    {
+      "path": "experiments/001-rebt-isought/FINAL_REATTACK.md",
+      "sha": "9d36c5e9b579b2a410855d71bd99e3fb87faaf9c",
+      "size": 843,
+      "placement": "EVIDENCE_HISTORY"
+    },
+    {
+      "path": "experiments/001-rebt-isought/POST_REATTACK.md",
+      "sha": "5b2f015222361362c07ea9c8b847e40ea5d60ddb",
+      "size": 2317,
+      "placement": "EVIDENCE_HISTORY"
+    },
+    {
+      "path": "experiments/001-rebt-isought/REPORT.md",
+      "sha": "f0f3deb8d6fe0427cfe25e33387ecd73a404e7ce",
+      "size": 7591,
+      "placement": "EVIDENCE_HISTORY"
+    },
+    {
+      "path": "experiments/001-rebt-isought/transition.yaml",
+      "sha": "208e823b88472ae25352e630c5e97422f912c20c",
+      "size": 1157,
+      "placement": "EVIDENCE_HISTORY"
+    },
+    {
+      "path": "experiments/002-operator-math/PLAN.md",
+      "sha": "889e33bee49a34a05a21360dc6133fb3f04ae696",
+      "size": 3452,
+      "placement": "EVIDENCE_HISTORY"
+    },
+    {
+      "path": "experiments/003-compositional-core/REPORT.md",
+      "sha": "9821a5854ea7c7a0778fdcde652bf1565a13515c",
+      "size": 2425,
+      "placement": "EVIDENCE_HISTORY"
+    },
+    {
+      "path": "experiments/004-modifier-router-math/REPORT.md",
+      "sha": "736a34500e8b3c2710f5e25daeec04399f701b7d",
+      "size": 2198,
+      "placement": "EVIDENCE_HISTORY"
+    },
+    {
+      "path": "experiments/005-update-transition-math/REPORT.md",
+      "sha": "3b4783d0c212a9042824a20733b37f8b93935c3a",
+      "size": 1811,
+      "placement": "EVIDENCE_HISTORY"
+    },
+    {
+      "path": "experiments/006-state-math/REPORT.md",
+      "sha": "bf61096858139f9b613e46bb4e084d424c32b6cf",
+      "size": 1294,
+      "placement": "EVIDENCE_HISTORY"
+    },
+    {
+      "path": "experiments/LAB_PACKET_001_PD_OWNERSHIP_ABLATION.md",
+      "sha": "194e4dc45cef9393c4b0642ecb3a0eda2a932211",
+      "size": 1186,
+      "placement": "EVIDENCE_HISTORY"
+    },
+    {
+      "path": "experiments/core-system-math-2026-09-24/CHALLENGE.md",
+      "sha": "626f56830097c58d2f565c3808163345d29e4368",
+      "size": 1500,
+      "placement": "EVIDENCE_HISTORY"
+    },
+    {
+      "path": "experiments/core-system-math-2026-09-24/SNAPSHOT.md",
+      "sha": "d22136c54de89ead92d136411e507e23dd2daf4f",
+      "size": 38541,
+      "placement": "EVIDENCE_HISTORY"
+    },
+    {
+      "path": "pd/CORE.yaml",
+      "sha": "1a9ba22e2fd85a620d52aed54f4842e5bee62966",
+      "size": 2432,
+      "placement": "STATE_CONFIG"
+    },
+    {
+      "path": "state/ledger.yaml",
+      "sha": "e194d2b697d16b4cb8a34afe1770fb483d877f00",
+      "size": 9132,
+      "placement": "STATE_CONFIG"
+    },
+    {
+      "path": "tools/check_kernel.py",
+      "sha": "84a53da546600fe87ea68f2455a289aa16a2d2ec",
+      "size": 1308,
+      "placement": "EXECUTABLE"
+    }
+  ]
+}
