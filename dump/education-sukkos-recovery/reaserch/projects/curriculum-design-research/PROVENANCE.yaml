@@ -1,0 +1,57 @@
+schema_version: 0.1
+project_id: curriculum-design-research
+status: bounded_source_grounding
+historical_coverage: open
+last_updated: 2026-09-22
+
+records:
+  - id: CDR:PROV:001
+    source_type: user_confirmed_conversation
+    source_locator: conversation:2026-09-21-curriculum-support-only
+    evidential_role: project_priority_and_cross_project_relation
+    establishes:
+      - Curriculum Design Research is support-only to the Jewish Holiday Booklet Program unless separately reactivated.
+      - Broader curriculum, learning-theory, methodology, and validation work is pursued only when it materially advances, repairs, validates, or unblocks the booklet program.
+      - The Jewish Holiday Booklet Program remains a separate project rather than being collapsed into Curriculum Design Research.
+    limitation: >
+      This record source-grounds the bounded support relation and priority gate only.
+      It does not validate the full reconstructed CDR goal hierarchy or complete
+      historical CDR corpus.
+
+  - id: CDR:PROV:002
+    source_type: current_repository_artifact
+    source_locator: projects/jewish-holiday-booklets/PROVENANCE.yaml
+    evidential_role: corroborating_project_control
+    establishes:
+      - JHB historical control treats broader curriculum-design research as a separate support source.
+      - Broader curriculum work does not automatically become a prerequisite for booklet completion.
+    limitation: >
+      Corroborates the relation from the JHB side; it does not independently validate
+      every CDR research goal.
+
+  - id: CDR:PROV:003
+    source_type: current_repository_artifact
+    source_locator: audits/CROSS_GOAL_PD_AUDIT_2026-09-22.md
+    evidential_role: relation_typing_audit
+    establishes:
+      - The CDR/JHB relation is materially cross-project and belongs in the typed relation layer.
+      - Duplicated support-only wording creates drift risk.
+    limitation: archived audit evidence; does not itself confer canonical goal authority
+
+bounded_source_grounded_scope:
+  relation_id: EDGE:JHB-CDR:001
+  source_goal: JHB:G2.5
+  target_goal: CDR:G0
+  claim: >
+    JHB:G2.5 constrains CDR:G0 so that broader curriculum research is active for this
+    portfolio only when it materially advances, repairs, validates, or unblocks the
+    Jewish Holiday Booklet Program, unless CDR is separately reactivated.
+  status: source_grounded
+  authority_effect: >
+    This bounded relation may be admitted in GOAL_GRAPH without promoting the wider
+    CDR project or goal hierarchy beyond provisional reconstruction.
+
+unresolved_provenance:
+  - complete historical CDR conversation corpus
+  - historical curriculum artifacts and packets
+  - source grounding for the remainder of the CDR goal hierarchy
