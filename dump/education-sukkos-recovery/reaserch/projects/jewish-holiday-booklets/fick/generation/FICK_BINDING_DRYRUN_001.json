@@ -1,0 +1,45 @@
+{
+  "schema_version": "0.1",
+  "binding_id": "JHB:FICK:BINDING:DRYRUN:001",
+  "episode_id": "JHB:FICK:LOCAL-EDIT:DRYRUN:001",
+  "target": "JHB:FICK:C3:P2",
+  "source_identity": {
+    "kind": "artifact_bytes",
+    "locator": "libfile_cb8a962e7d34819185996e5634052d38",
+    "expected_identity": "sha256:ac97b36fd82c16a9a9d0379af07979de2f47082456327277e0c5fce3d396d0a0"
+  },
+  "authority_refs": [
+    "projects/jewish-holiday-booklets/ARTIFACTS.yaml@blob:4f36e2d83b69f81f471991ce36c8d3d5b59d7dbd",
+    "projects/jewish-holiday-booklets/fick/STATE.yaml@blob:711bb81b059b017e7b652fd5090dfc7bcb5da754"
+  ],
+  "constraint_refs": [
+    "projects/jewish-holiday-booklets/fick/COPY_CONTROL.yaml@blob:4913498119372ffcb985e2d74556174e5727f821",
+    "projects/jewish-holiday-booklets/fick/generation/PRODUCTION_PACKAGE_CANDIDATE.yaml@blob:f53ff940bb742d0586dd0ad95ce324cd552b1726"
+  ],
+  "dependencies": [
+    {
+      "id": "canonical_source_bytes",
+      "status": "PASS",
+      "locator": "libfile_cb8a962e7d34819185996e5634052d38",
+      "expected_identity": "sha256:ac97b36fd82c16a9a9d0379af07979de2f47082456327277e0c5fce3d396d0a0"
+    },
+    {
+      "id": "frozen_exact_copy",
+      "status": "OPEN",
+      "locator": "projects/jewish-holiday-booklets/fick/COPY_CONTROL.yaml#frozen_copy",
+      "expected_identity": "UNRESOLVED"
+    },
+    {
+      "id": "exact_deer_logo_asset",
+      "status": "OPEN",
+      "locator": "projects/jewish-holiday-booklets/fick/generation/PRODUCTION_PACKAGE_CANDIDATE.yaml#shared_style_contract.logo_rule",
+      "expected_identity": "UNRESOLVED"
+    },
+    {
+      "id": "visual_master",
+      "status": "OPEN",
+      "locator": "projects/jewish-holiday-booklets/fick/generation/PRODUCTION_PACKAGE_CANDIDATE.yaml#shared_style_contract.visual_master_requirement",
+      "expected_identity": "UNRESOLVED"
+    }
+  ]
+}
