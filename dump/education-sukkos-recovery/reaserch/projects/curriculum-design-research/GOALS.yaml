@@ -1,0 +1,85 @@
+schema_version: 0.2
+project_id: curriculum-design-research
+reconstruction_status: candidate_canonical
+audit_scope: G0-G2
+priority_control_ref: EDGE:JHB-CDR:001
+provenance_file: PROVENANCE.yaml
+
+goals:
+  - id: CDR:G0
+    level: G0
+    parent: null
+    statement: Develop recoverable, testable knowledge about curriculum structure and curriculum-development process that enables successful designs to be identified, compared, reproduced, varied, diagnosed, and improved.
+    audit_status: candidate_canonical
+    provenance_refs:
+      - CDR:PROV:001
+      - CDR:PROV:002
+      - CDR:PROV:003
+    relation_refs:
+      - EDGE:JHB-CDR:001
+
+  - id: CDR:G1.1
+    level: G1
+    parent: CDR:G0
+    statement: Characterize learner practice and the causal route by which curriculum produces usable understanding, enactment, and transfer.
+    audit_status: audited
+
+  - id: CDR:G1.2
+    level: G1
+    parent: CDR:G0
+    statement: Characterize curriculum structure, including bounded forms, page or unit roles, meta-structure, archetypes, invariants, admissible variation, and genuine recursive scale.
+    audit_status: audited
+
+  - id: CDR:G1.3
+    level: G1
+    parent: CDR:G0
+    statement: Engineer a repeatable authoring and production process with explicit discovery gates, comparison, change control, convergence, and production handoff.
+    audit_status: audited
+
+  - id: CDR:G1.4
+    level: G1
+    parent: CDR:G0
+    statement: Develop validation methods that distinguish coherent conceptual spines from shoehorning and separate conceptual, instructional, artifact, and render quality.
+    audit_status: audited
+
+  - id: CDR:G1.5
+    level: G1
+    parent: CDR:G0
+    statement: Preserve project knowledge, provenance, versions, constraints, and reusable design distinctions so successful work is recoverable rather than rediscovered.
+    audit_status: audited
+
+  - id: CDR:G2.1
+    level: G2
+    parent: CDR:G1.2
+    statement: Determine what the four-page house form fixes and what remains variable across successful curricula without treating any candidate four-step sequence as universal.
+    audit_status: audited
+
+  - id: CDR:G2.2
+    level: G2
+    parent: CDR:G1.2
+    statement: Identify deeper common architecture across distinct curriculum families without collapsing their different page roles, routes, or archetypes.
+    audit_status: candidate_canonical
+
+  - id: CDR:G2.3
+    level: G2
+    parent: CDR:G1.2
+    statement: Test whether functional architecture genuinely recurs across page, booklet, unit, and curriculum scales rather than assuming recursion from superficial repetition.
+    audit_status: candidate_canonical
+
+  - id: CDR:G2.4
+    level: G2
+    parent: CDR:G1.3
+    statement: Preserve the upstream pipeline from project definition and constraint fixation through independent conceptual spaces, candidate generation, discrimination, kill tests, convergence, locking, production, and render QA.
+    audit_status: audited
+
+  - id: CDR:G2.5
+    level: G2
+    parent: CDR:G1.4
+    statement: Separate verification from validation and process effectiveness from process efficiency, and include empirical learner validation when the target claim requires it.
+    audit_status: audited
+
+  - id: CDR:G2.6
+    level: G2
+    parent: CDR:G1.5
+    statement: Maintain a deep internal design engine with a simple usable interface while preserving provenance and the distinction between house preferences and universal pedagogical claims.
+    audit_status: audited
