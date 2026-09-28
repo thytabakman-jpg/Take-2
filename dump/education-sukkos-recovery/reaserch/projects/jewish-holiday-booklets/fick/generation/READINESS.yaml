@@ -1,0 +1,85 @@
+schema_version: 0.1
+object_id: JHB:FICK:READINESS:001
+booklet_id: fick_difference
+object_type: derived_readiness_view
+authority: none_derived_only
+sources:
+  state: ../STATE.yaml
+  acceptance: ../ACCEPTANCE.yaml
+  copy_control: ../COPY_CONTROL.yaml
+  artifact_registry: ../../ARTIFACTS.yaml
+  production_package: PRODUCTION_PACKAGE_CANDIDATE.yaml
+rule: >
+  This object never grants authority and is never manually promoted. Each readiness
+  predicate is derived from the named authoritative controls. OPEN or FAIL propagates
+  only along an explicitly declared dependency edge.
+predicates:
+  analytic_ready:
+    meaning: a bounded change is justified and its preservation frontier is known
+    dependencies:
+      - repair_finding_resolved_to_bounded_delta
+      - preservation_frontier_known
+    status: OPEN
+  execution_ready:
+    meaning: one compiled transaction has exact current inputs and mutation authority
+    dependencies:
+      - canonical_source_bytes
+      - authorized_delta
+      - required_copy_identity
+      - required_asset_identities
+      - required_visual_reference
+      - execution_binding
+      - admission_preconditions
+      - freshness_revalidation
+    status: OPEN
+  promotion_ready:
+    meaning: a verified candidate may replace the exact expected canonical predecessor
+    dependencies:
+      - candidate_identity
+      - technical_verification
+      - required_human_acceptance
+      - promotion_binding
+      - canonical_predecessor_revalidation
+    status: OPEN
+  product_ready:
+    meaning: the booklet satisfies product acceptance gates
+    dependencies:
+      - FICK-PA-01
+      - FICK-PA-02
+      - FICK-PA-03
+      - FICK-PA-04
+      - FICK-PA-05
+    status: BLOCKED
+  empirical_ready:
+    meaning: empirical mechanism claims are supported
+    dependencies:
+      - FICK-PA-06
+    status: EMPIRICAL_PENDING
+dependency_consequences:
+  frozen_exact_copy:
+    blocks:
+      - package_driven_full_render
+      - wording_changing_render
+    does_not_block:
+      - analytic_repair
+      - source_preserving_visual_diagnosis
+  exact_deer_logo_asset:
+    blocks:
+      - any_execution_requiring_logo_realization
+    does_not_block:
+      - analytic_repair
+  visual_master:
+    blocks:
+      - execution_declared_to_require_visual_master
+      - full_render
+    does_not_block:
+      - analytic_repair
+  empirical_mechanism:
+    blocks:
+      - empirical_mechanism_claim
+    does_not_block:
+      - analytic_repair
+      - bounded_visual_production
+invariant: >
+  A generic statement that Fick is ready is invalid. Readiness must name the predicate
+  being asserted and all result-sensitive dependencies for that predicate.
