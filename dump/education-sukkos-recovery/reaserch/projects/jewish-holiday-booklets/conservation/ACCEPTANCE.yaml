@@ -1,0 +1,71 @@
+schema_version: 0.1
+booklet_id: conservation_boundaries
+control_type: product_acceptance
+authority: non_goal_operational_acceptance_control
+state_ref: STATE.yaml
+artifact_registry: ../ARTIFACTS.yaml
+series_control: ../MASTER_CONTROL.md
+
+purpose: >
+  Keep Conservation product acceptance distinct from a viable route sketch,
+  repository integrity, and later render quality.
+
+gate_states:
+  - pass
+  - repair_required
+  - open
+  - empirical_pending
+  - blocked
+
+gates:
+  - gate_id: CONS-PA-01
+    name: artifact_mode_and_identity
+    status: open
+    findings:
+      - JHB-CONS-002
+    failure_effect: block final production and any unsupported choice between constrained repair and greenfield realization
+
+  - gate_id: CONS-PA-02
+    name: cross_domain_bridge
+    status: open
+    findings:
+      - JHB-CONS-001
+    failure_effect: block product acceptance until preserved versus newly introduced content is typed across domain transitions
+
+  - gate_id: CONS-PA-03
+    name: holiday_specific_surplus
+    status: open
+    findings:
+      - JHB-CONS-001
+    failure_effect: block claim that Sukkos adds educational content beyond a generic semi-open enclosure
+
+  - gate_id: CONS-PA-04
+    name: activity_enactment
+    status: open
+    findings:
+      - H2-INFO-001
+    failure_effect: block claim that the physical activity is explicitly represented and verified as enacting the boundary operation
+
+  - gate_id: CONS-PA-05
+    name: independent_transfer
+    status: open
+    findings:
+      - JHB-CONS-001
+    failure_effect: block product acceptance until the learned operation transfers coherently to a new low-stakes boundary case
+
+  - gate_id: CONS-PA-06
+    name: empirical_mechanism
+    status: empirical_pending
+    findings:
+      - JHB-EMP-001
+    failure_effect: block empirical mechanism claims, not analytic bridge work
+
+acceptance_status:
+  accepted_baseline: false
+  accepted_product: false
+  current_result: blocked_pending_bridge_artifact_mode_and_validation
+  structural_ci_equivalence: explicitly_false
+
+next_acceptance_move: >
+  Resolve the cross-domain bridge and artifact operation mode, then evaluate a concrete
+  product against holiday-surplus, activity, transfer, and empirical gates.

@@ -1,0 +1,51 @@
+object_id: JHB:FICK:IMAGE-EDIT-PREFLIGHT:001
+status: active_contract
+purpose: prevent an intended bounded edit from silently degrading into fresh generation
+user_cost:
+  observed: true
+  description: "Fick work was interrupted again to repair infrastructure instead of editing the booklet."
+  optimization_constraint: "Architecture repair must reduce future interruption and must not expand beyond the smallest production blocker."
+
+invariant:
+  formula: "EDIT_READY = requested_operation_EDIT AND canonical_predecessor_resolved AND predecessor_bound_to_edit_call AND binding_verified_before_execution"
+  failure_rule: "NOT EDIT_READY => STOP"
+  forbidden_fallback: "EDIT must never silently degrade to GENERATE"
+
+preflight:
+  - id: requested_operation
+    required_value: EDIT
+  - id: canonical_predecessor
+    requirement: resolve exact current page through project authority
+  - id: actual_binding
+    requirement: predecessor must be supplied through the image editor's real edit/image-binding mechanism, not merely mentioned in prose, linked, or present in conversation
+  - id: binding_verification
+    requirement: verify binding before execution using the strongest pre-execution evidence exposed by the runtime
+  - id: execute
+    allowed_only_when: all prior gates PASS
+
+non_evidence:
+  - prompt says edit
+  - sandbox link exists
+  - file id exists
+  - image is visible in conversation
+  - predecessor is named in prose
+  - post-generation resemblance
+
+postflight:
+  - verify required edit present
+  - verify exact intended content
+  - verify no unauthorized material change
+  - inspect available generation lineage metadata as secondary evidence only
+  - reject any candidate showing fresh-generation lineage when edit lineage was required
+
+failure_disposition:
+  binding_unverified: BLOCKED_NO_GENERATION
+  wrong_operation: DISCARD_OUTPUT
+  unauthorized_material_change: REPAIR_FROM_CANONICAL_PREDECESSOR
+  architecture_debt: record separately without promoting failed output
+
+page_2_current_run:
+  target: current canonical Page 2
+  edit_packet_status: frozen_for_review_run
+  execution_status: BLOCKED_PENDING_VERIFIED_BINDING
+  bad_fresh_generation_candidate: discarded

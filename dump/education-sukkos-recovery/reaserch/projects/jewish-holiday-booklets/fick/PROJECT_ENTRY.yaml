@@ -1,0 +1,73 @@
+schema_version: 1
+object_id: JHB:FICK:PROJECT-ENTRY-PROFILE:001
+status: active
+date: 2026-09-23
+project_id: jewish-holiday-booklets/fick_difference
+contract: ../../pd/practical/PROJECT_ENTRY_BINDING_CONTRACT.yaml
+authority_entrypoint: STATE.yaml
+
+intent_bindings:
+  RESUME_PROJECT:
+    resolve:
+      - STATE.yaml#continuation_bindings.current_canonical_set
+      - ../ARTIFACTS.yaml#source_sets
+      - ../ARTIFACTS.yaml#objects
+    required_entry_action: SHOW_CURRENT_FOUR_PAGES
+    presentation_requirement:
+      source_set: JHB:FICK:CANONICAL-PAGES:003
+      order: [JHB:FICK:C3:P1, JHB:FICK:C3:P2, JHB:FICK:C3:P3, JHB:FICK:C3:P4]
+      representation: exact_current_page_images
+    handoff: continue booklet work only after current pages are presented or acquisition blocker is reported
+    runtime_fallback:
+      purpose: keep booklet work moving when registry-stored Library identifiers are stale or unreadable
+      steps:
+        - list the Library folder /Fick Booklet/Confirmed Visual Set
+        - resolve exact files Page 1.png through Page 4.png
+        - materialize those four current files
+        - present them in page order
+      acceptance_test: the four current page images are actually available for presentation
+      architecture_debt_rule: record stale identifier repair separately; do not block the booklet session
+
+  SHOW_CURRENT:
+    inherit: RESUME_PROJECT
+
+  EDIT_CURRENT:
+    resolve:
+      - STATE.yaml#continuation_bindings.current_canonical_set
+      - ../ARTIFACTS.yaml#source_sets
+      - ../ARTIFACTS.yaml#objects
+    required_entry_action: ACQUIRE_CURRENT_EDIT_SOURCE
+    rule: use latest accepted successor of the resolved canonical page and preserve unaffected regions
+
+  AUDIT_CURRENT:
+    resolve:
+      - STATE.yaml#continuation_bindings.current_canonical_set
+    required_entry_action: BIND_CURRENT_AUDIT_TARGET
+
+  DISCUSS_PROJECT:
+    required_entry_action: NONE_UNLESS_CURRENT_STATE_RESULT_SENSITIVE
+
+trigger_examples:
+  positive:
+    - let's work on Fick
+    - continue Fick
+    - go back to the Fick booklet
+    - let's pick up where we left off on Fick
+    - work on the booklet
+  expected_for_positive: SHOW_CURRENT_FOUR_PAGES
+
+fail_closed_behavior:
+  missing_current_set: report authority-resolution blocker
+  missing_artifact_record: report artifact-registry blocker
+  missing_page_bytes: report acquisition blocker and identify exact unresolved page objects
+  prohibited_fallbacks:
+    - JHB:FICK:WORKING-PAGES:002
+    - JHB:FICK:ACCEPTED-PAGES:001
+    - chat reconstruction
+    - newest-file heuristic
+
+protected_distinctions:
+  - display current does not mean product accepted
+  - accepted repair baseline remains regression evidence only
+  - exact-copy candidate does not replace current rendered page bytes
+  - showing pages does not authorize mutation

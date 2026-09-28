@@ -1,0 +1,78 @@
+schema_version: 0.1
+project_id: jewish-holiday-booklets
+reconstruction_status: audited
+audit_scope: G0-G2
+provenance_file: PROVENANCE.yaml
+
+goals:
+  - id: JHB:G0
+    level: G0
+    parent: null
+    statement: Finish the four Grade 5-6 Jewish holiday booklets as coherent, usable classroom products that produce one learner transformation through science or encounter, human problem, usable Jewish conceptual operation, holiday embodiment or deepening, enactment, and independent transfer.
+    audit_status: audited
+
+  - id: JHB:G1.1
+    level: G1
+    parent: JHB:G0
+    statement: Preserve the completed Yom Kippur booklet as the stable benchmark for the booklet family.
+    audit_status: audited
+
+  - id: JHB:G1.2
+    level: G1
+    parent: JHB:G0
+    statement: Complete and validate the Sukkos Fick / Difference booklet.
+    audit_status: audited
+
+  - id: JHB:G1.3
+    level: G1
+    parent: JHB:G0
+    statement: Complete and validate the Sukkos Keva / Practice booklet.
+    audit_status: audited
+
+  - id: JHB:G1.4
+    level: G1
+    parent: JHB:G0
+    statement: Complete and validate the Sukkos Conservation / Boundaries booklet.
+    audit_status: audited
+
+  - id: JHB:G1.5
+    level: G1
+    parent: JHB:G0
+    statement: Maintain the bounded four-page house architecture and production quality across the booklet family without forcing one universal conceptual sequence onto every booklet.
+    audit_status: audited
+
+  - id: JHB:G2.1
+    level: G2
+    parent: JHB:G1.5
+    statement: Make each page a genuine causal learning move whose bottom question or action earns the transition to the next page.
+    audit_status: audited
+
+  - id: JHB:G2.2
+    level: G2
+    parent: JHB:G1.5
+    statement: Require the Jewish conceptual technology to be operational and the holiday material to enact or deepen that same operation rather than merely illustrate it.
+    audit_status: audited
+
+  - id: JHB:G2.3
+    level: G2
+    parent: JHB:G1.5
+    statement: Preserve public shared inquiry, cognitive ownership, source integrity, emotional safety, and a final independent transfer or choice.
+    audit_status: audited
+
+  - id: JHB:G2.4
+    level: G2
+    parent: JHB:G1.5
+    statement: Make artifact structure, visual grammar, physical activity, production, and render quality carry the reasoning rather than function as decoration.
+    audit_status: audited
+
+  - id: JHB:G2.5
+    level: G2
+    parent: JHB:G0
+    statement: Use broader curriculum framework, learning theory, and methodology or validation research only when that work materially advances, repairs, validates, or unblocks the booklet program.
+    audit_status: audited
+    provenance_refs:
+      - JHB:PROV:001
+      - JHB:PROV:002
+      - JHB:PROV:007
+    relation_refs:
+      - EDGE:JHB-CDR:001

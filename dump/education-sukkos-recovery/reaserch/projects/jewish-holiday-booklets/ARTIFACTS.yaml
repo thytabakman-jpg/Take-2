@@ -1,0 +1,398 @@
+schema_version: 0.1
+project: jewish-holiday-booklets
+policy: ../../RESEARCH_OBJECT_POLICY.md
+status: working_registry
+
+current_canonical_fick_verification:
+  verified_date: 2026-09-22
+  status: exact_library_bytes_sha256_verified
+  source_set: JHB:FICK:CANONICAL-PAGES:003
+  dimensions_px: [1055, 1491]
+  page_sha256:
+    P1: 2498a0a057dbdca11e0c29741f4da6d6c96e4b6117dc55303d49815aae43e639
+    P2: ac97b36fd82c16a9a9d0379af07979de2f47082456327277e0c5fce3d396d0a0
+    P3: 3b35a5f810927c1f037c76484af535444f64c8190ba0d3bdae60bec4a81542cd
+    P4: d279eaa95aca1b8e8cd659cc1cd172105fd4525cc4adf28ddbdc6442e9632453
+  note: >
+    Raw bytes were materialized from the registered Library objects and independently
+    hashed in the working container. Page order was verified from the visible page
+    numbers/titles.
+
+binary_migration_verification:
+  verified_date: 2026-09-22
+  status: exact_library_bytes_sha256_verified_transport_pending
+  method: >
+    Materialize each registered immutable Library object, compute SHA-256 over the raw
+    PNG bytes, and compare against the accepted object record before any repository
+    storage claim is changed.
+  verified_objects:
+    - JHB:YOMKIPPUR:P1
+    - JHB:YOMKIPPUR:P2
+    - JHB:YOMKIPPUR:P3
+    - JHB:YOMKIPPUR:P4
+    - JHB:FICK:P1
+    - JHB:FICK:P2
+    - JHB:FICK:P3
+    - JHB:FICK:P4
+  result: all_eight_registered_sha256_values_match
+  repository_transport: >
+    Pending. The current connected GitHub interface does not expose a bounded raw-file
+    handoff from materialized Library bytes to repository content. No repository byte
+    presence is claimed until the exact PNGs are committed and fetched back for
+    verification.
+  evidence:
+    - audits/PORTFOLIO_DEBT_PD_REPAIR_2026-09-22.md
+
+booklets:
+  yom_kippur:
+    artifact_status: accepted_source_set
+    source_set_id: JHB:YOMKIPPUR:ACCEPTED-PAGES:001
+    page_order:
+      - JHB:YOMKIPPUR:P1
+      - JHB:YOMKIPPUR:P2
+      - JHB:YOMKIPPUR:P3
+      - JHB:YOMKIPPUR:P4
+    notes:
+      - The authoritative booklet source is the set of four individual PNG pages.
+      - Any compiled PDF is derived and must not replace these source pages.
+
+  fick_difference:
+    artifact_status: canonical_current_source_set
+    source_set_id: JHB:FICK:CANONICAL-PAGES:003
+    current_canonical_source_set: JHB:FICK:CANONICAL-PAGES:003
+    accepted_repair_baseline: JHB:FICK:ACCEPTED-PAGES:001
+    known_name: "Different People. A Shared Place."
+    authority: current_user_designated_canonical_working_artifact
+    page_order:
+      - JHB:FICK:C3:P1
+      - JHB:FICK:C3:P2
+      - JHB:FICK:C3:P3
+      - JHB:FICK:C3:P4
+    repository_bytes: pending_binary_transfer
+    verification_object: null
+    verification_state: OPEN_FOR_CURRENT_CANONICAL_SET
+    notes:
+      - JHB:FICK:CANONICAL-PAGES:003 is the sole current source set for continuation, display, audit, and targeted editing.
+      - JHB:FICK:WORKING-PAGES:002 is historical and must not be selected as current.
+      - JHB:FICK:ACCEPTED-PAGES:001 remains only the preservation/regression baseline.
+      - JHB:FICK:COMPOSITE:001 verifies the old accepted baseline, not the current canonical set.
+      - The four current canonical PNGs are all 1055 x 1491 and their exact Library bytes are SHA-256 verified.
+
+  keva_practice:
+    artifact_status: candidate_set_identity_unresolved
+    source_set_id: JHB:KEVA:CANDIDATE:UNRESOLVED
+    authority: candidate
+    repository_bytes: pending_exact_recovery
+    notes:
+      - A coherent artifact candidate exists.
+      - Candidate existence does not establish accepted-source status.
+
+  conservation_boundaries:
+    artifact_status: no_canonical_rendered_artifact
+    source_set_id: JHB:CONS:SOURCE-SET:UNRESOLVED
+    authority: architecture_text_candidate_only
+    repository_bytes: none_accepted
+    notes:
+      - Current control states that no canonical rendered artifact exists.
+      - Existing image variants remain candidate or historical until accepted.
+
+source_sets:
+  - id: JHB:FICK:ACCEPTED-PAGES:001
+    booklet_id: fick_difference
+    class: accepted_source_set
+    task_roles:
+      - accepted_repair_baseline
+    page_order:
+      - JHB:FICK:P1
+      - JHB:FICK:P2
+      - JHB:FICK:P3
+      - JHB:FICK:P4
+    authority_note: >
+      Accepted pre-repair Fick baseline. This set remains the preservation/regression
+      baseline and is not replaced by a current working candidate.
+
+  - id: JHB:FICK:WORKING-PAGES:002
+    booklet_id: fick_difference
+    class: historical_candidate_source_set
+    task_roles:
+      - superseded_working_candidate
+    page_order:
+      - JHB:FICK:W2:P1
+      - JHB:FICK:W2:P2
+      - JHB:FICK:W2:P3
+      - JHB:FICK:W2:P4
+    provenance_note: >
+      Exact four-page set explicitly supplied by the user on 2026-09-22 as an earlier
+      Fick working set. Superseded for current-work resolution by
+      JHB:FICK:CANONICAL-PAGES:003. Retained as historical candidate state.
+
+  - id: JHB:FICK:CANONICAL-PAGES:003
+    booklet_id: fick_difference
+    class: canonical_current_source_set
+    task_roles:
+      - current_canonical_source
+      - default_current_working_set
+      - display_target
+      - audit_target
+      - edit_source
+    page_order:
+      - JHB:FICK:C3:P1
+      - JHB:FICK:C3:P2
+      - JHB:FICK:C3:P3
+      - JHB:FICK:C3:P4
+    authority_note: >
+      User-designated canonical current four-page Fick artifact as of 2026-09-22.
+      This set replaces JHB:FICK:WORKING-PAGES:002 for all ordinary continuation,
+      display, audit, and targeted-edit work. It does not erase
+      JHB:FICK:ACCEPTED-PAGES:001 as the historical preservation/regression baseline
+      and does not by itself close product-acceptance gates.
+    provenance_note: >
+      Exact A4-shaped PNG pages supplied together by the user after geometry conversion.
+      Page mapping is determined by the visible page numbers/titles, not upload order.
+    repository_bytes: pending_binary_transfer
+    exact_external_bytes: verified_library_objects
+
+objects:
+  - id: JHB:YOMKIPPUR:P1
+    name: Yom Kippur Page 1 — The Second Law of Thermodynamics
+    class: accepted_source
+    role: booklet_page
+    page_number: 1
+    mime_type: image/png
+    source_filename: "Page 1 V6.png"
+    library_file_id: libfile_ba0bad595e4c819189b18b6472cbc4c1
+    sha256: 91bcb73d699db66ec98b62064e1374e20f41664014fbde18466eb2fcfa5ada16
+    dimensions_px: [1086, 1448]
+    repository_path: artifacts/accepted/source/yom-kippur/page-1.png
+    repository_bytes_status: pending_binary_transfer
+    acceptance_basis: accepted completed Yom Kippur artifact / series benchmark
+
+  - id: JHB:YOMKIPPUR:P2
+    name: Yom Kippur Page 2 — What Can We Do About It?
+    class: accepted_source
+    role: booklet_page
+    page_number: 2
+    mime_type: image/png
+    source_filename: "Page 2 V6.png"
+    library_file_id: libfile_2629739fe438819193e85fe5f4fe2a8d
+    sha256: 2db3654fd5cd8335022052d6beeadd501b0fdd78cb4a3f1d3c8e154b5ca6287f
+    dimensions_px: [1055, 1491]
+    repository_path: artifacts/accepted/source/yom-kippur/page-2.png
+    repository_bytes_status: pending_binary_transfer
+    acceptance_basis: accepted completed Yom Kippur artifact / series benchmark
+
+  - id: JHB:YOMKIPPUR:P3
+    name: Yom Kippur Page 3 — How Does Yom Kippur Make Space for Teshuvah?
+    class: accepted_source
+    role: booklet_page
+    page_number: 3
+    mime_type: image/png
+    source_filename: "Page 3 V3.png"
+    library_file_id: libfile_a5054c8f66848191969ffaa80e8d4159
+    sha256: 4d9d78202647d7de0ede77e0719baa46371f393ed72906eeeae5ef822ce05afe
+    dimensions_px: [1055, 1491]
+    repository_path: artifacts/accepted/source/yom-kippur/page-3.png
+    repository_bytes_status: pending_binary_transfer
+    acceptance_basis: accepted completed Yom Kippur artifact / series benchmark
+
+  - id: JHB:YOMKIPPUR:P4
+    name: Yom Kippur Page 4 — What Will I Do Next?
+    class: accepted_source
+    role: booklet_page
+    page_number: 4
+    mime_type: image/png
+    source_filename: "Page 4.png"
+    library_file_id: libfile_be9038804ef481919c890436f7f28557
+    sha256: ee4936059778bbb93db906502a9bbef5fdc3fd21083d164b3336e463d2709228
+    dimensions_px: [1055, 1491]
+    repository_path: artifacts/accepted/source/yom-kippur/page-4.png
+    repository_bytes_status: pending_binary_transfer
+    acceptance_basis: accepted completed Yom Kippur artifact / series benchmark
+
+
+  - id: JHB:FICK:P1
+    name: "Fick / Difference Page 1 — Diffusion Explained: Fick's Law"
+    class: accepted_source
+    role: booklet_page
+    page_number: 1
+    mime_type: image/png
+    source_filename: "Diffusion Explained: Fick’s Law Infographic.png"
+    library_file_id: libfile_5162acadf3c0819180bda2b696f24896
+    sha256: d51525cbdc22f79f243a271e18e38c9a0548400f577ffb85617f3a60fdcaed5b
+    dimensions_px: [1086, 1448]
+    repository_path: artifacts/accepted/source/fick/page-1.png
+    repository_bytes_status: pending_binary_transfer
+    acceptance_basis: accepted pre-repair Fick booklet baseline "Different People. A Shared Place."
+
+  - id: JHB:FICK:P2
+    name: Fick / Difference Page 2 — Difference, Dialogue, and Peace
+    class: accepted_source
+    role: booklet_page
+    page_number: 2
+    mime_type: image/png
+    source_filename: "Difference, Dialogue, and Peace.png"
+    library_file_id: libfile_e9096bd5f5bc8191abb215820f934d1f
+    sha256: 9b42a29b9ce633478b474e37f1f403ddd3a6fd660e410fde2555cf8b3d47dbc0
+    dimensions_px: [1122, 1402]
+    repository_path: artifacts/accepted/source/fick/page-2.png
+    repository_bytes_status: pending_binary_transfer
+    acceptance_basis: accepted pre-repair Fick booklet baseline "Different People. A Shared Place."
+
+  - id: JHB:FICK:P3
+    name: Fick / Difference Page 3 — Different People, One Sukkah
+    class: accepted_source
+    role: booklet_page
+    page_number: 3
+    mime_type: image/png
+    source_filename: "Different People, One Sukkah.png"
+    library_file_id: libfile_eca67de1676c81919c8614fb2d7a13fd
+    sha256: cff821958c6ac9777f60ba3fd6f2813e08ad00ee205d634919429dc601072431
+    dimensions_px: [1024, 1536]
+    repository_path: artifacts/accepted/source/fick/page-3.png
+    repository_bytes_status: pending_binary_transfer
+    acceptance_basis: accepted pre-repair Fick booklet baseline "Different People. A Shared Place."
+
+  - id: JHB:FICK:P4
+    name: Fick / Difference Page 4 — Making Room for Each Other
+    class: accepted_source
+    role: booklet_page
+    page_number: 4
+    mime_type: image/png
+    source_filename: "Making Room for Each Other.png"
+    library_file_id: libfile_fa4da80ab1548191b01f4b5c35eff315
+    sha256: 92d560d24a4e7b452412cee417d30ee3292ab4f24e35de109762e6c29205b6fa
+    dimensions_px: [1055, 1491]
+    repository_path: artifacts/accepted/source/fick/page-4.png
+    repository_bytes_status: pending_binary_transfer
+    acceptance_basis: accepted pre-repair Fick booklet baseline "Different People. A Shared Place."
+
+  - id: JHB:FICK:W2:P1
+    name: "Fick current working Page 1 — What Happens When Concentrations Differ?"
+    class: historical_candidate
+    role: booklet_page
+    page_number: 1
+    mime_type: image/png
+    source_filename: "page_1.png"
+    library_file_id: libfile_a01b9dbf0058819188c143c5a2a455c3
+    sha256: 26cd84ea8660387d32e80b27bdc742e7d2e6731c46a96e12a4053126031c580f
+    dimensions_px: [1103, 1426]
+    repository_bytes_status: exact_library_object
+    provenance_note: user-supplied earlier Fick working page on 2026-09-22; superseded for current work by JHB:FICK:CANONICAL-PAGES:003
+
+  - id: JHB:FICK:W2:P2
+    name: "Fick current working Page 2 — When Difference Feels Like Distance"
+    class: historical_candidate
+    role: booklet_page
+    page_number: 2
+    mime_type: image/png
+    source_filename: "page_2(1).png"
+    library_file_id: libfile_85a1acfd5c7881918bacb3c8da82651d
+    sha256: 48f766f6caa4e45dbb99ad4066df397f9a6e95231dc6dd5b6c8b61b9d4ebcbfd
+    dimensions_px: [1103, 1426]
+    repository_bytes_status: exact_library_object
+    provenance_note: user-supplied earlier Fick working page on 2026-09-22; superseded for current work by JHB:FICK:CANONICAL-PAGES:003
+
+  - id: JHB:FICK:W2:P3
+    name: "Fick current working Page 3 — How Sukkos Makes Space"
+    class: historical_candidate
+    role: booklet_page
+    page_number: 3
+    mime_type: image/png
+    source_filename: "page_3(1).png"
+    library_file_id: libfile_857e93667a2c81919f89c4151f6f1449
+    sha256: a1cea4e187c9ef9834ddd5da3279370aebb85991dc8d635616ede30f65f464e3
+    dimensions_px: [1103, 1426]
+    repository_bytes_status: exact_library_object
+    provenance_note: user-supplied earlier Fick working page on 2026-09-22; superseded for current work by JHB:FICK:CANONICAL-PAGES:003
+
+  - id: JHB:FICK:W2:P4
+    name: "Fick current working Page 4 — Putting It Into Practice"
+    class: historical_candidate
+    role: booklet_page
+    page_number: 4
+    mime_type: image/png
+    source_filename: "page_4.png"
+    library_file_id: libfile_9e58a2cdad2881919469c32f77a59b34
+    sha256: d9d0afad51f042e4df1151903782995f79949586e931400e815455d9e69cf3e5
+    dimensions_px: [1103, 1426]
+    repository_bytes_status: exact_library_object
+    provenance_note: user-supplied earlier Fick working page on 2026-09-22; superseded for current work by JHB:FICK:CANONICAL-PAGES:003
+
+  - id: JHB:FICK:C3:P1
+    name: "Fick canonical current Page 1 — What Happens When Concentrations Differ?"
+    class: canonical_current_source
+    role: booklet_page
+    page_number: 1
+    mime_type: image/png
+    source_filename: "ChatGPT Image Sep 22, 2026, 11_06_08 PM(1).png"
+    library_file_id: libfile_d71bd9ad7644819184959690a91c1923
+    sha256: 2498a0a057dbdca11e0c29741f4da6d6c96e4b6117dc55303d49815aae43e639
+    dimensions_px: [1055, 1491]
+    repository_path: artifacts/current/fick/page-1.png
+    repository_bytes_status: pending_binary_transfer
+    provenance_note: user-designated canonical current Fick page on 2026-09-22
+
+  - id: JHB:FICK:C3:P2
+    name: "Fick canonical current Page 2 — When Difference Feels Like Distance"
+    class: canonical_current_source
+    role: booklet_page
+    page_number: 2
+    mime_type: image/png
+    source_filename: "ChatGPT Image Sep 22, 2026, 11_15_09 PM (2).png"
+    library_file_id: libfile_cb8a962e7d34819185996e5634052d38
+    sha256: ac97b36fd82c16a9a9d0379af07979de2f47082456327277e0c5fce3d396d0a0
+    dimensions_px: [1055, 1491]
+    repository_path: artifacts/current/fick/page-2.png
+    repository_bytes_status: pending_binary_transfer
+    provenance_note: user-designated canonical current Fick page on 2026-09-22
+
+  - id: JHB:FICK:C3:P3
+    name: "Fick canonical current Page 3 — How Sukkos Makes Space"
+    class: canonical_current_source
+    role: booklet_page
+    page_number: 3
+    mime_type: image/png
+    source_filename: "ChatGPT Image Sep 22, 2026, 11_15_08 PM (1).png"
+    library_file_id: libfile_71b168c0dd44819181713bef3afbf204
+    sha256: 3b35a5f810927c1f037c76484af535444f64c8190ba0d3bdae60bec4a81542cd
+    dimensions_px: [1055, 1491]
+    repository_path: artifacts/current/fick/page-3.png
+    repository_bytes_status: pending_binary_transfer
+    provenance_note: user-designated canonical current Fick page on 2026-09-22
+
+  - id: JHB:FICK:C3:P4
+    name: "Fick canonical current Page 4 — Putting It Into Practice"
+    class: canonical_current_source
+    role: booklet_page
+    page_number: 4
+    mime_type: image/png
+    source_filename: "ChatGPT Image Sep 22, 2026, 11_15_09 PM (3).png"
+    library_file_id: libfile_748c3dc06cb4819180bb19583e26c81e
+    sha256: d279eaa95aca1b8e8cd659cc1cd172105fd4525cc4adf28ddbdc6442e9632453
+    dimensions_px: [1055, 1491]
+    repository_path: artifacts/current/fick/page-4.png
+    repository_bytes_status: pending_binary_transfer
+    provenance_note: user-designated canonical current Fick page on 2026-09-22
+
+  - id: JHB:FICK:COMPOSITE:001
+    name: Fick accepted baseline four-page verification composite
+    class: derived
+    role: verification_composite
+    mime_type: image/png
+    source_filename: "sukkos_booklet_all_four_pages.png"
+    library_file_id: libfile_c5ca6228883c819181ed7cd86080f240
+    sha256: 66ca092346eeccc2d7dee88d50e0aa0c96de9efd5fc3adae5f570e5075068cb8
+    dimensions_px: [1920, 2810]
+    repository_path: artifacts/derived/fick/accepted-baseline-composite.png
+    repository_bytes_status: pending_binary_transfer
+    derived_from:
+      - JHB:FICK:P1
+      - JHB:FICK:P2
+      - JHB:FICK:P3
+      - JHB:FICK:P4
+    authority_note: verification evidence only; does not outrank the four accepted source pages
+
+derived_rules:
+  - PDF compilations of booklet pages are class: derived.
+  - A derived PDF never becomes the accepted source set merely by being newer.
+  - Failed/rejected PDF attempts are not stored in artifacts/accepted.

@@ -1,0 +1,821 @@
+schema_version: 0.1
+package_id: JHB:FICK:PRODUCTION-PACKAGE:CANDIDATE:001
+booklet_id: fick_difference
+control_type: production_closure
+status: assembling_candidate
+authority: booklet_local_production_control
+last_updated: 2026-09-22
+
+purpose: >
+  One atomic render contract that binds the exact Fick target, exact-copy authority,
+  page jobs, visual functions, layout, shared visual grammar, assets, generation
+  topology, acceptance tests, and repair behavior without duplicating authoritative
+  student-facing wording.
+
+audit_basis:
+  path: ../../../../audits/JHB_FICK_THREE_OBJECT_PRODUCTION_CLOSURE_PD_2026-09-22.md
+  result: three_apparent_problems_are_coordinates_of_one_production_closure
+  architecture_research_ref: ../../../../audits/JHB_FICK_GENERATION_PACKAGE_ARCHITECTURE_RESEARCH_2026-09-22.md
+  architecture_research_result: >
+    The current package candidate remains the correct source package but requires an
+    explicit preflight/compiler/render-bundle layer and several missing production
+    coordinates before it can be frozen.
+
+
+shared_production_contract:
+  id: JHB:PRODUCTION:CONTRACT:001
+  path: ../../production/PRODUCTION_CONTRACT.yaml
+  git_blob_sha: 152e45c11e5dfd325a4105a6e50cc388d3eb59bf
+  conformance: required
+  delegated_semantics:
+    - constraint_classes
+    - reference_roles
+    - realization_modes
+    - source_package_interface
+    - content_slot_binding_schema
+    - coherence_group_semantics
+    - overflow_and_fallback_semantics
+    - renderer_profile_schema
+    - preflight_contract
+    - compiler_contract
+    - render_bundle_contract
+    - render_run_contract
+    - acceptance_framework
+    - preservation_and_repair_lifecycle
+  local_value_rule: >
+    This package supplies Fick-specific values for shared schemas. It does not redefine
+    shared production semantics.
+
+target_binding:
+  accepted_repair_baseline: JHB:FICK:ACCEPTED-PAGES:001
+  current_working_artifact_set: JHB:FICK:CANONICAL-PAGES:003
+  canonical_current_artifact_set: JHB:FICK:CANONICAL-PAGES:003
+  accepted_product: OPEN
+  operation_mode: SURVIVOR_PRESERVING_TARGETED_PAGE_EDIT
+  page_ids: [P1, P2, P3, P4]
+
+canonical_edit_contract:
+  source_set: JHB:FICK:CANONICAL-PAGES:003
+  source_pages:
+    P1: JHB:FICK:C3:P1
+    P2: JHB:FICK:C3:P2
+    P3: JHB:FICK:C3:P3
+    P4: JHB:FICK:C3:P4
+  mode: SURVIVOR_PRESERVING_LOCAL_EDIT
+  preservation_rule: >
+    The current canonical page image is the source of truth for visual style,
+    composition, typography, illustration treatment, spacing relationships, and every
+    unaffected region. Each generation/edit receives one explicit local delta. Regions
+    outside the authorized delta are protected survivor state.
+  successor_rule: >
+    After a local edit is accepted, that accepted successor becomes the source image
+    for the next edit to that page. Do not regenerate the page from the production
+    package or reconstruct it from prose.
+  cross_page_rule: >
+    Page-level edits preserve the shared visual family already instantiated by the
+    four canonical pages. Coherence review occurs across the four latest accepted
+    page successors; it does not require regenerating passing pages.
+
+architecture_binding:
+  state_ref: ../STATE.yaml
+  series_control_ref: ../../MASTER_CONTROL.md
+  learner_target: >
+    Preserve genuine difference, identify what remains shared, coordinate only what
+    shared activity requires, and continue without forcing sameness everywhere else.
+  route:
+    - diffusion and concentration difference
+    - human convergence question
+    - difference / sharedness / required coordination
+    - one shared sukkah built under common criteria
+    - transfer to unresolved disagreement
+
+copy_binding:
+  control_ref: ../COPY_CONTROL.yaml
+  current_object_class: candidate_exact_copy_reconciliation_required
+  current_copy_id: JHB:FICK:COPY:CANDIDATE:001
+  current_copy_path: ../copy/EXACT_COPY_CANDIDATE.md
+  current_git_blob_sha: 10547ab377d3855a85f6fafc0b2dbb96a192d5c0
+  frozen_copy_required_for_render: true
+  frozen_copy_id: null
+  frozen_copy_path: null
+  frozen_copy_git_blob_sha: null
+  duplication_rule: >
+    This package references exact student-facing copy. It does not reproduce or become
+    a second editable source of the wording.
+
+
+content_binding:
+  schema_ref: JHB:PRODUCTION:CONTRACT:001/content_slot_binding_contract
+  status: OPEN_LOCAL_VALUES
+  current_binding_level: page_marker_only
+  page_markers:
+    P1: P1
+    P2: P2
+    P3: P3
+    P4: P4
+  unresolved:
+    - stable_internal_content_block_ids
+    - exact_content_to_slot_assignments
+  rule: >
+    Authoritative wording remains in the exact-copy object. This package stores only
+    stable content references and slot bindings once those IDs are assigned.
+
+coherence_group:
+  schema_ref: JHB:PRODUCTION:CONTRACT:001/coherence_group_contract
+  coherence_group_id: JHB:FICK:COHERENCE:P1-P4
+  member_page_ids: [P1, P2, P3, P4]
+  output_topology: FOUR_SEPARATE_FULL_SIZE_PAGES
+  shared_context_required: true
+
+batch_contract:
+  generation_episode: targeted_local_edit
+  output_count_per_edit: 1
+  coherence_group: JHB:FICK:COHERENCE:P1-P4
+  source_image_required: true
+  source_image_must_be_latest_accepted_successor: true
+  shared_booklet_context: preserved_from_canonical_source_set
+  forbidden_outputs:
+    - full_page_reconstruction_when_local_edit_is_requested
+    - unrelated_redesign
+    - collateral_text_or_visual_changes
+    - falling_back_to_superseded_working_pages
+  salvage_rule: >
+    The current canonical page and every accepted successor are protected survivor
+    state. A failed local edit is discarded; it does not replace the source. Passing
+    pages are never rerolled merely because another page requires repair.
+
+shared_style_contract:
+  status: INSTANTIATED_BY_CANONICAL_CURRENT_PAGES_WITH_LOCAL_VALUES_PARTIAL_OPEN
+  primary_visual_authority: JHB:FICK:CANONICAL-PAGES:003
+  authority_rule: >
+    For targeted edits, the canonical current pages outrank prose style descriptions.
+    Style prose is explanatory and diagnostic; it does not license restyling a source
+    page that already instantiates the intended visual language.
+  protected_house_fit:
+    - conversational
+    - elegant
+    - non_condescending
+    - visually_coherent
+    - strong_page_job_hierarchy
+    - meaningful_visuals
+    - deliberate_whitespace
+    - coherent_four_page_progression
+  benchmark:
+    object_id: JHB:YOMKIPPUR:ACCEPTED-PAGES:001
+    role: SECONDARY_STYLE_REFERENCE
+    authority_note: >
+      The completed Yom Kippur booklet is a house-fit/style benchmark, not a template
+      that overrides Fick page function.
+  illustration_language:
+    - illustrated_not_photorealistic
+    - warm_and_print_like
+    - developmentally_serious_not_childish
+    - expressive_enough_to_carry_relationships_and_actions
+    - restrained_detail_so_visual_job_remains_legible
+  shared_page_skeleton:
+    - top_progress_tracker
+    - holiday_label
+    - page_title
+    - one_dominant_page_job_region
+    - supporting_instructional_regions
+    - bottom_handoff_or_close
+    - deer_logo_in_consistent_bottom_corner
+  page_rhythm:
+    P1: clearest_and_most_diagrammatic
+    P2: most_relational_and_concept_building
+    P3: most_active_and_spatial
+    P4: most_open_and_reflective
+  cross_page_distinctions:
+    P2_vs_P4: >
+      P2 depicts pre-tool relational discomfort and conceptual opening. P4 depicts
+      post-tool transfer with disagreement and relationship both still present.
+    P1_membership_rule: >
+      Preserve P1's stronger diagrammatic character while using shared type hierarchy,
+      page skeleton, palette logic, line/illustration language, source treatment, and
+      footer/logo system to keep it visibly inside the same booklet.
+  semantic_visual_grammar:
+    text_image_division: >
+      The image makes the relation available to notice; text names or sharpens it; the
+      question or activity requires the learner to use it.
+    hierarchy_rule: >
+      One dominant visual or relationship per page. Supporting visuals must not compete
+      with the page job.
+    whitespace_rule: >
+      Blank space may be instructional and must not be filled merely because unused
+      space remains.
+    activity_space_rule:
+      P1: protect_clean_science_visual_space
+      P2: protect_concept_tool_and_comparison_readability
+      P3: allocate_largest_action_space
+      P4: allocate_largest_reflection_space
+  source_treatment:
+    - consistent_across_pages
+    - recognizable_but_visually_light
+    - clearly_separate_source_content_from_classroom_application
+    - never_dominate_the_page_job
+  color_logic:
+    status: SEMANTIC_ROLES_DEFINED_EXACT_VALUES_OPEN
+    rules:
+      - use_restrained_shared_palette
+      - semantic_color_roles_must_remain_stable_across_pages
+      - science_source_activity_and_attention_cues_may_be_distinct_but_related
+      - aesthetic_recoloring_must_not_change_meaning
+  typography_logic:
+    status: HIERARCHY_ROLES_DEFINED_EXACT_VALUES_OPEN
+    roles:
+      - page_title
+      - major_question_or_activity_prompt
+      - body_copy
+      - source_text
+      - source_citation
+      - diagram_label
+      - footer_or_page_number
+    rule: >
+      Exact font/size values remain open, but role hierarchy must stay consistent across
+      the four-page set.
+  logo_rule:
+    requirement: deer_logo_required
+    placement: consistent_bottom_corner
+    asset_identity_status: OPEN
+    realization_mode: EXACT_ASSET
+  visual_master_requirement:
+    status: REQUIRED_BEFORE_RENDER
+    object: four_page_structure_or_visual_master
+    purpose:
+      - inspect_density_and_rhythm
+      - inspect_page_distinctness
+      - inspect_cross_page_hierarchy
+      - inspect_repetition
+      - inspect_visual_progression
+    authority: derived_verification_reference_not_copy_authority
+  known_constraints:
+    - avoid_generic_worksheet_feel
+    - avoid_card_heavy_layout
+    - avoid_excessive_boxes_and_icon_clutter
+    - avoid_decorative_images_without_instructional_work
+    - whitespace_can_be_instructional
+    - semantic_colors_must_not_drift
+    - deer_logo_required
+    - no_photorealistic_images
+  open_coordinates:
+    - exact_page_dimensions_and_orientation_for_next_render
+    - exact_type_hierarchy_values
+    - exact_margin_system
+    - exact_shared_palette_values
+    - exact_cross_page_motif_choices
+    - exact_source_footer_treatment
+    - exact_deer_logo_asset_identity
+
+pages:
+  P1:
+    canonical_source_page: JHB:FICK:C3:P1
+    edit_mode: SURVIVOR_PRESERVING_LOCAL_EDIT
+    copy_marker: P1
+    page_job: >
+      Use real diffusion to generate the human question without importing a behavioral
+      rule from physics.
+    entry_state: >
+      Difference, interaction, convergence, agreement, and coordination are not yet
+      clearly separated.
+    central_visual_job: >
+      Make unequal concentrations, random particle motion in both directions, and net
+      diffusive flux toward lower concentration visible at the same time, while the
+      concentration difference is still present.
+    visual_obligations:
+      - higher_and_lower_concentration_are_visually_distinct
+      - random_motion_is_bidirectional
+      - net_flux_direction_is_visible
+      - visual_does_not_imply_particles_only_move_one_way
+      - science_diagram_must_match_the_equation_and_explanation
+    image_spec:
+      status: STRUCTURALLY_SPECIFIED
+      central_visual_job_ref: page.central_visual_job
+      supporting_visual_jobs:
+        - visually_connect_the_equation_to_the_particle_diagram
+        - preserve_a_clean_transition_from_science_to_the_human_question
+      must_notice:
+        - concentration_difference_is_still_present
+        - particles_move_in_both_directions
+        - interaction_is_already_happening
+        - net_flux_has_a_direction
+      text_inside_visual:
+        allowed:
+          - HIGHER_CONCENTRATION
+          - LOWER_CONCENTRATION
+          - minimal_direction_or_motion_labels_when_needed
+        rule: >
+          Keep diagram text minimal and functional. Interpretive prose remains outside
+          the visual.
+      text_outside_visual:
+        - equation_and_variable_definitions
+        - flux_explanation
+        - difference_still_present_statement
+        - simple_setup_time_evolution_statement
+        - people_are_not_particles_boundary
+        - bottom_handoff_question
+      eye_path:
+        - title
+        - equation_and_short_definitions
+        - dominant_diffusion_visual
+        - interpretive_science_lines
+        - human_domain_boundary
+        - bottom_handoff_question
+      space_requirements:
+        - large_clean_central_visual_area
+        - uncluttered_equation_definition_area
+        - protected_bottom_handoff_space
+      visual_failure_conditions:
+        - particles_appear_to_move_only_one_way
+        - net_flux_is_not_distinguishable_from_random_motion
+        - image_is_decorative_rather_than_evidential
+        - human_answer_is_implied_before_Page_2
+        - page_becomes_dense_textbook_or_generic_infographic
+    handoff: >
+      Do people have to become more alike to keep doing something together?
+    forbidden_early_reveals:
+      - human_answer
+      - Rav_Kook_answer
+      - sukkah_solution
+      - final_transfer_rule
+    layout_spec:
+      status: STRUCTURAL_REGIONS_SPECIFIED_EXACT_WIREFRAME_OPEN
+      required_regions:
+        - tracker
+        - title
+        - equation_and_definitions
+        - dominant_science_visual
+        - analogy_boundary
+        - bottom_handoff_question
+      eye_path: OPEN
+      whitespace_requirements: OPEN
+    acceptance:
+      - exact_copy_marker_P1_used
+      - science_fidelity
+      - one_dominant_visual_relationship
+      - human_answer_not_given_early
+
+  P2:
+    canonical_source_page: JHB:FICK:C3:P2
+    edit_mode: SURVIVOR_PRESERVING_LOCAL_EDIT
+    copy_marker: P2
+    page_job: >
+      Turn the human convergence question into a usable distinction between the actual
+      disagreement, what remains shared, what requires joint decision, and what can stay
+      different.
+    entry_state: >
+      The learner has the human convergence question but no usable coordination tool.
+    central_visual_job: >
+      Show a specific disagreement beginning to change how one person sees another, so
+      the relational problem is felt before the conceptual tool arrives.
+    visual_obligations:
+      - disagreement_is_specific
+      - emotional_distance_is_visible_without_becoming_melodramatic
+      - visual_does_not_reduce_page_to_generic_diversity
+      - worked_example_makes_same_disagreement_two_contexts_comparable
+    image_spec:
+      status: STRUCTURALLY_SPECIFIED
+      central_visual_job_ref: page.central_visual_job
+      supporting_visual_jobs:
+        - support_Rav_Kook_as_a_conceptual_opening_without_turning_the_page_into_source_exposition
+        - make_the_pineapple_example_compare_the_same_disagreement_across_two_shared_situations
+      must_notice:
+        - the_disagreement_is_specific
+        - relational_distance_is_beginning_to_form
+        - the_shared_relationship_has_not_disappeared
+        - the_same_disagreement_can_create_different_coordination_requirements
+      text_inside_visual:
+        allowed:
+          - WAIT_YOU_REALLY_BELIEVE_THAT
+          - Separate_slices
+          - One_shared_pizza
+        rule: >
+          Speech or comparison labels may live in the visual only when they make the
+          relational contrast or worked discriminator easier to see.
+      text_outside_visual:
+        - Rav_Kook_paraphrase_and_source
+        - source_application_boundary
+        - four_question_coordination_tool
+        - worked_example_explanation
+        - relational_close
+        - bottom_handoff_question
+      eye_path:
+        - title
+        - disagreement_hinge_scene
+        - Jewish_possibility_source_area
+        - four_question_tool
+        - same_disagreement_two_situations_comparison
+        - bottom_handoff_question
+      space_requirements:
+        - one_emotionally_legible_main_scene
+        - readable_four_question_tool_area
+        - compact_but_clear_two_situation_comparison
+        - protected_bottom_handoff_space
+      visual_failure_conditions:
+        - generic_diversity_scene_without_actual_disagreement
+        - emotional_distance_becomes_melodramatic_or_hostile
+        - Rav_Kook_visual_treatment_dominates_the_page
+        - pineapple_example_reads_as_an_unrelated_second_scenario
+        - Page_2_visually_resolves_the_problem_before_Page_3
+        - Page_2_becomes_visually_indistinguishable_from_Page_4
+    handoff: >
+      What happens when we actually have to build one thing together?
+    forbidden_early_reveals:
+      - Page_3_build_result
+      - Page_4_transfer_conclusion
+    layout_spec:
+      status: STRUCTURAL_REGIONS_SPECIFIED_EXACT_WIREFRAME_OPEN
+      required_regions:
+        - tracker
+        - title_and_human_problem
+        - Rav_Kook_source_area
+        - four_part_tool
+        - same_disagreement_two_situations_example
+        - bottom_handoff_question
+      eye_path: OPEN
+      whitespace_requirements: OPEN
+    acceptance:
+      - exact_copy_marker_P2_used
+      - Rav_Kook_source_and_application_boundary_visible
+      - agreement_not_collapsed_into_coordination
+      - example_performs_inferential_work
+      - Page_3_not_preempted
+
+  P3:
+    canonical_source_page: JHB:FICK:C3:P3
+    edit_mode: SURVIVOR_PRESERVING_LOCAL_EDIT
+    copy_marker: P3
+    page_job: >
+      Make the learner enact selective coordination while building one shared edible
+      sukkah under public classroom criteria.
+    entry_state: >
+      The learner understands the distinction conceptually but has not used it under
+      real joint-decision pressure.
+    central_visual_job: >
+      Show different design preferences meeting one shared structure so some choices can
+      coexist while other choices visibly require one group decision.
+    visual_obligations:
+      - one_shared_sukkah_structure_is_unambiguous
+      - multiple_design_preferences_are_visible
+      - at_least_one_joint_decision_point_is_visually_legible
+      - image_is_not_merely_diverse_children_happily_together
+      - edible_build_is_visually_actionable
+    image_spec:
+      status: STRUCTURALLY_SPECIFIED
+      central_visual_job_ref: page.central_visual_job
+      supporting_visual_jobs:
+        - make_one_shared_sukkah_the_Sukkos_specific_center_of_the_page
+        - make_the_edible_build_feel_immediately_actionable
+        - make_at_least_one_coordination_pressure_point_visible_without_giving_away_the_debrief
+      must_notice:
+        - there_is_one_shared_structure
+        - multiple_design_preferences_are_present
+        - some_differences_can_coexist
+        - some_choices_affect_the_same_shared_part_and_require_coordination
+      text_inside_visual:
+        allowed:
+          - minimal_part_labels_such_as_wall_roof_or_decoration_when_functional
+        rule: >
+          The central image should carry the coordination relation primarily through
+          depicted choices and shared structure, not explanatory captions.
+      text_outside_visual:
+        - Sukkah_27b_source_and_translation
+        - source_application_boundary
+        - classroom_model_build_instructions
+        - before_build_preference_instruction
+        - during_build_coordination_prompts
+        - after_build_debrief
+        - bottom_transfer_question
+      eye_path:
+        - title
+        - Sukkah_27b_shared_sukkah_anchor
+        - one_shared_sukkah_setup
+        - dominant_build_scene
+        - build_instructions
+        - during_build_prompts
+        - after_build_debrief
+        - bottom_transfer_question
+      space_requirements:
+        - largest_action_space_in_the_booklet
+        - readable_build_instruction_area
+        - clear_during_build_prompt_area
+        - clear_after_build_debrief_area
+        - enough_visual_space_to_show_real_design_tension
+      visual_failure_conditions:
+        - happy_children_around_a_sukkah_without_coordination_pressure
+        - more_than_one_shared_structure_is_implied
+        - no_visible_design_tension
+        - debrief_answer_is_visually_announced_before_activity
+        - edible_build_looks_impractical_for_classroom_use
+        - activity_and_debrief_space_is_cramped
+    handoff: >
+      Where else do we need to decide together, and where can we stay different?
+    forbidden_early_reveals:
+      - debrief_answer_before_activity
+      - generic_claim_that_all_difference_is_compatible
+    layout_spec:
+      status: STRUCTURAL_REGIONS_SPECIFIED_EXACT_WIREFRAME_OPEN
+      required_regions:
+        - tracker
+        - title_and_Sukkah_27b
+        - classroom_model_boundary
+        - build_instructions
+        - dominant_build_visual
+        - during_build_prompts
+        - after_build_debrief
+        - bottom_transfer_handoff
+      eye_path: OPEN
+      activity_space_requirements: OPEN
+    acceptance:
+      - exact_copy_marker_P3_used
+      - source_application_boundary_preserved
+      - activity_enacts_selective_coordination
+      - debrief_result_not_given_before_experience
+      - Sukkos_specific_shared_structure_is_visually_central
+
+  P4:
+    canonical_source_page: JHB:FICK:C3:P4
+    edit_mode: SURVIVOR_PRESERVING_LOCAL_EDIT
+    copy_marker: P4
+    page_job: >
+      Test independent transfer of the learned distinction to a new safe disagreement
+      with reduced scaffolding.
+    entry_state: >
+      The learner has already used selective coordination inside the sukkah build.
+    central_visual_job: >
+      Keep two genuinely different positions visible alongside a still-shared
+      relationship or activity, and make the dissolving object the demand for total
+      agreement rather than either view.
+    visual_obligations:
+      - two_positions_remain_distinct
+      - shared_relationship_or_activity_remains_visible
+      - dissolving_paper_contains_total_agreement_demand
+      - disagreement_itself_is_not_visually_erased
+      - visual_supports_transfer_not_reteaching
+    image_spec:
+      status: STRUCTURALLY_SPECIFIED
+      central_visual_job_ref: page.central_visual_job
+      supporting_visual_jobs:
+        - support_the_brief_listening_check_without_reteaching_Page_2
+        - make_the_transfer_prompts_feel_like_the_learners_own_operation
+        - make_the_dissolving_paper_action_unambiguous
+      must_notice:
+        - both_positions_remain
+        - shared_relationship_or_activity_remains
+        - the_total_agreement_demand_is_the_only_thing_that_dissolves
+        - this_page_requires_transfer_rather_than_new_instruction
+      text_inside_visual:
+        allowed:
+          - WE_HAVE_TO_AGREE_ABOUT_EVERYTHING_BEFORE_WE_CAN_KEEP_GOING_on_the_dissolving_paper
+        rule: >
+          The visual may carry the exact dissolving-paper sentence because the object
+          being dissolved must be unmistakable. Other transfer prompts remain outside.
+      text_outside_visual:
+        - safe_disagreement_scope
+        - disagreement_type_scope_guard
+        - listening_check
+        - transfer_prompts
+        - dissolve_action_instructions
+        - post_dissolve_interpretation
+        - final_capacity_statement
+      eye_path:
+        - title_and_two_people_frame
+        - brief_listening_check
+        - transfer_prompts
+        - dissolving_paper_action
+        - final_capacity_statement
+      space_requirements:
+        - more_reflective_breathing_room_than_Page_2
+        - usable_thinking_or_writing_space
+        - clear_water_and_paper_action_area
+        - protected_final_statement_space
+      visual_failure_conditions:
+        - disagreement_itself_appears_to_dissolve
+        - either_person_or_view_is_visually_erased
+        - page_becomes_a_second_dialogue_lesson
+        - Page_4_looks_too_similar_to_Page_2
+        - dissolving_paper_target_is_ambiguous
+    handoff: null
+    forbidden_early_reveals: []
+    layout_spec:
+      status: STRUCTURAL_REGIONS_SPECIFIED_EXACT_WIREFRAME_OPEN
+      required_regions:
+        - tracker
+        - title_and_pair_frame
+        - brief_listening_check
+        - transfer_prompts
+        - dissolving_paper_activity
+        - final_capacity_statement
+      eye_path: OPEN
+      writing_or_reflection_space_requirements: OPEN
+    acceptance:
+      - exact_copy_marker_P4_used
+      - scaffold_is_faded_relative_to_P2_and_P3
+      - disagreement_remains_after_dissolving_action
+      - final_transfer_capacity_is_clear
+
+
+constraint_registry:
+  schema_ref: JHB:PRODUCTION:CONTRACT:001/constraint_classes
+  status: PARTIAL_OPEN
+  HARD:
+    - four_distinct_full_size_pages
+    - distinct_P1_P2_P3_P4_identity
+    - frozen_exact_copy_must_be_used_for_render
+    - page_jobs_and_reveal_order_preserved
+    - source_and_science_boundaries_preserved
+  FORBIDDEN:
+    - contact_sheet_or_four_pages_on_one_canvas
+    - duplicate_page_variants
+    - unauthorized_visible_text
+    - paraphrase_or_omission_of_frozen_copy
+    - decorative_elements_that_compete_with_page_job
+  PREFERRED:
+    - coherent_shared_visual_language
+    - deliberate_whitespace
+    - preservation_of_successful_existing_visual_strengths
+  FREE:
+    - micro_illustration_details_within_visual_obligations
+    - decorative_microchoices_that_do_not_change_semantic_or_layout_constraints
+  LOCKED:
+    - accepted_repair_baseline_identity
+    - current_package_identity
+  unresolved:
+    - page_specific_free_variable_bounds
+    - exact_semantic_color_constraints
+    - exact_layout_locked_regions
+
+reference_registry:
+  schema_ref: JHB:PRODUCTION:CONTRACT:001/reference_roles
+  status: PARTIAL_OPEN
+  references:
+    - object_id: JHB:FICK:CANONICAL-PAGES:003
+      role: SOURCE_PAGE_REFERENCE
+    - object_id: JHB:FICK:ACCEPTED-PAGES:001
+      role: SOURCE_PAGE_REFERENCE
+    - object_id: JHB:YOMKIPPUR:ACCEPTED-PAGES:001
+      role: STYLE_REFERENCE
+  unresolved:
+    - deer_logo_exact_asset_ref
+    - science_reference_assets
+    - page_structure_references
+
+structure_references:
+  status: OPEN
+  schema_role: STRUCTURE_REFERENCE
+  required_next:
+    - P1_wireframe_or_equivalent_structure_spec
+    - P2_wireframe_or_equivalent_structure_spec
+    - P3_wireframe_or_equivalent_structure_spec
+    - P4_wireframe_or_equivalent_structure_spec
+    - optional_four_page_density_rhythm_proof
+
+realization_plan:
+  schema_ref: JHB:PRODUCTION:CONTRACT:001/realization_modes
+  status: OPEN_ELEMENT_VALUES
+  rule: >
+    Every material page element must receive a realization mode before preflight.
+    Page-level visual jobs do not by themselves choose execution mode.
+
+overflow_policy:
+  inherited_from: JHB:PRODUCTION:CONTRACT:001/overflow_policy
+  local_overrides: none
+  status: ACTIVE_FAIL_CLOSED
+
+renderer_profile_binding:
+  schema_ref: JHB:PRODUCTION:CONTRACT:001/renderer_profile_contract
+  status: OPEN
+  renderer_profile_id: null
+
+preflight_binding:
+  contract_ref: JHB:PRODUCTION:CONTRACT:001/preflight_contract
+  status: NOT_RUN
+
+compiler_binding:
+  contract_ref: JHB:PRODUCTION:CONTRACT:001/compiler_contract
+  status: NOT_RUN
+
+render_bundle_binding:
+  contract_ref: JHB:PRODUCTION:CONTRACT:001/render_bundle_contract
+  status: NOT_COMPILED
+  render_bundle_id: null
+
+render_run_binding:
+  contract_ref: JHB:PRODUCTION:CONTRACT:001/render_run_contract
+  status: NO_RUN
+  run_id: null
+
+asset_manifest:
+  status: PARTIAL_OPEN
+  required_known_assets:
+    - deer_logo
+  candidate_source_artifacts:
+    - JHB:FICK:CANONICAL-PAGES:003
+    - JHB:FICK:ACCEPTED-PAGES:001
+  exact_assets_to_resolve:
+    - deer_logo_object_id
+    - any_science_diagram_reference_asset
+    - any_approved_visual_reference_assets
+  rule: >
+    When an exact asset already exists and identity matters, bind the actual asset
+    rather than asking the generator to recreate it from prose.
+
+render_acceptance:
+  page_level:
+    - correct_PAGE_ID
+    - one_full_size_page
+    - frozen_exact_copy_used_without_rewrite_or_omission
+    - page_job_preserved
+    - visual_job_satisfied
+    - layout_and_whitespace_requirements_satisfied
+    - source_and_science_fidelity
+    - semantic_color_fidelity
+    - no_unauthorized_visible_text
+    - no_unauthorized_decorative_elements
+  set_level:
+    - exactly_four_distinct_outputs
+    - P1_P2_P3_P4_each_once
+    - no_contact_sheet_or_composite
+    - no_miniaturized_pages
+    - shared_visual_language
+    - distinct_page_jobs
+    - reveal_order_preserved
+    - handoffs_intact
+    - density_and_rhythm_coherent
+
+repair_contract:
+  preferred_order:
+    - REGION_EDIT
+    - PAGE_EDIT
+    - COORDINATED_BATCH_REGENERATION_ONLY_FOR_SET_LEVEL_DEFECT
+  preservation_rule: >
+    Once a page or region passes, record it as protected state and do not reroll it
+    merely because another page failed.
+  local_delta_required: true
+
+architecture_repair:
+  status: CLOSED_BY_SHARED_CONTRACT_AND_LOCAL_REPRESENTATION
+  target: current_package_candidate
+  replacement_package_authorized: false
+  governing_research_ref: ../../../../audits/JHB_FICK_GENERATION_PACKAGE_ARCHITECTURE_RESEARCH_2026-09-22.md
+  ownership_allocation_ref: ../../../../audits/JHB_FICK_PRODUCTION_OWNERSHIP_ALLOCATION_2026-09-22.md
+  shared_contract_ref: JHB:PRODUCTION:CONTRACT:001
+  disposition:
+    stable_content_ids: represented_locally_open
+    content_to_layout_slot_binding: shared_schema_local_values_open
+    constraint_priority_registry: delegated_and_partially_instantiated
+    explicit_free_variables: shared_semantics_local_values_partial
+    structure_reference_or_wireframe_layer: represented_locally_open
+    typed_reference_roles: delegated_and_partially_instantiated
+    per_element_realization_plan: shared_schema_local_values_open
+    overflow_and_fallback_policy: delegated_active
+    renderer_capability_profile: shared_schema_renderer_instance_open
+    preflight_contract: delegated
+    compiler_contract: delegated
+    immutable_render_bundle_contract: delegated
+    render_run_provenance: delegated
+    coherence_group_representation: delegated_and_instantiated
+  prompt_rule: >
+    The maintained production package is not the render prompt. Renderer-specific
+    prompts/instructions are compiled outputs derived from the frozen package.
+  text_authority_rule: >
+    COPY_CONTROL.yaml and the frozen exact-copy object remain the authority for
+    student-facing wording. This package binds content by identity and slot only.
+  closure_note: >
+    Architecture representation is now closed for the identified missing-coordinate
+    class. Render readiness remains blocked on unresolved Fick-local values and
+    user-controlled copy freeze.
+
+readiness:
+  render_status: BLOCKED
+  blockers:
+    - exact_copy_not_yet_frozen
+    - stable_content_block_ids_and_slot_bindings_incomplete
+    - layout_specs_incomplete
+    - shared_style_contract_incomplete
+    - structure_references_incomplete
+    - asset_manifest_incomplete
+    - per_element_realization_plan_incomplete
+    - renderer_profile_not_selected
+    - preflight_not_run
+    - package_not_frozen
+  ready_when:
+    - frozen_exact_copy_bound_by_path_and_blob
+    - stable_content_blocks_bound_to_slots
+    - four_visual_specs_complete
+    - four_layout_specs_complete
+    - shared_style_contract_complete_enough_for_render
+    - required_structure_refs_resolved
+    - required_assets_resolved
+    - element_realization_plan_complete
+    - renderer_profile_bound
+    - page_and_set_acceptance_complete
+    - preflight_passed
+    - immutable_render_bundle_compilable
+    - package_promoted_to_immutable_frozen_version
+
+freeze_rule:
+  authorization: explicit_user_approval_required
+  promotion_method: >
+    After all production coordinates are complete and approved, copy this candidate to a
+    new immutable versioned file such as PRODUCTION_PACKAGE_v1.yaml and record its Git
+    blob identity. Do not edit frozen production packages in place.

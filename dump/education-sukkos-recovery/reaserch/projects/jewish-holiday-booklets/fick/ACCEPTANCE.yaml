@@ -1,0 +1,83 @@
+schema_version: 0.1
+booklet_id: fick_difference
+control_type: product_acceptance
+authority: non_goal_operational_acceptance_control
+state_ref: STATE.yaml
+artifact_registry: ../ARTIFACTS.yaml
+series_control: ../MASTER_CONTROL.md
+
+purpose: >
+  Keep product acceptance distinct from repository/control-plane integrity. A clean
+  structural audit does not establish that the booklet artifact, learner route, or
+  mechanism passes.
+
+gate_states:
+  - pass
+  - repair_required
+  - open
+  - empirical_pending
+  - blocked
+
+gates:
+  - gate_id: FICK-PA-01
+    name: exact_artifact_identity
+    status: pass
+    evidence:
+      - JHB:FICK:ACCEPTED-PAGES:001
+      - JHB:FICK:P1
+      - JHB:FICK:P2
+      - JHB:FICK:P3
+      - JHB:FICK:P4
+    failure_effect: block all artifact-sensitive repair
+
+  - gate_id: FICK-PA-02
+    name: science_and_source_fidelity
+    status: repair_required
+    findings:
+      - JHB-FICK-001
+      - JHB-FICK-002
+    failure_effect: block repaired-product acceptance
+
+  - gate_id: FICK-PA-03
+    name: holiday_specific_surplus
+    status: open
+    findings:
+      - H1-FICK-001
+    test: >
+      Replacing the Sukkos stage with a generic collaborative model-building activity
+      must lose something educationally important that the intended holiday embodiment
+      supplies.
+    failure_effect: block claim that Page 3 is specifically Sukkos embodiment/deepening
+
+  - gate_id: FICK-PA-04
+    name: activity_enacts_selective_coordination
+    status: repair_required
+    findings:
+      - JHB-FICK-003
+    failure_effect: block repaired-product acceptance
+
+  - gate_id: FICK-PA-05
+    name: independent_transfer
+    status: repair_required
+    findings:
+      - JHB-FICK-004
+      - JHB-FICK-005
+    failure_effect: block repaired-product acceptance
+
+  - gate_id: FICK-PA-06
+    name: empirical_mechanism
+    status: empirical_pending
+    findings:
+      - JHB-FICK-006
+      - JHB-EMP-001
+    failure_effect: block empirical mechanism claim, not analytic repair work
+
+acceptance_status:
+  accepted_baseline: true
+  accepted_repaired_product: false
+  current_result: blocked_pending_repair_and_open_holiday_surplus
+  structural_ci_equivalence: explicitly_false
+
+next_acceptance_move: >
+  Preserve the exact accepted baseline, complete the bounded repair fronts and holiday
+  surplus bridge, then evaluate a candidate against every gate before acceptance.

@@ -1,0 +1,70 @@
+schema_version: 0.1
+booklet_id: fick_difference
+control_type: exact_copy_control
+authority: booklet_local_operational_copy_control
+state_ref: STATE.yaml
+series_control: ../MASTER_CONTROL.md
+status: candidate_reconciliation_required
+last_updated: 2026-09-22
+
+purpose: >
+  Preserve one recoverable exact student-facing wording object between conceptual
+  audit and visual production so later rendering does not reconstruct the booklet
+  wording from chat history or substitute a nearby candidate.
+
+candidate:
+  id: JHB:FICK:COPY:CANDIDATE:001
+  path: copy/EXACT_COPY_CANDIDATE.md
+  git_blob_sha: 10547ab377d3855a85f6fafc0b2dbb96a192d5c0
+  status: current_candidate
+  authority_note: >
+    This object records an editable exact-copy proposal. The user has subsequently
+    designated JHB:FICK:CANONICAL-PAGES:003 as the canonical current page set. Therefore
+    this candidate must be reconciled against the visible copy on that canonical set
+    plus current wording-audit decisions before it can be treated as the current exact
+    wording proposal or promoted to a frozen snapshot.
+
+frozen_copy:
+  status: open
+  id: null
+  path: null
+  git_blob_sha: null
+
+copy_boundary:
+  exact_visible_copy_rule: >
+    Only text between BEGIN_EXACT_VISIBLE_COPY and END_EXACT_VISIBLE_COPY markers in
+    the exact-copy object is authorized student-visible copy.
+  separation_rule: >
+    Production notes, source/backend notes, layout instructions, image jobs, and visual
+    prompts stay outside the exact visible copy.
+
+freeze_rule:
+  authorization: explicit_user_approval
+  promotion_method: >
+    After explicit wording approval, copy the approved candidate bytes to a new
+    immutable versioned file such as copy/EXACT_COPY_v1.md and record its Git blob SHA.
+  immutability_rule: >
+    Do not edit a frozen exact-copy snapshot in place. A later wording change creates a
+    new candidate and, after approval, a new frozen version.
+  identity_rule: >
+    The mutable candidate remains a candidate object. A status-label change alone does
+    not make it the frozen object.
+
+production_contract:
+  render_dependency: frozen_copy
+  visual_spec_dependency: frozen_copy
+  rule: >
+    Once a frozen copy exists, visual specifications and rendering use that exact path
+    and blob identity. They may arrange and style its text but do not rewrite,
+    paraphrase, omit, or add student-facing wording.
+
+change_control:
+  accepted_repair_baseline: JHB:FICK:ACCEPTED-PAGES:001
+  current_working_artifact_set: JHB:FICK:CANONICAL-PAGES:003
+  baseline_relation: >
+    Copy control does not accept a repaired product or change artifact acceptance.
+
+next_gate: >
+  Reconcile the candidate against JHB:FICK:CANONICAL-PAGES:003 page by page, preserving
+  deliberate visual-copy features such as the Page 1 equation callout system. After the
+  reconciled wording is explicitly approved, create a new immutable frozen copy.

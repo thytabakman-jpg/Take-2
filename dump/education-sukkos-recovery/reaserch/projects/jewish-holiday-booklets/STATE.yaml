@@ -1,0 +1,173 @@
+schema_version: 0.1
+project_id: jewish-holiday-booklets
+authority_status: provisional
+migration_context: reconstructed_with_source_grounded_control_and_artifact_registry
+last_updated: 2026-09-22
+
+project_status:
+  lifecycle: active
+  current_mode: booklet_local_operationalization_and_repair
+  historical_coverage: open
+  project_migration_stage: reconstructed
+  portfolio_authority_status: provisional
+
+shared_production_control:
+  current_contract_id: JHB:PRODUCTION:CONTRACT:001
+  current_contract_path: projects/jewish-holiday-booklets/production/PRODUCTION_CONTRACT.yaml
+  current_contract_git_blob_sha: 152e45c11e5dfd325a4105a6e50cc388d3eb59bf
+  status: working_shared_contract
+  procedure_ref: projects/jewish-holiday-booklets/IMAGE_GENERATION_PROTOCOL.md
+  authority_note: >
+    Shared production semantics are owned by the current production contract.
+    Booklet-local production packages supply booklet-specific values and reference
+    exact copy, route, asset, and acceptance authorities without duplicating them.
+  render_authority: none
+
+booklet_local_controls:
+  fick_difference:
+    state: projects/jewish-holiday-booklets/fick/STATE.yaml
+    product_acceptance: projects/jewish-holiday-booklets/fick/ACCEPTANCE.yaml
+    ownership_status: active
+  keva_practice:
+    state: projects/jewish-holiday-booklets/keva/STATE.yaml
+    product_acceptance: projects/jewish-holiday-booklets/keva/ACCEPTANCE.yaml
+    ownership_status: active
+  conservation_boundaries:
+    state: projects/jewish-holiday-booklets/conservation/STATE.yaml
+    product_acceptance: projects/jewish-holiday-booklets/conservation/ACCEPTANCE.yaml
+    ownership_status: active
+  ownership_boundary: >
+    Booklet-local controls own local artifact lifecycle, working lineage, repair
+    frontier, production/readiness state, and product-acceptance gates. Root JHB state
+    and MASTER_CONTROL retain shared series architecture, cross-booklet controls,
+    benchmark logic, and program-level status.
+
+current_result: >
+  The shared four-page booklet architecture remains the current working control.
+  Yom Kippur is the completed benchmark. Fick / Difference is in constrained repair.
+  Keva / Practice has a strong route with an unresolved discernment bridge and a
+  candidate artifact set whose exact accepted-source status is not yet established.
+  Conservation / Boundaries has a viable route but no canonical rendered artifact.
+
+research_object_state:
+  yom_kippur:
+    status: completed_benchmark
+    accepted_source_set: JHB:YOMKIPPUR:ACCEPTED-PAGES:001
+    exact_page_identity: resolved
+    repository_binary_bytes: pending_transfer
+    open_findings:
+      - JHB-YK-001
+      - JHB-YK-002
+
+  fick_difference:
+    status: constrained_repair_with_canonical_current_pages
+    local_state: projects/jewish-holiday-booklets/fick/STATE.yaml
+    product_acceptance: projects/jewish-holiday-booklets/fick/ACCEPTANCE.yaml
+    current_canonical_source_set: JHB:FICK:CANONICAL-PAGES:003
+    accepted_source_set: JHB:FICK:ACCEPTED-PAGES:001
+    accepted_baseline_name: "Different People. A Shared Place."
+    exact_page_identity: resolved
+    current_canonical_page_identity: resolved
+    verification_object_for_accepted_baseline: JHB:FICK:COMPOSITE:001
+    verification_object_for_current_canonical_set: OPEN
+    repository_binary_bytes: pending_transfer
+    repair_findings:
+      - JHB-FICK-001
+      - JHB-FICK-002
+      - JHB-FICK-003
+      - JHB-FICK-004
+    open_findings:
+      - JHB-FICK-005
+      - JHB-FICK-006
+    next_artifact_action: >
+      Follow projects/jewish-holiday-booklets/fick/STATE.yaml. Use
+      JHB:FICK:CANONICAL-PAGES:003 for all current continuation and targeted editing.
+      Retain JHB:FICK:ACCEPTED-PAGES:001 only as the historical preservation/regression
+      baseline. Exact current canonical Library objects and SHA-256 hashes are registered;
+      raw repository byte transfer remains a transport task.
+
+  keva_practice:
+    status: artifact_candidate_route_strong
+    local_state: projects/jewish-holiday-booklets/keva/STATE.yaml
+    product_acceptance: projects/jewish-holiday-booklets/keva/ACCEPTANCE.yaml
+    exact_candidate_source_set: unresolved
+    accepted_source_status: not_established
+    open_findings:
+      - JHB-KEVA-001
+      - JHB-KEVA-002
+
+  conservation_boundaries:
+    status: architecture_text_candidate
+    local_state: projects/jewish-holiday-booklets/conservation/STATE.yaml
+    product_acceptance: projects/jewish-holiday-booklets/conservation/ACCEPTANCE.yaml
+    canonical_rendered_artifact: none_established
+    open_findings:
+      - JHB-CONS-001
+      - JHB-CONS-002
+
+artifact_authority:
+  registry: projects/jewish-holiday-booklets/ARTIFACTS.yaml
+  rule: >
+    Accepted individual page images are source artifacts. Compiled PDFs, previews,
+    and composites are derived and do not replace accepted source pages.
+  accepted_source_sets:
+    - JHB:YOMKIPPUR:ACCEPTED-PAGES:001
+    - JHB:FICK:ACCEPTED-PAGES:001
+  unresolved_source_sets:
+    - JHB:KEVA:CANDIDATE:UNRESOLVED
+    - JHB:CONS:SOURCE-SET:UNRESOLVED
+
+current_blockers:
+  - id: JHB-BLOCK-ARTIFACT-BYTES
+    type: migration_dependency
+    status: paying_down_transport_only
+    description: >
+      The accepted Yom Kippur/Fick baseline PNGs and the four user-designated current
+      canonical Fick PNGs were materialized on 2026-09-22 and their raw-byte SHA-256
+      values were registered/verified in ARTIFACTS.yaml. The remaining operation is
+      binary transfer into the intended GitHub paths.
+    effect: >
+      Source identity and recoverability are independently verified. This does not
+      block architecture/control work or preservation-ledger preparation against the
+      immutable Library objects and hashes. It blocks only GitHub-only source-artifact
+      operation and claims that GitHub itself is the self-contained accepted-artifact store.
+    completed:
+      - exact Library object recovery
+      - raw-byte SHA-256 verification for all eight accepted pages
+    remaining:
+      - commit exact PNG bytes through a binary-capable GitHub transport
+      - fetch committed bytes and verify SHA-256 equality
+      - mark repository byte status present only after verification
+
+  - id: JHB-BLOCK-KEVA-IDENTITY
+    type: research_object_identity
+    status: open
+    description: Exact Keva artifact candidate image set remains unresolved.
+
+  - id: JHB-BLOCK-CONS-ARTIFACT
+    type: research_object_identity
+    status: open
+    description: No accepted Conservation rendered artifact exists.
+
+validation_state:
+  control_artifact:
+    current_convergence_blob: d98481ceea94cf4d4341189d87a55fc466abced5
+    current_audit: audits/JHB_MASTER_CONTROL_PDAUDIT_PASS5_POST_ARTIFACT_RECONCILIATION_2026-09-21.md
+    current_result: converged_for_current_frame_after_research_object_reconciliation
+    prior_convergence_blob: a77f240b6ea269ac22b82dfb983d71841436c42f
+    prior_result: superseded_by_pass5_for_current_control_blob
+    rerun_required: false
+  empirical:
+    status: open
+    finding: JHB-EMP-001
+
+next_actions:
+  - use booklet-local STATE.yaml and ACCEPTANCE.yaml as the first operational surface for Fick, Keva, and Conservation
+  - follow projects/jewish-holiday-booklets/fick/STATE.yaml for Fick targeted edits against JHB:FICK:CANONICAL-PAGES:003; retain JHB:FICK:ACCEPTED-PAGES:001 only as the regression baseline; PNG repository transport remains nonblocking debt
+  - resolve the Keva discernment criterion and exact candidate source-set identity before artifact-level acceptance or repair-mode classification
+  - resolve the Conservation cross-domain bridge and artifact mode before final production
+  - rerun MASTER_CONTROL only when a defined reopen condition or material local-to-series regression occurs
+
+goal_effect:
+  changed: false
+  note: No canonical goal identity, wording, hierarchy, scope, or success condition changed in this reconciliation.
