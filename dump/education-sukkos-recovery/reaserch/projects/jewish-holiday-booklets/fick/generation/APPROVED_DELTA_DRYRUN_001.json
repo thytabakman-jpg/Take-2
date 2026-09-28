@@ -1,0 +1,34 @@
+{
+  "schema_version": "0.1",
+  "delta_id": "JHB:FICK:DELTA:DRYRUN:001",
+  "target": "JHB:FICK:C3:P3",
+  "target_identity": "sha256:3b35a5f810927c1f037c76484af535444f64c8190ba0d3bdae60bec4a81542cd",
+  "operation_type": "WORDING_AFFECTING_TARGETED_PAGE_REPAIR",
+  "required_coordinates": [
+    "canonical_page_bytes",
+    "exact_student_wording",
+    "production_semantics"
+  ],
+  "basis": [
+    "JHB-FICK-003 activity enactment remains repair_required",
+    "integration dry-run only; no image generation or canonical mutation"
+  ],
+  "authorized_change": [
+    "bounded P3 repair implementing the already-identified activity-enactment repair frontier"
+  ],
+  "affected_scope": [
+    "JHB:FICK:C3:P3"
+  ],
+  "protected_state": [
+    "all unaffected page regions",
+    "canonical source identity until accepted promotion",
+    "other pages P1 P2 P4"
+  ],
+  "verification_requirements": [
+    "exact delta only",
+    "student wording matches frozen copy",
+    "no collateral visual drift"
+  ],
+  "approval_authority": "user_authorized_architecture_integration_dry_run_only",
+  "status": "APPROVED"
+}
