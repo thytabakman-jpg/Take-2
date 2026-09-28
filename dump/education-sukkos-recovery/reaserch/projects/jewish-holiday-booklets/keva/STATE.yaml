@@ -1,0 +1,64 @@
+schema_version: 0.1
+project_id: jewish-holiday-booklets
+booklet_id: keva_practice
+authority: booklet_local_operational_state
+parent_state: ../STATE.yaml
+series_control: ../MASTER_CONTROL.md
+last_updated: 2026-09-22
+
+purpose: >
+  Own Keva / Practice local production and readiness state without duplicating or
+  replacing the Jewish Holiday Booklet series architecture.
+
+object_identity:
+  artifact_registry: ../ARTIFACTS.yaml
+  candidate_source_set: JHB:KEVA:CANDIDATE:UNRESOLVED
+  exact_identity_status: unresolved
+  accepted_repair_baseline: none_established
+  operation_mode: open_pending_exact_candidate_and_acceptance_history
+  repository_binary_bytes: pending_exact_recovery
+
+lifecycle:
+  status: artifact_candidate_route_strong
+  current_stage: discernment_and_candidate_identity_resolution
+  production_candidate: exists_identity_unresolved
+  final_product_acceptance: blocked
+
+live_findings:
+  open:
+    - JHB-KEVA-001
+    - JHB-BLOCK-KEVA-IDENTITY
+    - H2-INFO-001
+  empirical:
+    - JHB-KEVA-002
+    - JHB-EMP-001
+
+learner_route:
+  target: >
+    Distinguish what happened, the first reaction, the response that fits the facts,
+    and the response the learner wants to establish through repeated use.
+  current_route:
+    - same incoming light with different material response
+    - event versus first reaction
+    - deliberate response
+    - keva
+    - sukkah keva / house arai
+    - repeatable response plan
+  route_status: strong_with_local_discernment_gap
+  discernment_status: open
+  discernment_finding: JHB-KEVA-001
+  holiday_embodiment_status: active_at_control_level
+  activity_enactment_status: open_representation_and_artifact_verification
+  activity_enactment_finding: H2-INFO-001
+  transfer_status: empirical_pending
+  transfer_finding: JHB-KEVA-002
+
+next_action: >
+  Resolve the public criterion for which deliberate response fits the facts and recover
+  the exact Keva candidate source set. Do not promote the current candidate to an
+  accepted baseline or choose constrained-repair versus greenfield production until
+  artifact identity and acceptance history are established.
+
+goal_effect:
+  changed: false
+  note: This local state does not change canonical goal identity or scope.
