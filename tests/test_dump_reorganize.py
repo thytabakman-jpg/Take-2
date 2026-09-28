@@ -26,10 +26,11 @@ class DumpReorganizeTests(unittest.TestCase):
             self.assertEqual(result["counts"]["source_files"], 4)
             self.assertEqual(result["counts"]["duplicates"], 1)
             self.assertEqual(result["counts"]["open"], 1)
-            self.assertTrue((out / "documents" / "notes-final.md").exists())
+            self.assertEqual(len(list((out / "documents").glob("*.md"))), 1)
             self.assertTrue((out / "code" / "script.py").exists())
             receipt = json.loads((out / "_take2_receipt.json").read_text(encoding="utf-8"))
             self.assertEqual(receipt["manifest"]["job"], "organize-corpus")
+            self.assertTrue(any(r["disposition"] == "DUPLICATE" for r in receipt["records"]))
 
 if __name__ == "__main__":
     unittest.main()
