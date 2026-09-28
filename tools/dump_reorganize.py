@@ -1,13 +1,9 @@
 #!/usr/bin/env python3
 """Take-2 dump-and-reorganize runner.
 
-Non-destructive by default: source files remain untouched. The runner inventories every
-file, hashes it, classifies it, copies it into a stable organized tree, preserves
-provenance in a machine-readable receipt, detects duplicates/collisions, and verifies
-that every copied byte matches the source.
-
-This is structural organization, not a claim of full semantic understanding.
-Ambiguous files remain explicit in OPEN rather than being guessed into a category.
+Non-destructive by default. Markdown files are read in full and organized using both
+structural type and content-derived semantic role. Ambiguous semantic evidence remains
+explicitly OPEN.
 """
 from __future__ import annotations
 
@@ -21,6 +17,8 @@ from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterable
+
+from markdown_semantics import analyze_markdown
 
 TEXT_EXT = {".md",".txt",".rst",".org",".tex",".html",".htm"}
 CODE_EXT = {".py",".js",".ts",".tsx",".jsx",".java",".c",".h",".cpp",".hpp",".rs",".go",".rb",".php",".sh",".ps1"}
@@ -41,6 +39,15 @@ class Record:
     disposition: str
     duplicate_of: str | None = None
     note: str | None = None
+    semantic_role: str | None = None
+    semantic_confidence: str | None = None
+    semantic_title: str | None = None
+    semantic_headings: tuple[str, ...] = ()
+    semantic_links: tuple[str, ...] = ()
+    semantic_system_references: tuple[str, ...] = ()
+    semantic_scores: dict[str, int] | None = None
+    semantic_reasons: tuple[str, ...] = ()
+    word_count: int | None = None
 
 def digest(path: Path) -> str:
     h = hashlib.sha256()
@@ -91,6 +98,11 @@ def clean_name(name: str) -> str:
     stem = re.sub(r"[^A-Za-z0-9._-]+", "-", stem)
     stem = re.sub(r"-+", "-", stem).strip("-")
     return stem or "unnamed"
+
+def destination_kind(src: Path, structural_kind: str, semantic_role: str | None) -> str:
+    if src.suffix.lower() == ".md":
+        return f"markdown/{semantic_role or 'open'}"
+    return structural_kind
 
 def unique_destination(root: Path, kind: str, source: Path, sha: str) -> Path:
     folder = root / kind
@@ -143,12 +155,33 @@ def run(source_root: Path, output_root: Path) -> dict:
         size = src.stat().st_size
         kind, confidence, note = classify(src)
 
+        semantic = None
+        if src.suffix.lower() == ".md":
+            try:
+                semantic = analyze_markdown(src)
+            except (UnicodeDecodeError, OSError) as exc:
+                note = f"markdown-semantic-read-error:{type(exc).__name__}"
+
+        semantic_role = semantic.role if semantic else None
+        target_kind = destination_kind(src, kind, semantic_role)
+
         if sha in seen_hash:
-            records.append(Record(rel, sha, size, kind, confidence, None, "DUPLICATE", seen_hash[sha], note))
+            records.append(Record(
+                rel, sha, size, kind, confidence, None, "DUPLICATE", seen_hash[sha], note,
+                semantic_role=semantic_role,
+                semantic_confidence=(semantic.confidence if semantic else None),
+                semantic_title=(semantic.title if semantic else None),
+                semantic_headings=(semantic.headings if semantic else ()),
+                semantic_links=(semantic.links if semantic else ()),
+                semantic_system_references=(semantic.system_references if semantic else ()),
+                semantic_scores=(semantic.scores if semantic else None),
+                semantic_reasons=(semantic.reasons if semantic else ()),
+                word_count=(semantic.word_count if semantic else None),
+            ))
             continue
 
         seen_hash[sha] = rel
-        dest = unique_destination(output_root, kind, src, sha)
+        dest = unique_destination(output_root, target_kind, src, sha)
         if dest.exists() and digest(dest) == sha:
             disposition = "ALREADY_ORGANIZED"
         else:
@@ -156,14 +189,31 @@ def run(source_root: Path, output_root: Path) -> dict:
             disposition = "COPIED"
         if digest(dest) != sha:
             raise RuntimeError(f"verification failed for {rel}")
-        records.append(Record(rel, sha, size, kind, confidence, dest.relative_to(output_root).as_posix(), disposition, None, note))
+        records.append(Record(
+            rel, sha, size, kind, confidence, dest.relative_to(output_root).as_posix(), disposition,
+            None, note,
+            semantic_role=semantic_role,
+            semantic_confidence=(semantic.confidence if semantic else None),
+            semantic_title=(semantic.title if semantic else None),
+            semantic_headings=(semantic.headings if semantic else ()),
+            semantic_links=(semantic.links if semantic else ()),
+            semantic_system_references=(semantic.system_references if semantic else ()),
+            semantic_scores=(semantic.scores if semantic else None),
+            semantic_reasons=(semantic.reasons if semantic else ()),
+            word_count=(semantic.word_count if semantic else None),
+        ))
 
     accounted = {r.source for r in records}
     expected = {p.relative_to(source_root).as_posix() for p in source_files(source_root, output_root)}
     missing = sorted(expected - accounted)
-    open_items = [r.source for r in records if r.kind == "open" or r.confidence == "LOW"]
+    open_items = [
+        r.source for r in records
+        if r.kind == "open" or r.confidence == "LOW"
+        or (r.source.lower().endswith(".md") and r.semantic_role == "open")
+    ]
+    semantic_markdown = [r for r in records if r.source.lower().endswith(".md")]
     summary = {
-        "schema_version": 1,
+        "schema_version": 2,
         "run_at": datetime.now(timezone.utc).isoformat(),
         "source_root": str(source_root),
         "output_root": str(output_root),
@@ -173,6 +223,7 @@ def run(source_root: Path, output_root: Path) -> dict:
             "records": len(records),
             "duplicates": sum(r.disposition == "DUPLICATE" for r in records),
             "open": len(open_items),
+            "markdown_semantically_read": len(semantic_markdown),
         },
         "traversal_complete": not missing and len(records) == len(expected),
         "verification_complete": all(
@@ -183,6 +234,9 @@ def run(source_root: Path, output_root: Path) -> dict:
             )
             for r in records
         ),
+        "semantic_markdown_complete": all(
+            r.semantic_role is not None and r.word_count is not None for r in semantic_markdown
+        ),
         "missing": missing,
         "open": open_items,
         "records": [asdict(r) for r in records],
@@ -192,7 +246,7 @@ def run(source_root: Path, output_root: Path) -> dict:
     return summary
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Inventory, classify, reorganize, and verify a corpus.")
+    parser = argparse.ArgumentParser(description="Inventory, semantically read Markdown, reorganize, and verify a corpus.")
     parser.add_argument("source", type=Path, help="directory containing the material to ingest")
     parser.add_argument("--output", type=Path, default=None, help="organized output directory; default SOURCE/_organized")
     args = parser.parse_args()
@@ -203,13 +257,19 @@ def main() -> int:
     result = run(source, output)
     print(json.dumps({
         "source_files": result["counts"]["source_files"],
+        "markdown_semantically_read": result["counts"]["markdown_semantically_read"],
         "duplicates": result["counts"]["duplicates"],
         "open": result["counts"]["open"],
         "traversal_complete": result["traversal_complete"],
+        "semantic_markdown_complete": result["semantic_markdown_complete"],
         "verification_complete": result["verification_complete"],
         "receipt": str((output / "_take2_receipt.json").resolve()),
     }, indent=2))
-    return 0 if result["traversal_complete"] and result["verification_complete"] else 2
+    return 0 if (
+        result["traversal_complete"]
+        and result["semantic_markdown_complete"]
+        and result["verification_complete"]
+    ) else 2
 
 if __name__ == "__main__":
     raise SystemExit(main())
