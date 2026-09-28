@@ -1,0 +1,307 @@
+schema_version: 0.1
+object_id: JHB:PRODUCTION:CONTRACT:001
+project_id: jewish-holiday-booklets
+control_type: shared_production_contract
+status: working_shared_contract
+last_updated: 2026-09-22
+
+purpose: >
+  Define the reusable production semantics shared across Jewish Holiday Booklets while
+  leaving booklet-specific values in booklet-local production packages and exact
+  student-facing wording in booklet-local copy authority.
+
+authority_boundary:
+  owns:
+    - production lifecycle semantics
+    - constraint classes
+    - reference-role vocabulary
+    - realization-mode vocabulary
+    - source-package interface requirements
+    - fail-closed overflow semantics
+    - preflight contract
+    - compiler authority limits
+    - immutable render-bundle schema requirements
+    - renderer-capability profile schema requirements
+    - render-run provenance schema requirements
+    - coherence-group semantics
+    - two-level render acceptance framework
+    - survivor preservation and repair lifecycle
+  does_not_own:
+    - canonical learner goals
+    - booklet-specific learner route
+    - exact student-facing wording
+    - booklet-specific visual jobs
+    - booklet-specific layout values
+    - exact asset identity
+    - rendered artifact authority
+    - product acceptance
+    - renderer-specific capability facts
+
+lifecycle:
+  ordered_layers:
+    - AUTHORITATIVE_UPSTREAM
+    - EDITABLE_SOURCE_PACKAGE
+    - PREFLIGHT
+    - COMPILE
+    - IMMUTABLE_RENDER_BUNDLE
+    - RENDER_RUN
+    - QA_AND_REPAIR
+  rules:
+    - editable_source_package_must_reference_authoritative_upstream_objects_by_identity
+    - preflight_must_pass_before_compile
+    - compile_must_not_gain_authority_to_rewrite_upstream_content
+    - render_bundle_is_immutable_execution_state
+    - render_run_records_actual_execution_and_outputs
+    - qa_and_repair_preserve_passing_state_and_localize_failures
+
+constraint_classes:
+  LOCKED:
+    meaning: >
+      Exact state that must remain unchanged for the current production operation.
+    mutation: forbidden
+  HARD:
+    meaning: >
+      Required invariant that the result must satisfy.
+    mutation: not_relaxable_by_renderer
+  FORBIDDEN:
+    meaning: >
+      Disallowed result or transformation.
+    mutation: must_not_occur
+  PREFERRED:
+    meaning: >
+      Desired state retained when compatible with LOCKED and HARD constraints.
+    mutation: may_change_only_when_needed_to_satisfy_higher_priority_constraints
+  FREE:
+    meaning: >
+      Explicitly delegated renderer/design freedom.
+    mutation: allowed_within_declared_scope
+  priority_order:
+    - LOCKED
+    - HARD
+    - FORBIDDEN
+    - PREFERRED
+    - FREE
+  silence_rule: >
+    Absence of a listed constraint does not automatically authorize redesign of
+    authoritative or previously protected state.
+
+reference_roles:
+  EXACT_ASSET:
+    meaning: use the referenced object itself when identity matters
+  STYLE_REFERENCE:
+    meaning: informs visual language without becoming content authority
+  STRUCTURE_REFERENCE:
+    meaning: controls spatial or compositional relationships
+  SOURCE_PAGE_REFERENCE:
+    meaning: source or preservation reference for an existing page
+  SCIENCE_REFERENCE:
+    meaning: supports fidelity of a scientific visual or relationship
+  REPAIR_SOURCE:
+    meaning: exact source region/page used for bounded repair
+  OPTIONAL_INSPIRATION:
+    meaning: nonbinding visual inspiration
+
+realization_modes:
+  GENERATIVE:
+    meaning: renderer may synthesize the element within constraints
+  EXACT_TEXT:
+    meaning: exact upstream text must be reproduced without semantic rewriting
+  VECTOR_OR_CONTROLLED_DIAGRAM:
+    meaning: diagram must follow explicitly controlled geometry/labels/relations
+  EXACT_ASSET:
+    meaning: use the bound exact asset
+  LOCAL_EDIT:
+    meaning: edit only the licensed region of an existing artifact
+  COMPOSITE:
+    meaning: combine controlled inputs without granting rewrite authority
+  LOCKED_EXISTING_REGION:
+    meaning: preserve an existing region unchanged
+
+source_package_contract:
+  required_interfaces:
+    - target_binding
+    - authoritative_copy_binding
+    - coherence_group
+    - page_identity_binding
+    - production_relevant_route_binding
+    - content_to_slot_bindings
+    - visual_obligations
+    - layout_and_whitespace_constraints
+    - style_constraints
+    - asset_and_reference_bindings
+    - constraint_and_free_variable_registry
+    - realization_plan
+    - overflow_policy
+    - page_level_acceptance
+    - set_level_acceptance
+    - repair_contract
+  identity_rule: >
+    A source package references upstream authority by stable object identity and does
+    not duplicate exact student-facing wording as a second editable source.
+
+content_slot_binding_contract:
+  required_fields:
+    - content_id
+    - source_object_id
+    - page_id
+    - slot_id
+    - visibility_requirement
+  optional_fields:
+    - ordering_relation
+    - paired_visual_id
+    - realization_mode
+    - constraint_class
+  rule: >
+    Shared schema lives here; actual content IDs and slot assignments are booklet-local.
+
+coherence_group_contract:
+  meaning: >
+    A set of page outputs that must share frozen production context and booklet-level
+    visual coherence while remaining distinct page objects.
+  required_fields:
+    - coherence_group_id
+    - member_page_ids
+    - output_topology
+    - shared_context_required
+  default_output_invariant: >
+    Each member page remains a distinct full-size output object unless an explicitly
+    different topology is authorized.
+
+overflow_policy:
+  mode: fail_closed
+  forbidden_resolutions:
+    - paraphrase_LOCKED_or_HARD_text
+    - omit_required_content
+    - invent_replacement_content
+    - reduce_text_below_declared_readability_floor
+    - remove_required_whitespace_or_activity_space
+    - relax_HARD_or_LOCKED_constraints
+  allowed_resolution_scope: >
+    Fallback may operate only over coordinates explicitly marked PREFERRED or FREE.
+  unresolved_effect: >
+    If LOCKED and HARD constraints cannot jointly fit under the declared layout and
+    renderer capabilities, preflight or compilation returns OPEN/BLOCKED rather than
+    silently altering authoritative content.
+
+renderer_profile_contract:
+  required_capability_fields:
+    - renderer_id
+    - version_or_model_identity
+    - multi_output_support
+    - local_edit_support
+    - reference_image_support
+    - structure_reference_support
+    - style_reference_support
+    - exact_size_support
+    - text_reliability_assumption
+    - compositing_support
+  authority_rule: >
+    Desired behavior in a booklet package does not establish renderer capability.
+    Capability facts belong to the renderer-specific profile.
+
+preflight_contract:
+  required_checks:
+    - authoritative_required_refs_resolve
+    - frozen_exact_copy_exists_when_required
+    - page_ids_are_unique
+    - required_content_blocks_are_intentionally_bound
+    - required_assets_resolve
+    - no_contradictory_LOCKED_or_HARD_constraints
+    - required_layout_or_structure_objects_exist
+    - overflow_state_is_acceptable_or_explicitly_OPEN
+    - renderer_profile_supports_requested_operation
+    - page_level_acceptance_exists
+    - set_level_acceptance_exists
+  failure_effect: BLOCK_COMPILE_AND_RENDER
+
+compiler_contract:
+  may:
+    - resolve_authoritative_references
+    - freeze_source_identities
+    - bind_content_to_slots
+    - normalize_constraints
+    - choose_renderer_compatible_representation_within_declared_freedom
+    - assemble_renderer_specific_instruction_payload
+    - attach_reference_assets
+    - attach_acceptance_tests
+    - produce_render_bundle_identity
+  may_not:
+    - rewrite_exact_student_facing_copy
+    - relax_LOCKED_constraints
+    - relax_HARD_constraints
+    - invent_missing_authoritative_content
+    - convert_candidate_authority_into_accepted_authority
+  output: IMMUTABLE_RENDER_BUNDLE
+
+render_bundle_contract:
+  required_fields:
+    - render_bundle_id
+    - source_package_id
+    - source_package_version_or_blob
+    - frozen_copy_id
+    - frozen_copy_blob
+    - resolved_page_instructions
+    - resolved_reference_bindings
+    - realization_plan
+    - renderer_profile_id
+    - output_dimensions_and_format
+    - execution_settings
+    - page_level_acceptance
+    - set_level_acceptance
+    - bundle_identity_or_hash
+  immutability_rule: >
+    A compiled bundle is execution state. Changes require a new bundle identity.
+
+render_run_contract:
+  required_fields:
+    - run_id
+    - render_bundle_id
+    - renderer_profile_id
+    - execution_identity
+    - output_objects
+    - output_to_page_id_mapping
+    - page_level_results
+    - set_level_result
+    - survivor_set
+    - repair_continuation
+  rule: >
+    A passing render run does not itself change product acceptance.
+
+acceptance_framework:
+  page_level_minimum:
+    - correct_page_identity
+    - required_exact_content_present
+    - page_job_preserved
+    - visual_obligations_satisfied
+    - layout_and_interaction_space_satisfied
+    - source_and_science_fidelity
+    - no_unauthorized_visible_content
+  set_level_minimum:
+    - expected_output_count
+    - each_page_identity_once
+    - required_output_topology
+    - coherent_shared_visual_language
+    - distinct_page_jobs
+    - reveal_order_preserved
+    - cross_page_handoffs_intact
+
+preservation_and_repair_contract:
+  rule: >
+    Passing pages and passing regions become protected state for the current continuation.
+  preferred_repair_order:
+    - REGION_EDIT
+    - PAGE_EDIT
+    - COHERENCE_GROUP_REGENERATION_ONLY_FOR_DEMONSTRATED_SET_LEVEL_DEFECT
+  repair_requirements:
+    - exact_defect
+    - affected_page_or_region
+    - protected_surrounding_state
+    - licensed_delta
+    - forbidden_collateral_changes
+
+nonclaims:
+  - this contract does not define booklet-specific visual design
+  - this contract does not establish any renderer's actual capabilities
+  - this contract does not accept any rendered booklet
+  - this contract does not replace IMAGE_GENERATION_PROTOCOL.md
+  - this contract does not authorize duplication of exact booklet wording
