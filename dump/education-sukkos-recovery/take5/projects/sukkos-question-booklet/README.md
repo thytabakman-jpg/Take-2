@@ -1,60 +1,73 @@
 # Sukkos Question Booklet
 
-Status: BOOTSTRAP / GREENFIELD
-Repository: thytabakman-jpg/Take-5
+Status: CANONICAL BASELINE v1 / PAGE 2 REVISION ACTIVE
 Project type: independent four-page Grade 5–6 Sukkos booklet
-Current lifecycle: BOOK_SEED + DESIGN_BRIEF
 Controller: project-local Sukkos Question Booklet Controller
 
-## Project identity
+## Restart binding rule
 
-This project builds a new four-page Sukkos booklet whose durable learner outcome is a better basic understanding of questions and a better ability to ask one.
+Before using any historical draft, recovered route, alternate booklet, old render, or candidate page, bind the exact current artifact identity.
 
-The project is independent. It inherits evidence and lessons from earlier Jewish Holiday Booklet work and from the current Take-5 tool mathematics, but no earlier booklet copy is silently treated as current authority.
+Load in this order:
 
-## Core preservation rule
-
-No single Markdown file owns the whole project.
-
-Each load-bearing dimension has one canonical owner. Other files reference that owner instead of duplicating editable truth.
-
-The 36-cell Scope × ModeFace lattice is an audit and discovery surface. It is not 36 copies of the booklet and it does not own canonical content.
-
-## Entry order
-
-1. CURRENT_STATE.md
-2. PROJECT_CHARTER.md
-3. AUTHORITY_REGISTRY.md
-4. CONTROLLER.md
-5. GOAL.md
-6. ASSERT_BASELINE.md
-7. OPEN_QUESTIONS.md
+1. CANONICAL_BOOKLET.md
+2. CANONICAL_RENDER_POINTER_2026-09-28.md
+3. CURRENT_STATE.md
+4. PROJECT_CHARTER.md
+5. AUTHORITY_REGISTRY.md
+6. CONTROLLER.md
+7. GOAL.md
 8. the authority file implicated by the current change
-9. coverage/ only when a coverage or interaction audit is required
+9. candidate files only when the current work target explicitly names that candidate
 
-## Current locked facts
+The persistent canonical render lives at:
 
-The public artifact has four pages.
-The audience is Grade 5–6.
-The booklet teaches a basic model of what a question is and how to ask one better.
-The Sukkos connection must be holiday-native and perform real educational work.
-The public artifact cannot depend on hidden facilitator intelligence.
-Project work is persisted in Markdown.
-A project-local controller manages routing, state, provenance, and change impact.
+/Projects/Sukkos Question Booklet/Canonical/v1
 
-## Current OPEN coordinates
+The four image files and CANONICAL_MANIFEST.md in that folder are the exact restart baseline.
 
-The exact student-facing question decomposition is not locked.
-The exact Page 1 phenomenon is not locked.
-The Page 2 Jewish operation and exact source set are not locked.
-The Sukkos embodiment is not locked.
-The visual master is not locked.
-Exact student-facing copy is not locked.
-The final Page 4 transfer activity is not locked.
+## Canonicality law
 
-## Source inheritance
+A newly generated page is a candidate only.
 
-Legacy booklet evidence lives primarily in thytabakman-jpg/Reaserch/projects/jewish-holiday-booklets/.
-Current tool mathematics and controller evidence live in thytabakman-jpg/Take-5/.
+It does not replace a canonical page merely because it is newer, cleaner, or currently under discussion.
 
-See SOURCE_MAP.md.
+A page enters the booklet only after explicit user approval such as:
+
+"swap page 2 in the booklet for this new page 2."
+
+An approved swap creates a new immutable canonical version. Unchanged pages are carried forward by exact identity. The previous version remains preserved.
+
+Never assemble a booklet from mixed canonical versions.
+
+## Current work target
+
+PAGE 2 ONLY.
+
+Canonical Pages 1, 3, and 4 are protected from incidental change.
+
+Canonical Page 2 remains protected until explicit approval of a replacement.
+
+The active Page 2 improvement direction is:
+
+recognizable low-stakes human friction
+→ Pirkei Avot 5:7, שואל כענין
+→ Target / Relevant facts / Answer test
+→ worked repair
+→ independent practice.
+
+## Governing learner goal
+
+The booklet moves a Grade 5–6 learner from a thin model of a question as merely "something you ask" toward a usable structural model that lets the learner inspect, improve, and construct a question.
+
+## Preservation rule
+
+No canonical fact exists only in chat.
+
+Canonical artifact identity is stored in CANONICAL_BOOKLET.md and the persistent Library manifest.
+
+Each load-bearing conceptual dimension has one owning authority file.
+
+Historical material remains evidence unless explicitly promoted.
+
+See SOURCE_MAP.md for inherited source material.
