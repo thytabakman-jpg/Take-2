@@ -14,3 +14,14 @@ requires complete traversal, complete Markdown semantic intake, and byte verific
 
 Known source-level historical gaps remain curriculum packets 4, 11, 15, 51, 53, 54, 56,
 58, and 59. They are not fabricated or silently treated as recovered.
+
+
+## Take-5 recovery
+
+The `take5/` subtree preserves 127 Education/Sukkos/booklet-related files recovered from
+`thytabakman-jpg/Take-5` current main. This includes the Sukkos question-booklet project,
+frame-resolution project, page scripts, coverage files, tool runs, candidate state, runtime
+support, and related tests.
+
+The regression suite requires Take-2 to process all 127 files with complete traversal,
+complete Markdown semantic intake, and byte verification.
