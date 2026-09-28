@@ -1,0 +1,144 @@
+schema_version: 0.1
+project_id: jewish-holiday-booklets
+booklet_id: fick_difference
+authority: booklet_local_operational_state
+parent_state: ../STATE.yaml
+series_control: ../MASTER_CONTROL.md
+project_entry_profile: PROJECT_ENTRY.yaml
+project_entry_contract: ../../pd/practical/PROJECT_ENTRY_BINDING_CONTRACT.yaml
+last_updated: 2026-09-22
+
+purpose: >
+  Own Fick / Difference local production state without duplicating or replacing the
+  Jewish Holiday Booklet series architecture.
+
+object_identity:
+  accepted_repair_baseline: JHB:FICK:ACCEPTED-PAGES:001
+  current_canonical_source_set: JHB:FICK:CANONICAL-PAGES:003
+  current_canonical_pages:
+    - JHB:FICK:C3:P1
+    - JHB:FICK:C3:P2
+    - JHB:FICK:C3:P3
+    - JHB:FICK:C3:P4
+  exact_identity_status: resolved
+  artifact_registry: ../ARTIFACTS.yaml
+  accepted_pages:
+    - JHB:FICK:P1
+    - JHB:FICK:P2
+    - JHB:FICK:P3
+    - JHB:FICK:P4
+  verification_representation: JHB:FICK:COMPOSITE:001
+  verification_representation_authority: derived_verification_only
+  repository_binary_bytes: pending_binary_transfer
+
+continuation_bindings:
+  default_current_working_set: JHB:FICK:CANONICAL-PAGES:003
+  last_user_confirmed_set: JHB:FICK:CANONICAL-PAGES:003
+  current_canonical_set: JHB:FICK:CANONICAL-PAGES:003
+  supersedes_for_current_work: JHB:FICK:WORKING-PAGES:002
+  accepted_product: OPEN
+  status: user_designated_canonical_current_artifact_not_product_acceptance
+  basis: >
+    The user explicitly designated these four A4-shaped pages on 2026-09-22 as the
+    canonical current Fick versions and instructed that they replace the prior working
+    set for ongoing work. This binding controls continuation, display, audit, and
+    targeted editing while retaining JHB:FICK:ACCEPTED-PAGES:001 as the historical
+    preservation/regression baseline and leaving product-acceptance gates separate.
+  entry_execution_rule: >
+    Natural-language resume/work-on-Fick intent is governed by PROJECT_ENTRY.yaml.
+    Resolve this current canonical set and show its four current page images before
+    ordinary substantive work. If page bytes cannot be acquired, report that exact
+    blocker rather than reconstructing or substituting another set.
+
+session_records:
+  - SESSION_CAPTURE_2026-09-22.md
+
+production_package_control:
+  current_candidate_id: JHB:FICK:PRODUCTION-PACKAGE:CANDIDATE:001
+  current_candidate_path: generation/PRODUCTION_PACKAGE_CANDIDATE.yaml
+  current_candidate_git_blob_sha: f53ff940bb742d0586dd0ad95ce324cd552b1726
+  status: canonical_local_edit_mode
+  render_status: TYPED_READINESS_GOVERNED
+  readiness_view: generation/READINESS.yaml
+  readiness_rule: >
+    Do not infer a generic render-ready state. Distinguish analytic_ready,
+    execution_ready, promotion_ready, product_ready, and empirical_ready.
+  audit_ref: ../../../audits/JHB_FICK_THREE_OBJECT_PRODUCTION_CLOSURE_PD_2026-09-22.md
+  architecture_research_ref: ../../../audits/JHB_FICK_GENERATION_PACKAGE_ARCHITECTURE_RESEARCH_2026-09-22.md
+  architecture_note: >
+    The generation, visual-job, layout/style, asset, output-topology, acceptance, and
+    repair coordinates are controlled as one Fick production package. Reusable
+    production semantics are delegated to JHB:PRODUCTION:CONTRACT:001. Exact student
+    copy remains a separate upstream authority and is referenced by identity rather
+    than duplicated.
+  architecture_representation_status: closed_for_identified_missing_coordinate_class
+  render_gate: >
+    Full-page reconstruction from the package remains blocked. Targeted local edits
+    against JHB:FICK:CANONICAL-PAGES:003 are active: each edit uses the latest accepted
+    page image as source and changes only the explicitly authorized delta. A later
+    package-driven full render still requires reconciled/frozen copy and preflight.
+
+exact_copy_control:
+  control: COPY_CONTROL.yaml
+  current_candidate_id: JHB:FICK:COPY:CANDIDATE:001
+  current_candidate_path: copy/EXACT_COPY_CANDIDATE.md
+  current_candidate_git_blob_sha: 10547ab377d3855a85f6fafc0b2dbb96a192d5c0
+  status: candidate_requires_reconciliation_against_canonical_current_artifact
+  frozen_copy: OPEN
+  canonical_artifact_copy_source: JHB:FICK:CANONICAL-PAGES:003
+  visual_spec_gate: reconcile_copy_against_canonical_current_artifact_before_freeze
+  audit_ref: ../../../audits/JHB_FICK_EXACT_COPY_CONTROL_HF001_IMPROVEMENT_2026-09-22.md
+  authority_note: >
+    Exact-copy control records the current student-facing wording candidate. It does
+    not accept a repaired product, supersede the accepted repair baseline, or authorize
+    visual production from an unfrozen candidate.
+
+lifecycle:
+  status: constrained_repair
+  current_stage: pre_execution_readiness_resolution_for_targeted_edit
+  production_candidate: JHB:FICK:CANONICAL-PAGES:003
+  final_product_acceptance: blocked
+
+live_findings:
+  repair_required:
+    - JHB-FICK-001
+    - JHB-FICK-002
+    - JHB-FICK-003
+    - JHB-FICK-004
+  open:
+    - JHB-FICK-005
+    - H1-FICK-001
+  empirical:
+    - JHB-FICK-006
+    - JHB-EMP-001
+
+learner_route:
+  target: >
+    Preserve genuine difference, identify what remains shared, coordinate only what
+    shared activity requires, and continue without forcing sameness everywhere else.
+  current_route:
+    - diffusion and concentration difference
+    - human convergence question
+    - difference / sharedness / required coordination
+    - one shared sukkah built under common criteria
+    - transfer to unresolved disagreement
+  holiday_surplus_status: open
+  holiday_surplus_finding: H1-FICK-001
+  activity_enactment_status: repair_required
+  activity_enactment_finding: JHB-FICK-003
+  transfer_status: repair_required
+  transfer_findings:
+    - JHB-FICK-004
+    - JHB-FICK-005
+
+next_action: >
+  Use JHB:FICK:CANONICAL-PAGES:003 as the sole current page set for targeted edits.
+  Work from the latest accepted successor of each canonical page, preserving unaffected
+  regions. Reconcile the exact-copy candidate against these canonical pages and the
+  current wording audits before any wording freeze. Do not fall back to
+  JHB:FICK:WORKING-PAGES:002 or reconstruct current pages from chat. Product acceptance
+  remains governed separately by ACCEPTANCE.yaml.
+
+goal_effect:
+  changed: false
+  note: This local state does not change canonical goal identity or scope.
