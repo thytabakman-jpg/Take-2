@@ -1,0 +1,31 @@
+schema_version: 0.1
+object_id: JHB:FICK:AUTHORITY-MAP:001
+booklet_id: fick_difference
+object_type: authority_resolution_map
+authority: routing_metadata_only
+contract: ../../../pd/practical/AUTHORITY_RESOLUTION_CONTRACT.yaml
+coordinates:
+  canonical_page_bytes:
+    owner: ../../ARTIFACTS.yaml
+    locator_rule: canonical page object registered under JHB:FICK:CANONICAL-PAGES:003
+  current_canonical_set:
+    owner: ../STATE.yaml
+    locator_rule: object_identity.current_canonical_source_set
+  exact_student_wording:
+    owner: ../COPY_CONTROL.yaml
+    locator_rule: frozen_copy when frozen; otherwise candidate remains non-render authority
+  production_semantics:
+    owner: PRODUCTION_PACKAGE_CANDIDATE.yaml
+    locator_rule: applicable production coordinate
+  product_acceptance:
+    owner: ../ACCEPTANCE.yaml
+    locator_rule: applicable FICK-PA gate
+  execution_binding:
+    owner: ../../../pd/practical/EXECUTION_BINDING_CONTRACT.yaml
+    locator_rule: episode-specific binding packet
+  promotion_transition:
+    owner: ../../../pd/practical/PROMOTION_TRANSITION_CONTRACT.yaml
+    locator_rule: candidate-specific promotion packet
+rule: >
+  This map identifies where a coordinate is resolved. It never overrides the referenced
+  owner and must return OPEN rather than select by recency, filename, chat history, or convenience.
