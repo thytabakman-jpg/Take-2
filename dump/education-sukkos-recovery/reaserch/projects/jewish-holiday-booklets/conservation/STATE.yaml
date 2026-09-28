@@ -1,0 +1,64 @@
+schema_version: 0.1
+project_id: jewish-holiday-booklets
+booklet_id: conservation_boundaries
+authority: booklet_local_operational_state
+parent_state: ../STATE.yaml
+series_control: ../MASTER_CONTROL.md
+last_updated: 2026-09-22
+
+purpose: >
+  Own Conservation / Boundaries local architecture-to-production state without
+  duplicating or replacing the Jewish Holiday Booklet series architecture.
+
+object_identity:
+  artifact_registry: ../ARTIFACTS.yaml
+  source_set: JHB:CONS:SOURCE-SET:UNRESOLVED
+  exact_identity_status: unresolved
+  accepted_repair_baseline: none_established
+  canonical_rendered_artifact: none_established
+  operation_mode: open_between_greenfield_and_constrained_repair
+
+lifecycle:
+  status: architecture_text_candidate
+  current_stage: cross_domain_bridge_and_artifact_mode_resolution
+  production_candidate: no_accepted_render
+  final_product_acceptance: blocked
+
+live_findings:
+  open:
+    - JHB-CONS-001
+    - JHB-CONS-002
+    - H2-INFO-001
+  empirical:
+    - JHB-EMP-001
+
+learner_route:
+  target: >
+    Understand a boundary as a functional regulator of access, identify what the
+    boundary protects, and distinguish what can enter, remain outside, or remain
+    undecided without treating a boundary as total closure.
+  current_route:
+    - light partitioning at an interface
+    - partial openness and interaction without total blockage
+    - what is the boundary protecting
+    - seyag as protective boundary
+    - sukkah as a bounded but non-sealed inside
+    - design one useful boundary in a new case
+  bridge_status: open
+  bridge_finding: JHB-CONS-001
+  holiday_surplus_status: open_within_bridge
+  activity_enactment_status: open_representation_and_future_artifact_verification
+  activity_enactment_finding: H2-INFO-001
+  artifact_mode_status: open
+  artifact_mode_finding: JHB-CONS-002
+  transfer_status: open_within_bridge
+
+next_action: >
+  Type the preserved and newly introduced content across the optical-interface,
+  seyag, sukkah, and human-boundary transitions, and determine whether any accepted
+  operative artifact baseline exists. Do not choose greenfield versus constrained
+  repair or begin final production until those two coordinates are resolved.
+
+goal_effect:
+  changed: false
+  note: This local state does not change canonical goal identity or scope.
