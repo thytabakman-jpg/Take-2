@@ -1,0 +1,13 @@
+{
+  "result": "BLOCKED",
+  "delta_id": "JHB:FICK:DELTA:DRYRUN:001",
+  "blockers": [
+    {
+      "type": "DEPENDENCY_OPEN",
+      "coordinate": "exact_student_wording",
+      "reason": "frozen_copy_unresolved"
+    }
+  ],
+  "disposition": "NO_ACTION_ATTEMPTED",
+  "note": "Compilation stops before BIND/ADMIT because a required wording authority is OPEN. No image generation or canonical mutation."
+}
