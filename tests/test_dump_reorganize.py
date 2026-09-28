@@ -47,11 +47,11 @@ class DumpReorganizeTests(unittest.TestCase):
             out = root / "_organized"
 
             result = run(root, out)
-            record = next(r for r in result["records"] if r.source == "random-notes.md")
+            record = next(r for r in result["records"] if r["source"] == "random-notes.md")
 
-            self.assertEqual(record.semantic_role, "architecture")
-            self.assertIn(record.semantic_confidence, {"MEDIUM", "HIGH"})
-            self.assertEqual(record.semantic_title, "Kernel Architecture")
+            self.assertEqual(record["semantic_role"], "architecture")
+            self.assertIn(record["semantic_confidence"], {"MEDIUM", "HIGH"})
+            self.assertEqual(record["semantic_title"], "Kernel Architecture")
             self.assertTrue((out / "markdown" / "architecture" / "random-notes.md").exists())
 
     def test_markdown_extracts_links_headings_and_system_references(self):
