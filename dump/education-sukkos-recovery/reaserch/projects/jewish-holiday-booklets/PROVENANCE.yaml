@@ -1,0 +1,137 @@
+schema_version: 0.1
+project_id: jewish-holiday-booklets
+status: provisional_source_grounding
+historical_coverage: open
+last_updated: 2026-09-22
+
+records:
+  - id: JHB:PROV:001
+    source_type: historical_artifact
+    source_locator: library:libfile_655f96692e888191b46856421aa1b60e
+    source_name: Jewish_Holiday_Booklet_Canonical_Control_v1_2.md
+    evidential_role: principal_pre_migration_control
+    establishes:
+      - bounded Jewish holiday booklet project identity
+      - four-page house architecture
+      - accepted-baseline and constrained-repair governance
+      - Fick accepted pre-repair baseline role
+    limitation: historical control; does not itself establish exact current binary object identity
+
+  - id: JHB:PROV:002
+    source_type: historical_artifact
+    source_locator: library:libfile_e1d9c4f64f68819184e8b7d2807e2505
+    source_name: 01_CURRENT_STATE.md
+    evidential_role: current_state_reconstruction_source
+    establishes:
+      - Yom Kippur completed benchmark status
+      - Fick constrained-repair state
+      - Keva and Conservation current route states
+      - open empirical and provenance coordinates
+    limitation: Library-side candidate state; GitHub STATE.yaml now records current repository projection
+
+  - id: JHB:PROV:003
+    source_type: historical_artifact
+    source_locator: library:libfile_4f10b9f8c1648191b5e1fe7794f60db1
+    source_name: 03_SOURCE_MANIFEST.md
+    evidential_role: source_manifest
+    establishes:
+      - SRC-JHB-003 Yom Kippur accepted artifact role
+      - SRC-JHB-004 Fick pre-repair accepted repair baseline
+      - candidate status of Keva
+      - active research provenance for Conservation
+    limitation: logical source manifest; not exact byte identity
+
+  - id: JHB:PROV:004
+    source_type: user_confirmed_conversation
+    source_locator: conversation:2026-09-21-jhb-artifact-migration
+    evidential_role: artifact_authority_rule
+    establishes:
+      - ideal booklet artifacts exist as individual images
+      - compiled PDF attempts are not the authoritative originals
+      - accepted individual source images are the objects to preserve in GitHub
+    limitation: applies to artifact authority; does not by itself identify every booklet page
+
+  - id: JHB:PROV:005
+    source_type: historical_artifact_set
+    source_locator:
+      - library:libfile_ba0bad595e4c819189b18b6472cbc4c1
+      - library:libfile_2629739fe438819193e85fe5f4fe2a8d
+      - library:libfile_a5054c8f66848191969ffaa80e8d4159
+      - library:libfile_be9038804ef481919c890436f7f28557
+    evidential_role: accepted_yom_kippur_source_set
+    establishes:
+      - JHB:YOMKIPPUR:P1
+      - JHB:YOMKIPPUR:P2
+      - JHB:YOMKIPPUR:P3
+      - JHB:YOMKIPPUR:P4
+      - JHB:YOMKIPPUR:ACCEPTED-PAGES:001
+    verification: SHA-256 and dimensions recorded in ARTIFACTS.yaml
+    limitation: repository byte transfer remains pending
+
+  - id: JHB:PROV:006
+    source_type: historical_artifact_set
+    source_locator:
+      - library:libfile_5162acadf3c0819180bda2b696f24896
+      - library:libfile_e9096bd5f5bc8191abb215820f934d1f
+      - library:libfile_eca67de1676c81919c8614fb2d7a13fd
+      - library:libfile_fa4da80ab1548191b01f4b5c35eff315
+    evidential_role: accepted_fick_source_set
+    establishes:
+      - JHB:FICK:P1
+      - JHB:FICK:P2
+      - JHB:FICK:P3
+      - JHB:FICK:P4
+      - JHB:FICK:ACCEPTED-PAGES:001
+    verification:
+      - library:libfile_c5ca6228883c819181ed7cd86080f240
+      - repository_commit:913fd09684d77e4c701cdbff9a04229ed102ecd8
+    limitation: repository byte transfer remains pending
+
+  - id: JHB:PROV:007
+    source_type: current_repository_artifact
+    source_locator: projects/jewish-holiday-booklets/MASTER_CONTROL.md
+    evidential_role: consolidated_control
+    establishes:
+      - shared learner architecture
+      - route and source-discipline controls
+      - current finding register
+      - repair and audit-target governance
+    limitation: exact artifact identities are subordinate to ARTIFACTS.yaml
+
+  - id: JHB:PROV:008
+    source_type: current_repository_artifact
+    source_locator: projects/jewish-holiday-booklets/ARTIFACTS.yaml
+    evidential_role: exact_research_object_registry
+    establishes:
+      - accepted source-set identities
+      - candidate and unresolved artifact states
+      - exact hashes, Library IDs, dimensions, and derivation relations
+    limitation: some repository binary paths remain pending and Keva/Conservation identity remains open
+
+
+  - id: JHB:PROV:009
+    source_type: user_confirmed_conversation_capture
+    source_locator: projects/jewish-holiday-booklets/evidence/JHB_IMAGE_GENERATION_CONVERSATION_CAPTURE_2026-09-22.md
+    source_name: JHB Image Generation Conversation and Findings Capture — 2026-09-22
+    evidential_role: generation_failure_history_and_production_architecture_evidence
+    establishes:
+      - recurring booklet image-generation failure classes observed across prior work
+      - demonstrated value of coordinated four-page generation when successful
+      - distinct failure modes of contact-sheet, miniaturized-page, and repeated-page outputs
+      - demonstrated usefulness of bounded local image replacement and repair
+      - corrected batch-generation plus salvage/local-repair production architecture
+      - requirement that future generation packages reference rather than duplicate authoritative booklet text
+      - current non-instantiation of a Fick-specific generation package while text authority is being established
+    limitation: conversation-derived evidence; does not itself authorize booklet text, artifact acceptance, or product acceptance
+
+unresolved_provenance:
+  - complete historical conversation corpus
+  - nine unrecovered curriculum-design packets identified by MASTER_CONTROL
+  - full derived-artifact/rejected-render history
+  - exact Keva candidate source set
+  - future accepted Conservation artifact, if any
+
+authority_rule: >
+  Provenance establishes origins and evidential roles. ARTIFACTS.yaml establishes exact
+  artifact identity and class. MASTER_CONTROL.md governs project control interpretation.
+  GOALS.yaml remains subject to the separate goal approval policy.
