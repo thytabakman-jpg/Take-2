@@ -1,0 +1,29 @@
+{
+  "base64_chars": 26548,
+  "bundle_bytes": 19909,
+  "bundle_sha256": "8566fb48226fc8fdc0bb2688388c63aeb6f5e8079fa58f458e7c2c35324c36db",
+  "chunk_count": 1,
+  "chunk_size": 700000,
+  "chunks": [
+    {
+      "chars": 26548,
+      "name": "bundle.b64.part-0000",
+      "sha256": "664c0f11e360a9adce8aa1f39229b22780995dd3bf4d900454656e9e29bbc066"
+    }
+  ],
+  "refs": [
+    "refs/heads/main 174aa6e90667ed7030ee21ef9766b7f8cc302f2b",
+    "refs/heads/recovery/full-git-bundle-20260929 65eed27ffaf229be39c678aa41c1aab372631a03",
+    "refs/remotes/origin/HEAD 174aa6e90667ed7030ee21ef9766b7f8cc302f2b",
+    "refs/remotes/origin/improvecore/full-corpus-placement-audit-20260926 ff8c70b80c050dda820316b6917b090163fc716f",
+    "refs/remotes/origin/improvecore/orphan-accounting-110 93e230d3caea364dc95fb1a86ce3b09722520a21",
+    "refs/remotes/origin/main 174aa6e90667ed7030ee21ef9766b7f8cc302f2b",
+    "refs/remotes/origin/recovery/full-git-bundle-20260929 65eed27ffaf229be39c678aa41c1aab372631a03",
+    "refs/remotes/pull/1 ff8c70b80c050dda820316b6917b090163fc716f"
+  ],
+  "repository": "thytabakman-jpg/Take-3",
+  "restore": "cat bundle.b64.part-* | base64 -d > repository.bundle && git bundle verify repository.bundle",
+  "schema": "take2-full-git-bundle-v1",
+  "source_head": "65eed27ffaf229be39c678aa41c1aab372631a03",
+  "source_ref": "refs/heads/recovery/full-git-bundle-20260929"
+}
