@@ -1,0 +1,144 @@
+schema_version: 0.1
+project_id: canonical-authority
+register: source_modules
+authority_status: canonical_working
+completeness: purposive_non_exhaustive
+source_identity_authority: research/SOURCE_REGISTRY.yaml
+
+uniform_profile:
+  fields:
+    - source_grounded_content
+    - native_domain
+    - native_function
+    - licensed_transfer
+    - truth_relevance
+    - proposition_specific_linkage
+    - case_instantiation
+    - evaluator_warrant_or_recognizability
+    - case_operational_effect
+
+modules:
+  - id: H_P
+    name: pluralism_and_determination
+    tier: core
+    anchors: [Eruvin_13b, Ritva_on_Eruvin_13b]
+    source_refs: [CANON:SRC:046, CANON:SRC:047]
+    native_domain: rabbinic disagreement and halakhic legitimacy/determination
+    native_function: [preserve_legitimacy, practical_determination]
+    required_bridge: >
+      Show why legitimacy or legal determination is evidence for which Genesis
+      1:1 peshat proposition is descriptively true.
+    case_result: no_case_selector_currently_established
+
+  - id: H_M
+    name: protected_reception
+    tier: core
+    anchors: [Rambam_Mamrim_1, Rambam_Introduction_to_Mishnah]
+    source_refs: [CANON:SRC:025, CANON:SRC:026]
+    native_domain: received Mosaic content versus reason-derived legal interpretation
+    native_function: [classify_provenance, distinguish_reception_from_derived_dispute, legal_procedure]
+    required_bridge: >
+      Show that the disputed Genesis 1:1 proposition belongs to a protected
+      received category and that the protection asymmetrically favors one rival.
+    case_result: classifies_or_relocates_without_current_selector
+
+  - id: H_A
+    name: authority_and_error
+    tier: core
+    anchors: [Horayot_2b]
+    source_refs: [CANON:SRC:050, CANON:SRC:029, CANON:SRC:030]
+    native_domain: institutional legal authority and erroneous ruling
+    native_function: [govern_legal_consequences, authoritative_procedure_despite_fallibility]
+    required_bridge: >
+      Establish a truth-directed relation from institutional authority to I_S and
+      an asymmetry between Rashi and Ramban.
+    case_result: no_case_selector_currently_established
+
+  - id: H_X
+    name: authenticated_prophecy
+    tier: core_positive_control
+    anchors: [Rambam_Yesodei_HaTorah_9, Rambam_Yesodei_HaTorah_10]
+    source_refs: [CANON:SRC:048]
+    native_domain: authentication and limits of prophetic authority
+    native_function: [authenticate_privileged_epistemic_access, constrain_legal_role]
+    required_bridge: >
+      Establish that authenticated privileged access actually covers I_S in the
+      target instance, then establish a reliable asymmetric relation to one rival and
+      evaluator-usable authentication of that relation.
+    current_route_stage: TRACE_not_instantiated
+    positive_control: >
+      If authenticated prophecy covered I_S, selected one rival, and the evaluator
+      had grounds to authenticate that coverage, the route could satisfy the current
+      architecture in principle.
+    case_result: successful_in_principle_not_currently_instantiated
+
+  - id: H_R
+    name: ramban_creation_tradition
+    tier: core_case_proximate
+    anchors: [Ramban_on_Genesis_1_1]
+    source_refs: [CANON:SRC:002]
+    native_domain: esoteric Maaseh Bereishis knowledge and creation interpretation
+    native_function: [invoke_received_creation_knowledge]
+    source_control:
+      - >
+        Ramban explicitly says the process of creation is a deep mystery known fully
+        only through Mosaic tradition.
+      - >
+        In the same Genesis 1:1 comment he separately presents what he calls the
+        simple correct explanation of the verse and later distinguishes an esoteric
+        way-of-truth reading.
+      - >
+        The currently inspected source therefore supports coexistence of peshat
+        argument and esoteric received knowledge but does not identify the peshat
+        syntactic proposition I_S as itself received esoteric content.
+    required_bridge: >
+      Establish that Ramban's particular syntactic judgment I_S is itself an item
+      of the received esoteric knowledge or is otherwise truth-supported by it.
+    current_route_stage: TRACE_incomplete
+    case_result: strong_candidate_but_proposition_linkage_not_established
+
+  - id: H_L
+    name: loss_and_reconstruction
+    tier: support
+    anchors: [Temurah_16a]
+    source_refs: [CANON:SRC:019]
+    native_domain: forgotten Torah material and reconstruction
+    native_function: [explain_loss, represent_recovery_through_reasoning]
+    required_bridge: >
+      Recover a truth-relevant selector rather than merely explaining why an
+      earlier selector or tradition could have been lost.
+    case_result: explanatory_without_current_selector
+
+  - id: H_G
+    name: generational_hierarchy
+    tier: support
+    anchors: [Shabbat_112b, Eruvin_53a]
+    source_refs: [CANON:SRC:022, CANON:SRC:021]
+    native_domain: comparative stature, memory, or intellectual hierarchy
+    native_function: [express_generational_asymmetry]
+    required_bridge: >
+      Connect comparative stature to reliability on this proposition type and
+      establish the relevant asymmetry between Rashi and Ramban.
+    case_result: no_proposition_specific_selector_currently_established
+
+case_evidence:
+  - id: E_ONKELOS
+    name: Onkelos_Genesis_1_1
+    source_refs: [CANON:SRC:049]
+    class: first_order_evidence
+    role: >
+      Early interpretive evidence bearing on the independent-reading question.
+      It is not automatically a second-order authority mechanism.
+  - id: E_REEM
+    name: Reem_on_Rashi_Genesis_1_1
+    source_refs: [CANON:SRC:004]
+    class: textual_and_explanatory_evidence
+    role: >
+      Variant-recension proposal relevant to how the disagreement arose or was
+      represented; it does not by itself decide I_S.
+
+control:
+  no_road_identity_claim: >
+    Modules are compared through the uniform typed profile. The paper does not
+    require an exhaustive intensional theory of what counts as one road.
+  open_inventory: true

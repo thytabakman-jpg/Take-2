@@ -1,0 +1,80 @@
+schema_version: 0.1
+project_id: canonical-authority
+object_type: currentness_contract
+artifact_id: CANON:CURRENTNESS:001
+authority_status: working_control
+status: current
+date: 2026-09-24
+
+purpose: >
+  Distinguish frozen research-object snapshots from live derived manuscript and control
+  surfaces so later manuscript progress is not mistaken for a silent change to the
+  canonical research result.
+
+authority_layers:
+  canonical_research:
+    owner: RESEARCH_ARCHITECTURE.yaml
+    semantics: >
+      CANON:ARCH:001 v1.2.0 is the accepted integrated pre-manuscript research object.
+      Its dependency_snapshot records the integration basis for that version, not a
+      promise that every referenced supporting artifact remains byte-identical forever.
+    mutation_rule: >
+      Change only when a material research dependency changes the fixed case, method,
+      current module/package result, contribution architecture, or realized research ceiling,
+      or when canonical metadata itself is semantically incorrect.
+
+  operational_state:
+    owner: STATE.yaml
+    semantics: >
+      Live execution, blockers, manuscript progress, current frontiers, and next action.
+      This layer may advance without changing CANON:ARCH:001.
+
+  manuscript_control:
+    owners:
+      - MANUSCRIPT_CONTRACT.md
+      - MANUSCRIPT_OUTLINE.md
+      - MANUSCRIPT_MOVEMENT_MAP.md
+      - READER_PROJECTION_MAP.yaml
+    semantics: >
+      Live reader-facing derivatives of the accepted research object. They may change
+      sectioning, movement order, visibility, and exposition while preserving research identity.
+
+  discovery_and_history:
+    owners:
+      - research/DISCOVERY_MAP.yaml
+      - audits/
+      - PROVENANCE.yaml
+    semantics: >
+      New findings and historical evidence do not become canonical research changes merely
+      by being recorded.
+
+snapshot_rule:
+  dependency_snapshot_meaning: integration_basis_at_version_creation
+  not_equal_to: live_dependency_registry
+  reconciliation_required_when:
+    - source_module_result_changes
+    - admitted_corpus_change_can_change_package_TRACE
+    - fixed_target_or_case_changes
+    - method_characterization_changes
+    - contribution_architecture_changes
+    - protected_result_regression_fails
+  reconciliation_not_required_merely_when:
+    - manuscript_sectioning_changes
+    - reader_movement_changes
+    - project_page_refreshes
+    - discovery_map_adds_control_or_manuscript_findings
+    - audit_history_grows
+
+manuscript_status_rule: >
+  A pre-manuscript research object may retain historical manuscript_status metadata from
+  its acceptance moment. Live manuscript status is owned by STATE.yaml and ARTIFACTS.yaml
+  unless a research-version change is otherwise required.
+
+protected_claim: >
+  This contract changes currentness semantics only. It does not alter the fixed case,
+  source modules, package-TRACE result, method, contribution claims, or research-object version.
+
+reopen:
+  - evidence that a supposedly manuscript-only delta changes a canonical research claim
+  - ambiguity about whether a dependency change is architecture-material
+  - versioning conflict

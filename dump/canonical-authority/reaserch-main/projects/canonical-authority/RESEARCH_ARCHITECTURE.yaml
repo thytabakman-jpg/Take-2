@@ -1,0 +1,620 @@
+schema_version: 0.2
+project_id: canonical-authority
+artifact_id: CANON:ARCH:001
+object_type: pre_manuscript_research_architecture
+authority_status: canonical_working
+artifact_status: operative_current
+version: 1.2.0
+spine_ref: SPINE.yaml
+
+dependency_snapshot:
+  spine_git_blob_sha: cba3cd8370ab03bea3f5e8f7172a4a1bff7084c0
+  source_modules_git_blob_sha: e797c846b8d8b3252a9ebef17a3fa36e40453cf1
+  source_registry_git_blob_sha: 3829527eb79085fe991a1cc52ab9552216e2ce05
+  ceiling_register_git_blob_sha: 38e905fcb360280d3142e272874484a8a064c482
+  discovery_map_git_blob_sha: 13b87310b6df12031beb1d36ea631c26bab8b5c9
+  provenance_git_blob_sha: 0b3ae05ac0e69509db3b0d2a66841e0bc75c0700
+  goals_git_blob_sha: 0bfa81d2b5583dd35ebbc99096a6f2c6f6d04dce
+  rule: >
+    These hashes identify the exact supporting control/evidence versions against
+    which this architecture version was integrated. A material dependency change
+    creates a reconciliation obligation before claims about the current paper are
+    treated as current.
+
+purpose: >
+  This is the single integrated research object representing the current paper before
+  manuscript drafting. It records the paper's fixed case, current comparison method,
+  current module outcomes, bounded result, current general contribution, validation
+  status, and realized ceiling. Supporting registers preserve detail and history, but
+  this object is the canonical answer to "what paper are we currently capable of
+  writing?"
+
+fixed_case:
+  locus: Genesis 1:1
+  target_proposition:
+    id: I_S
+    statement: >
+      On the peshat advanced, Genesis 1:1 has bara Elohim as its main predication
+      rather than as part of a temporal subordinate construction leading to verse 3.
+  rivals:
+    P_R: "not I_S"
+    P_N: "I_S"
+  first_order_grammar_verdict: outside_current_adjudicative_scope
+
+research_question: >
+  When canonical Jewish interpreters make incompatible factual claims, what gives a
+  third-party evaluator grounds to favor one as true?
+
+comparison_scope:
+  inventory_status: purposive_non_exhaustive
+  source_module_registry: research/SOURCE_MODULES.yaml
+  source_identity_registry: research/SOURCE_REGISTRY.yaml
+  admitted_modules:
+    - H_P
+    - H_M
+    - H_A
+    - H_X
+    - H_R
+    - H_L
+    - H_G
+  first_order_case_evidence:
+    - E_ONKELOS
+    - E_REEM
+
+
+declared_inquiry_frame:
+  notation: "Phi = <A,tau,e>"
+  components:
+    A: admitted_source_corpus
+    tau: fixed_truth_target
+    e: evaluator_regime
+  function: >
+    The frame declares which corpus, proposition pair, and evaluator-relative warrant
+    question are being assessed. Changing a frame coordinate can define a different
+    inquiry and is not automatically source supplementation.
+
+provenance_factorization:
+  source_attributable_content: S
+  inferential_coordinates: "Psi = <rho,beta,kappa,...>"
+  verdict_schema: "V = F(S;Phi,Psi)"
+  attribution_rule: >
+    Holding S and Phi fixed, a verdict difference produced by materially admissible
+    variation in representation, bridge, supplementation, composition, or other
+    inferential coordinates is not attributable to S alone.
+  consequence: >
+    Source-only verdicts, mixed-provenance verdicts, and evaluator-indexed verdicts
+    remain analytically distinct.
+
+method_architecture:
+  name: fixed_target_route_and_case_comparison
+
+  typed_setup:
+    label: PROFILE
+    status: required_setup_not_independent_success_conjunct
+    function: >
+      Reconstruct the candidate religious authority or knowledge structure in its
+      native context and identify the typed output it actually supplies.
+    compression_result: >
+      PROFILE remains a mandatory semantic job, but a well-formed TRACE already
+      presupposes the source node and native output. PROFILE therefore does not need
+      to appear as a fourth independent condition of route-level adjudicative success.
+
+  source_package_control:
+    admitted_space: AdmPkg_A
+    rule: >
+      TRACE may operate over an independently admissible nonempty package of source
+      structures drawn from A. Package membership alone does not license joint use:
+      every material cross-source bridge or supplementation relation requires
+      independent grounds.
+    singleton_embedding: >
+      Existing singleton route analysis is preserved as the special case X={H_i}.
+
+  route_level_characterization:
+    target: "{P_R, P_N}"
+    bearer: independently_admissible_source_package
+    gates:
+      - id: TRACE
+        function: >
+          Establish a licensed and source-attributable relation from the typed native
+          outputs of an admissible source package X to the fixed truth target.
+      - id: DISCRIMINATE
+        function: >
+          Establish that the traced relation gives asymmetric truth-directed support
+          to one rival rather than the other.
+      - id: RECOGNIZE
+        function: >
+          Establish that evaluator e has warranted epistemic grounds for identifying,
+          authenticating, and relying on that discriminator. Social recognizability
+          can support this job but cannot substitute for warrant by status alone.
+    source_ground_factorization: >
+      SourceGround(X,tau,Delta) iff TRACE(X,tau,Delta) and
+      DISCRIMINATE(Delta,tau).
+    evaluator_uptake: >
+      Usable_e(Delta,tau) iff RECOGNIZE_e(Delta,tau).
+    formal_candidate: >
+      PackageGround_e(X,tau) iff X is in AdmPkg_A and there exists Delta such that
+      TRACE(X,tau,Delta), Delta discriminates the rivals concerning tau, and evaluator
+      e can warrantedly recognize and use Delta.
+    status: candidate_minimal_job_decomposition_with_package_bearer
+    support: >
+      Hostile testing preserved TRACE, DISCRIMINATE, and RECOGNIZE as distinct jobs
+      but falsified the stronger singleton-only corpus obstruction: individually
+      incomplete source structures can in principle jointly complete TRACE. Package
+      TRACE repairs that defect without adding another reader-facing stage.
+
+  case_level_selection:
+    label: COMPOSE
+    status: required_when_multiple_completed_grounds_materially_conflict
+    input: completed_target_indexed_grounds
+    function: >
+      Apply an independently licensed aggregation or defeat relation to several
+      already-established target-indexed grounds. COMPOSE is distinct from package
+      TRACE: package TRACE can use several sources to establish one ground, whereas
+      COMPOSE operates over several completed grounds.
+    admissible_specification_set: >
+      K_e(G,tau) = {kappa | Adm_e(kappa | G,tau)}.
+    kappa_relative_selection: >
+      A verdict may be reported relative to one independently licensed kappa.
+    robust_selection: >
+      An unqualified strict case verdict requires the same strict warranted ordering
+      across every materially admissible kappa in K_e(G,tau). Where admissible kappas
+      conflict, the strongest result remains relative, partial, tied, or unresolved
+      unless a further independently licensed relation narrows K.
+    selector_attribution: >
+      Holding completed grounds G fixed, a verdict difference caused by varying kappa
+      cannot be attributed to G alone.
+    current_case_status: dormant
+    reason: >
+      Post-recovery package-level regression finds no currently admissible source
+      package that completes TRACE to I_S, so no completed grounds exist for COMPOSE
+      to aggregate in the fixed case.
+
+diagnostic_expansion:
+  purpose: >
+    These coordinates remain available for audit, source analysis, reviewer defense,
+    and regression testing. They are not independent reader-facing primitives.
+  coordinates:
+    - source_grounded_content
+    - bearer
+    - native_domain
+    - native_function
+    - provenance_and_attribution
+    - licensed_transfer
+    - truth_relevance
+    - proposition_specific_linkage
+    - case_instantiation_and_asymmetry
+    - evaluator_warrant_and_social_recognizability
+    - case_operational_effect
+  prior_B_starstar:
+    notation: "B** = T + L + I + W"
+    status: diagnostic_decomposition
+    mapping:
+      T_L_I: DISCRIMINATE_diagnostics
+      W: RECOGNIZE_diagnostics
+
+current_module_results:
+  H_P:
+    name: pluralism_and_determination
+    stopping_stage: TRACE
+    result: no_licensed_path_from_legitimacy_or_legal_determination_to_I_S
+
+  H_M:
+    name: protected_reception
+    stopping_stage: TRACE
+    result: classification_or_relocation_without_target_selector
+
+  H_A:
+    name: authority_and_error
+    stopping_stage: TRACE
+    result: institutional_authority_does_not_yet_supply_truth_directed_path_to_I_S
+
+  H_X:
+    name: authenticated_prophecy
+    stopping_stage: TRACE
+    result: >
+      positive_control_successful_in_principle_but_target_coverage_not_instantiated
+    note: >
+      If authenticated prophecy actually covered I_S, selected one rival, and was
+      warrantedly recognizable to the evaluator, the route could satisfy the method.
+      The fixed case does not establish that target coverage.
+
+  H_R:
+    name: ramban_creation_tradition
+    stopping_stage: TRACE
+    result: >
+      strong_case_proximate_candidate_but_link_from_esoteric_knowledge_to_I_S_not_established
+    strengthened_source_diagnosis: >
+      Ramban on Genesis 1:1 explicitly links full knowledge of creation to received
+      Mosaic tradition while separately giving a simple/peshat explanation and later
+      an esoteric way-of-truth reading. Current evidence does not identify I_S itself
+      as the received esoteric item.
+
+  H_L:
+    name: loss_and_reconstruction
+    stopping_stage: TRACE
+    result: explanatory_without_present_truth_selector
+
+  H_G:
+    name: generational_hierarchy
+    stopping_stage: TRACE
+    result: no_licensed_path_from_stature_to_reliability_on_I_S
+
+current_package_result:
+  status: current_corpus_bounded
+  statement: >
+    Relative to the currently reconstructed seven-module corpus and independently
+    licensed source use, no admissible source package completes TRACE to I_S.
+  reason: >
+    H_R supplies the only case-proximate received-creation content but still lacks the
+    source-grounded proposition-specific edge from that received content to I_S; no
+    other current module supplies that missing edge.
+  reopen_conditions:
+    - admitted_module_change
+    - material_source_recovery
+    - new_source_grounded_cross_module_bridge
+    - material_target_change
+    - material_primary_source_reinterpretation
+
+current_bounded_result: >
+  Across the currently admitted and audited second-order structures, no individually
+  or jointly admissible source package supplies a completed, proposition-specific,
+  evaluator-usable discriminator sufficient to favor P_R or P_N. The obstruction is
+  currently upstream at TRACE, so evaluator-specific RECOGNIZE and case-level COMPOSE
+  are not activated for the fixed case.
+
+contribution_layers:
+  C_case:
+    status: current
+    statement: >
+      The admitted Jewish routes do not currently supply a completed,
+      proposition-specific, source-traceable, evaluator-usable discriminator between
+      the fixed Rashi-Ramban rivals.
+
+  C_method:
+    status: current
+    statement: >
+      Heterogeneous religious authority structures can be compared at one fixed
+      truth-apt target by typed source reconstruction, independently licensed
+      source-package TRACE, DISCRIMINATE, and evaluator-relative RECOGNIZE.
+      Several completed grounds additionally require an explicit, independently
+      licensed COMPOSE/defeat relation for all-things-considered case selection.
+
+  C_disciplinary:
+    status: current
+    statement: >
+      Religious authority is functionally differentiated and target-relative.
+      Canonicality, legitimacy, transmission, authentication, institutional
+      settlement, social recognition, and proposition-specific truth support are
+      distinct jobs whose inferential connections must be made explicit.
+
+  C_publication:
+    status: derivative_not_argument_premise
+    statement: >
+      The current architecture supports testing top-tier field venues, but journal
+      ceiling remains derivative of C_case, C_method, C_disciplinary, literature
+      positioning, source closure, and manuscript execution.
+
+current_general_contribution:
+  central_methodological_claim: >
+    A religious authority source or independently licensed source package contributes
+    evaluator-usable grounds to a fixed truth dispute only through a
+    source-attributable target trace that discriminates the rivals and is warrantedly
+    recognizable by evaluator e. Several completed grounds further require a
+    separately licensed composition or defeat relation, whose outcome-material
+    selector contribution must be attributed separately from the source grounds.
+  derived_results:
+    - >
+      Religious authority is functionally differentiated and target-relative rather
+      than epistemically portable by status alone.
+    - >
+      Native success does not transfer to a distinct truth target without a licensed
+      and source-attributable path.
+    - >
+      Authentication, provenance, legitimacy, bindingness, memory, and social
+      efficacy do not become truth-discriminating merely because they are religiously
+      authoritative.
+    - >
+      A selector introduced only by unlicensed bridge or aggregation machinery
+      belongs to the augmented analysis rather than retroactively to the source.
+    - >
+      Objective route-level discriminatory force, evaluator-usable grounds, and
+      all-things-considered case selection are distinct levels.
+    - >
+      The scholar can analyze emic truth-directed structures second-order without
+      personally adjudicating the theological truth of the rival claims.
+    - >
+      Inquiry-frame coordinates and inferential contributions are distinct: corpus,
+      target, and evaluator declare the question, while outcome-material bridge,
+      representation, supplementation, and composition machinery require separate
+      attribution.
+    - >
+      Source-side discriminatory support and evaluator uptake are distinct. A route can
+      possess source-relative discriminatory force without yet being warrantedly usable
+      by every evaluator.
+    - >
+      Package TRACE and COMPOSE solve different multi-source problems: the former can
+      jointly establish one ground from several sources; the latter adjudicates among
+      several already-established grounds.
+
+current_disciplinary_reach:
+  - jewish_philosophy
+  - philosophy_of_religious_authority
+  - comparative_method_in_religious_studies
+  - sociology_of_religious_knowledge
+  - social_epistemology_of_religion
+  - broader_religious_studies_methodology
+
+cross_tradition_stress_tests:
+  status: exploratory_structural_holdouts_plus_one_prospective_structural_holdout
+  cases:
+    - catholic_magisterial_infallibility
+    - sunni_hadith_criticism
+    - pentecostal_charismatic_discernment
+    - latter_day_saint_revelation
+  result: >
+    All four structurally different cases preserve the typed-setup plus
+    TRACE/DISCRIMINATE/RECOGNIZE job structure. None requires a new route-level
+    primitive. They do reinforce the separate multi-route COMPOSE problem.
+  evidence: audits/CANONICAL_AUTHORITY_SUCCESSOR_CEILING_PROGRAM_2026-09-21.md
+
+prospective_sikh_holdout:
+  status: passed_without_rescue
+  preregistration: audits/CANONICAL_AUTHORITY_SIKH_PROSPECTIVE_HOLDOUT_PREREG_2026-09-21.md
+  result: audits/CANONICAL_AUTHORITY_SIKH_PROSPECTIVE_HOLDOUT_RESULT_2026-09-21.md
+  contribution: >
+    Independently strengthens the functional-differentiation, source-to-target
+    transfer, evaluator-use, and multi-authority composition distinctions.
+  limitation: structural_holdout_not_second_fixed_proposition_case
+
+nearest_neighbor_positioning:
+  status: bounded_targeted_review
+  closest_families:
+    - third_party_religious_disagreement_and_expert_authority
+    - Jewish_law_factual_disagreement
+    - Talmudic_conflict_and_institutional_revelation
+    - epistemic_and_religious_authority
+    - prophetic_discernment
+    - comparative_method_in_religious_studies
+    - sociology_of_religious_knowledge
+  result: >
+    No direct predecessor was located in the reviewed comparator corpus for the
+    combined fixed-target religious-authority architecture joining native-function
+    preservation, source-attributable package-aware TRACE, rival-specific
+    DISCRIMINATE, evaluator-relative RECOGNIZE, separate COMPOSE, and selector
+    attribution. The generic robustness and existential/universal quantifier patterns
+    are not themselves claimed as novel.
+  limitation: >
+    This is not an exhaustive priority claim. Full-text closure remains incomplete
+    for some comparators.
+
+publication_ceiling:
+  status: top_tier_field_ceiling_candidate_with_theory_freeze
+  rule: >
+    Optimize for the highest credible field venue supported by the final balance of
+    Jewish case depth, philosophical contribution, comparative method, religious-
+    studies methodology, novelty closure, and manuscript execution rather than
+    optimizing the research for one named journal in advance.
+  current_interpretation: >
+    The successor architecture strengthens the case for attempting a top-tier
+    religious-studies or philosophy-of-religion venue, but it does not establish
+    acceptance likelihood and is not yet a submission-ready manuscript.
+  manuscript_not_yet_written: true
+  theory_freeze: >
+    After this post-recovery package-TRACE regression, another broad abstract
+    theoretical move enters the current article only when it changes the fixed case,
+    changes the central characterization, removes a material reviewer vulnerability,
+    strictly compresses the visible theory, or raises the credible publication ceiling
+    enough to justify added scope and complexity.
+
+ceiling_raising:
+  realized_current_move_ids:
+    - CANON:CR:001
+    - CANON:CR:002
+    - CANON:CR:003
+    - CANON:CR:004
+    - CANON:CR:005
+    - CANON:CR:008
+    - CANON:CR:009
+    - CANON:CR:012
+    - CANON:CR:013
+    - CANON:CR:014
+    - CANON:CR:015
+    - CANON:CR:016
+    - CANON:CR:017
+    - CANON:CR:019
+    - CANON:CR:020
+    - CANON:CR:021
+    - CANON:CR:022
+    - CANON:CR:023
+    - CANON:CR:024
+    - CANON:CR:025
+    - CANON:CR:026
+    - CANON:CR:027
+    - CANON:CR:028
+    - CANON:CR:029
+    - CANON:CR:030
+    - CANON:CR:031
+    - CANON:CR:032
+    - CANON:CR:033
+    - CANON:CR:034
+    - CANON:CR:035
+    - CANON:CR:036
+    - CANON:CR:037
+    - CANON:CR:038
+    - CANON:CR:039
+    - CANON:CR:040
+  superseded_realized_move_ids:
+    - CANON:CR:018
+  not_yet_realized_move_ids:
+    - CANON:CR:006
+    - CANON:CR:010
+    - CANON:CR:011
+  definition: >
+    A ceiling raise is a spine-preserving change that yields a strictly stronger
+    current research object through stronger characterization, weaker assumptions,
+    wider defensible scope, explanatory compression, robustness, independent
+    validation, or higher publication-level significance while preserving protected
+    earlier results.
+  realization_rule: >
+    A ceiling-raising insight is not realized merely because it appears in a chat,
+    audit, discovery map, or ceiling register. It becomes part of the actual paper
+    architecture only when it is promoted into this RESEARCH_ARCHITECTURE.yaml, an
+    explicit strict-gain relation to the previous architecture is recorded, protected
+    results pass regression, and the artifact version is incremented.
+  non_counting_rule: >
+    Another field, source, analogy, distinction, notation system, or validation case
+    does not count as a ceiling raise unless it supports a strictly stronger result on
+    the same spine.
+  promotion_requirements:
+    - explicit_spine_attachment
+    - explicit_baseline_and_successor
+    - explicit_strict_gain_relation
+    - defensibility
+    - non_regression_against_protected_results
+    - net_gain_over_added_complexity
+    - anti_rescue_independent_admission_basis
+    - durable_update_to_this_artifact
+    - dependency_snapshot_reconciled
+    - artifact_registry_version_and_blob_reconciled
+    - state_and_manuscript_dependents_reconciled
+
+strict_gain_history:
+  - from_version: 1.0.2
+    to_version: 1.1.0
+    baseline_blob: 78914b59a4d4e6169e960714f1423fef148615c0
+    audit: audits/CANONICAL_AUTHORITY_SUCCESSOR_CEILING_PROGRAM_2026-09-21.md
+    strengthened_spine_links:
+      - H_F_to_R
+      - R_to_B
+      - B_to_C
+    gain:
+      - PROFILE compressed from independent success stage to typed setup
+      - TRACE_DISCRIMINATE_RECOGNIZE survive hostile necessity and collapse tests
+      - conditional route_level_sufficiency_characterization added
+      - missing_multi_route_COMPOSE_dependency_discovered
+      - case_method_disciplinary_publication_consequences_separated
+      - four_cross_tradition_holdouts_survived_without_new_route_primitive
+      - Ramban_TRACE_failure_strengthened_by_primary_text_inspection
+      - nearest_neighbor_novelty_positioning_strengthened
+    protected_results:
+      - fixed_Rashi_Ramban_collision
+      - current_bounded_no_selector_result
+      - prophecy_positive_control
+      - open_non_exhaustive_inventory
+      - no_universal_negative
+    non_regression: passed
+
+
+  - from_version: 1.1.0
+    to_version: 1.2.0
+    baseline_blob: 9f98fed71d7abbac543aef8841fb6c0251df8b45
+    audit: audits/CANONICAL_AUTHORITY_CEILING_CONSOLIDATION_2026-09-22.md
+    strengthened_spine_links:
+      - Q_to_R
+      - H_F_to_R
+      - R_to_B
+      - B_to_C
+    gain:
+      - COMPOSE strengthened from one declared rule to robust selection across the materially admissible specification family
+      - composition and meta-selector contributions receive explicit provenance attribution
+      - prospective Sikh structural holdout added without rescue
+      - novelty narrowed to a defensible intersection claim
+      - evaluator under-typing repaired through explicit frame and uptake indexing
+      - singleton-only TRACE bearer generalized to independently admissible source packages
+      - maximum-hostility counterexample preserved and repaired rather than suppressed
+      - package-level current-corpus TRACE obstruction established after recovery reconciliation
+      - evidence layers separated so case demonstration does not impersonate general-method validation
+      - reader-facing contribution compressed and broad abstract theory placed under a publication-value freeze
+    protected_results:
+      - fixed_Rashi_Ramban_collision
+      - exact_target_I_S
+      - current_bounded_no_selector_result
+      - prophecy_positive_control
+      - open_non_exhaustive_inventory
+      - no_universal_negative
+      - stable_spine
+    non_regression: passed
+    package_TRACE_post_recovery_regression: passed
+
+authority_map:
+  GOALS.yaml: owns_project_goals_and_success_conditions
+  SPINE.yaml: owns_stable_argument_identity_and_invariants
+  RESEARCH_ARCHITECTURE.yaml: owns_current_integrated_pre_manuscript_paper_architecture
+  research/SOURCE_MODULES.yaml: owns_detailed_source_module_profiles
+  research/SOURCE_REGISTRY.yaml: owns_exact_source_identity_verification_status_and_bibliographic_control
+  research/CEILING_RAISE_REGISTER.yaml: owns_ceiling_candidate_and_decision_history
+  research/DISCOVERY_MAP.yaml: owns_discovery_history_and_spine_attachments
+  PROVENANCE.yaml: owns_historical_origin_and_support_records
+  STATE.yaml: owns_current_operational_status_blockers_and_next_action
+  MANUSCRIPT_CONTRACT.md: owns_translation_rules_from_research_object_to_reader_facing_article
+  audits/: owns_historical_audit_evidence_not_current_architecture
+
+dependency_contracts:
+  SPINE.yaml: >
+    Stable identity dependency. A substantive spine change is major and cannot be
+    silently absorbed as an ordinary ceiling raise.
+  research/SOURCE_MODULES.yaml: >
+    Detailed module authority. A material module change requires regression of
+    current_module_results and refresh of this architecture snapshot.
+  research/SOURCE_REGISTRY.yaml: >
+    Exact source-identity authority. Source modules refer to stable CANON:SRC IDs;
+    source-registry verification changes require review of every affected module but
+    do not silently change its inferential result.
+  research/CEILING_RAISE_REGISTER.yaml: >
+    Candidate/decision history. A central or article-visible move absent from this
+    architecture is a promotion gap and is not part of the current paper.
+  research/DISCOVERY_MAP.yaml: >
+    Discovery history and attachment map. Discovery presence alone does not alter
+    this architecture.
+  PROVENANCE.yaml: >
+    Historical support. New provenance can strengthen or challenge architecture but
+    does not silently alter it.
+  STATE.yaml: >
+    Operational derivative. It points to this object; it does not redefine it.
+
+research_to_manuscript_boundary:
+  research_object: RESEARCH_ARCHITECTURE.yaml
+  manuscript_status: absent_not_yet_drafted
+  manuscript_rule: >
+    The eventual manuscript must be derived from this research object and the
+    MANUSCRIPT_CONTRACT. Research registers and audit history are not copied into the
+    article merely because they exist.
+
+next_ceiling_frontier:
+  status: broad_abstract_theory_frozen_by_default
+  highest_leverage_open_dependency: manuscript_execution_and_remaining_evidence_closure
+  rationale: >
+    The current method now survives hostile package-level TRACE testing, evaluator
+    indexing, composition robustness, selector-attribution, and contribution-minimality
+    checks. Additional abstract machinery is routed to follow-on research unless it
+    reopens a result-bearing coordinate under the publication-freeze rule.
+  current_article_frontiers:
+    - remaining_full_text_nearest_neighbor_closure
+    - final_article_facing_source_and_edition_normalization
+    - manuscript_reader_dependency_execution
+    - final_journal_specific_framing
+  follow_on_research:
+    - selector_provenance_in_religious_authority
+    - joint_authority_and_composition
+    - PD_research_methodology
+
+change_control:
+  versioning:
+    patch: clarification_or_support_change_without_architecture_change
+    minor: realized_ceiling_raise_or_method_contribution_change_preserving_spine
+    major: spine_or_project_identity_change_requires_separate_goal_or_project_review
+  regression_target: current_module_results_and_protected_results
+  current_supporting_audit: audits/CANONICAL_AUTHORITY_CEILING_CONSOLIDATION_2026-09-22.md
+
+
+backend_reconciliation_note:
+  status: reconciled_without_substantive_architecture_change
+  date: 2026-09-22
+  effect: >
+    Backend recovery added stable source identities, source-module references, and
+    historical provenance while preserving the v1.1.0 fixed case, method, module
+    outcomes, bounded result, and realized ceiling.
+  version_effect: >
+    No semantic version increment is required because the integrated paper
+    architecture did not change; this update refreshes dependency identity and
+    recoverability metadata only.

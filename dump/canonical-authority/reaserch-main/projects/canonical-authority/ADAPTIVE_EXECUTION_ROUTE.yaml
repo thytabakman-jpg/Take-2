@@ -1,0 +1,83 @@
+schema_version: 0.1
+project_id: canonical-authority
+object_type: adaptive_cross_scale_execution_route
+artifact_id: CANON:ADAPTIVE-ROUTE:001
+authority_status: working_execution_control
+status: current
+date: 2026-09-24
+
+root_goal: CANON:G0
+
+purpose: >
+  Connect manuscript movements M01-M21 with W1/W2/W3 publication-readiness branches
+  so local drafting progresses only after the exact result-sensitive macro dependency
+  for that movement is closed or typed OPEN, without forcing global workstream closure.
+
+policy:
+  name: coupled_alternating_movement_readiness
+  cycle:
+    - select_live_movement
+    - identify_owning_macro_branch
+    - close_only_result_sensitive_dependency
+    - draft_or_test_movement
+    - tool_run_closure
+    - lift_material_delta
+    - goal_reattachment_gate
+    - observe_or_refocus_decision
+    - reselect
+
+mode_controller:
+  owner: TOOL-ORC-001
+  current_mode: REFOCUS
+  observe_reentry_triggers:
+    - untyped_relation_discovered
+    - representation_defect
+    - source_or_corpus_change
+    - repeated_local_only_progress
+    - material_order_sensitive_conflict
+
+routing:
+  - movement_region: [M05]
+    macro_owner: W1
+    relation: corpus_admission_and_coverage
+    priority: first
+  - movement_region: [M06,M07,M08,M09,M15,M16]
+    macro_owner: W1
+    relation: paper_facing_source_and_provenance
+  - movement_region: [M10,M11,M12,M13]
+    macro_owner: W3
+    relation: theory_visibility_and_method_clarity
+    default: no_theory_reopen_without_trigger
+  - movement_region: [M17,M18,M19]
+    macro_owner: W3
+    relation: disciplinary_scope_and_article_admission
+  - movement_region: [M20,M21]
+    macro_owner: W2
+    relation: nearest_neighbor_and_novelty_closure
+
+root_progress_gate:
+  owner: RB-GRG-001
+  dispositions: [ROOT_PROGRESS,BLOCKER_REMOVAL,SUPPORT_ONLY,LOCAL_ONLY,META_ONLY,NONE,OPEN]
+
+regression_control:
+  owner: RB-RRR-001
+  baseline: linear_manuscript_first_with_parallel_macro_workstreams
+  current_candidate: coupled_alternating_movement_readiness
+  disposition: ACCEPT
+  reopen:
+    - protected_regression
+    - routing_overhead_exceeds_gain
+    - new_evidence_changes_dependency_geometry
+
+saturation:
+  owner: RB-SYD-001
+  global_control_architecture: relative_saturation
+  canonical_theory: frozen_relative_saturation
+  manuscript_readiness_interfaces: live_material_yield
+
+first_packet:
+  id: CANON:PACKET:M05-W1:001
+  movement: M05
+  macro_owner: W1
+  job: manuscript_ready_corpus_admission_basis
+  status: executed_in_current_run

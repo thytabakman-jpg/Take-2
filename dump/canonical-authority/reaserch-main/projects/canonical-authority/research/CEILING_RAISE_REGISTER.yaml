@@ -1,0 +1,745 @@
+schema_version: 0.1
+project_id: canonical-authority
+register: ceiling_raise
+authority_status: canonical_working
+
+definition: >
+  A ceiling-raising move adds or extracts material that increases the strongest
+  defensible scholarly contribution of the project while preserving its core
+  identity and dependency spine.
+
+criteria:
+  P:
+    name: preservation
+    test: preserves the paper goal, fixed case, and controlling spine
+  A:
+    name: attachment
+    test: attaches to a precise existing spine node or dependency
+  U:
+    name: upward_contribution
+    test: >
+      increases at least one publication-relevant dimension such as theoretical
+      significance, generality, novelty, explanatory power, interdisciplinary
+      relevance, robustness, or importance
+  D:
+    name: defensibility
+    test: the stronger claim is actually supported and does not outrun evidence
+  N:
+    name: net_gain
+    test: >
+      expected scholarly gain exceeds added scope drift, complexity, research
+      burden, reviewer attack surface, and word-count cost
+
+realization_semantics:
+  candidate_location: this_register
+  realized_object: ../RESEARCH_ARCHITECTURE.yaml
+  rule: >
+    A move can be accepted as a ceiling-raise candidate or research result in this
+    register without yet changing the actual paper architecture. It is realized
+    only when its surviving effect is integrated into RESEARCH_ARCHITECTURE.yaml,
+    that artifact's version is incremented when required, and affected dependents
+    are reconciled.
+  anti_orphan_rule: >
+    A move marked article-visible or central that is absent from the current
+    RESEARCH_ARCHITECTURE.yaml is a promotion gap and must not be treated as part of
+    the current paper.
+
+idealization:
+  statement: >
+    Prefer the admissible move with the greatest defensible increase in scholarly
+    significance, novelty, generality, or robustness per unit of scope drift,
+    complexity, research burden, and review risk, subject to spine preservation.
+  note: qualitative control; no unsupported numerical scoring is implied
+
+moves:
+  - id: CANON:CR:001
+    name: target_relative_authority
+    spine_attachment: [Q, H_F, R, C]
+    status: accepted_current
+    article_visibility: central
+    contribution: >
+      Distinguish the kind of output an authority mechanism actually determines
+      from the descriptive truth target at issue. Authority success is not
+      epistemically portable by status alone.
+    imported_support:
+      - contemporary epistemic-authority literature
+      - religious-authority typology
+      - PD target/result typing
+
+  - id: CANON:CR:002
+    name: licensed_transfer_and_attribution
+    spine_attachment: [R, C]
+    status: accepted_current
+    article_visibility: central
+    contribution: >
+      Separate source-grounded content from bridge machinery and attribute a
+      resulting selector to the augmented system when the bridge is not licensed
+      by the source or relevant interpretive framework.
+    imported_support:
+      - PD:G2A
+      - source-attribution and application-versus-supplementation work
+
+  - id: CANON:CR:003
+    name: third_party_warrant_layer
+    spine_attachment: [Q, B, C]
+    status: accepted_current
+    article_visibility: central
+    contribution: >
+      Distinguish existence of a truth-relevant discriminator from a later
+      evaluator's grounds for identifying, authenticating, scoping, and relying
+      on that discriminator in this case.
+    effect_on_B: "B** = T + L + I + W"
+
+  - id: CANON:CR:004
+    name: bearer_and_representation_control
+    spine_attachment: [A, R]
+    status: accepted_support
+    article_visibility: selective
+    contribution: >
+      Distinguish the evidential bearer under discussion: consonantal text,
+      Masoretic realization, Targumic reading, recension, commentator's report,
+      printed text, or later authority claim.
+
+  - id: CANON:CR:005
+    name: indexed_pluralism
+    spine_attachment: [Q, H_F, C]
+    status: accepted_support
+    article_visibility: selective
+    contribution: >
+      Show that determinate legitimacy or binding practice can coexist with
+      unresolved descriptive truth because the determination relations are indexed
+      to different targets.
+
+  - id: CANON:CR:006
+    name: inverse_problem_of_religious_outcomes
+    spine_attachment: [R, C]
+    status: promising_support
+    article_visibility: discussion_only_unless_needed
+    contribution: >
+      An observed institutional or canonical endpoint does not by itself identify
+      the epistemic mechanism that generated or warrants it.
+
+  - id: CANON:CR:007
+    name: explicit_PD_framework_in_article
+    spine_attachment: [R]
+    status: rejected_for_current_article
+    article_visibility: none
+    reason: >
+      Making the paper defend the unpublished PD framework itself would add a
+      second publication burden, expand reviewer attack surface, and risk replacing
+      the Jewish/religious-authority paper with a PD methods paper.
+    use_instead: >
+      Use PD-derived distinctions under the hood and state only the independently
+      defensible methodological distinctions needed by the article.
+
+  - id: CANON:CR:008
+    name: inferential_not_historical_causal_path
+    spine_attachment: [Q, R]
+    status: accepted_support
+    article_visibility: brief_method_clarification
+    contribution: >
+      Clarify that the typed source-to-case path represents inferential or
+      justificatory dependence, not a historical-causal account of why Rashi,
+      Ramban, or later authorities came to hold their positions.
+    imported_support:
+      - family-systems circular-causality stress test
+    net_gain: pass_if_compact
+
+  - id: CANON:CR:009
+    name: multi_coordinate_transfer_test
+    spine_attachment: [R, B]
+    status: accepted_research_control
+    article_visibility: implicit_unless_case_requires_detail
+    contribution: >
+      Stress-test licensed transfer across separately typed coordinates such as
+      native domain, native function, target proposition, bearer, evaluator, and
+      evidential role rather than treating transfer as one undifferentiated arrow.
+    imported_support:
+      - educational transfer-of-learning taxonomy
+      - PD indexed characterization
+    net_gain: pass_under_the_hood
+
+  - id: CANON:CR:010
+    name: attribute_indexed_authenticity
+    spine_attachment: [A, Q, R, C]
+    status: conditional_support
+    article_visibility: only_if_authenticity_language_remains_live
+    contribution: >
+      Treat authenticity as attribute-indexed. Authenticity of provenance,
+      continuity, material identity, reception, or function does not by itself
+      establish truth of every proposition carried by the authentic bearer.
+    imported_support:
+      - art-conservation authenticity literature
+      - existing source-attribution controls
+    net_gain: conditional
+
+  - id: CANON:CR:011
+    name: fixed_case_as_worked_demonstration
+    spine_attachment: [A, R, C]
+    status: manuscript_strategy
+    article_visibility: structural_not_theoretical
+    contribution: >
+      Use the fixed Rashi-Ramban dispute as a worked demonstration of the general
+      authority-transfer problem. Depth of control over one case is treated as the
+      mechanism by which the general method becomes inspectable, not as a claim that
+      one case statistically represents all canonical disagreement.
+    imported_support:
+      - worked-example research in education
+    net_gain: pass_for_manuscript_design
+
+  - id: CANON:CR:012
+    name: religious_knowledge_structures
+    spine_attachment: [Q, H_F, R, C]
+    status: accepted_current
+    article_visibility: central
+    contribution: >
+      Situate the source modules inside the emerging sociology of religious
+      knowledge: religious institutions, texts, interpreters, and practices can
+      produce, transmit, classify, authenticate, or authorize different kinds of
+      knowledge without each function supplying proposition-specific adjudication.
+    imported_support:
+      - sociology_of_religious_knowledge
+      - social_epistemology_of_religion
+    net_gain: high
+
+  - id: CANON:CR:013
+    name: fixed_target_comparison
+    spine_attachment: [A, H_F, R, C]
+    status: accepted_current
+    article_visibility: central
+    contribution: >
+      Treat the paper as a controlled comparative method: hold one truth-apt
+      proposition pair fixed, reconstruct heterogeneous religious mechanisms in
+      native context, and compare only what each contributes to the explicit target.
+      This preserves difference while supplying a common tertium comparationis.
+    imported_support:
+      - comparative_method_in_religious_studies
+    net_gain: high
+
+  - id: CANON:CR:014
+    name: philosophy_of_religious_studies_positioning
+    spine_attachment: [Q, R, C]
+    status: accepted_current
+    article_visibility: central
+    contribution: >
+      Frame the conceptual analysis of religious authority as metatheoretical work
+      within religious studies rather than as straight philosophy of religion. The
+      object is the inferential and methodological use of authority categories in an
+      empirically grounded religious case.
+    imported_support:
+      - Religion_2024_philosophy_of_religious_studies_issue
+    net_gain: high_for_Religion_fit
+
+  - id: CANON:CR:015
+    name: canonicality_as_functional_status
+    spine_attachment: [H_F, R, C]
+    status: accepted_support
+    article_visibility: selective
+    contribution: >
+      Treat canonicality as a status that can perform memory, identity, circulation,
+      legitimacy, and community functions. A separate bridge is required before
+      canonical status can function as proposition-specific truth evidence.
+    imported_support:
+      - cultural_memory
+      - canon_archive_studies
+      - scripturalism
+    net_gain: pass
+
+  - id: CANON:CR:016
+    name: socially_recognizable_authority
+    spine_attachment: [A, Q, B, C]
+    status: accepted_current
+    article_visibility: central_support
+    contribution: >
+      Expand W in B** beyond private access to evidence: religious authority is
+      socially mediated through recognizable bearers, texts, institutions, practices,
+      and interpretive communities, so third-party use requires a socially and
+      evidentially identifiable authority relation.
+    imported_support:
+      - sociology_of_religious_authority
+      - scripture_as_external_authority
+      - lived_and_practice_approaches
+    net_gain: pass
+
+  - id: CANON:CR:017
+    name: etic_emic_normativity_boundary
+    spine_attachment: [Q, B, C]
+    status: accepted_current
+    article_visibility: central_methodological_control
+    contribution: >
+      Keep the truth-directed target internal to the audited religious structures
+      while the scholar performs second-order analysis of what those structures
+      establish. The paper does not itself decide theological truth or prescribe
+      belief.
+    imported_support:
+      - normativity_in_religious_studies
+      - philosophy_of_religious_studies
+    net_gain: high_for_Religion_fit
+
+  - id: CANON:CR:018
+    name: four_stage_compression
+    spine_attachment: [H_F, R, B, C]
+    status: superseded_by_CANON_CR_019
+    article_visibility: historical_predecessor
+    contribution: >
+      Compress the current source-to-adjudication architecture into four
+      reader-facing operations: PROFILE the source structure's native output,
+      TRACE a licensed and source-attributable path to the fixed target,
+      DISCRIMINATE whether that path gives asymmetric truth-directed support between
+      the rivals, and RECOGNIZE whether the third-party evaluator has grounds to
+      identify and use the discriminator.
+    formal_candidate: >
+      Adj_e(H_i,tau) iff there exists Delta_i^tau such that Delta_i^tau is
+      traceable to H_i, discriminates the fixed rival propositions in tau, and is
+      warrantedly recognizable by evaluator e.
+    compression_effect: >
+      Native domain, function, bearer, provenance, bridge license, authenticity,
+      truth relevance, proposition linkage, case instantiation, and social
+      recognizability remain available as diagnostic coordinates rather than
+      independent reader-facing primitives.
+    imported_support:
+      - transportability_and_external_validity
+      - social_epistemology_and_expert_disagreement
+      - database_and_archival_provenance
+      - Bayesian_evidence
+      - explanatory_unification
+      - minimum_description_length
+      - modular_systems_architecture
+    net_gain: high
+    regression_status: preserves_all_current_ceiling_results
+
+  - id: CANON:CR:019
+    name: typed_setup_plus_three_route_gates
+    spine_attachment: [H_F, R, B, C]
+    status: accepted_current
+    article_visibility: central_method
+    baseline_object: CANON:ARCH:001_v1.0.2
+    strict_gain: >
+      Refines the four-stage procedural method by showing that PROFILE is required
+      typed setup rather than an independent success conjunct, while hostile deletion
+      tests preserve TRACE, DISCRIMINATE, and RECOGNIZE as distinct necessary
+      route-level jobs. The successor gives a conditional sufficiency characterization
+      for evaluator-usable pro tanto grounds without losing any current case result.
+    contribution: >
+      After typed source setup, a religious authority route supplies evaluator-usable
+      pro tanto grounds only when there is a licensed/source-attributable TRACE to the
+      fixed target, the traced relation DISCRIMINATES the rivals concerning truth, and
+      the evaluator can RECOGNIZE the discriminator on warranted grounds.
+    formal_candidate: >
+      RouteGround_e(H_i,tau) iff there exists Delta_i^tau such that Delta_i^tau is
+      traceable to H_i, discriminates tau, and is warrantedly recognizable by e.
+    regression_status: preserves_case_results_with_H_X_stopping_stage_refined
+    net_gain: high
+
+  - id: CANON:CR:020
+    name: multi_route_composition_requirement
+    spine_attachment: [B, C]
+    status: accepted_current
+    article_visibility: central_if_general_characterization_claimed
+    baseline_object: CANON:ARCH:001_v1.0.2
+    strict_gain: >
+      Repairs a sufficiency defect in the prior architecture. Two individually valid
+      route-level discriminators can point in opposite directions, so route success
+      does not itself entail all-things-considered case selection.
+    contribution: >
+      Decisive case selection over multiple successful routes requires an explicit,
+      independently licensed, non-outcome-driven composition or defeat relation.
+    formal_candidate: >
+      CaseSelect_e(Hset,tau) iff COMPOSE_A({Delta_i | RouteGround_e(H_i,tau)})
+      yields a strict warranted ordering of the rivals.
+    current_case_effect: >
+      Dormant in the current Rashi-Ramban corpus because no admitted route yet
+      reaches a complete usable discriminator.
+    net_gain: high_for_generality
+
+  - id: CANON:CR:021
+    name: contribution_layer_decomposition
+    spine_attachment: [C]
+    status: accepted_current
+    article_visibility: research_and_manuscript_control
+    baseline_object: CANON:ARCH:001_v1.0.2
+    strict_gain: >
+      Prevents case-result, general method, disciplinary significance, and journal
+      ceiling from being treated as one undifferentiated consequence.
+    contribution: >
+      Preserve C as the macro-node but distinguish C_case, C_method,
+      C_disciplinary, and C_publication with explicit dependency direction.
+    net_gain: high_anti_bloat
+
+  - id: CANON:CR:022
+    name: cross_tradition_structural_holdouts
+    spine_attachment: [H_F, R, B, C]
+    status: accepted_support
+    article_visibility: validation_support_not_case_expansion
+    contribution: >
+      Exploratory stress tests across papal/magisterial infallibility, Sunni hadith
+      criticism, Pentecostal/charismatic discernment, and Latter-day Saint revelation
+      preserved the same route-level jobs without requiring a new primitive.
+    limitation: >
+      These are exploratory structural holdouts, not prospective independent
+      validation and not additional case studies for the manuscript by default.
+    net_gain: pass_for_scope_support
+
+  - id: CANON:CR:023
+    name: ramban_trace_diagnosis_strengthened
+    spine_attachment: [H_F, R, C]
+    status: accepted_support
+    article_visibility: case_analysis
+    contribution: >
+      Direct inspection of Ramban on Genesis 1:1 strengthens the distinction between
+      his received/esoteric creation knowledge and his separately articulated peshat
+      account; no source-grounded identification of I_S itself as received esoteric
+      content was located.
+    effect: >
+      H_R remains the strongest case-proximate route but still fails TRACE.
+    net_gain: pass
+
+
+  - id: CANON:CR:024
+    name: admissible_composition_set_and_robust_selection
+    spine_attachment: [B, C]
+    status: accepted_current
+    article_visibility: central_if_general_characterization_claimed
+    strict_gain: >
+      Replaces an underconstrained existential COMPOSE rule with a distinction between
+      kappa-relative selection and unqualified selection invariant across the
+      materially admissible composition-specification family.
+    formal_candidate: >
+      K_e(G,tau) = {kappa | Adm_e(kappa | G,tau)}. A kappa-relative verdict reports
+      what follows under one licensed specification; an unqualified strict verdict
+      requires the same strict ordering across every materially admissible kappa.
+    novelty_boundary: >
+      The existential/universal robustness pattern is not claimed as novel. The
+      contribution lies in its role inside the source-grounded religious-authority
+      architecture.
+    evidence:
+      - audits/CANONICAL_AUTHORITY_CEILING_CONSOLIDATION_2026-09-22.md
+    net_gain: high
+
+  - id: CANON:CR:025
+    name: composition_selector_attribution
+    spine_attachment: [R, B, C]
+    status: accepted_current
+    article_visibility: central_implication_or_compact_method_result
+    strict_gain: >
+      Holding route grounds fixed while varying COMPOSE isolates selecting information
+      introduced by the composition layer rather than by the source routes.
+    formal_candidate: >
+      If G is fixed and COMPOSE_kappa1(G) != COMPOSE_kappa2(G), the output difference
+      cannot be attributed to the fixed source-route grounds alone.
+    evidence:
+      - audits/CANONICAL_AUTHORITY_CEILING_CONSOLIDATION_2026-09-22.md
+    net_gain: high
+
+  - id: CANON:CR:026
+    name: prospective_sikh_authority_holdout
+    spine_attachment: [H_F, R, B, C]
+    status: accepted_support
+    article_visibility: compact_validation_support
+    strict_gain: >
+      Adds a prospectively frozen structural holdout that preserved the route-level
+      architecture without a rescue primitive and independently exposed differentiated
+      scriptural, interpretive, communal, and institutional authority functions.
+    limitation: >
+      Structural holdout only; not a second fixed-proposition case and not universal
+      external validation.
+    evidence:
+      - audits/CANONICAL_AUTHORITY_CEILING_CONSOLIDATION_2026-09-22.md
+    net_gain: high_validation
+
+  - id: CANON:CR:027
+    name: bounded_intersection_novelty
+    spine_attachment: [C]
+    status: accepted_support
+    article_visibility: novelty_positioning
+    strict_gain: >
+      Narrows novelty to the intersection of native-function preservation, fixed-target
+      source trace, rival-specific discrimination, evaluator uptake, explicit
+      composition, and selector attribution rather than claiming novelty for each
+      component or for generic robustness mathematics.
+    limitation: reviewed_comparator_corpus_only
+    evidence:
+      - audits/CANONICAL_AUTHORITY_CEILING_CONSOLIDATION_2026-09-22.md
+    net_gain: high_if_bounded
+
+  - id: CANON:CR:028
+    name: article_facing_source_closure
+    spine_attachment: [H_F, R, C]
+    status: accepted_support
+    article_visibility: source_notes_and_case_analysis
+    strict_gain: >
+      Converts a vague demand for more Jewish sources into stable source identities and
+      targeted article-facing verification. The recovered backend now contains stable
+      source IDs for the central H_P, H_A, H_X, fixed-case, and supporting modules.
+    remaining_limit: >
+      Publication-edition normalization and pending source gates remain visible where
+      not yet closed.
+    evidence:
+      - projects/canonical-authority/research/SOURCE_REGISTRY.yaml
+    net_gain: high_low_scope_cost
+
+  - id: CANON:CR:029
+    name: publication_value_optimization_control
+    spine_attachment: [C]
+    status: accepted_research_control
+    article_visibility: none
+    contribution: >
+      Evaluate ceiling moves by defensible gains in novelty, importance, rigor,
+      generality, evidential support, clarity, reproducibility, and reader
+      recoverability relative to scope drift, complexity, research burden, review
+      attack surface, and word-count cost.
+    operational_question: >
+      How can this paper's publication value be raised further without changing the
+      spine or sacrificing established results?
+    net_gain: high_research_control
+
+  - id: CANON:CR:030
+    name: reader_dependency_compression
+    spine_attachment: [H_F, R, B, C]
+    status: accepted_manuscript_control
+    article_visibility: manuscript_architecture
+    strict_gain: >
+      Keep the full backend for recoverability while reducing reader-visible machinery
+      to source reconstruction, TRACE, DISCRIMINATE, RECOGNIZE, and a compact COMPOSE
+      boundary only where case-level selection becomes relevant.
+    evidence:
+      - audits/CANONICAL_AUTHORITY_REFEREE_MINIMALITY_FOLLOWON_AUDIT_2026-09-22.md
+    net_gain: high
+
+  - id: CANON:CR:031
+    name: selector_provenance_closure
+    spine_attachment: [R, B, C]
+    status: accepted_current
+    article_visibility: compact_core_implication
+    strict_gain: >
+      Prevents selector control from merely moving upward to a meta-rule. Every
+      outcome-material selector must be source-attributable, explicitly
+      evaluator-licensed with corresponding claim indexing, or irrelevant by
+      conclusion invariance; otherwise the strongest result remains relative, partial,
+      tied, or unresolved.
+    evidence:
+      - audits/CANONICAL_AUTHORITY_CEILING_CONSOLIDATION_2026-09-22.md
+    net_gain: high
+
+  - id: CANON:CR:032
+    name: frame_contribution_factorization
+    spine_attachment: [Q, R, B, C]
+    status: accepted_current
+    article_visibility: compact_methodological_control
+    strict_gain: >
+      Distinguishes inquiry-frame coordinates from inferential contributions. The
+      admitted corpus A, target tau, and evaluator e define the declared frame Phi;
+      representation, bridge, supplementation, composition, and related coordinates
+      belong to inferential machinery Psi whose outcome-material contribution must be
+      attributed separately.
+    formal_candidate: >
+      V = F(S;Phi,Psi), with Phi=<A,tau,e>. Holding source-attributable content S and
+      Phi fixed, a verdict difference produced by materially admissible variation in
+      Psi is not attributable to S alone.
+    net_gain: high_explanatory_compression
+
+  - id: CANON:CR:033
+    name: source_ground_and_evaluator_uptake_factorization
+    spine_attachment: [Q, R, B, C]
+    status: accepted_current
+    article_visibility: central_methodological_control
+    strict_gain: >
+      Separates what a source package contributes from whether evaluator e has
+      warranted grounds to identify and use that contribution.
+    formal_candidate: >
+      SourceGround(X,tau,Delta)=TRACE(X,tau,Delta) AND DISCRIMINATE(Delta,tau);
+      Usable_e(Delta,tau)=RECOGNIZE_e(Delta,tau); evaluator-usable route success
+      requires both.
+    consequence: >
+      Etic scholarly analysis can characterize emic evaluator-relative usability
+      without the scholar personally accepting every background premise.
+    net_gain: high
+
+  - id: CANON:CR:034
+    name: source_package_TRACE
+    spine_attachment: [H_F, R, B]
+    status: accepted_current
+    article_visibility: central_repair_if_package_issue_is_raised
+    strict_gain: >
+      Repairs the singleton-only route model exposed by maximum-hostility testing.
+      Several individually incomplete source structures may jointly establish one
+      source-to-target ground, so TRACE must permit independently admissible source
+      packages while preserving singleton routes as a special case.
+    formal_candidate: >
+      PackageGround_e(X,tau) iff X is an independently admissible source package and
+      there exists Delta such that TRACE(X,tau,Delta), Delta discriminates the rivals,
+      and evaluator e can warrantedly recognize and use Delta.
+    noncollapse_with_COMPOSE: >
+      Package TRACE creates one completed target-indexed ground from several source
+      structures; COMPOSE aggregates or defeats several already-completed grounds.
+    evidence:
+      - audits/CANONICAL_AUTHORITY_SOURCE_PACKAGE_TRACE_AUDIT_2026-09-22.md
+    net_gain: very_high_because_it_repairs_a_real_hostile_counterexample
+
+  - id: CANON:CR:035
+    name: package_level_TRACE_obstruction
+    spine_attachment: [H_F, R, B, C]
+    status: accepted_current_bounded
+    article_visibility: case_result_support
+    strict_gain: >
+      Replaces the overstrong singleton obstruction with a corpus-bounded package-level
+      obstruction. Relative to the current typed module content, no admissible package
+      supplies the missing proposition-specific edge to I_S.
+    consequence: >
+      While the package obstruction holds, evaluator variation and COMPOSE cannot
+      change the fixed case result because the case is blocked upstream at TRACE.
+    reopen_conditions:
+      - admitted_module_change
+      - material_source_recovery
+      - new_source_grounded_cross_module_bridge
+      - material_target_change
+      - material_primary_source_reinterpretation
+    evidence:
+      - audits/CANONICAL_AUTHORITY_SOURCE_PACKAGE_TRACE_AUDIT_2026-09-22.md
+    net_gain: very_high_rigor_and_localization
+
+  - id: CANON:CR:036
+    name: evidence_layer_separation
+    spine_attachment: [C]
+    status: accepted_research_control
+    article_visibility: manuscript_and_claim_control
+    strict_gain: >
+      Separates case demonstration, general method characterization, validation/stress
+      tests, disciplinary implication, and publication positioning so one evidence
+      class cannot silently substitute for another.
+    net_gain: high_anti_overclaim
+
+  - id: CANON:CR:037
+    name: theory_freeze_publication_rule
+    spine_attachment: [C]
+    status: accepted_research_control
+    article_visibility: none
+    strict_gain: >
+      Establishes a stopping rule for ceiling work. After post-recovery package-TRACE
+      regression, another abstract move stays in the current article only when it
+      changes the case, changes the central characterization, removes a material
+      reviewer vulnerability, strictly compresses the theory, or raises the credible
+      publication ceiling enough to exceed its added burden.
+    evidence:
+      - audits/CANONICAL_AUTHORITY_THEORY_FREEZE_AUDIT_2026-09-22.md
+    net_gain: high_anti_bloat
+
+  - id: CANON:CR:038
+    name: referee_attack_surface_localization
+    spine_attachment: [H_F, R, B, C]
+    status: accepted_manuscript_control
+    article_visibility: none_directly
+    strict_gain: >
+      Simulated Jewish-studies, philosophy/epistemology, and religious-studies review
+      localizes the remaining major vulnerabilities to source/corpus execution, claim
+      calibration, and manuscript clarity rather than paper identity or spine failure.
+    evidence:
+      - audits/CANONICAL_AUTHORITY_REFEREE_MINIMALITY_FOLLOWON_AUDIT_2026-09-22.md
+    net_gain: pass
+
+  - id: CANON:CR:039
+    name: contribution_minimality
+    spine_attachment: [A, Q, H_F, R, B, C]
+    status: accepted_manuscript_control
+    article_visibility: manuscript_architecture
+    strict_gain: >
+      Identifies the smallest reader-facing contribution set that preserves the
+      argument while routing PD machinery, field-scan history, most hostile examples,
+      full composition mathematics, and governance detail to the backend.
+    evidence:
+      - audits/CANONICAL_AUTHORITY_REFEREE_MINIMALITY_FOLLOWON_AUDIT_2026-09-22.md
+    net_gain: high_clarity
+
+  - id: CANON:CR:040
+    name: follow_on_value_routing
+    spine_attachment: [C]
+    status: accepted_research_control
+    article_visibility: none
+    strict_gain: >
+      Prevents the current paper from absorbing three viable later research programs:
+      selector provenance in religious authority, joint authority/composition, and PD
+      research methodology. Extracting rather than inserting them raises current-paper
+      publication value through scope discipline.
+    evidence:
+      - audits/CANONICAL_AUTHORITY_REFEREE_MINIMALITY_FOLLOWON_AUDIT_2026-09-22.md
+    net_gain: high_scope_control
+
+  - id: CANON:CR:041
+    name: layered_project_control_map_and_live_ceiling_frontier
+    spine_attachment: [A, Q, H_F, R, B, C]
+    status: accepted_research_control
+    article_visibility: none
+    strict_gain: >
+      Generalizes the productivity gain created by the explicit argument spine into a
+      layered project control architecture. The implemented control map keeps the G0 goal,
+      complete goal-relative dependency graph, stable argument spine, reader spline,
+      evidence/provenance rails, current research object, manuscript state, audit
+      coverage, and live ceiling frontier distinct but linked. This makes remaining
+      improvement opportunities visible at their actual dependency location rather than
+      reopening global "make the paper better" search.
+    frontier_semantics: >
+      For each load-bearing region, record whether it is frozen, strong, open, blocked,
+      candidate, or externally dependent; attach the strongest currently admissible
+      ceiling move and the audits that have tested that region.
+    realized_control: >
+      CONTROL_MAP.yaml now supplies the first-class complete G0 control view and live
+      layer-relative frontier; GOAL_SPINES.yaml supplies the recursive G1 overlays.
+    evidence:
+      - audits/CANONICAL_AUTHORITY_G0_SPINE_SPLINE_HM001_AUDIT_2026-09-22.md
+      - audits/CANONICAL_AUTHORITY_LAYERED_CONTROL_MAP_G1_SPINE_AUDIT_2026-09-22.md
+      - projects/canonical-authority/CONTROL_MAP.yaml
+      - projects/canonical-authority/GOAL_SPINES.yaml
+      - projects/canonical-authority/SPINE.yaml
+      - projects/canonical-authority/SPLINE.yaml
+      - projects/canonical-authority/RESEARCH_ARCHITECTURE.yaml
+    net_gain: high_if_kept_as_control_map_not_new_theory
+
+  - id: CANON:CR:042
+    name: recursive_G1_spine_frontier_localization
+    spine_attachment: [H_F, R, B, C]
+    status: accepted_research_control
+    article_visibility: none
+    strict_gain: >
+      Recursively reconstructing the G1 goals exposes local dependency structures and
+      distinguishes theory-frozen regions from genuinely open corpus and publication
+      frontiers. This reduces search space before further ceiling work.
+    realized_frontiers:
+      - CANON:G1.2: corpus_admission_and_coverage
+      - CANON:G1.5: publication_readiness
+    bounded_convergence: >
+      G2 recursion is trigger-based rather than automatic. Descend only when a G1
+      frontier cannot be resolved at G1 resolution or new evidence exposes a child
+      dependency.
+    evidence:
+      - audits/CANONICAL_AUTHORITY_LAYERED_CONTROL_MAP_G1_SPINE_AUDIT_2026-09-22.md
+      - projects/canonical-authority/GOAL_SPINES.yaml
+    net_gain: high_search_space_reduction
+
+  - id: CANON:CR:043
+    name: conjunctive_publication_readiness_architecture
+    spine_attachment: [C]
+    status: accepted_research_control
+    article_visibility: none
+    strict_gain: >
+      Replaces an implicit linear publication pipeline with four independently
+      necessary converging readiness branches: provenance, novelty, manuscript
+      execution, and journal-specific framing. Progress on one branch no longer
+      substitutes for closure of another, while nonblocking branches can proceed in
+      parallel.
+    formal_control: "{PROVENANCE + NOVELTY + MANUSCRIPT + JOURNAL} -> READY"
+    evidence:
+      - audits/CANONICAL_AUTHORITY_LAYERED_CONTROL_MAP_G1_SPINE_AUDIT_2026-09-22.md
+      - projects/canonical-authority/GOAL_SPINES.yaml
+      - projects/canonical-authority/CONTROL_MAP.yaml
+    net_gain: high_execution_clarity
+
+
+admission_rule: >
+  New ceiling-raising candidates are recorded before manuscript insertion. A
+  candidate is article-visible only after it passes preservation, attachment,
+  defensibility, and net-gain review.
+
+anti_bloat_rule: >
+  Interesting material that does not raise the strongest defensible contribution
+  or that creates disproportionate scope cost is support, future work, or rejected
+  rather than inserted into the article.

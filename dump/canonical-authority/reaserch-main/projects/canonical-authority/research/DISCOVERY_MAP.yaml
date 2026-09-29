@@ -1,0 +1,1344 @@
+schema_version: 0.1
+project_id: canonical-authority
+register: discovery_map
+authority_status: canonical_working
+
+roles: [core_argument, support, source_control, research_control_only, future_paper, excluded, unresolved]
+
+discoveries:
+  - id: CANON:D:001
+    statement: >
+      Rashi and Ramban can be represented as rival claims over whether Genesis 1:1
+      itself makes an independent initial-creation predication on the peshat advanced.
+    spine_attachment: [A]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:002
+    statement: Explanation of disagreement and adjudication of truth are distinct jobs.
+    spine_attachment: [Q, R]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:003
+    statement: >
+      Legitimacy, binding practice, provenance, explanation, authentication, and
+      descriptive truth are distinct target/result types.
+    spine_attachment: [Q, H_F, R]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:004
+    statement: >
+      Heterogeneous Jewish mechanisms must be reconstructed in their native domains
+      and functions before any transfer to the Rashi-Ramban case is assessed.
+    spine_attachment: [H_F, R]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:005
+    statement: >
+      Source content and project-level application are distinct; application can
+      introduce bridge content not supplied by the source itself.
+    spine_attachment: [R]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:006
+    statement: >
+      A selector introduced only through an unlicensed bridge is attributable to
+      the augmented analysis rather than retroactively to the source.
+    spine_attachment: [R, C]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:007
+    statement: >
+      Truth relevance alone is insufficient; the mechanism must link to the target
+      proposition and instantiate an asymmetry in the fixed case.
+    spine_attachment: [B]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:008
+    statement: >
+      A genuine truth-relevant asymmetry can exist without yet giving a later
+      evaluator warranted grounds for identifying and relying on it.
+    spine_attachment: [Q, B, C]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:009
+    statement: >
+      Authority can settle normative or institutional outputs while remaining
+      compatible with factual error.
+    spine_attachment: [H_F, R, C]
+    role: support
+    status: current
+
+  - id: CANON:D:010
+    statement: >
+      A protected-reception model can classify a dispute as outside the protected
+      category without selecting either rival proposition.
+    spine_attachment: [H_F, R]
+    role: support
+    status: current
+
+  - id: CANON:D:011
+    statement: >
+      Authenticated privileged access is a positive control showing that a
+      traditional mechanism can in principle supply genuine truth-directed force.
+    spine_attachment: [H_F, B]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:012
+    statement: >
+      Ramban's Maaseh Bereishis tradition is highly case-proximate, but the link
+      from that received knowledge to the exact syntactic proposition I_S remains
+      to be established.
+    spine_attachment: [H_F, R, B]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:013
+    statement: >
+      Reem's recension proposal can explain the shape of the disagreement without
+      converting explanation into grammatical adjudication.
+    spine_attachment: [A, R]
+    role: support
+    status: current
+
+  - id: CANON:D:014
+    statement: >
+      Onkelos is best typed as first-order case evidence unless a separate
+      source-grounded authority theory is supplied.
+    spine_attachment: [A, R]
+    role: source_control
+    status: current
+
+  - id: CANON:D:015
+    statement: >
+      Multiple legitimate or binding outputs under one index do not establish
+      descriptive truth indeterminacy under every index.
+    spine_attachment: [Q, H_F, C]
+    role: support
+    status: current
+
+  - id: CANON:D:016
+    statement: >
+      Observed canonical or institutional success does not by itself identify the
+      epistemic mechanism that generated or warrants the outcome.
+    spine_attachment: [R, C]
+    role: support
+    status: promising
+
+  - id: CANON:D:017
+    statement: >
+      Bearer identity matters: text, vocalization, recension, translation,
+      commentator report, and later authority claim are not automatically one
+      evidential object.
+    spine_attachment: [A, R]
+    role: source_control
+    status: current
+
+  - id: CANON:D:018
+    statement: >
+      The admitted source-module inventory remains open; failure of the audited
+      modules does not license a universal negative about Jewish adjudication.
+    spine_attachment: [H_F, C]
+    role: research_control_only
+    status: current
+
+  - id: CANON:D:019
+    statement: >
+      The paper's strongest defensible novelty is the fixed-case comparative
+      source-to-target bridge analysis, not the generic fact that Jewish factual
+      disagreement, pluralism, or authority have been studied.
+    spine_attachment: [C]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:020
+    statement: >
+      Explicit presentation of PD as a second formal framework would create a
+      second publication burden and is not required for the current article.
+    spine_attachment: [R]
+    role: excluded
+    status: current
+
+  - id: CANON:D:021
+    statement: >
+      The R pathway is inferential and justificatory, not a historical-causal model
+      of how the rival views or authority structures arose.
+    spine_attachment: [Q, R]
+    role: support
+    status: current
+
+  - id: CANON:D:022
+    statement: >
+      Licensed transfer can be result-sensitive along several coordinates at once,
+      including domain, function, target proposition, bearer, evaluator, and
+      evidential role.
+    spine_attachment: [R, B]
+    role: research_control_only
+    status: current
+
+  - id: CANON:D:023
+    statement: >
+      Authenticity is attribute-indexed; authenticity of provenance or continuity
+      does not itself establish truth of each proposition carried by the authentic
+      bearer or tradition.
+    spine_attachment: [A, Q, R, C]
+    role: support
+    status: conditional
+
+  - id: CANON:D:024
+    statement: >
+      The fixed Rashi-Ramban case can function as a worked demonstration of the
+      general transfer problem without claiming representativeness of all Jewish
+      disagreement.
+    spine_attachment: [A, R, C]
+    role: support
+    status: manuscript_strategy
+
+  - id: CANON:D:025
+    statement: >
+      The source modules can be analyzed as functionally different structures for
+      producing, transmitting, classifying, authenticating, or authorizing religious
+      knowledge without assuming that each function supplies factual adjudication.
+    spine_attachment: [Q, H_F, R, C]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:026
+    statement: >
+      A fixed target proposition-pair can serve as the tertium comparationis for
+      comparing heterogeneous religious authority structures while preserving their
+      native contexts and functions.
+    spine_attachment: [A, H_F, R, C]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:027
+    statement: >
+      The paper's conceptual analysis can be located within philosophy of religious
+      studies when it evaluates the use of concepts and methods in empirically
+      grounded religious-studies inquiry rather than deciding religious truth.
+    spine_attachment: [Q, R, C]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:028
+    statement: >
+      Canonicality is a functional status with possible memory, identity,
+      circulation, legitimacy, and community effects; those functions do not by
+      themselves establish proposition-specific truth.
+    spine_attachment: [H_F, R, C]
+    role: support
+    status: current
+
+  - id: CANON:D:029
+    statement: >
+      Third-party warrant includes socially recognizable authority relations:
+      bearers, institutions, texts, practices, and interpretive communities help
+      determine whether an asserted authority relation is identifiable and usable.
+    spine_attachment: [A, Q, B, C]
+    role: support
+    status: current
+
+  - id: CANON:D:030
+    statement: >
+      The scholar can analyze internal truth-directed religious structures
+      second-order without endorsing or deciding the theological truth of the rival
+      claim; emic target and etic analysis must remain distinct.
+    spine_attachment: [Q, B, C]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:031
+    statement: >
+      The current R->B conceptual density mixes source-description coordinates,
+      transfer diagnostics, adjudicative success conditions, evaluator-access
+      conditions, and audit outputs at one level.
+    spine_attachment: [R, B, C]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:032
+    statement: >
+      The source-to-adjudication method can be compressed without loss into four
+      reader-facing operations: PROFILE, TRACE, DISCRIMINATE, and RECOGNIZE.
+    spine_attachment: [H_F, R, B, C]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:033
+    statement: >
+      Truth relevance, proposition-specific linkage, case instantiation, and
+      asymmetric selection are diagnostics of one target-specific discriminatory
+      relation rather than four independent manuscript-level primitives.
+    spine_attachment: [B]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:034
+    statement: >
+      Bearer, native domain, native function, provenance, authenticity, bridge
+      license, and source attribution are diagnostics of source profiling and
+      traceability rather than independent adjudicative success conditions.
+    spine_attachment: [H_F, R]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:035
+    statement: >
+      Evaluator warrant and social recognizability can be treated as one
+      recognizability/use stage at reader-facing level while retaining finer
+      diagnostics underneath.
+    spine_attachment: [B, C]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:036
+    statement: >
+      Future ceiling passes no longer earn central status merely by adding another
+      diagnostic coordinate; they must defeat or further compress the four-stage
+      reduction, expand its defensible domain, or materially change publication
+      ceiling.
+    spine_attachment: [C]
+    role: research_control_only
+    status: current
+
+  - id: CANON:D:037
+    statement: >
+      PROFILE is a required semantic/setup job but not an independent adjudicative
+      success conjunct; a well-typed TRACE already presupposes a reconstructed source
+      node and native output.
+    spine_attachment: [H_F, R, B]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:038
+    statement: >
+      TRACE, DISCRIMINATE, and RECOGNIZE survive hostile deletion and collapse tests
+      as distinct route-level jobs for evaluator-usable authority-based grounds.
+    spine_attachment: [R, B]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:039
+    statement: >
+      Route-level success does not entail all-things-considered case selection when
+      multiple successful routes conflict; case selection requires a separately
+      licensed composition or defeat relation.
+    spine_attachment: [B, C]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:040
+    statement: >
+      The C macro-node contains distinct dependency layers: bounded case result,
+      general method, disciplinary significance, and publication ceiling.
+    spine_attachment: [C]
+    role: research_control_only
+    status: current
+
+  - id: CANON:D:041
+    statement: >
+      Four structurally different cross-tradition authority systems preserve the
+      setup/TRACE/DISCRIMINATE/RECOGNIZE job structure without requiring a new
+      route-level primitive, while exposing the multi-route composition problem.
+    spine_attachment: [H_F, R, B, C]
+    role: support
+    status: exploratory_holdout
+
+  - id: CANON:D:042
+    statement: >
+      Ramban's Genesis 1:1 comment explicitly combines received/esoteric creation
+      knowledge with a separately articulated simple/peshat explanation and
+      way-of-truth reading; current evidence does not identify I_S itself as the
+      received esoteric item.
+    spine_attachment: [H_F, R]
+    role: source_control
+    status: current
+
+  - id: CANON:D:043
+    statement: >
+      The targeted nearest-neighbor review located close work on third-party
+      disagreement, factual disagreement in Jewish law, religious authority,
+      prophetic discernment, comparison, and religious knowledge, but no direct
+      predecessor for the combined fixed-target trace-discriminate-recognize plus
+      multi-route composition architecture.
+    spine_attachment: [C]
+    role: support
+    status: bounded_to_targeted_review
+
+
+  - id: CANON:D:044
+    statement: >
+      An existential claim that some admissible-looking COMPOSE rule selects a rival
+      is underconstrained; an unqualified case verdict requires agreement across the
+      materially admissible composition-specification family, while rule-relative
+      verdicts remain separately reportable.
+    spine_attachment: [B, C]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:045
+    statement: >
+      Holding completed source-route grounds fixed while changing COMPOSE isolates
+      selector information introduced by the composition layer rather than by the
+      source routes.
+    spine_attachment: [R, B, C]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:046
+    statement: >
+      A prospectively preregistered Sikh-authority structural holdout preserved the
+      current route jobs without a rescue primitive and independently displayed
+      differentiated scriptural, interpretive, communal, and institutional authority
+      functions.
+    spine_attachment: [H_F, R, B, C]
+    role: support
+    status: prospective_holdout_pass
+
+  - id: CANON:D:047
+    statement: >
+      Backend recovery has converted article-facing source identity into stable source
+      records for the central fixed-case and source modules; remaining edition and
+      source gates stay explicit rather than being silently filled.
+    spine_attachment: [H_F, R, C]
+    role: source_control
+    status: current
+
+  - id: CANON:D:048
+    statement: >
+      The strongest novelty position is an intersection claim rather than novelty of
+      each component: no direct predecessor was located in the reviewed comparator
+      corpus for the combined fixed-target source-trace, rival-discrimination,
+      evaluator-uptake, separate-composition, selector-attribution architecture.
+    spine_attachment: [C]
+    role: support
+    status: bounded_to_reviewed_comparator_corpus
+
+  - id: CANON:D:049
+    statement: >
+      Publication-value optimization is a constrained research-control problem:
+      spine-preserving moves must add defensible scholarly value beyond the scope,
+      complexity, word-count, and reviewer-attack burden they introduce.
+    spine_attachment: [C]
+    role: research_control_only
+    status: current_research_control
+
+  - id: CANON:D:050
+    statement: >
+      The broader authority contribution can be derived from the fixed case: the
+      audited mechanisms produce different native outputs, so truth-directed transfer
+      requires explicit target trace, discrimination, evaluator uptake, and separate
+      case-level composition where completed grounds conflict.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:051
+    statement: >
+      The strongest reader-facing architecture keeps source reconstruction in prose,
+      uses TRACE, DISCRIMINATE, and RECOGNIZE as the reusable route jobs, and delays
+      COMPOSE until a distinct case-level selection problem actually arises.
+    spine_attachment: [H_F, R, B, C]
+    role: research_control_only
+    status: current_manuscript_control
+
+  - id: CANON:D:052
+    statement: >
+      Selector control does not require an infinite hierarchy of meta-rules. Every
+      outcome-material selector is source-attributable, explicitly evaluator-licensed
+      with mixed-provenance indexing, or conclusion-invariant; otherwise the warranted
+      output remains relative, partial, tied, or unresolved.
+    spine_attachment: [R, B, C]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:053
+    statement: >
+      Inquiry-frame coordinates and inferential contributions are distinct.
+      Phi=<A,tau,e> declares corpus, target, and evaluator; representation, bridge,
+      supplementation, composition, and related machinery belong to separate
+      inferential coordinates whose outcome-material contribution requires attribution.
+    spine_attachment: [Q, R, B, C]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:054
+    statement: >
+      Source-side discriminatory support and evaluator uptake are distinct:
+      SourceGround requires TRACE plus DISCRIMINATE, while evaluator-specific usability
+      requires RECOGNIZE.
+    spine_attachment: [Q, R, B, C]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:055
+    statement: >
+      The earlier inference from failure of every singleton route at TRACE to
+      corpus-level TRACE failure is invalid in general because two individually
+      incomplete source structures can jointly supply complementary source-grounded
+      premises.
+    spine_attachment: [H_F, R]
+    role: research_control_only
+    status: falsified_earlier_formulation
+
+  - id: CANON:D:056
+    statement: >
+      TRACE must admit independently licensed source packages, not only singleton
+      authority routes. Singleton analysis remains embedded as the special case of a
+      one-member package.
+    spine_attachment: [H_F, R, B]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:057
+    statement: >
+      Package TRACE and COMPOSE are distinct operations: package TRACE combines source
+      structures to establish one target-indexed ground, whereas COMPOSE combines or
+      defeats several already-established grounds.
+    spine_attachment: [R, B, C]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:058
+    statement: >
+      Relative to the current reconstructed seven-module corpus, no independently
+      admissible source package supplies the missing proposition-specific edge from
+      received or authoritative content to I_S; the present case therefore remains
+      blocked at TRACE at package level.
+    spine_attachment: [H_F, R, B, C]
+    role: core_argument
+    status: current_bounded
+
+  - id: CANON:D:059
+    statement: >
+      While the package-level TRACE obstruction holds, the bounded fixed-case result is
+      invariant across evaluator regimes and COMPOSE specifications because those
+      coordinates lie downstream of the current obstruction.
+    spine_attachment: [Q, R, B, C]
+    role: core_argument
+    status: current
+
+  - id: CANON:D:060
+    statement: >
+      The fixed case, general method characterization, validation/stress-test support,
+      disciplinary implication, and publication positioning are distinct evidence
+      layers and must not be presented as though one layer independently establishes
+      the others.
+    spine_attachment: [C]
+    role: research_control_only
+    status: current_manuscript_control
+
+  - id: CANON:D:061
+    statement: >
+      After a final post-recovery package-TRACE regression, additional abstract theory
+      enters the current article only when it changes the case, changes the central
+      characterization, removes a material reviewer vulnerability, strictly compresses
+      the visible theory, or raises publication ceiling enough to exceed its burden.
+    spine_attachment: [C]
+    role: research_control_only
+    status: current_research_control
+
+  - id: CANON:D:062
+    statement: >
+      Referee simulation localizes the strongest remaining risks to source/corpus
+      execution, exact novelty wording, disciplinary calibration, and reader-facing
+      clarity rather than to the fixed spine or bounded case result.
+    spine_attachment: [H_F, R, B, C]
+    role: research_control_only
+    status: current_manuscript_control
+
+  - id: CANON:D:063
+    statement: >
+      The indispensable article is materially smaller than the backend: the fixed case,
+      native source reconstruction, package-aware TRACE, DISCRIMINATE, evaluator-relative
+      RECOGNIZE, positive control, bounded result, authority-transfer implication, and
+      compact COMPOSE boundary suffice to preserve the load-bearing contribution.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_manuscript_control
+
+  - id: CANON:D:064
+    statement: >
+      Selector-provenance theory, full joint-authority/composition theory, and PD
+      research methodology are viable follow-on research objects but are not required
+      to establish the current Canonical Authority paper.
+    spine_attachment: [C]
+    role: future_paper
+    status: routed_out_of_current_article
+
+  - id: CANON:D:065
+    statement: >
+      The large ceiling gains that followed explicit spine construction are evidence
+      of a representational effect: once the paper's load-bearing dependencies became
+      explicit, proposed improvements could attach to precise nodes, be tested for
+      preservation and net gain, and be rejected when they changed project identity.
+      The spine therefore functions not only as argument compression but as a coordinate
+      system for directed research improvement.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_method_learning
+
+  - id: CANON:D:066
+    statement: >
+      The stable argument spine, reader-facing spline, and complete CANON:G0 dependency
+      graph are distinct control objects. The complete G0 graph also contains evidence,
+      provenance, corpus-admission, novelty, manuscript, journal-framing, submission,
+      and review branches that the argument spine intentionally does not own.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_architecture_learning
+
+  - id: CANON:D:067
+    statement: >
+      A remaining representation gap is the absence of one durable live control map
+      linking goal, full dependency graph, argument spine, reader spline, current
+      research object, evidence rails, audit coverage, manuscript state, and the live
+      ceiling frontier. This is a candidate architecture improvement, not a new
+      substantive theory claim.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: open_architecture_candidate
+
+
+  - id: CANON:D:068
+    statement: >
+      Historical recurrence examples remain available as bounded support for the claim
+      that factual disagreement occurs across canonical strata, including
+      R. Akiva/R. Yishmael on Sinai/Ohel Moed particulars, R. Yochanan/Reish Lakish on
+      the Flood in Eretz Yisrael, and the Shmuel ben Chofni versus Saadia/Hai Endor
+      disagreement. These examples are recurrence evidence, not part of the fixed
+      Rashi-Ramban case unless later manuscript needs justify their use.
+    spine_attachment: [Q, C]
+    role: future_support_evidence
+    status: parked_not_currently_load_bearing
+
+  - id: CANON:D:069
+    statement: >
+      Legacy authority-response families outside the current seven-module H[F] sample
+      remain corpus-expansion candidates, including received-content, Halevi
+      transmission, broad-continuity, epoch truth-priority, stronger epistemic
+      authority, and independently specified authenticity-property routes. Their
+      preservation does not admit them into the present purposive corpus.
+    spine_attachment: [H_F, R, C]
+    role: corpus_expansion_control
+    status: parked_pending_independent_admission
+
+  - id: CANON:D:070
+    statement: >
+      The historical broad-continuity argument about distinguishing Orthodox mesorah
+      from other Jewish denominational traditions is a separate classification problem.
+      It is preserved as a future project candidate and does not enter the current
+      authority-transfer paper merely because it shares the word mesorah.
+    spine_attachment: [C]
+    role: future_project
+    status: routed_out_of_current_article
+
+  - id: CANON:D:071
+    statement: >
+      Specific follow-on publication candidates extracted from the current research
+      include a correctness-guarantee trilemma, a traditional-discriminator
+      truth-relevance paper, and a Ruach HaKodesh/factual-knowledge line using
+      authentication, scope, and privileged-access distinctions. These instantiate the
+      broader follow-on category already represented by CANON:D:064 and remain outside
+      the current article until separately activated.
+    spine_attachment: [C]
+    role: future_paper
+    status: routed_out_of_current_article
+disposition_rule: >
+  New discoveries attach to the smallest spine node they materially affect and
+  receive a role before they can enter manuscript planning.
+
+manuscript_rule: >
+  Research-control-only discoveries remain available for audit and reviewer defense
+  but are omitted from reader-facing prose unless they become load-bearing.
+
+
+  - id: CANON:D:072
+    statement: >
+      The newly recovered TARGET->ADMIT->EVALUATE->COMPOSE->CONCLUDE map is not yet a
+      replacement for the protected A->Q->H[F]->R->B->C argument spine. It is a
+      candidate semantic factorization/refinement whose promotion requires preserved
+      observables and continuation-equivalence rather than notational elegance alone.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_candidate_architecture
+
+  - id: CANON:D:073
+    statement: >
+      Candidate-source admission and source-package admissibility are distinct, but
+      package admissibility is not an unconditional macro stage before evaluation.
+      It is a domain/admissibility condition on package-level TRACE, with singleton
+      packages preserved as the embedded special case.
+    spine_attachment: [H_F, R, B]
+    role: core_argument
+    status: current_candidate_architecture
+
+  - id: CANON:D:074
+    statement: >
+      PROFILE remains typed semantic setup rather than an adjudicative success stage.
+      The route-level success structure begins only after a source or source package
+      has been reconstructed into a well-typed native-output representation.
+    spine_attachment: [H_F, R, B]
+    role: core_argument
+    status: current_candidate_architecture
+
+  - id: CANON:D:075
+    statement: >
+      The project requires three architecture views to remain distinct: the protected
+      macro argument spine, the semantic factorization of the adjudication machinery,
+      and the reader/execution projection. A gain in one view does not by itself
+      authorize replacement of another.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_candidate_architecture
+
+  - id: CANON:D:076
+    statement: >
+      Evidence control, validation, and research/publication control are cross-cutting
+      support/control rails rather than sequential nodes in the substantive
+      adjudication path.
+    spine_attachment: [H_F, R, B, C]
+    role: research_control_only
+    status: current_candidate_architecture
+
+  - id: CANON:D:077
+    statement: >
+      The current inquiry-frame notation Phi=<A,tau,e> collides with the protected
+      spine's use of A for the fixed collision while using A internally for the
+      admitted source corpus. The two referents require distinct symbols or explicit
+      typed namespaces to prevent false identity and dependency inference.
+    spine_attachment: [A, Q, H_F, R]
+    role: core_argument
+    status: current_candidate_architecture
+
+  - id: CANON:D:078
+    statement: >
+      Admission cannot be placed downstream of an inquiry frame that already contains
+      the admitted corpus. The architecture requires a pre-admission target/frame
+      specification Theta, an admission operation alpha producing H, and only then a
+      corpus-indexed evaluation frame Phi_H when corpus membership is a frame
+      coordinate.
+    spine_attachment: [Q, H_F, R]
+    role: core_argument
+    status: current_candidate_architecture
+
+  - id: CANON:D:079
+    statement: >
+      COMPOSE is a conditional branch over multiple completed grounds, not a mandatory
+      sequential predecessor of conclusion. The conclusion operator must accept a
+      direct route-level/case-status input when COMPOSE is dormant and a composed
+      result when multiple completed grounds require aggregation or defeat.
+    spine_attachment: [B, C]
+    role: core_argument
+    status: current_candidate_architecture
+
+
+  - id: CANON:D:080
+    statement: >
+      The semantic architecture is a dependency DAG rather than one serial pipeline.
+      Target/frame coordinates feed several later operations; corpus admission supplies
+      the candidate space; evidence controls condition source reconstruction; evaluator
+      indexing enters RECOGNIZE and composition admissibility; and COMPOSE activates
+      only on multiple completed grounds. The protected linear spine can therefore be
+      retained as an argument-order projection without being mistaken for the complete
+      semantic dependency graph.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: core_argument
+    status: current_candidate_architecture
+
+  - id: CANON:D:081
+    statement: >
+      Corpus admission and epistemic package admissibility belong to different
+      architectural layers. Corpus admission is a research-scope operation defining
+      the purposive non-exhaustive H space; package admissibility is a source-grounded
+      condition inside the evaluation domain for TRACE. Collapsing them under one
+      generic ADMIT node obscures both jobs.
+    spine_attachment: [H_F, R]
+    role: core_argument
+    status: current_candidate_architecture
+
+  - id: CANON:D:082
+    statement: >
+      The cleanest current relationship between old and new architecture is
+      projection/refinement rather than replacement: the semantic DAG refines the
+      protected A->Q->H[F]->R->B->C identity, while the reader spline is a separate
+      projection optimized for recoverability. Promotion therefore requires an
+      explicit projection map and non-regression test, not a wholesale spine rewrite.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_candidate_architecture
+
+
+  - id: CANON:D:083
+    statement: >
+      Manuscript architecture must optimize two coupled jobs at every reader-visible
+      unit: the argument move the paper needs and the epistemic state change the reader
+      must undergo. Backend architectural distinctions do not automatically deserve
+      one-to-one section realization.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_manuscript_control
+
+  - id: CANON:D:084
+    statement: >
+      PROFILE is duplicated across the current Sections 3 and 4. Reader-facing
+      architecture is cleaner when native reconstruction and typed setup are completed
+      in Section 3, allowing Section 4 to begin directly with TRACE as the first
+      adjudicative operation.
+    spine_attachment: [H_F, R, B]
+    role: research_control_only
+    status: current_manuscript_control
+
+  - id: CANON:D:085
+    statement: >
+      Corpus admission is load-bearing for the manuscript but need not become a
+      standalone section. It requires an explicit reader-visible subunit in the
+      comparison-frame section explaining purposive non-exhaustive admission,
+      differentiation, and bounded coverage before the source modules are used.
+    spine_attachment: [H_F]
+    role: research_control_only
+    status: current_manuscript_control
+
+  - id: CANON:D:086
+    statement: >
+      COMPOSE is over-promoted in the current eight-section outline. Because it is
+      conditional and dormant in the fixed case, the default reader architecture
+      should treat it as a compact downstream boundary of the method/result discussion
+      unless drafting demonstrates that a standalone section earns its cost.
+    spine_attachment: [B, C]
+    role: research_control_only
+    status: current_manuscript_control
+
+  - id: CANON:D:087
+    statement: >
+      Novelty is not only an end-stage conclusion job. The manuscript should establish
+      nearest-neighbor positioning where the relevant method or contribution first
+      becomes legible, then consolidate the bounded novelty claim near the conclusion.
+    spine_attachment: [C]
+    role: research_control_only
+    status: current_manuscript_control
+
+
+  - id: CANON:D:088
+    statement: >
+      The seven-section manuscript architecture survives a complete behavior-first
+      capability sweep as a strict reader-architecture gain over the prior eight-section
+      baseline while preserving the protected spine and bounded case result.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_manuscript_control
+
+  - id: CANON:D:089
+    statement: >
+      The current drafting-resolution architecture contains twenty-one page-sized
+      intellectual movements M01-M21. Each movement is defined by one manuscript job,
+      one reader-state change, and an explicit pull into the next live question.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_manuscript_control
+
+  - id: CANON:D:090
+    statement: >
+      Corpus admission at M05 is the earliest high-leverage unresolved reader
+      dependency: without a visible purposive admission and bounded-coverage basis,
+      later package-level conclusions lack an explicit manuscript-grounded scope basis.
+    spine_attachment: [H_F, C]
+    role: research_control_only
+    status: current_manuscript_frontier
+
+  - id: CANON:D:091
+    statement: >
+      Source-module exposition in the manuscript should receive asymmetric space
+      according to argumentative role rather than equal treatment by module. The
+      strongest space claims belong to mechanisms that establish a distinct native
+      function, positive control, strongest case-proximate route, or load-bearing
+      transfer boundary.
+    spine_attachment: [H_F, R]
+    role: research_control_only
+    status: current_manuscript_control
+
+  - id: CANON:D:092
+    statement: >
+      Reader-visible method formalism should be minimal and job-driven: enough to
+      preserve TRACE, DISCRIMINATE, RECOGNIZE, package admissibility, and conditional
+      COMPOSE distinctions, while routing non-load-bearing backend formalism out of
+      the main prose.
+    spine_attachment: [R, B, C]
+    role: research_control_only
+    status: current_manuscript_control
+
+  - id: CANON:D:093
+    statement: >
+      The authenticated-prophecy positive control must precede the bounded negative
+      case result in reader order so the package-TRACE obstruction cannot be mistaken
+      for impossibility built into the method.
+    spine_attachment: [B, C]
+    role: research_control_only
+    status: current_manuscript_control
+
+  - id: CANON:D:094
+    statement: >
+      Ablation shows the broader authority section is not necessary for the bounded
+      Rashi-Ramban case result but is necessary for the paper's derived target-relative
+      and attribution-sensitive authority contribution. Its manuscript justification
+      therefore rests on contribution value, not case-result necessity.
+    spine_attachment: [C]
+    role: research_control_only
+    status: current_manuscript_control
+
+  - id: CANON:D:095
+    statement: >
+      Novelty evidence should be introduced where the relevant contribution first
+      becomes intelligible and consolidated near the conclusion; end-loading the
+      entire novelty burden weakens the reader's ability to understand what is being
+      claimed as distinctive at the point of first use.
+    spine_attachment: [C]
+    role: research_control_only
+    status: current_manuscript_control
+
+  - id: CANON:D:096
+    statement: >
+      After the full capability sweep, the highest-value same-goal frontier is no
+      longer global outline architecture but evidence-backed drafting over M01-M21,
+      beginning with corpus admission and source-module compression and reopening
+      global architecture only when drafting exposes a missing dependency.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_execution_frontier
+
+
+  - id: CANON:D:097
+    statement: >
+      Holding the project goal fixed while changing the tool target from the whole
+      Canonical Authority project to a compressed abstract materially changes tool
+      yield. Goal recovery is therefore necessary but not sufficient for full
+      capability value; target identity and resolution are independently load-bearing.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_method_learning
+
+  - id: CANON:D:098
+    statement: >
+      A stable subset of substantive findings is representation-robust across both
+      whole-project and abstract targets, including the fixed truth-directed problem,
+      native-function versus target-success distinction, source/bridge attribution,
+      TRACE-DISCRIMINATE-RECOGNIZE separation, package TRACE versus COMPOSE, the
+      package-level TRACE obstruction, boundedness, and target-relative authority.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: support
+    status: current_method_learning
+
+  - id: CANON:D:099
+    statement: >
+      Whole-project capability runs uniquely or substantially outperform abstract-only
+      runs for history, source/provenance state, corpus-admission structure, authority
+      and control hierarchy, novelty evidence, holdout evidence, artifact propagation,
+      OPEN/BLOCKED dependencies, and relative closure because those coordinates are
+      absent from the compressed abstract representation.
+    spine_attachment: [H_F, R, C]
+    role: research_control_only
+    status: current_method_learning
+
+  - id: CANON:D:100
+    statement: >
+      Abstract-target capability runs outperform whole-project runs for visible
+      compression loss, reader order, sentence-level density, clause necessity,
+      timing of scope qualifications, positive-control phrasing, and whether broader
+      significance appears earned rather than appended.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_manuscript_control
+
+  - id: CANON:D:101
+    statement: >
+      The strongest current tool-use contract is target-relative:
+      Run(T)=T(X | G,P,V,C), where G is goal, X target, P protected behavior,
+      V verification/observation basis, and C continuation basis. Tool selection
+      therefore requires choosing both the relevant goal and the highest-leverage
+      target resolution for that goal.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_method_learning
+
+
+  - id: CANON:D:102
+    statement: >
+      Matched whole-project and abstract experiments show that capability yield depends
+      not only on goal and target but also on operating mode. Goal-decoupled observation
+      exposes additional structural coordinates that goal-directed optimization can
+      suppress or background.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_method_learning
+
+  - id: CANON:D:103
+    statement: >
+      The strongest current tool-use model therefore includes an explicit mode
+      coordinate: Run(T)=T(X | G,P,V,C,m), with at least GOAL_DIRECTED and
+      GOAL_DECOUPLED_OBSERVATION modes. In GDOS mode, solve/improve pressure is
+      suppressed during observation and restored only after reconciliation.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_method_learning
+
+  - id: CANON:D:104
+    statement: >
+      Whole-project GDOS exposed an under-specified currentness distinction between
+      the frozen v1.2.0 research architecture snapshot and later live manuscript/control
+      derivatives. The canonical research result remains stable, but fields such as
+      dependency snapshots and manuscript status require an explicit frozen-snapshot
+      versus live-currentness interpretation before canonical metadata repair.
+    spine_attachment: [C]
+    role: research_control_only
+    status: open_control_semantics
+
+  - id: CANON:D:105
+    statement: >
+      Whole-project GDOS found stale manuscript-earning metadata in the contribution
+      map after the eight-to-seven-section transition. The derived control surface was
+      repaired so conditional COMPOSE is located in Section 4 and the target-relative
+      authority contribution in Section 6.
+    spine_attachment: [B, C]
+    role: research_control_only
+    status: repaired_control_surface
+
+  - id: CANON:D:106
+    statement: >
+      The reader architecture now has an explicit durable projection from twelve reader
+      journey steps to seven sections to twenty-one page-sized movements. This prevents
+      reader-order drift across PROJECT_PAGE, MANUSCRIPT_OUTLINE, and
+      MANUSCRIPT_MOVEMENT_MAP.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_manuscript_control
+
+  - id: CANON:D:107
+    statement: >
+      Abstract-target GDOS shows that compression can preserve the core TRACE obstruction
+      while losing exact target identity, corpus-admission rationale, positive-control
+      conditions, the explicit second-order scope boundary, and the distinction between
+      corpus admission and package admissibility.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_manuscript_learning
+
+  - id: CANON:D:108
+    statement: >
+      Semantic necessity, current-case activation, and manuscript visibility are
+      independent coordinates. COMPOSE and the prophecy positive control can be
+      semantically important while inactive in the fixed case and assigned manuscript
+      space according to reader need rather than semantic status alone.
+    spine_attachment: [B, C]
+    role: research_control_only
+    status: current_manuscript_control
+
+  - id: CANON:D:109
+    statement: >
+      Goal-directed and goal-decoupled sweeps are complementary rather than substitutes:
+      goal-directed mode is stronger for successor selection, leverage routing, repair,
+      and execution, while GDOS is stronger for exposing structural facts, stale
+      representations, and compression losses before usefulness filtering begins.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_method_learning
+
+
+  - id: CANON:D:110
+    statement: >
+      Canonical research currentness and live manuscript/control currentness are distinct.
+      RESEARCH_ARCHITECTURE v1.2.0 records an accepted integration snapshot, while STATE,
+      ARTIFACTS, and manuscript-control artifacts may advance without silently mutating
+      the canonical research object.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_control_semantics
+
+  - id: CANON:D:111
+    statement: >
+      A dependency snapshot in the accepted research architecture is an integration-basis
+      record, not a live registry promise. Reconciliation is required only when a later
+      dependency change is research-material to the fixed case, method, package result,
+      contribution architecture, or protected result.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_control_semantics
+
+  - id: CANON:D:112
+    statement: >
+      Semantic role, current-case activation, and manuscript visibility are independent
+      coordinates. Manuscript planning must not infer reader-visible space or current-case
+      activity directly from semantic importance.
+    spine_attachment: [H_F, R, B, C]
+    role: research_control_only
+    status: current_manuscript_control
+
+  - id: CANON:D:113
+    statement: >
+      Any future submission abstract must preserve the exact target identity, explicit
+      second-order scope, purposive bounded corpus basis, positive-control conditions,
+      corpus-admission versus package-admissibility distinction, bounded TRACE result,
+      derived authority implication, and conditional composition boundary despite
+      compression.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_manuscript_control
+
+
+  - id: CANON:D:114
+    statement: >
+      The post-GDOS control artifacts form a family of typed derived representation
+      surfaces rather than variants of one generic manuscript control.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_architecture_learning
+
+  - id: CANON:D:115
+    statement: >
+      A derived surface requires source identity, projection basis, protected
+      observables, permitted information loss, authority scope, currentness semantics,
+      and synchronization triggers.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_architecture_learning
+
+  - id: CANON:D:116
+    statement: >
+      Authority and temporal currentness are orthogonal. Newer does not imply more
+      authoritative, and an older accepted research object can remain authoritative
+      while newer manuscript/control derivatives are operationally current.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_control_semantics
+
+  - id: CANON:D:117
+    statement: >
+      The 12-step reader journey, 7-section outline, and 21-movement map form a typed
+      many-to-many refinement graph rather than a simple nested partition.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_manuscript_control
+
+  - id: CANON:D:118
+    statement: >
+      Abstract compression is a lossy projection with protected observables and an
+      allowed-loss budget; a defect occurs when a protected claim or prerequisite is
+      no longer recoverable from the projected abstract.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_manuscript_control
+
+  - id: CANON:D:119
+    statement: >
+      The remaining post-GDOS control gap is project-specific synchronization: no
+      central relation maps upstream delta classes to affected surfaces, required
+      refresh or reconciliation action, authority, and verification basis.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_architecture_frontier
+
+
+  - id: CANON:D:120
+    statement: >
+      The post-MTA control architecture has two recurring defect classes not owned by
+      any one specialized control: cross-surface drift and consumer gaps after material
+      upstream changes.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_architecture_learning
+
+  - id: CANON:D:121
+    statement: >
+      Merging currentness, status axes, reader projection, abstract compression, and
+      manuscript translation into one master control object would overmerge distinct
+      semantics and increase coupling and authority ambiguity.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_architecture_learning
+
+  - id: CANON:D:122
+    statement: >
+      A thin central surface-control map is a strict-gain successor to the current
+      distributed-only controls because it can own surface registration, projection
+      edges, synchronization triggers, verification routing, and consumer paths while
+      leaving specialized semantic ownership unchanged.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_architecture_candidate
+
+  - id: CANON:D:123
+    statement: >
+      The minimal candidate control relation distinguishes surface descriptors,
+      projection edges, and synchronization rules. Synchronization actions are typed
+      as NO_EFFECT, REFRESH, REVERIFY, RECONCILE, REAUTHORIZE, or OPEN.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_architecture_candidate
+
+  - id: CANON:D:124
+    statement: >
+      The central surface-control candidate is a derived synchronization overlay rather
+      than a new source of research truth. It must not replace CURRENTNESS_CONTRACT,
+      MANUSCRIPT_STATUS_AXES, READER_PROJECTION_MAP, ABSTRACT_CONTRACT, or
+      MANUSCRIPT_CONTRACT.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_architecture_candidate
+
+
+  - id: CANON:D:125
+    statement: >
+      Improvement Core accepted the thin surface-control overlay as a strict-gain
+      successor to distributed-only synchronization while rejecting a merged master
+      control object that would collapse distinct semantics.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_control_architecture
+
+  - id: CANON:D:126
+    statement: >
+      Tool Run Closure now has a project-specific consumer topology: material delta
+      classes can be routed to affected surfaces with typed REFRESH, REVERIFY,
+      RECONCILE, REAUTHORIZE, NO_EFFECT, or OPEN dispositions.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_control_architecture
+
+  - id: CANON:D:127
+    statement: >
+      SURFACE_CONTROL_MAP is a synchronization overlay only. Specialized controls
+      retain ownership of currentness, reader refinement, manuscript status axes,
+      abstract compression, and research-to-manuscript translation.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_control_architecture
+
+  - id: CANON:D:128
+    statement: >
+      After MTA, Architecture Analysis, and Improvement Core routing, the global
+      control-architecture frontier is relatively closed on the current basis and the
+      highest-value same-goal work returns to evidence-backed manuscript execution.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_execution_frontier
+
+
+  - id: CANON:D:129
+    statement: >
+      Canonical Authority execution has two orthogonal live coordinates: manuscript
+      movements M01-M21 and macro publication-readiness branches W1/W2/W3. Neither
+      coordinate is a complete execution order by itself.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_execution_architecture
+
+  - id: CANON:D:130
+    statement: >
+      M05 corpus admission is a cross-scale interface rather than a purely local
+      manuscript-writing task. Its manuscript completion depends specifically on the
+      W1/G1.2 corpus-admission and coverage basis.
+    spine_attachment: [H_F, C]
+    role: research_control_only
+    status: current_execution_architecture
+
+  - id: CANON:D:131
+    statement: >
+      A coupled alternating movement/readiness routing policy strictly improves the
+      current manuscript phase over both manuscript-first linear execution and
+      macro-first closure: close only the result-sensitive macro dependency for the
+      selected movement, draft/test it, lift material deltas, reattach to the root goal,
+      and reselect.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_execution_control
+
+  - id: CANON:D:132
+    statement: >
+      Tool and behavior affinity is direction-, scale-, and mode-relative in the
+      current project. GDOS is strongest for observation, IOOC for cross-scale
+      interfaces, Goal Refocus for post-observation exploitation, Goal Reattachment
+      for local-to-root promotion, order perturbation for disputed routing, and
+      saturation detection for deciding when to stop revisiting a region.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_method_learning
+
+  - id: CANON:D:133
+    statement: >
+      M05 now has a manuscript-ready basis: the admission rule, seven-family
+      mechanism-distinctness rationale, non-exhaustive coverage limit, and distinction
+      between corpus admission and package admissibility are explicit enough for
+      drafting without closing unrelated W1 source-normalization work.
+    spine_attachment: [H_F, C]
+    role: research_control_only
+    status: current_manuscript_control
+
+  - id: CANON:D:134
+    statement: >
+      Saturation profiling places generic backend/control observation and broad
+      canonical theory at relative saturation under the current basis, while
+      manuscript/readiness interfaces remain materially productive. Reentry to global
+      architecture therefore requires a new representation defect or result-sensitive
+      delta rather than routine repetition.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_execution_frontier
+
+
+  - id: CANON:D:135
+    statement: >
+      The manuscript architecture is now frozen for drafting at seven sections and
+      twenty-one reader movements. Remaining source, novelty, notation, and journal
+      questions are typed local population obligations or DRAFT_SAFE_OPEN items rather
+      than default reasons to reopen global architecture.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_manuscript_control
+
+  - id: CANON:D:136
+    statement: >
+      Claim/Premise Lifecycle gating separates admitted load-bearing paper premises
+      from working wording, open research leads, and superseded history so exploratory
+      material cannot silently become authoritative manuscript support.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_execution_control
+
+  - id: CANON:D:137
+    statement: >
+      Manuscript execution now uses typed macro checkpoints: movement readiness,
+      section readiness, and BLUEPRINT_FROZEN_FOR_DRAFTING. Internal exploration does
+      not count as macro progress until a blocking obligation is discharged, converted
+      to DRAFT_SAFE_OPEN, or shown irrelevant to the reader job.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_execution_control
+
+  - id: CANON:D:138
+    statement: >
+      Fast drafting/evidence work and slower meta-architecture change are separate
+      timescales. The project remains on the fast drafting timescale by default and
+      reopens meta architecture only on explicit result-, premise-, dependency-, or
+      strict-gain triggers.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_execution_control
+
+  - id: CANON:D:139
+    statement: >
+      The completed paper blueprint is MANUSCRIPT_BLUEPRINT_FINAL_2026-09-24.md. It
+      integrates root goal, fixed case, protected result, seven section jobs,
+      twenty-one movement jobs, evidence owners, claim lifecycle states, readiness,
+      production order, local blockers, liveness rules, and architecture reopen
+      conditions.
+    spine_attachment: [A, Q, H_F, R, B, C]
+    role: research_control_only
+    status: current_manuscript_control

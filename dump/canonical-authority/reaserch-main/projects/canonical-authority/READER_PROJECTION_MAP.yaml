@@ -1,0 +1,80 @@
+schema_version: 0.1
+project_id: canonical-authority
+object_type: reader_projection_crosswalk
+artifact_id: CANON:READER-PROJECTION:001
+authority_status: working_manuscript_control
+status: current
+date: 2026-09-24
+
+purpose: >
+  Map the project-page reader journey to the seven-section manuscript outline and
+  the twenty-one movement map so reader-order changes do not drift across surfaces.
+
+sources:
+  spine: SPINE.yaml
+  spline: SPLINE.yaml
+  outline: MANUSCRIPT_OUTLINE.md
+  movements: MANUSCRIPT_MOVEMENT_MAP.md
+  project_page: PROJECT_PAGE.md
+
+projection:
+  - reader_step: RJ01
+    job: see_exact_proposition_level_collision
+    section: 1
+    movements: [M01]
+  - reader_step: RJ02
+    job: understand_truth_directed_third_party_question
+    section: 1
+    movements: [M02]
+  - reader_step: RJ03
+    job: understand_fixed_target_heterogeneous_comparison
+    section: 2
+    movements: [M03]
+  - reader_step: RJ04
+    job: distinguish_output_types_and_understand_corpus_admission
+    section: 2
+    movements: [M04, M05]
+  - reader_step: RJ05
+    job: reconstruct_native_functions_and_route_commitments
+    section: 3
+    movements: [M06, M07, M08, M09]
+  - reader_step: RJ06
+    job: understand_TRACE
+    section: 4
+    movements: [M10]
+  - reader_step: RJ07
+    job: distinguish_target_relevance_from_rival_discrimination
+    section: 4
+    movements: [M11]
+  - reader_step: RJ08
+    job: distinguish_source_discriminator_from_evaluator_usable_warrant
+    section: 4
+    movements: [M12]
+  - reader_step: RJ09
+    job: understand_conditional_COMPOSE_boundary
+    section: 4
+    movements: [M13]
+  - reader_step: RJ10
+    job: see_positive_control_and_in_principle_success
+    section: 5
+    movements: [M14]
+  - reader_step: RJ11
+    job: see_strongest_case_proximate_test_and_exact_current_stopping_point
+    section: 5
+    movements: [M15, M16]
+  - reader_step: RJ12
+    job: derive_target_relative_authority_and_recover_final_contribution_limits
+    sections: [6, 7]
+    movements: [M17, M18, M19, M20, M21]
+
+invariants:
+  - composition_is_conditional_and_not_realized_in_current_case
+  - positive_control_precedes_actual_negative_case_result
+  - profile_is_completed_before_TRACE
+  - current_case_stops_at_TRACE
+  - broader_authority_claim_is_derived_after_case_result
+  - conclusion_synthesizes_but_does_not_independently_earn_prior_claims
+
+update_rule: >
+  Recompute this crosswalk whenever MANUSCRIPT_OUTLINE.md or
+  MANUSCRIPT_MOVEMENT_MAP.md changes reader order or section ownership.

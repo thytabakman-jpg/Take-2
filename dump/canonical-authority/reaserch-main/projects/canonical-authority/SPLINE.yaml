@@ -1,0 +1,105 @@
+schema_version: 0.1
+project_id: canonical-authority
+object_type: reader_dependency_spline
+artifact_id: CANON:SPLINE:001
+authority_status: canonical_working
+status: current_manuscript_control
+goal_refs:
+  - CANON:G0
+  - CANON:G1.1
+  - CANON:G1.2
+  - CANON:G1.3
+  - CANON:G1.4
+  - CANON:G1.5
+
+purpose: >
+  Preserve the shortest transparent reader-facing dependency path through the current
+  paper without replacing the stable argument identity owned by SPINE.yaml.
+
+relationship_to_spine:
+  real_spine_ref: SPINE.yaml
+  real_spine_notation: "A -> Q -> H[F] -> R -> B -> C"
+  relation: refinement
+  rule: >
+    The spline can unpack a macro spine node into several reader-visible jobs or refine
+    a macro edge with a conditional bridge. It may not change the protected argument
+    identity without separate spine and goal review.
+
+general_reader_spline:
+  notation: >
+    A -> Q -> PROFILE(H[F]) -> TRACE -> DISCRIMINATE -> RECOGNIZE
+    -> [COMPOSE when several completed grounds materially conflict] -> C
+  stages:
+    - id: A
+      role: establish_fixed_collision
+      spine_map: A
+    - id: Q
+      role: establish_third_party_truth_question
+      spine_map: Q
+    - id: PROFILE
+      role: reconstruct_native_source_structure_and_typed_output
+      spine_map: H_F
+    - id: TRACE
+      role: establish_source_attributable_path_to_fixed_truth_target
+      spine_map: R
+    - id: DISCRIMINATE
+      role: test_rival_specific_truth_directed_asymmetry
+      spine_map: B
+    - id: RECOGNIZE
+      role: test_evaluator_relative_warranted_uptake
+      spine_map: B
+    - id: COMPOSE
+      role: combine_or_defeat_multiple_completed_grounds
+      spine_map: B_to_C_edge
+      activation: only_when_multiple_completed_grounds_materially_conflict
+    - id: C
+      role: state_bounded_result_and_derive_supported_contributions
+      spine_map: C
+
+realized_case_spline:
+  notation: "A -> Q -> PROFILE -> TRACE obstruction -> bounded C_case"
+  reason: >
+    Relative to the current admitted reconstructed corpus, no independently admissible
+    source package completes TRACE to I_S. DISCRIMINATE, RECOGNIZE, and COMPOSE are
+    therefore framework jobs but not realized evidential steps in the fixed case.
+
+positive_control:
+  source_module: H_X
+  function: >
+    Preserve the fact that the architecture allows a traditional religious mechanism
+    to succeed in principle when target coverage, discrimination, and evaluator warrant
+    are actually instantiated.
+
+C_refinement:
+  macro_node: C
+  subjobs:
+    C_case: bounded_fixed_case_result
+    C_method: general_comparative_method
+    C_disciplinary: broader_religious_authority_and_religious_studies_implication
+    C_publication: derivative_publication_positioning
+  warning: >
+    These subjobs have different evidential dependencies. The manuscript may not treat
+    the fixed case as independently proving every broader method or disciplinary claim.
+
+manuscript_rules:
+  - Draft from the spline rather than research chronology.
+  - Keep the real spine recoverable underneath every reader-facing section.
+  - Do not narrate dormant downstream gates as though the current case traversed them.
+  - Keep package TRACE distinct from COMPOSE.
+  - Keep source-side discrimination distinct from evaluator uptake.
+  - Preserve unresolved or bounded outputs rather than forcing a unique verdict.
+  - Route material that does not serve a spline stage or a necessary publication dependency back to the research artifact.
+
+open_coordinates:
+  - compact explicit admission rationale for the purposive H_F response-family sample
+  - remaining source and provenance closure
+  - nearest-neighbor and novelty closure
+  - manuscript execution
+  - journal-specific framing
+
+references:
+  goal_spine_protocol: ../../GOAL_SPINE_AUDIT_PROTOCOL.md
+  audit: ../../audits/CANONICAL_AUTHORITY_G0_SPINE_SPLINE_HM001_AUDIT_2026-09-22.md
+  research_architecture: RESEARCH_ARCHITECTURE.yaml
+  manuscript_contract: MANUSCRIPT_CONTRACT.md
+  source_modules: research/SOURCE_MODULES.yaml

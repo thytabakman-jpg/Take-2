@@ -1,0 +1,106 @@
+schema_version: 0.1
+project_id: canonical-authority
+object_type: manuscript_language_architecture
+artifact_id: CANON:LANGUAGE-36:001
+authority_status: working_manuscript_control
+status: active
+date: 2026-09-24
+
+title: >
+  When Canonical Interpreters Disagree: Source-Grounded Truth Assessment in Rashi and Ramban on Genesis 1:1
+
+scope_set:
+  SYS: system
+  SUB: subsystem
+  COMP: component
+  INT: interface
+  BND: boundary_decomposition
+  XL: cross_layer
+
+core_architecture: >
+  Every language object may be analyzed through the directed transition surface
+  S x S, where S={SYS,SUB,COMP,INT,BND,XL}. The 36 cells are ordered handoff
+  positions, not independent dimensions.
+
+recursive_targets:
+  - paper
+  - section
+  - movement
+  - paragraph
+  - sentence
+  - phrase
+  - title
+  - heading
+
+language_scope_interpretation:
+  SYS: whole linguistic unit and communicative job
+  SUB: major clauses or semantic chunks
+  COMP: words, phrases, modifiers, punctuation-bearing units
+  INT: syntax, cadence, modifier attachment, semantic sequence, reader handoff
+  BND: clause/phrase/title-subtitle/conceptual ownership boundaries
+  XL: research meaning to reader expectation, text to evidence, manuscript to journal/search context
+
+transition_kinds:
+  SELF: recursive same-scope refinement
+  PROJECT: downward projection
+  LIFT: upward promotion
+  RELATE: interface/relational handoff
+  REDECOMPOSE: boundary change
+  TRANSPORT: cross-layer transfer
+
+handoff_status:
+  SELF: same-scope recursive
+  SAFE: ordinary typed handoff
+  GATED: requires explicit preservation evidence
+  REDEFINES: may change identity/decomposition
+
+promotion_rule: >
+  A local wording improvement is not promoted upward merely because it is locally better.
+  Promotion requires preservation of claim strength, source attribution, reader state,
+  section job, and whole-paper goal at the destination scope.
+
+protected_observables:
+  - research fidelity
+  - claim calibration
+  - source attribution
+  - reader epistemic state
+  - section/movement job
+  - boundedness and OPEN preservation
+  - author-facing clarity
+  - cadence and scanability where they affect comprehension
+
+tool_families:
+  - DIFFERENTIATE
+  - ARCHITECT
+  - DIAGNOSE
+  - RELATE
+  - FACTOR
+  - STRENGTHEN
+  - TRANSFER
+  - TRACE
+  - RECONSTRUCT
+  - VERIFY
+
+default_drafting_cycle:
+  - draft_at_current_unit
+  - run_same_scope_refinement
+  - inspect_downward_components
+  - inspect_interfaces
+  - inspect_boundaries
+  - verify_cross_layer_fidelity
+  - test_upward_promotion
+  - accept_only_strict_preserved_gain
+  - run_local_reader_transition_regression
+  - continue
+
+reopen_global_architecture_only_when:
+  - local defect survives upward verification and changes section/paper structure
+  - new evidence changes protected research content
+  - reader transition failure cannot be repaired locally
+  - boundary redesign changes argument identity
+
+current_status:
+  title: accepted
+  section_1: accepted_language_refined
+  section_2: accepted_language_refined
+  next: section_3

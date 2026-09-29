@@ -1,0 +1,274 @@
+schema_version: 0.1
+project_id: canonical-authority
+object_type: contribution_intersection_map
+artifact_id: CANON:CONTRIBUTION-INTERSECTION-36:001
+authority_status: working_contribution_control
+status: current
+date: 2026-09-24
+
+purpose: >
+  Apply the directed 6x6 scope-transition architecture to the complete discovery and
+  novelty inventory, determine which discoveries legitimately promote into paper-level
+  contribution claims, identify irreducible contribution bundles, and isolate the
+  strongest bounded novelty intersection.
+
+coverage:
+  discovery_count: 139
+  all_discoveries_dispositioned: true
+  role_counts:
+    core_argument: 40
+    support: 15
+    source_control: 4
+    research_control_only: 74
+    excluded: 1
+    future_paper: 2
+    future_support_evidence: 1
+    corpus_expansion_control: 1
+    future_project: 1
+
+promotion_rule: >
+  A discovery promotes from local/source/control scope to paper-level contribution only
+  when upward transition preserves source grounding, claim calibration, result sensitivity,
+  manuscript necessity, novelty relevance, and boundedness. Local usefulness is not enough.
+
+scope_transition_tests:
+  SYS_to_COMP: >
+    Whole-paper contribution architecture constrains what local claims need visible support.
+  COMP_to_SYS: >
+    Local discovery promotes only with a complete contribution path; this is the main
+    anti-inflation gate.
+  INT_to_SYS: >
+    Interface/bridge findings become paper-level only when they change the paper's
+    argument or contribution rather than merely repair handoff clarity.
+  BND_to_SYS: >
+    Boundary discoveries promote only when decomposition changes what the paper claims,
+    not merely how backend objects are organized.
+  XL_to_SYS: >
+    Source/runtime/control findings promote only through a licensed research-to-manuscript
+    bridge.
+  SYS_to_XL: >
+    Paper claims must remain realizable in source evidence, manuscript prose, and
+    publication context.
+
+paper_level_irreducible_bundles:
+
+  - id: I1
+    name: fixed_target_heterogeneous_comparison
+    statement: >
+      A fixed rival proposition-pair can serve as a tertium comparationis for heterogeneous
+      Jewish authority and knowledge mechanisms while preserving their native domains,
+      functions, and output types.
+    load_bearing_discoveries:
+      - CANON:D:001
+      - CANON:D:002
+      - CANON:D:003
+      - CANON:D:004
+      - CANON:D:025
+      - CANON:D:026
+    support_discoveries:
+      - CANON:D:009
+      - CANON:D:010
+      - CANON:D:015
+      - CANON:D:024
+      - CANON:D:028
+    earning_location:
+      primary: Section 2
+      support: Section 3
+    independence: irreducible
+    why_not_collapse: >
+      Without I1, the later method has no principled common target and risks flattening
+      functionally different mechanisms.
+
+  - id: I2
+    name: source_attributable_route_architecture
+    statement: >
+      Truth-directed use of an authority mechanism requires source reconstruction plus
+      a licensed source-to-target path, rival discrimination, and evaluator-usable
+      recognition, while added bridge information remains attributable to the layer
+      that supplies it.
+    reader_form:
+      setup: PROFILE
+      route_jobs: [TRACE, DISCRIMINATE, RECOGNIZE]
+    load_bearing_discoveries:
+      - CANON:D:005
+      - CANON:D:006
+      - CANON:D:007
+      - CANON:D:008
+      - CANON:D:032
+      - CANON:D:037
+      - CANON:D:038
+      - CANON:D:054
+    support_discoveries:
+      - CANON:D:017
+      - CANON:D:021
+      - CANON:D:023
+      - CANON:D:029
+      - CANON:D:033
+      - CANON:D:034
+      - CANON:D:035
+      - CANON:D:053
+      - CANON:D:074
+    earning_location:
+      primary: Section 4
+      prerequisites: Section 3
+    independence: irreducible
+    why_not_collapse: >
+      TRACE, DISCRIMINATE, and RECOGNIZE survive deletion/collapse tests as different
+      jobs; PROFILE is required setup rather than another success gate.
+
+  - id: I3
+    name: package_and_composition_separation
+    statement: >
+      Source packages may jointly establish one target-indexed ground inside TRACE, but
+      selection among several completed grounds is a distinct COMPOSE/defeat problem;
+      selector information introduced by composition must be attributed to that layer.
+    load_bearing_discoveries:
+      - CANON:D:039
+      - CANON:D:044
+      - CANON:D:045
+      - CANON:D:052
+      - CANON:D:056
+      - CANON:D:057
+      - CANON:D:073
+      - CANON:D:079
+      - CANON:D:081
+    support_discoveries:
+      - CANON:D:055
+    earning_location:
+      primary: Section 4
+      activated_case_role: dormant_in_current_case
+    independence: irreducible_conditional_boundary
+    why_not_collapse: >
+      Package TRACE combines evidence to establish one ground; COMPOSE combines or
+      defeats already-established grounds. Collapsing them misattributes selector content.
+
+  - id: I4
+    name: bounded_worked_case_result
+    statement: >
+      In the current purposive seven-family corpus, no independently admissible source
+      package completes the proposition-specific TRACE to I_S; the Rashi-Ramban case
+      therefore stops at package TRACE while the positive control shows that the method
+      permits traditional truth-directed success in principle.
+    load_bearing_discoveries:
+      - CANON:D:011
+      - CANON:D:012
+      - CANON:D:042
+      - CANON:D:058
+      - CANON:D:059
+    support_discoveries:
+      - CANON:D:013
+      - CANON:D:014
+      - CANON:D:018
+      - CANON:D:047
+    earning_location:
+      positive_control: Section 5.1
+      strongest_case_route: Section 5.2
+      result: Section 5.3
+    independence: irreducible_empirical_worked_result
+    why_not_collapse: >
+      The method contribution does not entail the case result; the result depends on
+      source/corpus execution. The positive control prevents failure-by-construction.
+
+  - id: I5
+    name: target_relative_attribution_sensitive_authority
+    statement: >
+      Authority is target-relative: native authority or canonical success at one output
+      does not automatically transfer to descriptive truth at another target, and any
+      outcome-material bridge or selector must be attributed to the layer that supplies it.
+    load_bearing_discoveries:
+      - CANON:D:006
+      - CANON:D:025
+      - CANON:D:050
+      - CANON:D:052
+      - CANON:D:053
+    support_discoveries:
+      - CANON:D:009
+      - CANON:D:016
+      - CANON:D:023
+      - CANON:D:028
+      - CANON:D:030
+    earning_location:
+      primary: Section 6
+    independence: derived_but_irreducible_significance
+    derivation: I1 + I2 + attribution_results
+    why_not_collapse: >
+      It is not required for the bounded case result, but ablation shows it is required
+      for the paper's broader philosophical contribution.
+
+validation_and_novelty_shell:
+  positive_control:
+    discoveries: [CANON:D:011]
+    function: method_nontriviality
+  cross_tradition_holdouts:
+    discoveries: [CANON:D:041, CANON:D:046]
+    function: structural_validation_not_primary_novelty
+  nearest_neighbor_novelty:
+    discoveries: [CANON:D:019, CANON:D:043, CANON:D:048]
+    function: bounded_comparator_evidence
+  representation_robustness:
+    discoveries: [CANON:D:098]
+    function: confirms_core_survives_target_compression
+  scholarly_stance:
+    discoveries: [CANON:D:027, CANON:D:030]
+    function: disciplinary_location_and_emic_etic_boundary
+
+strongest_novelty_intersection:
+  id: N_star
+  statement: >
+    The strongest defensible novelty is the intersection of: a fixed truth target for
+    heterogeneous canonical mechanisms; preservation of native source function and
+    source/bridge attribution; package-aware TRACE; rival DISCRIMINATE; evaluator
+    RECOGNIZE; a separate conditional COMPOSE/defeat layer; and a worked source-grounded
+    case showing a bounded package-TRACE obstruction from which target-relative,
+    attribution-sensitive authority is derived.
+  compact_formula: >
+    N* = I1 ∩ I2 ∩ I3 ∩ I4 ∩ I5
+  novelty_status: bounded_to_reviewed_comparator_corpus
+  prohibited_inflations:
+    - do_not_claim_each_component_is_individually_novel
+    - do_not_claim_universal_negative_about_Jewish_adjudication
+    - do_not_claim_case_representativeness
+    - do_not_claim_COMPOSE_is_realized_in_current_case
+    - do_not_claim_authority_is_epistemically_irrelevant
+  nearest_neighbor_basis:
+    - CANON:D:019
+    - CANON:D:043
+    - CANON:D:048
+
+backend_formalisms_not_independent_paper_contributions:
+  discoveries:
+    - CANON:D:031
+    - CANON:D:033
+    - CANON:D:034
+    - CANON:D:035
+    - CANON:D:077
+    - CANON:D:078
+    - CANON:D:080
+  disposition: >
+    Useful for architecture, notation, and correctness, but fail independent upward
+    promotion because their manuscript value is already consumed by I1-I3 or because
+    explicit visibility would add burden without changing the paper-level contribution.
+
+complete_register_disposition:
+  core_argument_ids: [CANON:D:001, CANON:D:002, CANON:D:003, CANON:D:004, CANON:D:005, CANON:D:006, CANON:D:007, CANON:D:008, CANON:D:011, CANON:D:012, CANON:D:019, CANON:D:025, CANON:D:026, CANON:D:027, CANON:D:030, CANON:D:031, CANON:D:032, CANON:D:033, CANON:D:034, CANON:D:035, CANON:D:037, CANON:D:038, CANON:D:039, CANON:D:044, CANON:D:045, CANON:D:050, CANON:D:052, CANON:D:053, CANON:D:054, CANON:D:056, CANON:D:057, CANON:D:058, CANON:D:059, CANON:D:073, CANON:D:074, CANON:D:077, CANON:D:078, CANON:D:079, CANON:D:080, CANON:D:081]
+  support_ids: [CANON:D:009, CANON:D:010, CANON:D:013, CANON:D:015, CANON:D:016, CANON:D:021, CANON:D:023, CANON:D:024, CANON:D:028, CANON:D:029, CANON:D:041, CANON:D:043, CANON:D:046, CANON:D:048, CANON:D:098]
+  source_control_ids: [CANON:D:014, CANON:D:017, CANON:D:042, CANON:D:047]
+  research_control_only_ids: [CANON:D:018, CANON:D:022, CANON:D:036, CANON:D:040, CANON:D:049, CANON:D:051, CANON:D:055, CANON:D:060, CANON:D:061, CANON:D:062, CANON:D:063, CANON:D:065, CANON:D:066, CANON:D:067, CANON:D:072, CANON:D:075, CANON:D:076, CANON:D:082, CANON:D:083, CANON:D:084, CANON:D:085, CANON:D:086, CANON:D:087, CANON:D:088, CANON:D:089, CANON:D:090, CANON:D:091, CANON:D:092, CANON:D:093, CANON:D:094, CANON:D:095, CANON:D:096, CANON:D:097, CANON:D:099, CANON:D:100, CANON:D:101, CANON:D:102, CANON:D:103, CANON:D:104, CANON:D:105, CANON:D:106, CANON:D:107, CANON:D:108, CANON:D:109, CANON:D:110, CANON:D:111, CANON:D:112, CANON:D:113, CANON:D:114, CANON:D:115, CANON:D:116, CANON:D:117, CANON:D:118, CANON:D:119, CANON:D:120, CANON:D:121, CANON:D:122, CANON:D:123, CANON:D:124, CANON:D:125, CANON:D:126, CANON:D:127, CANON:D:128, CANON:D:129, CANON:D:130, CANON:D:131, CANON:D:132, CANON:D:133, CANON:D:134, CANON:D:135, CANON:D:136, CANON:D:137, CANON:D:138, CANON:D:139]
+  excluded_ids: [CANON:D:020]
+  future_paper_ids: [CANON:D:064, CANON:D:071]
+  future_support_evidence_ids: [CANON:D:068]
+  corpus_expansion_control_ids: [CANON:D:069]
+  future_project_ids: [CANON:D:070]
+
+complete_register_rule: >
+  Every discovery is retained in the register. Only discoveries with a licensed upward
+  path become paper-level contributions. Support/source/control/future discoveries retain
+  their roles and do not disappear merely because they are not part of N*.
+
+manuscript_consequence:
+  section_2: earn I1
+  section_3: supply native-function and attribution basis for I1/I2/I5
+  section_4: earn I2 and I3
+  section_5: earn I4
+  section_6: earn I5
+  section_7: synthesize N* and state bounded novelty

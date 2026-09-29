@@ -1,0 +1,403 @@
+schema_version: 0.1
+project_id: canonical-authority
+object_type: derived_surface_control_map
+artifact_id: CANON:SURFACE-CONTROL:001
+authority_status: working_control
+status: current
+date: 2026-09-24
+
+purpose: >
+  Provide one thin synchronization overlay for the Canonical Authority project's
+  authoritative research object and its live derived operational/manuscript surfaces.
+  This map owns dependency/synchronization routing only. It does not replace the
+  specialized semantic controls or become a source of research truth.
+
+governing_rules:
+  currentness: CURRENTNESS_CONTRACT.yaml
+  manuscript_translation: MANUSCRIPT_CONTRACT.md
+  manuscript_status_axes: MANUSCRIPT_STATUS_AXES.yaml
+  reader_refinement: READER_PROJECTION_MAP.yaml
+  abstract_compression: ABSTRACT_CONTRACT.md
+  stable_argument_identity: SPINE.yaml
+  canonical_research: RESEARCH_ARCHITECTURE.yaml
+
+surface_signature:
+  fields:
+    - id
+    - path
+    - role
+    - authority
+    - currentness
+    - source_refs
+    - protected_refs
+    - update_triggers
+
+surfaces:
+  - id: RESEARCH_ARCH
+    path: RESEARCH_ARCHITECTURE.yaml
+    role: canonical_integrated_research_object
+    authority: canonical_working
+    currentness: accepted_version_snapshot
+    source_refs: [SPINE, SOURCE_MODULES, SOURCE_REGISTRY, PROVENANCE]
+    protected_refs: [fixed_case, method, package_result, contribution_architecture]
+
+  - id: STATE
+    path: STATE.yaml
+    role: live_operational_state
+    authority: canonical_working_operational
+    currentness: live
+    source_refs: [RESEARCH_ARCH, MANUSCRIPT_OUTLINE, MANUSCRIPT_MOVEMENTS]
+    protected_refs: [current_result_pointer, blockers, next_action]
+
+  - id: MANUSCRIPT_CONTRACT
+    path: MANUSCRIPT_CONTRACT.md
+    role: research_to_manuscript_translation_control
+    authority: canonical_working
+    currentness: live_control
+    source_refs: [RESEARCH_ARCH, SPINE, SPLINE]
+    protected_refs: [translation_rules, reader_burden, anti_bloat]
+
+  - id: MANUSCRIPT_OUTLINE
+    path: MANUSCRIPT_OUTLINE.md
+    role: section_level_reader_argument_architecture
+    authority: working_manuscript_control
+    currentness: live
+    source_refs: [RESEARCH_ARCH, MANUSCRIPT_CONTRACT, SPLINE]
+    protected_refs: [seven_section_structure, argument_jobs, reader_transitions]
+
+  - id: MANUSCRIPT_MOVEMENTS
+    path: MANUSCRIPT_MOVEMENT_MAP.md
+    role: page_sized_reader_argument_architecture
+    authority: working_manuscript_control
+    currentness: live
+    source_refs: [MANUSCRIPT_OUTLINE, SPINE, SPLINE]
+    protected_refs: [M01_M21, reader_in_out, evidence_jobs]
+
+  - id: READER_PROJECTION
+    path: READER_PROJECTION_MAP.yaml
+    role: reader_refinement_crosswalk
+    authority: working_manuscript_control
+    currentness: live
+    source_refs: [PROJECT_PAGE, MANUSCRIPT_OUTLINE, MANUSCRIPT_MOVEMENTS]
+    protected_refs: [reader_order, section_movement_crosswalk]
+
+  - id: STATUS_AXES
+    path: MANUSCRIPT_STATUS_AXES.yaml
+    role: semantic_case_visibility_typing
+    authority: working_manuscript_control
+    currentness: live_control
+    source_refs: [RESEARCH_ARCH, MANUSCRIPT_OUTLINE]
+    protected_refs: [semantic_role, case_activation, manuscript_visibility]
+
+  - id: ABSTRACT_CONTRACT
+    path: ABSTRACT_CONTRACT.md
+    role: future_abstract_compression_control
+    authority: working_manuscript_control
+    currentness: live_control
+    source_refs: [RESEARCH_ARCH, MANUSCRIPT_MOVEMENTS]
+    protected_refs: [abstract_required_content, compression_rule, verification]
+
+  - id: ABSTRACT_EXPERIMENT
+    path: ABSTRACT_EXPERIMENT_TARGET.md
+    role: frozen_experiment_target
+    authority: experiment_only
+    currentness: frozen
+    source_refs: [RESEARCH_ARCH, MANUSCRIPT_OUTLINE]
+    protected_refs: [experiment_reproducibility]
+
+  - id: NOVELTY_MAP
+    path: NOVELTY_CONTRIBUTION_MAP.md
+    role: contribution_and_novelty_inventory
+    authority: canonical_working_control
+    currentness: live
+    source_refs: [RESEARCH_ARCH, DISCOVERY_MAP]
+    protected_refs: [contribution_hierarchy, manuscript_earning_locations, novelty_bounds]
+
+  - id: CURRENTNESS
+    path: CURRENTNESS_CONTRACT.yaml
+    role: currentness_and_snapshot_semantics
+    authority: working_control
+    currentness: live_control
+    source_refs: [RESEARCH_ARCH, STATE]
+    protected_refs: [snapshot_rule, reconciliation_triggers]
+
+  - id: AUTHOR_OUTLINE
+    path: AUTHOR_FACING_OUTLINE_FINAL_2026-09-24.md
+    role: clean_author_review_outline
+    authority: working_review_surface
+    currentness: live
+    source_refs: [RESEARCH_ARCH, MANUSCRIPT_BLUEPRINT]
+    protected_refs: [paper_goal, section_order, movement_content, source_placement, contribution_hierarchy]
+
+  - id: PROJECT_PAGE
+    path: PROJECT_PAGE.md
+    role: derived_orientation_cockpit
+    authority: derived_orientation
+    currentness: live
+    source_refs: [STATE, RESEARCH_ARCH, MANUSCRIPT_OUTLINE, READER_PROJECTION]
+    protected_refs: [orientation_accuracy]
+
+  - id: DISCOVERY_MAP
+    path: research/DISCOVERY_MAP.yaml
+    role: discovery_history_and_attachment
+    authority: canonical_working_history
+    currentness: live
+    source_refs: [audits]
+    protected_refs: [discovery_identity, dispositions]
+
+  - id: ADAPTIVE_ROUTE
+    path: ADAPTIVE_EXECUTION_ROUTE.yaml
+    role: cross_scale_movement_readiness_routing
+    authority: working_execution_control
+    currentness: live
+    source_refs: [STATE, MANUSCRIPT_MOVEMENTS, CONTROL_MAP]
+    protected_refs: [root_goal_bridge, movement_macro_ownership, observe_refocus_policy]
+
+  - id: MANUSCRIPT_DRAFT
+    path: manuscript/MANUSCRIPT_DRAFT_2026-09-24.md
+    role: active_article_prose
+    authority: working_manuscript
+    currentness: live
+    source_refs: [AUTHOR_OUTLINE, RESEARCH_ARCH]
+    protected_refs: [section_order, movement_content, claim_calibration, reader_transitions]
+
+  - id: MANUSCRIPT_DRAFT_CONTROL
+    path: manuscript/MANUSCRIPT_DRAFT_CONTROL_2026-09-24.md
+    role: drafting_source_readiness_and_regression_sidecar
+    authority: working_manuscript_control
+    currentness: live
+    source_refs: [MANUSCRIPT_DRAFT, SOURCE_REGISTRY, MANUSCRIPT_MOVEMENTS]
+    protected_refs: [source_anchors, section_status, local_open, regression_links]
+
+  - id: ARTIFACTS
+    path: ARTIFACTS.yaml
+    role: artifact_registry
+    authority: canonical_working_registry
+    currentness: live
+    source_refs: [all_registered_surfaces]
+    protected_refs: [object_identity, paths, hashes, authority]
+
+projection_edges:
+  - source: RESEARCH_ARCH
+    target: MANUSCRIPT_CONTRACT
+    relation: governed_translation
+    preserved_refs: [fixed_case, method, bounded_result, contribution_architecture]
+    allowed_loss: [backend_history, failed_branches, most_governance]
+    verify: manuscript_contract_regression
+
+  - source: MANUSCRIPT_CONTRACT
+    target: MANUSCRIPT_OUTLINE
+    relation: section_realization
+    preserved_refs: [reader_burden, protected_argument, bounded_case_path]
+    allowed_loss: [registry_detail, audit_detail]
+    verify: outline_regression
+
+  - source: MANUSCRIPT_OUTLINE
+    target: MANUSCRIPT_MOVEMENTS
+    relation: reader_refinement
+    preserved_refs: [section_jobs, argument_order, reader_dependencies]
+    allowed_loss: []
+    verify: movement_crosswalk
+
+  - source: MANUSCRIPT_MOVEMENTS
+    target: READER_PROJECTION
+    relation: crosswalk
+    preserved_refs: [reader_order, movement_identity]
+    allowed_loss: [evidence_detail]
+    verify: reader_projection_consistency
+
+  - source: RESEARCH_ARCH
+    target: STATUS_AXES
+    relation: semantic_status_projection
+    preserved_refs: [method_roles, case_activation]
+    allowed_loss: [source_detail, proof_history]
+    verify: status_axis_regression
+
+  - source: RESEARCH_ARCH
+    target: ABSTRACT_CONTRACT
+    relation: compression_requirements
+    preserved_refs: [fixed_target, scope, method, bounded_result, derived_significance]
+    allowed_loss: [notation, backend_governance, module_detail]
+    verify: abstract_contract_regression
+
+  - source: RESEARCH_ARCH
+    target: ABSTRACT_EXPERIMENT
+    relation: frozen_experimental_projection
+    preserved_refs: [core_problem, method, bounded_result]
+    allowed_loss: [many_prerequisites_and_controls]
+    verify: frozen_no_mutation
+
+  - source: RESEARCH_ARCH
+    target: STATE
+    relation: operational_projection
+    preserved_refs: [current_result_identity]
+    allowed_loss: [research_detail]
+    verify: state_pointer_consistency
+
+  - source: [RESEARCH_ARCH, STATE, MANUSCRIPT_OUTLINE, READER_PROJECTION]
+    target: PROJECT_PAGE
+    relation: orientation_projection
+    preserved_refs: [goal, current_result, manuscript_state, next_frontier]
+    allowed_loss: [full_detail]
+    verify: cockpit_consistency
+
+sync_actions:
+  values:
+    - NO_EFFECT
+    - REFRESH
+    - REVERIFY
+    - RECONCILE
+    - REAUTHORIZE
+    - OPEN
+
+delta_classes:
+  - id: RESEARCH_RESULT_CHANGE
+    description: fixed case, method, package result, or contribution architecture changes
+    affected:
+      RESEARCH_ARCH: RECONCILE
+      STATE: REFRESH
+      MANUSCRIPT_CONTRACT: REVERIFY
+      MANUSCRIPT_OUTLINE: RECONCILE
+      MANUSCRIPT_MOVEMENTS: RECONCILE
+      READER_PROJECTION: REVERIFY
+      STATUS_AXES: REVERIFY
+      ABSTRACT_CONTRACT: REVERIFY
+      NOVELTY_MAP: RECONCILE
+      PROJECT_PAGE: REFRESH
+      ARTIFACTS: REFRESH
+    authority: canonical_research_change_control
+    verify: protected_result_regression
+
+  - id: SOURCE_OR_CORPUS_CHANGE
+    description: source module, source identity, corpus admission, or package-bridge evidence changes
+    affected:
+      RESEARCH_ARCH: REVERIFY
+      STATE: REVERIFY
+      MANUSCRIPT_CONTRACT: REVERIFY
+      MANUSCRIPT_OUTLINE: REVERIFY
+      MANUSCRIPT_MOVEMENTS: REVERIFY
+      STATUS_AXES: REVERIFY
+      ABSTRACT_CONTRACT: REVERIFY
+      PROJECT_PAGE: REFRESH
+    authority: source_and_research_control
+    verify: package_TRACE_regression
+
+  - id: MANUSCRIPT_SECTION_CHANGE
+    description: section ownership, ordering, merge, split, or section job changes
+    affected:
+      MANUSCRIPT_OUTLINE: REFRESH
+      MANUSCRIPT_MOVEMENTS: RECONCILE
+      READER_PROJECTION: RECONCILE
+      NOVELTY_MAP: REVERIFY
+      STATUS_AXES: REVERIFY
+      PROJECT_PAGE: REFRESH
+      ARTIFACTS: REFRESH
+    authority: manuscript_control
+    verify: protected_argument_and_reader_regression
+
+  - id: MOVEMENT_CHANGE
+    description: M01-M21 identity, order, reader transition, or evidence job changes
+    affected:
+      MANUSCRIPT_MOVEMENTS: REFRESH
+      READER_PROJECTION: RECONCILE
+      ABSTRACT_CONTRACT: REVERIFY
+      PROJECT_PAGE: REFRESH
+      ARTIFACTS: REFRESH
+    authority: manuscript_control
+    verify: movement_dependency_regression
+
+  - id: CONTRIBUTION_LOCATION_CHANGE
+    description: where a contribution is first earned or consolidated changes
+    affected:
+      NOVELTY_MAP: REFRESH
+      MANUSCRIPT_OUTLINE: REVERIFY
+      MANUSCRIPT_MOVEMENTS: REVERIFY
+      PROJECT_PAGE: REFRESH
+    authority: manuscript_and_contribution_control
+    verify: contribution_dependency_regression
+
+  - id: ABSTRACT_REAL_CHANGE
+    description: an actual submission abstract is created or revised
+    affected:
+      ABSTRACT_CONTRACT: REVERIFY
+      MANUSCRIPT_MOVEMENTS: REVERIFY
+      RESEARCH_ARCH: REVERIFY
+    authority: manuscript_control
+    verify: [goal_decoupled_compression_observation, goal_directed_claim_regression]
+
+  - id: CONTROL_ONLY_DISCOVERY
+    description: discovery affects control or manuscript representation but not canonical research claims
+    affected:
+      DISCOVERY_MAP: REFRESH
+      STATE: REFRESH
+      PROJECT_PAGE: REFRESH
+      ARTIFACTS: REFRESH
+    authority: derived_control
+    verify: currentness_contract
+
+  - id: ROUTING_POLICY_CHANGE
+    description: adaptive movement/readiness routing, mode, or ownership policy changes
+    affected:
+      ADAPTIVE_ROUTE: REFRESH
+      STATE: REFRESH
+      MANUSCRIPT_MOVEMENTS: REVERIFY
+      PROJECT_PAGE: REFRESH
+      ARTIFACTS: REFRESH
+    authority: working_execution_control
+    verify: [root_goal_reattachment, routing_regression_reverter]
+
+  - id: PROSE_SECTION_CHANGE
+    description: manuscript section prose is added, revised, accepted, or invalidated
+    affected:
+      MANUSCRIPT_DRAFT: REFRESH
+      MANUSCRIPT_DRAFT_CONTROL: REFRESH
+      STATE: REFRESH
+      PROJECT_PAGE: REFRESH
+      ARTIFACTS: REFRESH
+    authority: working_manuscript
+    verify: [local_source_grounding, reader_transition_regression, claim_calibration]
+
+  - id: PROJECT_PAGE_ONLY_CHANGE
+    description: orientation prose changes without upstream semantic delta
+    affected:
+      PROJECT_PAGE: REFRESH
+      ARTIFACTS: NO_EFFECT
+      RESEARCH_ARCH: NO_EFFECT
+    authority: derived_orientation
+    verify: cockpit_consistency
+
+consumer_rule: >
+  A material delta is not closed merely because its source artifact is updated.
+  Every affected surface must reach one of REFRESHED, REVERIFIED, RECONCILED,
+  CERTIFIED_NO_EFFECT, OPEN, or BLOCKED under Tool Run Closure.
+
+anti_overreach:
+  - this_map_does_not_replace_specialized_controls
+  - this_map_does_not_define_research_truth
+  - this_map_does_not_authorize_canonical_mutation
+  - synchronization_does_not_imply_content_change
+  - newer_surface_does_not_imply_higher_authority
+
+reopen:
+  - new_surface_type
+  - new_material_delta_class
+  - synchronization_failure
+  - multi_editor_or_concurrency_conflict
+  - evidence_that_current_map_misses_required_consumer
+
+
+author_outline_sync:
+  source: [RESEARCH_ARCH, MANUSCRIPT_BLUEPRINT]
+  target: AUTHOR_OUTLINE
+  refresh_on:
+    - section_or_movement_structure_change
+    - intended_substantive_claim_change
+    - source_placement_change
+    - result_or_scope_change
+    - contribution_hierarchy_change
+  certify_no_effect_on:
+    - backend_audit_only_change
+    - tool_repertoire_change
+    - liveness_or_controller_change
+    - registry_only_change
+  verify: AUTHOR_OUTLINE_CONTRACT.md
