@@ -1,0 +1,37 @@
+{
+  "base64_chars": 223384,
+  "bundle_bytes": 167537,
+  "bundle_sha256": "29eb185f0a81dd697b458dd92bab1810a1e206754ac2b22d5eedf92024eb2901",
+  "chunk_count": 1,
+  "chunk_size": 700000,
+  "chunks": [
+    {
+      "chars": 223384,
+      "name": "bundle.b64.part-0000",
+      "sha256": "729fb450dc765739712134be0fdf9180bddb58512019414e86eac7419b266fe7"
+    }
+  ],
+  "refs": [
+    "refs/heads/main 1a8008aa97f0a153e6c0b922e596aa978cc671c3",
+    "refs/heads/recovery/full-git-bundle-20260929 f8d1838285456dd8d6d625862442996459226e10",
+    "refs/remotes/origin/HEAD 1a8008aa97f0a153e6c0b922e596aa978cc671c3",
+    "refs/remotes/origin/ic/endogenous-work-generator-v1 1f4609ca99e992315b2705e28af38588335654a6",
+    "refs/remotes/origin/improvecore/full-corpus-placement-audit-20260926 d2e59613a86982183e4af49a09d1800f2eb8a1d2",
+    "refs/remotes/origin/improvecore/orphan-accounting-110 ffdddccddafc5db5ef8415b26e0dc343920c9a25",
+    "refs/remotes/origin/main 1a8008aa97f0a153e6c0b922e596aa978cc671c3",
+    "refs/remotes/origin/map-ingestion-run-001 ceddeb5fd1f486f0726700da904a618b23cc138c",
+    "refs/remotes/origin/privacy-private-repos-auth 42e4789c6aa62ef28fc33b0c9f281e4843bed10c",
+    "refs/remotes/origin/recovery/full-git-bundle-20260929 f8d1838285456dd8d6d625862442996459226e10",
+    "refs/remotes/origin/take5-successor-lab 657d34de7aca47fb00e8dd9e579121dccaf2a286",
+    "refs/remotes/origin/zero-request-full-corpus-001 517a94da8e01acc4c20a29413831d2bfa0f4ef08",
+    "refs/remotes/pull/1 ceddeb5fd1f486f0726700da904a618b23cc138c",
+    "refs/remotes/pull/2 517a94da8e01acc4c20a29413831d2bfa0f4ef08",
+    "refs/remotes/pull/3 d2e59613a86982183e4af49a09d1800f2eb8a1d2",
+    "refs/remotes/pull/4 42e4789c6aa62ef28fc33b0c9f281e4843bed10c"
+  ],
+  "repository": "thytabakman-jpg/Take-4",
+  "restore": "cat bundle.b64.part-* | base64 -d > repository.bundle && git bundle verify repository.bundle",
+  "schema": "take2-full-git-bundle-v1",
+  "source_head": "f8d1838285456dd8d6d625862442996459226e10",
+  "source_ref": "refs/heads/recovery/full-git-bundle-20260929"
+}
