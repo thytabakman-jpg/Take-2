@@ -1,0 +1,164 @@
+schema_version: 0.1
+project_id: canonical-authority
+registry: response_corpus_admission
+policy: ../../CORPUS_ADMISSION_COVERAGE_POLICY.md
+authority_status: canonical_working
+corpus_scope: purposive_second_order_response_structures_for_CANON:G1.2
+coverage_claim: bounded_non_exhaustive
+status: operative
+
+analysis_target:
+  goal_id: CANON:G1.2
+  target: > 
+    Reconstruct selected Jewish response structures from source-grounded content,
+    native domains, and native functions before applying them to the fixed case.
+  case_target_ref: CANON:G1.1
+  non_target: > 
+    This register does not adjudicate the Genesis 1:1 grammar or determine the
+    truth of Rashi or Ramban.
+
+admission_criterion:
+  rule: > 
+    Admit a response family when its native domain/function or proposition-relevant
+    bridge supplies a materially distinct analytical mechanism for the declared
+    second-order comparison, or when it serves an explicit control or boundary role.
+  material_distinctness_axes:
+    - native_domain
+    - native_function
+    - output_type
+    - proposition_relevant_bridge
+    - evaluator_or_institutional_access_mechanism
+    - case_inferential_role
+  topical_difference_alone: insufficient
+
+families:
+  - id: H_P
+    name: pluralism_and_determination
+    role: core
+    native_domain: rabbinic disagreement and halakhic legitimacy/determination
+    native_function: [preserve_legitimacy, practical_determination]
+    distinct_mechanism: > 
+      Converts disagreement into a legitimacy or determination structure rather
+      than an authentication or transmission mechanism.
+    source_module_ref: research/SOURCE_MODULES.yaml#H_P
+    coverage: admitted_and_profiled
+    route_status: selector_not_established
+    reopen_trigger: > 
+      New evidence shows that the pluralism/determination mechanism has a
+      proposition-specific truth-bearing function not represented in the current profile.
+
+  - id: H_M
+    name: protected_reception
+    role: core
+    native_domain: received Mosaic content versus reason-derived legal interpretation
+    native_function: [classify_provenance, distinguish_reception_from_derived_dispute, legal_procedure]
+    distinct_mechanism: > 
+      Distinguishes received content from reason-derived interpretation and therefore
+      tests transmission/provenance as a potential selector.
+    source_module_ref: research/SOURCE_MODULES.yaml#H_M
+    coverage: admitted_and_profiled
+    route_status: classifies_or_relocates_without_current_selector
+    reopen_trigger: > 
+      Source evidence identifies protected received status that proposition-specifically
+      covers I_S and asymmetrically distinguishes P_R from P_N.
+
+  - id: H_A
+    name: authority_and_error
+    role: core
+    native_domain: institutional legal authority and erroneous ruling
+    native_function: [govern_legal_consequences, authoritative_procedure_despite_fallibility]
+    distinct_mechanism: > 
+      Tests whether institutional authority remains epistemically relevant despite
+      acknowledged fallibility.
+    source_module_ref: research/SOURCE_MODULES.yaml#H_A
+    coverage: admitted_and_profiled
+    route_status: selector_not_established
+    reopen_trigger: > 
+      Evidence establishes a truth-directed proposition-specific asymmetry between
+      Rashi and Ramban.
+
+  - id: H_X
+    name: authenticated_prophecy
+    role: core_positive_control
+    native_domain: authentication and limits of prophetic authority
+    native_function: [authenticate_privileged_epistemic_access, constrain_legal_role]
+    distinct_mechanism: > 
+      Supplies a positive control for privileged-access routes that could in principle
+      reach proposition-specific truth if target coverage and authentication were present.
+    source_module_ref: research/SOURCE_MODULES.yaml#H_X
+    coverage: admitted_and_profiled
+    route_status: TRACE_not_instantiated
+    reopen_trigger: > 
+      A source package supplies authenticated privileged access covering I_S.
+
+  - id: H_R
+    name: ramban_creation_tradition
+    role: core_case_proximate
+    native_domain: esoteric Maaseh Bereishis knowledge and creation interpretation
+    native_function: [invoke_received_creation_knowledge]
+    distinct_mechanism: > 
+      Tests whether a source's explicit creation tradition can be linked specifically
+      to Ramban's syntactic judgment rather than merely to creation doctrine generally.
+    source_module_ref: research/SOURCE_MODULES.yaml#H_R
+    coverage: admitted_and_profiled
+    route_status: proposition_linkage_not_established
+    reopen_trigger: > 
+      Evidence establishes that the particular peshat proposition I_S is itself covered
+      by the relevant received/esoteric knowledge.
+
+  - id: H_L
+    name: loss_and_reconstruction
+    role: support
+    native_domain: forgotten Torah material and reconstruction
+    native_function: [explain_loss, represent_recovery_through_reasoning]
+    distinct_mechanism: > 
+      Tests whether a loss/recovery structure can supply a selector rather than only
+      an explanation of why knowledge was lost.
+    source_module_ref: research/SOURCE_MODULES.yaml#H_L
+    coverage: admitted_and_profiled
+    route_status: explanatory_without_current_selector
+    reopen_trigger: > 
+      A reconstruction pathway becomes proposition-specific and truth-selective.
+
+  - id: H_G
+    name: generational_hierarchy
+    role: support
+    native_domain: comparative stature, memory, or intellectual hierarchy
+    native_function: [express_generational_asymmetry]
+    distinct_mechanism: > 
+      Tests comparative stature as a possible reliability mechanism without importing
+      modern source-ranking assumptions.
+    source_module_ref: research/SOURCE_MODULES.yaml#H_G
+    coverage: admitted_and_profiled
+    route_status: selector_not_established
+    reopen_trigger: > 
+      Evidence connects generational asymmetry to reliability on I_S and distinguishes
+      the two rivals.
+
+coverage_boundary:
+  family_space: > 
+    Selected second-order Jewish response mechanisms plausibly relevant to the
+    project's declared comparison of source-grounded truth-directed pathways.
+  excluded_by_scope:
+    - first_order_grammar_or_philology_as_an_adjudicator
+    - generic_honor_or_status_without_a_distinct_epistemic_function
+    - sources whose only contribution is duplicate wording or duplicate provenance
+  unresolved:
+    - whether additional response families are materially distinct from the admitted set
+    - whether the admitted family space is sufficient for every stronger universal claim
+  claim_limit: > 
+    The project may claim what the admitted and reviewed response families contribute.
+    It may not infer that unadmitted families cannot contribute merely from their absence.
+
+review_triggers:
+  - new source evidence changes a family native function
+  - hostile audit identifies a missing distinct mechanism
+  - proposition-specific bridge is discovered or falsified
+  - current case result changes
+  - manuscript framing requires a stronger coverage claim
+  - a candidate family can defeat or materially alter the current bounded conclusion
+
+relationship_to_source_modules: > 
+  SOURCE_MODULES.yaml owns the typed content and case-level characterization of each
+  module. This register owns why the family is in scope and what coverage claim the
+  corpus can support. Neither replaces the other.

@@ -1,0 +1,296 @@
+schema_version: 0.1
+project_id: canonical-authority
+migration_scope: G0-G2_core_state_spine_and_recovered_source_provenance
+
+records:
+  - id: CANON:PROV:001
+    source_type: historical_artifact
+    source_locator:
+      name: Mesorah_Paper_Transfer_Document_Updated.docx
+      library_file_id: libfile_5f7f143c3db881918f97ea7e6cb204f8
+      created_at: 2026-08-31
+    repository_copy_status: not_migrated
+    establishes:
+      - peer-reviewed publication commitment
+      - fixed Rashi-Ramban Genesis 1:1 disagreement
+      - shared standing does not itself adjudicate
+      - requirement for a further truth-discriminating criterion
+      - Reem variant-recension proposal is explanatory rather than adjudicative
+    limitation: >
+      Earlier architecture is mesorah-centered and predates the later typed
+      source-to-case reformulation. Use for durable core commitments, not as
+      the final architecture.
+
+  - id: CANON:PROV:002
+    source_type: historical_artifact
+    source_locator:
+      name: What_Is_the_Mesorah_Master_Research_and_Drafting_Dossier_REBUILT.docx
+      library_file_id: libfile_d092f43ceb908191a5cdc21c04917191
+      created_at: 2026-08-31
+    repository_copy_status: not_migrated
+    establishes:
+      - Rashi-Ramban as the fully developed primary case
+      - distinction between explanation of disagreement and adjudication of truth
+      - structural requirement for warranted truth-discriminating asymmetry
+      - distinction between normative authority and truth indication
+      - bounded publication and novelty framing
+    limitation: >
+      Some route taxonomy and novelty framing were later revised. Later
+      user-confirmed project state controls where it conflicts.
+
+  - id: CANON:PROV:003
+    source_type: historical_artifact
+    source_locator:
+      name: What_Is_the_Mesorah_Master_Dossier_CURRENT_CONTROL_SECTIONS_2-6.docx
+      library_file_id: libfile_d017305d81a48191a19e412b99ccea80
+      created_at: 2026-09-01
+    repository_copy_status: not_migrated
+    establishes:
+      - locked proposition-level Rashi-Ramban contradiction
+      - grammar verdict remains open
+      - central question asks what epistemic grounds favor one claim over the other
+      - explanation/adjudication distinction
+      - early article architecture through pluralism and transmission
+    limitation: >
+      Control document predates the September 19-21 second-order typed-path
+      architecture.
+
+  - id: CANON:PROV:004
+    source_type: user_confirmed_conversation
+    source_locator:
+      date: 2026-09-15
+      description: project identity reset
+    repository_copy_status: summary_migrated
+    establishes:
+      - fixed direct non-halakhic descriptive contradiction
+      - controlled domain-transfer stress test
+      - project no longer treated as a generic many-roads or mesorah-only argument
+    limitation: Original chat transcript is not copied into this repository.
+
+  - id: CANON:PROV:005
+    source_type: user_confirmed_conversation
+    source_locator:
+      date: 2026-09-19
+      description: Canonical Factual Disagreement project state
+    repository_copy_status: summary_migrated
+    establishes:
+      - project identity as bounded second-order comparison in Jewish thought
+      - fixed propositions for Rashi and Ramban on Genesis 1:1
+      - non-exhaustive purposive stress-test scope
+      - selected source modules spanning pluralism, authority, prophecy, transmission, and tradition
+      - typed source-grounded path to truth-directed effect
+      - proposition-specific differential truth/evidential support as success criterion
+      - bounded result that no reconstructed route yet completes the required comparison
+    limitation: Original chat transcript is not copied into this repository.
+
+  - id: CANON:PROV:006
+    source_type: user_confirmed_conversation
+    source_locator:
+      date: 2026-09-21
+      description: publication and source-module constraints
+    repository_copy_status: summary_migrated
+    establishes:
+      - goal of a novel rigorous peer-reviewed paper
+      - fixed Rashi-Ramban Genesis 1:1 disagreement
+      - distinction among source content, native domain/function, transfer, truth relevance, proposition linkage, and case operation
+      - required second-order scope across epistemic, interpretive, institutional, transmission, authority, and privileged-access routes
+      - source modules including Eruvin/Ritva, Mamrim, Horayot, prophecy, Ramban creation tradition, Temurah, Shabbat, and the fixed case
+      - bounded-claim rule with no unsupported universal negatives
+    limitation: Original chat transcript is not copied into this repository.
+
+
+  - id: CANON:PROV:007
+    source_type: user_confirmed_conversation
+    source_locator:
+      date: 2026-09-21
+      description: spine, ceiling-raising, publication-level, and GitHub integration sequence
+    repository_copy_status: summary_migrated
+    establishes:
+      - controlling argument spine A -> Q -> H[F] -> R -> B -> C
+      - narrowed fixed proposition I_S for the Rashi-Ramban case
+      - representative source-module set and uniform source-to-case profile
+      - ceiling-raising definition and anti-bloat control
+      - target-relative religious-authority contribution
+      - licensed-transfer and source-attribution contribution
+      - third-party warrant or recognizability as an additional adjudicative burden
+      - B** represented as T + L + I + W for current research control
+      - PD used as under-the-hood discovery machinery rather than a second article framework
+      - distinction between research artifact and reader-facing manuscript
+      - broader publication orientation beyond a specialist-only framing
+    limitation: >
+      The original chat transcript is not copied into this repository. The dedicated
+      integration audit records the durable project-level effects rather than the
+      full conversational sequence.
+
+  - id: CANON:PROV:008
+    source_type: historical_artifact
+    source_locator:
+      name: What_Is_the_Mesorah_Transfer_Document_v2.5.docx
+      library_file_id: libfile_13e1a79250208191918018b05e04db6b
+      created_at: 2026-09-05
+    repository_copy_status: represented_by_provenance_not_binary_copied
+    establishes:
+      - formal architecture and source-status baseline as of 5 September 2026
+      - distinction between transfer/control authority and manuscript-prose authority
+      - Rashi-Ramban fixed case and source-control architecture
+      - explicit pending source gates for later sections
+      - bounded comparative/adjudicative framing before the later typed-route architecture
+    current_disposition: superseded_architecture_active_provenance
+    limitation: >
+      Historical statements that call v2.5 the current control are time-indexed.
+      Current integrated architecture authority now belongs to CANON:ARCH:001 in
+      RESEARCH_ARCHITECTURE.yaml.
+
+  - id: CANON:PROV:009
+    source_type: historical_artifact
+    source_locator:
+      name: What_Is_the_Mesorah_Master_Research_and_Drafting_Dossier_CURRENT_WITH_MANUSCRIPT.docx
+      library_file_id: libfile_d9adf85145288191a4767cf48c0858c4
+      created_at: 2026-08-31
+    repository_copy_status: represented_by_provenance_not_binary_copied
+    establishes:
+      - historical manuscript prose baseline for the Rashi-Ramban case
+      - historical literature and citation map
+      - historical article architecture and drafting guardrails
+      - distinction between logical inference and source-dependent claims
+    current_disposition: historical_manuscript_candidate
+    limitation: >
+      This artifact is not the current manuscript. The current research object has
+      advanced materially beyond it and STATE.yaml records the current manuscript as
+      not yet rebuilt to the current ceiling.
+
+  - id: CANON:PROV:010
+    source_type: historical_manifest
+    source_locator:
+      name: 03_INTERNAL_SOURCE_MANIFEST.md
+      library_file_id: libfile_d9c75abe72e48191908d6b682a0abd92
+      created_at: 2026-09-09
+    repository_copy_status: represented_by_provenance_not_copied_as_authority
+    establishes:
+      - historical source hierarchy and control succession
+      - v2.5 as the then-current formal-control baseline
+      - unresolved historical manuscript authority
+      - later Rambam, Ritva, and Bavli source-verification work
+      - visual-corpus caution and duplicate-class warnings
+    current_disposition: recovery_evidence
+    limitation: >
+      This manifest predates the current GitHub authority architecture and cannot
+      override current artifact, source-registry, or state records.
+
+  - id: CANON:PROV:011
+    source_type: historical_audit
+    source_locator:
+      name: Jewish_Papers_1-4_Shared_Source_and_Novelty_Audit_2026-09-15.md
+      library_file_id: libfile_56795620dd848191bcc74943c7a1045c
+      created_at: 2026-09-15
+    repository_copy_status: findings_reconciled_into_source_registry
+    establishes:
+      - direct check of Maimonides Hilkhot Yesodei HaTorah 9-10
+      - distinctions among authentication, information, and permitted authority
+      - source-verification limits for broader Ruach HaKodesh and authority claims
+      - bounded novelty posture and remaining exact-source tasks
+    current_disposition: active_source_verification_provenance
+    limitation: >
+      Shared cross-paper audit; only findings materially relevant to Canonical
+      Authority are promoted into current Canonical controls.
+
+  - id: CANON:PROV:012
+    source_type: historical_gap_register
+    source_locator:
+      name: 04_TRACEABILITY_AND_GAPS.md
+      library_file_id: libfile_237d059493ac81919428506bb5e9ece1
+      created_at: 2026-09-09
+    repository_copy_status: material_gaps_reconciled
+    establishes:
+      - response-family completeness remains open
+      - safe Ritva attribution is to his report of the Rabbanei Tzarfat
+      - global historical conversation completeness remains open
+      - old visual corpus is not proposition-audited and must not control current prose
+    current_disposition: active_limit_provenance
+    limitation: >
+      Some historical gap labels belong to an earlier project architecture; current
+      state and source registry control their present operational interpretation.
+
+  - id: CANON:PROV:013
+    source_type: repository_audit_sequence
+    source_locator:
+      - audits/CANONICAL_AUTHORITY_SPINE_CEILING_INTEGRATION_2026-09-21.md
+      - audits/CANONICAL_AUTHORITY_20_FIELD_CEILING_SCAN_2026-09-21.md
+      - audits/CANONICAL_AUTHORITY_RELIGION_20_FIELD_CEILING_SCAN_2026-09-21.md
+      - audits/CANONICAL_AUTHORITY_30_FIELD_COMPRESSION_CEILING_2026-09-21.md
+      - audits/CANONICAL_AUTHORITY_RESEARCH_OBJECT_PD_AUDIT_2026-09-21.md
+      - audits/CANONICAL_AUTHORITY_SUCCESSOR_CEILING_PROGRAM_2026-09-21.md
+    repository_copy_status: native_repository_evidence
+    establishes:
+      - stable spine A -> Q -> H[F] -> R -> B -> C
+      - exact current research object CANON:ARCH:001
+      - typed setup plus TRACE DISCRIMINATE RECOGNIZE route architecture
+      - separate multi-route COMPOSE requirement
+      - current bounded no-selector result
+      - strict-gain successor architecture v1.1.0
+      - bounded nearest-neighbor and publication-ceiling conclusions
+    current_disposition: current_audit_provenance
+    limitation: >
+      Audit files preserve historical evidence. Current architecture is controlled by
+      RESEARCH_ARCHITECTURE.yaml, not by whichever audit is newest.
+
+  - id: CANON:PROV:014
+    source_type: current_repository_register
+    source_locator: projects/canonical-authority/research/SOURCE_REGISTRY.yaml
+    repository_copy_status: native_repository_authority
+    establishes:
+      - stable bibliographic and primary-source identities
+      - source verification status
+      - pending source gates
+      - source-to-module support links
+    current_disposition: canonical_working_source_identity
+    limitation: >
+      Source identity and verification status do not by themselves determine the
+      inferential role of a source; SOURCE_MODULES.yaml owns module analysis.
+
+
+  - id: CANON:PROV:015
+    source_type: user_confirmed_conversation_and_repository_audit_sequence
+    source_locator:
+      date: 2026-09-22
+      description: >
+        publication-value ceiling, repeated PD ceiling passes, maximum-hostility
+        repair, theory-freeze, referee simulation, contribution minimality, and
+        follow-on extraction sequence
+      repository_evidence:
+        - audits/CANONICAL_AUTHORITY_CEILING_CONSOLIDATION_2026-09-22.md
+        - audits/CANONICAL_AUTHORITY_SOURCE_PACKAGE_TRACE_AUDIT_2026-09-22.md
+        - audits/CANONICAL_AUTHORITY_THEORY_FREEZE_AUDIT_2026-09-22.md
+        - audits/CANONICAL_AUTHORITY_REFEREE_MINIMALITY_FOLLOWON_AUDIT_2026-09-22.md
+        - projects/canonical-authority/research/CEILING_SUCCESSOR_CANDIDATE.yaml
+    repository_copy_status: promoted_into_current_research_architecture
+    establishes:
+      - robust COMPOSE across materially admissible specifications
+      - composition and meta-selector attribution
+      - prospective Sikh structural holdout
+      - bounded intersection novelty
+      - frame-versus-inferential-contribution factorization
+      - source-ground-versus-evaluator-uptake factorization
+      - falsification of singleton-only corpus obstruction
+      - source-package TRACE repair
+      - post-recovery package-level TRACE obstruction for the current corpus
+      - evaluator invariance while the upstream obstruction holds
+      - evidence-layer separation
+      - publication-value theory-freeze
+      - referee attack-surface localization
+      - contribution minimality and follow-on routing
+    current_disposition: promoted_to_CANON_ARCH_001_v1_2_0
+    limitation: >
+      Package-level obstruction remains corpus-bounded and reopens if source recovery,
+      module identity, cross-source bridge evidence, target specification, or primary
+      source interpretation changes materially.
+
+validation:
+  evidence_comparison_date: 2026-09-21
+  historical_coverage: open
+  result: >
+    The fixed case, second-order target, typed application path, discriminator
+    criterion, bounded result, and publication endpoint recur across independent
+    artifacts and later user-confirmed project states. Exact corpus completeness,
+    novelty, and final manuscript architecture remain open.
+

@@ -1,0 +1,278 @@
+schema_version: 0.3
+project_id: canonical-authority
+
+lifecycle_status: active
+migration_stage: validated
+migration_scope: G0-G2_core_state_spine_and_current_backend_recovery
+authority_status: canonical_working
+
+current_result:
+  statement: >
+    Across the currently admitted and audited second-order structures, no individually
+    or jointly admissible source package currently supplies a completed,
+    proposition-specific, case-operational, third-party-usable asymmetry sufficient to
+    select between the fixed Rashi-Ramban rival claims.
+  status: bounded
+  historical_coverage: open
+
+current_case:
+  locus: Genesis 1:1
+  target_proposition:
+    id: I_S
+    statement: >
+      On the peshat advanced, Genesis 1:1 has bara Elohim as its main predication
+      rather than as part of a temporal subordinate construction leading to verse 3.
+  rashi: "P_R = not I_S"
+  ramban: "P_N = I_S"
+  first_order_grammar_verdict: outside_current_adjudicative_scope
+
+research_object:
+  id: CANON:ARCH:001
+  path: projects/canonical-authority/RESEARCH_ARCHITECTURE.yaml
+  version: 1.2.0
+  registry: projects/canonical-authority/ARTIFACTS.yaml
+  status: accepted_current_pre_manuscript_object
+  manuscript_status: drafting_active_sections1_2_first_pass_accepted
+
+argument_control:
+  integrated_architecture: projects/canonical-authority/RESEARCH_ARCHITECTURE.yaml
+  spine: projects/canonical-authority/SPINE.yaml
+  notation: "A -> Q -> H[F] -> R -> B -> C"
+  spline: projects/canonical-authority/SPLINE.yaml
+  spline_notation: "A -> Q -> PROFILE(H[F]) -> TRACE -> DISCRIMINATE -> RECOGNIZE -> [conditional COMPOSE] -> C"
+  realized_case_spline: "A -> Q -> PROFILE -> TRACE obstruction -> bounded C_case"
+  discovery_map: projects/canonical-authority/research/DISCOVERY_MAP.yaml
+  response_corpus_admission: projects/canonical-authority/research/RESPONSE_CORPUS_ADMISSION.yaml
+  source_modules: projects/canonical-authority/research/SOURCE_MODULES.yaml
+  source_registry: projects/canonical-authority/research/SOURCE_REGISTRY.yaml
+  provenance: projects/canonical-authority/PROVENANCE.yaml
+  artifacts: projects/canonical-authority/ARTIFACTS.yaml
+  ceiling_raise_register: projects/canonical-authority/research/CEILING_RAISE_REGISTER.yaml
+  manuscript_contract: projects/canonical-authority/MANUSCRIPT_CONTRACT.md
+  control_map: projects/canonical-authority/CONTROL_MAP.yaml
+  currentness_contract: projects/canonical-authority/CURRENTNESS_CONTRACT.yaml
+  manuscript_status_axes: projects/canonical-authority/MANUSCRIPT_STATUS_AXES.yaml
+  reader_projection_map: projects/canonical-authority/READER_PROJECTION_MAP.yaml
+  abstract_contract: projects/canonical-authority/ABSTRACT_CONTRACT.md
+  surface_control_map: projects/canonical-authority/SURFACE_CONTROL_MAP.yaml
+  adaptive_execution_route: projects/canonical-authority/ADAPTIVE_EXECUTION_ROUTE.yaml
+  manuscript_blueprint: projects/canonical-authority/MANUSCRIPT_BLUEPRINT_FINAL_2026-09-24.md
+  author_outline_contract: projects/canonical-authority/AUTHOR_OUTLINE_CONTRACT.md
+  author_facing_outline: projects/canonical-authority/AUTHOR_FACING_OUTLINE_FINAL_2026-09-24.md
+  manuscript_language_architecture: projects/canonical-authority/MANUSCRIPT_LANGUAGE_ARCHITECTURE_36.yaml
+  contribution_intersection_36: projects/canonical-authority/CONTRIBUTION_INTERSECTION_36.yaml
+  contribution_writing_plan_36: projects/canonical-authority/IMPROVEMENT_CORE_CONTRIBUTION_WRITING_PLAN_36.md
+  g1_goal_spines: projects/canonical-authority/GOAL_SPINES.yaml
+
+current_method:
+  typed_setup:
+    label: PROFILE
+    status: required_setup_not_independent_success_conjunct
+    function: reconstruct the source structure and its typed native output
+  route_level_characterization:
+    bearer: independently_admissible_source_package
+    gates:
+      - TRACE
+      - DISCRIMINATE
+      - RECOGNIZE
+    interpretation:
+      TRACE: establish a licensed and source-attributable relation from an admissible source package to the fixed truth target
+      DISCRIMINATE: determine whether the traced relation asymmetrically supports one rival concerning truth
+      RECOGNIZE: determine whether evaluator e has warranted epistemic grounds to identify and use that discriminator
+    formal_candidate: >
+      PackageGround_e(X,tau) iff X is an independently admissible source package and
+      there exists Delta such that TRACE(X,tau,Delta), Delta discriminates the rivals,
+      and evaluator e can warrantedly recognize and use Delta.
+    singleton_embedding: >
+      Existing H_i route results remain the one-member-package special case.
+    factorization: >
+      SourceGround=TRACE plus DISCRIMINATE; evaluator uptake=RECOGNIZE.
+  case_level_selection:
+    label: COMPOSE
+    status: dormant_in_current_case_but_characterized_for_general_multi_ground_selection
+    function: >
+      combine or defeat multiple completed target-indexed grounds under independently
+      licensed composition specifications, preserving relative, partial, tied, or
+      unresolved output when materially admissible specifications do not agree
+    package_trace_boundary: >
+      Package TRACE may combine several source structures to establish one ground;
+      COMPOSE operates only after several completed grounds exist.
+  prior_adjudicative_expansion:
+    notation: "B** = T + L + I + W"
+    status: retained_as_diagnostic_decomposition
+
+current_ceiling:
+  status: v1_2_0_promoted_with_theory_freeze
+  nested_payoffs:
+    - jewish_philosophy
+    - philosophy_of_religious_authority
+    - comparative_method_in_religious_studies
+    - sociology_of_religious_knowledge
+    - broader_religious_studies_methodology
+    - social_epistemology_of_religion
+  central_contribution_candidates:
+    - an independently admissible source package supplies usable grounds only through TRACE, DISCRIMINATE, and evaluator-relative RECOGNIZE after typed setup
+    - route-level usable grounds and all-things-considered case selection are distinct
+    - multiple completed conflicting grounds require robustly licensed COMPOSE or defeat semantics, with selector contribution separately attributed
+    - religious authority is target-relative rather than epistemically portable by status alone
+    - heterogeneous religious knowledge structures can be compared through one fixed truth-apt target without flattening their native functions
+    - canonicality, legitimacy, memory, social efficacy, institutional settlement, authentication, and proposition-specific truth are distinct output types
+    - the scholar can analyze emic truth-directed structures second-order without deciding theological truth
+    - inquiry-frame coordinates are distinct from inferential contributions
+    - the present case has a package-level TRACE obstruction under the recovered corpus
+    - while that upstream obstruction holds, evaluator and COMPOSE variation cannot change the fixed case result
+  methodological_positioning:
+    - typed_setup_plus_three_route_gates
+    - explicit_multi_route_composition_boundary
+    - sociology_of_religious_knowledge
+    - fixed_target_comparison
+    - philosophy_of_religious_studies
+    - functionally_differentiated_religious_authority
+  manuscript_status: author_outline_complete_ready_for_prose_population
+  journal_positioning: >
+    The successor audit strengthens the top-tier field ceiling by adding hostile
+    necessity tests, a conditional route-level characterization, cross-tradition
+    structural holdouts, and an explicit case-level composition boundary. The
+    strongest publication route remains open and should target the highest credible
+    venue supported by final novelty closure, source closure, and manuscript execution.
+
+
+successor_ceiling_staging:
+  object_id: CANON:ARCH-CANDIDATE:CEILING-002
+  path: projects/canonical-authority/research/CEILING_SUCCESSOR_CANDIDATE.yaml
+  branch: workstream/canon-ceiling-consolidation-2026-09-22
+  authority_status: promoted_historical_candidate
+  current_accepted_object: CANON:ARCH:001_v1.2.0
+  status: promoted
+  spine_changed: false
+  goal_changed: false
+  strongest_surviving_candidates:
+    - robust_COMPOSE_over_materially_admissible_specifications
+    - composition_selector_attribution
+    - selector_provenance_closure
+    - prospective_Sikh_structural_holdout
+    - bounded_intersection_novelty
+    - frame_versus_inferential_contribution_factorization
+    - source_ground_versus_evaluator_uptake_factorization
+    - source_package_TRACE
+    - package_level_TRACE_obstruction_for_current_reconstructed_corpus
+    - evaluator_invariance_while_upstream_obstruction_holds
+    - evidence_layer_separation
+    - contribution_minimality
+    - theory_freeze_after_post_recovery_regression
+  hostile_falsification_preserved: >
+    Failure of every singleton route at TRACE does not in general imply corpus-level
+    TRACE failure because individually incomplete sources can jointly complete a
+    source-to-target path. The successor repairs this by admitting independently
+    licensed source packages and testing the current corpus at package level.
+  current_case_effect: >
+    Relative to the current reconstructed module content, no admissible source package
+    supplies the missing proposition-specific edge to I_S. The fixed case therefore
+    remains blocked at TRACE and COMPOSE remains dormant.
+  evidence:
+    - audits/CANONICAL_AUTHORITY_CEILING_CONSOLIDATION_2026-09-22.md
+    - audits/CANONICAL_AUTHORITY_SOURCE_PACKAGE_TRACE_AUDIT_2026-09-22.md
+    - audits/CANONICAL_AUTHORITY_THEORY_FREEZE_AUDIT_2026-09-22.md
+    - audits/CANONICAL_AUTHORITY_REFEREE_MINIMALITY_FOLLOWON_AUDIT_2026-09-22.md
+  promotion_result:
+    recovery_workstream_closed: true
+    package_TRACE_post_recovery_regression: passed
+    non_regression: passed
+    architecture_promoted: CANON:ARCH:001_v1.2.0
+    spine_changed: false
+    goal_changed: false
+
+layered_ceiling_control:
+  status: operative
+  control_map: projects/canonical-authority/CONTROL_MAP.yaml
+  g1_spines: projects/canonical-authority/GOAL_SPINES.yaml
+  audit: audits/CANONICAL_AUTHORITY_LAYERED_CONTROL_MAP_G1_SPINE_AUDIT_2026-09-22.md
+  theory_region: frozen_by_default
+  strongest_open_internal_regions:
+    - goal_ref: CANON:G1.2
+      region: corpus_admission_and_coverage
+      frontier: >
+        Separate response-family admission and coverage criteria from source
+        verification and reconstruction.
+    - goal_ref: CANON:G1.5
+      region: publication_readiness
+      frontier: >
+        Close provenance, novelty, manuscript, and journal-framing branches as
+        independent converging requirements.
+  bounded_convergence: >
+    Do not recursively instantiate every G2 spine by default. Descend when a G1
+    frontier cannot be resolved at G1 resolution, new evidence changes a G1 result,
+    manuscript execution exposes a child dependency, or hostile review identifies a
+    lower-level vulnerability.
+
+open_coordinates:
+  - completeness of the admitted response corpus
+  - complete historical conversation reconciliation
+  - final full-text comparison with the closest predecessor literature where access remains incomplete
+  - final provenance and source closure for all paper-facing modules
+  - sentence-level writing style and reader experience
+  - final journal-specific manuscript framing
+
+blockers:
+  - no blocker to manuscript planning
+  - provenance/source closure remains required before submission
+  - novelty language remains bounded to the reviewed comparator corpus
+
+cross_project_reviews:
+  - edge: EDGE:PD-CANON:002
+    source: PD:G2X
+    status: completed
+    result: >
+      PD diagnostic review strengthens hidden-selector and result-sensitivity
+      controls without changing the bounded case result.
+
+  - edge: EDGE:PD-CANON:003
+    source: PD:G2A
+    status: integrated
+    result: >
+      Attribution/licensing work is now built into the R pathway: source content,
+      bridge machinery, and selector attribution remain distinct.
+
+  - edge: EDGE:PD-CANON:004
+    source: PD:G2C
+    status: integrated
+    result: >
+      Indexed target/result typing now constrains the comparison and prevents
+      legitimacy, practice, provenance, and descriptive truth from being flattened
+      into one output type.
+
+next_action: >
+  Write Section 3 under IMPROVEMENT_CORE_CONTRIBUTION_WRITING_PLAN_36.md and
+  MANUSCRIPT_LANGUAGE_ARCHITECTURE_36.yaml. Begin with 3.1 Pluralism and Received
+  Tradition. Section 3 supplies the native-function and source-attribution basis for
+  I1, I2, and I5; it does not yet spend the TRACE/DISCRIMINATE/RECOGNIZE method result.
+  After each subsection, run source-grounding, 36-cell language, and interface checks.
+
+last_validation_event:
+  date: 2026-09-22
+  audit: audits/CANONICAL_AUTHORITY_BACKEND_RECOVERY_AUDIT_2026-09-22.md
+  prior_research_object_audit: audits/CANONICAL_AUTHORITY_RESEARCH_OBJECT_PD_AUDIT_2026-09-21.md
+  successor_ceiling_audit: audits/CANONICAL_AUTHORITY_SUCCESSOR_CEILING_PROGRAM_2026-09-21.md
+
+
+backend_recovery:
+  status: reconciled_to_declared_current_backend_scope
+  date: 2026-09-22
+  audit: audits/CANONICAL_AUTHORITY_BACKEND_RECOVERY_AUDIT_2026-09-22.md
+  source_registry_count: 50
+  unresolved_live_source_refs: 0
+  current_research_object_recoverable_without_chat_reconstruction: true
+  historical_global_completeness: open
+  publication_source_closure: open
+  surviving_open_tasks:
+    - complete historical conversation reconciliation
+    - operationalize the response-family admission and coverage register under CORPUS_ADMISSION_COVERAGE_POLICY.md
+    - close only paper-facing source and provenance dependencies
+    - remaining full-text nearest-neighbor closure
+    - proposition-level disposition of old visual corpus where it affects paper use
+    - manuscript rebuild from CANON:ARCH:001 v1.2.0
+    - final journal-specific framing
+  conditional_or_nonblocking:
+    - pending source gates in research/SOURCE_REGISTRY.yaml remain conditional and are activated only when their branches become article-facing
+    - prospective holdout validation is already represented by the completed Sikh structural holdout unless a new result-sensitive question reopens it
+  goal_effect: none

@@ -1,0 +1,182 @@
+schema_version: 0.1
+project_id: canonical-authority
+object_type: recursive_g1_goal_spine_overlay
+artifact_id: CANON:G1-SPINES:001
+authority_status: canonical_working
+status: provisional_spines
+term_resolution:
+  umbrella_term: spine
+  spine_type: goal_dependency
+  scope: per_registered_G1_goal
+protocol: ../../GOAL_SPINE_AUDIT_PROTOCOL.md
+goal_source: GOALS.yaml
+parent_control_map: CONTROL_MAP.yaml
+
+purpose: >
+  Represent the load-bearing dependency structure of each Canonical Authority G1 goal
+  without changing goal identity. These spines expose local improvement frontiers that
+  are hidden when only the G0 argument spine is inspected.
+
+goals:
+  CANON:G1.1:
+    target: >
+      Preserve and validate the fixed Rashi-Ramban proposition-level disagreement,
+      second-order scope, and truth-directed success criterion without deciding the
+      first-order grammatical verdict.
+    notation: "FIX -> TYPE -> BOUND -> TARGET -> CONTROL"
+    nodes:
+      FIX: fixed_Genesis_1_1_Rashi_Ramban_collision
+      TYPE: explicit_incompatible_truth_apt_propositions_P_R_and_P_N
+      BOUND: second_order_scope_with_first_order_grammar_outside_adjudicative_scope
+      TARGET: third_party_truth_directed_success_criterion
+      CONTROL: validated_case_identity_available_to_downstream_analysis
+    edge_types:
+      - "FIX -> TYPE: representation"
+      - "TYPE -> BOUND: constraint"
+      - "BOUND -> TARGET: admissibility"
+      - "TARGET -> CONTROL: validation"
+    destructive_test: passed
+    rival_spine_test: passed
+    status: PROVISIONAL_SPINE
+    frontier_state: STRONG
+    unresolved_generators:
+      - final_paper_facing_case_source_edition_closure
+    current_frontier: >
+      Preserve rather than expand. Reopen only if source recovery changes the fixed
+      proposition pair or the manuscript cannot state the scope boundary cleanly.
+
+  CANON:G1.2:
+    target: >
+      Reconstruct the selected Jewish response structures from source-grounded content,
+      native domains, and native functions before case application.
+    notation: "ADMIT -> VERIFY -> RECONSTRUCT -> TYPE -> PROFILE -> BOUND"
+    nodes:
+      ADMIT: principled_purposive_response_family_admission
+      VERIFY: stable_source_identity_and_primary_verification
+      RECONSTRUCT: native_content_domain_and_function
+      TYPE: typed_output_classification
+      PROFILE: reusable_source_module_profile
+      BOUND: explicit_non_exhaustive_coverage_boundary
+    edge_types:
+      - "ADMIT -> VERIFY: selection"
+      - "VERIFY -> RECONSTRUCT: evidence"
+      - "RECONSTRUCT -> TYPE: representation"
+      - "TYPE -> PROFILE: compression"
+      - "PROFILE -> BOUND: scope"
+    destructive_test: passed_with_ADMIT_and_BOUND_conditionally_load_bearing_for_broader_claims
+    rival_spine_test: passed_against_history_order_and_source_first_alternatives
+    status: PROVISIONAL_SPINE
+    frontier_state: OPEN
+    unresolved_generators:
+      - remaining_paper_facing_source_verification
+      - unresolved_candidate_family_coverage_questions
+    current_frontier: >
+      RESPONSE_CORPUS_ADMISSION.yaml now operationalizes the admission criterion and
+      bounded family-space claim. The remaining G1.2 frontier is evidence closure and
+      identification of any candidate family whose native mechanism is materially
+      distinct enough to reopen the corpus branch.
+
+  CANON:G1.3:
+    target: >
+      Test each admitted candidate through a typed source-to-case pathway for licensed
+      transfer, truth relevance, proposition-specific linkage, case instantiation, and
+      case-operational effect.
+    notation: "PROFILE -> TRACE -> DISCRIMINATE -> RECOGNIZE -> [COMPOSE] -> OUTPUT"
+    nodes:
+      PROFILE: typed_native_source_setup
+      TRACE: independently_licensed_source_package_path_to_fixed_target
+      DISCRIMINATE: rival_specific_truth_directed_asymmetry
+      RECOGNIZE: evaluator_relative_warranted_uptake
+      COMPOSE: conditional_multi_ground_combination_or_defeat
+      OUTPUT: route_or_case_level_result
+    edge_types:
+      - "PROFILE -> TRACE: licensing"
+      - "TRACE -> DISCRIMINATE: inference"
+      - "DISCRIMINATE -> RECOGNIZE: evaluator_constraint"
+      - "RECOGNIZE -> COMPOSE: conditional_composition"
+      - "COMPOSE -> OUTPUT: selection"
+      - "RECOGNIZE -> OUTPUT: singleton_or_nonconflicting_completion"
+    destructive_test: passed
+    rival_spine_test: passed_after_package_TRACE_repair
+    status: PROVISIONAL_SPINE
+    frontier_state: FROZEN
+    unresolved_generators: []
+    current_frontier: >
+      No broad method expansion. Reopen only under the theory-freeze triggers or when
+      new source evidence defeats the current package-level TRACE obstruction.
+
+  CANON:G1.4:
+    target: >
+      Establish the strongest bounded conclusion warranted by admitted routes while
+      preserving distinctions among normative authority, legitimacy, explanation,
+      truth relevance, and factual adjudication.
+    notation: "RESULTS -> SEPARATE -> BOUND -> C_case -> {C_method,C_disciplinary}"
+    nodes:
+      RESULTS: admitted_route_and_package_outputs
+      SEPARATE: keep_output_types_and_evidence_layers_distinct
+      BOUND: apply_corpus_scope_and_result_sensitivity_limits
+      C_case: strongest_fixed_case_conclusion
+      C_method: supported_general_comparative_method_claim
+      C_disciplinary: supported_broader_religious_authority_implication
+    edge_types:
+      - "RESULTS -> SEPARATE: classification"
+      - "SEPARATE -> BOUND: constraint"
+      - "BOUND -> C_case: inference"
+      - "BOUND -> C_method: guarded_generalization"
+      - "BOUND -> C_disciplinary: guarded_generalization"
+    destructive_test: passed
+    rival_spine_test: passed_against_single_undifferentiated_conclusion_node
+    status: PROVISIONAL_SPINE
+    frontier_state: STRONG
+    unresolved_generators:
+      - manuscript_level_calibration_of_method_and_disciplinary_claims
+    current_frontier: >
+      Ceiling work here is mainly evidential calibration and manuscript placement, not
+      a stronger fixed-case verdict. Broader claims remain separately supported rather
+      than treated as consequences of the case alone.
+
+  CANON:G1.5:
+    target: >
+      Establish provenance, reproducibility, novelty boundaries, and publication
+      framing for the fixed-case contribution.
+    notation: "{PROVENANCE + NOVELTY + MANUSCRIPT + JOURNAL} -> READY"
+    nodes:
+      PROVENANCE: paper_facing_source_and_claim_recoverability
+      NOVELTY: nearest_neighbor_comparison_and_precise_bounded_delta
+      MANUSCRIPT: reader_visible_execution_from_spline
+      JOURNAL: venue_specific_contribution_hierarchy_and_framing
+      READY: internally_submission_ready_article
+    edge_types:
+      - "PROVENANCE -> READY: necessary_readiness"
+      - "NOVELTY -> READY: necessary_readiness"
+      - "MANUSCRIPT -> READY: necessary_readiness"
+      - "JOURNAL -> READY: necessary_readiness"
+    destructive_test: passed
+    rival_spine_test: passed_against_linear_pipeline_model
+    status: PROVISIONAL_SPINE
+    frontier_state: OPEN
+    unresolved_generators:
+      - remaining_paper_facing_source_and_provenance_closure
+      - remaining_full_text_nearest_neighbor_closure
+      - absent_manuscript
+      - final_journal_specific_framing
+      - external_peer_review_after_internal_readiness
+    current_frontier: >
+      Treat provenance, novelty, manuscript execution, and journal framing as distinct
+      converging branches. Work on one branch does not count as closure of the others.
+      Manuscript execution can proceed while source and novelty closure continue because
+      none currently blocks planning or drafting.
+
+global_findings:
+  - >
+    G1.2 and G1.5 contain the main open internal ceiling space. G1.1, G1.3, and G1.4
+    primarily constrain preservation, calibration, and reopen conditions.
+  - >
+    The publication branch is conjunctive rather than linear. This prevents progress in
+    theory or drafting from being mistaken for source, novelty, or venue closure.
+  - >
+    The corpus branch separates admission from verification and reconstruction. This
+    prevents source accumulation from substituting for a principled response-family
+    selection rationale.
+
+audit_ref: ../../audits/CANONICAL_AUTHORITY_LAYERED_CONTROL_MAP_G1_SPINE_AUDIT_2026-09-22.md

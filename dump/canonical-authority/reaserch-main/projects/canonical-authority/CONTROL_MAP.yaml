@@ -1,0 +1,359 @@
+schema_version: 0.1
+project_id: canonical-authority
+object_type: layered_project_control_map
+artifact_id: CANON:CONTROL-MAP:001
+authority_status: canonical_working
+status: operative_control
+goal_ref: CANON:G0
+layer_resolution:
+  umbrella_term: layer
+  layer_axis: project_control_architecture
+  position_field: id
+
+purpose: >
+  Represent the complete goal-relative control architecture for Canonical Authority so
+  improvement work can attach to the actual layer and dependency that limits the
+  paper's current ceiling. This object does not replace the goal source, argument
+  spine, reader spline, research architecture, source controls, manuscript contract,
+  or audit evidence.
+
+status_vocabulary:
+  FROZEN: reopen_only_under_explicit_trigger
+  STRONG: currently_well_supported_but_not_permanently_closed
+  OPEN: material_same_goal_improvement_space_exists
+  BLOCKED: progress_requires_unresolved_internal_dependency
+  CANDIDATE: proposed_successor_not_yet_promoted
+  EXTERNAL: terminal_dependency_not_controllable_inside_repository
+
+control_invariant: >
+  A layer can be mature while another layer remains ceiling-limiting. "Raise the
+  ceiling" therefore means identify the strongest live same-goal frontier at the
+  layer where current publication value is constrained, rather than reopening the
+  entire theory by default.
+
+source_controls:
+  goals: GOALS.yaml
+  stable_argument_spine: SPINE.yaml
+  reader_spline: SPLINE.yaml
+  g1_goal_spines: GOAL_SPINES.yaml
+  integrated_research_object: RESEARCH_ARCHITECTURE.yaml
+  manuscript_contract: MANUSCRIPT_CONTRACT.md
+  source_modules: research/SOURCE_MODULES.yaml
+  source_registry: research/SOURCE_REGISTRY.yaml
+  provenance: PROVENANCE.yaml
+  ceiling_history: research/CEILING_RAISE_REGISTER.yaml
+  artifact_registry: ARTIFACTS.yaml
+  portfolio_goal_spine_registry: ../../GOAL_SPINE_REGISTRY.yaml
+  goal_spine_protocol: ../../GOAL_SPINE_AUDIT_PROTOCOL.md
+
+g0_dependency_graph:
+  target: CANON:G0
+  branches:
+    substantive_argument:
+      dependencies:
+        - CANON:G1.1
+        - CANON:G1.2
+        - CANON:G1.3
+        - CANON:G1.4
+      protected_spine_ref: SPINE.yaml
+      protected_spine: "A -> Q -> H[F] -> R -> B -> C"
+      protected_spine_expanded: >
+        See SPINE.yaml for the authoritative R pathway expansion, B** = T + L + I + W
+        decomposition, and C boundedness/ceiling commitments. This compact field is
+        representational shorthand and does not replace the canonical spine.
+      reader_refinement: >
+        A -> Q -> PROFILE(H[F]) -> TRACE -> DISCRIMINATE -> RECOGNIZE
+        -> [conditional COMPOSE] -> C
+    evidence_and_recoverability:
+      dependencies:
+        - fixed_case_source_identity
+        - admitted_module_source_identity
+        - primary_source_verification
+        - native_context_reconstruction
+        - provenance_and_version_recoverability
+      goal_refs:
+        - CANON:G1.1
+        - CANON:G1.2
+        - CANON:G1.5
+    publication_readiness:
+      dependencies:
+        - source_and_provenance_closure
+        - nearest_neighbor_and_novelty_closure
+        - manuscript_execution
+        - journal_specific_framing
+        - external_peer_review
+      goal_ref: CANON:G1.5
+  terminal_condition: >
+    A rigorous source-grounded manuscript exists whose fixed-case argument, bounded
+    conclusion, evidence, novelty claim, and publication framing remain recoverable
+    and defensible at the selected peer-reviewed venue.
+
+layers:
+  - id: L0_GOAL
+    name: authoritative_goal_and_completion
+    owner: GOALS.yaml
+    goal_refs: [CANON:G0]
+    state: STRONG
+    dependencies: []
+    dependents:
+      - L1_G0_DEPENDENCY_GRAPH
+    live_frontier: >
+      Preserve current goal identity. Reopen only if the user authorizes a goal change
+      or a later contradiction shows that the current goal cannot express the intended
+      paper.
+    audit_coverage:
+      - audits/CANONICAL_AUTHORITY_G0_SPINE_SPLINE_HM001_AUDIT_2026-09-22.md
+
+  - id: L1_G0_DEPENDENCY_GRAPH
+    name: complete_goal_relative_dependency_graph
+    owner: CONTROL_MAP.yaml
+    goal_refs: [CANON:G0]
+    state: STRONG
+    dependencies: [L0_GOAL]
+    dependents:
+      - L2_ARGUMENT_SPINE
+      - L3_G1_GOAL_SPINES
+      - L4_READER_SPLINE
+      - L5_EVIDENCE_PROVENANCE
+      - L6_INTEGRATED_RESEARCH_OBJECT
+      - L7_PUBLICATION_READINESS
+    live_frontier: >
+      Recompute only when a lower layer exposes a missing load-bearing branch or when
+      publication execution reveals a dependency not represented here.
+    audit_coverage:
+      - audits/CANONICAL_AUTHORITY_LAYERED_CONTROL_MAP_G1_SPINE_AUDIT_2026-09-22.md
+
+  - id: L2_ARGUMENT_SPINE
+    name: stable_argument_identity
+    owner: SPINE.yaml
+    goal_refs:
+      - CANON:G0
+      - CANON:G1.1
+      - CANON:G1.2
+      - CANON:G1.3
+      - CANON:G1.4
+    state: FROZEN
+    dependencies:
+      - L0_GOAL
+      - L1_G0_DEPENDENCY_GRAPH
+    dependents:
+      - L4_READER_SPLINE
+      - L6_INTEGRATED_RESEARCH_OBJECT
+    reopen_triggers:
+      - fixed_case_change
+      - material_counterexample_to_spine_identity
+      - authorized_goal_change
+    live_frontier: no_default_theory_expansion
+    audit_coverage:
+      - audits/CANONICAL_AUTHORITY_G0_SPINE_SPLINE_HM001_AUDIT_2026-09-22.md
+      - audits/CANONICAL_AUTHORITY_THEORY_FREEZE_AUDIT_2026-09-22.md
+
+  - id: L3_G1_GOAL_SPINES
+    name: recursive_subgoal_dependency_spines
+    owner: GOAL_SPINES.yaml
+    goal_refs:
+      - CANON:G1.1
+      - CANON:G1.2
+      - CANON:G1.3
+      - CANON:G1.4
+      - CANON:G1.5
+    state: OPEN
+    dependencies:
+      - L0_GOAL
+      - L1_G0_DEPENDENCY_GRAPH
+    dependents:
+      - L5_EVIDENCE_PROVENANCE
+      - L6_INTEGRATED_RESEARCH_OBJECT
+      - L7_PUBLICATION_READINESS
+    live_frontier: >
+      G1.2 and G1.5 contain the strongest currently open internal frontiers. G1.2
+      exposes admission and coverage-bounding work. G1.5 exposes four independent
+      publication-readiness branches that must converge before submission.
+    audit_coverage:
+      - audits/CANONICAL_AUTHORITY_LAYERED_CONTROL_MAP_G1_SPINE_AUDIT_2026-09-22.md
+
+  - id: L4_READER_SPLINE
+    name: reader_dependency_refinement
+    owner: SPLINE.yaml
+    goal_refs: [CANON:G0, CANON:G1.3, CANON:G1.4, CANON:G1.5]
+    state: STRONG
+    dependencies:
+      - L2_ARGUMENT_SPINE
+      - L6_INTEGRATED_RESEARCH_OBJECT
+    dependents:
+      - L8_MANUSCRIPT
+    live_frontier: >
+      Validate through actual drafting. Compression changes are accepted only when the
+      protected spine remains recoverable and the realized case still stops at TRACE.
+    audit_coverage:
+      - audits/CANONICAL_AUTHORITY_REFEREE_MINIMALITY_FOLLOWON_AUDIT_2026-09-22.md
+
+  - id: L5_EVIDENCE_PROVENANCE
+    name: source_evidence_and_recoverability_rails
+    owner:
+      - research/SOURCE_MODULES.yaml
+      - research/SOURCE_REGISTRY.yaml
+      - PROVENANCE.yaml
+    goal_refs: [CANON:G1.1, CANON:G1.2, CANON:G1.5]
+    state: OPEN
+    dependencies:
+      - L3_G1_GOAL_SPINES
+    dependents:
+      - L6_INTEGRATED_RESEARCH_OBJECT
+      - L7_PUBLICATION_READINESS
+      - L8_MANUSCRIPT
+    live_frontier: >
+      Close paper-facing editions, quotations, paraphrases, and provenance for claims
+      that survive into the manuscript. Preserve corpus-completeness limits explicitly.
+    audit_coverage:
+      - audits/CANONICAL_AUTHORITY_ARTICLE_SOURCE_CLOSURE_AUDIT_2026-09-21.md
+
+  - id: L6_INTEGRATED_RESEARCH_OBJECT
+    name: current_pre_manuscript_research_object
+    owner: RESEARCH_ARCHITECTURE.yaml
+    goal_refs: [CANON:G0]
+    state: FROZEN
+    dependencies:
+      - L2_ARGUMENT_SPINE
+      - L3_G1_GOAL_SPINES
+      - L5_EVIDENCE_PROVENANCE
+    dependents:
+      - L4_READER_SPLINE
+      - L8_MANUSCRIPT
+    reopen_triggers:
+      - current_case_result_changes
+      - central_characterization_changes
+      - material_reviewer_vulnerability
+      - strict_theory_compression
+      - publication_ceiling_gain_exceeds_added_burden
+    live_frontier: no_broad_theory_work_without_reopen_trigger
+    audit_coverage:
+      - audits/CANONICAL_AUTHORITY_SOURCE_PACKAGE_TRACE_AUDIT_2026-09-22.md
+      - audits/CANONICAL_AUTHORITY_THEORY_FREEZE_AUDIT_2026-09-22.md
+      - audits/CANONICAL_AUTHORITY_REFEREE_MINIMALITY_FOLLOWON_AUDIT_2026-09-22.md
+
+  - id: L7_PUBLICATION_READINESS
+    name: publication_dependency_convergence
+    owner:
+      - GOAL_SPINES.yaml
+      - MANUSCRIPT_CONTRACT.md
+      - research/CEILING_RAISE_REGISTER.yaml
+    goal_refs: [CANON:G1.5]
+    state: OPEN
+    dependencies:
+      - source_and_provenance_closure
+      - nearest_neighbor_and_novelty_closure
+      - manuscript_execution
+      - journal_specific_framing
+    dependents:
+      - L9_EXTERNAL_REVIEW
+    live_frontier: >
+      Treat the four internal branches as independently necessary readiness gates.
+      Progress on one does not silently substitute for another.
+    audit_coverage:
+      - audits/CANONICAL_AUTHORITY_NEAREST_NEIGHBOR_NOVELTY_AUDIT_2026-09-21.md
+      - audits/CANONICAL_AUTHORITY_REFEREE_MINIMALITY_FOLLOWON_AUDIT_2026-09-22.md
+      - audits/CANONICAL_AUTHORITY_LAYERED_CONTROL_MAP_G1_SPINE_AUDIT_2026-09-22.md
+
+  - id: L8_MANUSCRIPT
+    name: reader_visible_article
+    owner: future_manuscript_artifact
+    goal_refs: [CANON:G0, CANON:G1.5]
+    state: OPEN
+    dependencies:
+      - L4_READER_SPLINE
+      - L5_EVIDENCE_PROVENANCE
+      - L6_INTEGRATED_RESEARCH_OBJECT
+      - L7_PUBLICATION_READINESS
+    dependents:
+      - L9_EXTERNAL_REVIEW
+    live_frontier: >
+      Build the manuscript from the reader spline, then use drafting evidence to test
+      clarity, compression, contribution visibility, and whether any backend dependency
+      is still missing from the reader-facing argument.
+    audit_coverage:
+      - MANUSCRIPT_CONTRACT.md
+    coverage_gap: no_actual_manuscript_exists_yet
+
+  - id: L9_EXTERNAL_REVIEW
+    name: peer_review_and_publication_outcome
+    owner: external
+    goal_refs: [CANON:G0]
+    state: EXTERNAL
+    dependencies:
+      - L7_PUBLICATION_READINESS
+      - L8_MANUSCRIPT
+    dependents: []
+    live_frontier: available_only_after_submission_or_independent_expert_review
+    audit_coverage: []
+    coverage_gap: external_terminal_dependency
+
+current_frontier:
+  theory:
+    state: FROZEN
+    attachment: [L2_ARGUMENT_SPINE, L6_INTEGRATED_RESEARCH_OBJECT]
+    action: no_default_expansion
+  corpus_admission_and_coverage:
+    state: OPEN
+    attachment: [L3_G1_GOAL_SPINES, L5_EVIDENCE_PROVENANCE]
+    goal_ref: CANON:G1.2
+    action: >
+      Use RESPONSE_CORPUS_ADMISSION.yaml to operationalize why each admitted H[F]
+      family is in scope, what materially distinct mechanism it contributes, what
+      coverage is actually bounded, and which evidence would reopen the corpus branch.
+      Keep admission separate from source verification, reconstruction, and case result.
+  source_and_provenance:
+    state: OPEN
+    attachment: [L5_EVIDENCE_PROVENANCE, L7_PUBLICATION_READINESS]
+    goal_ref: CANON:G1.5
+    action: close_only_paper_facing_source_and_provenance_dependencies
+  novelty:
+    state: OPEN
+    attachment: [L7_PUBLICATION_READINESS]
+    goal_ref: CANON:G1.5
+    action: finish_full_text_nearest_neighbor_comparison_and_precise_delta
+  manuscript:
+    state: OPEN
+    attachment: [L4_READER_SPLINE, L8_MANUSCRIPT]
+    goal_ref: CANON:G1.5
+    action: draft_from_reader_spline_and_test_reader_recoverability
+  journal_framing:
+    state: OPEN
+    attachment: [L7_PUBLICATION_READINESS]
+    goal_ref: CANON:G1.5
+    action: select_final_contribution_hierarchy_after_real_draft_exists
+  external_review:
+    state: EXTERNAL
+    attachment: [L9_EXTERNAL_REVIEW]
+    goal_ref: CANON:G0
+    action: independent_expert_or_peer_review_after_internal_readiness
+
+audit_coverage_matrix:
+  goal_identity: covered
+  complete_dependency_graph: covered_by_current_layered_audit
+  argument_spine: covered
+  g1_recursive_spines: covered_by_current_layered_audit
+  reader_spline: covered
+  source_and_provenance: covered_but_open
+  integrated_research_object: covered_and_frozen
+  novelty: covered_but_open
+  manuscript_execution: uncovered_until_artifact_exists
+  journal_specific_fit: open
+  external_peer_review: external
+
+traceability_rule: >
+  For every material ceiling move, record the goal, control-map layer, smallest
+  dependency or spine attachment, evidence/result owner, audit evidence, execution
+  artifact when one exists, and remaining risk. A move that cannot be placed on this
+  path is not promoted merely because it is interesting.
+
+ceiling_loop: >
+  inspect layer -> recover dependency structure -> audit -> identify unresolved
+  generator -> state live frontier -> generate same-goal successor -> run preservation
+  and result-sensitivity tests -> promote or reject -> propagate affected layers ->
+  recompute frontier
+
+update_rule: >
+  Update this map when a layer changes state, a new load-bearing layer or dependency is
+  discovered, an audit becomes stale, a frontier is resolved, or a manuscript/external
+  artifact comes into existence. Do not copy detailed research content into this file.

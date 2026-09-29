@@ -1,0 +1,121 @@
+schema_version: 0.2
+project_id: canonical-authority
+object_type: argument_spine
+artifact_id: CANON:SPINE:001
+authority_status: canonical_working
+status: stable_control
+goal_refs:
+  - CANON:G0
+  - CANON:G1.1
+  - CANON:G1.2
+  - CANON:G1.3
+  - CANON:G1.4
+  - CANON:G1.5
+
+purpose: >
+  Preserve the paper's stable argumentative identity while allowing the current
+  method, source-module analysis, ceiling, contribution, and manuscript architecture
+  to improve without silently changing the paper into a different project.
+
+spine:
+  notation: "A -> Q -> H[F] -> R -> B -> C"
+
+  A:
+    name: fixed_collision
+    invariant: >
+      The paper uses the proposition-level Rashi-Ramban disagreement on Genesis 1:1
+      as its fixed worked case and does not require the paper to decide the ultimate
+      first-order grammatical verdict.
+    target_proposition:
+      id: I_S
+      statement: >
+        On the peshat advanced, Genesis 1:1 has bara Elohim as its main predication
+        rather than as part of a temporal subordinate construction leading to verse 3.
+    rivals:
+      P_R: "not I_S"
+      P_N: "I_S"
+
+  Q:
+    name: third_party_adjudication_question
+    invariant: >
+      Ask what gives a later evaluator grounds to favor one incompatible canonical
+      factual claim over the other as true.
+    target_type: descriptive_truth_directed_assessment
+
+  H_F:
+    name: admitted_source_grounded_response_space
+    invariant: >
+      Reconstruct a purposive, non-exhaustive set of materially different Jewish
+      epistemic, interpretive, institutional, transmission, authority, and
+      privileged-access structures in their native contexts before comparing them.
+    registry: research/SOURCE_MODULES.yaml
+
+  R:
+    name: source_to_target_application
+    invariant: >
+      Each admitted source structure must be applied through an explicit,
+      source-grounded method that preserves native context and makes any move to the
+      fixed truth target inspectable.
+    current_method_owner: RESEARCH_ARCHITECTURE.yaml
+
+  B:
+    name: adjudicative_success_requirement
+    invariant: >
+      Success requires a source-grounded relation that actually discriminates the
+      fixed rival propositions concerning truth and that a third-party evaluator has
+      warranted grounds to identify and use.
+    current_formalization_owner: RESEARCH_ARCHITECTURE.yaml
+    positive_control: >
+      The framework must allow a traditional mechanism to succeed in principle; it
+      may not define religious adjudication as impossible by construction.
+
+  C:
+    name: bounded_result_and_contribution
+    invariant: >
+      State only the strongest result warranted by the admitted corpus and derive
+      broader methodological or disciplinary contributions from the worked case
+      without claiming exhaustive coverage or a universal negative.
+    ceiling_raised_results:
+      - >
+        Religious authority is target-relative rather than epistemically portable
+        by status alone.
+      - >
+        Success in a mechanism's native function does not transfer to a distinct
+        truth target without a licensed bridge.
+      - >
+        A selector introduced only by an unlicensed bridge is attributable to the
+        augmented analysis, not to the source alone.
+      - >
+        Even a genuine truth-relevant asymmetry adjudicates for a third party only
+        when there are grounds for identifying, scoping, linking, and
+        asymmetrically instantiating it in the target case.
+    boundedness:
+      - no exhaustive response inventory is claimed
+      - no universal negative about Jewish tradition is licensed
+      - later source or evidence recovery can revise the bounded result
+    current_result_owner: RESEARCH_ARCHITECTURE.yaml
+
+attachment_rule: >
+  Every material discovery or ceiling-raising move must attach to the smallest
+  spine node whose content, support, scope, implication, or dependency it changes.
+
+ceiling_preservation_rule: >
+  A ceiling raise may strengthen method, generality, explanatory reach, robustness,
+  compression, interdisciplinary significance, or publication ceiling only while
+  A, Q, and the A->Q->H[F]->R->B->C identity remain preserved. A move that requires
+  replacing that identity is a new-program or goal-change candidate, not a ceiling
+  raise inside this project.
+
+authority_boundary: >
+  This file owns only stable argument identity and invariants. It does not own the
+  current detailed method, current integrated contribution, current journal ceiling,
+  discovery history, or manuscript prose.
+
+references:
+  integrated_research_object: RESEARCH_ARCHITECTURE.yaml
+  state: STATE.yaml
+  discovery_map: research/DISCOVERY_MAP.yaml
+  ceiling_raise_register: research/CEILING_RAISE_REGISTER.yaml
+  source_modules: research/SOURCE_MODULES.yaml
+  manuscript_contract: MANUSCRIPT_CONTRACT.md
+  artifact_registry: ARTIFACTS.yaml

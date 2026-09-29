@@ -1,0 +1,610 @@
+schema_version: 0.1
+project: canonical-authority
+policy: ../../RESEARCH_OBJECT_POLICY.md
+status: working_registry
+
+primary_research_object:
+  id: CANON:ARCH:001
+  name: Canonical Authority Pre-Manuscript Research Architecture
+  class: accepted_source
+  role: integrated_research_architecture
+  authority: canonical_working
+  version: 1.2.0
+  repository_path: RESEARCH_ARCHITECTURE.yaml
+  git_blob_sha: c5502c6c48e695a217cc93f94291f559151682c0
+  acceptance_basis: >
+    User-authorized architecture reconciliation established one exact durable object
+    for the current pre-manuscript paper architecture and required subsequent PD
+    testing to target that object rather than an informal reconstruction.
+  version_lineage:
+    predecessor_version: 1.1.0
+    predecessor_git_blob_sha: 9f98fed71d7abbac543aef8841fb6c0251df8b45
+    successor_audit: audits/CANONICAL_AUTHORITY_CEILING_CONSOLIDATION_2026-09-22.md
+    strict_gain_status: passed_non_regression_and_post_recovery_package_TRACE_regression
+  notes:
+    - This is the exact current object for claims about "the paper we have right now."
+    - Ceiling-register entries, discovery notes, audit files, and chats are not part of the current paper unless promoted into this object.
+    - Future realized ceiling raises update this object's version and are regression-tested against its current module outcomes.
+
+objects:
+  - id: CANON:SPINE:001
+    name: Canonical Authority Stable Argument Spine
+    class: accepted_source
+    role: stable_argument_identity
+    authority: canonical_working
+    repository_path: SPINE.yaml
+    git_blob_sha: cba3cd8370ab03bea3f5e8f7172a4a1bff7084c0
+    derived_into:
+      - CANON:ARCH:001
+    notes:
+      - Owns stable A -> Q -> H[F] -> R -> B -> C identity and invariants.
+      - Does not own current detailed method, contribution, or publication ceiling.
+
+  - id: CANON:SPLINE:001
+    name: Canonical Authority Reader Dependency Spline
+    class: accepted_source
+    role: reader_facing_dependency_refinement
+    authority: canonical_working
+    repository_path: SPLINE.yaml
+    git_blob_sha: ff84c140e1ca6ded4c7bf6d7157413628c1d876a
+    source_object:
+      - CANON:SPINE:001
+      - CANON:ARCH:001
+    notes:
+      - Refines the stable argument spine into the shortest transparent reader-facing dependency path.
+      - Records the distinction between the general method path and the realized fixed-case path.
+      - Does not replace SPINE.yaml or change canonical goal identity.
+
+  - id: CANON:MANUSCRIPT-CONTRACT:001
+    name: Canonical Authority Manuscript Contract
+    class: accepted_source
+    role: research_to_manuscript_translation_control
+    authority: canonical_working
+    repository_path: MANUSCRIPT_CONTRACT.md
+    git_blob_sha: e165c20afd18cdbc395efe8d7341b40ea7b22903
+    source_object:
+      - CANON:ARCH:001
+      - CANON:SPINE:001
+      - CANON:SPLINE:001
+    notes:
+      - Controls what survives from the research object into the reader-facing article.
+      - It is not the manuscript.
+
+  - id: CANON:CEILING-REGISTER:001
+    name: Canonical Authority Ceiling Raise Register
+    class: accepted_source
+    role: candidate_and_decision_history
+    authority: canonical_working
+    repository_path: research/CEILING_RAISE_REGISTER.yaml
+    git_blob_sha: c40519ca020f3e50b7a05e7c8ba5d97f618bfe32
+    notes:
+      - Records candidate and accepted ceiling-raising moves.
+      - Register presence alone does not make a move part of the actual paper architecture.
+
+  - id: CANON:SOURCE-MODULES:001
+    name: Canonical Authority Source Module Registry
+    class: accepted_source
+    role: source_module_analysis
+    authority: canonical_working
+    repository_path: research/SOURCE_MODULES.yaml
+    git_blob_sha: e797c846b8d8b3252a9ebef17a3fa36e40453cf1
+    derived_into:
+      - CANON:ARCH:001
+    notes:
+      - Owns the current typed source-module profiles and case-level module results.
+      - Stable source identity is delegated to CANON:SOURCE-REGISTRY:001.
+
+  - id: CANON:SOURCE-REGISTRY:001
+    name: Canonical Authority Source Identity Registry
+    class: accepted_source
+    role: bibliographic_and_primary_source_identity
+    authority: canonical_working
+    repository_path: research/SOURCE_REGISTRY.yaml
+    git_blob_sha: 0f2f17cdb8cb3a3b21287a0f9b5b11ec3dd8842b
+    derived_into:
+      - CANON:SOURCE-MODULES:001
+      - CANON:ARCH:001
+    notes:
+      - Owns stable CANON:SRC identities, verification status, source gates, and bibliographic control.
+      - Does not determine source-module inferential role by itself.
+
+  - id: CANON:PROVENANCE:001
+    name: Canonical Authority Provenance Registry
+    class: accepted_source
+    role: historical_origin_and_recovery_control
+    authority: canonical_working
+    repository_path: PROVENANCE.yaml
+    git_blob_sha: 0b3ae05ac0e69509db3b0d2a66841e0bc75c0700
+    derived_into:
+      - CANON:ARCH:001
+    notes:
+      - Preserves historical controls, manuscript candidates, audit sequence, and source-recovery provenance.
+      - Historical artifacts do not override current research-object authority.
+
+
+  - id: CANON:ARCH-CANDIDATE:CEILING-002
+    name: Canonical Authority Ceiling Successor Candidate
+    class: derived
+    derived_from:
+      - CANON:ARCH:001
+    role: promotion_provenance
+    authority: promoted_historical_candidate
+    repository_path: research/CEILING_SUCCESSOR_CANDIDATE.yaml
+    git_blob_sha: ba6277a6019151f66fdaac8e8a1166f0b075489f
+    derived_into:
+      - CANON:ARCH:001
+    promoted_version: 1.2.0
+    notes:
+      - Preserves the hostile-test history, including the falsified singleton-only obstruction.
+      - Current authority belongs to CANON:ARCH:001 v1.2.0 rather than this candidate object.
+
+  - id: CANON:DISCOVERY-MAP:001
+    name: Canonical Authority Discovery Map
+    class: accepted_source
+    role: discovery_history_and_spine_attachment
+    authority: canonical_working
+    repository_path: research/DISCOVERY_MAP.yaml
+    git_blob_sha: 110126c2ebbbf7618212e366b87ef9e0a8d649a1
+    notes:
+      - Records discovery history, including superseded and falsified formulations.
+      - Discovery presence alone does not override the integrated architecture.
+
+
+  - id: CANON:AUDIT:ARCH-HF001-TRC:001
+    name: Canonical Authority Wrapped Architecture Analysis HF-001 TRC Run 001
+    class: audit_evidence
+    role: architecture_candidate_execution_and_closure_record
+    authority: historical_audit_evidence
+    repository_path: audits/CANONICAL_AUTHORITY_ARCHITECTURE_ANALYSIS_HF001_TRC_001_2026-09-24.md
+    git_blob_sha: 554459cbdabbad0502feb211e0294dd743c27615
+    source_object:
+      - CANON:SPINE:001
+      - CANON:ARCH:001
+      - CANON:DISCOVERY-MAP:001
+    notes:
+      - Records the Improvement Core controlled Architecture Analysis with current HF-001 recursion and Tool Run Closure.
+      - Stores candidate semantic-factorization findings D072-D082 without promoting them into the protected spine or integrated research architecture.
+
+
+  - id: CANON:MANUSCRIPT-OUTLINE:001
+    name: Canonical Authority Live Manuscript Outline
+    class: derived
+    role: live_reader_argument_construction
+    authority: working_manuscript_control
+    repository_path: MANUSCRIPT_OUTLINE.md
+    git_blob_sha: 3e864abaf32b0c9bc8eb269bf3e4aed8f0faf837
+    source_object:
+      - CANON:ARCH:001
+      - CANON:SPINE:001
+      - CANON:SPLINE:001
+      - CANON:MANUSCRIPT-CONTRACT:001
+    notes:
+      - Current seven-section reader/argument architecture.
+      - Each section and page-sized unit must satisfy both argument job and reader-state transition.
+
+
+  - id: CANON:AUDIT:IC-MANUSCRIPT-REARCH:001
+    name: Canonical Authority Improvement Core Manuscript Rearchitecture 001
+    class: audit_evidence
+    role: manuscript_architecture_execution_record
+    authority: historical_audit_evidence
+    repository_path: audits/CANONICAL_AUTHORITY_IMPROVEMENT_CORE_MANUSCRIPT_REARCHITECTURE_001_2026-09-24.md
+    git_blob_sha: 94cd8537b577eb474b3300d07ecf8d4893622575
+    source_object:
+      - CANON:MANUSCRIPT-OUTLINE:001
+      - CANON:DISCOVERY-MAP:001
+    notes:
+      - Records the Improvement Core transition from the eight-section candidate to the seven-section reader-first outline.
+      - Preserves the protected spine and current bounded case result.
+
+
+  - id: CANON:MANUSCRIPT-MOVEMENTS:001
+    name: Canonical Authority Manuscript Movement Map
+    class: derived
+    role: page_sized_reader_argument_architecture
+    authority: working_manuscript_control
+    repository_path: MANUSCRIPT_MOVEMENT_MAP.md
+    git_blob_sha: 93270e962c7be8fd798c43b09026e755ded06a5d
+    source_object:
+      - CANON:MANUSCRIPT-OUTLINE:001
+      - CANON:SPINE:001
+      - CANON:SPLINE:001
+    notes:
+      - Current twenty-one-movement reader map M01-M21.
+      - Each movement has one primary manuscript job and one material reader-state transition.
+
+
+  - id: CANON:AUDIT:FULL-CAP-SWEEP:001
+    name: Canonical Authority Full Capability Sweep 001
+    class: audit_evidence
+    role: full_behavior_repertoire_execution_record
+    authority: historical_audit_evidence
+    repository_path: audits/CANONICAL_AUTHORITY_FULL_CAPABILITY_SWEEP_001_2026-09-24.md
+    git_blob_sha: 2b520784aa7e22712750d6c6d363ddc571e9be82
+    source_object:
+      - CANON:MANUSCRIPT-OUTLINE:001
+      - CANON:MANUSCRIPT-MOVEMENTS:001
+      - CANON:DISCOVERY-MAP:001
+    notes:
+      - Records explicit dispositions for every current C01-C49 behavior-first capability and every current boundary/control behavior.
+      - Confirms the seven-section outline and routes the next frontier to evidence-backed drafting over M01-M21.
+
+
+  - id: CANON:ABSTRACT-EXPERIMENT:001
+    name: Canonical Authority Frozen Abstract Experiment Target
+    class: derived
+    role: compressed_target_for_capability_comparison
+    authority: experiment_only
+    repository_path: ABSTRACT_EXPERIMENT_TARGET.md
+    git_blob_sha: baa001ab35eb8078bb7b95250d49f09effb14f9c
+    source_object:
+      - CANON:ARCH:001
+      - CANON:MANUSCRIPT-OUTLINE:001
+    notes:
+      - Derived only to test target-resolution effects on capability yield.
+      - Does not replace a future submission abstract or any canonical research object.
+
+
+  - id: CANON:AUDIT:TARGET-RESOLUTION:001
+    name: Canonical Authority Target Resolution Experiment 001
+    class: audit_evidence
+    role: whole_project_vs_abstract_capability_comparison
+    authority: historical_audit_evidence
+    repository_path: audits/CANONICAL_AUTHORITY_TARGET_RESOLUTION_EXPERIMENT_001_2026-09-24.md
+    git_blob_sha: e3e80361d9dc230ae140f0e6b69ed7f8604608a1
+    source_object:
+      - CANON:ABSTRACT-EXPERIMENT:001
+      - CANON:DISCOVERY-MAP:001
+    notes:
+      - Compares every C01-C49 capability and current boundary/control behavior on the whole project versus a compressed abstract under the same project goal.
+      - Establishes target choice and resolution as material determinants of tool yield.
+
+  - id: CANON:READER-PROJECTION:001
+    name: Canonical Authority Reader Projection Map
+    class: derived
+    role: reader_journey_section_movement_crosswalk
+    authority: working_manuscript_control
+    repository_path: READER_PROJECTION_MAP.yaml
+    git_blob_sha: 97a32c1999b041cca601803b7fdecc3593a9e154
+    source_object:
+      - CANON:MANUSCRIPT-OUTLINE:001
+      - CANON:MANUSCRIPT-MOVEMENTS:001
+    notes:
+      - Maps twelve reader journey steps to seven sections and twenty-one movements.
+      - Prevents reader-order drift across derived manuscript surfaces.
+
+  - id: CANON:AUDIT:GDOS-WHOLE:001
+    name: Canonical Authority GDOS Whole Project Observation Ledger 001
+    class: audit_evidence
+    role: goal_decoupled_whole_project_observation
+    authority: historical_audit_evidence
+    repository_path: audits/GDOS_WHOLE_PROJECT_OBSERVATION_LEDGER_001_2026-09-24.md
+    git_blob_sha: 57e24277968612d8c132392df636cb1c21ffdb13
+
+  - id: CANON:AUDIT:GDOS-ABSTRACT:001
+    name: Canonical Authority GDOS Abstract Observation Ledger 001
+    class: audit_evidence
+    role: goal_decoupled_abstract_observation
+    authority: historical_audit_evidence
+    repository_path: audits/GDOS_ABSTRACT_OBSERVATION_LEDGER_001_2026-09-24.md
+    git_blob_sha: dc518acab5842aebc428b89a7ba23b1fe4e0d936
+
+  - id: CANON:AUDIT:GDOS-MATCHED:001
+    name: Canonical Authority Matched GDOS Reconciliation Experiment 001
+    class: audit_evidence
+    role: goal_directed_vs_goal_decoupled_target_comparison
+    authority: historical_audit_evidence
+    repository_path: audits/GDOS_MATCHED_RECONCILIATION_EXPERIMENT_001_2026-09-24.md
+    git_blob_sha: 94236af6853d6df0ecc059899a00f764175094bc
+    notes:
+      - Demonstrates both target-resolution and observation-mode effects on tool yield.
+      - Routes only post-observation accepted consequences; no canonical research mutation.
+
+  - id: CANON:CURRENTNESS:001
+    name: Canonical Authority Currentness Contract
+    class: derived
+    role: research_snapshot_and_live_derivative_currentness_control
+    authority: working_control
+    repository_path: CURRENTNESS_CONTRACT.yaml
+    git_blob_sha: 0b0913d04663f23587243f22aff4dff578ded468
+    notes:
+      - Distinguishes accepted research integration snapshots from live operational/manuscript state.
+
+  - id: CANON:MANUSCRIPT-STATUS-AXES:001
+    name: Canonical Authority Manuscript Status Axes
+    class: derived
+    role: semantic_case_activation_visibility_control
+    authority: working_control
+    repository_path: MANUSCRIPT_STATUS_AXES.yaml
+    git_blob_sha: f6bc83068d28138ae1ae78464f3a35ca4e6cd1f0
+    notes:
+      - Separates semantic role, fixed-case activation, and manuscript visibility.
+
+  - id: CANON:ABSTRACT-CONTRACT:001
+    name: Canonical Authority Abstract Contract
+    class: derived
+    role: abstract_compression_and_claim_preservation_control
+    authority: working_control
+    repository_path: ABSTRACT_CONTRACT.md
+    git_blob_sha: dcc801124acbc916ec8404516842c7206a45e78b
+    notes:
+      - Controls future real abstract compression without altering the frozen experiment abstract.
+
+  - id: CANON:AUDIT:IC-POST-GDOS:001
+    name: Canonical Authority Improvement Core Post-GDOS Routing 001
+    class: audit_evidence
+    role: post_observation_controller_routing_record
+    authority: historical_audit_evidence
+    repository_path: audits/IMPROVEMENT_CORE_POST_GDOS_ROUTING_001_2026-09-24.md
+    git_blob_sha: 69c8fd33c78fa919990c4874165da83648067c22
+    notes:
+      - Records the strict-gain control package selected after GDOS reconciliation.
+      - Confirms no canonical research mutation and no v1.2.0 version bump.
+
+  - id: CANON:SURFACE-CONTROL:001
+    name: Canonical Authority Surface Control Map
+    class: derived
+    role: cross_surface_synchronization_and_consumer_routing
+    authority: working_control
+    repository_path: SURFACE_CONTROL_MAP.yaml
+    git_blob_sha: a52dd4c4268ae70af2e08032edecf14253b56ab0
+    notes:
+      - Thin synchronization overlay; does not replace specialized controls or canonical research authority.
+
+  - id: CANON:AUDIT:MTA-POST-GDOS:001
+    name: Canonical Authority MTA Post-GDOS Control Architecture 001
+    class: audit_evidence
+    role: mta_control_architecture_reconstruction
+    authority: historical_audit_evidence
+    repository_path: audits/MTA_POST_GDOS_CONTROL_ARCHITECTURE_001_2026-09-24.md
+    git_blob_sha: 59d90838b165f1619effbfbfbc0f1736e9f4802c
+
+  - id: CANON:AUDIT:ARCH-SURFACES:001
+    name: Canonical Authority Architecture Scan Post-MTA Control Surfaces 001
+    class: audit_evidence
+    role: surface_architecture_successor_analysis
+    authority: historical_audit_evidence
+    repository_path: audits/ARCHITECTURE_SCAN_POST_MTA_CONTROL_SURFACES_001_2026-09-24.md
+    git_blob_sha: 9ff108f383133291719aa39ff83da583314e1342
+
+  - id: CANON:AUDIT:IC-POST-MTA-ARCH:001
+    name: Canonical Authority Improvement Core Post-MTA Architecture Routing 001
+    class: audit_evidence
+    role: controller_successor_realization_record
+    authority: historical_audit_evidence
+    repository_path: audits/IMPROVEMENT_CORE_POST_MTA_ARCHITECTURE_ROUTING_001_2026-09-24.md
+    git_blob_sha: 97f6056709e15fdf5e37cf25fe34b8591852ab02
+
+  - id: CANON:ADAPTIVE-ROUTE:001
+    name: Canonical Authority Adaptive Execution Route
+    class: derived
+    role: coupled_movement_readiness_execution_control
+    authority: working_execution_control
+    repository_path: ADAPTIVE_EXECUTION_ROUTE.yaml
+    git_blob_sha: 2854f0948d4a3fbb73949d693f9abb775dfc0544
+    notes:
+      - Connects M01-M21 with W1/W2/W3 through coupled alternating execution.
+      - Governed by IOOC, ORC, Goal Reattachment, saturation, order, and routing-regression controls.
+
+  - id: CANON:AUDIT:NEW-ROUTING-CAPS:001
+    name: Canonical Authority New Improvement Core Routing Capabilities Run 001
+    class: audit_evidence
+    role: new_routing_observation_capability_execution_record
+    authority: historical_audit_evidence
+    repository_path: audits/NEW_IMPROVEMENT_CORE_ROUTING_CAPABILITIES_RUN_001_2026-09-24.md
+    git_blob_sha: 6b8a32cd3492a20109757619fc5af05699111105
+    notes:
+      - Records use of all ten newly recovered routing/observation capabilities.
+      - Establishes the coupled alternating execution policy and current tool-mode affinities.
+
+  - id: CANON:MANUSCRIPT-PACKET:M05:001
+    name: Canonical Authority M05 Corpus Admission Packet 001
+    class: derived
+    role: manuscript_ready_corpus_admission_basis
+    authority: working_manuscript_control
+    repository_path: manuscript/M05_CORPUS_ADMISSION_PACKET_001_2026-09-24.md
+    git_blob_sha: 52c68459e31de01ca68d7b5306d33e8fe5e00bb7
+    source_object:
+      - CANON:MANUSCRIPT-MOVEMENTS:001
+      - CANON:ARCH:001
+    notes:
+      - Closes the M05 <-> W1 corpus-admission dependency enough for drafting.
+      - Does not close W1 source/provenance globally.
+
+  - id: CANON:MANUSCRIPT-BLUEPRINT:001
+    name: Canonical Authority Frozen Manuscript Blueprint
+    class: derived
+    role: final_pre_prose_manuscript_blueprint
+    authority: working_manuscript_control
+    repository_path: MANUSCRIPT_BLUEPRINT_FINAL_2026-09-24.md
+    git_blob_sha: 85189f75d85d20d78e23d1bb1fe3ba1f9947285d
+    source_object:
+      - CANON:ARCH:001
+      - CANON:MANUSCRIPT-OUTLINE:001
+      - CANON:MANUSCRIPT-MOVEMENTS:001
+      - CANON:ADAPTIVE-ROUTE:001
+    notes:
+      - Frozen for drafting under explicit reopen triggers.
+      - Integrates goal, section/movement jobs, evidence owners, lifecycle status, readiness, production order, and liveness rules.
+
+  - id: CANON:AUDIT:BLUEPRINT-FINALIZATION:001
+    name: Canonical Authority New Toolset Blueprint Finalization 001
+    class: audit_evidence
+    role: newest_toolset_blueprint_freeze_record
+    authority: historical_audit_evidence
+    repository_path: audits/NEW_TOOLSET_BLUEPRINT_FINALIZATION_001_2026-09-24.md
+    git_blob_sha: c03f40917bdff16b978d5e52419a68851f8e7eca
+
+  - id: CANON:AUTHOR-OUTLINE-CONTRACT:001
+    name: Canonical Authority Author Outline Contract
+    class: derived
+    role: terminal_clean_review_outline_contract
+    authority: working_control
+    repository_path: AUTHOR_OUTLINE_CONTRACT.md
+    git_blob_sha: bc72d6fda50845596d62a4a2cad4dd2a2164e3f5
+
+  - id: CANON:AUTHOR-OUTLINE:001
+    name: Canonical Authority Final Author-Facing Outline
+    class: derived
+    role: clean_author_review_outline
+    authority: working_review_surface
+    repository_path: AUTHOR_FACING_OUTLINE_FINAL_2026-09-24.md
+    git_blob_sha: bad79aae526a09982e268c407256f90bd361f3e8
+    source_object:
+      - CANON:ARCH:001
+      - CANON:MANUSCRIPT-BLUEPRINT:001
+    notes:
+      - This is the paper plan the user reviews and approves before prose population.
+      - Internal blueprint/control machinery is intentionally excluded.
+
+  - id: CANON:AUDIT:HEADER-SWEEP:001
+    name: Canonical Authority Full Repertoire Header and Reader Experience Sweep 001
+    class: audit_evidence
+    role: full_repertoire_author_outline_header_validation
+    authority: historical_audit_evidence
+    repository_path: audits/AUTHOR_OUTLINE_FULL_REPERTOIRE_HEADER_SWEEP_001_2026-09-24.md
+    git_blob_sha: 20d21cd06448187a8be073086baf004e26166004
+
+  - id: CANON:AUDIT:RTC-HEADERS:001
+    name: Canonical Authority Raise the Ceiling Author Outline Headers 001
+    class: audit_evidence
+    role: strict_same_job_header_successor_search
+    authority: historical_audit_evidence
+    repository_path: audits/RAISE_THE_CEILING_AUTHOR_OUTLINE_HEADERS_001_2026-09-24.md
+    git_blob_sha: 10294d49441cc9c3d26b28155b58d9a777549235
+
+  - id: CANON:AUDIT:FINAL-OUTLINE-FREEZE:001
+    name: Canonical Authority Improvement Core Final Outline Freeze 001
+    class: audit_evidence
+    role: final_outline_completion_and_prose_transition_record
+    authority: historical_audit_evidence
+    repository_path: audits/IMPROVEMENT_CORE_FINAL_OUTLINE_FREEZE_001_2026-09-24.md
+    git_blob_sha: 65f35bf81d2be8cebf22f806042ffb3f59b776c5
+
+  - id: CANON:MANUSCRIPT-DRAFT:001
+    name: Canonical Authority Manuscript Draft
+    class: derived
+    role: active_prose_manuscript
+    authority: working_manuscript
+    repository_path: manuscript/MANUSCRIPT_DRAFT_2026-09-24.md
+    git_blob_sha: acd66d36f68d2f6a2183611eff1d8af5edb7fc88
+    source_object:
+      - CANON:AUTHOR-OUTLINE:001
+      - CANON:ARCH:001
+    notes:
+      - Active prose manuscript.
+      - Section 1 first pass accepted by local source and reader regression.
+
+  - id: CANON:AUDIT:FINAL-PROJECT-GATE:001
+    name: Canonical Authority Final Pre-Draft Full Project Repertoire Gate 001
+    class: audit_evidence
+    role: whole_project_pre_draft_gate
+    authority: historical_audit_evidence
+    repository_path: audits/FINAL_PRE_DRAFT_FULL_PROJECT_REPERTOIRE_GATE_001_2026-09-24.md
+    git_blob_sha: c142c9d9cd24a1f984cb86a184f6dd86bc75dd44
+
+  - id: CANON:AUDIT:FINAL-OUTLINE-GATE:001
+    name: Canonical Authority Final Pre-Draft Full Outline Repertoire Gate 001
+    class: audit_evidence
+    role: author_outline_pre_draft_gate
+    authority: historical_audit_evidence
+    repository_path: audits/FINAL_PRE_DRAFT_FULL_OUTLINE_REPERTOIRE_GATE_001_2026-09-24.md
+    git_blob_sha: 6576ecefb0ba6152086e96f6e145416c18016857
+
+  - id: CANON:AUDIT:FINAL-WRITING-GATE:001
+    name: Canonical Authority Improvement Core Final Writing Gate 001
+    class: audit_evidence
+    role: final_writing_gate
+    authority: historical_audit_evidence
+    repository_path: audits/IMPROVEMENT_CORE_FINAL_WRITING_GATE_001_2026-09-24.md
+    git_blob_sha: 13187e15d2a91e924c93a7e49077fcd514f3e17f
+
+  - id: CANON:AUDIT:SECTION1-REGRESSION:001
+    name: Canonical Authority Section 1 First-Pass Regression 001
+    class: audit_evidence
+    role: section1_source_reader_regression
+    authority: historical_audit_evidence
+    repository_path: audits/SECTION1_FIRST_PASS_REGRESSION_001_2026-09-24.md
+    git_blob_sha: 04077e78bf3539dc8cf76ff6d662dcf8462b67f7
+
+  - id: CANON:MANUSCRIPT-DRAFT-CONTROL:001
+    name: Canonical Authority Manuscript Draft Control
+    class: derived
+    role: drafting_source_readiness_and_regression_sidecar
+    authority: working_manuscript_control
+    repository_path: manuscript/MANUSCRIPT_DRAFT_CONTROL_2026-09-24.md
+    git_blob_sha: 4705661b4912e42dd1ccd5b81e10db75f08c8427
+    notes:
+      - Keeps repository/source/readiness controls out of article prose.
+
+  - id: CANON:AUDIT:SIX-SCOPE-MANUSCRIPT:001
+    name: Canonical Authority Improvement Core Six-Scope Active Manuscript Run 001
+    class: audit_evidence
+    role: six_scope_active_manuscript_upgrade
+    authority: historical_audit_evidence
+    repository_path: audits/IMPROVEMENT_CORE_SIX_SCOPE_ACTIVE_MANUSCRIPT_001_2026-09-24.md
+    git_blob_sha: cf68e247e12c1a975c247708f0facc2e8e65e156
+
+  - id: CANON:AUDIT:SECTION2-SIX-SCOPE:001
+    name: Canonical Authority Section 2 Six-Scope Regression 001
+    class: audit_evidence
+    role: section2_six_scope_regression
+    authority: historical_audit_evidence
+    repository_path: audits/SECTION2_SIX_SCOPE_REGRESSION_001_2026-09-24.md
+    git_blob_sha: 79e5339c00f973af5c84a3e717e57dd8d2825238
+
+  - id: CANON:LANGUAGE-36:001
+    name: Canonical Authority 36-Cell Manuscript Language Architecture
+    class: derived
+    role: recursive_language_and_heading_improvement_control
+    authority: working_manuscript_control
+    repository_path: MANUSCRIPT_LANGUAGE_ARCHITECTURE_36.yaml
+    git_blob_sha: 683a6ddc1d65a8a5c2f20136fe320a78c02d6a52
+
+  - id: CANON:AUDIT:LANGUAGE-36:001
+    name: Canonical Authority 36-Cell Project Manuscript Language Campaign 001
+    class: audit_evidence
+    role: project_manuscript_language_36_cell_campaign
+    authority: historical_audit_evidence
+    repository_path: audits/THIRTY_SIX_ARCHITECTURE_PROJECT_MANUSCRIPT_LANGUAGE_CAMPAIGN_001_2026-09-24.md
+    git_blob_sha: 85a2d6a4b73d01a43a36c7b7c89ccb946dc0a3ec
+
+  - id: CANON:CONTRIBUTION-INTERSECTION-36:001
+    name: Canonical Authority 36-Cell Contribution Intersection Map
+    class: derived
+    role: discovery_to_contribution_intersection_control
+    authority: working_contribution_control
+    repository_path: CONTRIBUTION_INTERSECTION_36.yaml
+    git_blob_sha: 4b9978a130a7d1b1797884e28e7d95b9fe5e66e4
+    notes:
+      - Dispositions the complete discovery register through upward-promotion control.
+      - Compresses paper-facing contribution architecture into I1-I5 and bounded novelty intersection N*.
+
+  - id: CANON:CONTRIBUTION-WRITING-PLAN-36:001
+    name: Canonical Authority Improvement Core Contribution Writing Plan 36
+    class: derived
+    role: contribution_earning_and_section_writing_plan
+    authority: working_manuscript_control
+    repository_path: IMPROVEMENT_CORE_CONTRIBUTION_WRITING_PLAN_36.md
+    git_blob_sha: 2f57b3dd48ac0a00ac303d5edf3cea3896d40b7f
+    notes:
+      - Assigns each irreducible contribution bundle to its manuscript earning location.
+      - Sets Section 3 as the next active writing packet.
+
+manuscript:
+  artifact_status: live_outline_exists_full_prose_absent
+  manuscript_object_id: CANON:MANUSCRIPT-BLUEPRINT:001
+  source_research_object: CANON:ARCH:001
+  translation_control: CANON:MANUSCRIPT-CONTRACT:001
+
+audit_target_rule: >
+  Any audit making claims about the current Canonical Authority paper architecture
+  must identify CANON:ARCH:001 and the exact Git blob SHA or successor version being
+  tested. Auditing a chat, state summary, ceiling register, or discovery map alone is
+  not an audit of the current paper architecture.
+
+ceiling_raise_object_rule: >
+  A ceiling-raising discovery becomes a change to the actual paper only when
+  RESEARCH_ARCHITECTURE.yaml is updated under its realization rule. Supporting
+  register or audit changes without an architecture promotion are research history,
+  not a raised current ceiling.

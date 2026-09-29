@@ -1,0 +1,63 @@
+schema_version: 0.1
+project_id: canonical-authority
+object_type: manuscript_status_axes
+artifact_id: CANON:MANUSCRIPT-STATUS-AXES:001
+authority_status: working_manuscript_control
+status: current
+date: 2026-09-24
+
+purpose: >
+  Prevent semantic importance, current-case activation, and manuscript visibility from
+  being collapsed into one status judgment.
+
+axes:
+  semantic_role:
+    question: what job does this object perform in the general method or argument?
+  case_activation:
+    question: is that job actually instantiated by the fixed Rashi-Ramban case?
+  manuscript_visibility:
+    question: how much reader-visible space does this object earn in the current article?
+
+rule: >
+  No inference is licensed from one axis to another without an independent reason.
+  A semantically important object can be dormant in the fixed case and still earn only
+  compact manuscript treatment. A case-active object can require large visibility even
+  when it is not a general-method primitive.
+
+current_examples:
+  PROFILE:
+    semantic_role: required_typed_setup
+    case_activation: active
+    manuscript_visibility: substantial_in_section_3_but_not_a_success_gate_in_section_4
+  TRACE:
+    semantic_role: first_adjudicative_gate
+    case_activation: active_and_current_obstruction
+    manuscript_visibility: central
+  DISCRIMINATE:
+    semantic_role: distinct_route_level_gate
+    case_activation: dormant_downstream_of_TRACE_obstruction
+    manuscript_visibility: central_method_explanation
+  RECOGNIZE:
+    semantic_role: evaluator_uptake_gate
+    case_activation: dormant_downstream_of_TRACE_obstruction
+    manuscript_visibility: central_method_explanation
+  COMPOSE:
+    semantic_role: conditional_multi_ground_selection_boundary
+    case_activation: dormant
+    manuscript_visibility: compact_boundary_in_section_4_unless_drafting_earns_more
+  PROPHECY_POSITIVE_CONTROL:
+    semantic_role: in_principle_success_control
+    case_activation: not_instantiated_for_I_S
+    manuscript_visibility: visible_before_negative_case_result
+  TARGET_RELATIVE_AUTHORITY:
+    semantic_role: derived_significance
+    case_activation: derived_from_current_comparison_and_method
+    manuscript_visibility: section_6
+
+projection_rule: >
+  READER_PROJECTION_MAP.yaml owns reader order. This file owns status typing, not order.
+
+reopen:
+  - drafting shows visibility assignment prevents comprehension
+  - source change activates a previously dormant semantic job
+  - method architecture changes

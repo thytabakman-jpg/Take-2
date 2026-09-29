@@ -1,0 +1,164 @@
+schema_version: 0.3
+project_id: canonical-authority
+migration_stage: validated
+migration_scope: G0-G2_and_core_state
+authority_status: canonical_working
+historical_coverage: open
+provenance_file: PROVENANCE.yaml
+
+goals:
+  - id: CANON:G0
+    goal_version: 1.0
+    level: G0
+    parent: null
+    statement: Produce a rigorous source-grounded peer-reviewed paper using the fixed Rashi-Ramban disagreement on Genesis 1:1 to determine what selected second-order Jewish epistemic, interpretive, institutional, transmission, authority, and privileged-access structures can legitimately contribute to assessing incompatible truth-apt canonical claims.
+    transformation: synthesized
+    provenance_refs:
+      - CANON:PROV:001
+      - CANON:PROV:004
+      - CANON:PROV:005
+      - CANON:PROV:006
+    authority_status: canonical_working
+    open_coordinates:
+      - admitted corpus is purposive and not proven exhaustive
+      - final novelty comparison remains open
+
+  - id: CANON:G1.1
+    goal_version: 1.0
+    level: G1
+    parent: CANON:G0
+    statement: Preserve and validate the fixed proposition-level Rashi-Ramban disagreement, its second-order scope, and the truth-directed success criterion without using first-order grammar or philology to decide the case.
+    transformation: normalized
+    provenance_refs:
+      - CANON:PROV:001
+      - CANON:PROV:003
+      - CANON:PROV:005
+      - CANON:PROV:006
+    authority_status: canonical_working
+
+  - id: CANON:G1.2
+    goal_version: 1.0
+    level: G1
+    parent: CANON:G0
+    statement: Reconstruct selected Jewish response structures from their source-grounded content, native domains, and native functions before applying them to the fixed case.
+    transformation: synthesized
+    provenance_refs:
+      - CANON:PROV:002
+      - CANON:PROV:005
+      - CANON:PROV:006
+    authority_status: canonical_working
+
+  - id: CANON:G1.3
+    goal_version: 1.0
+    level: G1
+    parent: CANON:G0
+    statement: Test each candidate structure through a typed source-to-case pathway for licensed transfer, truth relevance, proposition-specific linkage, case instantiation, and case-operational effect.
+    transformation: normalized
+    provenance_refs:
+      - CANON:PROV:005
+      - CANON:PROV:006
+    authority_status: canonical_working
+
+  - id: CANON:G1.4
+    goal_version: 1.0
+    level: G1
+    parent: CANON:G0
+    statement: Establish the strongest bounded conclusion warranted by the admitted routes while keeping normative authority, canonical legitimacy, explanation of disagreement, truth relevance, and factual adjudication distinct.
+    transformation: synthesized
+    provenance_refs:
+      - CANON:PROV:001
+      - CANON:PROV:002
+      - CANON:PROV:003
+      - CANON:PROV:005
+    authority_status: canonical_working
+
+  - id: CANON:G1.5
+    goal_version: 1.0
+    level: G1
+    parent: CANON:G0
+    statement: Establish provenance, reproducibility, novelty boundaries, and publication framing for the fixed-case contribution.
+    transformation: synthesized
+    provenance_refs:
+      - CANON:PROV:002
+      - CANON:PROV:006
+    authority_status: canonical_working
+    open_coordinates:
+      - final novelty comparison
+      - final provenance closure
+      - final manuscript architecture
+
+  - id: CANON:G2.1
+    goal_version: 1.0
+    level: G2
+    parent: CANON:G1.1
+    statement: Preserve the fixed rival propositions that Rashi reads Genesis 1:1 as a dependent temporal construction and Ramban reads it as an independent initial-creation assertion, while leaving the ultimate grammatical verdict open.
+    transformation: normalized
+    provenance_refs:
+      - CANON:PROV:001
+      - CANON:PROV:003
+      - CANON:PROV:005
+    authority_status: canonical_working
+
+  - id: CANON:G2.2
+    goal_version: 1.0
+    level: G2
+    parent: CANON:G1.2
+    statement: Verify and type the admitted source modules covering pluralism, reception and institutional procedure, authority and error, prophecy or privileged access, esoteric creation tradition, loss and reconstruction, and generational hierarchy.
+    transformation: normalized
+    provenance_refs:
+      - CANON:PROV:005
+      - CANON:PROV:006
+    authority_status: canonical_working
+    open_coordinates:
+      - corpus completeness is not established
+
+  - id: CANON:G2.3
+    goal_version: 1.0
+    level: G2
+    parent: CANON:G1.3
+    statement: For each admitted module, identify source-grounded content, native domain and function, licensed transfer, truth relevance, proposition-specific linkage, case instantiation, and resulting case-operational effect.
+    transformation: normalized
+    provenance_refs:
+      - CANON:PROV:005
+      - CANON:PROV:006
+    authority_status: canonical_working
+
+  - id: CANON:G2.4
+    goal_version: 1.0
+    level: G2
+    parent: CANON:G1.3
+    statement: Require proposition-specific differential truth or evidential support, operationalized for the fixed case, before treating a route as adjudicative between the rival claims.
+    transformation: normalized
+    provenance_refs:
+      - CANON:PROV:001
+      - CANON:PROV:002
+      - CANON:PROV:005
+    authority_status: canonical_working
+
+  - id: CANON:G2.5
+    goal_version: 1.0
+    level: G2
+    parent: CANON:G1.4
+    statement: Preserve the current bounded result that no admitted reconstructed route yet completes a proposition-specific, case-operational asymmetric comparison sufficient to select between the fixed rival claims.
+    transformation: normalized
+    provenance_refs:
+      - CANON:PROV:005
+    authority_status: canonical_working
+    open_coordinates:
+      - historical and source-module coverage remains open
+      - later evidence can revise this bounded result
+
+  - id: CANON:G2.6
+    goal_version: 1.0
+    level: G2
+    parent: CANON:G1.5
+    statement: Complete remaining source provenance, novelty comparison, confidence calibration, and manuscript architecture while keeping all universal-negative and exhaustiveness claims bounded by the actual recovered corpus.
+    transformation: synthesized
+    provenance_refs:
+      - CANON:PROV:002
+      - CANON:PROV:006
+    authority_status: canonical_working
+    open_coordinates:
+      - novelty
+      - provenance closure
+      - manuscript structure

@@ -1,0 +1,199 @@
+schema_version: 0.1
+project_id: canonical-authority
+object_id: CANON:ARCH-CANDIDATE:CEILING-002
+object_type: successor_architecture_candidate
+class: candidate
+authority_status: noncanonical_candidate
+status: promoted_into_CANON_ARCH_001_v1_2_0
+derived_from:
+  object_id: CANON:ARCH:001
+  version: 1.1.0
+  repository_path: ../RESEARCH_ARCHITECTURE.yaml
+
+spine:
+  ref: ../SPINE.yaml
+  notation: "A -> Q -> H[F] -> R -> B -> C"
+  changed: false
+
+protected_results:
+  - fixed_Rashi_Ramban_collision
+  - exact_target_I_S
+  - third_party_truth_directed_question
+  - purposive_non_exhaustive_response_space
+  - bounded_current_no_selector_result
+  - in_principle_prophecy_positive_control
+  - no_universal_negative
+  - research_backend_vs_manuscript_boundary
+
+declared_frame:
+  notation: "Phi = <A,tau,e>"
+  components:
+    A: admitted_source_corpus
+    tau: fixed_truth_target
+    e: evaluator_regime
+  role: >
+    Declares the question being asked. Material variation in a frame coordinate can
+    define a different inquiry and is not automatically source supplementation.
+
+provenance_factorization:
+  source_content: S
+  inferential_coordinates: "Psi = <rho,beta,kappa,...>"
+  verdict: "V = F(S;Phi,Psi)"
+  sensitivity_rule: >
+    Holding S and Phi fixed, if materially admissible variation in Psi changes V, the
+    verdict difference is not attributable to S alone.
+  purpose: >
+    Unify source-versus-bridge, representation, COMPOSE, and meta-selector attribution
+    without collapsing frame specification into inferential contribution.
+
+source_packages:
+  admitted_package_space: AdmPkg_A
+  rule: >
+    A package is not licensed merely because its members exist in the admitted corpus.
+    Joint use and every material cross-source bridge require independent grounds.
+
+route_level:
+  trace_bearer: admissible_source_package
+  formal_candidate: >
+    PackageGround_e(X,tau) iff X is in AdmPkg_A and there exists Delta such that
+    TRACE(X,tau,Delta), Delta discriminates the fixed rivals concerning tau, and
+    evaluator e can warrantedly recognize and use Delta.
+  source_ground_factorization: >
+    SourceGround(X,tau,Delta) = TRACE(X,tau,Delta) AND DISCRIMINATE(Delta,tau).
+  evaluator_uptake: >
+    Usable_e(Delta,tau) = RECOGNIZE_e(Delta,tau).
+  singleton_embedding: >
+    Existing singleton route analysis is preserved as the special case X={H_i}.
+
+package_trace_vs_compose:
+  package_trace: >
+    Multiple source structures jointly establish one target-indexed discriminatory
+    ground.
+  compose: >
+    Multiple already-established target-indexed grounds require a separately licensed
+    aggregation or defeat relation.
+  noncollapse: true
+
+current_case_obstruction:
+  status: strong_candidate_relative_to_current_reconstructed_module_content
+  statement: >
+    No currently admissible source package completes TRACE to I_S because H_R supplies
+    the only case-proximate received-creation content but still lacks the source-grounded
+    proposition-specific edge from received esoteric knowledge to I_S, and no other
+    current module supplies that edge.
+  consequence: >
+    While the package-level obstruction holds, DISCRIMINATE, evaluator-specific
+    RECOGNIZE, and COMPOSE are downstream and cannot change the fixed case result.
+  evaluator_invariance: >
+    The current bounded case result is invariant across evaluator regimes while every
+    admissible package remains blocked at TRACE.
+  reopen_conditions:
+    - admitted_module_change
+    - material_source_recovery
+    - new_source_grounded_cross_module_bridge
+    - material_target_change
+    - material_primary_source_reinterpretation
+
+case_level_compose:
+  input: completed_target_indexed_grounds
+  admissibility_rule: >
+    Outcome-material weights, priorities, thresholds, dependence assumptions, defeat
+    relations, and selectors require an independently licensed basis.
+  robust_selection: >
+    An unqualified strict verdict requires agreement across the materially admissible
+    composition-specification family.
+  lawful_outputs:
+    - strict_ordering
+    - tie
+    - partial_ordering
+    - unresolved
+
+selector_provenance_closure:
+  dispositions:
+    SOURCE_ATTRIBUTABLE: selector is source-traceable and target-applicable
+    EVALUATOR_LICENSED: selector is independently justified and claim is indexed to mixed provenance
+    INVARIANT: materially admissible selector variation does not alter the asserted conclusion
+  stopping_rule: >
+    No ultimate neutral meta-selector is required. Unresolved outcome-material
+    variation yields an indexed, partial, tied, or unresolved result rather than a
+    forced winner.
+
+evidence_layer_control:
+  case_demonstration: current Jewish corpus strongly supports TRACE-level obstruction
+  method_characterization: TRACE_DISCRIMINATE_RECOGNIZE plus package and evaluator typing
+  validation: hostile tests and structural holdouts
+  case_selection_theory: COMPOSE and selector attribution
+  publication_positioning: derivative of the preceding layers
+
+reader_facing_compression:
+  preferred_path: >
+    fixed case -> source reconstruction -> package-aware TRACE -> DISCRIMINATE ->
+    RECOGNIZE -> bounded result -> general authority-transfer implication -> compact
+    COMPOSE boundary
+  keep_under_hood:
+    - PD_framework_names
+    - full_field_scan_history
+    - most_hostile_counterexamples
+    - full_kappa_space
+    - meta_selector_recursion_detail
+    - repository_governance
+    - publication_optimization_machinery
+
+publication_freeze:
+  status: candidate_after_post_recovery_package_TRACE_regression
+  reopen_when: >
+    New evidence or a new argument changes the fixed result, central characterization,
+    material reviewer vulnerability, strict compression, or credible publication
+    ceiling enough to justify added complexity.
+
+follow_on_objects:
+  - selector_provenance_in_religious_authority
+  - joint_authority_and_composition
+  - PD_research_methodology
+
+strict_gain:
+  over_v1_1_0:
+    - generalizes TRACE bearer from singleton routes to independently admissible source packages
+    - preserves singleton route results as embedded special cases
+    - separates source-ground from evaluator uptake
+    - distinguishes inquiry-frame coordinates from inferential contributions
+    - strengthens selector attribution beyond COMPOSE
+    - converts evaluator under-typing into an explicit indexed method
+    - supplies a package-level current-case obstruction candidate
+    - localizes which future changes can affect the fixed case
+    - adds a publication-value theory-freeze rule
+    - reduces manuscript-visible complexity through contribution minimality
+
+non_regression:
+  status: passed_against_current_known_v1_1_0_results
+  preserved:
+    - A
+    - Q
+    - H_F_identity
+    - R_role
+    - B_role
+    - C_boundedness
+    - current_singleton_module_results
+    - current_case_result
+    - positive_control
+    - open_inventory
+  caveat: >
+    Final promotion-level non-regression must be rerun against current main after
+    WS:2026-09-21:CANON-BACKEND-FULL-RECOVERY closes.
+
+evidence:
+  - ../../../audits/CANONICAL_AUTHORITY_CEILING_CONSOLIDATION_2026-09-22.md
+  - ../../../audits/CANONICAL_AUTHORITY_SOURCE_PACKAGE_TRACE_AUDIT_2026-09-22.md
+  - ../../../audits/CANONICAL_AUTHORITY_THEORY_FREEZE_AUDIT_2026-09-22.md
+  - ../../../audits/CANONICAL_AUTHORITY_REFEREE_MINIMALITY_FOLLOWON_AUDIT_2026-09-22.md
+
+promotion_result:
+  status: promoted
+  promoted_object: CANON:ARCH:001
+  promoted_version: 1.2.0
+  promoted_architecture_blob: 29598f0fe92ed18d00b932da5b59c6d16ec8d825
+  recovery_reconciliation: passed
+  package_TRACE_post_recovery_regression: passed
+  non_regression: passed
+  spine_changed: false
+  goal_changed: false
