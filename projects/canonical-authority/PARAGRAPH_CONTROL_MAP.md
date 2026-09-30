@@ -79,24 +79,24 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 ### P03 — Establish fixed-target comparison
 
 **Question:** How can fundamentally different Jewish mechanisms be compared without pretending that they do the same thing?  
-**Job:** Present fixed-target heterogeneous comparison as the paper's first substantive methodological claim.  
+**Job:** Introduce fixed-target comparison as inherited comparative methodology and show how the paper uses it without claiming the comparison principle as novel.  
 **Reader:** Knows the question → understands the common coordinate that makes unlike mechanisms comparable.  
-**Earned claim:** A common proposition pair permits comparison while native functions remain distinct.  
+**Earned claim:** Established tertium-comparationis methodology licenses a common comparison question while native functions remain distinct.  
 **Evidence:** CANON:SRC:041, SRC:042; CANON:D:025, D:026.  
 **Limits:** Fixed target does not imply exhaustive comparability.  
 **Live 36 cells:** SYS→SUB comparison architecture; XL→SYS comparative-method transfer; BND→COMP native-function preservation.  
-**Decision:** Treat this as a contribution, not as procedural housekeeping.
+**Decision:** Treat this as necessary inherited method, not as an original contribution.
 
 ### P04 — Distinguish native success from target success
 
 **Question:** Which source outputs actually count as progress on C_S?  
-**Job:** State the second substantive methodological claim: success in a mechanism's native domain and success on the fixed truth target are different objects.  
+**Job:** Apply established domain-sensitive epistemic-authority reasoning to distinguish native success from transfer to the fixed truth target.  
 **Reader:** Accepts fixed-target comparison → understands why legitimacy, bindingness, provenance, authentication, explanation, and institutional settlement require a licensed relation to C_S before they bear on the truth dispute.  
-**Earned claim:** A mechanism contributes to the truth question through a proposition-specific relation to C_S, not merely through native success.  
+**Earned claim:** Native success does not by itself establish transfer to C_S; the paper must identify a proposition-specific relation.  
 **Evidence:** CANON:D:003, D:009, D:010, D:015, D:028.  
 **Limits:** Preserve the real native value of each output; do not introduce full TRACE/DISCRIMINATE/RECOGNIZE terminology yet.  
 **Live 36 cells:** SUB→COMP success criterion; COMP→BND output-type distinctions; BND→SYS preserve the native/target distinction.  
-**Decision:** Make the distinction itself the discovery.
+**Decision:** Do not present domain sensitivity or native/target separation as independently novel. Their paper-specific use prepares the later contribution.
 
 ### P05 — Justify the seven-mechanism corpus
 
@@ -107,7 +107,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Evidence:** RESPONSE_CORPUS_ADMISSION.yaml; SOURCE_MODULES.yaml; CANON:D:018, D:069.  
 **Limits:** No universal negative from corpus failure.  
 **Live 36 cells:** SYS→BND boundedness; XL→SUB admission rule into reader-facing rationale; COMP→SYS avoid arbitrary-list effect.  
-**Decision:** Keep compact and enter the sources immediately afterward.
+**Decision:** Keep compact, state explicitly that Section 2 is inherited setup, and preview that the proposed contribution begins with the source-to-ground architecture developed later.
 
 ### P06 — Pluralism and determination
 
