@@ -40,6 +40,17 @@ Every load-bearing source-facing claim must be typed as one of: **DIRECT**, **CL
 
 Any new primary-source recovery that changes the linguistic nucleus of the dispute, the premise-to-conclusion relation, the level at which the rivals directly contradict, or the ownership of a proposition automatically reopens the fixed target before downstream regression continues.
 
+## Formalization rule
+
+Use mathematics only where it protects a load-bearing boundary or compresses a recurring relation. The current manuscript ceiling is four article-facing formal objects:
+
+1. fixed rival polarity \(P_R=C_S\), \(P_N=\neg C_S\);
+2. evaluator-usable package-ground condition;
+3. bounded current-route result over \(\mathcal R_{current}\);
+4. selector-attribution sensitivity with \(V=F(S;\Phi,\Psi)\).
+
+Do not add full selector-space mathematics, 36D machinery, package lattices, regress formalization, or backend controller equations unless a concrete reviewer problem requires them.
+
 ## Local 36 rule
 
 For every paragraph-level question, run the directed six-scope surface
@@ -80,12 +91,12 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Question:** What exactly do Rashi and Ramban disagree about in Bereishis 1:1, and which verse-level proposition captures that disagreement without substituting a downstream consequence?  
 **Job:** Present Rashi's construct/dependent reading, his broader *reishis* premise, Ramban's explicit attack on that premise, and the resulting verse-level contradiction. Define C_S only after the source disagreement is visible.  
 **Reader:** General awareness of the commentators → can state Rashi's construct/dependent peshat, Ramban's rejection, and the exact fixed proposition.  
-**Earned claim:** C_S = on the peshat of Bereishis 1:1, *bereishis* functions in the construct/dependent relation Rashi assigns to it, so the opening forms the temporal setting leading to the main clause in verse 3. Rashi = C_S; Ramban = ¬C_S.  
+**Earned claim:** C_S = on the peshat of Bereishis 1:1, *bereishis* functions in the construct/dependent relation Rashi assigns to it, so the opening forms the temporal setting leading to the main clause in verse 3. The manuscript freezes the polarity explicitly as \(P_R=C_S\) and \(P_N=\neg C_S\).  
 **Evidence:** CANON:SRC:001, CANON:SRC:002; primary-source construct-state language; FIXED_CASE_SEMANTIC_DRIFT_AUDIT_AND_REPAIR_2026-09-29.md.  
 **Claim lineage:** Rashi/Ramban grammatical claims = CLOSE_PARAPHRASE; C_S formalization = PROJECT_INFERENCE constrained to preserve the direct source disagreement; independent/main-predication consequences = DERIVED_CONSEQUENCE.  
 **Limits:** Rashi's broader claim that *reishis* occurs in construct relation is a supporting premise, not the fixed target. No first-order verdict.  
 **Live 36 cells:** XL→COMP source fidelity; COMP→BND premise versus target versus consequence; SUB→INT ordinary language before notation; BND→SYS target identity must remain source-faithful.  
-**Decision:** The construct/dependent issue is the fixed-case nucleus. The old main-predication I_S target is superseded.
+**Decision:** The construct/dependent issue is the fixed-case nucleus. The old main-predication I_S target is superseded. Keep the two-line polarity equation because it protects target identity and does not add theoretical burden.
 
 ### P02 — Show recurrence and preview the paper's answer
 
@@ -258,11 +269,11 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Question:** Does a real discriminator automatically give a later evaluator usable grounds?  
 **Job:** Separate source-side support from evaluator uptake.  
 **Reader:** Knows what discrimination is → sees the evaluator-relative requirement.  
-**Earned claim:** SourceGround and evaluator-specific usability are distinct.  
+**Earned claim:** SourceGround and evaluator-specific usability are distinct. The manuscript may formalize route success as \(PackageGround_e(X,C_S)\iff \exists\Delta[TRACE\land DISCRIMINATE\land RECOGNIZE]\), with the arguments shown explicitly.  
 **Evidence:** CANON:SRC:006, SRC:007; CANON:D:008, D:029, D:035, D:054.  
 **Limits:** Social recognizability matters only where it bears on warranted use.  
 **Live 36 cells:** BND→COMP source-side versus evaluator-side; XL→COMP external epistemology calibration; INT→SUB set up multi-ground boundary.  
-**Decision:** Keep the evaluator visible but not psychologized.
+**Decision:** Keep the evaluator visible but not psychologized. Retain one compact route-success equation because it compresses the layering without adding a new success condition.
 
 ### P18 — COMPOSE only after several completed grounds exist
 
@@ -313,11 +324,11 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Question:** Has any independently admissible package plus independently licensed bridge route in the current seven-module corpus been recovered that completes TRACE to C_S?  
 **Job:** State the current bounded package-and-bridge result without converting a recovery audit into a stronger universal proof than the evidence supports.  
 **Reader:** Has seen the strongest route and the bridge-license rule → can see what has and has not been recovered across the current package/bridge space.  
-**Earned claim:** Packages excluding H_R contain no currently reconstructed proposition-specific C_S edge and no independently grounded cross-module bridge to C_S has been recovered. Packages including H_R retain the missing relation between received creation knowledge and Ramban's not-C_S peshat; no other admitted mechanism or recovered licensed cross-module bridge supplies it. Therefore no currently recovered and independently licensed package/bridge route completes TRACE to C_S. This remains a bounded recovery result, not a claim that no imaginable future bridge could exist.  
+**Earned claim:** Let \(\mathcal R_{current}\) denote the currently recovered and independently licensed package/bridge routes. The bounded result is \(\nexists r\in\mathcal R_{current}\; TRACE(r,C_S)\). Packages excluding H_R contain no currently reconstructed proposition-specific C_S edge and no independently grounded cross-module bridge to C_S has been recovered. Packages including H_R retain the missing relation between received creation knowledge and Ramban's not-C_S peshat; no other admitted mechanism or recovered licensed cross-module bridge supplies it.  
 **Evidence:** CS_PACKAGE_BRIDGE_TRACE_AUDIT_2026-09-30.md; RESEARCH_ARCHITECTURE_LIVE.yaml; CANON:D:058, D:059; historical source-package TRACE audit.  
 **Limits:** Corpus-bounded, evidence-bounded, reopenable.  
 **Live 36 cells:** SUB→SYS local result to paper result; BND→SYS bounded negative; COMP→BND downstream invariance only while TRACE obstruction holds.  
-**Decision:** This is the strongest bounded case result. Present the package/bridge coverage basis clearly, but do not label it a universal proof over imaginable future bridges.
+**Decision:** This is the strongest bounded case result. The restricted-domain equation is mandatory because it makes the non-universal quantifier explicit. Do not replace it with a universal impossibility claim.
 
 ### P23 — State the Cross-Function Epistemic Transfer Principle
 
@@ -335,11 +346,11 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Question:** When a bridge or composition rule changes the verdict, whose information is doing the work?  
 **Job:** Derive and name selector attribution as the provenance counterpart to cross-function transfer.  
 **Reader:** Understands target-relative transfer → sees why verdict provenance matters.  
-**Earned claim:** Selector Attribution Principle: holding source-attributable content and the inquiry frame fixed, any verdict difference produced by varying a materially outcome-relevant bridge or composition rule is attributable at least partly to that added layer.  
+**Earned claim:** Selector Attribution Principle: with \(V=F(S;\Phi,\Psi)\), holding source-attributable content \(S\) and inquiry frame \(\Phi\) fixed, \(F(S;\Phi,\Psi_1)\neq F(S;\Phi,\Psi_2)\) entails that the verdict difference is not attributable to \(S\) alone.  
 **Evidence:** CANON:D:005, D:006, D:045, D:052, D:053.  
 **Limits:** Mixed provenance is allowed when explicit.  
 **Live 36 cells:** XL→BND inferential provenance; BND→SYS global attribution; COMP→INT avoid abstraction overload.  
-**Decision:** State the fixed-source/variable-selector test directly; allow explicit mixed provenance.
+**Decision:** State the fixed-source/fixed-frame/variable-selector test directly; allow explicit mixed provenance. Retain the compact formal statement because it is the cleanest protection against silent back-attribution.
 
 ### P25 — Define the scholar's claim
 
