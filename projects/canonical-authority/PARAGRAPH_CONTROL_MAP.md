@@ -5,7 +5,14 @@ Date: 2026-09-29
 Branch: `workstream/canonical-authority-draft-20260929`  
 Companion manuscript: `MANUSCRIPT_DRAFT.md`
 
+## Live research basis
+
+Current manuscript research basis: **CANON:ARCH:001 v1.3.0**, `RESEARCH_ARCHITECTURE_LIVE.yaml`.
+
+The imported v1.2.0 architecture remains historical provenance and is superseded for live manuscript work because it encodes the old (I_S) target. All live source-to-target analysis uses (C_S).
+
 ## Purpose
+
 
 This is the drafting sidecar. It is not article prose.
 
@@ -196,20 +203,20 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Question:** What comparative result emerges across the seven mechanisms, and where does source reconstruction end and project-level inference begin?  
 **Job:** Earn the first paper-specific comparative synthesis by showing that heterogeneous mechanisms stop at heterogeneous inferential locations, then establish attribution discipline before the formal method.  
 **Reader:** Has seen each mechanism separately → can now see the obstruction profile as a result and then ask what formal conditions would convert source material into a usable ground.  
-**Earned claim:** Heterogeneous authorities can fail to adjudicate the same proposition for heterogeneous reasons; bridge information introduced by the analysis is not retroactively source content.  
+**Earned claim:** When recruited to C_S, heterogeneous mechanisms stop at different inferential locations; these are stopping-point diagnoses rather than a mutually exclusive taxonomy. Bridge information introduced by the analysis is not retroactively source content.  
 **Evidence:** Source-module comparison; CANON:D:003–012, D:025, D:034; CANON:D:004, D:005, D:006, D:017 for attribution.  
 **Limits:** Do not imply that project-level bridges are illegitimate; they require licensing and attribution.  
 **Live 36 cells:** BND→SYS global attribution rule; XL→BND evidence/analysis boundary; INT→SUB handoff to method.  
-**Decision:** End Section 2 with an earned comparative finding and the exact question Section 3 answers.
+**Decision:** End Section 2 with the typed obstruction profile, including the compact mechanism/native-output/C_S/stopping-point table, and the exact question Section 3 answers.
 
 ### P13 — Begin the proposed route architecture through TRACE
 
 **Question:** Once a source is reconstructed, what is the first thing that must be shown?  
 **Job:** Introduce PROFILE as setup and TRACE as the first adjudicative operation.  
 **Reader:** Has typed sources → knows why source relevance requires an actual route to C_S.  
-**Earned claim:** TRACE asks whether an independently admissible source package supplies a licensed, source-attributable relation to the target.  
+**Earned claim:** TRACE asks whether an independently admissible source package supplies a licensed relation to the target. A bridge is licensed only when independently supported by the source, interpretive framework, or an explicitly defended external inferential principle; externally licensed bridges yield mixed rather than source-only provenance.  
 **Evidence:** CANON:D:032, D:034, D:037, D:056.  
-**Limits:** PROFILE is not an extra success hurdle; it is required setup.  
+**Limits:** PROFILE is not an extra success hurdle; it is required setup. Licensed and source-attributable are distinct properties.  
 **Live 36 cells:** SUB→COMP method compression; BND→COMP setup versus success; INT→SYS make technical vocabulary intuitive.  
 **Decision:** Define through reader need, not backend taxonomy.
 
@@ -301,27 +308,27 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Live 36 cells:** XL→COMP source-status hierarchy; COMP→BND secondary support versus primary proposition linkage; BND→SYS preserve reopen condition.  
 **Decision:** Use this paragraph to make the boundedness intellectually serious.
 
-### P22 — State the package-level fixed-case result
+### P22 — State the package-and-bridge fixed-case result
 
-**Question:** Can any independently admissible package in the current seven-module corpus complete the missing proposition-specific edge?  
-**Job:** Give the current bounded result as an inspectable two-class package proof rather than merely reporting an audit conclusion.  
-**Reader:** Has seen the strongest route and open source gate → can inspect why every current admissible package falls into a class that still stops at TRACE.  
-**Earned claim:** Packages excluding H_R lack the only currently reconstructed direct case-proximate received-creation route; packages including H_R inherit its unresolved proposition-specific edge because no other admitted mechanism supplies that edge. Therefore no current admissible package completes TRACE to C_S, and downstream evaluator/COMPOSE variation cannot change the result while that obstruction persists.  
-**Evidence:** CANON:D:058, D:059; source-package TRACE audit; theory-freeze regression.  
+**Question:** Has any independently admissible package plus independently licensed bridge route in the current seven-module corpus been recovered that completes TRACE to C_S?  
+**Job:** State the current bounded package-and-bridge result without converting a recovery audit into a stronger universal proof than the evidence supports.  
+**Reader:** Has seen the strongest route and the bridge-license rule → can see what has and has not been recovered across the current package/bridge space.  
+**Earned claim:** Packages excluding H_R contain no currently reconstructed proposition-specific C_S edge and no independently grounded cross-module bridge to C_S has been recovered. Packages including H_R retain the missing relation between received creation knowledge and Ramban's not-C_S peshat; no other admitted mechanism or recovered licensed cross-module bridge supplies it. Therefore no currently recovered and independently licensed package/bridge route completes TRACE to C_S. This remains a bounded recovery result, not a claim that no imaginable future bridge could exist.  
+**Evidence:** CS_PACKAGE_BRIDGE_TRACE_AUDIT_2026-09-30.md; RESEARCH_ARCHITECTURE_LIVE.yaml; CANON:D:058, D:059; historical source-package TRACE audit.  
 **Limits:** Corpus-bounded, evidence-bounded, reopenable.  
 **Live 36 cells:** SUB→SYS local result to paper result; BND→SYS bounded negative; COMP→BND downstream invariance only while TRACE obstruction holds.  
-**Decision:** This is the strongest bounded case result and now includes its reader-visible proof.
+**Decision:** This is the strongest bounded case result. Present the package/bridge coverage basis clearly, but do not label it a universal proof over imaginable future bridges.
 
-### P23 — State the Cross-Function Transfer Principle
+### P23 — State the Cross-Function Epistemic Transfer Principle
 
 **Question:** What broader conclusion follows from repeated differences between native authority functions and the fixed truth target?  
 **Job:** Derive and name the paper's cross-function transfer principle without claiming generic domain sensitivity as novel.  
 **Reader:** Knows case result → can generalize at the level actually earned.  
-**Earned claim:** Cross-Function Transfer Principle: authority with respect to one native output bears on a different truth target only through an explicit relation connecting that output to the new proposition.  
+**Earned claim:** Cross-Function Transfer Principle: when the native output of an authority mechanism is recruited as evidence for a different truth target, epistemic transfer requires a licensed proposition-specific relation connecting that output to the new target.  
 **Evidence:** CANON:D:025, D:050; cross-module comparison.  
 **Limits:** Do not claim authority is never truth-relevant.  
 **Live 36 cells:** SUB→SYS derivation from case/method; BND→COMP status versus target-specific force; INT→SUB set up provenance consequence.  
-**Decision:** Name the principle because the paper has now earned it and because it makes the contribution portable.
+**Decision:** Retain the short name Cross-Function Transfer Principle, but define the transferred object as epistemic/evidential relevance rather than authority as a substance.
 
 ### P24 — State the Selector Attribution Principle
 
@@ -350,7 +357,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Question:** What has the paper actually contributed once the reader has traversed the case and method?  
 **Job:** Synthesize the contribution in earned order.  
 **Reader:** Has all premises/results → can reconstruct the contribution hierarchy.  
-**Earned claim:** The paper builds on inherited fixed-target comparison and domain sensitivity, develops the integrated source-to-ground architecture plus package TRACE/COMPOSE and attribution controls, obtains the bounded Rashi–Ramban package obstruction, and derives cross-function transfer and selector-attribution significance.  
+**Earned claim:** The paper builds on inherited fixed-target comparison and domain sensitivity, develops the integrated source-to-ground architecture plus package TRACE/COMPOSE and attribution controls, obtains the bounded Rashi–Ramban package-and-bridge obstruction, and derives cross-function transfer and selector-attribution significance.  
 **Evidence:** NOVELTY_CONTRIBUTION_MAP.md; CANON:D:019, D:032, D:038, D:050, D:058.  
 **Limits:** Synthesis does not independently prove earlier claims.  
 **Live 36 cells:** SUB→SYS contribution lift; COMP→BND typed contributions; INT→SYS reader reconstruction.  
@@ -361,7 +368,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Question:** What is new relative to the strongest reviewed neighboring literatures?  
 **Job:** Close novelty inflation by distinguishing inherited components, the architecture developed here, and the worked result obtained here.  
 **Reader:** Knows the full argument → can state exactly what was inherited, what was developed, and what was newly obtained.  
-**Earned claim:** Established literatures supply the component ideas; this paper develops their source-attributable integration and obtains the bounded package-TRACE result. No direct predecessor has been located in the reviewed comparator corpus for that integrated architecture plus worked result.  
+**Earned claim:** Established literatures supply the component ideas; this paper develops their source-attributable integration and obtains the bounded package-and-bridge TRACE result. No direct predecessor has been located in the reviewed comparator corpus for that integrated architecture plus worked result.  
 **Evidence:** CANON:SRC:005, SRC:038–045; CANON:D:043, D:048.  
 **Limits:** “No located direct predecessor in the reviewed corpus,” not universal priority.  
 **Live 36 cells:** XL→SYS literature-to-novelty transfer; COMP→BND component novelty versus intersection novelty; SYS→INT calibrate reader confidence.  
