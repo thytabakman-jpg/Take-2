@@ -53,7 +53,16 @@ Use mathematics only where it protects a load-bearing boundary, exposes a genuin
 
 The later cut pass may remove any formula that does not improve reader understanding or claim protection. Do not add full selector-space mathematics, 36D machinery, package lattices, regress formalization, or backend controller equations merely because they exist.
 
+## Overfull development rule
+
+Current drafting phase: **OVERFULL DEVELOPMENT**.
+
+Do not cut material merely for brevity, elegance, journal word count, or fear of reviewer burden. Retain a passage when it adds a defensible distinction, objection, example, validation result, disciplinary connection, falsification condition, or earned claim. Remove only when the material is wrong, unsupported, genuinely redundant without added function, or weaker than a superior formulation.
+
+The later cut pass is a separate project phase and must preserve the earned-claim register before deleting article-visible material.
+
 ## Local 36 rule
+
 
 For every paragraph-level question, run the directed six-scope surface
 
@@ -132,6 +141,24 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Limits:** Fixed target does not imply exhaustive comparability.  
 **Live 36 cells:** SYS→SUB comparison architecture; XL→SYS comparative-method transfer; BND→COMP native-function preservation.  
 **Decision:** Keep this as the compact close of Section 1. Treat the tertium as inherited method. Make PD visible here as a discovery/stress-testing heuristic, while stating explicitly that no article conclusion depends on accepting PD as an independent theory.
+
+### P45 — Show what PD concretely changed
+
+**Question:** What did PD actually discover rather than merely rename?
+**Job:** Demonstrate the heuristic's yield through specific collapsed distinctions.
+**Reader:** Sees that PD exposed legitimacy/truth, provenance/coverage, explanation/adjudication, package/composition, source/selector, and survival/truth collapses.
+**Earned claim:** PD contributes as a counterfactual distinction audit: holding source material fixed while changing a hidden conversion can reveal that verdict-producing force entered through the analyst rather than the source.
+**Limits:** PD remains non-load-bearing; every promoted distinction must be independently defended.
+**Decision:** Preserve because methods transparency is stronger when the paper shows the heuristic's actual yield.
+
+### P44 — Explain why the Rashi–Ramban case is methodologically diagnostic
+
+**Question:** Why this case rather than a broader survey?
+**Job:** Defend the worked-case choice without claiming statistical representativeness.
+**Reader:** Understands that the case is a stress case / analytic microscope because the target is freezeable, both rivals are canonical, the disagreement is direct, several second-order mechanisms sit nearby, and transfer questions can be asked proposition by proposition.
+**Earned claim:** A bounded worked case can be methodologically diagnostic even when it is not statistically representative.
+**Limits:** Do not infer population frequency or representativeness from the case.
+**Decision:** Keep in the overfull draft; this is a likely referee question and the answer is substantive.
 
 ### P04 — Open source analysis with the native/target distinction
 
@@ -313,6 +340,14 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Live 36 cells:** SUB→COMP method compression; BND→COMP setup versus success; INT→SYS make technical vocabulary intuitive.  
 **Decision:** Define through reader need, not backend taxonomy.
 
+### P49 — Give miniature cases for TRACE, DISCRIMINATE, and RECOGNIZE
+
+**Question:** Can a human reader feel the difference among the three stages without formal notation?
+**Job:** Provide three minimal counterexamples: authentic but irrelevant; relevant but symmetric; discriminatory but unauthenticated/inaccessible.
+**Reader:** Sees that the route stages correspond to different failure modes.
+**Earned claim:** The stage distinctions are not merely terminological because each supports a distinct counterexample.
+**Decision:** Keep for pedagogy and referee clarity in the overfull draft.
+
 ### P35 — Separate inferential maps from causal histories and expose route commitments
 
 **Question:** What do TRACE arrows represent, and what does choosing a route commit the analyst to?
@@ -322,6 +357,15 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Evidence:** legacy road/commitment architecture; cross-project specification and relation-admission work.
 **Limits:** Historical causal evidence can inform a route without becoming the route itself.
 **Decision:** Keep as a methodological contribution, not software-derived jargon.
+
+### P48 — Answer the bridge-licensing regress
+
+**Question:** What licenses the rule that licenses a bridge?
+**Job:** Prevent an infinite selector hierarchy while preserving explicit provenance.
+**Reader:** Understands that bridges can be source-attributable, independently defended external principles, or explicitly conditional on evaluator commitments; unresolved regress yields indexed/conditional output rather than forced closure.
+**Earned claim:** Regress is handled by transparency and non-forcing, not by inventing a final neutral meta-rule.
+**Limits:** Do not claim a universal foundationalist solution to all epistemic regress.
+**Decision:** Keep because the question is predictable and the answer was already developed in backend work.
 
 ### P14 — Make TRACE package-aware and distinguish package admissibility
 
@@ -386,6 +430,25 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Limits:** Social recognizability matters only where it bears on warranted use.  
 **Live 36 cells:** BND→COMP source-side versus evaluator-side; XL→COMP external epistemology calibration; INT→SUB set up multi-ground boundary.  
 **Decision:** Keep the evaluator visible but not psychologized. Retain one compact route-success equation because it compresses the layering without adding a new success condition.
+
+### P47 — Ablate the architecture stage by stage
+
+**Question:** What error returns if PROFILE, TRACE, DISCRIMINATE, RECOGNIZE, or the separate COMPOSE boundary is removed?
+**Job:** Test functional non-redundancy rather than defend labels by stipulation.
+**Reader:** Can see exactly why each stage exists.
+**Earned claim:** The stages are justified by the distinct analytical mistakes their removal permits; the vocabulary itself remains revisable.
+**Limits:** If a future simplification preserves every distinction, collapse is allowed.
+**Decision:** Keep in the overfull draft because this is stronger than merely asserting the architecture is necessary.
+
+### P46 — Defend RECOGNIZE as an independent stage
+
+**Question:** Why is target-linked discriminatory support not automatically evaluator-usable?
+**Job:** Distinguish the existence of an evidential relation from a later evaluator's warrant to identify/authenticate/use it.
+**Reader:** Understands that truth is not made evaluator-relative; warrant is.
+**Earned claim:** TRACE + DISCRIMINATE can succeed in fact while RECOGNIZE fails for a specific evaluator; conversely, social recognition without TRACE does not establish target support.
+**Evidence:** expertise/testimony/source-criticism analogies plus route architecture.
+**Limits:** Do not psychologize the evaluator or make truth itself evaluator-relative.
+**Decision:** Keep as a direct defense against redundancy objections.
 
 ### P18 — COMPOSE only after several completed grounds exist
 
@@ -494,6 +557,15 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Evidence:** testimony/social-epistemology comparators; canon/cultural-memory and provenance scans.
 **Limits:** No reduction of these literatures to the paper's architecture.
 **Decision:** Keep in overfull version and later trim by journal audience.
+
+### P50 — State the field-by-field interdisciplinary payoff
+
+**Question:** What exactly does each neighboring discipline gain from the architecture?
+**Job:** Replace generic interdisciplinarity with specific disciplinary contributions.
+**Reader:** Can see concrete relevance to social epistemology, provenance, jurisprudence, canon/cultural-memory studies, sociology of religious knowledge, comparative religious studies, and philosophy of religion.
+**Earned claim:** One architecture generates multiple disciplinary payoffs without claiming those fields reduce to one another.
+**Limits:** These are contribution pathways, not seven separate historical-priority claims.
+**Decision:** Preserve all in the overfull draft; later venue selection can determine which are foregrounded.
 
 ### P26 — Reconstruct the contribution as a dependency package
 
