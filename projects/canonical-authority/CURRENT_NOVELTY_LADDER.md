@@ -3,7 +3,7 @@
 Status: CURRENT AUTHOR-FACING NOVELTY CONTROL  
 Date: 2026-09-30  
 Branch: `workstream/canonical-authority-draft-20260929`
-Live research basis: `CANON:ARCH:001 v1.3.0` / `RESEARCH_ARCHITECTURE_LIVE.yaml`
+Live research basis: `CANON:ARCH:001 v1.3.1` / `RESEARCH_ARCHITECTURE_LIVE.yaml`
 
 ## Purpose
 
@@ -175,7 +175,7 @@ Novelty status: paper-specific application; suspension/underdetermination litera
 
 Authority arguments can be represented as transitions among different object types:
 
-source/channel → native output/status → licensed bridge → target-indexed ground → discrimination → evaluator uptake.
+source/channel → native output/status → licensed bridge → target-linked support → rival discrimination → evaluator uptake.
 
 Value: exposes hidden type conversions and clarifies why accumulation of status at one level cannot manufacture a missing proposition-specific relation at another.
 
