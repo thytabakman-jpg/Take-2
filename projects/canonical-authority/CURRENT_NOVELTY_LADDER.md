@@ -55,6 +55,16 @@ Disposition: established argumentation/formal-epistemology background.
 
 # B. Paper-specific claims that are interesting but not safe as standalone historical-priority claims
 
+## B0. Truth-apt machlokes recurs across canonical strata
+
+The Rashi–Ramban case is not an isolated canonical collision. Recurrence evidence includes Tannaitic, Amoraic, and Geonic disputes, with the Rashi–Ramban case supplying the Rishonic worked example.
+
+Value: establishes the broader problem immediately without claiming that every machlokes is the same type.
+
+Earliest location: Section 1.2.
+
+Novelty status: framing synthesis, not historical priority.
+
 ## B1. The Rashi–Ramban case is a productive fixed truth-target stress test
 
 The construct/dependent dispute in Bereishis 1:1 creates a clean case in which two canonical interpreters make incompatible truth-apt syntactic claims.
