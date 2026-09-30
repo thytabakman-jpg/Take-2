@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "object_id": "TAKE5_IMPROVEMENT_CORE_KNOWLEDGE_LEDGER_113",
+  "date": "2026-09-26",
+  "status": "CURRENT",
+  "regime_version": "091",
+  "purpose": "Durable capture and integration of admitted material knowledge events. Capture is not authority.",
+  "nodes": [
+    {
+      "knowledge_id": "K-knowledge-capture-gap-20260926",
+      "kind": "PROBLEM",
+      "statement": "Material ImprovementCore discoveries were not forced through one mandatory durable capture and integration transition.",
+      "basis_id": "take5-regime-090",
+      "disposition": "CURRENT",
+      "related_objects": [
+        "ImprovementCore",
+        "MAP_CAPTURE_POLICY",
+        "FUNCTIONALITY_RECOVERY_LEDGER"
+      ],
+      "dependency_footprint": [
+        "improvement_core_regime",
+        "knowledge_capture",
+        "cross_chat_persistence"
+      ],
+      "evidence_refs": [
+        "MAP_CAPTURE_POLICY.md",
+        "FUNCTIONALITY_RECOVERY_LEDGER.md",
+        "integration/CROSS_CHAT_INTEGRATION_INBOX_2026-09-25.md"
+      ],
+      "provenance": [
+        {
+          "source_episode": "improvecore-record-integrate-dont-lose-ideas-20260926",
+          "source_route": "root-diagnosis"
+        }
+      ],
+      "metadata": {
+        "root_generator": "MATERIAL_DISCOVERY_NOT_MANDATORILY_PERSISTED"
+      }
+    },
+    {
+      "knowledge_id": "K-knowledge-capture-repair-20260926",
+      "kind": "SOLUTION",
+      "statement": "ImprovementCore regime persists explicit knowledge_events and admitted recursive material transitions into a durable provenance/dependency knowledge ledger.",
+      "basis_id": "take5-regime-090",
+      "disposition": "CURRENT",
+      "related_objects": [
+        "ImprovementCore",
+        "IMPROVEMENT_CORE_KNOWLEDGE_LEDGER_113"
+      ],
+      "dependency_footprint": [
+        "runtime/improvement_core_regime.py",
+        "runtime/improvement_core_knowledge_ledger.py"
+      ],
+      "evidence_refs": [
+        "architecture/IMPROVEMENT_CORE_MATERIAL_KNOWLEDGE_CAPTURE_113.md",
+        "tests/test_improvement_core_knowledge_ledger.py",
+        "tests/test_improvement_core_regime.py",
+        "PR #111",
+        "Take-5 Validation 36265770070",
+        "Capability Preservation 36265770012",
+        "merge 4fcbb2ef98e830d648ff09c4630d3440b0c2a1fb"
+      ],
+      "provenance": [
+        {
+          "source_episode": "improvecore-record-integrate-dont-lose-ideas-20260926",
+          "source_route": "repair"
+        }
+      ],
+      "metadata": {
+        "validation_status": "SUCCESS",
+        "take5_validation": 36265770070,
+        "capability_preservation": 36265770012,
+        "merge_commit": "4fcbb2ef98e830d648ff09c4630d3440b0c2a1fb"
+      }
+    },
+    {
+      "knowledge_id": "K-improvecore-hf2-choice-20260926",
+      "kind": "SOLUTION",
+      "statement": "ImprovementCore with HF2 chose to close ImprovementCore's own explicit protected-behavior manifest first.",
+      "basis_id": "take5-regime-090",
+      "disposition": "CAPTURED",
+      "related_objects": [
+        "ImprovementCore",
+        "HF002",
+        "ToolManifest",
+        "ConfiguredFunctionIR"
+      ],
+      "dependency_footprint": [
+        "runtime/tool_manifest.py",
+        "runtime/tool_manifest_audit.py",
+        "runtime/configured_function_ir.py",
+        "integration/CURRENT_TOOL_REALITY.md"
+      ],
+      "evidence_refs": [
+        "artifacts/improvecore/IMPROVEMENTCORE_HF2_CHOICE_001_2026-09-26.json",
+        "architecture/IMPROVEMENT_CORE_FUNCTION_FIRST_HOLDOUT_112.md",
+        "integration/CURRENT_TOOL_REALITY.md"
+      ],
+      "provenance": [
+        {
+          "source_episode": "improvecore-hf2-make-a-choice-20260926-001",
+          "source_route": "HF002_RELATIVE_CLOSE"
+        }
+      ],
+      "metadata": {
+        "choice": "CLOSE_IMPROVEMENTCORE_EXPLICIT_PROTECTED_BEHAVIOR_MANIFEST_FIRST"
+      }
+    },
+    {
+      "knowledge_id": "K-improvecore-default-hf2-091-20260926",
+      "kind": "SOLUTION",
+      "statement": "User-facing ImprovementCore promotes HF2 as its default local same-capability recurrence operator while preserving ImprovementCore global control.",
+      "basis_id": "take5-regime-091",
+      "disposition": "CURRENT",
+      "related_objects": [
+        "ImprovementCore",
+        "HF002",
+        "IC-028"
+      ],
+      "dependency_footprint": [
+        "runtime/improvement_core_hf2_default.py",
+        "runtime/improvement_core_dispatch.py",
+        "runtime/tool_manifest.py"
+      ],
+      "evidence_refs": [
+        "architecture/IMPROVEMENT_CORE_DEFAULT_HF2_118.md",
+        "artifacts/improvecore/IMPROVEMENTCORE_HF2_OBSERVER_CAMPAIGN_115_2026-09-26.md",
+        "artifacts/improvecore/IMPROVEMENTCORE_HF2_THINK_BIG_FIX_CLOSURE_117_2026-09-26.md",
+        "PR #116",
+        "Take-5 Validation 36270165005",
+        "Capability Preservation 36270165051",
+        "merge ef2ef2a6fa0c4093c28654f4fda04d68eb4d9869"
+      ],
+      "provenance": [
+        {
+          "source_episode": "improvecore-default-hf2-promotion-20260926",
+          "source_route": "validated-campaign-generalization"
+        }
+      ],
+      "metadata": {
+        "validation_status": "SUCCESS",
+        "take5_validation": 36270165005,
+        "capability_preservation": 36270165051,
+        "merge_commit": "ef2ef2a6fa0c4093c28654f4fda04d68eb4d9869"
+      }
+    }
+  ],
+  "history": [
+    {
+      "sequence": 1,
+      "knowledge_id": "K-knowledge-capture-gap-20260926",
+      "action": "CAPTURE",
+      "disposition": "CURRENT",
+      "source_episode": "improvecore-record-integrate-dont-lose-ideas-20260926",
+      "source_route": "root-diagnosis",
+      "evidence_refs": [
+        "MAP_CAPTURE_POLICY.md",
+        "FUNCTIONALITY_RECOVERY_LEDGER.md"
+      ],
+      "metadata": {}
+    },
+    {
+      "sequence": 2,
+      "knowledge_id": "K-knowledge-capture-repair-20260926",
+      "action": "CAPTURE",
+      "disposition": "ADMITTED",
+      "source_episode": "improvecore-record-integrate-dont-lose-ideas-20260926",
+      "source_route": "repair",
+      "evidence_refs": [
+        "architecture/IMPROVEMENT_CORE_MATERIAL_KNOWLEDGE_CAPTURE_113.md"
+      ],
+      "metadata": {
+        "validation_status": "PENDING"
+      }
+    },
+    {
+      "sequence": 3,
+      "knowledge_id": "K-knowledge-capture-repair-20260926",
+      "action": "INTEGRATE",
+      "disposition": "CURRENT",
+      "source_episode": "improvecore-record-integrate-dont-lose-ideas-20260926",
+      "source_route": "post-validation-promotion",
+      "evidence_refs": [
+        "PR #111",
+        "Take-5 Validation 36265770070",
+        "Capability Preservation 36265770012",
+        "merge 4fcbb2ef98e830d648ff09c4630d3440b0c2a1fb"
+      ],
+      "metadata": {
+        "validation_status": "SUCCESS"
+      }
+    },
+    {
+      "sequence": 4,
+      "knowledge_id": "K-improvecore-hf2-choice-20260926",
+      "action": "CAPTURE",
+      "disposition": "CAPTURED",
+      "source_episode": "improvecore-hf2-make-a-choice-20260926-001",
+      "source_route": "HF002_RELATIVE_CLOSE",
+      "evidence_refs": [
+        "artifacts/improvecore/IMPROVEMENTCORE_HF2_CHOICE_001_2026-09-26.json"
+      ],
+      "metadata": {}
+    },
+    {
+      "sequence": 5,
+      "knowledge_id": "K-improvecore-default-hf2-091-20260926",
+      "action": "CAPTURE",
+      "disposition": "CAPTURED",
+      "source_episode": "improvecore-default-hf2-promotion-20260926",
+      "source_route": "validated-campaign-generalization",
+      "evidence_refs": [
+        "architecture/IMPROVEMENT_CORE_DEFAULT_HF2_118.md"
+      ],
+      "metadata": {
+        "validation_status": "PENDING"
+      }
+    },
+    {
+      "sequence": 6,
+      "knowledge_id": "K-improvecore-default-hf2-091-20260926",
+      "action": "INTEGRATE",
+      "disposition": "CURRENT",
+      "source_episode": "improvecore-default-hf2-promotion-20260926",
+      "source_route": "post-validation-promotion",
+      "evidence_refs": [
+        "PR #116",
+        "Take-5 Validation 36270165005",
+        "Capability Preservation 36270165051",
+        "merge ef2ef2a6fa0c4093c28654f4fda04d68eb4d9869"
+      ],
+      "metadata": {
+        "validation_status": "SUCCESS"
+      }
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+"""Configured-run registry for foundation and admitted learning capabilities."""
+from configured_run import (
+    DEFAULT_RECURRENCE_ENGINE,
+    SELF_RECURRENCE_ENGINE,
+    ConfiguredRunSpec,
+)
+from learning_tool_bridge import SPECS as LEARNING_SPECS
+
+LEARNING_TOOLS=tuple(spec.program_id for spec in LEARNING_SPECS)
+
+MATERIAL_TOOLS=tuple([f"C{i:02d}" for i in range(1,50)]+[
+"ImprovementCore","ProjectManager","ICC128","MT","MTA","Architecture","PD","PDAudit","GDOS","Discriminator","Reconciler",
+"DelegatedExecutor","HF001","HF002","RootCause","TRC","RTC","BiasPerturbation","CurrentnessAudit",
+"CapabilityFoundry","EmergentAdmission","HistoricalReconstruction","ZeroRequest","MultiObject","Diagnosis",
+"ASSERT","GOAL","SolutionToMyProblem","Prose","DesiredJane","QuestionWorthAsking","LambdaMath","SemanticResolutionPipeline","ToolConductor"
+]+list(LEARNING_TOOLS))
+
+ASSERT_LAYERS=("ASSERT_LAYER_1","ASSERT_LAYER_2")
+
+PROTECTED_BEHAVIORS={
+    "ProjectManager":(
+        "PROJECTMANAGER_PROJECT_IDENTITY_BINDING",
+        "PROJECTMANAGER_PROJECT_PACKAGE_VALIDATION",
+        "PROJECTMANAGER_SINGLE_OWNER_AUTHORITY",
+        "PROJECTMANAGER_LOCAL_CHANGE_ROUTING",
+        "PROJECTMANAGER_OPEN_PRESERVATION",
+        "PROJECTMANAGER_WBS_SCHEDULE_SEPARATION",
+        "PROJECTMANAGER_IMPACT_REENTRY",
+        "PROJECTMANAGER_SELF_MANAGEMENT",
+        "PROJECTMANAGER_IMPROVEMENTCORE_HANDOFF",
+        "PROJECTMANAGER_TRANSFERCORE_EVIDENCE_ONLY",
+        "PROJECTMANAGER_PREPROJECT_ADMISSION_GATE",
+        "PROJECTMANAGER_MANDATORY_MANAGEMENT_SPINE",
+    ),
+    "ICC128":(
+        "ICC128_ENDOGENOUS_CONTROLLER_LOOP",
+        "ICC128_STATE_RELATIVE_SELECTOR",
+        "ICC128_RESELECTION_ON_MATERIAL_DELTA",
+        "ICC128_SEMANTIC_GENERATION",
+        "ICC128_JANE_CONTINUITY_HANDOFF",
+        "ICC128_MINIMAL_RESPONSE_SELECTION",
+    ),
+    "ImprovementCore":(
+        "IMPROVEMENTCORE_CONTROLLER_OWNERSHIP",
+        "IMPROVEMENTCORE_OBSERVER_FIRST_MODE",
+        "IMPROVEMENTCORE_CONFIGURED_TOOL_EXECUTION",
+        "IMPROVEMENTCORE_RECURSIVE_PARENT_CONTROL",
+        "IMPROVEMENTCORE_HF002_DEFAULT_LOCAL_RECURRENCE",
+        "IMPROVEMENTCORE_DURABLE_NEGATIVE_LEARNING",
+        "IMPROVEMENTCORE_DURABLE_KNOWLEDGE_CAPTURE",
+        "IMPROVEMENTCORE_CONFIGURED_TOOL_DURABLE_KNOWLEDGE_CAPTURE",
+        "IMPROVEMENTCORE_STRICT_PROGRESS",
+        "IMPROVEMENTCORE_EXTERNAL_ACQUISITION",
+        "IMPROVEMENTCORE_PLURAL_FRONTIER_PRESERVATION",
+        "IMPROVEMENTCORE_PROSE_RETURN_GATE",
+    ),
+    "MT":("MT_BLACK_BOX_SEMANTIC_RETURN_GATE",),
+    "MTA":("MTA_STRUCTURAL_MODEL_RECONSTRUCTION",),
+    "Architecture":(
+        "ARCHITECTURE_CONTRACT_RELATIVE_ANALYSIS",
+        "ARCHITECTURE_PROTECTED_PROSE_CONSTRAINT_BINDING",
+    ),
+    "PD":("PD_MINIMAL_RESULT_SENSITIVITY",),
+    "PDAudit":(
+        "PDAUDIT_FRAME_FIBER_SENSITIVITY",
+        "PDAUDIT_RAW_NORMALIZATION_SEPARATION",
+    ),
+    "HF001":("HF001_GOVERNED_EPISODE",),
+    "HF002":("HF002_LOCAL_RECURSIVE_CONTINUATION",),
+    "RootCause":(
+        "ROOT_CAUSE_ROOTNESS_SELECTOR",
+        "ROOT_CAUSE_HF002_LOCAL_RECURRENCE",
+        "ROOT_CAUSE_IMPROVEMENTCORE_PARENT_HANDOFF",
+    ),
+    "GDOS":(
+        "GDOS_FROZEN_INDEPENDENT_OBSERVATION",
+    ),
+    "Discriminator":(
+        "DISCRIMINATOR_PRESERVE_PLURAL_OPEN",
+    ),
+    "RTC":(
+        "RTC_STRICT_GAIN_PRESERVATION_GATE",
+    ),
+    "BiasPerturbation":(
+        "BIAS_PERTURBATION_INVARIANCE_GUARD",
+    ),
+    "Diagnosis":(
+        "DIAGNOSIS_MECHANISM_BEFORE_REPAIR",
+    ),
+    "SolutionToMyProblem":(
+        "SOLUTION_PROTECTED_PROSE_PRESERVATION",
+    ),
+    "Prose":(
+        "PROSE_PROTECTED_CONTRACT_ACCEPTANCE",
+        "PROSE_AFFIRMATIVE_FIRST_GATE",
+        "PROSE_FIRST_MENTION_PERSON_DATES",
+        "PROSE_NUMERIC_YEAR_DATING_GATE",
+        "PROSE_ORDERED_ANCHOR_GATE",
+        "PROSE_SEMANTIC_STRENGTH_NO_INFLATION_RECEIPTS",
+    ),
+    "ASSERT":(
+        "ASSERT_COMPOUND_STAGE_ORDER",
+        "ASSERT_SECOND_COMPARE_REQUIRED",
+        "ASSERT_DISCOVERY_WORLD_FIXED_POINT_REENTRY",
+        "ASSERT_FULL36_THREE_SURFACE_COVERAGE",
+    ),
+    "GOAL":(
+        "GOAL_EVIDENCE_GROUNDED_ADMISSION",
+        "GOAL_CONSTRAINT_SEPARATION",
+        "GOAL_OBJECT_X_T_I_SIGMA",
+        "GOAL_PLURALITY_FAIL_OPEN",
+        "GOAL_ROBUST_MT_PREREQUISITE",
+        "GOAL_FULL_TOOL_IDENTITY",
+    ),
+    "MultiObject":(
+        "MO_FROZEN_OBJECT_IDENTITY",
+        "MO_REQUIRED_PAIR_COVERAGE",
+        "MO_PAIR_ROUTE_ISOLATION",
+        "MO_INDEPENDENT_FULL_JOINT_ROUTE",
+        "MO_LOWER_ORDER_SYNTHESIS",
+        "MO_TYPED_RECONCILIATION",
+        "MO_REDUCIBILITY_CHALLENGE",
+        "MO_OPEN_CONFLICT_INCOMPARABILITY_PRESERVATION",
+        "MO_GATED_VIEW_EXPANSION",
+        "MO_CONFIGURED_ADEQUACY_BOUNDARY",
+        "MO_FULL_TOOL_IDENTITY",
+    ),
+}
+
+def _spec(tool):
+    strong=(
+        tool in {
+            "ImprovementCore","ProjectManager","ICC128","MT","MTA","Architecture","PD","PDAudit","GDOS","RootCause","RTC",
+            "CurrentnessAudit","MultiObject","Diagnosis","ASSERT","GOAL","SolutionToMyProblem","Prose","DesiredJane",
+            "QuestionWorthAsking","LambdaMath","SemanticResolutionPipeline","ToolConductor"
+        }
+        or tool in LEARNING_TOOLS
+    )
+    layers=ASSERT_LAYERS if tool=="ASSERT" else (tool,)
+    return ConfiguredRunSpec(
+        tool_id=tool,
+        recursive=True,
+        closure_required=True,
+        reentry_required=True,
+        external_challenge="WHEN_STRONG_CLAIM" if strong else "NONE",
+        required_layers=layers,
+        manifest_id=tool,
+        protected_behaviors=PROTECTED_BEHAVIORS.get(tool,()),
+        recurrence_engine=(
+            SELF_RECURRENCE_ENGINE
+            if tool=="HF002"
+            else DEFAULT_RECURRENCE_ENGINE
+        ),
+    )
+
+CONFIGURED_RUNS={t:_spec(t) for t in MATERIAL_TOOLS}

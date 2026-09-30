@@ -1,0 +1,25 @@
+schema_version: 0.1
+experiment: take_3_clean_room
+status: BOOTSTRAP_CANDIDATE
+authority: experimental_only
+objective: broad_task_to_verified_reentered_state
+records:
+  task:
+    required: [id, goal, corpus_boundary, protected]
+  finding:
+    required: [id, task, claim, provenance, epistemic_status]
+  action:
+    required: [id, task, baseline, operation, authority, status]
+  result:
+    required: [id, action, verification, state_delta, unresolved, reentry]
+loop: [TASK, DISCOVER, DECIDE, ACT, VERIFY, REENTER]
+statuses:
+  epistemic: [SUPPORTED, OPEN, PLURAL, REJECTED]
+  action: [PROPOSED, AUTHORIZED, APPLIED, BLOCKED, VERIFIED]
+protected:
+  - authority_does_not_follow_from_evidence
+  - provenance
+  - OPEN
+  - plurality
+  - semantic_runtime_separation
+admission_rule: add_architecture_only_after_result_sensitive_failure_or_strict_gain
