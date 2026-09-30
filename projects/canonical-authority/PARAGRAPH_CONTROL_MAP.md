@@ -28,6 +28,36 @@ The imported `dump/` tree is archival and is not mutated by this drafting pass.
 
 State the affirmative claim first. Use negation only when the distinction itself requires it. Avoid the recurring pattern “not X; rather Y,” including softer variants such as “the question is not X; it is Y,” “the point is not X; it is Y,” and “this does not mean X; it means Y.” Reader-facing prose begins from what the paper affirms, then marks exclusions only when they carry real argumentative work.
 
+## Negative-first regression gate
+
+This is an acceptance rule, not a style suggestion.
+
+Before any prose-changing pass is accepted, scan every changed sentence and its immediate neighbor for negative-first contrast structures, including:
+
+- "not merely X; Y";
+- "not X; rather Y";
+- "not X, but Y";
+- "does not X. It Y";
+- "is not X but Y";
+- any equivalent structure that makes the reader process a rejected frame before the paper's affirmative claim.
+
+Default repair:
+
+1. state the affirmative claim first;
+2. preserve the exclusion only when the negation itself carries load-bearing logical content;
+3. when the exclusion is needed, place it after the affirmative claim or integrate it without making the rejected frame the sentence's organizing structure.
+
+A prose-changing pass fails verification when it introduces a negative-first contrast without an explicit load-bearing reason.
+
+Examples:
+
+- FAIL: "Ramban does not merely offer a different emphasis. He directly attacks..."
+- PASS: "Ramban directly attacks..."
+- FAIL: "The result is not merely suspension. It is a positive epistemic output."
+- PASS: "The result is a positive epistemic output..."
+
+This gate applies to manuscript prose, summaries, section rewrites, currentness repairs, claim-strength repairs, compression passes, and later cut passes.
+
 Use **Bereishis (Genesis) 1:1** on first reader-facing occurrence and **Bereishis** thereafter. Formal bibliographic source citations may retain **Genesis** when that is the title used by the edition or citation standard.
 
 ## Transliteration and divine-name style
