@@ -94,6 +94,16 @@ bridge_control:
     cross-source bridge requires independent grounds.
 
 method:
+  pd_article_role:
+    status: article_visible_heuristic_not_argument_premise
+    function: >
+      PD is used as a structured distinction audit and stress-testing heuristic to
+      expose hidden type changes, unstated conversions, result-sensitive bridges,
+      and collapsed inferential roles. Article-facing conclusions must remain
+      independently recoverable from the sources and arguments presented in the paper.
+    nonclaim: >
+      The article does not require readers to accept PD as an independently validated
+      theory or as evidence for the Jewish case.
   PROFILE:
     role: required typed source reconstruction, not an independent success conjunct
   TRACE:
@@ -155,6 +165,30 @@ current_package_result:
     - material target change
     - material reinterpretation of an admitted source
 
+pd_promoted_discoveries:
+  obstruction_types:
+    missing_target_content: >
+      A source/channel may be authoritative, received, authenticated, or case-proximate
+      while the disputed proposition is not shown to be content carried by that source/channel.
+    missing_transfer_or_selector: >
+      Relevant content or status may exist while asymmetric truth support still depends
+      on an additional reliability rule, bridge, or selector that requires independent licensing.
+  nontransmission_principle: >
+    Epistemic or authoritative status attached to a lost item does not automatically
+    transfer to a later reconstruction merely because the reconstruction aims to recover it.
+  canonical_preservation_result: >
+    Canonical or communal preservation can stabilize an unresolved rival set without
+    supplying a truth selector among its members.
+  positive_suspension: >
+    Relative to a declared corpus, suspension can be a positive epistemic output when
+    available routes have been traced, illicit transfers excluded, and reopen conditions specified.
+  typed_path: >
+    source/channel -> native output/status -> licensed bridge -> target-indexed ground
+    -> discrimination -> evaluator uptake
+  accumulation_rule: >
+    Accumulating legitimacy, status, provenance, explanation, or authentication at one
+    level does not by sheer accumulation create a missing proposition-specific relation at another.
+
 contribution:
   early_source_result: >
     When recruited to C_S, heterogeneous mechanisms stop at different inferential locations.
@@ -172,6 +206,21 @@ contribution:
   novelty: >
     No direct predecessor has been located in the reviewed comparator corpus for the
     integrated architecture plus the bounded worked Rashi-Ramban result.
+
+multidisciplinary_connections:
+  social_epistemology: >
+    evaluator warrant, expertise, testimony, and recognizable authority relations
+  provenance_theory: >
+    attribution of information to sources versus transformations, bridges, and selectors
+  sociology_of_religious_knowledge: >
+    differentiated production, transmission, classification, authentication, and authorization of knowledge
+  canon_and_cultural_memory: >
+    preservation and organization of authoritative material without automatic truth selection
+  comparative_religious_studies: >
+    fixed-target comparison of heterogeneous mechanisms while preserving native functions
+  boundary: >
+    These disciplines are connected through the fixed-target authority problem and are
+    not claimed to reduce to one common theory.
 
 reader_architecture:
   sections:
