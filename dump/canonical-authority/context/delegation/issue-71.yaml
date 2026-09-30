@@ -1,0 +1,50 @@
+schema_version: 1
+delegation_id: DELEGATION-ISSUE-71
+issue_number: 71
+status: READY
+target: projects/canonical-authority
+goal: Raise the attainable quality and publication ceiling of Canonical Authority while preserving the fixed project identity and keeping theory generation open under controlled research and manuscript admission.
+authority: bounded_same_goal_repository_mutation
+protected_results:
+  - fixed Rashi-Ramban Genesis 1:1 proposition collision
+  - second-order truth-directed research target
+  - stable argument identity A -> Q -> H[F] -> R -> B -> C unless explicit major-change candidate
+  - source-native reconstruction before transfer
+  - bounded conclusions and OPEN preservation
+execution:
+  mode: semantic_worker_with_deterministic_repo_control
+  semantic_backend: ChatGPT/Codex semantic worker using repository capability-selection machinery
+  checkpoint_spec: projects/improvement-core/versions/IC-2026-09-23-017.yaml
+  task_entry: projects/backend-closure-program/TASK_ENTRY_SOP.md
+  ledger: GitHub issue 71
+  branch_policy: work on bounded branches; merge only after verification
+  schedule: hourly GitHub Actions readiness and checkpoint run; semantic episodes require an available semantic worker
+frontier:
+  - id: CA71-01
+    status: COMPLETE
+    job: contribution_architecture
+    target_objects:
+      - projects/canonical-authority/NOVELTY_CONTRIBUTION_MAP.md
+      - projects/canonical-authority/research/DISCOVERY_MAP.yaml
+      - projects/canonical-authority/MANUSCRIPT_OUTLINE.md
+      - projects/canonical-authority/SPINE.yaml
+      - projects/canonical-authority/SPLINE.yaml
+    requested_result: Reconstruct the contribution universe as a typed relational dependency graph and test C1-C5 for irreducibility, entailment, derivative status, manuscript earning, and rivals.
+  - id: CA71-02
+    status: READY
+    job: project_cockpit
+    target_objects:
+      - projects/canonical-authority/PROJECT_PAGE.md
+      - projects/canonical-authority/CONTROL_MAP.yaml
+    requested_result: Rebuild the project page as a stronger derived research cockpit.
+  - id: CA71-03
+    status: OPEN
+    job: evidence_and_publication_closure
+    target_objects:
+      - projects/canonical-authority/RESEARCH_ARCHITECTURE.yaml
+      - projects/canonical-authority/PROVENANCE.yaml
+    requested_result: Close source, provenance, nearest-neighbor novelty, corpus, and journal dependencies as they become load-bearing.
+checkpoint_policy:
+  opening: IC-017 semantic preflight on issue 71, conversation-derived mandate, and repository state
+  meaningful_phase: IC-017 recompute plus independent challenge and regression preservation test
+  completion: A16 terminal verification and explicit OPEN BLOCKED or COMPLETE disposition
