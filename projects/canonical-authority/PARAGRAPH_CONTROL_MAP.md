@@ -23,6 +23,10 @@ State the affirmative claim first. Use negation only when the distinction itself
 
 Use **Bereishis (Genesis) 1:1** on first reader-facing occurrence and **Bereishis** thereafter. Formal bibliographic source citations may retain **Genesis** when that is the title used by the edition or citation standard.
 
+## Transliteration and divine-name style
+
+Use Ashkenazi-style pronunciation/transliteration in reader-facing prose where natural and appropriate. Preferred forms include **Bereishis**, **Shabbos**, **Horayos**, **Hilchos**, **Beis Hillel**, **Halacha**, **halachic**, and **eilu v'eilu**. Use **Elohim** rather than the English “God” when discussing the Hebrew text or grammatical structure. Exact quotations, established English translations, publication titles, and bibliographic metadata may preserve the spelling used by the cited source or edition.
+
 ## Source-fidelity gate
 
 Every load-bearing source-facing claim must be typed as one of: **DIRECT**, **CLOSE_PARAPHRASE**, **DERIVED_CONSEQUENCE**, **PROJECT_INFERENCE**, or **CONDITIONAL_CONTROL**. A fixed-case target cannot silently move from a source-level disagreement to a downstream consequence merely because the consequence is easier to formalize.
@@ -136,7 +140,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Question:** Does institutional authority itself make the authorized factual proposition true?  
 **Job:** Reconstruct H_A.  
 **Reader:** Sees legitimacy and provenance separated from truth → sees authority/error as a third function.  
-**Earned claim:** The Horayot material represents authoritative legal procedure as compatible with error; institutional authority therefore requires an additional truth-directed bridge to C_S.  
+**Earned claim:** The Horayos material represents authoritative legal procedure as compatible with error; institutional authority therefore requires an additional truth-directed bridge to C_S.  
 **Evidence:** CANON:SRC:029, SRC:030, SRC:050; SOURCE_MODULES H_A; CANON:D:009.  
 **Limits:** Keep legal consequence distinct from descriptive correctness.  
 **Live 36 cells:** XL→COMP primary-source control; COMP→BND authority versus factual accuracy; SUB→SYS evidence for target-relative authority later.  
