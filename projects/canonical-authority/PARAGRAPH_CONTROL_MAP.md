@@ -49,47 +49,47 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 
 ### P01 — Make the collision visible
 
-**Question:** What exactly is the disagreement the paper will analyze?  
-**Job:** Put one concrete proposition-level Rashi-Ramban collision in front of the reader before introducing theory.  
-**Reader:** General awareness of canonical disagreement → precise awareness of one truth-apt syntactic collision.  
-**Earned claim:** Rashi and Ramban advance incompatible peshat claims concerning the syntactic role of Genesis 1:1.  
+**Question:** What exactly do Rashi and Ramban disagree about in Bereishis 1:1?  
+**Job:** Present both readings in ordinary prose and expose the shared syntactic coordinate before any second-order analysis.  
+**Reader:** Knows the commentators generally → can describe Rashi's dependent reading and Ramban's independent-predication reading.  
+**Earned claim:** The two commentators assign different syntactic roles to the same opening words.  
 **Evidence:** CANON:SRC:001, CANON:SRC:002; CANON:D:001.  
-**Limits:** No first-order verdict; no method; no novelty claim.  
-**Live 36 cells:** XL→COMP source fidelity; COMP→BND incompatibility without correctness; SYS→INT immediate reader grip.  
-**Decision:** Keep concrete and source-first.
+**Limits:** No canonical-status argument; no authority theory; no first-order verdict.  
+**Live 36 cells:** XL→COMP source fidelity; COMP→BND symmetric presentation of the two readings; SUB→INT ordinary language precedes notation.  
+**Decision:** Keep M01 case-first and strip downstream significance from this paragraph.
 
-### P02 — Formalize only after the reader sees the case
+### P02 — Formalize and hand off
 
-**Question:** What compact proposition lets later sections reason without repeatedly restating the grammar?  
-**Job:** Define I_S, P_R, and P_N.  
-**Reader:** Understands the dispute informally → can track it formally.  
-**Earned claim:** P_R and P_N are contradictories under the fixed proposition I_S.  
+**Question:** What compact proposition lets the reader carry the exact collision forward?  
+**Job:** Define I_S, P_R, and P_N, state their incompatibility, and pull directly into M02.  
+**Reader:** Understands the dispute informally → can state the contradiction formally and ask what could adjudicate it.  
+**Earned claim:** Under the fixed proposition I_S, P_R and P_N exclude one another in the same sense.  
 **Evidence:** CANON:SRC:001, CANON:SRC:002; fixed-case controls.  
-**Limits:** Notation must compress, not replace explanation.  
-**Live 36 cells:** COMP→SYS formalization supports the whole argument; INT→SUB notation must not interrupt reading; BND→COMP same-sense/same-target boundary.  
-**Decision:** Use one compact formal block, then return immediately to prose.
+**Limits:** No preview of the mechanism families or fixed-target method.  
+**Live 36 cells:** COMP→SYS formalization compresses the case; INT→COMP notation lowers later cognitive load; COMP→INT final sentence creates the M02 question.  
+**Decision:** End on the need for grounds, not on the future method.
 
-### P03 — Freeze the second-order question
+### P03 — State the later-evaluator question
 
-**Question:** What is the paper asking a later evaluator to determine?  
-**Job:** Move from disagreement to truth-directed third-party assessment.  
-**Reader:** Sees contradiction → knows the paper's epistemic question.  
-**Earned claim:** The project asks what source-grounded basis can favor one rival as true without independently deciding the grammar.  
-**Evidence:** CANON:D:002, D:003, D:030.  
-**Limits:** Do not drift into first-order philology or theology.  
-**Live 36 cells:** SYS→BND scope; INT→SYS question clarity; XL→BND emic target versus etic analysis.  
-**Decision:** State the question directly and narrowly.
+**Question:** What source-grounded basis can a later evaluator use to favor one rival as true?  
+**Job:** Convert the exact contradiction into the paper's central second-order research question.  
+**Reader:** Sees the collision → knows exactly what the paper is trying to find out.  
+**Earned claim:** The paper studies grounds available to a later evaluator while leaving the first-order grammatical verdict open.  
+**Evidence:** CANON:D:002, D:030.  
+**Limits:** One compact scope boundary only; no output taxonomy here.  
+**Live 36 cells:** SYS→INT question clarity; SUB→BND first-order claim versus second-order grounds; XL→BND emic target versus etic analysis.  
+**Decision:** Make the question the center of the paragraph.
 
-### P04 — Separate neighboring outputs
+### P04 — Explain why the question remains live
 
-**Question:** Why do canonicality, legitimacy, bindingness, provenance, explanation, and authentication not already answer the question?  
-**Job:** Prevent category collapse before comparison begins.  
-**Reader:** Knows the target → knows which nearby answers do not yet satisfy it.  
-**Earned claim:** These outputs can matter without supplying proposition-specific truth discrimination.  
-**Evidence:** CANON:D:003, D:009, D:015, D:028.  
-**Limits:** Do not demean or deny the native importance of those outputs.  
-**Live 36 cells:** COMP→BND output-type distinctions; BND→SYS protect paper identity; INT→SUB set up fixed-target comparison.  
-**Decision:** End by creating the need for a common comparison target.
+**Question:** Why does the exact collision still require a second-order inquiry?  
+**Job:** Show that shared canonical standing leaves the truth conflict unresolved and pull the reader into fixed-target comparison.  
+**Reader:** Knows the question → understands why proposition-specific grounds are still needed.  
+**Earned claim:** Shared canonical status leaves both rival truth claims in view.  
+**Evidence:** CANON:D:002, D:028.  
+**Limits:** Detailed distinctions among legitimacy, bindingness, provenance, authentication, explanation, and institutional settlement belong to P06/M04.  
+**Live 36 cells:** SUB→BND canonical standing versus proposition-specific grounds; INT→SUB direct pull into M03; BND→SYS preserve M02 as problem formation.  
+**Decision:** Keep this paragraph short and forward-moving.
 
 ### P05 — Fix one target while preserving heterogeneous functions
 
@@ -104,14 +104,14 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 
 ### P06 — Define success at the target
 
-**Question:** What has to happen before a mechanism counts as helping with I_S?  
-**Job:** State a truth-directed, proposition-specific success condition.  
-**Reader:** Accepts fixed-target comparison → knows what counts as progress.  
-**Earned claim:** Native success must be connected by a licensed relation to the fixed truth target.  
+**Question:** Which outputs actually count as progress on I_S?  
+**Job:** Distinguish target truth assessment from legitimacy, bindingness, provenance, authentication, explanation, and institutional settlement.  
+**Reader:** Accepts fixed-target comparison → can distinguish native success from target success.  
+**Earned claim:** A mechanism contributes to the paper's truth question only through a licensed proposition-specific relation to I_S.  
 **Evidence:** CANON:D:003, D:009, D:010, D:015, D:028.  
-**Limits:** Do not yet introduce full TRACE/DISCRIMINATE/RECOGNIZE terminology.  
-**Live 36 cells:** SUB→COMP success criterion; COMP→BND native versus target success; INT→SUB prepare corpus rationale.  
-**Decision:** Use ordinary language first; technical method comes later.
+**Limits:** Preserve the real native value of each output; do not yet introduce full TRACE/DISCRIMINATE/RECOGNIZE terminology.  
+**Live 36 cells:** SUB→COMP success criterion; COMP→BND output-type distinctions; BND→SYS keep taxonomy in M04 rather than M02.  
+**Decision:** This paragraph now owns the distinctions removed from Section 1.2.
 
 ### P07 — Justify the seven-mechanism corpus
 
