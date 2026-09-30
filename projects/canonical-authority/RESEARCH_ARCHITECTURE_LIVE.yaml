@@ -14,6 +14,13 @@ supersedes_for_live_manuscript:
 historical_dump_rule: >
   Historical dump artifacts remain unchanged and continue to document provenance.
 
+overfull_development_mode:
+  status: active
+  rule: >
+    Prefer preserving defensible intellectual material in the development manuscript
+    and cut later by venue, evidence strength, word budget, and reader burden. Do not
+    delete an earned claim merely to achieve premature minimality.
+
 goal:
   statement: >
     Produce a rigorous source-grounded peer-reviewed paper using the fixed Rashi-Ramban
@@ -120,6 +127,12 @@ method:
       several sources into one ground, while COMPOSE combines or defeats several grounds.
 
 formalization:
+  bayesian_shared_status_crosscheck:
+    status: non_load_bearing
+    statement: >
+      When evidence E is equally expected under P_R and P_N, its Bayes factor is 1 and
+      it contributes no differential support between the rivals, even if E has other
+      epistemic significance.
   current_route_space:
     notation: R_current
     definition: >
@@ -155,7 +168,7 @@ current_package_result:
   nonclaim: >
     This is not a universal logical proof that no imaginable bridge could ever be built.
   consequence: >
-    While this bounded TRACE obstruction holds, DISCRIMINATE, evaluator-specific
+    While this bounded TRACE non-completion holds, DISCRIMINATE, evaluator-specific
     RECOGNIZE, and COMPOSE cannot alter the fixed-case result.
   reopen_conditions:
     - admitted module change
@@ -189,6 +202,46 @@ pd_promoted_discoveries:
     Accumulating legitimacy, status, provenance, explanation, or authentication at one
     level does not by sheer accumulation create a missing proposition-specific relation at another.
 
+restored_recovery_results:
+  convergence_result: >
+    Heterogeneous routes stop at different inferential locations, but successful
+    adjudication converges on target reach, truth-relevant discrimination, and
+    warranted evaluator uptake.
+  response_outcome_classes:
+    - truth_selection_open
+    - dispute_relocated_to_higher_order_proposition
+    - genuine_discriminator_succeeds
+  correctness_scope_trilemma: >
+    A correctness guarantee either does not apply to the disputed matter, includes it,
+    or excludes it; each branch has distinct commitments and still requires explicit
+    proposition-specific discrimination where adjudication is claimed.
+  mesorah_model_plurality: >
+    Protected Mosaic reception, concurrent-transmission reliability, and broad
+    continuity are materially different epistemic models and must not be collapsed.
+  classification_truth_distinction: >
+    Classification reproducibility and truth-tracking reliability are distinct.
+  circularity_refinement: >
+    Circularity is not automatically defective; the relevant defect is reciprocal
+    self-authentication that fails to generate a warranted truth-relevant asymmetry.
+  explanation_adjudication: >
+    Re'em's recension proposal can explain how the disagreement arose without deciding
+    which grammatical proposition is true.
+  yeridas_split: >
+    Later adjudicative incapacity and earlier-generation comparative reliability are
+    distinct claims with different evidential requirements.
+  diagnostic_adequacy: >
+    Preserving only the terminal verdict is inadequate when the research job requires
+    preserving stopping-point type and reopen conditions.
+  attribute_indexed_authenticity: >
+    Authenticity of provenance, continuity, reception, identity, or function does not
+    automatically establish truth of every carried proposition.
+  inverse_problem: >
+    Canonical survival, institutional victory, acceptance, or stable transmission do
+    not by themselves identify the epistemic mechanism that warrants the outcome.
+  non_forcing_compose: >
+    COMPOSE may return tied, incomparable, partial, or unresolved output when no
+    licensed rule supports total ranking.
+
 contribution:
   early_source_result: >
     When recruited to C_S, heterogeneous mechanisms stop at different inferential locations.
@@ -206,6 +259,29 @@ contribution:
   novelty: >
     No direct predecessor has been located in the reviewed comparator corpus for the
     integrated architecture plus the bounded worked Rashi-Ramban result.
+
+cross_tradition_validation:
+  sikh_holdout:
+    status: prospective_structural_holdout_pass
+    claim: >
+      The prospectively frozen Sikh-authority holdout reproduced the route-level jobs
+      without adding a rescue primitive.
+    limit: >
+      Structural anti-overfitting evidence only; not universal validation and not a
+      second fully worked truth-proposition case.
+  exploratory:
+    - Catholic_magisterial_authority
+    - Sunni_hadith_criticism
+    - Pentecostal_or_charismatic_discernment
+    - Latter_day_Saint_revelation
+
+adjacent_privileged_access:
+  ruach_hakodesh:
+    status: article_visible_candidate_branch_not_separate_package_family
+    claim: >
+      Some recovered Jewish sources assign truth-directed significance to inspired
+      wisdom, but the label alone does not establish bearer, scope, target coverage,
+      authentication, or rival asymmetry.
 
 multidisciplinary_connections:
   social_epistemology: >
