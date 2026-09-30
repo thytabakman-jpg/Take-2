@@ -60,7 +60,7 @@ The analysis also uses a structured distinction audit, referred to here as PD, a
 <!-- P45 -->
 PD matters here because it changed the analysis in result-sensitive ways. Several distinctions now carrying the paper were initially exposed by asking what had been silently treated as the same object. Legitimacy had been allowed to slide toward truth; provenance toward proposition coverage; explanation of disagreement toward adjudication of disagreement; source-package combination toward all-things-considered composition; source content toward selector information; and canonical survival toward evidence of truth. In each case, splitting the objects changed what evidence would be required and, in some cases, changed whether a proposed route counted as complete at all.
 
-A useful test is counterfactual. Hold the source material fixed and vary the collapsed distinction. If the verdict changes merely because "authoritative," "authentic," "received," or "preserved" is being interpreted in a stronger sense than the source establishes, the additional force is coming from the analyst's conversion rather than from the source. PD contributes a disciplined way of locating where extra inferential force entered and then requiring the paper to defend that transition independently. It adds no evidentiary premise of its own.
+A useful test is counterfactual. Hold the source material fixed and vary the collapsed distinction. If the verdict changes merely because "authoritative," "authentic," "received," or "preserved" is being interpreted in a stronger sense than the source establishes, the additional force is coming from the analyst's conversion rather than from the source. PD contributes a disciplined way of locating where extra inferential force entered and then requiring the paper to defend that transition independently. It adds no evidentiary premise of its own. With the comparison coordinate and distinction discipline fixed, the next question is why this particular dispute is a useful stress test for them.
 
 ## 1.4 Why This Case Is Methodologically Diagnostic
 
@@ -218,7 +218,7 @@ COMPOSE, introduced below, asks what follows when many already completed evaluat
 \text{many completed grounds} \rightarrow \text{one verdict}.
 \]
 
-Keeping those operations separate prevents source combination from silently importing the selector needed for case-level adjudication.
+Keeping those operations separate prevents source combination from silently importing the selector needed for case-level adjudication. Once TRACE has produced target-linked support, the next question is whether that support actually distinguishes the rivals.
 
 ## 3.2 DISCRIMINATE
 
@@ -251,7 +251,7 @@ A proposed truth-discriminating criterion can also be tested more concretely. Th
 | Stability | Does the rule remain fixed across favorable and difficult cases? |
 | Intensional adequacy | When offered as a definition, does it identify the property that makes instances qualify rather than merely list accepted examples? |
 
-These controls make explicit what an articulated truth-discriminating method would have to show before its conclusion can carry the weight assigned to it. They do not constitute a universal seven-condition theory of authority.
+These controls make explicit what an articulated truth-discriminating method would have to show before its conclusion can carry the weight assigned to it. They do not constitute a universal seven-condition theory of authority. A criterion that passes the truth-discrimination controls still becomes an evaluator-usable ground only when the evaluator is warranted in identifying and relying on it.
 
 ## 3.3 RECOGNIZE
 
