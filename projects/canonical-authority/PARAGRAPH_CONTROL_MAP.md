@@ -42,15 +42,16 @@ Any new primary-source recovery that changes the linguistic nucleus of the dispu
 
 ## Formalization rule
 
-Use mathematics only where it protects a load-bearing boundary or compresses a recurring relation. The current manuscript ceiling is four mathematical formal objects plus one non-mathematical typed-path schematic:
+Use mathematics only where it protects a load-bearing boundary, exposes a genuine symmetry/asymmetry, or compresses a recurring relation. Because the manuscript is now explicitly an OVERFULL DEVELOPMENT DRAFT, the current article-facing set is:
 
 1. fixed rival polarity \(P_R=C_S\), \(P_N=\neg C_S\);
 2. evaluator-usable package-ground condition;
 3. bounded current-route result over \(\mathcal R_{current}\);
 4. selector-attribution sensitivity with \(V=F(S;\Phi,\Psi)\);
-5. conceptual typed path: source/channel → native output/status → licensed bridge → target-indexed ground → discrimination → evaluator uptake.
+5. Bayesian shared-status symmetry as a non-load-bearing cross-check;
+6. conceptual typed path: source/channel → native output/status → licensed bridge → target-indexed ground → discrimination → evaluator uptake.
 
-Do not add full selector-space mathematics, 36D machinery, package lattices, regress formalization, or backend controller equations unless a concrete reviewer problem requires them.
+The later cut pass may remove any formula that does not improve reader understanding or claim protection. Do not add full selector-space mathematics, 36D machinery, package lattices, regress formalization, or backend controller equations merely because they exist.
 
 ## Local 36 rule
 
@@ -99,6 +100,16 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Live 36 cells:** XL→COMP source fidelity; COMP→BND premise versus target versus consequence; SUB→INT ordinary language before notation; BND→SYS target identity must remain source-faithful.  
 **Decision:** The construct/dependent issue is the fixed-case nucleus. The old main-predication I_S target is superseded. Keep the two-line polarity equation because it protects target identity and does not add theoretical burden.
 
+### P30 — Use Re'em to separate explanation from adjudication
+
+**Question:** Does a variant-recension explanation dissolve the fixed disagreement?
+**Job:** Grant Re'em's proposal as strongly as the current evidence allows and distinguish textual-history explanation from grammatical adjudication.
+**Reader:** Sees that a historically valuable explanation can leave the truth question untouched.
+**Earned claim:** Re'em can explain why Ramban treated Yeshayahu 46:10 as an effective objection without deciding whether Rashi's construct generalization or Ramban's counterexample is grammatically correct. A genuine reconciliation would defeat the fixed case.
+**Evidence:** CANON:SRC:003 / Re'em on Rashi to Bereishis 1:1; legacy Mesorah manuscript.
+**Limits:** Do not claim Re'em proves which recension Ramban possessed beyond the source's warranted strength.
+**Decision:** Keep article-visible because it makes explanation-versus-adjudication concrete and strengthens falsifiability.
+
 ### P02 — Show recurrence and preview the paper's answer
 
 **Question:** What source-grounded basis can a later evaluator use to favor one rival as true?  
@@ -144,12 +155,22 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Live 36 cells:** SYS→BND boundedness; XL→SUB admission rule into reader-facing rationale; COMP→SYS avoid arbitrary-list effect.  
 **Decision:** Keep compact and move immediately into source-generated obstruction findings. The standalone inherited-setup section has been removed.
 
+### P38 — Define corpus coverage functionally rather than numerically
+
+**Question:** What does the seven-family corpus cover?
+**Job:** Explain purposive admission by distinct inferential function rather than source count.
+**Reader:** Understands why seven families can support a bounded structural result without pretending to exhaust Jewish intellectual history.
+**Earned claim:** Coverage is semantic/function-relative; more sources of the same type do not automatically broaden the mechanism space, while one materially new function or bridge can reopen it.
+**Evidence:** RESPONSE_CORPUS_ADMISSION.yaml; corpus admission policy; source-family history.
+**Limits:** No global completeness claim.
+**Decision:** Preserve because it directly answers a likely reviewer objection to the corpus size.
+
 ### P06 — Pluralism, legitimacy, and the stronger both-true response
 
 **Question:** What does the pluralism/determination material natively establish?  
 **Job:** Reconstruct H_P before asking it to decide C_S.  
 **Reader:** Enters source analysis → sees legitimacy/determination as a specific native function.  
-**Earned claim:** Eruvin 13b and the Ritva tradition concern legitimacy and practical determination; neither relation alone is yet a descriptive truth selector for Bereishis 1:1. Legitimacy pluralism must be distinguished from the stronger claim that P and not-P can both be true in the same respect. Even granting the latter as a logical possibility does not establish that this particular rival pair is jointly true. Canonical or communal preservation can stabilize an unresolved rival set without selecting between its members.  
+**Earned claim:** Eruvin 13b and the Ritva tradition concern legitimacy and practical determination; neither relation alone is yet a descriptive truth selector for Bereishis 1:1. Legitimacy pluralism must be distinguished from the stronger claim that P and not-P can both be true in the same respect. Even granting the latter as a logical possibility does not establish that this particular rival pair is jointly true. Canonical or communal preservation can stabilize an unresolved rival set without selecting between its members. Under ordinary non-contradiction, if both P and not-P are included in the relevant broad mesorah/canonical category, that category includes at least one false proposition even though shared status does not identify which one.  
 **Evidence:** CANON:SRC:046, SRC:047, SRC:013–016; SOURCE_MODULES H_P.  
 **Limits:** Do not reduce “elu ve-elu” to a single uncontested theory.  
 **Live 36 cells:** XL→COMP source-status calibration; COMP→BND legitimacy versus truth; SUB→INT establish source-analysis rhythm.  
@@ -166,6 +187,26 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Live 36 cells:** COMP→BND provenance versus truth; XL→COMP Rambam source fidelity; SYS→INT cumulative comparison.  
 **Decision:** Let the contrast with the preceding pluralism paragraph do explanatory work.
 
+### P31 — State the correctness-scope trilemma
+
+**Question:** What follows if mesorah or protected reception is invoked as a correctness guarantee?
+**Job:** Exhaust the local scope alternatives and show what each commits the argument to.
+**Reader:** Can see why both weak and strong correctness claims still require proposition-specific discrimination.
+**Earned claim:** Either no correctness guarantee applies, the guarantee includes the target, or it excludes the target. Defeasible support needs asymmetry; an in-scope guarantee still needs a discriminator to identify which rival preserves it; an out-of-scope guarantee leaves this question open.
+**Evidence:** legacy Mesorah trilemma; Rambam protected-reception sources; current H_M analysis.
+**Limits:** The trilemma classifies correctness-scope claims; it does not establish that any one model is historically exhaustive.
+**Decision:** Restore as a named paper-specific analytic result.
+
+### P41 — Distinguish materially different mesorah models
+
+**Question:** Does the word mesorah name one epistemic property?
+**Job:** Separate Rambam's protected received-content model, Halevi's concurrent-transmission candidate, and broad continuity models.
+**Reader:** Sees that an internal traditional discriminator can succeed when the relevant asymmetry is independently established.
+**Earned claim:** Different mesorah models have different objects, scopes, and truth relations; a qualifying transmission asymmetry can in principle discriminate, while broad continuity or classification can remain truth-neutral.
+**Evidence:** CANON:SRC:025–028; legacy integrated Mesorah manuscript.
+**Limits:** Halevi route is success-capable but not shown to select P_R or P_N in the current case.
+**Decision:** Keep because it proves the framework is not structurally rigged against traditional success.
+
 ### P08 — Authority and error
 
 **Question:** Does institutional authority itself make the authorized factual proposition true?  
@@ -176,6 +217,16 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Limits:** Keep legal consequence distinct from descriptive correctness.  
 **Live 36 cells:** XL→COMP primary-source control; COMP→BND authority versus factual accuracy; SUB→SYS evidence for target-relative authority later.  
 **Decision:** Use as a strong anti-collapse case, not as a general attack on authority.
+
+### P32 — Refine circularity and institutional settlement
+
+**Question:** When does authority-based authentication actually discriminate?
+**Job:** Separate circular form from truth-relevant asymmetry and connect institutional settlement to jurisprudential authority.
+**Reader:** Avoids the crude inference that all epistemic circularity is defective or that legal authority is epistemically empty.
+**Earned claim:** Reciprocal authority/tradition authentication leaves the rivals unresolved when it reproduces the same status on both sides; an independently warranted asymmetry can succeed. Bindingness, settlement, and factual truth support are distinct outputs.
+**Evidence:** Bergmann circularity comparator; Horayos/Rambam/Sagi/Ravitsky materials.
+**Limits:** Do not treat the jurisprudential analogy as identity between legal and epistemic authority.
+**Decision:** Preserve as reviewer-facing refinement and multidisciplinary gain.
 
 ### P09 — Loss, reconstruction, and generational hierarchy
 
@@ -188,6 +239,16 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Live 36 cells:** SUB→COMP compress two support routes; BND→COMP explanation/status versus selector; XL→SYS preserve scope controls.  
 **Decision:** Keep both routes in one paragraph because their paper-facing job is boundary clarification.
 
+### P33 — Split yeridas hadoros into modesty and reliability claims
+
+**Question:** Does generational decline support suspension or positive selection?
+**Job:** Separate later incapacity from domain-specific comparative reliability.
+**Reader:** Can see the extra premise required to move from humility to truth selection.
+**Earned claim:** "We later observers cannot adjudicate" can support suspension; "the earlier/greater authority is more reliable here" requires a domain-specific reliability relation and case asymmetry.
+**Evidence:** CANON:SRC:021–024; Beit Yosef material; legacy Mesorah analysis.
+**Limits:** No global skepticism and no universal earlier-is-truer rule.
+**Decision:** Keep because it prevents equivocation inside one of the most intuitive traditional responses.
+
 ### P10 — Authenticated prophecy
 
 **Question:** Can a traditional mechanism ever satisfy the truth-directed architecture in principle?  
@@ -198,6 +259,16 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Limits:** No claim that prophecy actually covers C_S.  
 **Live 36 cells:** XL→COMP exact source role; COMP→BND authentication versus target coverage; SUB→INT prepare positive-control return.  
 **Decision:** Signal “in principle,” not current-case success.
+
+### P42 — Keep Ruach HaKodesh as an adjacent privileged-access branch
+
+**Question:** Can non-prophetic inspired wisdom carry truth-directed force?
+**Job:** Preserve a historically grounded adjacent route without collapsing all Ruach HaKodesh language into one epistemic property.
+**Reader:** Sees another traditional mechanism that can succeed in principle if bearer, scope, content, and truth relation are established.
+**Earned claim:** Some Jewish sources assign truth-directed significance to inspired wisdom; the label alone does not establish target coverage or asymmetry.
+**Evidence:** CANON:SRC:031–036.
+**Limits:** Not part of the current seven-family package result as a separately audited eighth family; treated as an adjacent privileged-access branch.
+**Decision:** Retain in the overfull draft; final venue-specific cut can decide whether it stays.
 
 ### P11 — Ramban's creation tradition
 
@@ -221,6 +292,16 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Live 36 cells:** BND→SYS global attribution rule; XL→BND evidence/analysis boundary; INT→SUB handoff to method.  
 **Decision:** End Section 2 with the typed obstruction profile, including the compact mechanism/native-output/C_S/stopping-point table, and the exact question Section 3 answers.
 
+### P34 — State the convergence result and diagnostic adequacy
+
+**Question:** Do heterogeneous stopping points imply heterogeneous success conditions?
+**Job:** Recover the older convergence claim while preserving the newer typed-obstruction profile.
+**Reader:** Understands that routes can fail differently while successful adjudication still converges on a common higher-order structure.
+**Earned claim:** Successful routes must reach the target, generate warranted truth-relevant asymmetry, and become evaluator-usable. Response branches can remain open, relocate the dispute, or genuinely discriminate and succeed.
+**Evidence:** legacy convergence architecture; current route formalization.
+**Limits:** Do not redescribe successful internal discriminators as failures.
+**Decision:** Full-force restoration. This was earned and had been softened too far.
+
 ### P13 — Begin the proposed route architecture through TRACE
 
 **Question:** Once a source is reconstructed, what is the first thing that must be shown?  
@@ -231,6 +312,16 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Limits:** PROFILE is not an extra success hurdle; it is required setup. Licensed and source-attributable are distinct properties.  
 **Live 36 cells:** SUB→COMP method compression; BND→COMP setup versus success; INT→SYS make technical vocabulary intuitive.  
 **Decision:** Define through reader need, not backend taxonomy.
+
+### P35 — Separate inferential maps from causal histories and expose route commitments
+
+**Question:** What do TRACE arrows represent, and what does choosing a route commit the analyst to?
+**Job:** Prevent causal-history/category errors and preserve route-specific commitments.
+**Reader:** Understands that TRACE encodes justificatory dependence rather than an intellectual-history causal model.
+**Earned claim:** Invoking mesorah, authority, hierarchy, prophecy, or canonicality imports claims about bearer, function, content/status, and transfer relation; identical labels can hide different arguments.
+**Evidence:** legacy road/commitment architecture; cross-project specification and relation-admission work.
+**Limits:** Historical causal evidence can inform a route without becoming the route itself.
+**Decision:** Keep as a methodological contribution, not software-derived jargon.
 
 ### P14 — Make TRACE package-aware and distinguish package admissibility
 
@@ -264,6 +355,26 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Limits:** Do not multiply diagnostics into reader-facing primitives.  
 **Live 36 cells:** COMP→BND relevance versus discrimination; SUB→SYS preserve four-stage compression; INT→COMP intuitive example language.  
 **Decision:** One clear conceptual distinction.
+
+### P43 — Give a Bayesian restatement of shared-status symmetry
+
+**Question:** Can the symmetry claim be expressed in a familiar probabilistic form?
+**Job:** Show that genuinely shared evidence contributes no differential support when equally expected under both rivals.
+**Reader:** Gains a social-epistemology/Bayesian cross-check without needing to accept Bayesianism as the paper's foundation.
+**Earned claim:** When Pr(E|P_R)=Pr(E|P_N), the Bayes factor supplied by E is 1; E can have other epistemic value while leaving relative odds unchanged.
+**Evidence:** formal consequence of Bayes' theorem; Goldman/expertise literature provides neighboring context.
+**Limits:** Non-load-bearing illustration; no empirical probabilities are assigned to Rashi or Ramban.
+**Decision:** Retain in overfull draft; cut later only if it burdens the target venue.
+
+### P36 — State functional requirements on an articulated discriminator
+
+**Question:** What must a proposed truth-discriminating criterion actually do?
+**Job:** Recover the tiered discriminator requirements without inflating them into a universal theory.
+**Reader:** Gets concrete tests for reliability, discrimination, warrant, specificity, operationality, stability, and conditional intensional adequacy.
+**Earned claim:** Classification reproducibility is distinct from truth-tracking reliability; a criterion can classify consistently while failing to adjudicate truth.
+**Evidence:** legacy Mesorah requirements framework; current TRACE/DISCRIMINATE/RECOGNIZE decomposition.
+**Limits:** Not claimed as necessary-and-sufficient for every authority problem.
+**Decision:** Keep because it makes "licensed discriminator" operational rather than rhetorical.
 
 ### P17 — RECOGNIZE
 
@@ -342,6 +453,16 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Live 36 cells:** SUB→SYS derivation from case/method; BND→COMP status versus target-specific force; INT→SUB set up provenance consequence.  
 **Decision:** Retain the short name Cross-Function Transfer Principle, but define the transferred object as epistemic/evidential relevance rather than authority as a substance.
 
+### P37 — Derive attribute-indexed authenticity and the inverse problem
+
+**Question:** What can authenticity and observed canonical success legitimately establish?
+**Job:** Generalize provenance and transfer lessons beyond the fixed case.
+**Reader:** Sees why "authentic" and "survived/accepted" are underspecified as truth claims.
+**Earned claim:** Authenticity of provenance, continuity, reception, identity, or function does not entail truth of every carried proposition. Canonical survival, institutional victory, communal acceptance, or stable transmission does not by itself identify the truth-generating or truth-warranting mechanism.
+**Evidence:** provenance/conservation stress tests; canon/sociology scans; current selector-attribution logic.
+**Limits:** These are inferential constraints, not denials of the epistemic value of authenticity or survival.
+**Decision:** Preserve as multidisciplinary theoretical payoff.
+
 ### P24 — State the Selector Attribution Principle
 
 **Question:** When a bridge or composition rule changes the verdict, whose information is doing the work?  
@@ -364,6 +485,16 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Live 36 cells:** XL→SYS disciplinary transport; BND→COMP emic/etic; INT→SUB prepare contribution synthesis.  
 **Decision:** Keep this as scope clarification, not defensive meta-prose.
 
+### P39 — Extend the multidisciplinary synthesis to testimony, collective epistemology, and historical filtering
+
+**Question:** Which neighboring disciplines sharpen the paper's object distinctions?
+**Job:** Connect transmission, trust, collective agency, and canonical survival to the typed architecture.
+**Reader:** Sees that testimony, institutional epistemology, and historiography reinforce rather than replace the fixed-case reasoning.
+**Earned claim:** Transmission, evidence generation, transmitter trust, and hearer warrant are distinct jobs; collective epistemic language does not bypass bearer/function/target typing; canonical survival is a filter on the historical record rather than proof of historical exhaustiveness.
+**Evidence:** testimony/social-epistemology comparators; canon/cultural-memory and provenance scans.
+**Limits:** No reduction of these literatures to the paper's architecture.
+**Decision:** Keep in overfull version and later trim by journal audience.
+
 ### P26 — Reconstruct the contribution as a dependency package
 
 **Question:** What has the paper actually contributed once the reader has traversed the case and method?  
@@ -385,6 +516,16 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Limits:** “No located direct predecessor in the reviewed corpus,” not universal priority.  
 **Live 36 cells:** XL→SYS literature-to-novelty transfer; COMP→BND component novelty versus intersection novelty; SYS→INT calibrate reader confidence.  
 **Decision:** Use the three-layer close: inherited → developed here → obtained here.
+
+### P40 — Report external anti-overfitting stress tests
+
+**Question:** Is the architecture merely reverse-engineered from Jewish vocabulary?
+**Job:** Report the prospectively frozen Sikh holdout and earlier exploratory cross-tradition stress tests.
+**Reader:** Gets bounded evidence that the route distinctions survive outside the originating case.
+**Earned claim:** The Sikh holdout required no rescue primitive and reproduced differentiated source/status/application/composition roles; exploratory Catholic, Sunni hadith, charismatic, and Latter-day Saint tests showed similar route jobs.
+**Evidence:** CANONICAL_AUTHORITY_SIKH_PROSPECTIVE_HOLDOUT_*; exploratory comparative audits.
+**Limits:** Not universal validation and not a second worked truth-proposition case.
+**Decision:** Keep because it is genuine anti-overfitting evidence, clearly labeled to its strength.
 
 ### P28 — End with the bounded answer and reopen conditions
 
