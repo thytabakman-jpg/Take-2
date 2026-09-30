@@ -271,14 +271,14 @@ The negative result also remains neutral between the rivals. Failure to recover 
 <!-- P29 -->
 The paper is designed to be vulnerable to evidence and counterexample rather than protected by definitional retreat. Different parts of the argument can fail in different ways.
 
-First, the fixed-case setup would have to change if better textual or interpretive evidence showed that Rashi and Ramban are not actually asserting the rival propositions \(C_S\) and \(\neg C_S\). A genuine reconciliation of the two peshat claims would therefore attack the primary case rather than merely explain how the disagreement arose.
+First, the fixed-case setup changes if better textual or interpretive evidence shows that Rashi and Ramban are not actually asserting the rival propositions \(C_S\) and \(\neg C_S\). A genuine reconciliation of the two peshat claims therefore attacks the primary case rather than merely explaining how the disagreement arose.
 
-Second, the bounded case result would be defeated by recovery of an admissible source or source package that completes the missing route: it reaches \(C_S\), supplies a truth-relevant asymmetry between \(P_R\) and \(P_N\), and is warrantedly usable by the relevant evaluator. Evidence that Ramban's received creation tradition actually contains or truth-supports the disputed syntactic judgment would be one direct example.
+Second, the bounded TRACE non-completion result is defeated by recovery of an admissible source or source package that supplies a licensed target relation to \(C_S\). The stronger overall suspension is a separate claim: after TRACE succeeds, the route can still fail to discriminate between \(P_R\) and \(P_N\) or fail to be warrantedly usable by the evaluator. Evidence that Ramban's received creation tradition contains, entails, or otherwise truth-supports the disputed syntactic judgment would directly reopen the current TRACE result; what follows would then have to be tested at the downstream stages rather than assumed.
 
-Third, a module-level diagnosis would have to be revised if the relevant source showed that the mechanism does more than the paper currently attributes to it—for example, if a hierarchy source supplied a proposition-type reliability rule, or a protected-reception source placed the disputed proposition itself inside protected content.
+Third, a module-level diagnosis must be revised if the relevant source shows that the mechanism does more than the paper currently attributes to it—for example, if a hierarchy source supplies a proposition-type reliability rule, or a protected-reception source places the disputed proposition itself inside protected content.
 
-Fourth, the proposed route architecture would face a conceptual counterexample if a defensible case achieved evaluator-usable proposition-specific truth support while one of TRACE, DISCRIMINATE, or RECOGNIZE did no distinct work and could be removed without loss. The architecture is therefore not insulated from collapse or counterexample by terminology.
+Fourth, the proposed route architecture faces a conceptual counterexample if a defensible case achieves evaluator-usable proposition-specific truth support while TRACE, DISCRIMINATE, or RECOGNIZE does no distinct work and can be removed without loss. The architecture is therefore open to collapse or counterexample rather than insulated by terminology.
 
-Finally, the novelty claim is defeated simply by locating a sufficiently close predecessor in the relevant literature. The paper's novelty language is intentionally bounded to the comparator corpus actually reviewed.
+Finally, the novelty claim is defeated by locating a sufficiently close predecessor in the relevant literature. The paper's novelty language remains bounded to the comparator corpus actually reviewed.
 
-These are not merely abstract possibilities. They are the paper's revision rules. A finding that satisfies one of them changes the claim rather than being routed away by redefining the problem.
+These are the paper's revision rules. A finding that satisfies one of them changes the corresponding claim rather than being routed away by redefining the problem.
