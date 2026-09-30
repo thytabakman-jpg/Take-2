@@ -3,14 +3,14 @@
   "source_heads": {
     "Take-3": "174aa6e90667ed7030ee21ef9766b7f8cc302f2b",
     "Take-4": "1a8008aa97f0a153e6c0b922e596aa978cc671c3",
-    "Take-5": "90a9edeff8e9679052bce95796238d3c65c7a06a"
+    "Take-5": "27a58e2369cd31c7ac77bfddf2155a497253a6f2"
   },
   "file_counts": {
     "Take-3": 7,
     "Take-4": 50,
-    "Take-5": 9014
+    "Take-5": 9016
   },
-  "total_files": 9071,
+  "total_files": 9073,
   "records": [
     {
       "path": "dump/full-system-sources/Take-3/BENCHMARKS.md",
@@ -818,6 +818,11 @@
       "sha256": "4d0dba6ef8a8fb399b9d64223394dd99d4ffc230a7f325059e12ed0a1d91ce12"
     },
     {
+      "path": "dump/full-system-sources/Take-5/architecture/PROSE_ARCHITECTURE_READER_LOAD_MATHEMATICS_004_2026-09-30.md",
+      "bytes": 5766,
+      "sha256": "021b66f01a3f14e36137c2c410b6f8249d259452e1f11720d2be67074a777f73"
+    },
+    {
       "path": "dump/full-system-sources/Take-5/architecture/PROSE_FIRST_MENTION_PERSON_DATES_MATHEMATICS_002_2026-09-30.md",
       "bytes": 2165,
       "sha256": "8dc8f52d0f8b084369b4ad142d657422aea27f6534ea67e0cf24b1611dfbd031"
@@ -1066,6 +1071,11 @@
       "path": "dump/full-system-sources/Take-5/artifacts/improvecore/ICC123_CURRENT_SYSTEM_VERIFICATION_001_2026-09-26.md",
       "bytes": 2793,
       "sha256": "4c8844c0a6fa582803596da5894cc08eb2af5ae817a45711e2fe65c9f854b07b"
+    },
+    {
+      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/ICC_PROSE_ARCHITECTURE_HF1_REPAIR_2026-09-30.md",
+      "bytes": 2625,
+      "sha256": "0c768fe33c27a56da725ac7377aa03711d9e0369aeb3dbf2d8cbf2716677d0da"
     },
     {
       "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVECORE_CURRENT_CHAT_RUN_103_RECEIPT_2026-09-26.md",
@@ -3089,8 +3099,8 @@
     },
     {
       "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/architecture/SOURCE_MAP.md",
-      "bytes": 477,
-      "sha256": "07f7ab05105977e60b049e48d39a2118b31adbcb5035a2fb9c8ff9ca0d5f8b46"
+      "bytes": 658,
+      "sha256": "7ae0aaeca06992fa9d157f646f2caf3e8bc3b3d32da3e9d61ca23f1447b2c17d"
     },
     {
       "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/architecture/coverage/01_SYSTEM__EXPAND.md",
@@ -26624,8 +26634,8 @@
     },
     {
       "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/prose/SOURCE_MAP.md",
-      "bytes": 936,
-      "sha256": "f1360ac3d8335a4a5d5bda5fe37195ad13232be41b4950b205e3daf9be214b86"
+      "bytes": 1012,
+      "sha256": "0c794869ec51df393f97745b1014568f9e95bda4d2b1331532be12b41cda9a30"
     },
     {
       "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/prose/coverage/01_SYSTEM__EXPAND.md",
@@ -42499,8 +42509,8 @@
     },
     {
       "path": "dump/full-system-sources/Take-5/runtime/architecture_analysis.py",
-      "bytes": 2474,
-      "sha256": "0c4c02a9f727644b2888d36a01fb636f5b3614721bc4cacd7eb79c7bcb6ff94d"
+      "bytes": 4080,
+      "sha256": "9c258edd4b5f39514c32dd3f4ad52c391c5f821d8704f15704729f0ecad162b0"
     },
     {
       "path": "dump/full-system-sources/Take-5/runtime/archive_artifact_intake.py",
@@ -43139,8 +43149,8 @@
     },
     {
       "path": "dump/full-system-sources/Take-5/runtime/prose.py",
-      "bytes": 11322,
-      "sha256": "002ef4af8fa0ce6995ed5d37c1ebcf3aa865105b91146c5595a060fc78a2a5fe"
+      "bytes": 12995,
+      "sha256": "6ce0d9bcde18ccb1c2c4e69480fc886b582db924f4dbecab7fcffa7f882b2809"
     },
     {
       "path": "dump/full-system-sources/Take-5/runtime/protected_transition_integrity.py",
@@ -43329,8 +43339,8 @@
     },
     {
       "path": "dump/full-system-sources/Take-5/runtime/tool_manifest.py",
-      "bytes": 30454,
-      "sha256": "e796a28dfdaeb6ed5d58fe378566f852772a3fc2b2514700a2b1ef20a0e0557e"
+      "bytes": 30868,
+      "sha256": "9b357a7d56956c1991c6d849f6571619a114d7d6905120cac9793f8ae19d3ca6"
     },
     {
       "path": "dump/full-system-sources/Take-5/runtime/tool_manifest_audit.py",
@@ -43359,8 +43369,8 @@
     },
     {
       "path": "dump/full-system-sources/Take-5/runtime/tool_run_registry.py",
-      "bytes": 5808,
-      "sha256": "e1f95e7bf8af3a6f7da6e5bdf80cf620e7451630796b8b817bdd36c8c581a561"
+      "bytes": 5887,
+      "sha256": "f0ada613f44e98f102d4418d4c7a122af31dad69c877f270326e290347003efa"
     },
     {
       "path": "dump/full-system-sources/Take-5/runtime/tool_system_every_tool_sweep.py",
@@ -44669,8 +44679,8 @@
     },
     {
       "path": "dump/full-system-sources/Take-5/tests/test_hf1_episode.py",
-      "bytes": 3268,
-      "sha256": "120c846756bd61fdac02d442d827cb5ee19dae7dca27a69b75d9ce0e481a75e6"
+      "bytes": 4364,
+      "sha256": "5363ce6f8b221cc2642ddb94e280375a85b3c2c7e6d32799befd5a312072e83c"
     },
     {
       "path": "dump/full-system-sources/Take-5/tests/test_hf1_recovery.py",
@@ -45074,13 +45084,13 @@
     },
     {
       "path": "dump/full-system-sources/Take-5/tests/test_prose.py",
-      "bytes": 7285,
-      "sha256": "54c38855e4ceb68c95fa0f0c3ffee53486d6a81968190187801340f6b9f7eda7"
+      "bytes": 9497,
+      "sha256": "1381466547ec446627669d505e4906879b15b2393712fe6468e9fc9802468fec"
     },
     {
       "path": "dump/full-system-sources/Take-5/tests/test_prose_transition_layers.py",
-      "bytes": 5709,
-      "sha256": "b32030de0af5b5d7a2ae3fb035b2ac9ceb66cc53a70891cc865306d68580fb51"
+      "bytes": 7258,
+      "sha256": "5a7b20ab4c8c658fa551b0f8a37bdbb73b6e24c1488a2885f9f8a4d8b548dc2d"
     },
     {
       "path": "dump/full-system-sources/Take-5/tests/test_protected_transition_integrity.py",
