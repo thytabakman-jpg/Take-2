@@ -186,7 +186,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** BND→SYS global attribution rule; XL→BND evidence/analysis boundary; INT→SUB handoff to method.  
 **Decision:** End Section 3 with the exact question Section 4 answers.
 
-### P13 — Introduce the route architecture through TRACE
+### P13 — Begin the proposed route architecture through TRACE
 
 **Question:** Once a source is reconstructed, what is the first thing that must be shown?  
 **Job:** Introduce PROFILE as setup and TRACE as the first adjudicative operation.  
@@ -345,7 +345,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Question:** What is new relative to the strongest reviewed neighboring literatures?  
 **Job:** Make the bounded novelty claim after the contribution is visible.  
 **Reader:** Knows what the paper contributes → can understand what predecessor would count as close.  
-**Earned claim:** The reviewed comparator corpus contains close work on disagreement, factual error, authority, prophecy, comparison, and religious knowledge, but no located direct predecessor for the combined fixed-target source-trace, rival-discrimination, evaluator-uptake, separate-composition, selector-attribution architecture.  
+**Earned claim:** Fixed-target comparison, domain-sensitive authority, source relevance, evaluator recognition, multi-premise support, and aggregation/defeat all have precedents; no direct predecessor has been located in the reviewed comparator corpus for their particular integration with the worked Rashi-Ramban case.  
 **Evidence:** CANON:SRC:005, SRC:038–045; CANON:D:043, D:048.  
 **Limits:** “No located direct predecessor in the reviewed corpus,” not universal priority.  
 **Live 36 cells:** XL→SYS literature-to-novelty transfer; COMP→BND component novelty versus intersection novelty; SYS→INT calibrate reader confidence.  
