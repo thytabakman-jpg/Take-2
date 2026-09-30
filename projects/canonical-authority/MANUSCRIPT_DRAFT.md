@@ -359,7 +359,7 @@ F(S;\Phi,\Psi_1)
 F(S;\Phi,\Psi_2),
 \]
 
-then the difference between those verdicts cannot be attributed to \(S\) alone. Mixed provenance can be entirely legitimate when its components are explicit: a conclusion may arise from source content plus a licensed inferential rule, or from source content as usable by an evaluator under specified warrants. What the principle blocks is silent transfer, where selector information supplied by an analyst, community, bridge, or meta rule is redescribed as though it had always been contained in the underlying source.
+then the difference between those verdicts cannot be attributed to \(S\) alone. Mixed provenance can be entirely legitimate when its components are explicit: a conclusion may arise from source content plus a licensed inferential rule, or from source content as usable by an evaluator under specified warrants. What the principle blocks is silent transfer, where selector information supplied by an analyst, community, bridge, or meta rule is redescribed as though it had always been contained in the underlying source. That attribution discipline fixes the boundary for what the scholar can responsibly claim about the sources and about the paper's own inferences.
 
 ## 5.3 What the Scholar Can Claim
 
