@@ -92,7 +92,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Question:** What source-grounded basis can a later evaluator use to favor one rival as true?  
 **Job:** Show that the Rashi–Ramban collision belongs to a recurring cross-strata pattern of truth-apt machlokes, then state the central second-order question and preview the proposed route architecture, bounded case result, and reopen condition.  
 **Reader:** Sees the collision → sees that the problem recurs across Tannaim, Amoraim, Geonim, and Rishonim → knows the question, proposed answer, bounded result, and what later sections must demonstrate.  
-**Earned claim:** Truth-apt machlokes recurs across canonical strata, so the Rashi–Ramban case instantiates a broader adjudicative problem. The introduction may then announce that a usable ground requires source-attributable target linkage, rival discrimination, and warranted evaluator use, and that the current seven-family corpus yields no completed package route to C_S; later sections earn the method and result.  
+**Earned claim:** Truth-apt machlokes recurs across canonical strata, so the Rashi–Ramban case instantiates a broader adjudicative problem. The introduction may then announce that a usable ground requires licensed and provenance-explicit target linkage, rival discrimination, and warranted evaluator use, and that the current seven-family corpus yields no recovered completing package/bridge route to C_S; later sections earn the method and result.  
 **Evidence:** CANON:D:002, D:030.  
 **Evidence:** CANON:SRC:008–012; CANON:D:068 for recurrence; current route and package audits for the answer preview.  
 **Limits:** Recurrence supports the existence of the broader problem, not representativeness of every Jewish disagreement. Preview only: the route architecture and package result are demonstrated later.  
@@ -335,7 +335,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Question:** When a bridge or composition rule changes the verdict, whose information is doing the work?  
 **Job:** Derive and name selector attribution as the provenance counterpart to cross-function transfer.  
 **Reader:** Understands target-relative transfer → sees why verdict provenance matters.  
-**Earned claim:** Selector Attribution Principle: holding source content fixed, any verdict difference produced by varying a materially outcome-relevant bridge or composition rule is attributable at least partly to that added layer.  
+**Earned claim:** Selector Attribution Principle: holding source-attributable content and the inquiry frame fixed, any verdict difference produced by varying a materially outcome-relevant bridge or composition rule is attributable at least partly to that added layer.  
 **Evidence:** CANON:D:005, D:006, D:045, D:052, D:053.  
 **Limits:** Mixed provenance is allowed when explicit.  
 **Live 36 cells:** XL→BND inferential provenance; BND→SYS global attribution; COMP→INT avoid abstraction overload.  
@@ -368,7 +368,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Question:** What is new relative to the strongest reviewed neighboring literatures?  
 **Job:** Close novelty inflation by distinguishing inherited components, the architecture developed here, and the worked result obtained here.  
 **Reader:** Knows the full argument → can state exactly what was inherited, what was developed, and what was newly obtained.  
-**Earned claim:** Established literatures supply the component ideas; this paper develops their source-attributable integration and obtains the bounded package-and-bridge TRACE result. No direct predecessor has been located in the reviewed comparator corpus for that integrated architecture plus worked result.  
+**Earned claim:** Established literatures supply the component ideas; this paper develops their provenance-controlled integration and obtains the bounded package-and-bridge TRACE result. No direct predecessor has been located in the reviewed comparator corpus for that integrated architecture plus worked result.  
 **Evidence:** CANON:SRC:005, SRC:038–045; CANON:D:043, D:048.  
 **Limits:** “No located direct predecessor in the reviewed corpus,” not universal priority.  
 **Live 36 cells:** XL→SYS literature-to-novelty transfer; COMP→BND component novelty versus intersection novelty; SYS→INT calibrate reader confidence.  
