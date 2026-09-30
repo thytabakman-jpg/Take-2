@@ -3,8 +3,8 @@
 ## Source Grounded Truth Assessment in Rashi and Ramban on Bereishis (Genesis) 1:1
 
 Status: OVERFULL DEVELOPMENT DRAFT  
-Date: 2026-09-29  
-Research basis: CANON:ARCH:001 v1.3.0 — `RESEARCH_ARCHITECTURE_LIVE.yaml`  
+Date: 2026-09-30  
+Research basis: CANON:ARCH:001 v1.3.1 — `RESEARCH_ARCHITECTURE_LIVE.yaml`  
 Paragraph control: PARAGRAPH_CONTROL_MAP.md
 
 # 1. The Disagreement, the Recurring Problem, and the Answer
@@ -57,7 +57,7 @@ The analysis also uses a structured distinction audit, referred to here as PD, a
 The source analysis begins from an established constraint: authority and expertise are domain-sensitive. Jewish sources can succeed at legitimating disagreement, determining practice, classifying provenance, authenticating a source, explaining historical development, or settling an institutional question. Each is a real result in its own domain. The present inquiry asks a narrower transfer question: what relation, if any, carries that native success to the truth of (C_S)? Native success and target success therefore remain separate throughout the comparison.
 
 <!-- P05 -->
-The paper tests seven mechanism families because together they span materially different ways a second-order Jewish structure might bear on the fixed question. Pluralism and determination test legitimacy and practical settlement; protected reception tests provenance; authority and error test institutional force under acknowledged fallibility; authenticated prophecy tests privileged epistemic access; Ramban's received creation tradition tests the route closest to the Bereishis case; loss and reconstruction test epistemic interruption and recovery; and generational hierarchy tests whether comparative stature can support reliability. The corpus is purposive rather than exhaustive. Its value lies in whether these functionally different mechanisms stop for the same reason or reveal different kinds of obstruction when pressed against one fixed truth target.
+The paper tests seven mechanism families because together they span materially different ways a second-order Jewish structure might bear on the fixed question. Pluralism and determination test legitimacy and practical settlement; protected reception and transmission models test provenance and transmission-based epistemic support; authority and error test institutional force under acknowledged fallibility; authenticated prophecy tests privileged epistemic access; Ramban's received creation tradition tests the route closest to the Bereishis case; loss and reconstruction test epistemic interruption and recovery; and generational hierarchy tests whether comparative stature can support reliability. The corpus is purposive rather than exhaustive. Its value lies in whether these functionally different mechanisms stop for the same reason or reveal different kinds of obstruction when pressed against one fixed truth target.
 
 <!-- P38 -->
 Coverage in this comparison is functional rather than numerical. Adding ten more texts that instantiate the same native function does not automatically broaden the mechanism space, while one source that introduces a genuinely different truth-relevant relation can matter substantially. The seven families are therefore analytic response families rather than natural kinds, and their admission is tied to what distinct inferential work they can perform at the fixed target. This matters for the paper's boundedness: a purposive corpus can support a scoped structural claim without pretending to exhaust Jewish intellectual history, but a materially new mechanism or bridge is an explicit reopen condition.
@@ -121,7 +121,7 @@ This profile also fixes the boundary between source reconstruction and project-l
 | Mechanism | Native output | Current relation to \(C_S\) | Stopping point |
 |---|---|---|---|
 | Pluralism / determination | Legitimacy and practical settlement | No recovered truth-directed bridge to the syntactic target | TRACE |
-| Protected reception | Provenance classification | \(C_S\) is not shown to belong asymmetrically to protected received content | TRACE |
+| Protected reception / transmission models | Provenance classification or transmission-based epistemic support | No recovered case-specific protected-content or qualifying transmission asymmetry establishes \(C_S\) or \(\neg C_S\) | TRACE |
 | Authority / error | Institutional force under fallibility | No recovered reliability bridge to \(C_S\) | TRACE |
 | Authenticated prophecy | Authenticated privileged access | Success-capable in principle, but no instantiated revelation covers \(C_S\) | TRACE uninstantiated |
 | Ramban's creation tradition | Received creation knowledge | No recovered relation from that received content to Ramban's \(\neg C_S\) peshat | TRACE |
