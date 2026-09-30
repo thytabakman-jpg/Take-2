@@ -56,7 +56,7 @@ The source analysis begins from an established constraint: authority and experti
 <!-- P05 -->
 The paper tests seven mechanism families because together they span materially different ways a second-order Jewish structure might bear on the fixed question. Pluralism and determination test legitimacy and practical settlement; protected reception tests provenance; authority and error test institutional force under acknowledged fallibility; authenticated prophecy tests privileged epistemic access; Ramban's received creation tradition tests the route closest to the Bereishis case; loss and reconstruction test epistemic interruption and recovery; and generational hierarchy tests whether comparative stature can support reliability. The corpus is purposive rather than exhaustive. Its value lies in whether these functionally different mechanisms stop for the same reason or reveal different kinds of obstruction when pressed against one fixed truth target.
 
-## 2.2 Pluralism and Received Tradition
+## 2.2 Pluralism and Protected Reception
 
 <!-- P06 -->
 Pluralism and determination reveal one obstruction type: legitimacy or practical settlement can succeed without yet selecting descriptive truth. Eruvin 13b preserves the famous formulation *eilu v'eilu divrei Elohim chayim* while also recording a practical determination in favor of Beis Hillel. The Ritva, reporting an answer attributed to the Rabbanei Tzarfat, develops one way of understanding how opposed positions can possess standing within the divine legal order. Modern scholarship on rabbinic pluralism has shown that the meaning and scope of such materials remain contested, which itself counsels against treating "*eilu v'eilu*" as a ready-made theory of descriptive truth.
