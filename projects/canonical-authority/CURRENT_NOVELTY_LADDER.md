@@ -231,6 +231,14 @@ Value: generalizes the provenance lesson beyond the worked case.
 
 Novelty status: multidisciplinary synthesis, not historical priority.
 
+## B18. The worked case as an analytic microscope
+
+The Rashi–Ramban case is diagnostically valuable without being statistically representative because it combines a freezeable truth target, shared canonical standing, direct premise attack, nearby traditional epistemic categories, and proposition-level testability.
+
+Value: defends the worked-case design as a stress case rather than a population sample.
+
+Novelty status: methodological positioning, not historical priority.
+
 # C. Earliest defensible bounded methodological novelty
 
 ## C1. Integrated source-to-ground architecture
@@ -327,6 +335,38 @@ Earliest location: Section 3.4 or note/appendix if space permits.
 Novelty status: available secondary contribution; not currently foregrounded in manuscript.
 
 ---
+
+## C7. RECOGNIZE is functionally irreducible
+
+A target-linked discriminator can exist while a later evaluator lacks warranted access to, authentication of, or grounds for relying on it.
+
+Value: separates evidential relation from evaluator warrant without making truth evaluator-relative.
+
+Novelty status: candidate paper-specific factorization with clear neighbors in testimony/expertise/source criticism.
+
+## C8. Ablation-based defense of the route architecture
+
+Removing PROFILE, TRACE, DISCRIMINATE, RECOGNIZE, or the separate COMPOSE boundary reintroduces a different class of analytical error.
+
+Value: defends functional non-redundancy rather than the vocabulary itself.
+
+Novelty status: strong methodological defense; labels remain revisable.
+
+## C9. Bridge-regress closure by transparency and non-forcing
+
+A bridge can be source-attributable, independently defended externally, or explicitly conditional on evaluator commitments. Further controversial dependencies must remain visible; where closure is unavailable, output remains conditional or unresolved.
+
+Value: answers a predictable regress objection without inventing a final neutral meta-selector.
+
+Novelty status: secondary methodological contribution; neighboring regress/provenance literatures exist.
+
+## C10. Counterexample-based stage pedagogy
+
+Minimal cases distinguish authentic-but-irrelevant, relevant-but-symmetric, and discriminatory-but-unrecognized routes.
+
+Value: demonstrates that the route stages correspond to genuinely different failure types.
+
+Novelty status: expository support for C1/C7, not standalone novelty.
 
 # D. New worked-case claims
 
@@ -433,6 +473,14 @@ A prospectively frozen Sikh-authority holdout reproduced the route-level distinc
 Value: evidence that the architecture is not merely a vocabulary-specific reverse engineering of the Jewish case.
 
 Boundary: this is structural anti-overfitting evidence, not universal validation and not a second fully worked truth-proposition case.
+
+## E6. Field-specific interdisciplinary payoffs
+
+The same architecture yields distinct contributions to social epistemology, provenance theory, jurisprudence, canon/cultural-memory studies, sociology of religious knowledge, comparative religious studies, and philosophy of religion.
+
+Value: moves interdisciplinarity from generic relevance to identifiable disciplinary problems.
+
+Boundary: these are payoff pathways, not seven separate claims of historical priority.
 
 # F. Strongest novelty package
 
