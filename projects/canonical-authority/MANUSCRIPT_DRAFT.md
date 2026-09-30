@@ -108,7 +108,9 @@ This profile also fixes the boundary between source reconstruction and project-l
 ## 3.1 TRACE
 
 <!-- P13 -->
-The paper's proposed methodological contribution begins here. The individual ideas involved—source relevance, domain-sensitive authority, evidential support, and warranted uptake—have substantial precedents; the claim developed in this section concerns how they must be separated and connected when heterogeneous religious mechanisms are tested against one fixed truth target. The first job is TRACE. PROFILE names the prior setup work already performed in the source reconstructions: what the source is, what it natively does, and which commitments travel with it. TRACE then asks whether an independently admissible source package supplies a licensed relation from that native material to the fixed target. A bridge is licensed when its use has independent support from the relevant source, interpretive framework, or an explicitly defended external inferential principle rather than being introduced solely because it yields the desired verdict. A licensed bridge need not be source-attributable; when the bridge comes from outside the source, the resulting conclusion has mixed provenance and must be described that way. TRACE succeeds only when the relation to the Rashi–Ramban dispute can be reconstructed without smuggling in the proposition-specific force that the application is meant to establish. The resulting analysis is typed rather than flat. A typical authority argument moves across distinct objects:
+Section 2 showed why a source's native success does not yet answer the fixed truth question. TRACE asks for the missing connection. PROFILE names the setup work already performed in the source reconstructions: what the source is, what it natively does, and which commitments travel with it. TRACE then asks whether an independently admissible source package supplies a licensed relation from that native material to the fixed target. A bridge is licensed when its use has independent support from the relevant source, interpretive framework, or an explicitly defended external inferential principle rather than being introduced solely because it yields the desired verdict. A licensed bridge need not be source-attributable; when the bridge comes from outside the source, the resulting support has mixed provenance and must be described that way.
+
+TRACE succeeds when a target-linked support relation can be reconstructed without smuggling in the proposition-specific force that the application is meant to establish. The analysis is therefore typed rather than flat. A typical authority argument moves across distinct objects:
 
 \[
 \text{source/channel}
@@ -117,9 +119,9 @@ The paper's proposed methodological contribution begins here. The individual ide
 \rightarrow
 \text{licensed bridge}
 \rightarrow
-\text{target-indexed ground}
+\text{target-linked support}
 \rightarrow
-\text{discrimination}
+\text{rival discrimination}
 \rightarrow
 \text{evaluator uptake}.
 \]
@@ -127,19 +129,19 @@ The paper's proposed methodological contribution begins here. The individual ide
 The arrows are the places where hidden conversions most often occur. A status attached to a text, institution, tradition, or bearer cannot simply be re-predicated of a proposition without showing the relation that licenses the move.
 
 <!-- P14 -->
-TRACE must be package aware. Corpus admission asks why a mechanism belongs in the comparison at all; package admissibility asks whether two or more already admitted sources may legitimately be used together to establish one target-indexed ground. Individually incomplete sources can sometimes become jointly informative, so singleton failure cannot be promoted directly to corpus failure. TRACE therefore ranges over independently licensed source packages, with a one-source package as the singleton special case. Joint use still requires a principled basis for combining the sources and a demonstration that their combined content completes the target relation.
+TRACE must also be package aware. Corpus admission asks why a mechanism belongs in the comparison at all; package admissibility asks whether two or more already admitted sources may legitimately be used together to establish one target-linked support relation. Individually incomplete sources can sometimes become jointly informative, so singleton failure cannot be promoted directly to corpus failure. TRACE therefore ranges over independently licensed source packages, with a one-source package as the singleton special case. Joint use still requires a principled basis for combining the sources and a demonstration that their combined content completes the target relation.
 
 <!-- P15 -->
-This creates the first of two distinct multiplicity problems. Package TRACE asks whether many sources can jointly establish one ground:
+This creates the first of two distinct multiplicity problems. Package TRACE asks whether many sources can jointly establish one traced support relation:
 
 \[
-\text{many sources} \rightarrow \text{one ground}.
+\text{many sources} \rightarrow \text{one traced support}.
 \]
 
-COMPOSE, introduced below, asks what follows when many already completed grounds bear on one case:
+COMPOSE, introduced below, asks what follows when many already completed evaluator-usable grounds bear on one case:
 
 \[
-\text{many grounds} \rightarrow \text{one verdict}.
+\text{many completed grounds} \rightarrow \text{one verdict}.
 \]
 
 Keeping those operations separate prevents source combination from silently importing the selector needed for case-level adjudication.
