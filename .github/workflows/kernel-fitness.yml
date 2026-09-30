@@ -23,7 +23,7 @@ jobs:
       - name: Refresh derived repository search index
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
-          if ! git diff --quiet -- search_index; then
+          if [ -n "$(git status --porcelain -- search_index)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add search_index
