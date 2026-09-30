@@ -110,6 +110,12 @@ method:
       several sources into one ground, while COMPOSE combines or defeats several grounds.
 
 formalization:
+  current_route_space:
+    notation: R_current
+    definition: >
+      The package/bridge routes actually recovered and independently licensed in the
+      present seven-family corpus. This is intentionally narrower than the space of
+      every logically imaginable future route.
   source_ground: >
     SourceGround(X,C_S,Delta) iff TRACE(X,C_S,Delta) and DISCRIMINATE(Delta,C_S).
   usable_ground: >
@@ -124,6 +130,8 @@ current_package_result:
   calibrated_statement: >
     No independently licensed package/bridge route completing TRACE to C_S has been
     located in the current reconstructed seven-family corpus.
+  formal_statement: >
+    There does not exist r in R_current such that TRACE(r,C_S).
   support:
     - >
       Packages without H_R contain no currently reconstructed source proposition that
