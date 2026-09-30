@@ -3,6 +3,10 @@ on:
   pull_request:
   push:
     branches: [main]
+
+permissions:
+  contents: write
+
 jobs:
   kernel:
     runs-on: ubuntu-latest
@@ -14,4 +18,16 @@ jobs:
       - run: pip install pyyaml
       - run: python tools/check_kernel.py
       - run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - run: python tools/repository_search.py build
+      - run: python tools/repository_search.py check
       - run: python tools/check_full_system_authority.py
+      - name: Refresh derived repository search index
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          if [ -n "$(git status --porcelain -- search_index)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add search_index
+            git commit -m "Refresh derived repository search index [skip ci]"
+            git push
+          fi
