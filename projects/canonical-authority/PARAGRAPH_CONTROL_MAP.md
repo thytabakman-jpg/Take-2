@@ -65,16 +65,16 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** XL→COMP source fidelity; COMP→BND premise versus target versus consequence; SUB→INT ordinary language before notation; BND→SYS target identity must remain source-faithful.  
 **Decision:** The construct/dependent issue is the fixed-case nucleus. The old main-predication I_S target is superseded.
 
-### P02 — State the later-evaluator question
+### P02 — State the question and preview the paper's answer
 
 **Question:** What source-grounded basis can a later evaluator use to favor one rival as true?  
-**Job:** Convert the exact contradiction into the paper's central second-order research question and state the scope boundary compactly.  
-**Reader:** Sees the collision → knows exactly what the paper is trying to find out and why shared canonical standing leaves the truth question open.  
-**Earned claim:** The paper studies grounds available to a later evaluator while leaving the first-order grammatical verdict open.  
+**Job:** Convert the exact contradiction into the paper's central second-order research question, then preview the proposed route architecture, bounded case result, and reopen condition before the reader enters the inherited comparison setup.  
+**Reader:** Sees the collision → knows the question, the paper's proposed answer, the bounded current result, and what the later sections will need to demonstrate.  
+**Earned claim:** The introduction may announce that a usable ground requires source-attributable target linkage, rival discrimination, and warranted evaluator use, and that the current seven-family corpus yields no completed package route to C_S; later sections earn these claims.  
 **Evidence:** CANON:D:002, D:030.  
-**Limits:** No output taxonomy and no method exposition here.  
+**Limits:** Preview only. Do not pretend the route architecture or package result is already demonstrated in the introduction.  
 **Live 36 cells:** SYS→INT question clarity; SUB→BND first-order claim versus second-order grounds; XL→BND emic target versus etic analysis.  
-**Decision:** End Section 1 with the question, not with a preview of the full apparatus.
+**Decision:** End Section 1 with the question plus the answer preview so the reader encounters the paper's proposed contribution on page one.
 
 ### P03 — Establish fixed-target comparison
 
