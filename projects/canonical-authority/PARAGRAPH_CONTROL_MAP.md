@@ -25,7 +25,7 @@ Use **Bereishis (Genesis) 1:1** on first reader-facing occurrence and **Bereishi
 
 ## Transliteration and divine-name style
 
-Use Ashkenazi-style pronunciation/transliteration in reader-facing prose where natural and appropriate. Preferred forms include **Bereishis**, **Shabbos**, **Horayos**, **Hilchos**, **Beis Hillel**, **Halacha**, **halachic**, and **eilu v'eilu**. Use **Elohim** rather than the English “God” when discussing the Hebrew text or grammatical structure. Exact quotations, established English translations, publication titles, and bibliographic metadata may preserve the spelling used by the cited source or edition.
+Use Ashkenazi-style pronunciation/transliteration in reader-facing prose where natural and appropriate. Preferred forms include **Bereishis**, **Shemos**, **Vayikra**, **Bamidbar**, **Devarim**, **Yeshayahu**, **Shabbos**, **Horayos**, **Hilchos**, **Beis Hillel**, **Halacha**, **halachic**, **Moshe**, and **eilu v'eilu**. Use **Elohim** rather than the English “God” when discussing the Hebrew text or grammatical structure. Use the traditional Hebrew names of Tanach books in reader-facing prose, while retaining an English equivalent on first occurrence when it materially helps a general academic reader. Exact quotations, established English translations, publication titles, and bibliographic metadata may preserve the spelling used by the cited source or edition.
 
 ## Source-fidelity gate
 
@@ -118,7 +118,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Question:** What does the pluralism/determination material natively establish?  
 **Job:** Reconstruct H_P before asking it to decide C_S.  
 **Reader:** Enters source analysis → sees legitimacy/determination as a specific native function.  
-**Earned claim:** Eruvin 13b and the Ritva tradition concern legitimacy and practical determination; neither relation alone is yet a descriptive truth selector for Genesis 1:1.  
+**Earned claim:** Eruvin 13b and the Ritva tradition concern legitimacy and practical determination; neither relation alone is yet a descriptive truth selector for Bereishis 1:1.  
 **Evidence:** CANON:SRC:046, SRC:047, SRC:013–016; SOURCE_MODULES H_P.  
 **Limits:** Do not reduce “elu ve-elu” to a single uncontested theory.  
 **Live 36 cells:** XL→COMP source-status calibration; COMP→BND legitimacy versus truth; SUB→INT establish source-analysis rhythm.  
@@ -129,7 +129,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Question:** Can provenance classification supply a truth selector?  
 **Job:** Reconstruct H_M.  
 **Reader:** Has one example of native-function separation → sees a second distinct function.  
-**Earned claim:** Maimonides distinguishes received Mosaic content from derived legal interpretation, but classification does not select P_R or P_N unless C_S is shown to fall within a protected category asymmetrically.  
+**Earned claim:** Maimonides distinguishes received content traced to Moshe from derived legal interpretation, but classification does not select P_R or P_N unless C_S is shown to fall within a protected category asymmetrically.  
 **Evidence:** CANON:SRC:025, SRC:026; SOURCE_MODULES H_M; CANON:D:010.  
 **Limits:** Do not infer that later disagreement proves non-reception without source support.  
 **Live 36 cells:** COMP→BND provenance versus truth; XL→COMP Maimonidean source fidelity; SYS→INT cumulative comparison.  
