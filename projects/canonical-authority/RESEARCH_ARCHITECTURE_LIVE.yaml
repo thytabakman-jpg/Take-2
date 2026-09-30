@@ -1,10 +1,14 @@
 schema_version: 1.0
 project_id: canonical-authority
 artifact_id: CANON:ARCH:001
-version: 1.3.0
+version: 1.3.1
 status: live_current
 authority_status: canonical_working
 date: 2026-09-30
+previous_live_version: 1.3.0
+revision_reason: >
+  Closure propagation aligned the TRACE defeat threshold, typed route objects, and
+  mesorah-model compression with the verified manuscript state.
 supersedes_for_live_manuscript:
   artifact: CANON:ARCH:001
   version: 1.2.0
@@ -61,8 +65,10 @@ source_modules:
     current_relation_to_C_S: no recovered proposition-specific truth-directed bridge
     stopping_point: TRACE
   H_M:
-    native_output: protected reception / provenance classification
-    current_relation_to_C_S: C_S is not classified as protected received content
+    native_output: protected reception / provenance classification or transmission-based epistemic support
+    current_relation_to_C_S: >
+      no recovered case-specific protected-content classification or qualifying
+      transmission asymmetry establishes C_S or not-C_S
     stopping_point: TRACE
   H_A:
     native_output: institutional authority and consequences under fallibility
@@ -196,8 +202,8 @@ pd_promoted_discoveries:
     Relative to a declared corpus, suspension can be a positive epistemic output when
     available routes have been traced, illicit transfers excluded, and reopen conditions specified.
   typed_path: >
-    source/channel -> native output/status -> licensed bridge -> target-indexed ground
-    -> discrimination -> evaluator uptake
+    source/channel -> native output/status -> licensed bridge -> target-linked support
+    -> rival discrimination -> evaluator uptake
   accumulation_rule: >
     Accumulating legitimacy, status, provenance, explanation, or authentication at one
     level does not by sheer accumulation create a missing proposition-specific relation at another.
@@ -304,9 +310,12 @@ falsification_and_revision_controls:
     Ramban do not instantiate C_S and not-C_S as the paper represents them, including
     a genuine reconciliation of the peshat claims.
   bounded_result_defeat: >
-    Revise the current non-completion result if an admissible package/bridge route is
-    recovered that reaches C_S, supplies a rival-specific truth-relevant asymmetry,
-    and is warrantedly usable by the relevant evaluator.
+    Revise the current TRACE non-completion result if an admissible package/bridge
+    route supplies a licensed target relation to C_S.
+  adjudicative_suspension_change: >
+    Changing the overall suspension additionally requires rival-specific truth-relevant
+    discrimination and warranted evaluator use; if several completed grounds then
+    conflict, COMPOSE becomes live.
   module_revision: >
     Revise any module diagnosis when source evidence supplies a native function,
     target relation, reliability rule, or proposition coverage currently classified as missing.
