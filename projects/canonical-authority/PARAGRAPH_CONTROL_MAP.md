@@ -55,6 +55,17 @@ All 36 directed cells are checked. The records below preserve only cells that cr
 
 Promotion rule: a locally stronger sentence is rejected when it weakens source fidelity, claim calibration, reader state, section job, boundedness, or the paper-level argument.
 
+## Current six-section architecture
+
+1. The Disagreement, the Recurring Problem, and the Answer
+2. What the Sources Actually Do
+3. From Source to Ground
+4. Testing the Method
+5. Authority Across Targets
+6. What the Analysis Establishes
+
+The former standalone comparison/setup section has been dissolved. Fixed-target comparative method now closes Section 1; native-success and corpus-selection controls open Section 2. This keeps inherited machinery subordinate to the paper's source-generated and methodological contributions.
+
 ## Paragraph records
 
 ### P01 — Make the construct/dependent collision visible and formal
@@ -79,24 +90,24 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Evidence:** CANON:SRC:008–012; CANON:D:068 for recurrence; current route and package audits for the answer preview.  
 **Limits:** Recurrence supports the existence of the broader problem, not representativeness of every Jewish disagreement. Preview only: the route architecture and package result are demonstrated later.  
 **Live 36 cells:** SYS→INT question clarity; SUB→BND first-order claim versus second-order grounds; XL→BND emic target versus etic analysis.  
-**Decision:** End Section 1 with the question plus the answer preview so the reader encounters the paper's proposed contribution on page one.
+**Decision:** Put the recurring form, answer preview, and bounded result on page one; P03 then closes Section 1 with only the comparison frame needed to proceed.
 
 ### P03 — Establish fixed-target comparison
 
 **Question:** How can fundamentally different Jewish mechanisms be compared without pretending that they do the same thing?  
 **Job:** Introduce fixed-target comparison as inherited comparative methodology and show how the paper uses it without claiming the comparison principle as novel.  
-**Reader:** Knows the question → understands the common coordinate that makes unlike mechanisms comparable.  
+**Reader:** Knows the question and answer preview → understands the single comparison coordinate before entering source analysis.  
 **Earned claim:** Established tertium-comparationis methodology licenses a common comparison question while native functions remain distinct.  
 **Evidence:** CANON:SRC:041, SRC:042; CANON:D:025, D:026.  
 **Limits:** Fixed target does not imply exhaustive comparability.  
 **Live 36 cells:** SYS→SUB comparison architecture; XL→SYS comparative-method transfer; BND→COMP native-function preservation.  
-**Decision:** Treat this as necessary inherited method, not as an original contribution.
+**Decision:** Keep this as the compact close of Section 1. Treat it as inherited method, not as an original contribution.
 
-### P04 — Distinguish native success from target success
+### P04 — Open source analysis with the native/target distinction
 
 **Question:** Which source outputs actually count as progress on C_S?  
-**Job:** Apply established domain-sensitive epistemic-authority reasoning to distinguish native success from transfer to the fixed truth target.  
-**Reader:** Accepts fixed-target comparison → understands why legitimacy, bindingness, provenance, authentication, explanation, and institutional settlement require a licensed relation to C_S before they bear on the truth dispute.  
+**Job:** Open Section 2 with the established domain-sensitive constraint that lets the source comparison proceed without flattening native functions.  
+**Reader:** Enters the source section already knowing the fixed target → understands what each source may genuinely accomplish and what still has to transfer to C_S.  
 **Earned claim:** Native success does not by itself establish transfer to C_S; the paper must identify a proposition-specific relation.  
 **Evidence:** CANON:D:003, D:009, D:010, D:015, D:028.  
 **Limits:** Preserve the real native value of each output; do not introduce full TRACE/DISCRIMINATE/RECOGNIZE terminology yet.  
@@ -106,13 +117,13 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 ### P05 — Justify the seven-mechanism corpus
 
 **Question:** Why these seven mechanisms, and what does their selection license the paper to conclude?  
-**Job:** Establish a purposive, non-exhaustive comparison set with minimal delay before the sources.  
-**Reader:** Knows the comparison target and success distinction → understands why the selected mechanisms are materially different and why the corpus remains bounded.  
-**Earned claim:** The seven mechanisms sample distinct second-order functions relevant to the fixed question without exhausting Jewish thought.  
+**Job:** Establish the purposive, non-exhaustive seven-family comparison set and frame the live comparative question: do the mechanisms stop for one reason or for different reasons?  
+**Reader:** Knows the target and success distinction → understands why these seven materially different mechanisms are enough to expose different obstruction types without pretending to exhaust Jewish thought.  
+**Earned claim:** The seven mechanisms sample distinct second-order functions relevant to the fixed question without exhausting Jewish thought, and the section can test whether their stopping points differ.  
 **Evidence:** RESPONSE_CORPUS_ADMISSION.yaml; SOURCE_MODULES.yaml; CANON:D:018, D:069.  
 **Limits:** No universal negative from corpus failure.  
 **Live 36 cells:** SYS→BND boundedness; XL→SUB admission rule into reader-facing rationale; COMP→SYS avoid arbitrary-list effect.  
-**Decision:** Keep compact, state explicitly that Section 2 is inherited setup, and preview that the proposed contribution begins with the source-to-ground architecture developed later.
+**Decision:** Keep compact and move immediately into source-generated obstruction findings. The standalone inherited-setup section has been removed.
 
 ### P06 — Pluralism and determination
 
@@ -133,7 +144,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Earned claim:** Rambam distinguishes received content traced to Moshe from derived legal interpretation, but classification does not select P_R or P_N unless C_S is shown to fall within a protected category asymmetrically.  
 **Evidence:** CANON:SRC:025, SRC:026; SOURCE_MODULES H_M; CANON:D:010.  
 **Limits:** Do not infer that later disagreement proves non-reception without source support.  
-**Live 36 cells:** COMP→BND provenance versus truth; XL→COMP Maimonidean source fidelity; SYS→INT cumulative comparison.  
+**Live 36 cells:** COMP→BND provenance versus truth; XL→COMP Rambam source fidelity; SYS→INT cumulative comparison.  
 **Decision:** Let the contrast with the preceding pluralism paragraph do explanatory work.
 
 ### P08 — Authority and error
@@ -180,16 +191,16 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** XL→COMP source-status discipline; COMP→BND topic proximity versus proposition coverage; BND→SYS protect bounded case result.  
 **Decision:** Make the missing proposition-specific edge explicit.
 
-### P12 — Mark the source/analysis boundary
+### P12 — Synthesize the typed obstruction profile and mark the source/analysis boundary
 
-**Question:** Where does source reconstruction end and project-level inference begin?  
-**Job:** Complete PROFILE and establish attribution discipline.  
-**Reader:** Knows what each source does → can now evaluate transfers without vague “authority” language.  
-**Earned claim:** Bridge information introduced by the analysis is not retroactively source content.  
-**Evidence:** CANON:D:004, D:005, D:006, D:017, D:034.  
+**Question:** What comparative result emerges across the seven mechanisms, and where does source reconstruction end and project-level inference begin?  
+**Job:** Earn the first paper-specific comparative synthesis by showing that heterogeneous mechanisms stop at heterogeneous inferential locations, then establish attribution discipline before the formal method.  
+**Reader:** Has seen each mechanism separately → can now see the obstruction profile as a result and then ask what formal conditions would convert source material into a usable ground.  
+**Earned claim:** Heterogeneous authorities can fail to adjudicate the same proposition for heterogeneous reasons; bridge information introduced by the analysis is not retroactively source content.  
+**Evidence:** Source-module comparison; CANON:D:003–012, D:025, D:034; CANON:D:004, D:005, D:006, D:017 for attribution.  
 **Limits:** Do not imply that project-level bridges are illegitimate; they require licensing and attribution.  
 **Live 36 cells:** BND→SYS global attribution rule; XL→BND evidence/analysis boundary; INT→SUB handoff to method.  
-**Decision:** End Section 3 with the exact question Section 4 answers.
+**Decision:** End Section 2 with an earned comparative finding and the exact question Section 3 answers.
 
 ### P13 — Begin the proposed route architecture through TRACE
 
@@ -202,27 +213,27 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** SUB→COMP method compression; BND→COMP setup versus success; INT→SYS make technical vocabulary intuitive.  
 **Decision:** Define through reader need, not backend taxonomy.
 
-### P14 — Distinguish package admissibility inside TRACE
+### P14 — Make TRACE package-aware and distinguish package admissibility
 
-**Question:** Why can multiple admitted sources be tested together without changing what the corpus is?  
-**Job:** Introduce package admissibility exactly when TRACE creates the need for it.  
+**Question:** Why can multiple admitted sources jointly establish one ground, and what licenses their joint use?  
+**Job:** Combine the package-admissibility and package-aware TRACE requirements into one compact rule.  
 **Reader:** Understands TRACE → sees why singleton failure cannot be promoted to corpus failure and why joint source use needs its own license.  
-**Earned claim:** Corpus admission and package admissibility are different controls; one source is the singleton special case of a package.  
+**Earned claim:** TRACE ranges over independently licensed source packages; corpus admission and package admissibility are different controls, and a singleton is the one-member special case.  
 **Evidence:** CANON:D:056, D:057; RESPONSE_CORPUS_ADMISSION.yaml; source-package TRACE audit.  
 **Limits:** Package TRACE is not COMPOSE and does not authorize arbitrary aggregation.  
 **Live 36 cells:** BND→SYS corpus versus package; COMP→BND package TRACE versus COMPOSE; INT→SUB reader encounters the distinction at point of use.  
-**Decision:** This material is removed from Section 2 and owned by the TRACE movement.
+**Decision:** Keep all package-admissibility machinery in one paragraph to remove the former P14/P15 redundancy.
 
-### P15 — Make TRACE package-aware
+### P15 — Distinguish the two multiplicity problems
 
-**Question:** Why is singleton route failure insufficient?  
-**Job:** Repair the possible inference from individual incompleteness to corpus incompleteness.  
-**Reader:** Understands TRACE → understands that jointly licensed sources may establish one ground.  
-**Earned claim:** TRACE ranges over independently admissible source packages; one-member packages are the singleton special case.  
-**Evidence:** CANON:D:056, D:057, D:058; package-TRACE audits.  
-**Limits:** Package TRACE is not later COMPOSE of several completed grounds.  
+**Question:** What is the difference between combining many sources into one ground and combining many grounds into one verdict?  
+**Job:** Make the package TRACE / COMPOSE distinction memorable before DISCRIMINATE and RECOGNIZE continue the route architecture.  
+**Reader:** Understands package-aware TRACE → can distinguish many sources → one ground from many grounds → one verdict.  
+**Earned claim:** Package TRACE and COMPOSE solve different multiplicity problems and cannot be collapsed without misattributing selector information.  
+**Evidence:** CANON:D:039, D:056, D:057; package-TRACE and COMPOSE audits.  
+**Limits:** This paragraph distinguishes the operations; it does not claim that COMPOSE is realized in the current case.  
 **Live 36 cells:** COMP→BND package TRACE versus COMPOSE; BND→SYS preserve corrected method; XL→SUB audit repair into concise prose.  
-**Decision:** State the repaired rule before reporting the case result.
+**Decision:** Use the two-arrow formulation: many sources → one ground; many grounds → one verdict.
 
 ### P16 — DISCRIMINATE
 
@@ -293,35 +304,35 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 ### P22 — State the package-level fixed-case result
 
 **Question:** Can any independently admissible package in the current seven-module corpus complete the missing proposition-specific edge?  
-**Job:** State the current bounded result after package-level repair.  
-**Reader:** Has seen the strongest route and open source gate → knows exactly where the case stops.  
-**Earned claim:** After fresh regression on the corrected target C_S, no admissible source package completes TRACE to C_S; downstream evaluator and COMPOSE variations therefore do not alter the current case result.  
+**Job:** Give the current bounded result as an inspectable two-class package proof rather than merely reporting an audit conclusion.  
+**Reader:** Has seen the strongest route and open source gate → can inspect why every current admissible package falls into a class that still stops at TRACE.  
+**Earned claim:** Packages excluding H_R lack the only currently reconstructed direct case-proximate received-creation route; packages including H_R inherit its unresolved proposition-specific edge because no other admitted mechanism supplies that edge. Therefore no current admissible package completes TRACE to C_S, and downstream evaluator/COMPOSE variation cannot change the result while that obstruction persists.  
 **Evidence:** CANON:D:058, D:059; source-package TRACE audit; theory-freeze regression.  
 **Limits:** Corpus-bounded, evidence-bounded, reopenable.  
 **Live 36 cells:** SUB→SYS local result to paper result; BND→SYS bounded negative; COMP→BND downstream invariance only while TRACE obstruction holds.  
-**Decision:** This is the strongest negative claim the paper makes.
+**Decision:** This is the strongest bounded case result and now includes its reader-visible proof.
 
-### P23 — Derive target-relative authority
+### P23 — State the Cross-Function Transfer Principle
 
 **Question:** What broader conclusion follows from repeated differences between native authority functions and the fixed truth target?  
-**Job:** Derive, not announce, the target-relative authority implication.  
+**Job:** Derive and name the paper's cross-function transfer principle without claiming generic domain sensitivity as novel.  
 **Reader:** Knows case result → can generalize at the level actually earned.  
-**Earned claim:** Success as an authority in one domain or output type is not epistemically portable to another target without an explicit relation.  
+**Earned claim:** Cross-Function Transfer Principle: authority with respect to one native output bears on a different truth target only through an explicit relation connecting that output to the new proposition.  
 **Evidence:** CANON:D:025, D:050; cross-module comparison.  
 **Limits:** Do not claim authority is never truth-relevant.  
 **Live 36 cells:** SUB→SYS derivation from case/method; BND→COMP status versus target-specific force; INT→SUB set up provenance consequence.  
-**Decision:** Present as conditional transfer principle.
+**Decision:** Name the principle because the paper has now earned it and because it makes the contribution portable.
 
-### P24 — Attribute selector information
+### P24 — State the Selector Attribution Principle
 
 **Question:** When a bridge or composition rule changes the verdict, whose information is doing the work?  
-**Job:** Derive source/bridge/selector attribution.  
+**Job:** Derive and name selector attribution as the provenance counterpart to cross-function transfer.  
 **Reader:** Understands target-relative transfer → sees why verdict provenance matters.  
-**Earned claim:** Outcome-material information introduced outside fixed source content must be attributed to the added bridge, evaluator license, or composition rule rather than credited back to the source.  
+**Earned claim:** Selector Attribution Principle: holding source content fixed, any verdict difference produced by varying a materially outcome-relevant bridge or composition rule is attributable at least partly to that added layer.  
 **Evidence:** CANON:D:005, D:006, D:045, D:052, D:053.  
 **Limits:** Mixed provenance is allowed when explicit.  
 **Live 36 cells:** XL→BND inferential provenance; BND→SYS global attribution; COMP→INT avoid abstraction overload.  
-**Decision:** Use one concrete contrast, then state the general rule.
+**Decision:** State the fixed-source/variable-selector test directly; allow explicit mixed provenance.
 
 ### P25 — Define the scholar's claim
 
@@ -339,22 +350,22 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Question:** What has the paper actually contributed once the reader has traversed the case and method?  
 **Job:** Synthesize the contribution in earned order.  
 **Reader:** Has all premises/results → can reconstruct the contribution hierarchy.  
-**Earned claim:** The paper combines fixed-target heterogeneous comparison; PROFILE/TRACE/DISCRIMINATE/RECOGNIZE; the package TRACE/COMPOSE distinction; the bounded Rashi-Ramban result; and target-relative/attribution-sensitive authority.  
+**Earned claim:** The paper builds on inherited fixed-target comparison and domain sensitivity, develops the integrated source-to-ground architecture plus package TRACE/COMPOSE and attribution controls, obtains the bounded Rashi–Ramban package obstruction, and derives cross-function transfer and selector-attribution significance.  
 **Evidence:** NOVELTY_CONTRIBUTION_MAP.md; CANON:D:019, D:032, D:038, D:050, D:058.  
 **Limits:** Synthesis does not independently prove earlier claims.  
 **Live 36 cells:** SUB→SYS contribution lift; COMP→BND typed contributions; INT→SYS reader reconstruction.  
 **Decision:** Dependency order, not flat bullet-list prose.
 
-### P27 — State novelty at the intersection
+### P27 — Separate inherited, developed, and obtained contributions
 
 **Question:** What is new relative to the strongest reviewed neighboring literatures?  
-**Job:** Make the bounded novelty claim after the contribution is visible.  
-**Reader:** Knows what the paper contributes → can understand what predecessor would count as close.  
-**Earned claim:** Fixed-target comparison, domain-sensitive authority, source relevance, evaluator recognition, multi-premise support, and aggregation/defeat all have precedents; no direct predecessor has been located in the reviewed comparator corpus for their particular integration with the worked Rashi-Ramban case.  
+**Job:** Close novelty inflation by distinguishing inherited components, the architecture developed here, and the worked result obtained here.  
+**Reader:** Knows the full argument → can state exactly what was inherited, what was developed, and what was newly obtained.  
+**Earned claim:** Established literatures supply the component ideas; this paper develops their source-attributable integration and obtains the bounded package-TRACE result. No direct predecessor has been located in the reviewed comparator corpus for that integrated architecture plus worked result.  
 **Evidence:** CANON:SRC:005, SRC:038–045; CANON:D:043, D:048.  
 **Limits:** “No located direct predecessor in the reviewed corpus,” not universal priority.  
 **Live 36 cells:** XL→SYS literature-to-novelty transfer; COMP→BND component novelty versus intersection novelty; SYS→INT calibrate reader confidence.  
-**Decision:** Use the narrowest defensible novelty language.
+**Decision:** Use the three-layer close: inherited → developed here → obtained here.
 
 ### P28 — End with the bounded answer and reopen conditions
 
