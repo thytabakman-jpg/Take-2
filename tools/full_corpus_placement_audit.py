@@ -25,6 +25,20 @@ def placement(p):
     if q.endswith("readme.md"): return "NAVIGATION"
     return "GENERAL"
 
+def plausible_link_target(target):
+    t=target.strip()
+    if not t or t.startswith(("#","mailto:","data:")) or "://" in t:
+        return False
+    if any(ch in t for ch in ("(",")","{","}",",","'","\""," ")):
+        return False
+    return "/" in t or "." in Path(t).name or t.startswith(("./","../"))
+
+def mirror_root(rel):
+    parts=Path(rel).parts
+    if len(parts)>=3 and parts[0]=="dump" and parts[1]=="full-system-sources":
+        return Path(*parts[:3])
+    return Path(".")
+
 def main():
     ap=argparse.ArgumentParser()
     ap.add_argument("--root",default=".")
@@ -51,29 +65,51 @@ def main():
             if sm: statuses.append({"line":i,"tokens":sm,"text":line.strip()[:300]})
             if TODO.search(line): todos.append({"line":i,"text":line.strip()[:300]})
             if p.suffix.lower()==".md":
-                for target in LINK.findall(line):
-                    target=target.strip()
-                    if "://" in target or target.startswith(("mailto:","data:")): continue
-                    try: drel=(p.parent/target).resolve().relative_to(root).as_posix()
-                    except ValueError: drel=target
-                    refs.append({"line":i,"target":drel}); inbound[drel]+=1
+                for raw_target in LINK.findall(line):
+                    target=raw_target.strip()
+                    if not plausible_link_target(target):
+                        continue
+                    refs.append({"line":i,"target":target})
         records.append({"path":rel,"placement":placement(rel),"bytes":len(data),"lines":len(lines),"sha256":sha,
                         "headings":headings,"formal_signals":formal,"status_signals":statuses,"todo_open_signals":todos,"relative_refs":refs})
     for r in records:
+        src=root/r["path"]
         for ref in r["relative_refs"]:
-            if ref["target"] not in all_paths: broken.append({"source":r["path"],**ref})
+            target=ref["target"]
+            candidates=[]
+            try:
+                candidates.append((src.parent/target).resolve().relative_to(root).as_posix())
+            except ValueError:
+                pass
+            mr=mirror_root(r["path"])
+            mirror_candidate=(mr/target.lstrip("/")).as_posix()
+            if mirror_candidate not in candidates:
+                candidates.append(mirror_candidate)
+            root_candidate=target.lstrip("/")
+            if root_candidate not in candidates:
+                candidates.append(root_candidate)
+            resolved=next((c for c in candidates if c in all_paths),None)
+            if resolved:
+                inbound[resolved]+=1
+            else:
+                broken.append({"source":r["path"],"line":ref["line"],"target":target,"candidates":candidates})
     duplicates=[{"sha256":h,"paths":ps} for h,ps in hashpaths.items() if len(ps)>1]
     md=[r for r in records if r["path"].lower().endswith(".md")]
     canonical=("readme","current","architecture","kernel","contract","policy","manifest","registry","index","state","ledger","audit")
-    orphans=[]
+    orphans=[]; mirrored_unlinked=[]
     for r in md:
         if inbound[r["path"]]==0 and not any(t in Path(r["path"]).name.lower() for t in canonical):
-            orphans.append({"path":r["path"],"placement":r["placement"],"lines":r["lines"],
-                            "formal_signal_count":len(r["formal_signals"]),"status_signal_count":len(r["status_signals"]),
-                            "open_signal_count":len(r["todo_open_signals"])})
-    out={"schema":"FULL_CORPUS_CONTENT_AUDIT/v1","text_files_scanned":len(records),"markdown_files_scanned":len(md),
+            item={"path":r["path"],"placement":r["placement"],"lines":r["lines"],
+                  "formal_signal_count":len(r["formal_signals"]),"status_signal_count":len(r["status_signals"]),
+                  "open_signal_count":len(r["todo_open_signals"])}
+            if r["path"].startswith("dump/full-system-sources/"):
+                mirrored_unlinked.append(item)
+            else:
+                orphans.append(item)
+    out={"schema":"FULL_CORPUS_CONTENT_AUDIT/v2","text_files_scanned":len(records),"markdown_files_scanned":len(md),
          "total_lines_scanned":sum(r["lines"] for r in records),"placement_counts":dict(Counter(r["placement"] for r in records)),
-         "broken_relative_links":broken,"exact_content_duplicates":duplicates,"unlinked_markdown_candidates":orphans,"records":records}
+         "broken_relative_links":broken,"exact_content_duplicates":duplicates,
+         "unlinked_markdown_candidates":orphans,"mirrored_unlinked_markdown":mirrored_unlinked,"records":records}
     op=Path(args.out); op.parent.mkdir(parents=True,exist_ok=True); op.write_text(json.dumps(out,indent=2),encoding="utf-8")
     op.with_suffix(".md").write_text(
         "# Full Corpus Content Audit\n\n"+
@@ -83,11 +119,13 @@ def main():
           f"Total lines scanned: {out['total_lines_scanned']}",
           f"Broken relative links: {len(broken)}",
           f"Exact duplicate groups: {len(duplicates)}",
-          f"Unlinked Markdown candidates: {len(orphans)}"
+          f"Current-tree unlinked Markdown candidates: {len(orphans)}",
+          f"Mirrored lineage unlinked Markdown: {len(mirrored_unlinked)}"
         ])+
         "\n\nDetection evidence only. Source material is not automatically deleted, moved, superseded, or promoted.\n",
         encoding="utf-8")
     print(json.dumps({"text_files_scanned":len(records),"markdown_files_scanned":len(md),"total_lines_scanned":sum(r["lines"] for r in records),
-                      "broken_relative_links":len(broken),"exact_content_duplicates":len(duplicates),"unlinked_markdown_candidates":len(orphans)}))
+                      "broken_relative_links":len(broken),"exact_content_duplicates":len(duplicates),
+                      "unlinked_markdown_candidates":len(orphans),"mirrored_unlinked_markdown":len(mirrored_unlinked)}))
 
 if __name__=="__main__": main()
