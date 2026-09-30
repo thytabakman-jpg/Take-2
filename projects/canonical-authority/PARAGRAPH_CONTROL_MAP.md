@@ -17,6 +17,12 @@ Research substrate remains preserved under:
 
 The imported `dump/` tree is archival and is not mutated by this drafting pass.
 
+## Global prose rule
+
+State the affirmative claim first. Use negation only when the distinction itself requires it. Avoid the recurring pattern “not X; rather Y,” including softer variants such as “the question is not X; it is Y,” “the point is not X; it is Y,” and “this does not mean X; it means Y.” Reader-facing prose begins from what the paper affirms, then marks exclusions only when they carry real argumentative work.
+
+Use **Bereishis (Genesis) 1:1** on first reader-facing occurrence and **Bereishis** thereafter. Formal bibliographic source citations may retain **Genesis** when that is the title used by the edition or citation standard.
+
 ## Local 36 rule
 
 For every paragraph-level question, run the directed six-scope surface
