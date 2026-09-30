@@ -49,6 +49,18 @@ The comparison needs one common coordinate without pretending that the mechanism
 
 The analysis also uses a structured distinction audit, referred to here as PD, as a discovery and stress-testing heuristic. PD asks whether categories that appear interchangeable actually differ in bearer, function, target, provenance, or inferential role; whether a proposed conclusion depends on an unstated conversion between those categories; and whether changing that conversion changes the result. PD is not an evidentiary premise of the paper. Every article-facing conclusion must still be independently recoverable from the sources and arguments presented here. Its role is methodological: to expose hidden transitions, generate candidate distinctions, and subject those distinctions to ordinary source and argument testing before they enter the analysis.
 
+<!-- P45 -->
+PD matters here because it changed the analysis rather than merely renaming it. Several distinctions now carrying the paper were initially exposed by asking what had been silently treated as the same object. Legitimacy had been allowed to slide toward truth; provenance toward proposition coverage; explanation of disagreement toward adjudication of disagreement; source-package combination toward all-things-considered composition; source content toward selector information; and canonical survival toward evidence of truth. In each case, splitting the objects changed what evidence would be required and, in some cases, changed whether a proposed route counted as complete at all.
+
+A useful test is counterfactual. Hold the source material fixed and vary the collapsed distinction. If the verdict changes merely because "authoritative," "authentic," "received," or "preserved" is being interpreted in a stronger sense than the source establishes, the additional force is coming from the analyst's conversion rather than from the source. PD's contribution is therefore not a mysterious extra premise. It is a disciplined way of asking where the extra inferential force entered and then requiring the paper to defend that transition independently.
+
+## 1.4 Why This Case Is Methodologically Diagnostic
+
+<!-- P44 -->
+The Rashi–Ramban dispute is not offered as statistically representative of every Jewish disagreement. Its value is diagnostic. The case combines five features that make hidden authority transfers unusually visible. First, the rival propositions can be stated narrowly enough to freeze the truth target. Second, both interpreters possess substantial canonical standing, so shared status cannot trivially resolve the dispute. Third, Ramban directly attacks a stated supporting premise rather than merely presenting an unrelated interpretation. Fourth, the comment sits close to several epistemically rich traditional categories—received creation knowledge, peshat, esoteric interpretation, canonical commentary, and later textual-history explanation—without allowing those categories to collapse into one another. Fifth, the dispute is bounded enough that a proposed second-order mechanism can be asked a concrete question: exactly what relation does it supply to this grammatical proposition?
+
+The case is therefore a stress case rather than a representative sample. If a method cannot keep legitimacy, provenance, authority, privileged access, historical explanation, and grammatical truth distinct here, a larger and less controlled corpus would make the slippage harder rather than easier to detect. The worked case functions as an analytic microscope: its purpose is to expose transfers and stopping points that can later be tested elsewhere.
+
 # 2. What the Sources Actually Do
 
 ## 2.1 Native Success and the Comparison Set
@@ -164,10 +176,18 @@ TRACE succeeds when a target-linked support relation can be reconstructed withou
 
 The arrows are the places where hidden conversions most often occur. A status attached to a text, institution, tradition, or bearer cannot simply be re-predicated of a proposition without showing the relation that licenses the move.
 
+<!-- P49 -->
+Three miniature cases make the route distinctions concrete. In the first, a source is unquestionably authentic and authoritative but says nothing about \(C_S\). TRACE fails. In the second, a source genuinely bears on \(C_S\) but bears equally on both rivals—for example, both commentators share the same canonical status. TRACE can be satisfied while DISCRIMINATE fails. In the third, a source relation genuinely favors one rival, but the evaluator has no warranted basis for authenticating the source or identifying the relation. TRACE and DISCRIMINATE can succeed while RECOGNIZE fails. The point of the stages is therefore not terminological neatness. Each marks a different way a seemingly impressive authority argument can stop short of warranted adjudication.
+
 <!-- P35 -->
 TRACE is an inferential map, not a historical-causal theory of why Rashi, Ramban, or later communities came to hold their views. Its arrows represent justificatory dependence: what must be true for a source's native output to bear on the fixed target. Historical explanations can be relevant evidence, but they do not become adjudicative relations merely by explaining origin.
 
 Admitting a route also imports commitments. Invoking "mesorah," "authority," "hierarchy," "prophecy," or "canonicality" is not yet an argument; the route inherits claims about what the source is, what function it performs, what content or status it carries, and what relation licenses transfer to the target. This choice architecture matters because two arguments using the same label can be epistemically different if they rely on different underlying commitments.
+
+<!-- P48 -->
+The requirement that bridges be licensed raises an immediate regress question: what licenses the rule that licenses the bridge? The paper does not answer by positing an infinite hierarchy of selectors. Instead it distinguishes provenance and burden. A bridge can be source-attributable, independently defended as an external inferential principle, or accepted only conditionally relative to an evaluator's stated commitments. What matters is that the verdict-producing information remain visible at the layer that contributes it. If an added bridge itself depends on a further controversial bridge, that dependence must be exposed in the same way. Where no non-question-begging stopping point is available, the conclusion remains indexed, conditional, or unresolved rather than being forced into an absolute verdict.
+
+This closure rule turns regress into a transparency requirement rather than a demand for a final neutral meta-rule. The analysis bottoms out wherever the relevant reasons are independently defended for the inquiry at hand; it does not redescribe that defended external premise as though it had been recovered from the Jewish source.
 
 <!-- P14 -->
 TRACE must also be package aware. Corpus admission asks why a mechanism belongs in the comparison at all; package admissibility asks whether two or more already admitted sources may legitimately be used together to establish one target-linked support relation. Individually incomplete sources can sometimes become jointly informative, so singleton failure cannot be promoted directly to corpus failure. TRACE therefore ranges over independently licensed source packages, with a one-source package as the singleton special case. Joint use still requires a principled basis for combining the sources and a demonstration that their combined content completes the target relation.
@@ -241,6 +261,24 @@ RECOGNIZE_e(\Delta,C_S)
 \]
 
 The equation does not add another substantive requirement. It makes the layering explicit: TRACE establishes target linkage, DISCRIMINATE establishes rival-specific truth-relevant force, and RECOGNIZE establishes evaluator-specific usability. Only the completed conjunction yields an evaluator-usable package ground.
+
+<!-- P46 -->
+RECOGNIZE is not redundant with TRACE or DISCRIMINATE. A proposition can be genuinely supported by a source relation that the later evaluator has no warranted way to identify or authenticate. Imagine, for example, that an otherwise decisive manuscript really does contain a proposition-specific transmission report favoring \(P_R\), but the only surviving copy has uncertain provenance and no independent basis for attribution. The source-side relation could exist in fact while remaining unusable as a warranted ground for this evaluator. Conversely, a community can strongly recognize an authority while the recognized status still fails to connect that authority to \(C_S\). Recognition without TRACE is empty for the target; TRACE without warranted recognition can remain epistemically inaccessible to the evaluator.
+
+This is why the framework indexes usable grounds to an evaluator rather than treating every true evidential relation as automatically available. The move does not make truth relative to the evaluator. It distinguishes the truth of an evidential relation from a person's warrant for relying on that relation. Social epistemology, testimony, historical source criticism, and ordinary scholarly practice all depend on versions of that distinction.
+
+<!-- P47 -->
+The architecture can also be tested by ablation: remove one stage and ask what mistake becomes possible.
+
+| Removed control | What the analysis can then mistake for success |
+|---|---|
+| PROFILE | A source can be assigned a function it does not natively perform |
+| TRACE | Status, topic proximity, or authority can float free of the disputed proposition |
+| DISCRIMINATE | Evidence relevant to both rivals can masquerade as evidence favoring one |
+| RECOGNIZE | A real but inaccessible or unauthenticated evidential relation can be treated as usable warrant |
+| Separate COMPOSE | Combining sources into one ground can be confused with ranking several completed grounds |
+
+This is not a claim that the labels are the only possible vocabulary for the jobs. It is a claim about functional non-redundancy. A proposed simplification is welcome when it preserves every distinction above. If two stages can genuinely be collapsed without reintroducing one of these errors, the architecture should be simplified. That possibility is already included among the paper's explicit defeat conditions.
 
 ## 3.4 The COMPOSE Boundary
 
@@ -321,6 +359,13 @@ The same architecture also creates a multidisciplinary meeting point. Social epi
 The multidisciplinary comparison also sharpens several object-level distinctions. Testimony theory separates successful transmission of a proposition from generation of evidence for that proposition, grounds for trusting the transmitter, and the hearer's warrant for belief; these can coincide, but they are not the same epistemic job. Collective and institutional epistemology likewise permits communities and institutions to possess genuine epistemic roles without allowing phrases such as "the tradition knows" or "the canon says" to bypass questions of bearer, function, proposition, and warrant.
 
 Historical survival introduces another caution. Canonical preservation, prominence, and later dominance are filters on the historical record. The surviving corpus is therefore evidence about what was preserved and authorized, not automatically a complete map of every historical position, source, or selector that once existed. This is another reason the paper's corpus claims remain explicitly bounded even when the current analysis is internally complete relative to its declared mechanism space.
+
+<!-- P50 -->
+The interdisciplinary value is also more specific than the claim that several fields are "relevant." The paper offers different objects to different conversations.
+
+For **social epistemology**, it proposes a typed account of authority transfer: expertise, testimony, recognized standing, and evaluator uptake become analytically separable from proposition-specific support. For **provenance theory**, it supplies Selector Attribution and attribute-indexed authenticity: source content, bridge information, and later composition can be tracked without pretending that all verdict-producing information was already present in the source. For **jurisprudence**, it isolates the difference between legitimate settlement and descriptive truth while preserving the possibility that legal institutions still have epistemically important functions. For **canon and cultural-memory studies**, it identifies canonical preservation as capable of stabilizing an unresolved rival set rather than merely transmitting a single determinate proposition. For **sociology of religious knowledge**, it distinguishes the social production, authentication, preservation, authorization, and uptake of knowledge claims from the further question of what bears on their truth. For **comparative religious studies**, it offers a fixed-target way to compare heterogeneous authority mechanisms without flattening them into one scale. And for **philosophy of religion**, it provides a method for analyzing internal truth-directed claims without either affirming their theological premises or translating them into purely sociological functions.
+
+These are not six independent novelty claims. They are six disciplinary payoffs generated by the same architecture. A later publication cut can emphasize whichever of them best fits the target journal; the overfull draft keeps all of them visible so that the paper's possible audiences are not decided prematurely.
 
 # 6. What the Analysis Establishes
 
