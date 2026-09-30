@@ -108,7 +108,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Earned claim:** Re'em can explain why Ramban treated Yeshayahu 46:10 as an effective objection without deciding whether Rashi's construct generalization or Ramban's counterexample is grammatically correct. A genuine reconciliation would defeat the fixed case.
 **Evidence:** CANON:SRC:003 / Re'em on Rashi to Bereishis 1:1; legacy Mesorah manuscript.
 **Limits:** Do not claim Re'em proves which recension Ramban possessed beyond the source's warranted strength.
-**Decision:** Keep article-visible because it makes explanation-versus-adjudication concrete and strengthens falsifiability.
+**Decision:** Keep article-visible because it makes explanation-versus-adjudication concrete and strengthens falsifiability. Place it before the final unresolved adjudication question so Section 1.1 still lands on the question.
 
 ### P02 — Show recurrence and preview the paper's answer
 
@@ -267,7 +267,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Reader:** Sees another traditional mechanism that can succeed in principle if bearer, scope, content, and truth relation are established.
 **Earned claim:** Some Jewish sources assign truth-directed significance to inspired wisdom; the label alone does not establish target coverage or asymmetry.
 **Evidence:** CANON:SRC:031–036.
-**Limits:** Not part of the current seven-family package result as a separately audited eighth family; treated as an adjacent privileged-access branch.
+**Limits:** Not part of the current seven-family package result as a separately audited eighth family; treated as an adjacent privileged-access branch. State this boundary explicitly in the manuscript.
 **Decision:** Retain in the overfull draft; final venue-specific cut can decide whether it stays.
 
 ### P11 — Ramban's creation tradition
@@ -300,7 +300,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Earned claim:** Successful routes must reach the target, generate warranted truth-relevant asymmetry, and become evaluator-usable. Response branches can remain open, relocate the dispute, or genuinely discriminate and succeed.
 **Evidence:** legacy convergence architecture; current route formalization.
 **Limits:** Do not redescribe successful internal discriminators as failures.
-**Decision:** Full-force restoration. This was earned and had been softened too far.
+**Decision:** Full-force restoration. This was earned and had been softened too far. Keep the exact Section 3 handoff question after this synthesis so Section 2 ends by asking what must convert reconstructed source material into a usable ground.
 
 ### P13 — Begin the proposed route architecture through TRACE
 
@@ -374,7 +374,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Earned claim:** Classification reproducibility is distinct from truth-tracking reliability; a criterion can classify consistently while failing to adjudicate truth.
 **Evidence:** legacy Mesorah requirements framework; current TRACE/DISCRIMINATE/RECOGNIZE decomposition.
 **Limits:** Not claimed as necessary-and-sufficient for every authority problem.
-**Decision:** Keep because it makes "licensed discriminator" operational rather than rhetorical.
+**Decision:** Keep because it makes "licensed discriminator" operational rather than rhetorical. Mark the checklist as spanning DISCRIMINATE and RECOGNIZE so it does not become a competing stage architecture.
 
 ### P17 — RECOGNIZE
 
@@ -520,7 +520,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 ### P40 — Report external anti-overfitting stress tests
 
 **Question:** Is the architecture merely reverse-engineered from Jewish vocabulary?
-**Job:** Report the prospectively frozen Sikh holdout and earlier exploratory cross-tradition stress tests.
+**Job:** Report the prospectively frozen Sikh holdout and earlier exploratory cross-tradition stress tests. Avoid wording that implies a public preregistration registry unless such evidence is supplied.
 **Reader:** Gets bounded evidence that the route distinctions survive outside the originating case.
 **Earned claim:** The Sikh holdout required no rescue primitive and reproduced differentiated source/status/application/composition roles; exploratory Catholic, Sunni hadith, charismatic, and Latter-day Saint tests showed similar route jobs.
 **Evidence:** CANONICAL_AUTHORITY_SIKH_PROSPECTIVE_HOLDOUT_*; exploratory comparative audits.
