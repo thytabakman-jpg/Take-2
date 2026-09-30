@@ -109,7 +109,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Evidence:** CANON:SRC:008–012; CANON:D:068 for recurrence; current route and package audits for the answer preview.  
 **Limits:** Recurrence supports the existence of the broader problem, not representativeness of every Jewish disagreement. Preview only: the route architecture and package result are demonstrated later.  
 **Live 36 cells:** SYS→INT question clarity; SUB→BND first-order claim versus second-order grounds; XL→BND emic target versus etic analysis.  
-**Decision:** Put the recurring form, answer preview, and bounded result on page one; P03 then closes Section 1 with only the comparison frame needed to proceed.
+**Decision:** Put the problem, explicit question, recurring form, answer preview, and bounded result on page one. The paper must never reach the conclusion saying it answered a question that a human reader had to infer rather than see asked.
 
 ### P03 — Establish fixed-target comparison
 
@@ -144,12 +144,12 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Live 36 cells:** SYS→BND boundedness; XL→SUB admission rule into reader-facing rationale; COMP→SYS avoid arbitrary-list effect.  
 **Decision:** Keep compact and move immediately into source-generated obstruction findings. The standalone inherited-setup section has been removed.
 
-### P06 — Pluralism and determination
+### P06 — Pluralism, legitimacy, and the stronger both-true response
 
 **Question:** What does the pluralism/determination material natively establish?  
 **Job:** Reconstruct H_P before asking it to decide C_S.  
 **Reader:** Enters source analysis → sees legitimacy/determination as a specific native function.  
-**Earned claim:** Eruvin 13b and the Ritva tradition concern legitimacy and practical determination; neither relation alone is yet a descriptive truth selector for Bereishis 1:1. Canonical or communal preservation can stabilize an unresolved rival set without selecting between its members.  
+**Earned claim:** Eruvin 13b and the Ritva tradition concern legitimacy and practical determination; neither relation alone is yet a descriptive truth selector for Bereishis 1:1. Legitimacy pluralism must be distinguished from the stronger claim that P and not-P can both be true in the same respect. Even granting the latter as a logical possibility does not establish that this particular rival pair is jointly true. Canonical or communal preservation can stabilize an unresolved rival set without selecting between its members.  
 **Evidence:** CANON:SRC:046, SRC:047, SRC:013–016; SOURCE_MODULES H_P.  
 **Limits:** Do not reduce “elu ve-elu” to a single uncontested theory.  
 **Live 36 cells:** XL→COMP source-status calibration; COMP→BND legitimacy versus truth; SUB→INT establish source-analysis rhythm.  
@@ -412,3 +412,20 @@ Reopen a paragraph when one or more of these occurs:
 7. a stronger formulation survives the local 36 without damaging boundedness or attribution.
 
 The first redraft pass targets the weakest surviving paragraphs rather than globally rewriting already-working prose.
+
+
+### P29 — State what would count against the paper
+
+**Question:** What concrete evidence, argument, or counterexample would force revision rather than merely trigger another explanation?
+
+**Job:** Make the paper's vulnerability explicit at several levels: fixed-case setup, package/bridge result, module characterization, route architecture, and novelty claim.
+
+**Reader:** can identify observable or argumentative conditions under which the paper changes its claims.
+
+**Earned claim:** The fixed-case setup is defeated by a genuine reconciliation or better source reconstruction; the bounded result is defeated by a recovered admissible route that reaches C_S, discriminates, and is recognizable; a module diagnosis is revised by source evidence supplying its missing relation; the route architecture is challenged by a successful case in which TRACE, DISCRIMINATE, or RECOGNIZE can be removed without loss; the novelty claim is defeated by a sufficiently close predecessor.
+
+**Limits:** Do not pretend every philosophical claim is Popperian empirical science. Distinguish source-facing falsification, conceptual counterexample/collapse, and literature-based novelty defeat.
+
+**Evidence:** live architecture; fixed-case source controls; package/bridge audit; earlier counterexample/falsification controls recovered from the Mesorah transfer work.
+
+**Decision:** Keep this article-visible. A genuine defeating result changes the paper rather than being routed away by redefining the problem.
