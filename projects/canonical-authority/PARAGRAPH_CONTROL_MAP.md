@@ -431,15 +431,6 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Live 36 cells:** BND→COMP source-side versus evaluator-side; XL→COMP external epistemology calibration; INT→SUB set up multi-ground boundary.  
 **Decision:** Keep the evaluator visible but not psychologized. Retain one compact route-success equation because it compresses the layering without adding a new success condition.
 
-### P47 — Ablate the architecture stage by stage
-
-**Question:** What error returns if PROFILE, TRACE, DISCRIMINATE, RECOGNIZE, or the separate COMPOSE boundary is removed?
-**Job:** Test functional non-redundancy rather than defend labels by stipulation.
-**Reader:** Can see exactly why each stage exists.
-**Earned claim:** The stages are justified by the distinct analytical mistakes their removal permits; the vocabulary itself remains revisable.
-**Limits:** If a future simplification preserves every distinction, collapse is allowed.
-**Decision:** Keep in the overfull draft because this is stronger than merely asserting the architecture is necessary.
-
 ### P46 — Defend RECOGNIZE as an independent stage
 
 **Question:** Why is target-linked discriminatory support not automatically evaluator-usable?
@@ -449,6 +440,15 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Evidence:** expertise/testimony/source-criticism analogies plus route architecture.
 **Limits:** Do not psychologize the evaluator or make truth itself evaluator-relative.
 **Decision:** Keep as a direct defense against redundancy objections.
+
+### P47 — Ablate the architecture stage by stage
+
+**Question:** What error returns if PROFILE, TRACE, DISCRIMINATE, RECOGNIZE, or the separate COMPOSE boundary is removed?
+**Job:** Test functional non-redundancy rather than defend labels by stipulation.
+**Reader:** Can see exactly why each stage exists.
+**Earned claim:** The stages are justified by the distinct analytical mistakes their removal permits; the vocabulary itself remains revisable.
+**Limits:** If a future simplification preserves every distinction, collapse is allowed.
+**Decision:** Keep in the overfull draft because this is stronger than merely asserting the architecture is necessary.
 
 ### P18 — COMPOSE only after several completed grounds exist
 
