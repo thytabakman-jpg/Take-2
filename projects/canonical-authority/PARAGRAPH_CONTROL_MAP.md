@@ -23,6 +23,12 @@ State the affirmative claim first. Use negation only when the distinction itself
 
 Use **Bereishis (Genesis) 1:1** on first reader-facing occurrence and **Bereishis** thereafter. Formal bibliographic source citations may retain **Genesis** when that is the title used by the edition or citation standard.
 
+## Source-fidelity gate
+
+Every load-bearing source-facing claim must be typed as one of: **DIRECT**, **CLOSE_PARAPHRASE**, **DERIVED_CONSEQUENCE**, **PROJECT_INFERENCE**, or **CONDITIONAL_CONTROL**. A fixed-case target cannot silently move from a source-level disagreement to a downstream consequence merely because the consequence is easier to formalize.
+
+Any new primary-source recovery that changes the linguistic nucleus of the dispute, the premise-to-conclusion relation, the level at which the rivals directly contradict, or the ownership of a proposition automatically reopens the fixed target before downstream regression continues.
+
 ## Local 36 rule
 
 For every paragraph-level question, run the directed six-scope surface
@@ -47,16 +53,17 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 
 ## Paragraph records
 
-### P01 — Make the collision visible and formal
+### P01 — Make the construct/dependent collision visible and formal
 
-**Question:** What exactly do Rashi and Ramban disagree about in Bereishis 1:1, and what compact proposition lets the reader carry that disagreement forward?  
-**Job:** Present both readings in ordinary prose, define I_S, P_R, and P_N, and make the incompatibility explicit in one movement.  
-**Reader:** General awareness of the commentators → can state both readings and the exact proposition-level collision.  
-**Earned claim:** Rashi and Ramban assign incompatible syntactic roles to the same opening words under the fixed proposition I_S.  
-**Evidence:** CANON:SRC:001, CANON:SRC:002; CANON:D:001.  
-**Limits:** No canonical-status argument; no authority theory; no first-order verdict.  
-**Live 36 cells:** XL→COMP source fidelity; COMP→BND symmetric presentation; SUB→INT ordinary language before notation; COMP→INT notation compresses rather than expands.  
-**Decision:** Section 1.1 earns the collision completely and stops.
+**Question:** What exactly do Rashi and Ramban disagree about in Bereishis 1:1, and which verse-level proposition captures that disagreement without substituting a downstream consequence?  
+**Job:** Present Rashi's construct/dependent reading, his broader *reishis* premise, Ramban's explicit attack on that premise, and the resulting verse-level contradiction. Define C_S only after the source disagreement is visible.  
+**Reader:** General awareness of the commentators → can state Rashi's construct/dependent peshat, Ramban's rejection, and the exact fixed proposition.  
+**Earned claim:** C_S = on the peshat of Bereishis 1:1, *bereishis* functions in the construct/dependent relation Rashi assigns to it, so the opening forms the temporal setting leading to the main clause in verse 3. Rashi = C_S; Ramban = ¬C_S.  
+**Evidence:** CANON:SRC:001, CANON:SRC:002; primary-source construct-state language; FIXED_CASE_SEMANTIC_DRIFT_AUDIT_AND_REPAIR_2026-09-29.md.  
+**Claim lineage:** Rashi/Ramban grammatical claims = CLOSE_PARAPHRASE; C_S formalization = PROJECT_INFERENCE constrained to preserve the direct source disagreement; independent/main-predication consequences = DERIVED_CONSEQUENCE.  
+**Limits:** Rashi's broader claim that *reishis* occurs in construct relation is a supporting premise, not the fixed target. No first-order verdict.  
+**Live 36 cells:** XL→COMP source fidelity; COMP→BND premise versus target versus consequence; SUB→INT ordinary language before notation; BND→SYS target identity must remain source-faithful.  
+**Decision:** The construct/dependent issue is the fixed-case nucleus. The old main-predication I_S target is superseded.
 
 ### P02 — State the later-evaluator question
 
@@ -82,10 +89,10 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 
 ### P04 — Distinguish native success from target success
 
-**Question:** Which source outputs actually count as progress on I_S?  
+**Question:** Which source outputs actually count as progress on C_S?  
 **Job:** State the second substantive methodological claim: success in a mechanism's native domain and success on the fixed truth target are different objects.  
-**Reader:** Accepts fixed-target comparison → understands why legitimacy, bindingness, provenance, authentication, explanation, and institutional settlement require a licensed relation to I_S before they bear on the truth dispute.  
-**Earned claim:** A mechanism contributes to the truth question through a proposition-specific relation to I_S, not merely through native success.  
+**Reader:** Accepts fixed-target comparison → understands why legitimacy, bindingness, provenance, authentication, explanation, and institutional settlement require a licensed relation to C_S before they bear on the truth dispute.  
+**Earned claim:** A mechanism contributes to the truth question through a proposition-specific relation to C_S, not merely through native success.  
 **Evidence:** CANON:D:003, D:009, D:010, D:015, D:028.  
 **Limits:** Preserve the real native value of each output; do not introduce full TRACE/DISCRIMINATE/RECOGNIZE terminology yet.  
 **Live 36 cells:** SUB→COMP success criterion; COMP→BND output-type distinctions; BND→SYS preserve the native/target distinction.  
@@ -105,7 +112,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 ### P06 — Pluralism and determination
 
 **Question:** What does the pluralism/determination material natively establish?  
-**Job:** Reconstruct H_P before asking it to decide I_S.  
+**Job:** Reconstruct H_P before asking it to decide C_S.  
 **Reader:** Enters source analysis → sees legitimacy/determination as a specific native function.  
 **Earned claim:** Eruvin 13b and the Ritva tradition concern legitimacy and practical determination; neither relation alone is yet a descriptive truth selector for Genesis 1:1.  
 **Evidence:** CANON:SRC:046, SRC:047, SRC:013–016; SOURCE_MODULES H_P.  
@@ -118,7 +125,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Question:** Can provenance classification supply a truth selector?  
 **Job:** Reconstruct H_M.  
 **Reader:** Has one example of native-function separation → sees a second distinct function.  
-**Earned claim:** Maimonides distinguishes received Mosaic content from derived legal interpretation, but classification does not select P_R or P_N unless I_S is shown to fall within a protected category asymmetrically.  
+**Earned claim:** Maimonides distinguishes received Mosaic content from derived legal interpretation, but classification does not select P_R or P_N unless C_S is shown to fall within a protected category asymmetrically.  
 **Evidence:** CANON:SRC:025, SRC:026; SOURCE_MODULES H_M; CANON:D:010.  
 **Limits:** Do not infer that later disagreement proves non-reception without source support.  
 **Live 36 cells:** COMP→BND provenance versus truth; XL→COMP Maimonidean source fidelity; SYS→INT cumulative comparison.  
@@ -129,7 +136,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Question:** Does institutional authority itself make the authorized factual proposition true?  
 **Job:** Reconstruct H_A.  
 **Reader:** Sees legitimacy and provenance separated from truth → sees authority/error as a third function.  
-**Earned claim:** The Horayot material represents authoritative legal procedure as compatible with error; institutional authority therefore requires an additional truth-directed bridge to I_S.  
+**Earned claim:** The Horayot material represents authoritative legal procedure as compatible with error; institutional authority therefore requires an additional truth-directed bridge to C_S.  
 **Evidence:** CANON:SRC:029, SRC:030, SRC:050; SOURCE_MODULES H_A; CANON:D:009.  
 **Limits:** Keep legal consequence distinct from descriptive correctness.  
 **Live 36 cells:** XL→COMP primary-source control; COMP→BND authority versus factual accuracy; SUB→SYS evidence for target-relative authority later.  
@@ -153,16 +160,16 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Reader:** Has mostly non-selective mechanisms → sees a mechanism with genuine privileged-access potential.  
 **Earned claim:** Maimonides supplies authentication conditions for prophecy and limits its legal role; authenticated access can in principle carry truth-directed force when it covers the target and is usable by the evaluator.  
 **Evidence:** CANON:SRC:048; SOURCE_MODULES H_X; CANON:D:011.  
-**Limits:** No claim that prophecy actually covers I_S.  
+**Limits:** No claim that prophecy actually covers C_S.  
 **Live 36 cells:** XL→COMP exact source role; COMP→BND authentication versus target coverage; SUB→INT prepare positive-control return.  
 **Decision:** Signal “in principle,” not current-case success.
 
 ### P11 — Ramban's creation tradition
 
 **Question:** Does Ramban's received Maaseh Bereishis material supply the exact missing case bridge?  
-**Job:** Reconstruct H_R without conflating received/esoteric creation knowledge with the peshat syntax I_S.  
+**Job:** Reconstruct H_R without conflating received/esoteric creation knowledge with Ramban's peshat rejection of Rashi's construct/dependent reading (¬C_S).  
 **Reader:** Sees a truth-directed route in principle → confronts the strongest case-proximate route.  
-**Earned claim:** Ramban invokes received creation knowledge in the same comment but current evidence does not identify I_S itself as the received item.  
+**Earned claim:** Ramban invokes received creation knowledge in the same comment, but current evidence does not identify his verse-level rejection of Rashi's construct/dependent reading (¬C_S) as itself received or truth-supported by that tradition.  
 **Evidence:** CANON:SRC:002, SRC:051–054; SOURCE_MODULES H_R; CANON:D:012, D:042.  
 **Limits:** Funkenstein/Halbertal full-text gates remain open; Berger/Shatz block easy collapse of peshat and sod.  
 **Live 36 cells:** XL→COMP source-status discipline; COMP→BND topic proximity versus proposition coverage; BND→SYS protect bounded case result.  
@@ -183,7 +190,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 
 **Question:** Once a source is reconstructed, what is the first thing that must be shown?  
 **Job:** Introduce PROFILE as setup and TRACE as the first adjudicative operation.  
-**Reader:** Has typed sources → knows why source relevance requires an actual route to I_S.  
+**Reader:** Has typed sources → knows why source relevance requires an actual route to C_S.  
 **Earned claim:** TRACE asks whether an independently admissible source package supplies a licensed, source-attributable relation to the target.  
 **Evidence:** CANON:D:032, D:034, D:037, D:056.  
 **Limits:** PROFILE is not an extra success hurdle; it is required setup.  
@@ -250,7 +257,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Question:** Is the method constructed so that religious mechanisms necessarily fail?  
 **Job:** Demonstrate in-principle success using authenticated prophecy.  
 **Reader:** Has method → sees it is not definitionally negative.  
-**Earned claim:** An authenticated prophetic source that covered I_S, discriminated the rivals, and was warrantedly recognizable would satisfy the route architecture.  
+**Earned claim:** An authenticated prophetic source that covered C_S, discriminated the rivals, and was warrantedly recognizable would satisfy the route architecture.  
 **Evidence:** CANON:SRC:048; CANON:D:011.  
 **Limits:** Counterfactual/in-principle only.  
 **Live 36 cells:** SYS→BND non-vacuity; COMP→SYS method validation; XL→COMP source limits.  
@@ -258,7 +265,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 
 ### P20 — Test H_R directly
 
-**Question:** Does Ramban's received creation knowledge include or truth-support I_S?  
+**Question:** Does Ramban's received creation knowledge include or truth-support Ramban's ¬C_S peshat?  
 **Job:** Apply TRACE to the strongest case-proximate actual route.  
 **Reader:** Accepts possible success → sees where the live case nearly reaches it.  
 **Earned claim:** Co-location, topic proximity, and received status do not establish proposition-specific coverage.  
@@ -272,7 +279,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Question:** Does secondary scholarship collapse Ramban's peshat and esoteric reading enough to supply the missing edge?  
 **Job:** Show why the strongest retrieved scholarship does not license that inference.  
 **Reader:** Sees the missing link → sees that the obvious scholarly rescue is itself complicated.  
-**Earned claim:** Berger's report of Funkenstein and Shatz's discussion support a close peshat/Kabbalah relation but do not establish that I_S is received content; they can even highlight syntactic divergence between peshat and sod.  
+**Earned claim:** Berger's report of Funkenstein and Shatz's discussion show that peshat and Kabbalah can interact closely, but they do not establish that Ramban's ¬C_S construct/dependent peshat is received content. The esoteric subject/object issue is a different syntactic coordinate and cannot be projected onto C_S.  
 **Evidence:** CANON:SRC:051, SRC:052, SRC:053, SRC:054.  
 **Limits:** Funkenstein and Halbertal full texts remain pending for exact target-edge closure.  
 **Live 36 cells:** XL→COMP source-status hierarchy; COMP→BND secondary support versus primary proposition linkage; BND→SYS preserve reopen condition.  
@@ -283,7 +290,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Question:** Can any independently admissible package in the current seven-module corpus complete the missing proposition-specific edge?  
 **Job:** State the current bounded result after package-level repair.  
 **Reader:** Has seen the strongest route and open source gate → knows exactly where the case stops.  
-**Earned claim:** Under the currently reconstructed corpus, no admissible source package completes TRACE to I_S; downstream evaluator and COMPOSE variations therefore do not alter the current case result.  
+**Earned claim:** After fresh regression on the corrected target C_S, no admissible source package completes TRACE to C_S; downstream evaluator and COMPOSE variations therefore do not alter the current case result.  
 **Evidence:** CANON:D:058, D:059; source-package TRACE audit; theory-freeze regression.  
 **Limits:** Corpus-bounded, evidence-bounded, reopenable.  
 **Live 36 cells:** SUB→SYS local result to paper result; BND→SYS bounded negative; COMP→BND downstream invariance only while TRACE obstruction holds.  
@@ -316,7 +323,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Question:** What can a scholar claim without turning the paper into first-order theology?  
 **Job:** Locate the contribution within second-order religious-studies/philosophical analysis.  
 **Reader:** Understands attribution → understands the standpoint of the paper.  
-**Earned claim:** The scholar can analyze internal truth-directed structures and their transfer conditions without deciding the theological truth of I_S.  
+**Earned claim:** The scholar can analyze internal truth-directed structures and their transfer conditions without deciding whether C_S or ¬C_S is ultimately correct.  
 **Evidence:** CANON:D:027, D:030, D:060.  
 **Limits:** Emic truth-directedness remains real even though the paper does not endorse the answer.  
 **Live 36 cells:** XL→SYS disciplinary transport; BND→COMP emic/etic; INT→SUB prepare contribution synthesis.  
