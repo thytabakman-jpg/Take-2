@@ -10,6 +10,7 @@ FORMAL=re.compile(r"(?:^|\b)(?:define[sd]?|definition|theorem|lemma|invariant|eq
 STATUS=re.compile(r"\b(?:CURRENT|SUPERSEDED|OPEN|BLOCKED|LOCKED|PROVISIONAL|REJECTED|OBSERVED|DERIVED|IMPLEMENTED|VALIDATED|MERGED|HISTORICAL|DEPRECATED)\b")
 TODO=re.compile(r"\b(?:TODO|FIXME|TBD|XXX|OPEN QUESTION|UNRESOLVED|SORT[_ -]?LATER|ORPHAN)\b",re.I)
 LINK=re.compile(r"\[[^\]]*\]\(([^)#?]+)(?:#[^)]+)?\)")
+TOP_LEVEL_CONTROL={"DUMP_INTERFACE.md","EXPERIMENT.md","MIGRATION.md","SYSTEM_AUTHORITY.md","PLAN.md"}
 
 def placement(p):
     q=p.lower()
@@ -39,13 +40,22 @@ def mirror_root(rel):
         return Path(*parts[:3])
     return Path(".")
 
+def load_external_dependency_keys(root):
+    p=root/"audit"/"EXTERNAL_PRIVATE_DEPENDENCIES.json"
+    if not p.is_file():
+        return set(), []
+    data=json.loads(p.read_text(encoding="utf-8"))
+    deps=data.get("dependencies",[])
+    return {(d["source"],d["target"]) for d in deps}, deps
+
 def main():
     ap=argparse.ArgumentParser()
     ap.add_argument("--root",default=".")
     ap.add_argument("--out",default="audit/runtime/FULL_CORPUS_CONTENT_AUDIT.json")
     args=ap.parse_args()
     root=Path(args.root).resolve()
-    records=[]; inbound=Counter(); broken=[]; hashpaths=defaultdict(list); all_paths=set()
+    external_keys, external_ledger=load_external_dependency_keys(root)
+    records=[]; inbound=Counter(); broken=[]; bounded_external=[]; hashpaths=defaultdict(list); all_paths=set()
     for p in root.rglob("*"):
         if not p.is_file() or any(part in SKIP for part in p.parts): continue
         rel=p.relative_to(root).as_posix()
@@ -92,24 +102,31 @@ def main():
             if resolved:
                 inbound[resolved]+=1
             else:
-                broken.append({"source":r["path"],"line":ref["line"],"target":target,"candidates":candidates})
+                finding={"source":r["path"],"line":ref["line"],"target":target,"candidates":candidates}
+                if (r["path"],target) in external_keys:
+                    bounded_external.append(finding)
+                else:
+                    broken.append(finding)
     duplicates=[{"sha256":h,"paths":ps} for h,ps in hashpaths.items() if len(ps)>1]
     md=[r for r in records if r["path"].lower().endswith(".md")]
     canonical=("readme","current","architecture","kernel","contract","policy","manifest","registry","index","state","ledger","audit")
-    orphans=[]; mirrored_unlinked=[]
+    orphans=[]; preserved_unlinked=[]
     for r in md:
         if inbound[r["path"]]==0 and not any(t in Path(r["path"]).name.lower() for t in canonical):
             item={"path":r["path"],"placement":r["placement"],"lines":r["lines"],
                   "formal_signal_count":len(r["formal_signals"]),"status_signal_count":len(r["status_signals"]),
                   "open_signal_count":len(r["todo_open_signals"])}
-            if r["path"].startswith("dump/full-system-sources/"):
-                mirrored_unlinked.append(item)
+            if r["path"].startswith("dump/") or r["placement"]=="EVIDENCE_HISTORY":
+                preserved_unlinked.append(item)
+            elif r["path"] in TOP_LEVEL_CONTROL:
+                continue
             else:
                 orphans.append(item)
-    out={"schema":"FULL_CORPUS_CONTENT_AUDIT/v2","text_files_scanned":len(records),"markdown_files_scanned":len(md),
+    out={"schema":"FULL_CORPUS_CONTENT_AUDIT/v3","text_files_scanned":len(records),"markdown_files_scanned":len(md),
          "total_lines_scanned":sum(r["lines"] for r in records),"placement_counts":dict(Counter(r["placement"] for r in records)),
-         "broken_relative_links":broken,"exact_content_duplicates":duplicates,
-         "unlinked_markdown_candidates":orphans,"mirrored_unlinked_markdown":mirrored_unlinked,"records":records}
+         "broken_relative_links":broken,"bounded_external_dependencies":bounded_external,
+         "external_dependency_ledger":external_ledger,"exact_content_duplicates":duplicates,
+         "unlinked_markdown_candidates":orphans,"preserved_unlinked_markdown":preserved_unlinked,"records":records}
     op=Path(args.out); op.parent.mkdir(parents=True,exist_ok=True); op.write_text(json.dumps(out,indent=2),encoding="utf-8")
     op.with_suffix(".md").write_text(
         "# Full Corpus Content Audit\n\n"+
@@ -118,14 +135,16 @@ def main():
           f"Markdown files scanned: {out['markdown_files_scanned']}",
           f"Total lines scanned: {out['total_lines_scanned']}",
           f"Broken relative links: {len(broken)}",
+          f"Bounded external dependencies: {len(bounded_external)}",
           f"Exact duplicate groups: {len(duplicates)}",
           f"Current-tree unlinked Markdown candidates: {len(orphans)}",
-          f"Mirrored lineage unlinked Markdown: {len(mirrored_unlinked)}"
+          f"Preserved lineage/history unlinked Markdown: {len(preserved_unlinked)}"
         ])+
         "\n\nDetection evidence only. Source material is not automatically deleted, moved, superseded, or promoted.\n",
         encoding="utf-8")
     print(json.dumps({"text_files_scanned":len(records),"markdown_files_scanned":len(md),"total_lines_scanned":sum(r["lines"] for r in records),
-                      "broken_relative_links":len(broken),"exact_content_duplicates":len(duplicates),
-                      "unlinked_markdown_candidates":len(orphans),"mirrored_unlinked_markdown":len(mirrored_unlinked)}))
+                      "broken_relative_links":len(broken),"bounded_external_dependencies":len(bounded_external),
+                      "exact_content_duplicates":len(duplicates),"unlinked_markdown_candidates":len(orphans),
+                      "preserved_unlinked_markdown":len(preserved_unlinked)}))
 
 if __name__=="__main__": main()
