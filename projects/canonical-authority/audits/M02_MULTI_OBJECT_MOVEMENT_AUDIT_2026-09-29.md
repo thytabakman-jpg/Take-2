@@ -1,5 +1,8 @@
 # Canonical Authority — M02 Multi-Object Movement Audit
 
+> **Semantic supersession note — 2026-09-29:** This audit predates the fixed-case correction from the derivative `I_S` main-predication target to the source-faithful `C_S` construct/dependent target. Its movement/tool findings may remain historically useful, but any target-specific conclusion, notation, polarity, or paragraph goal must be read as superseded unless revalidated against `C_S`.
+
+
 Status: ANALYSIS COMPLETE / CHANGE NOT YET APPLIED  
 Date: 2026-09-29  
 Target: M02 — The Question for a Later Evaluator  
