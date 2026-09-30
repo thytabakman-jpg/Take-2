@@ -438,3 +438,24 @@ The following must be closed before submission if the corresponding prose remain
 ## Non-rule
 
 An OPEN citation does not automatically weaken a manuscript claim that is explicitly presented as the paper's own analytic inference from verified premises. The evidence map determines which claims actually depend on each OPEN item.
+
+# G. Methodological background still needing a named comparator
+
+## [54] Comparative method / tertium comparationis
+
+**Type:** SECONDARY METHODOLOGY  
+**Status:** OPEN  
+**Needed for:** the claim that holding a common tertium fixed while preserving heterogeneous comparands is inherited comparative methodology rather than a paper-specific invention.
+
+## [55] Argumentation / multi-premise support / aggregation
+
+**Type:** SECONDARY METHODOLOGY  
+**Status:** OPEN  
+**Needed for:** the manuscript's inherited-background claims about multi-premise support, defeat, and aggregation/composition.
+
+## [56] Emic / etic religious-studies methodology
+
+**Type:** SECONDARY METHODOLOGY  
+**Status:** OPEN  
+**Needed for:** Section 5.3's disciplinary framing that the first-order truth target can remain internal/emic while the inferential comparison is conducted analytically/etically without theological assent.
+
