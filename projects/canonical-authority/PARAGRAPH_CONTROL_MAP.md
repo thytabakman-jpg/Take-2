@@ -258,7 +258,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Question:** What if a source reaches the topic but does not favor either rival?  
 **Job:** Separate target relevance from asymmetric selection.  
 **Reader:** Can trace a relation → knows that trace alone does not adjudicate.  
-**Earned claim:** A completed source-side ground requires a target relation that asymmetrically supports P_R or P_N concerning truth.  
+**Earned claim:** A completed target-indexed ground requires a target relation that asymmetrically supports P_R or P_N concerning truth.  
 **Evidence:** CANON:D:007, D:033, D:038, D:054.  
 **Limits:** Do not multiply diagnostics into reader-facing primitives.  
 **Live 36 cells:** COMP→BND relevance versus discrimination; SUB→SYS preserve four-stage compression; INT→COMP intuitive example language.  
@@ -368,7 +368,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Question:** What has the paper actually contributed once the reader has traversed the case and method?  
 **Job:** Synthesize the contribution in earned order.  
 **Reader:** Has all premises/results → can reconstruct the contribution hierarchy.  
-**Earned claim:** The paper builds on inherited fixed-target comparison and domain sensitivity, develops the integrated source-to-ground architecture plus package TRACE/COMPOSE and attribution controls, obtains the bounded Rashi–Ramban package-and-bridge obstruction, and derives cross-function transfer and selector-attribution significance.  
+**Earned claim:** The paper builds on inherited fixed-target comparison and domain sensitivity, develops the integrated source-to-ground architecture plus package TRACE/COMPOSE and attribution controls, obtains the bounded Rashi–Ramban package-and-bridge TRACE non-completion result, and derives cross-function transfer and selector-attribution significance.  
 **Evidence:** NOVELTY_CONTRIBUTION_MAP.md; CANON:D:019, D:032, D:038, D:050, D:058.  
 **Limits:** Synthesis does not independently prove earlier claims.  
 **Live 36 cells:** SUB→SYS contribution lift; COMP→BND typed contributions; INT→SYS reader reconstruction.  
