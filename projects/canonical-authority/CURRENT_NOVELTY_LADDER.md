@@ -3,6 +3,7 @@
 Status: CURRENT AUTHOR-FACING NOVELTY CONTROL  
 Date: 2026-09-30  
 Branch: `workstream/canonical-authority-draft-20260929`
+Live research basis: `CANON:ARCH:001 v1.3.0` / `RESEARCH_ARCHITECTURE_LIVE.yaml`
 
 ## Purpose
 
@@ -101,7 +102,7 @@ This is stronger than generic domain sensitivity when stated as a cross-function
 
 Value: central bridge toward the paper's method.
 
-Earliest location: Section 2.2 or 3.4.
+Earliest framing location: Section 2.1. Fully earned principle: Section 5.1.
 
 Novelty status: paper-specific synthesis; avoid claiming the bare domain-relativity idea as new.
 
@@ -111,7 +112,7 @@ A source does not retroactively contain selector information supplied by the ana
 
 Value: sharp attribution claim.
 
-Earliest location: Section 3.4.
+Earliest earning location: Section 2.5, then formalized in Sections 3.1 and 5.2.
 
 Novelty status: potentially distinctive in this exact framework; closest-literature closure still needed.
 
@@ -144,7 +145,7 @@ Novelty claim:
 
 > No direct predecessor has been located in the reviewed comparator corpus for this particular integrated architecture applied to heterogeneous religious-authority mechanisms at one fixed truth target.
 
-Earliest earning location: Section 4.1.
+Earliest earning location: Section 3.1.
 
 Earliest announcement location: Section 1.2.
 
@@ -158,9 +159,9 @@ while evaluator-specific usability additionally requires RECOGNIZE.
 
 Value: precise separation of objective/source-side support from third-party usability.
 
-Earliest earning location: Section 4.3.
+Earliest earning location: Section 3.3.
 
-Earliest announcement location: Section 1.2 or end of Section 2.
+Earliest announcement location: Section 1.2.
 
 Novelty status: component ideas have precedents; exact factorization is a candidate paper-specific contribution.
 
@@ -170,7 +171,7 @@ Several independently licensed sources may jointly establish one target-indexed 
 
 Singleton analysis is only the one-member special case.
 
-Earliest earning location: Section 4.1.
+Earliest earning location: Section 3.1.
 
 Novelty status: paper-specific formalization; multi-premise support itself is established.
 
@@ -188,7 +189,7 @@ is different from
 
 Value: prevents two distinct multi-source problems from collapsing.
 
-Earliest earning location: Section 4.4.
+Earliest earning location: Section 3.4.
 
 Novelty status: strong candidate original distinction in this religious-authority architecture; aggregation literature provides neighboring concepts.
 
@@ -198,7 +199,7 @@ Holding source grounds fixed while changing the bridge or COMPOSE rule isolates 
 
 Value: identifies where the verdict-producing information comes from.
 
-Earliest earning location: Section 4.4 / Section 6.2.
+Earliest earning location: Section 3.4 / Section 5.2.
 
 Novelty status: strong candidate paper-specific claim.
 
@@ -208,7 +209,7 @@ An outcome-material selector must be source-attributable, explicitly evaluator-l
 
 Value: answers a possible regress objection.
 
-Earliest location: Section 4.4 or note/appendix if space permits.
+Earliest location: Section 3.4 or note/appendix if space permits.
 
 Novelty status: available secondary contribution; not currently foregrounded in manuscript.
 
@@ -220,7 +221,7 @@ Novelty status: available secondary contribution; not currently foregrounded in 
 
 Ramban's received Maaseh Bereishis material does not currently establish that his rejection of Rashi's construct/dependent peshat is itself received or truth-supported by that tradition.
 
-Earliest earning location: Section 3.3 / Section 5.2.
+Earliest earning location: Section 2.4 / Section 4.2.
 
 Earliest announcement location: Section 1.2.
 
@@ -230,30 +231,30 @@ Novelty status: strong case-specific result; no direct predecessor located in re
 
 The esoteric subject/object reversal cannot be projected onto the construct/dependent peshat dispute merely because both concern Bereishis 1:1 syntax.
 
-Earliest earning location: Section 5.2.
+Earliest earning location: Section 4.2.
 
 Novelty status: potentially strong case-specific clarification.
 
 ## D3. Package-level TRACE obstruction
 
-Relative to the current seven-family corpus and independently licensed package use:
+Relative to the current seven-family corpus and the independently licensed package/bridge routes actually recovered or defended:
 
 [
 orall X in AdmPkg_A, 
 eg TRACE(X,C_S).
 ]
 
-Earliest earning location: Section 5.3.
+Earliest earning location: Section 4.3.
 
 Earliest announcement location: Section 1.2.
 
-Novelty status: strongest clear new worked-case result.
+Novelty status: strongest clear new worked-case result, stated as a bounded recovery claim rather than a universal impossibility claim.
 
 ## D4. Downstream invariance while TRACE is blocked
 
 While the package-level TRACE obstruction holds, changing evaluator regimes or COMPOSE rules cannot change the fixed-case result because those coordinates lie downstream.
 
-Earliest earning location: Section 5.3.
+Earliest earning location: Section 4.3.
 
 Novelty status: strong derived case result.
 
@@ -269,7 +270,7 @@ It is:
 
 > When a mechanism authoritative for one native function is recruited for a different truth target, the transfer relation must be explicit, and any outcome-material bridge must remain attributed to the layer that supplies it.
 
-Earliest earning location: Section 6.1.
+Earliest earning location: Section 5.1.
 
 Earliest announcement location: Section 1.2.
 
@@ -279,7 +280,7 @@ Novelty status: strong paper-specific synthesis.
 
 Different forms of religious authority produce different kinds of outputs, and those output types constrain what kind of epistemic transfer is even possible.
 
-Earliest location: Section 2–3.
+Earliest location: Section 2, with broader significance in Section 5.
 
 Novelty status: useful synthesis, but adjacent sociology/epistemology literature exists.
 
@@ -287,7 +288,7 @@ Novelty status: useful synthesis, but adjacent sociology/epistemology literature
 
 A scholar can analyze internal truth-directed structures without deciding the first-order religious truth claim.
 
-Earliest location: Section 1.2 or 6.3.
+Earliest location: Section 1.2 or 5.3.
 
 Novelty status: disciplinary positioning, not likely standalone novelty.
 
@@ -341,13 +342,11 @@ The introduction can announce three things immediately:
 
 These claims are earned later, but academic introductions routinely state results before demonstrating them.
 
-## Section 2 should become short
+## The inherited setup is now compressed
 
-Section 2 only needs to establish inherited comparison machinery and the seven-family sample.
+The former standalone setup section has been dissolved. Fixed-target comparison closes Section 1, and native-success plus corpus controls open Section 2 before the source-generated obstruction profile.
 
-It should not feel like a second introduction.
-
-## Section 3 can foreground discoveries rather than merely catalogue sources
+## Section 2 now foregrounds discoveries rather than merely cataloguing sources
 
 Each source paragraph can begin with the result it contributes:
 
@@ -371,17 +370,17 @@ the exact construct-state collision.
 New paper thesis can already be **announced**:
 the route architecture + bounded result.
 
-### Paragraph 3–5
-Established setup, kept short.
+### Paragraph 3
+Inherited comparison frame, kept short.
 
-### Paragraph 6 onward
-Source-specific findings begin accumulating.
+### Section 2
+Source-specific findings accumulate and culminate in the typed obstruction profile, the first earned paper-specific synthesis.
 
-### Section 4.1
-First bounded methodological novelty is **earned**.
+### Section 3.1
+The bounded methodological synthesis begins to be **earned**.
 
-### Section 5.3
-First strongest new empirical/worked-case result is **earned**.
+### Section 4.3
+The strongest new worked-case result is **earned** as a bounded package-and-bridge recovery result.
 
-### Sections 6–7
-Strongest integrated novelty is fully earned.
+### Sections 5–6
+The broader principles and strongest integrated novelty are fully earned.
