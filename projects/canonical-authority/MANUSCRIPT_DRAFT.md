@@ -12,12 +12,20 @@ Paragraph control: PARAGRAPH_CONTROL_MAP.md
 ## 1.1 The Exact Disagreement
 
 <!-- P01 -->
-Bereishis 1:1 presents a precise grammatical disagreement between Rashi and Ramban. Rashi's peshat reads the opening as dependent: *bereishis* stands in a construct/dependent relation with the verbal clause *bara Elohim*, so the opening supplies a temporal setting whose main clause arrives in verse 3. Rashi supports that reading with the broader claim that *reishis* in Scripture occurs in construct relation. Ramban directly attacks that grammatical premise, citing cases such as Yeshayahu 46:10 and Devarim 33:21 where *reishis* is not functioning as Rashi's generalization requires, and then gives an independent peshat reading of Bereishis 1:1. Let (C_S) denote the verse-level proposition that, on the peshat advanced, *bereishis* functions in the construct/dependent relation Rashi assigns to it, so the opening forms the temporal setting leading to the main clause in verse 3. Rashi's position is therefore (P_R = C_S), while Ramban's is (P_N = \neg C_S). Rashi's broader claim about *reishis* is a supporting grammatical premise; the fixed target is the verse-level construct/dependent reading itself.
+Bereishis 1:1 presents a precise grammatical disagreement between Rashi and Ramban. Rashi's peshat reads the opening as dependent: *bereishis* stands in a construct/dependent relation with the verbal clause *bara Elohim*, so the opening supplies a temporal setting whose main clause arrives in verse 3. Rashi supports that reading with the broader claim that *reishis* in Scripture occurs in construct relation. Ramban directly attacks that grammatical premise, citing cases such as Yeshayahu 46:10 and Devarim 33:21 where *reishis* is not functioning as Rashi's generalization requires, and then gives an independent peshat reading of Bereishis 1:1. Let \(C_S\) denote the verse-level proposition that, on the peshat advanced, *bereishis* functions in the construct/dependent relation Rashi assigns to it, so the opening forms the temporal setting leading to the main clause in verse 3. The rival positions can therefore be fixed as
+
+\[
+P_R = C_S,
+\qquad
+P_N = \neg C_S.
+\]
+
+This notation does only one job: it freezes the proposition under comparison. Rashi's broader claim about *reishis* is a supporting grammatical premise; the fixed target is the verse-level construct/dependent reading itself.
 
 ## 1.2 A Recurring Problem and the Paper's Answer
 
 <!-- P02 -->
-The Rashi–Ramban collision instantiates a recurrent adjudicative form rather than an isolated anomaly. Truth-apt machlokes appears across canonical strata: R. Akiva and R. Yishmael disagree over particulars connected with Sinai and Ohel Moed; R. Yochanan and Reish Lakish disagree over the Flood and Eretz Yisrael; and Geonic authorities divide over the Endor episode. The subject matter changes, but the second-order problem recurs across Tannaim, Amoraim, Geonim, and Rishonim: later readers inherit incompatible claims from canonical authorities, while canonical standing alone does not identify which rival claim is true. This paper asks what source-grounded basis, if any, can do that work. It argues that the relevant source material must be connected to the exact disputed proposition through a licensed and provenance-explicit relation, the connection must favor one rival over the other, and a later evaluator must have warranted grounds for using it. Applied to the seven mechanism families examined here, the current evidence yields a bounded result: no independently admissible source package completes that route to (C_S). The grammatical verdict therefore remains open, while the analysis identifies exactly where the available second-order routes stop and what additional evidence would reopen the result.
+The Rashi–Ramban collision instantiates a recurrent adjudicative form rather than an isolated anomaly. Truth-apt machlokes appears across canonical strata: R. Akiva and R. Yishmael disagree over particulars connected with Sinai and Ohel Moed; R. Yochanan and Reish Lakish disagree over the Flood and Eretz Yisrael; and Geonic authorities divide over the Endor episode. The subject matter changes, but the second-order problem recurs across Tannaim, Amoraim, Geonim, and Rishonim: later readers inherit incompatible claims from canonical authorities, while canonical standing alone does not identify which rival claim is true. This paper asks what source-grounded basis, if any, can do that work. It argues that the relevant source material must be connected to the exact disputed proposition through a licensed and provenance-explicit relation, the connection must favor one rival over the other, and a later evaluator must have warranted grounds for using it. Applied to the seven mechanism families examined here, the current evidence yields a bounded result: no currently recovered and independently licensed package/bridge route completes that route to \(C_S\). The grammatical verdict therefore remains open, while the analysis identifies exactly where the available second-order routes stop and what additional evidence would reopen the result.
 
 ## 1.3 The Comparison Frame
 
@@ -106,7 +114,24 @@ Target relevance is the beginning of discrimination rather than its completion. 
 ## 3.3 RECOGNIZE
 
 <!-- P17 -->
-A genuine source side discriminator becomes evaluator usable only through an additional step. RECOGNIZE marks that step. The evaluator needs warranted grounds for identifying the relevant source relation and relying on it in the case at hand. Contemporary work on expertise and epistemic authority helps clarify why source side support and evaluator uptake are distinct. A source can possess an epistemically important relation that a third-party cannot reliably identify, authenticate, or use. In religious contexts, texts, institutions, interpretive communities, and recognized bearers can contribute to that uptake insofar as they participate in warranted access to the discriminator. Social recognition alone remains insufficient. The route level success condition is therefore layered. TRACE and DISCRIMINATE establish a source side ground; RECOGNIZE concerns its evaluator specific usability.
+A genuine source-side discriminator becomes evaluator-usable only through an additional step. RECOGNIZE marks that step. The evaluator needs warranted grounds for identifying the relevant source relation and relying on it in the case at hand. Contemporary work on expertise and epistemic authority helps clarify why source-side support and evaluator uptake are distinct. A source can possess an epistemically important relation that a third party cannot reliably identify, authenticate, or use. In religious contexts, texts, institutions, interpretive communities, and recognized bearers can contribute to that uptake insofar as they participate in warranted access to the discriminator. Social recognition alone remains insufficient.
+
+Let \(X\) be an independently admissible source package, \(\Delta\) a target-indexed ground, and \(e\) the evaluator. Route-level success can then be stated compactly as
+
+\[
+PackageGround_e(X,C_S)
+\iff
+\exists \Delta\,
+\big[
+TRACE(X,C_S,\Delta)
+\land
+DISCRIMINATE(\Delta,C_S)
+\land
+RECOGNIZE_e(\Delta,C_S)
+\big].
+\]
+
+The equation does not add another substantive requirement. It simply makes the layering explicit: TRACE and DISCRIMINATE establish the source-side ground, while RECOGNIZE concerns evaluator-specific usability.
 
 ## 3.4 The COMPOSE Boundary
 
@@ -131,7 +156,17 @@ The strongest retrieved scholarship sharpens the problem rather than closing it.
 ## 4.3 Where the Case Stops
 
 <!-- P22 -->
-Once packages and their licensed bridges are tested rather than only singleton routes, the current bounded result survives in a more carefully stated form. Packages that exclude Ramban's received creation-tradition route contain no currently reconstructed source proposition that directly connects a member's native output to (C_S) or (\neg C_S), and the project has recovered no independently grounded cross-module bridge that supplies that relation. Packages that include Ramban's creation tradition gain direct case and topic proximity, but the unresolved edge remains: the inspected material does not establish that Ramban's rejection of Rashi's construct/dependent reading is itself received or truth-supported by the received creation knowledge. None of the other admitted mechanisms supplies that missing (C_S)-specific relation, and no independently grounded cross-module bridge completing it has been recovered. Relative to the current seven-family corpus and the package/bridge routes actually recovered or defended, no route completing TRACE to (C_S) has therefore been located. This is a corpus- and evidence-bounded result, not a claim that no imaginable future bridge could ever complete TRACE. Because DISCRIMINATE, RECOGNIZE, and COMPOSE lie downstream of the current TRACE obstruction, changing evaluator assumptions or composition rules cannot alter the fixed-case result while that obstruction persists.
+Once packages and their licensed bridges are tested rather than only singleton routes, the current bounded result survives in a more carefully stated form. Packages that exclude Ramban's received creation-tradition route contain no currently reconstructed source proposition that directly connects a member's native output to \(C_S\) or \(\neg C_S\), and the project has recovered no independently grounded cross-module bridge that supplies that relation. Packages that include Ramban's creation tradition gain direct case and topic proximity, but the unresolved edge remains: the inspected material does not establish that Ramban's rejection of Rashi's construct/dependent reading is itself received or truth-supported by the received creation knowledge. None of the other admitted mechanisms supplies that missing \(C_S\)-specific relation, and no independently grounded cross-module bridge completing it has been recovered.
+
+Let \(\mathcal R_{current}\) denote the package/bridge routes actually recovered and independently licensed in the present seven-family corpus. The result is therefore
+
+\[
+\nexists r \in \mathcal R_{current}
+\quad
+TRACE(r,C_S).
+\]
+
+The restricted domain is the point. The paper claims that no completing route has been located in \(\mathcal R_{current}\); it does not claim that no possible future route could ever complete TRACE. Because DISCRIMINATE, RECOGNIZE, and COMPOSE lie downstream of the current TRACE obstruction, changing evaluator assumptions or composition rules cannot alter the fixed-case result while that obstruction persists.
 
 # 5. Authority Across Targets
 
@@ -143,7 +178,21 @@ The comparison yields a Cross-Function Transfer Principle. When the native outpu
 ## 5.2 The Selector Attribution Principle
 
 <!-- P24 -->
-The same analysis yields a Selector Attribution Principle. Hold the source-attributable content and the inquiry frame fixed, then vary a materially outcome-relevant bridge or composition rule. If the verdict changes, the difference is attributable at least partly to that added layer rather than to the fixed source alone. Mixed provenance can be entirely legitimate when its components are explicit: a conclusion may arise from source content plus a licensed inferential rule, or from source content as usable by an evaluator under specified warrants. What the principle blocks is silent transfer, where selector information supplied by an analyst, community, bridge, or meta rule is redescribed as though it had always been contained in the underlying source.
+The same analysis yields a Selector Attribution Principle. Let \(S\) denote source-attributable content, \(\Phi\) the fixed inquiry frame, and \(\Psi\) the inferential coordinates supplied by bridges or composition rules. Write the verdict as
+
+\[
+V = F(S;\Phi,\Psi).
+\]
+
+Holding \(S\) and \(\Phi\) fixed, if two materially admissible inferential specifications produce different verdicts,
+
+\[
+F(S;\Phi,\Psi_1)
+\neq
+F(S;\Phi,\Psi_2),
+\]
+
+then the difference between those verdicts cannot be attributed to \(S\) alone. Mixed provenance can be entirely legitimate when its components are explicit: a conclusion may arise from source content plus a licensed inferential rule, or from source content as usable by an evaluator under specified warrants. What the principle blocks is silent transfer, where selector information supplied by an analyst, community, bridge, or meta rule is redescribed as though it had always been contained in the underlying source.
 
 ## 5.3 What the Scholar Can Claim
 
