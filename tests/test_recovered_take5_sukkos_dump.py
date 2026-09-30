@@ -12,7 +12,7 @@ class Take5RecoveredSukkosDumpTests(unittest.TestCase):
         source = ROOT / "dump" / "education-sukkos-recovery" / "take5"
         with tempfile.TemporaryDirectory() as td:
             result = run(source, Path(td) / "organized")
-        self.assertEqual(result["counts"]["source_files"], 127)
+        self.assertEqual(result["counts"]["source_files"], 131)
         self.assertTrue(result["traversal_complete"])
         self.assertTrue(result["semantic_markdown_complete"])
         self.assertTrue(result["verification_complete"])
