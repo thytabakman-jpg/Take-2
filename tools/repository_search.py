@@ -31,7 +31,7 @@ TEXT_EXTENSIONS = {
 TEXT_NAMES = {"Dockerfile", "Makefile", "Procfile"}
 SKIP_PARTS = {".git", "__pycache__", ".pytest_cache", ".mypy_cache", ".ruff_cache", ".venv", "venv"}
 TOKEN_RE = re.compile(r"[A-Za-z0-9][A-Za-z0-9_-]{1,63}")
-HEADING_RE = re.compile(r"^#\\s+(.+?)\\s*$", re.MULTILINE)
+HEADING_RE = re.compile(r"^#\s+(.+?)\s*$", re.MULTILINE)
 
 
 def shard_for(token: str) -> str:
@@ -77,9 +77,9 @@ def content_fingerprint(records: list[tuple[str, str]]) -> str:
     h = hashlib.sha256()
     for rel, digest in records:
         h.update(rel.encode("utf-8"))
-        h.update(b"\\0")
+        h.update(b"\0")
         h.update(digest.encode("ascii"))
-        h.update(b"\\n")
+        h.update(b"\n")
     return h.hexdigest()
 
 
@@ -135,7 +135,7 @@ def build_index(root: Path = ROOT, index_dir: Path | None = None) -> dict:
             "terms": {k: shards[shard][k] for k in sorted(shards[shard])},
         }
         (index_dir / f"{shard}.json").write_text(
-            json.dumps(payload, ensure_ascii=False, sort_keys=True, separators=(",", ":")) + "\\n",
+            json.dumps(payload, ensure_ascii=False, sort_keys=True, separators=(",", ":")) + "\n",
             encoding="utf-8",
         )
 
@@ -151,7 +151,7 @@ def build_index(root: Path = ROOT, index_dir: Path | None = None) -> dict:
         "documents": docs,
     }
     (index_dir / "manifest.json").write_text(
-        json.dumps(manifest, ensure_ascii=False, sort_keys=True, separators=(",", ":")) + "\\n",
+        json.dumps(manifest, ensure_ascii=False, sort_keys=True, separators=(",", ":")) + "\n",
         encoding="utf-8",
     )
     return manifest
