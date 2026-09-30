@@ -25,7 +25,7 @@ Use **Bereishis (Genesis) 1:1** on first reader-facing occurrence and **Bereishi
 
 ## Transliteration and divine-name style
 
-Use Ashkenazi-style pronunciation/transliteration in reader-facing prose where natural and appropriate. Preferred forms include **Bereishis**, **Shemos**, **Vayikra**, **Bamidbar**, **Devarim**, **Yeshayahu**, **Shabbos**, **Horayos**, **Hilchos**, **Beis Hillel**, **Halacha**, **halachic**, **Moshe**, **eilu v'eilu**, **Zugos**, **Tannaim**, **Amoraim**, **Savoraim**, **Geonim**, **Rishonim**, **Acharonim**, **Poskim**, and **Tosafos**. Preferred personal-name forms include **R. Akiva**, **R. Yishmael**, **R. Yochanan**, **Reish Lakish**, **Rav Shmuel ben Chofni Gaon**, and **Rav Hai Gaon**. Use **Elohim** rather than the English “God” when discussing the Hebrew text or grammatical structure. Use the traditional Hebrew names of Tanach books and traditional Jewish period/group labels in reader-facing prose, while retaining an English equivalent on first occurrence when it materially helps a general academic reader. Exact quotations, established English translations, publication titles, and bibliographic metadata may preserve the spelling used by the cited source or edition.
+Use Ashkenazi-style pronunciation/transliteration in reader-facing prose where natural and appropriate. Preferred forms include **Bereishis**, **Shemos**, **Vayikra**, **Bamidbar**, **Devarim**, **Yeshayahu**, **Shabbos**, **Horayos**, **Hilchos**, **Beis Hillel**, **Halacha**, **halachic**, **Moshe**, **Rambam**, **eilu v'eilu**, **Zugos**, **Tannaim**, **Amoraim**, **Savoraim**, **Geonim**, **Rishonim**, **Acharonim**, **Poskim**, and **Tosafos**. Preferred personal-name forms include **R. Akiva**, **R. Yishmael**, **R. Yochanan**, **Reish Lakish**, **Rav Shmuel ben Chofni Gaon**, and **Rav Hai Gaon**. Use **Elohim** rather than the English “God” when discussing the Hebrew text or grammatical structure. Use the traditional Hebrew names of Tanach books and traditional Jewish period/group labels in reader-facing prose, while retaining an English equivalent on first occurrence when it materially helps a general academic reader. Exact quotations, established English translations, publication titles, and bibliographic metadata may preserve the spelling used by the cited source or edition.
 
 ## Source-fidelity gate
 
@@ -69,14 +69,15 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** XL→COMP source fidelity; COMP→BND premise versus target versus consequence; SUB→INT ordinary language before notation; BND→SYS target identity must remain source-faithful.  
 **Decision:** The construct/dependent issue is the fixed-case nucleus. The old main-predication I_S target is superseded.
 
-### P02 — State the question and preview the paper's answer
+### P02 — Show recurrence and preview the paper's answer
 
 **Question:** What source-grounded basis can a later evaluator use to favor one rival as true?  
-**Job:** Convert the exact contradiction into the paper's central second-order research question, then preview the proposed route architecture, bounded case result, and reopen condition before the reader enters the inherited comparison setup.  
-**Reader:** Sees the collision → knows the question, the paper's proposed answer, the bounded current result, and what the later sections will need to demonstrate.  
-**Earned claim:** The introduction may announce that a usable ground requires source-attributable target linkage, rival discrimination, and warranted evaluator use, and that the current seven-family corpus yields no completed package route to C_S; later sections earn these claims.  
+**Job:** Show that the Rashi–Ramban collision belongs to a recurring cross-strata pattern of truth-apt machlokes, then state the central second-order question and preview the proposed route architecture, bounded case result, and reopen condition.  
+**Reader:** Sees the collision → sees that the problem recurs across Tannaim, Amoraim, Geonim, and Rishonim → knows the question, proposed answer, bounded result, and what later sections must demonstrate.  
+**Earned claim:** Truth-apt machlokes recurs across canonical strata, so the Rashi–Ramban case instantiates a broader adjudicative problem. The introduction may then announce that a usable ground requires source-attributable target linkage, rival discrimination, and warranted evaluator use, and that the current seven-family corpus yields no completed package route to C_S; later sections earn the method and result.  
 **Evidence:** CANON:D:002, D:030.  
-**Limits:** Preview only. Do not pretend the route architecture or package result is already demonstrated in the introduction.  
+**Evidence:** CANON:SRC:008–012; CANON:D:068 for recurrence; current route and package audits for the answer preview.  
+**Limits:** Recurrence supports the existence of the broader problem, not representativeness of every Jewish disagreement. Preview only: the route architecture and package result are demonstrated later.  
 **Live 36 cells:** SYS→INT question clarity; SUB→BND first-order claim versus second-order grounds; XL→BND emic target versus etic analysis.  
 **Decision:** End Section 1 with the question plus the answer preview so the reader encounters the paper's proposed contribution on page one.
 
@@ -129,7 +130,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Question:** Can provenance classification supply a truth selector?  
 **Job:** Reconstruct H_M.  
 **Reader:** Has one example of native-function separation → sees a second distinct function.  
-**Earned claim:** Maimonides distinguishes received content traced to Moshe from derived legal interpretation, but classification does not select P_R or P_N unless C_S is shown to fall within a protected category asymmetrically.  
+**Earned claim:** Rambam distinguishes received content traced to Moshe from derived legal interpretation, but classification does not select P_R or P_N unless C_S is shown to fall within a protected category asymmetrically.  
 **Evidence:** CANON:SRC:025, SRC:026; SOURCE_MODULES H_M; CANON:D:010.  
 **Limits:** Do not infer that later disagreement proves non-reception without source support.  
 **Live 36 cells:** COMP→BND provenance versus truth; XL→COMP Maimonidean source fidelity; SYS→INT cumulative comparison.  
@@ -162,7 +163,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Question:** Can a traditional mechanism ever satisfy the truth-directed architecture in principle?  
 **Job:** Reconstruct H_X as the positive-control source route before using it later as a test.  
 **Reader:** Has mostly non-selective mechanisms → sees a mechanism with genuine privileged-access potential.  
-**Earned claim:** Maimonides supplies authentication conditions for prophecy and limits its legal role; authenticated access can in principle carry truth-directed force when it covers the target and is usable by the evaluator.  
+**Earned claim:** Rambam supplies authentication conditions for prophecy and limits its legal role; authenticated access can in principle carry truth-directed force when it covers the target and is usable by the evaluator.  
 **Evidence:** CANON:SRC:048; SOURCE_MODULES H_X; CANON:D:011.  
 **Limits:** No claim that prophecy actually covers C_S.  
 **Live 36 cells:** XL→COMP exact source role; COMP→BND authentication versus target coverage; SUB→INT prepare positive-control return.  
