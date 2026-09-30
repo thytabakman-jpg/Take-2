@@ -253,7 +253,7 @@ Section 4.3 immediately after the R_current equation.
 
 ## A12. Prospective Sikh structural holdout
 
-A preregistered external holdout was run after the architecture/failure conditions were frozen.
+A prospectively frozen external holdout was run after the architecture/failure conditions were frozen; this wording does not imply a public preregistration registry.
 
 Observed result:
 - no new primitive required;
