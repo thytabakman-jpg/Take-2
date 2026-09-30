@@ -1,13 +1,13 @@
 # Canonical Authority — Paragraph Control Map
 
 Status: ACTIVE FIRST-FULL-DRAFT CONTROL  
-Date: 2026-09-29  
+Date: 2026-09-30  
 Branch: `workstream/canonical-authority-draft-20260929`  
 Companion manuscript: `MANUSCRIPT_DRAFT.md`
 
 ## Live research basis
 
-Current manuscript research basis: **CANON:ARCH:001 v1.3.0**, `RESEARCH_ARCHITECTURE_LIVE.yaml`.
+Current manuscript research basis: **CANON:ARCH:001 v1.3.1**, `RESEARCH_ARCHITECTURE_LIVE.yaml`.
 
 The imported v1.2.0 architecture remains historical provenance and is superseded for live manuscript work because it encodes the old (I_S) target. All live source-to-target analysis uses (C_S).
 
@@ -49,7 +49,7 @@ Use mathematics only where it protects a load-bearing boundary, exposes a genuin
 3. bounded current-route result over \(\mathcal R_{current}\);
 4. selector-attribution sensitivity with \(V=F(S;\Phi,\Psi)\);
 5. Bayesian shared-status symmetry as a non-load-bearing cross-check;
-6. conceptual typed path: source/channel → native output/status → licensed bridge → target-indexed ground → discrimination → evaluator uptake.
+6. conceptual typed path: source/channel → native output/status → licensed bridge → target-linked support → rival discrimination → evaluator uptake.
 
 The later cut pass may remove any formula that does not improve reader understanding or claim protection. Do not add full selector-space mathematics, 36D machinery, package lattices, regress formalization, or backend controller equations merely because they exist.
 
@@ -338,7 +338,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 
 **Question:** What is the difference between combining many sources into one traced support relation and combining many completed grounds into one verdict?  
 **Job:** Make the package TRACE / COMPOSE distinction memorable before DISCRIMINATE and RECOGNIZE complete the route architecture.  
-**Reader:** Understands package-aware TRACE → can distinguish many sources → one ground from many grounds → one verdict.  
+**Reader:** Understands package-aware TRACE → can distinguish many sources → one traced support relation from many completed grounds → one verdict.  
 **Earned claim:** Package TRACE solves many sources → one traced support; COMPOSE solves many completed evaluator-usable grounds → one verdict. They cannot be collapsed without misattributing selector information.  
 **Evidence:** CANON:D:039, D:056, D:057; package-TRACE and COMPOSE audits.  
 **Limits:** This paragraph distinguishes the operations; it does not claim that COMPOSE is realized in the current case.  
