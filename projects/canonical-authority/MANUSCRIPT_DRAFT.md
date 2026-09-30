@@ -154,9 +154,9 @@ Target linkage is necessary but not sufficient for adjudication. A traced suppor
 ## 3.3 RECOGNIZE
 
 <!-- P17 -->
-A genuine target-indexed discriminator becomes evaluator-usable only through an additional step. RECOGNIZE marks that step. The evaluator needs warranted grounds for identifying the relevant source relation and relying on it in the case at hand. Contemporary work on expertise and epistemic authority helps clarify why target-indexed support and evaluator uptake are distinct. A source can possess an epistemically important relation that a third party cannot reliably identify, authenticate, or use. In religious contexts, texts, institutions, interpretive communities, and recognized bearers can contribute to that uptake insofar as they participate in warranted access to the discriminator. Social recognition alone remains insufficient.
+A genuine rival-specific discriminator becomes evaluator-usable only through an additional step. RECOGNIZE marks that step. The evaluator needs warranted grounds for identifying the relevant source relation and relying on it in the case at hand. Contemporary work on expertise and epistemic authority helps clarify why source-side support and evaluator uptake are distinct. A source can possess an epistemically important relation that a third party cannot reliably identify, authenticate, or use. In religious contexts, texts, institutions, interpretive communities, and recognized bearers can contribute to that uptake insofar as they participate in warranted access to the discriminator. Social recognition alone remains insufficient.
 
-Let \(X\) be an independently admissible source package, \(\Delta\) a target-indexed ground, and \(e\) the evaluator. Route-level success can then be stated compactly as
+Let \(X\) be an independently admissible source package, \(\Delta\) a target-linked support relation, and \(e\) the evaluator. Route-level success can then be stated compactly as
 
 \[
 PackageGround_e(X,C_S)
@@ -171,7 +171,7 @@ RECOGNIZE_e(\Delta,C_S)
 \big].
 \]
 
-The equation does not add another substantive requirement. It simply makes the layering explicit: TRACE and DISCRIMINATE establish the target-indexed ground, while RECOGNIZE concerns evaluator-specific usability.
+The equation does not add another substantive requirement. It makes the layering explicit: TRACE establishes target linkage, DISCRIMINATE establishes rival-specific truth-relevant force, and RECOGNIZE establishes evaluator-specific usability. Only the completed conjunction yields an evaluator-usable package ground.
 
 ## 3.4 The COMPOSE Boundary
 
