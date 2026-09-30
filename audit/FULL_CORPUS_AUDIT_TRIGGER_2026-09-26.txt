@@ -1,2 +1,3 @@
 Full corpus content audit trigger. Source branch isolates this campaign from concurrent ImproveCore work.
 2026-09-30 ImproveCore revalidation trigger: execute full-corpus placement audit and preserve results as evidence.
+2026-09-30 ImproveCore revalidation trigger after recovered Sukkos count currentness repair.
