@@ -226,7 +226,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Question:** Once a source is reconstructed, what is the first thing that must be shown?  
 **Job:** Introduce PROFILE as setup and TRACE as the first adjudicative operation.  
 **Reader:** Has typed sources → knows why source relevance requires an actual route to C_S.  
-**Earned claim:** TRACE asks whether an independently admissible source package supplies a licensed relation to the target. A bridge is licensed only when independently supported by the source, interpretive framework, or an explicitly defended external inferential principle; externally licensed bridges yield mixed rather than source-only provenance. The article may use the typed-path schematic source/channel → native output/status → licensed bridge → target-indexed ground → discrimination → evaluator uptake to expose hidden type conversions.  
+**Earned claim:** TRACE asks whether an independently admissible source package supplies a licensed relation to the target. A bridge is licensed only when independently supported by the source, interpretive framework, or an explicitly defended external inferential principle; externally licensed bridges yield mixed rather than source-only provenance. The article may use the typed-path schematic source/channel → native output/status → licensed bridge → target-linked support → rival discrimination → evaluator uptake to expose hidden type conversions.  
 **Evidence:** CANON:D:032, D:034, D:037, D:056.  
 **Limits:** PROFILE is not an extra success hurdle; it is required setup. Licensed and source-attributable are distinct properties.  
 **Live 36 cells:** SUB→COMP method compression; BND→COMP setup versus success; INT→SYS make technical vocabulary intuitive.  
@@ -234,10 +234,10 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 
 ### P14 — Make TRACE package-aware and distinguish package admissibility
 
-**Question:** Why can multiple admitted sources jointly establish one ground, and what licenses their joint use?  
+**Question:** Why can multiple admitted sources jointly establish one target-linked support relation, and what licenses their joint use?  
 **Job:** Combine the package-admissibility and package-aware TRACE requirements into one compact rule.  
 **Reader:** Understands TRACE → sees why singleton failure cannot be promoted to corpus failure and why joint source use needs its own license.  
-**Earned claim:** TRACE ranges over independently licensed source packages; corpus admission and package admissibility are different controls, and a singleton is the one-member special case.  
+**Earned claim:** TRACE ranges over independently licensed source packages; corpus admission and package admissibility are different controls, a singleton is the one-member special case, and package TRACE establishes target-linked support rather than a completed evaluator-usable ground.  
 **Evidence:** CANON:D:056, D:057; RESPONSE_CORPUS_ADMISSION.yaml; source-package TRACE audit.  
 **Limits:** Package TRACE is not COMPOSE and does not authorize arbitrary aggregation.  
 **Live 36 cells:** BND→SYS corpus versus package; COMP→BND package TRACE versus COMPOSE; INT→SUB reader encounters the distinction at point of use.  
@@ -245,21 +245,21 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 
 ### P15 — Distinguish the two multiplicity problems
 
-**Question:** What is the difference between combining many sources into one ground and combining many grounds into one verdict?  
-**Job:** Make the package TRACE / COMPOSE distinction memorable before DISCRIMINATE and RECOGNIZE continue the route architecture.  
+**Question:** What is the difference between combining many sources into one traced support relation and combining many completed grounds into one verdict?  
+**Job:** Make the package TRACE / COMPOSE distinction memorable before DISCRIMINATE and RECOGNIZE complete the route architecture.  
 **Reader:** Understands package-aware TRACE → can distinguish many sources → one ground from many grounds → one verdict.  
-**Earned claim:** Package TRACE and COMPOSE solve different multiplicity problems and cannot be collapsed without misattributing selector information.  
+**Earned claim:** Package TRACE solves many sources → one traced support; COMPOSE solves many completed evaluator-usable grounds → one verdict. They cannot be collapsed without misattributing selector information.  
 **Evidence:** CANON:D:039, D:056, D:057; package-TRACE and COMPOSE audits.  
 **Limits:** This paragraph distinguishes the operations; it does not claim that COMPOSE is realized in the current case.  
 **Live 36 cells:** COMP→BND package TRACE versus COMPOSE; BND→SYS preserve corrected method; XL→SUB audit repair into concise prose.  
-**Decision:** Use the two-arrow formulation: many sources → one ground; many grounds → one verdict.
+**Decision:** Use the two-arrow formulation: many sources → one traced support; many completed grounds → one verdict.
 
 ### P16 — DISCRIMINATE
 
 **Question:** What if a source reaches the topic but does not favor either rival?  
 **Job:** Separate target relevance from asymmetric selection.  
 **Reader:** Can trace a relation → knows that trace alone does not adjudicate.  
-**Earned claim:** A completed target-indexed ground requires a target relation that asymmetrically supports P_R or P_N concerning truth.  
+**Earned claim:** DISCRIMINATE asks whether a target-linked support relation supplies rival-specific truth-relevant force for P_R or P_N; without that asymmetry the route has not yet produced a ground for preference.  
 **Evidence:** CANON:D:007, D:033, D:038, D:054.  
 **Limits:** Do not multiply diagnostics into reader-facing primitives.  
 **Live 36 cells:** COMP→BND relevance versus discrimination; SUB→SYS preserve four-stage compression; INT→COMP intuitive example language.  
@@ -270,7 +270,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Question:** Does a real discriminator automatically give a later evaluator usable grounds?  
 **Job:** Separate source-side support from evaluator uptake.  
 **Reader:** Knows what discrimination is → sees the evaluator-relative requirement.  
-**Earned claim:** SourceGround and evaluator-specific usability are distinct. The manuscript may formalize route success as \(PackageGround_e(X,C_S)\iff \exists\Delta[TRACE\land DISCRIMINATE\land RECOGNIZE]\), with the arguments shown explicitly.  
+**Earned claim:** Target-linked support, rival-specific force, and evaluator-specific usability are distinct. The manuscript may formalize route success as \(PackageGround_e(X,C_S)\iff \exists\Delta[TRACE\land DISCRIMINATE\land RECOGNIZE]\), with \(\Delta\) identified as the target-linked support relation and the arguments shown explicitly.  
 **Evidence:** CANON:SRC:006, SRC:007; CANON:D:008, D:029, D:035, D:054.  
 **Limits:** Social recognizability matters only where it bears on warranted use.  
 **Live 36 cells:** BND→COMP source-side versus evaluator-side; XL→COMP external epistemology calibration; INT→SUB set up multi-ground boundary.  
@@ -278,7 +278,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 
 ### P18 — COMPOSE only after several completed grounds exist
 
-**Question:** What changes when several independently completed grounds point in different directions?  
+**Question:** What changes when several independently completed evaluator-usable grounds point in different directions?  
 **Job:** Introduce the conditional case-level composition/defeat problem.  
 **Reader:** Understands one usable route → sees why route success is not automatically an all-things-considered verdict.  
 **Earned claim:** COMPOSE is distinct from package TRACE and requires separately licensed selection semantics; selector-added information requires attribution.  
@@ -369,7 +369,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Question:** What has the paper actually contributed once the reader has traversed the case and method?  
 **Job:** Synthesize the contribution in earned order.  
 **Reader:** Has all premises/results → can reconstruct the contribution hierarchy.  
-**Earned claim:** The paper builds on inherited fixed-target comparison and domain sensitivity, develops the integrated source-to-ground architecture plus package TRACE/COMPOSE and attribution controls, obtains the bounded Rashi–Ramban package-and-bridge TRACE non-completion result, derives cross-function transfer and selector-attribution significance, and makes PD visible as a discovery discipline that generated candidate distinctions later independently defended.  
+**Earned claim:** The paper builds on inherited fixed-target comparison and domain sensitivity, develops the integrated source-to-evaluator architecture plus package TRACE/COMPOSE and attribution controls, obtains the bounded Rashi–Ramban package-and-bridge TRACE non-completion result, derives cross-function transfer and selector-attribution significance, and makes PD visible as a discovery discipline that generated candidate distinctions later independently defended.  
 **Evidence:** NOVELTY_CONTRIBUTION_MAP.md; CANON:D:019, D:032, D:038, D:050, D:058.  
 **Limits:** Synthesis does not independently prove earlier claims.  
 **Live 36 cells:** SUB→SYS contribution lift; COMP→BND typed contributions; INT→SYS reader reconstruction.  
@@ -391,11 +391,11 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Question:** What can the reader now say, and what evidence would change it?  
 **Job:** Close the paper without overclaiming.  
 **Reader:** Knows contribution and novelty → leaves with result, significance, limits, and change conditions.  
-**Earned claim:** The current corpus supplies no completed proposition-specific second-order route selecting between P_R and P_N, while the method identifies exactly what a future source package would have to add to reopen that result.  
+**Earned claim:** The current corpus supplies no recovered licensed TRACE completion to C_S. A licensed target relation reopens that TRACE result; changing the overall adjudicative suspension further requires rival-specific discrimination and warranted evaluator use, with COMPOSE becoming live only if several completed grounds conflict.  
 **Evidence:** CANON:D:018, D:058, D:060, D:062, D:063; explicit source gates.  
 **Limits:** Non-exhaustive corpus, pending source closure, no first-order grammar verdict.  
 **Live 36 cells:** SYS→SYS terminal coherence; BND→SYS limits; XL→INT future evidence/reopen contract.  
-**Decision:** End on precision and revisability, not a universal negative.
+**Decision:** End on precision and revisability, not a universal negative. Keep the TRACE-reopening threshold distinct from the stronger threshold for changing the final adjudicative suspension.
 
 ## First-draft weakness pass
 
@@ -422,7 +422,7 @@ The first redraft pass targets the weakest surviving paragraphs rather than glob
 
 **Reader:** can identify observable or argumentative conditions under which the paper changes its claims.
 
-**Earned claim:** The fixed-case setup is defeated by a genuine reconciliation or better source reconstruction; the bounded result is defeated by a recovered admissible route that reaches C_S, discriminates, and is recognizable; a module diagnosis is revised by source evidence supplying its missing relation; the route architecture is challenged by a successful case in which TRACE, DISCRIMINATE, or RECOGNIZE can be removed without loss; the novelty claim is defeated by a sufficiently close predecessor.
+**Earned claim:** The fixed-case setup is defeated by a genuine reconciliation or better source reconstruction; the bounded TRACE non-completion result is defeated by any recovered admissible route that supplies a licensed target relation to C_S; the stronger adjudicative suspension can still survive if that route later fails DISCRIMINATE or RECOGNIZE; a module diagnosis is revised by source evidence supplying its missing relation; the route architecture is challenged by a successful case in which TRACE, DISCRIMINATE, or RECOGNIZE can be removed without loss; the novelty claim is defeated by a sufficiently close predecessor.
 
 **Limits:** Do not pretend every philosophical claim is Popperian empirical science. Distinguish source-facing falsification, conceptual counterexample/collapse, and literature-based novelty defeat.
 
