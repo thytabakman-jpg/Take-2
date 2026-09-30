@@ -90,7 +90,7 @@ Novelty status: paper-specific problem formulation; do not claim historical prio
 
 Pluralism, provenance, institutional authority, hierarchy, reconstruction, prophecy, and received creation tradition cannot be treated as one generic “authority” variable.
 
-Value: strong comparative synthesis.
+Value: strong comparative synthesis. The current manuscript now sharpens this into a typed stopping-point profile rather than a generic list of authority forms.
 
 Earliest location: Section 2.
 
@@ -117,6 +117,71 @@ Earliest earning location: Section 2.5, then formalized in Sections 3.1 and 5.2.
 Novelty status: potentially distinctive in this exact framework; closest-literature closure still needed.
 
 ---
+
+## B6. PD as a discovery and stress-testing heuristic
+
+The article makes PD visible as a structured distinction audit used to expose hidden type changes, unstated conversions, result-sensitive bridges, and collapsed inferential roles.
+
+Value: explains how several candidate distinctions were discovered and stress-tested.
+
+Boundary: PD is not an evidentiary premise. Every article-facing conclusion must remain independently recoverable from the sources and arguments presented in the paper.
+
+Novelty status: methodological transparency and paper-specific research practice, not a historical-priority claim for a validated standalone method.
+
+## B7. Missing target content versus missing transfer or selector
+
+Two recurrent obstructions are distinct:
+
+- **missing target content** — an authoritative, received, authenticated, or case-proximate channel exists, but the disputed proposition is not shown to be content carried by it;
+- **missing transfer or selector** — relevant status or content exists, but asymmetric truth support requires an additional reliability rule, bridge, or selector.
+
+Value: sharper diagnosis than generic "authority is insufficient."
+
+Earliest earning location: Section 2.5.
+
+Novelty status: strong paper-specific conceptual distinction; closest-literature comparison remains bounded.
+
+## B8. Canonical preservation can stabilize an unresolved rival set
+
+Canonical or communal preservation can maintain rival claims within the authoritative interpretive space without selecting between them.
+
+Value: separates preservation/legitimacy from truth selection and explains why canonicality can increase the durability of unresolved disagreement.
+
+Earliest earning location: Section 2.2.
+
+Novelty status: paper-specific synthesis with likely neighbors in canon and cultural-memory studies.
+
+## B9. Lost authority does not automatically transfer to reconstruction
+
+The authority or epistemic status of a lost item does not automatically attach to a later reconstruction merely because the reconstruction aims to recover that item.
+
+Value: a non-transmission principle for loss/recovery arguments.
+
+Earliest earning location: Section 2.3.
+
+Novelty status: strong bounded synthesis; do not claim absolute priority without comparator closure.
+
+## B10. Disciplined suspension can be a positive epistemic output
+
+When the declared corpus has been traced, illicit transfers excluded, and reopen conditions specified, suspension can be the strongest warranted result rather than a mere failure to decide.
+
+Value: turns the bounded negative result into an epistemically positive output discipline.
+
+Earliest earning location: Section 4.3.
+
+Novelty status: paper-specific application; suspension/underdetermination literatures provide neighboring concepts.
+
+## B11. Typed authority paths
+
+Authority arguments can be represented as transitions among different object types:
+
+source/channel → native output/status → licensed bridge → target-indexed ground → discrimination → evaluator uptake.
+
+Value: exposes hidden type conversions and clarifies why accumulation of status at one level cannot manufacture a missing proposition-specific relation at another.
+
+Earliest earning location: Section 3.1.
+
+Novelty status: strong paper-specific compression; graph/type/provenance analogies exist in neighboring fields.
 
 # C. Earliest defensible bounded methodological novelty
 
@@ -294,6 +359,22 @@ Novelty status: disciplinary positioning, not likely standalone novelty.
 
 ---
 
+## E4. Multidisciplinary convergence at a fixed truth target
+
+The paper creates a meeting point among:
+
+- social epistemology — evaluator warrant, testimony, expertise, recognized authority;
+- provenance theory — what information belongs to a source versus later transformations;
+- sociology of religious knowledge — production, transmission, classification, authentication, and authorization of knowledge;
+- canon and cultural-memory studies — preservation and organization without automatic truth selection;
+- comparative religious studies — comparison across heterogeneous mechanisms through a fixed tertium.
+
+The contribution is not that these fields reduce to one theory. Their distinctions become jointly useful when the same question is asked: where does proposition-specific truth support enter the authority argument?
+
+Earliest earning location: Sections 5.3–6.
+
+Novelty status: interdisciplinary synthesis, bounded by the literature actually reviewed.
+
 # F. Strongest novelty package
 
 [
@@ -322,7 +403,9 @@ expanded as:
 - package TRACE / COMPOSE separation;
 - selector attribution;
 - bounded Rashi–Ramban package result;
-- cross-function authority-transfer consequence.
+- cross-function authority-transfer consequence;
+- typed obstruction distinction between missing target content and missing transfer/selector;
+- explicit multidisciplinary convergence at a fixed truth target.
 
 Safe claim:
 
