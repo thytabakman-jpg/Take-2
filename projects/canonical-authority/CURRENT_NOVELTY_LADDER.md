@@ -183,6 +183,54 @@ Earliest earning location: Section 3.1.
 
 Novelty status: strong paper-specific compression; graph/type/provenance analogies exist in neighboring fields.
 
+## B12. Correctness-scope trilemma
+
+When protected reception or mesorah is invoked as a correctness guarantee, the local possibilities are: no guarantee on the disputed matter; a guarantee whose scope includes the target; or a genuine guarantee whose scope excludes the target.
+
+Value: converts vague correctness language into an inspectable branching argument and shows why each branch still requires proposition-specific discrimination.
+
+Novelty status: restored legacy paper-specific analytic structure; no absolute priority claim.
+
+## B13. Divergence plus convergence across response families
+
+Routes can stop at different inferential locations while successful adjudication converges on the same higher-order jobs: target reach, truth-relevant discrimination, and warranted evaluator uptake.
+
+Value: restores the strongest earned convergence claim without flattening the routes.
+
+Novelty status: central synthesis.
+
+## B14. Outcome classes for response families
+
+A response can leave truth-selection open, relocate the dispute to a higher-order proposition, or supply a genuine discriminator and succeed.
+
+Value: prevents the architecture from being misread as a universal failure machine.
+
+Novelty status: paper-specific organizational result.
+
+## B15. Diagnostic adequacy is stronger than terminal-verdict preservation
+
+Two analyses that both end in suspension are not equivalent when one preserves the stopping-point type and reopen condition while the other collapses them.
+
+Value: explains why typed obstruction analysis adds knowledge beyond a negative verdict.
+
+Novelty status: methodological synthesis with neighboring representation/diagnostic literature.
+
+## B16. Classification reproducibility is not truth-tracking reliability
+
+A definition or criterion can classify traditions consistently while failing to discriminate which factual proposition is true.
+
+Value: sharpens authenticity/mesorah arguments and connects classification theory to epistemology.
+
+Novelty status: strong bounded distinction; neighboring measurement/classification literatures exist.
+
+## B17. Attribute-indexed authenticity
+
+Authenticity of provenance, continuity, reception, identity, or function does not automatically confer truth on every proposition carried by the authentic bearer.
+
+Value: generalizes the provenance lesson beyond the worked case.
+
+Novelty status: multidisciplinary synthesis, not historical priority.
+
 # C. Earliest defensible bounded methodological novelty
 
 ## C1. Integrated source-to-ground architecture
@@ -202,7 +250,7 @@ RECOGNIZE
 where:
 
 - PROFILE reconstructs native source function;
-- TRACE requires a licensed source-attributable relation to the fixed proposition;
+- TRACE requires a licensed, provenance-explicit relation to the fixed proposition;
 - DISCRIMINATE requires rival-specific asymmetry;
 - RECOGNIZE requires warranted evaluator usability.
 
@@ -222,7 +270,7 @@ SourceGround = TRACE + DISCRIMINATE
 
 while evaluator-specific usability additionally requires RECOGNIZE.
 
-Value: precise separation of objective/source-side support from third-party usability.
+Value: precise separation of target-indexed support from third-party usability, including source-only and explicitly mixed-provenance routes.
 
 Earliest earning location: Section 3.3.
 
@@ -300,20 +348,23 @@ Earliest earning location: Section 4.2.
 
 Novelty status: potentially strong case-specific clarification.
 
-## D3. Package-level TRACE obstruction
+## D3. Bounded package-and-bridge TRACE non-completion
 
-Relative to the current seven-family corpus and the independently licensed package/bridge routes actually recovered or defended:
+Let \(\mathcal R_{current}\) denote the package/bridge routes actually recovered and independently licensed in the current seven-family corpus. The worked-case result is:
 
-[
-orall X in AdmPkg_A, 
-eg TRACE(X,C_S).
-]
+\[
+\nexists r\in\mathcal R_{current}
+\quad
+TRACE(r,C_S).
+\]
+
+This is intentionally weaker than a universal claim over every logically imaginable future route.
 
 Earliest earning location: Section 4.3.
 
 Earliest announcement location: Section 1.2.
 
-Novelty status: strongest clear new worked-case result, stated as a bounded recovery claim rather than a universal impossibility claim.
+Novelty status: strongest clear new worked-case result, explicitly bounded to the recovered and licensed current route space.
 
 ## D4. Downstream invariance while TRACE is blocked
 
@@ -375,6 +426,14 @@ Earliest earning location: Sections 5.3–6.
 
 Novelty status: interdisciplinary synthesis, bounded by the literature actually reviewed.
 
+## E5. Prospective cross-tradition anti-overfitting evidence
+
+A prospectively frozen Sikh-authority holdout reproduced the route-level distinctions without adding a rescue primitive. Earlier exploratory Catholic, Sunni hadith, charismatic, and Latter-day Saint stress tests showed similar jobs.
+
+Value: evidence that the architecture is not merely a vocabulary-specific reverse engineering of the Jewish case.
+
+Boundary: this is structural anti-overfitting evidence, not universal validation and not a second fully worked truth-proposition case.
+
 # F. Strongest novelty package
 
 [
@@ -397,7 +456,7 @@ expanded as:
 
 - fixed truth target;
 - native-function preservation;
-- source-attributable package TRACE;
+- provenance-controlled package TRACE;
 - rival-specific DISCRIMINATE;
 - evaluator-relative RECOGNIZE;
 - package TRACE / COMPOSE separation;
@@ -405,7 +464,9 @@ expanded as:
 - bounded Rashi–Ramban package result;
 - cross-function authority-transfer consequence;
 - typed obstruction distinction between missing target content and missing transfer/selector;
-- explicit multidisciplinary convergence at a fixed truth target.
+- explicit multidisciplinary convergence at a fixed truth target;
+- divergence-plus-convergence response architecture;
+- bounded prospective cross-tradition anti-overfitting evidence.
 
 Safe claim:
 
@@ -419,7 +480,7 @@ Safe claim:
 
 The introduction can announce three things immediately:
 
-1. **Methodological thesis:** status alone is insufficient; a usable ground must travel through a source-attributable path to the exact proposition, discriminate the rivals, and be warrantedly usable by the evaluator.
+1. **Methodological thesis:** status alone is insufficient; a usable ground must travel through a licensed and provenance-explicit path to the exact proposition, discriminate the rivals, and be warrantedly usable by the evaluator.
 2. **Case result:** in the current seven-family corpus, no admissible package completes that path to C_S.
 3. **Broader payoff:** the failure pattern shows why authority transfer across functions requires explicit transfer relations and attribution.
 
