@@ -291,7 +291,7 @@ The architecture can also be tested by ablation: remove one stage and ask what m
 | RECOGNIZE | A real but inaccessible or unauthenticated evidential relation can be treated as usable warrant |
 | Separate COMPOSE | Combining sources into one ground can be confused with ranking several completed grounds |
 
-The claim concerns functional non-redundancy. The labels themselves are replaceable vocabulary for those jobs. A proposed simplification is welcome when it preserves every distinction above. If two stages can genuinely be collapsed without reintroducing one of these errors, the architecture should be simplified. That possibility is already included among the paper's explicit defeat conditions.
+The claim concerns functional non-redundancy. The labels themselves are replaceable vocabulary for those jobs. A proposed simplification is welcome when it preserves every distinction above. If two stages can genuinely be collapsed without reintroducing one of these errors, the architecture should be simplified. That possibility is already included among the paper's explicit defeat conditions. Only after the route-level jobs survive that scrutiny does the separate many-grounds problem become live.
 
 ## 3.4 The COMPOSE Boundary
 
