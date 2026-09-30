@@ -18,13 +18,19 @@ The remaining blockers are publication apparatus and evidence closure, not conce
 
 ### 1. Citation apparatus
 
-Current manuscript has no publication-form citation system and no bibliography.
+A stable numeric source-control system now exists:
+
+- CITATION_LEDGER.md — stable source IDs [1]–[56], source type, proposition coverage, and closure status;
+- ARGUMENT_EVIDENCE_MAP.md — paragraph/claim-unit map showing which claims need which citations and which are analytic rather than externally sourced.
+
+The manuscript itself still lacks final publication-form inline/footnote citations and a formatted bibliography.
 
 Required:
-- exact citations for primary Jewish sources;
-- exact citations for article-facing secondary scholarship;
-- consistent citation style;
-- bibliography / references.
+- insert final citation markers from the stable ledger into the manuscript;
+- normalize exact editions/pages for article-facing primary sources;
+- close OPEN ledger items that remain article-visible;
+- select journal citation style;
+- generate bibliography / references.
 
 ### 2. Abstract and submission packaging
 
@@ -39,8 +45,8 @@ Required:
 ### 3. H_R source closure
 
 Article-facing open gates:
-- Amos Funkenstein, Zion 45 (1980): 35-59 — full text still pending independent inspection;
-- Moshe Halbertal, Al Derekh ha-Emet (2006) — exact chapter/pages bearing on Bereishis 1:1 and peshat/sod still pending independent inspection.
+- Amos Funkenstein, Zion 45 (1980): 35-59 — bibliography and Berger's quotation are verified; full text still pending independent inspection;
+- Moshe Halbertal, Nahmanides: Law and Mysticism (2020) / Hebrew antecedent — book verified; exact chapter/pages bearing on Bereishis 1:1 and peshat/sod still pending independent inspection.
 
 These sources matter because Section 4.2 uses them to constrain the strongest case-proximate route.
 
@@ -62,7 +68,19 @@ Before submission:
 
 ### 6. Final source-facing claim audit
 
-Every externally checkable historical or scholarly claim in the manuscript needs a citation or deletion.
+A full manuscript fact-check has now been completed and source-facing claims are tracked in:
+
+- audits/FULL_MANUSCRIPT_FACT_CHECK_2026-09-30.md;
+- ARGUMENT_EVIDENCE_MAP.md;
+- CITATION_LEDGER.md.
+
+Verified corrections already propagated to the manuscript include:
+- restoration of Rashi's extant Yeshayahu 46:10 ellipsis treatment and Ramban's omitted-kol reply;
+- explicit separation of the extant-text logical relation from Re'em's historical-recension question;
+- correction of R. Yishmael's date to c. 50–c. 135 CE;
+- preservation of Berger's adversarial context when reporting Funkenstein.
+
+Remaining externally checkable claims need final publication citations, and OPEN/YELLOW evidence-map units must be closed or revised before submission.
 
 Priority examples:
 - recurrence examples across Tannaim, Amoraim, Geonim, Rishonim;
@@ -94,7 +112,7 @@ The full recovery pass added article-visible material that now creates additiona
 
 Close before submission:
 
-- Re'em / Eliyahu Mizrahi on the variant recension of Rashi to Bereishis 1:1;
+- Re'em / Eliyahu Mizrahi on the variant recension of Rashi to Bereishis 1:1 — SOURCE VERIFIED; final edition/locator formatting remains;
 - the protected-reception / correctness-scope trilemma against Rambam's received-content sources;
 - Judah Halevi, Kuzari III:24, if the concurrent-transmission success model remains in the final cut;
 - Michael Bergmann on benign and malignant epistemic circularity;
