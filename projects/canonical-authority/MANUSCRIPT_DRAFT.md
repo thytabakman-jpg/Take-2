@@ -149,7 +149,7 @@ Keeping those operations separate prevents source combination from silently impo
 ## 3.2 DISCRIMINATE
 
 <!-- P16 -->
-Target relevance is the beginning of discrimination rather than its completion. A route can reach (C_S) while leaving both rivals equally situated. DISCRIMINATE asks whether the traced relation is asymmetric in the fixed case. Does it support (P_R) over (P_N), or (P_N) over (P_R), concerning truth? This requirement prevents topic relevance from masquerading as adjudication. It also compresses several lower level diagnostics into one reader facing job. Proposition linkage, case instantiation, and truth relevance matter because together they must yield a rival-specific difference. When they do not, the route may illuminate the dispute while still leaving the evaluator without a reason to choose between the competing claims.
+Target linkage is necessary but not sufficient for adjudication. A traced support relation can bear on \(C_S\) while leaving both rivals equally situated. DISCRIMINATE asks whether that relation is asymmetric in the fixed case: does it support \(P_R\) over \(P_N\), or \(P_N\) over \(P_R\), concerning truth? This requirement prevents topic relevance or proposition contact from masquerading as adjudication. Proposition linkage, case instantiation, and truth relevance matter because together they must yield a rival-specific difference. Without that difference, the route can illuminate the dispute while still failing to supply a ground for preferring either claim.
 
 ## 3.3 RECOGNIZE
 
