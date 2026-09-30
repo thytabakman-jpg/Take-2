@@ -47,95 +47,62 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 
 ## Paragraph records
 
-### P01 — Make the collision visible
+### P01 — Make the collision visible and formal
 
-**Question:** What exactly do Rashi and Ramban disagree about in Bereishis 1:1?  
-**Job:** Present both readings in ordinary prose and expose the shared syntactic coordinate before any second-order analysis.  
-**Reader:** Knows the commentators generally → can describe Rashi's dependent reading and Ramban's independent-predication reading.  
-**Earned claim:** The two commentators assign different syntactic roles to the same opening words.  
+**Question:** What exactly do Rashi and Ramban disagree about in Bereishis 1:1, and what compact proposition lets the reader carry that disagreement forward?  
+**Job:** Present both readings in ordinary prose, define I_S, P_R, and P_N, and make the incompatibility explicit in one movement.  
+**Reader:** General awareness of the commentators → can state both readings and the exact proposition-level collision.  
+**Earned claim:** Rashi and Ramban assign incompatible syntactic roles to the same opening words under the fixed proposition I_S.  
 **Evidence:** CANON:SRC:001, CANON:SRC:002; CANON:D:001.  
 **Limits:** No canonical-status argument; no authority theory; no first-order verdict.  
-**Live 36 cells:** XL→COMP source fidelity; COMP→BND symmetric presentation of the two readings; SUB→INT ordinary language precedes notation.  
-**Decision:** Keep M01 case-first and strip downstream significance from this paragraph.
+**Live 36 cells:** XL→COMP source fidelity; COMP→BND symmetric presentation; SUB→INT ordinary language before notation; COMP→INT notation compresses rather than expands.  
+**Decision:** Section 1.1 earns the collision completely and stops.
 
-### P02 — Formalize and hand off
-
-**Question:** What compact proposition lets the reader carry the exact collision forward?  
-**Job:** Define I_S, P_R, and P_N, state their incompatibility, and pull directly into M02.  
-**Reader:** Understands the dispute informally → can state the contradiction formally and ask what could adjudicate it.  
-**Earned claim:** Under the fixed proposition I_S, P_R and P_N exclude one another in the same sense.  
-**Evidence:** CANON:SRC:001, CANON:SRC:002; fixed-case controls.  
-**Limits:** No preview of the mechanism families or fixed-target method.  
-**Live 36 cells:** COMP→SYS formalization compresses the case; INT→COMP notation lowers later cognitive load; COMP→INT final sentence creates the M02 question.  
-**Decision:** End on the need for grounds, not on the future method.
-
-### P03 — State the later-evaluator question
+### P02 — State the later-evaluator question
 
 **Question:** What source-grounded basis can a later evaluator use to favor one rival as true?  
-**Job:** Convert the exact contradiction into the paper's central second-order research question.  
-**Reader:** Sees the collision → knows exactly what the paper is trying to find out.  
+**Job:** Convert the exact contradiction into the paper's central second-order research question and state the scope boundary compactly.  
+**Reader:** Sees the collision → knows exactly what the paper is trying to find out and why shared canonical standing leaves the truth question open.  
 **Earned claim:** The paper studies grounds available to a later evaluator while leaving the first-order grammatical verdict open.  
 **Evidence:** CANON:D:002, D:030.  
-**Limits:** One compact scope boundary only; no output taxonomy here.  
+**Limits:** No output taxonomy and no method exposition here.  
 **Live 36 cells:** SYS→INT question clarity; SUB→BND first-order claim versus second-order grounds; XL→BND emic target versus etic analysis.  
-**Decision:** Make the question the center of the paragraph.
+**Decision:** End Section 1 with the question, not with a preview of the full apparatus.
 
-### P04 — Explain why the question remains live
+### P03 — Establish fixed-target comparison
 
-**Question:** Why does the exact collision still require a second-order inquiry?  
-**Job:** Show that shared canonical standing leaves the truth conflict unresolved and pull the reader into fixed-target comparison.  
-**Reader:** Knows the question → understands why proposition-specific grounds are still needed.  
-**Earned claim:** Shared canonical status leaves both rival truth claims in view.  
-**Evidence:** CANON:D:002, D:028.  
-**Limits:** Detailed distinctions among legitimacy, bindingness, provenance, authentication, explanation, and institutional settlement belong to P06/M04.  
-**Live 36 cells:** SUB→BND canonical standing versus proposition-specific grounds; INT→SUB direct pull into M03; BND→SYS preserve M02 as problem formation.  
-**Decision:** Keep this paragraph short and forward-moving.
-
-### P05 — Fix one target while preserving heterogeneous functions
-
-**Question:** How can unlike Jewish mechanisms be compared without pretending they do the same thing?  
-**Job:** Introduce fixed-target heterogeneous comparison.  
-**Reader:** Sees output diversity → understands the tertium comparationis.  
-**Earned claim:** A common proposition-pair permits comparison without common native function.  
+**Question:** How can fundamentally different Jewish mechanisms be compared without pretending that they do the same thing?  
+**Job:** Present fixed-target heterogeneous comparison as the paper's first substantive methodological claim.  
+**Reader:** Knows the question → understands the common coordinate that makes unlike mechanisms comparable.  
+**Earned claim:** A common proposition pair permits comparison while native functions remain distinct.  
 **Evidence:** CANON:SRC:041, SRC:042; CANON:D:025, D:026.  
 **Limits:** Fixed target does not imply exhaustive comparability.  
-**Live 36 cells:** SYS→SUB section architecture; XL→SYS comparative-method transfer; BND→COMP native-function preservation.  
-**Decision:** Make the fixed target the organizing principle of Section 2.
+**Live 36 cells:** SYS→SUB comparison architecture; XL→SYS comparative-method transfer; BND→COMP native-function preservation.  
+**Decision:** Treat this as a contribution, not as procedural housekeeping.
 
-### P06 — Define success at the target
+### P04 — Distinguish native success from target success
 
-**Question:** Which outputs actually count as progress on I_S?  
-**Job:** Distinguish target truth assessment from legitimacy, bindingness, provenance, authentication, explanation, and institutional settlement.  
-**Reader:** Accepts fixed-target comparison → can distinguish native success from target success.  
-**Earned claim:** A mechanism contributes to the paper's truth question only through a licensed proposition-specific relation to I_S.  
+**Question:** Which source outputs actually count as progress on I_S?  
+**Job:** State the second substantive methodological claim: success in a mechanism's native domain and success on the fixed truth target are different objects.  
+**Reader:** Accepts fixed-target comparison → understands why legitimacy, bindingness, provenance, authentication, explanation, and institutional settlement require a licensed relation to I_S before they bear on the truth dispute.  
+**Earned claim:** A mechanism contributes to the truth question through a proposition-specific relation to I_S, not merely through native success.  
 **Evidence:** CANON:D:003, D:009, D:010, D:015, D:028.  
-**Limits:** Preserve the real native value of each output; do not yet introduce full TRACE/DISCRIMINATE/RECOGNIZE terminology.  
-**Live 36 cells:** SUB→COMP success criterion; COMP→BND output-type distinctions; BND→SYS keep taxonomy in M04 rather than M02.  
-**Decision:** This paragraph now owns the distinctions removed from Section 1.2.
+**Limits:** Preserve the real native value of each output; do not introduce full TRACE/DISCRIMINATE/RECOGNIZE terminology yet.  
+**Live 36 cells:** SUB→COMP success criterion; COMP→BND output-type distinctions; BND→SYS preserve the native/target distinction.  
+**Decision:** Make the distinction itself the discovery.
 
-### P07 — Justify the seven-mechanism corpus
+### P05 — Justify the seven-mechanism corpus
 
-**Question:** Why these mechanisms, and what does their selection license the paper to conclude?  
-**Job:** Establish purposive, non-exhaustive corpus admission.  
-**Reader:** Knows success condition → understands the bounded comparison set.  
-**Earned claim:** The seven mechanisms sample materially different second-order functions relevant to the fixed question; they do not exhaust Jewish thought.  
+**Question:** Why these seven mechanisms, and what does their selection license the paper to conclude?  
+**Job:** Establish a purposive, non-exhaustive comparison set with minimal delay before the sources.  
+**Reader:** Knows the comparison target and success distinction → understands why the selected mechanisms are materially different and why the corpus remains bounded.  
+**Earned claim:** The seven mechanisms sample distinct second-order functions relevant to the fixed question without exhausting Jewish thought.  
 **Evidence:** RESPONSE_CORPUS_ADMISSION.yaml; SOURCE_MODULES.yaml; CANON:D:018, D:069.  
 **Limits:** No universal negative from corpus failure.  
-**Live 36 cells:** SYS→BND boundedness; XL→SUB backend admission rule into reader-facing rationale; COMP→SYS avoid arbitrary list effect.  
-**Decision:** Explain the principle of selection before naming the seven functions compactly.
+**Live 36 cells:** SYS→BND boundedness; XL→SUB admission rule into reader-facing rationale; COMP→SYS avoid arbitrary-list effect.  
+**Decision:** Keep compact and enter the sources immediately afterward.
 
-### P08 — Distinguish corpus admission from package admissibility
-
-**Question:** Why can multiple admitted sources later be tested together without changing what the corpus is?  
-**Job:** Introduce a distinction required for package TRACE.  
-**Reader:** Understands why mechanisms enter the corpus → understands a later combination question is separate.  
-**Earned claim:** Corpus admission and package admissibility are different controls.  
-**Evidence:** CANON:D:056, D:057; RESPONSE_CORPUS_ADMISSION.yaml.  
-**Limits:** Do not explain COMPOSE yet.  
-**Live 36 cells:** BND→SYS preserve two selection problems; INT→SUB set up source reconstruction; COMP→BND package versus corpus.  
-**Decision:** Keep short and forward-looking.
-
-### P09 — Pluralism and determination
+### P06 — Pluralism and determination
 
 **Question:** What does the pluralism/determination material natively establish?  
 **Job:** Reconstruct H_P before asking it to decide I_S.  
@@ -146,7 +113,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** XL→COMP source-status calibration; COMP→BND legitimacy versus truth; SUB→INT establish source-analysis rhythm.  
 **Decision:** Present the native job first, then the missing bridge.
 
-### P10 — Protected reception
+### P07 — Protected reception
 
 **Question:** Can provenance classification supply a truth selector?  
 **Job:** Reconstruct H_M.  
@@ -155,9 +122,9 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Evidence:** CANON:SRC:025, SRC:026; SOURCE_MODULES H_M; CANON:D:010.  
 **Limits:** Do not infer that later disagreement proves non-reception without source support.  
 **Live 36 cells:** COMP→BND provenance versus truth; XL→COMP Maimonidean source fidelity; SYS→INT cumulative comparison.  
-**Decision:** Let the contrast with P09 do explanatory work.
+**Decision:** Let the contrast with the preceding pluralism paragraph do explanatory work.
 
-### P11 — Authority and error
+### P08 — Authority and error
 
 **Question:** Does institutional authority itself make the authorized factual proposition true?  
 **Job:** Reconstruct H_A.  
@@ -168,7 +135,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** XL→COMP primary-source control; COMP→BND authority versus factual accuracy; SUB→SYS evidence for target-relative authority later.  
 **Decision:** Use as a strong anti-collapse case, not as a general attack on authority.
 
-### P12 — Loss, reconstruction, and generational hierarchy
+### P09 — Loss, reconstruction, and generational hierarchy
 
 **Question:** Do epistemic history or comparative stature generate a present proposition-specific selector?  
 **Job:** Reconstruct H_L and H_G efficiently.  
@@ -179,7 +146,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** SUB→COMP compress two support routes; BND→COMP explanation/status versus selector; XL→SYS preserve scope controls.  
 **Decision:** Keep both routes in one paragraph because their paper-facing job is boundary clarification.
 
-### P13 — Authenticated prophecy
+### P10 — Authenticated prophecy
 
 **Question:** Can a traditional mechanism ever satisfy the truth-directed architecture in principle?  
 **Job:** Reconstruct H_X as the positive-control source route before using it later as a test.  
@@ -190,7 +157,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** XL→COMP exact source role; COMP→BND authentication versus target coverage; SUB→INT prepare positive-control return.  
 **Decision:** Signal “in principle,” not current-case success.
 
-### P14 — Ramban's creation tradition
+### P11 — Ramban's creation tradition
 
 **Question:** Does Ramban's received Maaseh Bereishis material supply the exact missing case bridge?  
 **Job:** Reconstruct H_R without conflating received/esoteric creation knowledge with the peshat syntax I_S.  
@@ -201,7 +168,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** XL→COMP source-status discipline; COMP→BND topic proximity versus proposition coverage; BND→SYS protect bounded case result.  
 **Decision:** Make the missing proposition-specific edge explicit.
 
-### P15 — Mark the source/analysis boundary
+### P12 — Mark the source/analysis boundary
 
 **Question:** Where does source reconstruction end and project-level inference begin?  
 **Job:** Complete PROFILE and establish attribution discipline.  
@@ -212,7 +179,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** BND→SYS global attribution rule; XL→BND evidence/analysis boundary; INT→SUB handoff to method.  
 **Decision:** End Section 3 with the exact question Section 4 answers.
 
-### P16 — Introduce the route architecture through TRACE
+### P13 — Introduce the route architecture through TRACE
 
 **Question:** Once a source is reconstructed, what is the first thing that must be shown?  
 **Job:** Introduce PROFILE as setup and TRACE as the first adjudicative operation.  
@@ -223,7 +190,18 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** SUB→COMP method compression; BND→COMP setup versus success; INT→SYS make technical vocabulary intuitive.  
 **Decision:** Define through reader need, not backend taxonomy.
 
-### P17 — Make TRACE package-aware
+### P14 — Distinguish package admissibility inside TRACE
+
+**Question:** Why can multiple admitted sources be tested together without changing what the corpus is?  
+**Job:** Introduce package admissibility exactly when TRACE creates the need for it.  
+**Reader:** Understands TRACE → sees why singleton failure cannot be promoted to corpus failure and why joint source use needs its own license.  
+**Earned claim:** Corpus admission and package admissibility are different controls; one source is the singleton special case of a package.  
+**Evidence:** CANON:D:056, D:057; RESPONSE_CORPUS_ADMISSION.yaml; source-package TRACE audit.  
+**Limits:** Package TRACE is not COMPOSE and does not authorize arbitrary aggregation.  
+**Live 36 cells:** BND→SYS corpus versus package; COMP→BND package TRACE versus COMPOSE; INT→SUB reader encounters the distinction at point of use.  
+**Decision:** This material is removed from Section 2 and owned by the TRACE movement.
+
+### P15 — Make TRACE package-aware
 
 **Question:** Why is singleton route failure insufficient?  
 **Job:** Repair the possible inference from individual incompleteness to corpus incompleteness.  
@@ -234,7 +212,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** COMP→BND package TRACE versus COMPOSE; BND→SYS preserve corrected method; XL→SUB audit repair into concise prose.  
 **Decision:** State the repaired rule before reporting the case result.
 
-### P18 — DISCRIMINATE
+### P16 — DISCRIMINATE
 
 **Question:** What if a source reaches the topic but does not favor either rival?  
 **Job:** Separate target relevance from asymmetric selection.  
@@ -245,7 +223,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** COMP→BND relevance versus discrimination; SUB→SYS preserve four-stage compression; INT→COMP intuitive example language.  
 **Decision:** One clear conceptual distinction.
 
-### P19 — RECOGNIZE
+### P17 — RECOGNIZE
 
 **Question:** Does a real discriminator automatically give a later evaluator usable grounds?  
 **Job:** Separate source-side support from evaluator uptake.  
@@ -256,7 +234,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** BND→COMP source-side versus evaluator-side; XL→COMP external epistemology calibration; INT→SUB set up multi-ground boundary.  
 **Decision:** Keep the evaluator visible but not psychologized.
 
-### P20 — COMPOSE only after several completed grounds exist
+### P18 — COMPOSE only after several completed grounds exist
 
 **Question:** What changes when several independently completed grounds point in different directions?  
 **Job:** Introduce the conditional case-level composition/defeat problem.  
@@ -267,7 +245,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** BND→SYS route/case distinction; COMP→XL selector attribution; INT→SUB prepare empirical test.  
 **Decision:** Keep compact because it is a boundary, not a realized current-case step.
 
-### P21 — Positive control
+### P19 — Positive control
 
 **Question:** Is the method constructed so that religious mechanisms necessarily fail?  
 **Job:** Demonstrate in-principle success using authenticated prophecy.  
@@ -278,7 +256,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** SYS→BND non-vacuity; COMP→SYS method validation; XL→COMP source limits.  
 **Decision:** Put before the negative fixed-case result.
 
-### P22 — Test H_R directly
+### P20 — Test H_R directly
 
 **Question:** Does Ramban's received creation knowledge include or truth-support I_S?  
 **Job:** Apply TRACE to the strongest case-proximate actual route.  
@@ -289,7 +267,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** XL→COMP evidence precision; COMP→BND proximity versus linkage; SYS→INT make stopping point visible.  
 **Decision:** Name the missing edge rather than saying vaguely “insufficient evidence.”
 
-### P23 — Use scholarship as a constraint, not a substitute for the source
+### P21 — Use scholarship as a constraint, not a substitute for the source
 
 **Question:** Does secondary scholarship collapse Ramban's peshat and esoteric reading enough to supply the missing edge?  
 **Job:** Show why the strongest retrieved scholarship does not license that inference.  
@@ -300,7 +278,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** XL→COMP source-status hierarchy; COMP→BND secondary support versus primary proposition linkage; BND→SYS preserve reopen condition.  
 **Decision:** Use this paragraph to make the boundedness intellectually serious.
 
-### P24 — State the package-level fixed-case result
+### P22 — State the package-level fixed-case result
 
 **Question:** Can any independently admissible package in the current seven-module corpus complete the missing proposition-specific edge?  
 **Job:** State the current bounded result after package-level repair.  
@@ -311,7 +289,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** SUB→SYS local result to paper result; BND→SYS bounded negative; COMP→BND downstream invariance only while TRACE obstruction holds.  
 **Decision:** This is the strongest negative claim the paper makes.
 
-### P25 — Derive target-relative authority
+### P23 — Derive target-relative authority
 
 **Question:** What broader conclusion follows from repeated differences between native authority functions and the fixed truth target?  
 **Job:** Derive, not announce, the target-relative authority implication.  
@@ -322,7 +300,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** SUB→SYS derivation from case/method; BND→COMP status versus target-specific force; INT→SUB set up provenance consequence.  
 **Decision:** Present as conditional transfer principle.
 
-### P26 — Attribute selector information
+### P24 — Attribute selector information
 
 **Question:** When a bridge or composition rule changes the verdict, whose information is doing the work?  
 **Job:** Derive source/bridge/selector attribution.  
@@ -333,7 +311,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** XL→BND inferential provenance; BND→SYS global attribution; COMP→INT avoid abstraction overload.  
 **Decision:** Use one concrete contrast, then state the general rule.
 
-### P27 — Define the scholar's claim
+### P25 — Define the scholar's claim
 
 **Question:** What can a scholar claim without turning the paper into first-order theology?  
 **Job:** Locate the contribution within second-order religious-studies/philosophical analysis.  
@@ -344,7 +322,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** XL→SYS disciplinary transport; BND→COMP emic/etic; INT→SUB prepare contribution synthesis.  
 **Decision:** Keep this as scope clarification, not defensive meta-prose.
 
-### P28 — Reconstruct the contribution as a dependency package
+### P26 — Reconstruct the contribution as a dependency package
 
 **Question:** What has the paper actually contributed once the reader has traversed the case and method?  
 **Job:** Synthesize the contribution in earned order.  
@@ -355,7 +333,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** SUB→SYS contribution lift; COMP→BND typed contributions; INT→SYS reader reconstruction.  
 **Decision:** Dependency order, not flat bullet-list prose.
 
-### P29 — State novelty at the intersection
+### P27 — State novelty at the intersection
 
 **Question:** What is new relative to the strongest reviewed neighboring literatures?  
 **Job:** Make the bounded novelty claim after the contribution is visible.  
@@ -366,7 +344,7 @@ Promotion rule: a locally stronger sentence is rejected when it weakens source f
 **Live 36 cells:** XL→SYS literature-to-novelty transfer; COMP→BND component novelty versus intersection novelty; SYS→INT calibrate reader confidence.  
 **Decision:** Use the narrowest defensible novelty language.
 
-### P30 — End with the bounded answer and reopen conditions
+### P28 — End with the bounded answer and reopen conditions
 
 **Question:** What can the reader now say, and what evidence would change it?  
 **Job:** Close the paper without overclaiming.  
