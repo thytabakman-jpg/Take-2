@@ -24,6 +24,10 @@ overfull_development_mode:
     Prefer preserving defensible intellectual material in the development manuscript
     and cut later by venue, evidence strength, word budget, and reader burden. Do not
     delete an earned claim merely to achieve premature minimality.
+  deletion_gate: >
+    During this phase, remove article-visible material only when it is wrong, unsupported,
+    genuinely redundant without adding a distinct function, or weaker than a superior
+    formulation. Brevity and journal word count are not current deletion grounds.
 
 goal:
   statement: >
@@ -247,6 +251,28 @@ restored_recovery_results:
   non_forcing_compose: >
     COMPOSE may return tied, incomparable, partial, or unresolved output when no
     licensed rule supports total ranking.
+
+developmental_method_defenses:
+  worked_case_diagnosticity: >
+    The Rashi-Ramban case functions as a stress case / analytic microscope rather than
+    a statistically representative sample.
+  pd_demonstrated_yield: >
+    PD must be shown through concrete collapsed distinctions, not merely named as a method.
+  recognize_irreducibility: >
+    A genuine target-linked discriminator can exist while a later evaluator lacks
+    warranted access to or authentication of it; evaluator warrant is distinct from truth.
+  architecture_ablation: >
+    Each route stage is defended by the distinct analytical error that returns when the
+    stage is removed; labels remain revisable if all functions are preserved.
+  bridge_regress_closure: >
+    Bridge licensing terminates in independently defended reasons or explicitly indexed
+    commitments; unresolved further dependencies remain conditional rather than being forced.
+  pedagogical_microcases: >
+    Authentic-but-irrelevant, relevant-but-symmetric, and discriminatory-but-unrecognized
+    examples make the route stages human-readable.
+  field_specific_payoffs: >
+    The architecture's interdisciplinary value must be stated as concrete problems solved
+    for neighboring fields rather than generic interdisciplinarity.
 
 contribution:
   early_source_result: >
