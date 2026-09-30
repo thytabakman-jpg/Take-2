@@ -222,6 +222,40 @@ multidisciplinary_connections:
     These disciplines are connected through the fixed-target authority problem and are
     not claimed to reduce to one common theory.
 
+falsification_and_revision_controls:
+  fixed_case_defeat: >
+    Revise the case if better textual or interpretive evidence shows that Rashi and
+    Ramban do not instantiate C_S and not-C_S as the paper represents them, including
+    a genuine reconciliation of the peshat claims.
+  bounded_result_defeat: >
+    Revise the current non-completion result if an admissible package/bridge route is
+    recovered that reaches C_S, supplies a rival-specific truth-relevant asymmetry,
+    and is warrantedly usable by the relevant evaluator.
+  module_revision: >
+    Revise any module diagnosis when source evidence supplies a native function,
+    target relation, reliability rule, or proposition coverage currently classified as missing.
+  architecture_counterexample: >
+    Reconsider the route architecture if a defensible evaluator-usable proposition-specific
+    ground succeeds while TRACE, DISCRIMINATE, or RECOGNIZE does no distinct work and can
+    be removed without loss.
+  novelty_defeat: >
+    Narrow or remove the novelty claim if a sufficiently close predecessor is located.
+  anti_immunization_rule: >
+    A genuine defeating result changes the paper's claim; it is not routed away by
+    redefining the target, mechanism, or success condition after the fact.
+  type_control: >
+    Distinguish source-facing falsification, conceptual counterexample/collapse, and
+    literature-based novelty defeat rather than treating every claim as Popperian empirical science.
+
+pluralism_control:
+  legitimacy_pluralism: >
+    Both positions can retain religious, canonical, or interpretive standing without
+    both descriptive propositions thereby being true.
+  expansive_truth_pluralism: >
+    Even if a logical framework permits P and not-P to be jointly true in the same respect,
+    that permission does not establish that the present rival pair is a true contradiction.
+    A further ground is still required to determine the epistemic status of this pair.
+
 reader_architecture:
   sections:
     - "1. The Disagreement, the Recurring Problem, and the Answer"
