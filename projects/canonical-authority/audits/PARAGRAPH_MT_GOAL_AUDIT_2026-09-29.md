@@ -1,5 +1,8 @@
 # Canonical Authority — Paragraph MT → GOAL Audit
 
+> **Supersession note — 2026-09-29:** The manuscript opening was subsequently compressed from 30 to 28 paragraphs, and the former package-admissibility paragraph was moved from Section 2 into the TRACE section. Paragraph IDs in this audit reflect the pre-restructure manuscript snapshot. Preserve this file as historical audit evidence; do not treat its paragraph numbering as current.
+
+
 Status: ALL 30 PARAGRAPHS PROCESSED  
 Date: 2026-09-29  
 Branch: `workstream/canonical-authority-draft-20260929`  
