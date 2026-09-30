@@ -1,0 +1,176 @@
+schema_version: 1.0
+project_id: canonical-authority
+artifact_id: CANON:ARCH:001
+version: 1.3.0
+status: live_current
+authority_status: canonical_working
+date: 2026-09-30
+supersedes_for_live_manuscript:
+  artifact: CANON:ARCH:001
+  version: 1.2.0
+  reason: >
+    The historical architecture used the superseded I_S target. The live manuscript
+    now uses the source-faithful C_S target recovered in the fixed-case semantic-drift repair.
+historical_dump_rule: >
+  Historical dump artifacts remain unchanged and continue to document provenance.
+
+goal:
+  statement: >
+    Produce a rigorous source-grounded peer-reviewed paper using the fixed Rashi-Ramban
+    disagreement on Bereishis 1:1 to determine what selected second-order Jewish epistemic,
+    interpretive, institutional, transmission, authority, and privileged-access structures
+    can legitimately contribute to assessing incompatible truth-apt canonical claims.
+  first_order_grammar_verdict: outside_scope
+  corpus_scope: purposive_non_exhaustive
+
+fixed_case:
+  locus: Bereishis 1:1
+  target:
+    id: C_S
+    statement: >
+      On the peshat advanced, bereishis functions in the construct/dependent relation
+      Rashi assigns to it, so the opening forms the temporal setting leading to the
+      main clause in verse 3.
+  supporting_rashi_premise:
+    id: G_R
+    statement: >
+      Rashi argues that reishis in Scripture is used in construct/dependent relation.
+  rivals:
+    P_R: C_S
+    P_N: "not C_S"
+  protected_distinction: >
+    The older main-predication formulation is a downstream consequence of the rival
+    parses and is not the fixed target.
+
+declared_inquiry_frame:
+  notation: "Phi = <A,tau,e>"
+  A: admitted source corpus
+  tau: "{P_R,P_N} over C_S"
+  e: evaluator regime
+
+source_modules:
+  H_P:
+    native_output: legitimacy and practical determination
+    current_relation_to_C_S: no recovered proposition-specific truth-directed bridge
+    stopping_point: TRACE
+  H_M:
+    native_output: protected reception / provenance classification
+    current_relation_to_C_S: C_S is not classified as protected received content
+    stopping_point: TRACE
+  H_A:
+    native_output: institutional authority and consequences under fallibility
+    current_relation_to_C_S: no recovered reliability bridge from institutional authority to C_S
+    stopping_point: TRACE
+  H_X:
+    native_output: authenticated privileged epistemic access
+    current_relation_to_C_S: success-capable in principle but no instantiated revelation covers C_S
+    stopping_point: TRACE_uninstantiated_positive_control
+  H_R:
+    native_output: received creation knowledge invoked by Ramban
+    current_relation_to_C_S: >
+      no recovered source-grounded relation showing that Ramban's rejection of Rashi's
+      construct/dependent reading is itself received or truth-supported by that received content
+    stopping_point: TRACE
+  H_L:
+    native_output: loss and reconstruction
+    current_relation_to_C_S: no recovered present proposition-specific selector
+    stopping_point: TRACE
+  H_G:
+    native_output: generational stature / memory asymmetry
+    current_relation_to_C_S: no recovered reliability bridge for Biblical Hebrew syntax plus case asymmetry
+    stopping_point: TRACE
+
+bridge_control:
+  definition: >
+    A bridge is licensed when its use has independent support from the relevant source,
+    interpretive framework, or an explicitly defended external inferential principle,
+    rather than being introduced solely because it yields the desired verdict.
+  provenance_rule: >
+    A defensible bridge need not be source-attributable. When a non-source bridge is
+    independently defended, the resulting conclusion has mixed provenance and must be
+    described that way.
+  cross_source_rule: >
+    Package membership alone never licenses a cross-source inference. Every material
+    cross-source bridge requires independent grounds.
+
+method:
+  PROFILE:
+    role: required typed source reconstruction, not an independent success conjunct
+  TRACE:
+    role: >
+      Establish a licensed relation from an independently admissible source package,
+      possibly using independently licensed bridges, to C_S.
+  DISCRIMINATE:
+    role: establish rival-specific asymmetric truth-directed support
+  RECOGNIZE:
+    role: establish warranted evaluator usability
+  COMPOSE:
+    role: >
+      Operate only after several completed grounds exist; package TRACE combines
+      several sources into one ground, while COMPOSE combines or defeats several grounds.
+
+formalization:
+  source_ground: >
+    SourceGround(X,C_S,Delta) iff TRACE(X,C_S,Delta) and DISCRIMINATE(Delta,C_S).
+  usable_ground: >
+    PackageGround_e(X,C_S) iff X is independently admissible and there exists Delta
+    such that TRACE(X,C_S,Delta), DISCRIMINATE(Delta,C_S), and RECOGNIZE_e(Delta,C_S).
+  bridge_sensitive_trace: >
+    TRACE is evaluated over independently licensed package/bridge routes, not package
+    membership alone.
+
+current_package_result:
+  status: bounded_current
+  calibrated_statement: >
+    No independently licensed package/bridge route completing TRACE to C_S has been
+    located in the current reconstructed seven-family corpus.
+  support:
+    - >
+      Packages without H_R contain no currently reconstructed source proposition that
+      supplies a direct case-specific relation to C_S or not-C_S, and no independently
+      grounded cross-module bridge to C_S has been recovered from their combined content.
+    - >
+      Packages containing H_R inherit the unresolved relation between Ramban's received
+      creation knowledge and his rejection of Rashi's construct/dependent reading.
+      None of H_P, H_M, H_A, H_X, H_L, or H_G supplies the missing C_S-specific bridge,
+      and no independently grounded cross-module bridge completing it has been recovered.
+  nonclaim: >
+    This is not a universal logical proof that no imaginable bridge could ever be built.
+  consequence: >
+    While this bounded TRACE obstruction holds, DISCRIMINATE, evaluator-specific
+    RECOGNIZE, and COMPOSE cannot alter the fixed-case result.
+  reopen_conditions:
+    - admitted module change
+    - material primary-source recovery
+    - newly justified proposition-specific bridge
+    - newly justified cross-module bridge
+    - material target change
+    - material reinterpretation of an admitted source
+
+contribution:
+  early_source_result: >
+    When recruited to C_S, heterogeneous mechanisms stop at different inferential locations.
+  method: >
+    Source reconstruction plus package-aware TRACE, rival-specific DISCRIMINATE,
+    evaluator-relative RECOGNIZE, and a separate conditional COMPOSE boundary.
+  cross_function_transfer_principle: >
+    When the native output of an authority mechanism is recruited as evidence for a
+    different truth target, epistemic transfer requires a licensed proposition-specific
+    relation connecting that output to the new target.
+  selector_attribution_principle: >
+    Holding source-attributable content and the inquiry frame fixed, a verdict difference
+    caused by varying a materially outcome-relevant bridge or composition rule cannot be
+    attributed to the fixed source content alone.
+  novelty: >
+    No direct predecessor has been located in the reviewed comparator corpus for the
+    integrated architecture plus the bounded worked Rashi-Ramban result.
+
+reader_architecture:
+  sections:
+    - "1. The Disagreement, the Recurring Problem, and the Answer"
+    - "2. What the Sources Actually Do"
+    - "3. From Source to Ground"
+    - "4. Testing the Method"
+    - "5. Authority Across Targets"
+    - "6. What the Analysis Establishes"
+  status: provisional_freeze_after_HF2_36D_chain
