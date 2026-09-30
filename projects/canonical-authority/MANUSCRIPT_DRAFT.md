@@ -42,6 +42,14 @@ The paper therefore asks a deliberately narrow question: **when canonical interp
 
 The paper's answer is conditional rather than maximal. A usable ground must be connected to the exact disputed proposition through a licensed and provenance-explicit relation, must generate a truth-relevant asymmetry between the rivals, and must be warrantedly usable by the later evaluator. Applied to the seven mechanism families examined here, the current evidence yields a bounded result at the earliest stage of that route: no currently recovered and independently licensed package/bridge route completes TRACE to \(C_S\). The grammatical verdict therefore remains open, while the analysis identifies where the available second-order routes stop and what additional evidence would reopen them.
 
+<!-- P51 -->
+Three terms carry more weight in the argument than their ordinary-language familiarity suggests. **Canonical** does not mean that Rashi or Ramban are themselves part of the biblical canon. It refers to their durable standing as recognized interpretive authorities whose claims remain part of the tradition's live inherited discourse. **Truth-apt** means that, once the target and sense are fixed, the claim is the kind of claim that can be correct or incorrect; it does not imply that the question is scientifically measurable or philosophically uncontested. A grammatical peshat claim can therefore be truth-apt even though interpretation is involved. **Evaluator** means the later person or community asking what grounds are available for belief about the fixed proposition. The evaluator can be a scholar, traditional interpreter, decisor, or other epistemic agent, but the paper does not assume that all evaluators possess the same evidence or licenses.
+
+These definitions matter because several apparent objections disappear once the objects are kept distinct. The paper does not infer that canonical authority is equivalent to scriptural canonicity, that interpretive claims are simple observational facts, or that warrant is identical for every reader. It asks a more limited question about what follows when a later evaluator treats incompatible inherited claims as candidates for truth.
+
+<!-- P54 -->
+The argument is also easier to assess when several non-claims are explicit. The paper does not argue that tradition is generally unreliable, that institutional or halachic authority lacks legitimacy, that canonical standing is epistemically worthless, that every machlokes is factual, that modern scholarship automatically outranks traditional sources, or that suspension is always the rational response to disagreement. It does not claim that Rashi is wrong because Ramban found a counterexample, or that Ramban is right because his comment invokes received creation knowledge. And it does not treat theological or traditional premises as irrational merely because an external scholar does not share them. The question is conditional: given a proposed source, authority relation, tradition, or privileged-access claim, what truth-relevant work does that proposal actually perform with respect to this proposition?
+
 ## 1.3 The Comparison Frame
 
 <!-- P03 -->
@@ -188,6 +196,11 @@ Admitting a route also imports commitments. Invoking "mesorah," "authority," "hi
 The requirement that bridges be licensed raises an immediate regress question: what licenses the rule that licenses the bridge? The paper does not answer by positing an infinite hierarchy of selectors. Instead it distinguishes provenance and burden. A bridge can be source-attributable, independently defended as an external inferential principle, or accepted only conditionally relative to an evaluator's stated commitments. What matters is that the verdict-producing information remain visible at the layer that contributes it. If an added bridge itself depends on a further controversial bridge, that dependence must be exposed in the same way. Where no non-question-begging stopping point is available, the conclusion remains indexed, conditional, or unresolved rather than being forced into an absolute verdict.
 
 This closure rule turns regress into a transparency requirement rather than a demand for a final neutral meta-rule. The analysis bottoms out wherever the relevant reasons are independently defended for the inquiry at hand; it does not redescribe that defended external premise as though it had been recovered from the Jewish source.
+
+<!-- P52 -->
+The provenance distinction can be made concrete through three bridge types. A **source-attributable bridge** is itself supplied by the source—for example, a source explicitly claims that a certain authenticated channel delivers truth about propositions of the relevant type. An **externally defended bridge** is not in the source but is independently argued for, such as a reliability principle supported by historical track record or a general epistemic theory. A **commitment-relative bridge** is accepted because a specified evaluator already endorses a further premise; the resulting conclusion is then conditional on that commitment rather than presented as source-only.
+
+These three forms can all be legitimate. What changes is the provenance of the conclusion and the burden carried by the bridge. The paper's objection is therefore not "external reasoning is forbidden." The objection is to unmarked importation: using an external reliability rule, theological premise, social convention, or analytic conversion and then crediting the resulting selector back to the original source as though it had been there all along.
 
 <!-- P14 -->
 TRACE must also be package aware. Corpus admission asks why a mechanism belongs in the comparison at all; package admissibility asks whether two or more already admitted sources may legitimately be used together to establish one target-linked support relation. Individually incomplete sources can sometimes become jointly informative, so singleton failure cannot be promoted directly to corpus failure. TRACE therefore ranges over independently licensed source packages, with a one-source package as the singleton special case. Joint use still requires a principled basis for combining the sources and a demonstration that their combined content completes the target relation.
@@ -376,6 +389,20 @@ The contribution is best understood as a dependency package built on established
 
 Applied to the Rashi–Ramban case, that architecture yields a bounded package-and-bridge TRACE non-completion result, protected against vacuity by the positive control. From the repeated native-output/target distinction the paper derives the Cross-Function Transfer Principle, and from the provenance analysis it derives the Selector Attribution Principle. PD contributes as a discovery discipline rather than as an evidentiary premise: it exposed hidden type changes and generated several distinctions the paper then independently defends, including missing target content versus missing transfer/selector, package TRACE versus COMPOSE, and source content versus selector contribution.
 
+<!-- P55 -->
+The contribution can also be displayed as a claim map rather than a single novelty sentence.
+
+| Layer | What the paper uses or develops |
+|---|---|
+| Inherited | fixed-target comparison; domain-sensitive authority; relevance; expertise/testimony; multi-premise support; aggregation/defeat |
+| Reconstructed from Jewish sources | native functions of pluralism, protected reception, institutional authority/error, privileged access, loss/reconstruction, hierarchy, and Ramban's creation tradition |
+| Developed here | provenance-controlled TRACE → DISCRIMINATE → RECOGNIZE; package TRACE / COMPOSE separation; Selector Attribution; Cross-Function Transfer; typed obstruction profile |
+| Worked-case results | bounded \(\mathcal R_{current}\) TRACE non-completion; Ramban's case-proximate missing edge; downstream invariance while TRACE is incomplete |
+| Additional conceptual results | correctness-scope trilemma; classification/truth-tracking distinction; diagnostic adequacy; non-transmission; attribute-indexed authenticity; inverse problem; positive suspension |
+| Validation / portability | positive control; success-capable traditional transmission model; Sikh holdout; exploratory cross-tradition stress tests |
+
+The map is intentionally generous in the development draft. Some rows may later become footnotes, appendices, or follow-on papers. At this stage its purpose is to prevent the paper's intellectual contribution from being compressed into a single slogan and to make inherited versus developed versus case-obtained claims auditable.
+
 ## 6.2 What Is Inherited and What Is New
 
 <!-- P27 -->
@@ -383,6 +410,11 @@ The novelty claim has three layers. The paper inherits fixed-target comparison, 
 
 <!-- P40 -->
 The architecture has also undergone a limited anti-overfitting test outside the Jewish case. After the route jobs and failure conditions had been frozen, a prospectively frozen Sikh-authority holdout was analyzed without adding a rescue primitive. The same distinctions reappeared: scriptural or Guru status did not automatically generate proposition-specific discrimination; authoritative text and interpretive application remained distinct; and multiple authority loci made the later composition problem structurally real. Earlier exploratory stress tests involving Catholic magisterial authority, Sunni hadith criticism, Pentecostal or charismatic discernment, and Latter-day Saint revelation showed similar route-level jobs. These exercises are not second worked truth-proposition cases and do not establish universal cross-tradition validity. Their narrower value is anti-overfitting evidence: the architecture did not immediately collapse when moved outside the vocabulary from which it was developed.
+
+<!-- P53 -->
+The framework also generates a research program beyond the present case. It suggests at least five questions that can be tested in later work. First, when two canonical rivals share the same status, does any additional source supply proposition-specific asymmetry, or does the disagreement remain status-symmetric? Second, when a tradition is invoked as a correctness guarantee, what exactly is the guaranteed object and scope, and can that scope be independently identified? Third, when institutional settlement is treated as evidence of truth, what transfer principle connects settlement to descriptive accuracy? Fourth, when a later community inherits several authority loci, do the resulting grounds converge, defeat one another, or activate a genuine COMPOSE problem? Fifth, when new archival or textual evidence appears, does it change the terminal verdict or merely move the stopping point from missing content to missing transfer, discrimination, or recognition?
+
+These are diagnostic expectations rather than predictions that every religious tradition will behave alike. Their value is that they make the framework generative. A later case can confirm a route distinction, expose a missing primitive, collapse two stages, or defeat the architecture altogether. The method therefore produces a sequence of researchable questions rather than a closed taxonomy.
 
 ## 6.3 The Bounded Answer
 
