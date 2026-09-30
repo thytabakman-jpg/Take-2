@@ -28,6 +28,9 @@ These are incompatible truth-apt claims about the same grammatical question. The
 
 The disagreement therefore leaves a precise unresolved question: **what grounds permit a later evaluator to favor Rashi's grammatical claim over Ramban's, or Ramban's over Rashi's?**
 
+<!-- P30 -->
+A textual-history proposal from Eliyahu Mizrahi, the Re'em, provides an early control on what would and would not solve the case. Re'em suggests that Ramban may have encountered a recension of Rashi that lacked Rashi's extant response to the Yeshayahu 46:10 objection. Granting that proposal can explain why Ramban regarded the verse as an effective counterexample to Rashi. It does not by itself decide whether the construct generalization is grammatically correct. The distinction is methodological: an etiological explanation answers how a disagreement arose; an adjudicative ground answers what warrants preferring one rival proposition as true. A genuine reconciliation showing that Rashi and Ramban were not asserting incompatible propositions would defeat this paper's fixed case. Re'em's proposal, as presently reconstructed, explains the setting of the disagreement without supplying that reconciliation.
+
 ## 1.2 The Problem, the Question, and the Paper's Answer
 
 <!-- P02 -->
@@ -56,6 +59,9 @@ The source analysis begins from an established constraint: authority and experti
 <!-- P05 -->
 The paper tests seven mechanism families because together they span materially different ways a second-order Jewish structure might bear on the fixed question. Pluralism and determination test legitimacy and practical settlement; protected reception tests provenance; authority and error test institutional force under acknowledged fallibility; authenticated prophecy tests privileged epistemic access; Ramban's received creation tradition tests the route closest to the Bereishis case; loss and reconstruction test epistemic interruption and recovery; and generational hierarchy tests whether comparative stature can support reliability. The corpus is purposive rather than exhaustive. Its value lies in whether these functionally different mechanisms stop for the same reason or reveal different kinds of obstruction when pressed against one fixed truth target.
 
+<!-- P38 -->
+Coverage in this comparison is functional rather than numerical. Adding ten more texts that instantiate the same native function does not automatically broaden the mechanism space, while one source that introduces a genuinely different truth-relevant relation can matter substantially. The seven families are therefore analytic response families rather than natural kinds, and their admission is tied to what distinct inferential work they can perform at the fixed target. This matters for the paper's boundedness: a purposive corpus can support a scoped structural claim without pretending to exhaust Jewish intellectual history, but a materially new mechanism or bridge is an explicit reopen condition.
+
 ## 2.2 Pluralism and Protected Reception
 
 <!-- P06 -->
@@ -68,13 +74,24 @@ For the present paper, that distinction is enough. These sources concern legitim
 <!-- P07 -->
 Protected reception reveals a second obstruction type: provenance can matter epistemically without yet establishing that the disputed proposition belongs to the protected content. Rambam (Maimonides) distinguishes received material traced to Moshe from matters derived through interpretation and legal reasoning. In Hilchos Mamrim and in his Introduction to the Mishnah, provenance matters because different elements of Torah knowledge stand in different relations to reception and dispute. This can be epistemically significant. A proposition known to belong to a protected received category could possess an epistemic status unavailable to a later inference. Selection between (P_R) and (P_N) would then require grounds for placing the disputed syntactic proposition within that protected received content and for showing that the classification asymmetrically favors one rival. Protected reception can therefore classify the kind of knowledge at issue, or relocate a disagreement outside the protected category, without automatically adjudicating the proposition itself.
 
+<!-- P31 -->
+The protected-reception route can be pushed further through a correctness-scope trilemma. Suppose *mesorah* or protected reception is invoked as a guarantee of correctness. Three possibilities exhaust the local question. First, the tradition does not guarantee correctness on the disputed matter. It can still provide defeasible epistemic support, but adjudication occurs only if some warranted feature makes that support asymmetric between the rivals. Second, the tradition guarantees correctness and the disputed syntactic proposition lies inside the guaranteed scope. Under the ordinary incompatibility of \(P_R\) and \(P_N\), the guarantee would imply that exactly one rival preserves the guaranteed content correctly, but the shared canonical or traditional status of both interpreters still does not identify which one. A further discriminator remains necessary. Third, the guarantee is genuine but the disputed syntactic proposition lies outside its scope. Then the guarantee settles other content while leaving this question open. The three branches differ substantively, yet they converge on the same adjudicative demand: successful use of the guarantee must identify and warrant the feature that asymmetrically bears on this proposition.
+
 ## 2.3 Authority, Loss, and Hierarchy
 
 <!-- P08 -->
 Authority and error reveal a third obstruction type: institutional force can remain genuine while correctness on the target proposition remains open. The Horayos tradition treats authoritative rulings and error within the same legal framework. Mishnah Horayos, the Bavli, and Rambam's codification can regulate what follows from an erroneous authoritative decision precisely because the framework allows authoritative decision and error to coexist. That structure matters for the present comparison. An institution can govern legal consequences or command compliance while still requiring a further argument before its authority becomes evidence that a descriptive proposition is true. Applied to the Bereishis case, institutional standing would need a truth-directed relation to (C_S) and an asymmetry between the rival readings. That truth-directed relation is what would allow institutional authority to bear on the present problem rather than only on its native legal output.
 
+<!-- P32 -->
+This also clarifies two familiar authority responses. The first is circular authentication. An authority may be said to identify the authentic tradition while the tradition is invoked to establish the authority. Epistemic circularity is not automatically fatal; work distinguishing benign from malignant circularity makes that blanket objection too strong. The relevant question is narrower: does the structure produce an independently warranted truth-relevant asymmetry between these particular rivals? A reciprocal structure that authenticates both sides through the same shared status leaves the selection problem intact. If one side has a better track record, stronger access, superior evidence, or another warranted truth-relevant feature, that feature is doing the discriminating work and must be stated explicitly.
+
+The second response is institutional settlement. Jurisprudence supplies a useful analogue because an institution can legitimately determine what rule governs conduct while the truth or correctness of an antecedent descriptive or interpretive proposition remains a separate question. Jewish legal materials that preserve authoritative force under acknowledged fallibility fit that distinction especially well. The point is not that institutional authority is epistemically empty. It is that bindingness, settlement, and truth support are different outputs, and the route from one to another requires its own grounds.
+
 <!-- P09 -->
 Loss and reconstruction, and generational hierarchy, expose two further obstruction types: epistemic history can explain how knowledge changes without supplying a present selector, while stature can create an asymmetry without supplying a proposition-type reliability bridge. Temurah 16a describes Torah material forgotten after Moshe's death and a process of recovery through reasoning. That narrative can explain how transmission is interrupted and how knowledge can later be reconstructed. It also exposes a non-transmission principle: the epistemic or authoritative status of a lost item does not automatically transfer to a later reconstruction merely because the reconstruction aims to recover it. A rule for choosing between Rashi and Ramban would therefore require an additional proposition-specific basis connecting the reconstruction itself to the target. Likewise, statements in Shabbos 112b and Eruvin 53a express asymmetries of generational stature, memory, or intellectual capacity. Such asymmetries can matter while leaving open whether earlier status tracks accuracy across every proposition type. To use generational hierarchy here, the paper would need a source-grounded relation between the relevant kind of stature and reliability on Biblical Hebrew syntax, together with a case specific asymmetry between the two commentators.
+
+<!-- P33 -->
+Appeals to *yeridas hadoros* require one further distinction. One claim is epistemic modesty: later readers are not in a position to know which of two greater earlier authorities is correct. That claim can support suspension without selecting a winner. A different claim is comparative reliability: earlier generations are more likely to be correct on the relevant kind of proposition. That stronger claim can in principle discriminate, but only after the relevant reliability relation is specified, shown to apply to Biblical Hebrew syntax, and instantiated asymmetrically between the rivals. Moving from "we are too small to decide" to "the earlier or greater authority is therefore more likely correct here" is an additional inferential step, not a restatement of the same premise.
 
 ## 2.4 Prophecy and Ramban's Creation Tradition
 
@@ -103,6 +120,13 @@ This profile also fixes the boundary between source reconstruction and project-l
 | Loss / reconstruction | Epistemic interruption and recovery | No recovered present selector for \(C_S\) | TRACE |
 | Generational hierarchy | Stature / memory asymmetry | No recovered reliability bridge for this proposition type plus case asymmetry | TRACE |
 
+<!-- P34 -->
+The comparison therefore supports both divergence and convergence. The routes stop for different reasons, but every successful adjudicative route must eventually do the same higher-order work: reach the fixed proposition, generate a warranted truth-relevant asymmetry between the rivals, and become usable by the evaluator. That is the paper's convergence result. The diversity of failure locations does not weaken it; it explains why the same success condition can be missed in different ways.
+
+This also yields a diagnostic-adequacy principle. Two analyses are not methodologically equivalent merely because both end in "suspend judgment." A representation that preserves only the terminal verdict while collapsing whether the problem was missing content, missing transfer, missing discrimination, or missing evaluator warrant loses information needed to know what evidence would reopen the case. For this paper, preserving the stopping-point type is part of explanatory adequacy.
+
+
+
 # 3. From Source to Ground
 
 ## 3.1 TRACE
@@ -128,6 +152,11 @@ TRACE succeeds when a target-linked support relation can be reconstructed withou
 
 The arrows are the places where hidden conversions most often occur. A status attached to a text, institution, tradition, or bearer cannot simply be re-predicated of a proposition without showing the relation that licenses the move.
 
+<!-- P35 -->
+TRACE is an inferential map, not a historical-causal theory of why Rashi, Ramban, or later communities came to hold their views. Its arrows represent justificatory dependence: what must be true for a source's native output to bear on the fixed target. Historical explanations can be relevant evidence, but they do not become adjudicative relations merely by explaining origin.
+
+Admitting a route also imports commitments. Invoking "mesorah," "authority," "hierarchy," "prophecy," or "canonicality" is not yet an argument; the route inherits claims about what the source is, what function it performs, what content or status it carries, and what relation licenses transfer to the target. This choice architecture matters because two arguments using the same label can be epistemically different if they rely on different underlying commitments.
+
 <!-- P14 -->
 TRACE must also be package aware. Corpus admission asks why a mechanism belongs in the comparison at all; package admissibility asks whether two or more already admitted sources may legitimately be used together to establish one target-linked support relation. Individually incomplete sources can sometimes become jointly informative, so singleton failure cannot be promoted directly to corpus failure. TRACE therefore ranges over independently licensed source packages, with a one-source package as the singleton special case. Joint use still requires a principled basis for combining the sources and a demonstration that their combined content completes the target relation.
 
@@ -150,6 +179,21 @@ Keeping those operations separate prevents source combination from silently impo
 
 <!-- P16 -->
 Target linkage is necessary but not sufficient for adjudication. A traced support relation can bear on \(C_S\) while leaving both rivals equally situated. DISCRIMINATE asks whether that relation is asymmetric in the fixed case: does it support \(P_R\) over \(P_N\), or \(P_N\) over \(P_R\), concerning truth? This requirement prevents topic relevance or proposition contact from masquerading as adjudication. Proposition linkage, case instantiation, and truth relevance matter because together they must yield a rival-specific difference. Without that difference, the route can illuminate the dispute while still failing to supply a ground for preferring either claim.
+
+<!-- P36 -->
+A proposed discriminator can also be tested more concretely. Three requirements are core to the truth-selection job: it must actually discriminate the rivals, its use must be warranted, and it must bear an appropriately reliable relation to truth in the relevant domain. A publicly articulated criterion adds practical requirements: enough specificity to identify what counts, enough operational clarity for competent application, and enough stability that the standard does not change ad hoc when the desired answer changes. Intensional adequacy becomes a further requirement when the proposal is offered as a definition or classification criterion rather than merely as the name of a truth-tracking process.
+
+| Requirement | Functional question |
+|---|---|
+| Discrimination | Does the criterion create a truth-relevant asymmetry between the rivals? |
+| Warrant | What grounds license relying on that criterion here? |
+| Reliability | Why should its use favor truth over error in this proposition type? |
+| Specificity | Are the boundaries of the criterion clear enough to know what counts? |
+| Operationality | Can competent evaluators apply it to a disputed case? |
+| Stability | Does the rule remain fixed across favorable and difficult cases? |
+| Intensional adequacy | When offered as a definition, does it identify the property that makes instances qualify rather than merely list accepted examples? |
+
+These controls are not proposed as a universal seven-condition theory of authority. They make explicit what an articulated truth-discriminating method would have to show before its conclusion can carry the weight assigned to it.
 
 ## 3.3 RECOGNIZE
 
@@ -208,7 +252,7 @@ Let \(\mathcal R_{current}\) denote the package/bridge routes actually recovered
 TRACE(r,C_S).
 \]
 
-The restricted domain is the point. The paper claims that no completing route has been located in \(\mathcal R_{current}\); it does not claim that no possible future route could ever complete TRACE. Because DISCRIMINATE, RECOGNIZE, and COMPOSE lie downstream of the current TRACE non-completion, changing evaluator assumptions or composition rules cannot alter the fixed-case result while that obstruction persists. The resulting suspension is therefore not merely a failure to decide. Relative to the declared corpus, it is a positive epistemic output: the strongest warranted result produced after the available routes have been traced, the illicit transfers excluded, and the reopen conditions made explicit.
+The restricted domain is the point. The paper claims that no completing route has been located in \(\mathcal R_{current}\); it does not claim that no possible future route could ever complete TRACE. "Not recovered" is an epistemic status, not an ontological claim that no relation exists. The distinction is load-bearing because a newly recovered source, bridge, or mechanism can reopen the result without contradiction. Because DISCRIMINATE, RECOGNIZE, and COMPOSE lie downstream of the current TRACE non-completion, changing evaluator assumptions or composition rules cannot alter the fixed-case result while that obstruction persists. The resulting suspension is therefore not merely a failure to decide. Relative to the declared corpus, it is a positive epistemic output: the strongest warranted result produced after the available routes have been traced, the illicit transfers excluded, and the reopen conditions made explicit.
 
 # 5. Authority Across Targets
 
@@ -216,6 +260,11 @@ The restricted domain is the point. The paper claims that no completing route ha
 
 <!-- P23 -->
 The comparison yields a Cross-Function Transfer Principle. When the native output of an authority mechanism is recruited as evidence for a different truth target, epistemic transfer requires a licensed proposition-specific relation connecting that output to the new target. The source modules examined here succeed at legitimating disagreement, determining practice, classifying provenance, governing institutional consequences, describing epistemic loss or hierarchy, or authenticating privileged access. Their force in those domains does not by itself specify how they bear on (C_S). The paper's contribution is therefore narrower than generic domain sensitivity: cross-function epistemic transfer requires an inspectable, licensed relation to the new proposition. More generally, the analysis treats authority arguments as typed transitions rather than rankings on a single scale. Legitimacy, provenance, authentication, institutional force, canonical preservation, and proposition-specific truth support are different outputs, and accumulation at one level cannot by itself manufacture a missing relation at another.
+
+<!-- P37 -->
+Two broader consequences follow. First, authenticity is attribute-indexed. A text, tradition, institution, or transmission line can be authentic with respect to provenance, continuity, reception, material identity, or social function without every proposition carried by that authentic bearer thereby being true. "Authentic mesorah" therefore remains incomplete as an adjudicative description until the relevant attribute and its relation to the target proposition are specified.
+
+Second, authority arguments face an inverse problem. An observed endpoint such as canonical survival, institutional victory, communal acceptance, later dominance, or stable transmission does not by itself identify the epistemic mechanism that produced or warrants that endpoint. Several causal and institutional routes can lead to the same observed status. Reverse inference from survival or settlement to truth therefore requires additional evidence rather than treating the endpoint as self-interpreting.
 
 ## 5.2 The Selector Attribution Principle
 
@@ -243,6 +292,11 @@ This division of labor also locates the paper's disciplinary claim. The scholar 
 
 The same architecture also creates a multidisciplinary meeting point. Social epistemology asks when testimony, expertise, or recognized authority gives another person grounds for belief. Provenance theory asks what information can properly be attributed to a source rather than to later transformations. Sociology of religious knowledge asks how texts, institutions, interpreters, practices, and communities produce, transmit, classify, authenticate, and authorize different kinds of knowledge. Canon and cultural-memory studies examine how authoritative corpora preserve and organize inherited material, while comparative religious studies supplies tools for comparing heterogeneous mechanisms without erasing their native functions. The present framework connects these questions at one fixed truth target. Its claim is not that these disciplines reduce to one another, but that their distinctions become jointly useful once the analyst asks exactly where proposition-specific truth support enters an authority argument.
 
+<!-- P39 -->
+The multidisciplinary comparison also sharpens several object-level distinctions. Testimony theory separates successful transmission of a proposition from generation of evidence for that proposition, grounds for trusting the transmitter, and the hearer's warrant for belief; these can coincide, but they are not the same epistemic job. Collective and institutional epistemology likewise permits communities and institutions to possess genuine epistemic roles without allowing phrases such as "the tradition knows" or "the canon says" to bypass questions of bearer, function, proposition, and warrant.
+
+Historical survival introduces another caution. Canonical preservation, prominence, and later dominance are filters on the historical record. The surviving corpus is therefore evidence about what was preserved and authorized, not automatically a complete map of every historical position, source, or selector that once existed. This is another reason the paper's corpus claims remain explicitly bounded even when the current analysis is internally complete relative to its declared mechanism space.
+
 # 6. What the Analysis Establishes
 
 ## 6.1 The Contribution
@@ -256,6 +310,9 @@ Applied to the Rashi–Ramban case, that architecture yields a bounded package-a
 
 <!-- P27 -->
 The novelty claim has three layers. The paper inherits fixed-target comparison, domain-sensitive authority, source relevance, evaluator recognition, multi-premise support, and reason aggregation from existing comparative, epistemological, and argumentation literatures. It develops their integration here into a provenance-controlled route architecture with package-aware TRACE, rival-specific DISCRIMINATE, evaluator-relative RECOGNIZE, a separate COMPOSE boundary, and explicit selector attribution. It then obtains a bounded worked result in the Rashi–Ramban case: no currently recovered and independently licensed package/bridge route completes TRACE to (C_S), and that non-completion makes downstream evaluator and composition variation irrelevant while it persists. No direct predecessor for that integrated architecture and worked result has been located in the comparator corpus reviewed for this project. The paper also advances several narrower paper-specific claims that do not require historical-priority language: canonical preservation can stabilize an unresolved rival set; authority attached to lost content does not automatically transfer to a reconstruction; missing target content and missing transfer/selector are distinct obstruction types; and disciplined suspension can itself be a positive epistemic result when the currently licensed selector space has been exhausted.
+
+<!-- P40 -->
+The architecture has also undergone a limited anti-overfitting test outside the Jewish case. After the route jobs and failure conditions had been frozen, a prospectively preregistered Sikh-authority holdout was analyzed without adding a rescue primitive. The same distinctions reappeared: scriptural or Guru status did not automatically generate proposition-specific discrimination; authoritative text and interpretive application remained distinct; and multiple authority loci made the later composition problem structurally real. Earlier exploratory stress tests involving Catholic magisterial authority, Sunni hadith criticism, Pentecostal or charismatic discernment, and Latter-day Saint revelation showed similar route-level jobs. These exercises are not second worked truth-proposition cases and do not establish universal cross-tradition validity. Their narrower value is anti-overfitting evidence: the architecture did not immediately collapse when moved outside the vocabulary from which it was developed.
 
 ## 6.3 The Bounded Answer
 
