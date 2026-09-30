@@ -74,13 +74,27 @@ Priority examples:
 - comparative-method and epistemic-authority background;
 - novelty-comparator paragraph.
 
+### 7. PD and multidisciplinary citation closure
+
+The manuscript now makes PD visible as a discovery/stress-testing heuristic and adds an explicit multidisciplinary synthesis.
+
+Required before submission:
+- give PD a concise methods note or footnote explaining its heuristic role and non-premise status;
+- cite the relevant social-epistemology literature for evaluator warrant/expertise;
+- cite provenance literature for source-versus-transformation attribution;
+- cite sociology-of-religious-knowledge work for differentiated production/transmission/authentication/authorization;
+- cite canon/cultural-memory literature for preservation without automatic truth selection;
+- cite comparative-religion methodology for fixed-target comparison across heterogeneous mechanisms.
+
+These citations support the multidisciplinary positioning. They do not become premises of the fixed Jewish case.
+
 ## Non-blocking items
 
 These are not reasons to redesign the paper:
 - adding more theory;
 - adding more article-facing mathematics;
 - expanding beyond the seven-family purposive corpus;
-- adding the full 36D / PD / controller architecture;
+- adding the full 36D / controller architecture or requiring readers to accept PD as an independent theory;
 - proving a universal negative about all possible future routes.
 
 ## Publication path
