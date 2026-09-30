@@ -152,12 +152,12 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 ### P01 — Make the construct/dependent collision visible and formal
 
 **Question:** What exactly do Rashi and Ramban disagree about in Bereishis 1:1, and which verse-level proposition captures that disagreement without substituting a downstream consequence?  
-**Job:** Present Rashi's construct/dependent reading, his broader *reishis* premise, Ramban's explicit attack on that premise, and the resulting verse-level contradiction. Define C_S only after the source disagreement is visible.  
+**Job:** Present Rashi's construct/dependent reading, his broader *reishis* premise, Rashi's extant Yeshayahu 46:10 ellipsis treatment, Ramban's attack on the premise and on the force of an ellipsis defense, and the resulting verse-level contradiction. Define C_S only after the source disagreement is visible.  
 **Reader:** General awareness of the commentators → can state Rashi's construct/dependent peshat, Ramban's rejection, and the exact fixed proposition.  
 **Earned claim:** C_S = on the peshat of Bereishis 1:1, *bereishis* functions in the construct/dependent relation Rashi assigns to it, so the opening forms the temporal setting leading to the main clause in verse 3. The manuscript freezes the polarity explicitly as \(P_R=C_S\) and \(P_N=\neg C_S\).  
 **Evidence:** CANON:SRC:001, CANON:SRC:002; primary-source construct-state language; FIXED_CASE_SEMANTIC_DRIFT_AUDIT_AND_REPAIR_2026-09-29.md.  
 **Claim lineage:** Rashi/Ramban grammatical claims = CLOSE_PARAPHRASE; C_S formalization = PROJECT_INFERENCE constrained to preserve the direct source disagreement; independent/main-predication consequences = DERIVED_CONSEQUENCE.  
-**Limits:** Rashi's broader claim that *reishis* occurs in construct relation is a supporting premise, not the fixed target. No first-order verdict.  
+**Limits:** Rashi's broader claim that *reishis* occurs in construct relation is a supporting premise, not the fixed target. The source reconstruction must preserve Rashi's extant Yeshayahu response and Ramban's omitted-*kol* reply; never compress the case to an unanswered universal premise plus two counterexamples. Historical direct-response claims are controlled separately by P30/Re'em. No first-order verdict.  
 **Live 36 cells:** XL→COMP source fidelity; COMP→BND premise versus target versus consequence; SUB→INT ordinary language before notation; BND→SYS target identity must remain source-faithful.  
 **Decision:** The construct/dependent issue is the fixed-case nucleus. The old main-predication I_S target is superseded. Keep the two-line polarity equation because it protects target identity and does not add theoretical burden.
 
@@ -166,7 +166,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Question:** Does a variant-recension explanation dissolve the fixed disagreement?
 **Job:** Grant Re'em's proposal as strongly as the current evidence allows and distinguish textual-history explanation from grammatical adjudication.
 **Reader:** Sees that a historically valuable explanation can leave the truth question untouched.
-**Earned claim:** Re'em can explain why Ramban treated Yeshayahu 46:10 as an effective objection without deciding whether Rashi's construct generalization or Ramban's counterexample is grammatically correct. A genuine reconciliation would defeat the fixed case.
+**Earned claim:** Re'em supplies a textual-history reason to distinguish the logical relation between the extant Rashi/Ramban texts from the historical claim that Ramban saw Rashi's extant Yeshayahu response. That explanation does not decide the grammatical question or reconcile the incompatible verse-level peshatim. A genuine reconciliation would defeat the fixed case.
 **Evidence:** CANON:SRC:003 / Re'em on Rashi to Bereishis 1:1; legacy Mesorah manuscript.
 **Limits:** Do not claim Re'em proves which recension Ramban possessed beyond the source's warranted strength.
 **Decision:** Keep article-visible because it makes explanation-versus-adjudication concrete and strengthens falsifiability. Place it before the final unresolved adjudication question so Section 1.1 still lands on the question.
@@ -563,9 +563,9 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 ### P21 — Use scholarship as a constraint, not a substitute for the source
 
 **Question:** Does secondary scholarship collapse Ramban's peshat and esoteric reading enough to supply the missing edge?  
-**Job:** Show why the strongest retrieved scholarship does not license that inference.  
+**Job:** Show why the strongest retrieved scholarship does not license that inference, while preserving the argumentative posture of the scholarship itself: Berger reports Funkenstein's Genesis 1:1 syntactic-divergence claim in the course of challenging Funkenstein's broader account.  
 **Reader:** Sees the missing link → sees that the obvious scholarly rescue is itself complicated.  
-**Earned claim:** Berger's report of Funkenstein and Shatz's discussion show that peshat and Kabbalah can interact closely, but they do not establish that Ramban's ¬C_S construct/dependent peshat is received content. The esoteric subject/object issue is a different syntactic coordinate and cannot be projected onto C_S.  
+**Earned claim:** Berger's report of Funkenstein, Berger's broader disagreement with Funkenstein, and Shatz's discussion show that peshat and Kabbalah can interact closely without establishing that Ramban's ¬C_S construct/dependent peshat is received content. The esoteric subject/object issue is a different syntactic coordinate and cannot be projected onto C_S.  
 **Evidence:** CANON:SRC:051, SRC:052, SRC:053, SRC:054.  
 **Limits:** Funkenstein and Halbertal full texts remain pending for exact target-edge closure.  
 **Live 36 cells:** XL→COMP source-status hierarchy; COMP→BND secondary support versus primary proposition linkage; BND→SYS preserve reopen condition.  
