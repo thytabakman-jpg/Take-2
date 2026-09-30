@@ -401,7 +401,7 @@ The contribution can also be displayed as a layered claim map.
 | Additional conceptual results | correctness-scope trilemma; classification/truth-tracking distinction; diagnostic adequacy; non-transmission; attribute-indexed authenticity; inverse problem; positive suspension |
 | Validation / portability | positive control; success-capable traditional transmission model; Sikh holdout; exploratory cross-tradition stress tests |
 
-The map is intentionally generous in the development draft. Some rows may later become footnotes, appendices, or follow-on papers. At this stage its purpose is to prevent the paper's intellectual contribution from being compressed into a single slogan and to make inherited versus developed versus case-obtained claims auditable.
+The map is intentionally generous in the development draft. Some rows may later become footnotes, appendices, or follow-on papers. At this stage its purpose is to prevent the paper's intellectual contribution from being compressed into a single slogan and to make inherited versus developed versus case-obtained claims auditable. The next task is therefore to separate what the paper inherits from what it develops and what the worked case itself establishes.
 
 ## 6.2 What Is Inherited and What Is New
 
