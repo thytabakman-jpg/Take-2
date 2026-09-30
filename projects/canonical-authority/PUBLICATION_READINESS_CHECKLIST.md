@@ -88,6 +88,40 @@ Required before submission:
 
 These citations support the multidisciplinary positioning. They do not become premises of the fixed Jewish case.
 
+### 8. Overfull recovery additions — source closure
+
+The full recovery pass added article-visible material that now creates additional publication-facing citation and verification obligations.
+
+Close before submission:
+
+- Re'em / Eliyahu Mizrahi on the variant recension of Rashi to Bereishis 1:1;
+- the protected-reception / correctness-scope trilemma against Rambam's received-content sources;
+- Judah Halevi, Kuzari III:24, if the concurrent-transmission success model remains in the final cut;
+- Michael Bergmann on benign and malignant epistemic circularity;
+- Beit Yosef Introduction and the sources used for the yeridas-hadoros incapacity/reliability distinction;
+- jurisprudence comparators used for settlement-versus-truth, especially Sagi/Ravitsky where retained;
+- Adam Afterman, Ramban Bava Batra 12a, Chatam Sofer, and related Ruach HaKodesh material if that adjacent branch survives the cut;
+- social-epistemology/testimony and collective-epistemology literature for the transmission/trust/warrant distinctions;
+- canon/cultural-memory and historiographic literature for survival-as-filter claims;
+- provenance/authenticity literature for attribute-indexed authenticity;
+- exact documentation of the prospective Sikh holdout and clear labeling of the Catholic, Sunni-hadith, charismatic, and Latter-day Saint exercises as exploratory;
+- a citation or methods note for the Bayesian restatement if retained.
+
+The development draft may carry these candidates before closure. Submission language must track the final evidence state.
+
+### 9. Earned-claim preservation check
+
+Before any cut pass, verify that editing has not silently weakened these currently earned claims:
+
+- shared canonical standing can give both rivals epistemic weight while failing to discriminate;
+- a genuine counterexample defeats Rashi's universal supporting premise as stated, without thereby proving Ramban's full reading;
+- under ordinary non-contradiction, preserving P and not-P preserves at least one false proposition; if a broad mesorah category includes both, the same conditional consequence applies to that category;
+- different response routes can fail at different locations while converging on the same adjudicative requirement;
+- successful internal/traditional discriminators count as success rather than being redescribed as failures;
+- the current package result is strong but restricted to R_current;
+- failure to find a selector for one rival is not evidence for the opposite rival;
+- genuinely defeating evidence changes the paper rather than being absorbed by redefining the target.
+
 ## Non-blocking items
 
 These are not reasons to redesign the paper:
