@@ -1,5 +1,8 @@
 # Canonical Authority — Whole-Paper ASSERT + MT + PD + Logic + GOAL Audit
 
+> **Semantic supersession note — 2026-09-29:** This audit predates the fixed-case correction from the derivative `I_S` main-predication target to the source-faithful `C_S` construct/dependent target. Its movement/tool findings may remain historically useful, but any target-specific conclusion, notation, polarity, or paragraph goal must be read as superseded unless revalidated against `C_S`.
+
+
 > **Supersession note — 2026-09-29:** The manuscript opening was subsequently compressed from 30 to 28 paragraphs, and the former package-admissibility paragraph was moved from Section 2 into the TRACE section. Paragraph IDs in this audit reflect the pre-restructure manuscript snapshot. Preserve this file as historical audit evidence; do not treat its paragraph numbering as current.
 
 
