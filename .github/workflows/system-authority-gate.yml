@@ -1,0 +1,18 @@
+name: system-authority-gate
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - improvecore/final-consolidation-20260930
+
+jobs:
+  authority:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python tools/check_full_system_authority.py

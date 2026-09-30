@@ -1,0 +1,18 @@
+name: ICC Adaptive Harness
+on:
+  push:
+    paths:
+      - 'experiments/006-adaptive-program/**'
+      - '.github/workflows/icc-adaptive-harness.yml'
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run adaptive semantic harness
+        run: python3 experiments/006-adaptive-program/harness.py
+      - name: Run closed-loop witness
+        run: python3 experiments/004-closed-loop/loop.py
+      - name: Kernel fitness
+        run: python3 tools/check_kernel.py

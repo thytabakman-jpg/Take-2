@@ -1,0 +1,30 @@
+schema_version: 0.1
+experiment: take_4_informed_reconstruction
+status: BOOTSTRAP_CANDIDATE
+authority: experimental_only
+external_corpora:
+  reaserch: thytabakman-jpg/Reaserch
+  take_2: thytabakman-jpg/Take-2
+controller_candidate: IC-022
+promoted_runtime_external: IC-2026-09-23-018
+coordinates:
+  episode: [id, goal, corpus_boundary, evaluation_context, protected]
+  object: [id, kind, exact_identity, currentness, authority_ref]
+  evidence: [id, subject, provenance, epistemic_status, content]
+  authority: [id, owner, scope, license, status]
+  decision: [id, episode, eligible, selected, incomparable, basis]
+  transition: [id, baseline, target, authority, operation, status]
+  verification: [id, transition, checks, result, protected_result]
+  state_delta: [id, predecessor, successor, changed, invalidated, reentry]
+loop: [ORIENT, NAVIGATE, RESOLVE, SELECT, EXECUTE, VERIFY, UPDATE, RESELECT]
+protected:
+  - project_local_authority
+  - exact_identity
+  - provenance
+  - currentness
+  - OPEN
+  - INCOMPARABLE
+  - candidate_promoted_distinction
+  - semantic_runtime_authority_separation
+inheritance_rule: inherit_evidence_not_architecture
+surface_rule: semantic_coordinate_does_not_require_independent_registry

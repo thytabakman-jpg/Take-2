@@ -1,0 +1,16 @@
+name: Take-4 Experimental Closed Loop
+on:
+  push:
+    paths:
+      - 'experiments/004-closed-loop/**'
+      - '.github/workflows/closed-loop.yml'
+  workflow_dispatch:
+jobs:
+  closed-loop:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run closed-loop witness
+        run: python3 experiments/004-closed-loop/loop.py
+      - name: Run kernel fitness
+        run: python3 tools/check_kernel.py

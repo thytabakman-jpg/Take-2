@@ -1,0 +1,109 @@
+"""User-invocation dispatch for Improvement Core.
+
+Ordinary user phrases that name ImproveCore/Improvement Core resolve to the
+current cumulative-autonomous ImprovementCore regime. When the host supplies no
+substantive target/job/basis, the dispatcher can first run governed zero-request
+observation over an addressable corpus and create only a discovery seed. The
+normal controller then owns substantive work generation.
+
+Recursive-management, learning-memory, and host-bound external-acquisition inputs remain preserved across the dispatch boundary.
+"""
+from dataclasses import dataclass
+from typing import Any, Callable, Iterable
+
+from entry_contract import resolve_controller
+from improvement_core_hf2_default import run_improvement_core_with_hf2
+from improvement_core_learning_memory import LearningMemory
+from improvement_core_knowledge_ledger import KnowledgeLedger
+from improvement_core_upstream import discover_upstream_seed
+
+IMPROVEMENT_CORE_CONTROLLER="IC-028"
+
+@dataclass(frozen=True)
+class InvocationResolution:
+    controller:str
+    entrypoint:str
+
+def resolve_improvement_core_invocation(user_text:str)->InvocationResolution:
+    controller=resolve_controller(user_text)
+    if controller!=IMPROVEMENT_CORE_CONTROLLER:
+        raise RuntimeError(f"IMPROVEMENT_CORE_CONTROLLER_UNRESOLVED:{controller}")
+    return InvocationResolution(
+        controller=controller,
+        entrypoint="runtime.improvement_core_hf2_default.run_improvement_core_with_hf2",
+    )
+
+def dispatch_improvement_core(
+    user_text:str,
+    *,
+    state:Any,
+    handlers:dict[str,Callable],
+    target:str|None=None,
+    job:str|None=None,
+    basis:str|None=None,
+    corpus:Iterable[Any]|None=None,
+    authority=frozenset(),
+    boundary=None,
+    explicit_mode=None,
+    observer_risk=None,
+    jane_update:Callable|None=None,
+    controller_decide:Callable|None=None,
+    max_rounds:int=8,
+    recursive_handlers:dict[str,Callable]|None=None,
+    learning_memory:LearningMemory|None=None,
+    knowledge_ledger:KnowledgeLedger|None=None,
+    external_adapters:dict[str,Callable]|None=None,
+    force_external:bool=False,
+    allow_external_gap:bool=True,
+    configured_tool_adapters:dict[str,Callable]|None=None,
+    hf2_enabled:bool=True,
+    hf2_max_rounds:int=6,
+    return_verifier:Callable|None=None,
+    parent_max_rounds:int=16,
+    allow_ungated_debug:bool=False,
+):
+    resolution=resolve_improvement_core_invocation(user_text)
+
+    supplied=(target is not None,job is not None,basis is not None)
+    if any(supplied) and not all(supplied):
+        raise RuntimeError("IMPROVEMENT_CORE_PARTIAL_ENTRY_COORDINATES")
+
+    if not any(supplied):
+        if corpus is None:
+            raise RuntimeError("IMPROVEMENT_CORE_CORPUS_REQUIRED_FOR_UPSTREAM_DISCOVERY")
+        seed=discover_upstream_seed(corpus)
+        target,job,basis=seed.target,seed.job,seed.basis
+        if state is None:
+            state={}
+        if not isinstance(state,dict):
+            raise RuntimeError("IMPROVEMENT_CORE_UPSTREAM_STATE_REQUIRES_MAPPING")
+        state={**state,**seed.state_delta}
+
+    result=run_improvement_core_with_hf2(
+        user_text,
+        target=target,
+        job=job,
+        basis=basis,
+        state=state,
+        handlers=handlers,
+        authority=authority,
+        boundary=boundary,
+        explicit_mode=explicit_mode,
+        observer_risk=observer_risk,
+        jane_update=jane_update,
+        controller_decide=controller_decide,
+        max_rounds=max_rounds,
+        recursive_handlers=recursive_handlers,
+        learning_memory=learning_memory,
+        knowledge_ledger=knowledge_ledger,
+        external_adapters=external_adapters,
+        force_external=force_external,
+        allow_external_gap=allow_external_gap,
+        configured_tool_adapters=configured_tool_adapters,
+        hf2_enabled=hf2_enabled,
+        hf2_max_rounds=hf2_max_rounds,
+        return_verifier=return_verifier,
+        parent_max_rounds=parent_max_rounds,
+        allow_ungated_debug=allow_ungated_debug,
+    )
+    return resolution,result

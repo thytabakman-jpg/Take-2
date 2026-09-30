@@ -1,0 +1,168 @@
+schema_version: 0.1
+system: take_5
+status: SUCCESSOR_CANDIDATE
+target_status: REPLACEMENT
+production_authority: none
+legacy_authority: thytabakman-jpg/Reaserch
+architecture_status: UNFROZEN
+
+governing_principles:
+  - mathematical_color_state_survives_user_visible_emission
+  - preserve_protected_behavior
+  - evidence_does_not_self_authorize
+  - semantic_success_is_not_runtime_execution
+  - controller_lineage_is_not_kernel_lineage
+  - exact_identity_provenance_currentness
+  - preserve_OPEN_and_INCOMPARABLE
+  - distinctions_do_not_imply_surfaces
+  - migrate_authority_capability_state_evidence_not_files
+  - capture_does_not_imply_acceptance
+  - child_authority_cannot_exceed_grant
+  - no_self_promotion
+  - architecture_is_earned_by_result_sensitive_evidence
+  - icc_identity_claim_requires_host_ingress_receipt
+
+candidate_layers:
+  - KERNEL
+  - EPISTEMIC
+  - CONTROLLER
+  - RUNTIME
+  - VERIFICATION
+  - STATE
+  - INTERFACE
+  - CAPABILITY
+  - AUTHORITY_GATE
+  - OPEN
+
+historical_configuration:
+  pd_in_epistemic_kernel: benchmark_candidate
+  icc_above_kernel: benchmark_candidate
+
+placement_rule: >
+  Place or factor each live component independently. Admit foundational kernel semantics only
+  when a required global invariant or protected behavior cannot be preserved by a less-foundational
+  admissible composition. Preserve OPEN where evidence does not discriminate.
+
+development_loop:
+  - RECOVER
+  - DECOMPOSE
+  - PLACE
+  - ABLATE
+  - BUILD
+  - BIND
+  - EXECUTE
+  - OBSERVE
+  - VERIFY
+  - UPDATE
+  - REENTER
+
+promotion:
+  automatic: false
+  self_promotion: prohibited
+  requires:
+    - protected_behavior_witnesses
+    - execution_truth
+    - authority_integrity
+    - migration_closure
+    - map_anti_loss
+    - historical_benchmarks
+    - prospective_holdout
+    - independent_authority_gate
+
+emergent_object_guard:
+  invariant: >-
+    No newly introduced load-bearing governing object may affect legal continuation until it has
+    stable identity, explicit type, an admission disposition, and legal authority. OPEN candidates
+    may persist but cannot silently govern unresolved coordinates.
+  pipeline:
+    - EXTRACT_NEW_OBJECTS
+    - OBJECTIFY
+    - TYPE
+    - MATHEMATIZE
+    - ADMIT
+    - INTEGRATE
+    - VERIFY
+    - REENTER
+  admission_is_not_promotion: true
+
+capability_generation:
+  mechanism: CapabilityFoundry
+  runtime: runtime/capability_foundry.py
+  rule: >-
+    Generated capabilities may request admission but cannot grant themselves admission, authority,
+    promotion, production status, or persistence authority.
+  candidate_contract:
+    - trigger
+    - input_contract
+    - transform
+    - output_contract
+    - success
+    - failure
+    - dependencies
+    - persistence
+
+recovery_admission_contract:
+  rule: >-
+    Recovered objects are evidence only until reconstructed, typed, impact-mapped, bound, executed
+    where applicable, verified, dispositioned, integrated, and reentered under the frozen job.
+  pipeline:
+    - RECOVER
+    - RECONSTRUCT
+    - TYPE
+    - IMPACT_MAP
+    - BIND
+    - EXECUTE
+    - VERIFY
+    - ADMIT
+    - INTEGRATE
+    - REENTER
+  prohibited_shortcuts:
+    - name_based_execution
+    - local_closure_with_unresolved_downstream_obligations
+    - authority_by_recovery
+
+capability_coverage_obligation:
+  invariant: >-
+    A material continuation or completion claim may not silently bypass a registered capability
+    that could materially change the live bottleneck. The controller must produce an explicit
+    capability-coverage disposition and, for each selected bound licensed capability, an execution
+    receipt or a typed blocker.
+  coverage_statuses:
+    - SELECTED
+    - NON_APPLICABLE
+    - UNBOUND
+    - BLOCKED
+    - OPEN
+  kernel_does_not_select_capabilities: true
+  selection_owner: CONTROLLER
+  binding_owner: INTERFACE
+  execution_owner: RUNTIME
+  receipt_owner: STATE
+  verification_owner: VERIFICATION
+
+mathematical_color_emission:
+  invariant: >-
+    Every load-bearing mathematical or formal-system object reaching a user-visible emission
+    boundary carries an explicit recovery status and renders that status on the glyph itself.
+    RECOVERED renders green. UNRESOLVED renders red. Missing glyph color is a fidelity failure,
+    not a reason to substitute an emoji, prefix, box, raw HTML span, or other fallback.
+  runtime: runtime/mathematical_color_gate.py
+  default_result_boundary: runtime/result_path_registry.py:emit_default_result
+  statuses:
+    RECOVERED: green_glyph
+    UNRESOLVED: red_glyph
+  required_projection: LATEX_GLYPH_COLOR
+  fallback_projection: forbidden
+  fail_closed: true
+
+host_ingress:
+  invariant: >-
+    An external host may represent a response as repository-backed ICC only after
+    canonical Take-5/main currentness, bound entry, protected bootstrap, and current
+    ICC128 registration are evidenced in a HOST_INGRESS_ADMITTED receipt for the
+    exact request. ICC prefix alone expresses intent and does not establish execution.
+  runtime: runtime/icc_host_ingress.py
+  host_gateway: runtime/icc_host_gateway.py
+  architecture: architecture/ICC_HOST_INGRESS_CONTRACT_001_2026-09-27.md
+  fail_closed: true
+  universal_external_host_interception: not_repository_owned

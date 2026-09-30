@@ -1,0 +1,23 @@
+name: Take-4 IC28 Corpus Ingestion
+on:
+  push:
+    paths:
+      - 'experiments/010-ic28-corpus/**'
+      - '.github/workflows/ic28-corpus.yml'
+  workflow_dispatch:
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ingest IC26 lineage maps math and tools with no substantive job
+        run: python3 experiments/010-ic28-corpus/ingest.py
+      - name: Run Take-4 closed-loop witness
+        run: python3 experiments/004-closed-loop/loop.py
+      - name: Kernel fitness
+        run: python3 tools/check_kernel.py
+      - name: Upload corpus result
+        uses: actions/upload-artifact@v4
+        with:
+          name: take4-ic28-corpus-result
+          path: experiments/010-ic28-corpus/result.json

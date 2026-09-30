@@ -1,0 +1,14 @@
+{
+  "schema": "EXTERNAL_PRIVATE_DEPENDENCIES/v1",
+  "dependencies": [
+    {
+      "source": "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/presentation/ICC_128_CANDIDATE_V12_FRONTIER_CLOSED_2026-09-26.md",
+      "target": "assets/icc128/v12-frontier-closed.svg",
+      "provenance_repository": "thytabakman-jpg/Reaserch",
+      "provenance_blob_sha": "4f275da7fdb8d9a54bdd4c542b502567f6373ba9",
+      "status": "BOUNDED_PRIVATE_SOURCE",
+      "runtime_effect": "none",
+      "note": "Legacy presentation asset exists in the private source lineage but is not copied into public Take-2."
+    }
+  ]
+}

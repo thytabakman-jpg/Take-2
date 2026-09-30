@@ -20,6 +20,7 @@ jobs:
       - run: python -m unittest discover -s tests -p 'test_*.py' -v
       - run: python tools/repository_search.py build
       - run: python tools/repository_search.py check
+      - run: python tools/check_full_system_authority.py
       - name: Refresh derived repository search index
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
