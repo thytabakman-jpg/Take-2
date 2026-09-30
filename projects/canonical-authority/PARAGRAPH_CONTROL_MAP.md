@@ -58,6 +58,28 @@ Examples:
 
 This gate applies to manuscript prose, summaries, section rewrites, currentness repairs, claim-strength repairs, compression passes, and later cut passes.
 
+## Historical person-date rule
+
+On first substantive paragraph mention of a named post-biblical person whose life or activity predates 2000, give numeric year information when it is recoverable.
+
+Use Arabic year numbers only. Century-label dating is prohibited.
+
+Allowed forms include:
+
+- `1040–1105`
+- `c. 1075–1141`
+- `fl. 1170–1190`
+- `d. 1204`
+- `b. 1948`
+
+Forbidden forms include:
+
+- `12th century`
+- `twelfth century`
+- `late twelfth century`
+
+Uncertain or unresolved dates remain OPEN rather than being replaced with a century label or guessed year. Titles and headings do not trigger the first-substantive-mention requirement.
+
 Use **Bereishis (Genesis) 1:1** on first reader-facing occurrence and **Bereishis** thereafter. Formal bibliographic source citations may retain **Genesis** when that is the title used by the edition or citation standard.
 
 ## Transliteration and divine-name style
