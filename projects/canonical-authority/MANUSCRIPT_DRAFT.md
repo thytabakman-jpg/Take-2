@@ -12,7 +12,11 @@ Paragraph control: PARAGRAPH_CONTROL_MAP.md
 ## 1.1 The Exact Disagreement
 
 <!-- P01 -->
-Bereishis 1:1 presents a precise grammatical disagreement between Rashi and Ramban. Rashi's peshat reads the opening as dependent: *bereishis* stands in a construct/dependent relation with the verbal clause *bara Elohim*, so the opening supplies a temporal setting whose main clause arrives in verse 3. Rashi supports that reading with the broader claim that *reishis* in Scripture occurs in construct relation. Ramban directly attacks that grammatical premise, citing cases such as Yeshayahu 46:10 and Devarim 33:21 where *reishis* is not functioning as Rashi's generalization requires, and then gives an independent peshat reading of Bereishis 1:1. Because Rashi's broader claim is universal, a single genuine counterexample is enough to defeat that supporting premise as stated. Let \(C_S\) denote the verse-level proposition that, on the peshat advanced, *bereishis* functions in the construct/dependent relation Rashi assigns to it, so the opening forms the temporal setting leading to the main clause in verse 3. The rival positions can therefore be fixed as
+Bereishis 1:1 presents a sharply bounded grammatical disagreement. Rashi's peshat reads *bereishis* in a construct/dependent relation with the verbal clause *bara Elohim*: the opening supplies a temporal setting, “at the beginning of God's creating,” whose main clause arrives in verse 3. Rashi supports that reading with a broader grammatical premise: *reishis* in Scripture occurs in construct/dependent relation.
+
+Ramban does not merely offer a different emphasis. He directly attacks that supporting generalization, citing cases such as Yeshayahu 46:10 and Devarim 33:21 where *reishis* does not function as Rashi's universal premise requires. If either case is a genuine counterexample, the universal premise is false as stated. That defeats Rashi's stated general support for the construct reading, although it does not by itself prove Ramban's reading of Bereishis 1:1. Ramban then advances an independent peshat of the verse in which *bereishis* is not functioning in Rashi's construct/dependent relation.
+
+The verse-level disagreement can therefore be frozen without substituting a downstream consequence. Let \(C_S\) denote the proposition that, on the peshat advanced, *bereishis* functions in the construct/dependent relation Rashi assigns to it, so the opening forms the temporal setting leading to the main clause in verse 3. The rival positions are
 
 \[
 P_R = C_S,
@@ -20,7 +24,9 @@ P_R = C_S,
 P_N = \neg C_S.
 \]
 
-This notation does only one job: it freezes the proposition under comparison. Rashi's broader claim about *reishis* is a supporting grammatical premise; the fixed target is the verse-level construct/dependent reading itself.
+These are incompatible truth-apt claims about the same grammatical question. They are not merely two descriptions of different features of the verse. Under the same target and sense, \(C_S\) and \(\neg C_S\) cannot both be true. The notation does only one job: it freezes the proposition under comparison. Rashi's broader claim about *reishis* remains a supporting premise; the fixed target is the verse-level construct/dependent reading itself.
+
+The disagreement therefore leaves a precise unresolved question: **what grounds permit a later evaluator to favor Rashi's grammatical claim over Ramban's, or Ramban's over Rashi's?**
 
 ## 1.2 The Problem, the Question, and the Paper's Answer
 
