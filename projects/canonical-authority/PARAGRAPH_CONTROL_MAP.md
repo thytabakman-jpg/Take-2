@@ -42,12 +42,13 @@ Any new primary-source recovery that changes the linguistic nucleus of the dispu
 
 ## Formalization rule
 
-Use mathematics only where it protects a load-bearing boundary or compresses a recurring relation. The current manuscript ceiling is four article-facing formal objects:
+Use mathematics only where it protects a load-bearing boundary or compresses a recurring relation. The current manuscript ceiling is four mathematical formal objects plus one non-mathematical typed-path schematic:
 
 1. fixed rival polarity \(P_R=C_S\), \(P_N=\neg C_S\);
 2. evaluator-usable package-ground condition;
 3. bounded current-route result over \(\mathcal R_{current}\);
-4. selector-attribution sensitivity with \(V=F(S;\Phi,\Psi)\).
+4. selector-attribution sensitivity with \(V=F(S;\Phi,\Psi)\);
+5. conceptual typed path: source/channel → native output/status → licensed bridge → target-indexed ground → discrimination → evaluator uptake.
 
 Do not add full selector-space mathematics, 36D machinery, package lattices, regress formalization, or backend controller equations unless a concrete reviewer problem requires them.
 
@@ -119,7 +120,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Evidence:** CANON:SRC:041, SRC:042; CANON:D:025, D:026.  
 **Limits:** Fixed target does not imply exhaustive comparability.  
 **Live 36 cells:** SYS→SUB comparison architecture; XL→SYS comparative-method transfer; BND→COMP native-function preservation.  
-**Decision:** Keep this as the compact close of Section 1. Treat it as inherited method, not as an original contribution.
+**Decision:** Keep this as the compact close of Section 1. Treat the tertium as inherited method. Make PD visible here as a discovery/stress-testing heuristic, while stating explicitly that no article conclusion depends on accepting PD as an independent theory.
 
 ### P04 — Open source analysis with the native/target distinction
 
@@ -148,7 +149,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Question:** What does the pluralism/determination material natively establish?  
 **Job:** Reconstruct H_P before asking it to decide C_S.  
 **Reader:** Enters source analysis → sees legitimacy/determination as a specific native function.  
-**Earned claim:** Eruvin 13b and the Ritva tradition concern legitimacy and practical determination; neither relation alone is yet a descriptive truth selector for Bereishis 1:1.  
+**Earned claim:** Eruvin 13b and the Ritva tradition concern legitimacy and practical determination; neither relation alone is yet a descriptive truth selector for Bereishis 1:1. Canonical or communal preservation can stabilize an unresolved rival set without selecting between its members.  
 **Evidence:** CANON:SRC:046, SRC:047, SRC:013–016; SOURCE_MODULES H_P.  
 **Limits:** Do not reduce “elu ve-elu” to a single uncontested theory.  
 **Live 36 cells:** XL→COMP source-status calibration; COMP→BND legitimacy versus truth; SUB→INT establish source-analysis rhythm.  
@@ -181,7 +182,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Question:** Do epistemic history or comparative stature generate a present proposition-specific selector?  
 **Job:** Reconstruct H_L and H_G efficiently.  
 **Reader:** Sees several native functions → understands why explanatory history/status cannot be silently promoted.  
-**Earned claim:** Loss/reconstruction can explain how knowledge changes, and hierarchy can express asymmetry of stature or memory, but each needs a proposition-type reliability bridge and case-specific asymmetry.  
+**Earned claim:** Loss/reconstruction can explain how knowledge changes, and hierarchy can express asymmetry of stature or memory, but each needs a proposition-type reliability bridge and case-specific asymmetry. The authority/status of a lost item does not automatically transfer to a later reconstruction.  
 **Evidence:** CANON:SRC:019, SRC:021, SRC:022, SRC:023, SRC:024; SOURCE_MODULES H_L/H_G.  
 **Limits:** Do not claim these traditions deny later knowledge or later correctness.  
 **Live 36 cells:** SUB→COMP compress two support routes; BND→COMP explanation/status versus selector; XL→SYS preserve scope controls.  
@@ -214,7 +215,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Question:** What comparative result emerges across the seven mechanisms, and where does source reconstruction end and project-level inference begin?  
 **Job:** Earn the first paper-specific comparative synthesis by showing that heterogeneous mechanisms stop at heterogeneous inferential locations, then establish attribution discipline before the formal method.  
 **Reader:** Has seen each mechanism separately → can now see the obstruction profile as a result and then ask what formal conditions would convert source material into a usable ground.  
-**Earned claim:** When recruited to C_S, heterogeneous mechanisms stop at different inferential locations; these are stopping-point diagnoses rather than a mutually exclusive taxonomy. Bridge information introduced by the analysis is not retroactively source content.  
+**Earned claim:** When recruited to C_S, heterogeneous mechanisms stop at different inferential locations; these are stopping-point diagnoses rather than a mutually exclusive taxonomy. PD further distinguishes missing-target-content from missing-transfer-or-selector problems. Bridge information introduced by the analysis is not retroactively source content.  
 **Evidence:** Source-module comparison; CANON:D:003–012, D:025, D:034; CANON:D:004, D:005, D:006, D:017 for attribution.  
 **Limits:** Do not imply that project-level bridges are illegitimate; they require licensing and attribution.  
 **Live 36 cells:** BND→SYS global attribution rule; XL→BND evidence/analysis boundary; INT→SUB handoff to method.  
@@ -225,7 +226,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Question:** Once a source is reconstructed, what is the first thing that must be shown?  
 **Job:** Introduce PROFILE as setup and TRACE as the first adjudicative operation.  
 **Reader:** Has typed sources → knows why source relevance requires an actual route to C_S.  
-**Earned claim:** TRACE asks whether an independently admissible source package supplies a licensed relation to the target. A bridge is licensed only when independently supported by the source, interpretive framework, or an explicitly defended external inferential principle; externally licensed bridges yield mixed rather than source-only provenance.  
+**Earned claim:** TRACE asks whether an independently admissible source package supplies a licensed relation to the target. A bridge is licensed only when independently supported by the source, interpretive framework, or an explicitly defended external inferential principle; externally licensed bridges yield mixed rather than source-only provenance. The article may use the typed-path schematic source/channel → native output/status → licensed bridge → target-indexed ground → discrimination → evaluator uptake to expose hidden type conversions.  
 **Evidence:** CANON:D:032, D:034, D:037, D:056.  
 **Limits:** PROFILE is not an extra success hurdle; it is required setup. Licensed and source-attributable are distinct properties.  
 **Live 36 cells:** SUB→COMP method compression; BND→COMP setup versus success; INT→SYS make technical vocabulary intuitive.  
@@ -328,7 +329,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Evidence:** CS_PACKAGE_BRIDGE_TRACE_AUDIT_2026-09-30.md; RESEARCH_ARCHITECTURE_LIVE.yaml; CANON:D:058, D:059; historical source-package TRACE audit.  
 **Limits:** Corpus-bounded, evidence-bounded, reopenable.  
 **Live 36 cells:** SUB→SYS local result to paper result; BND→SYS bounded negative; COMP→BND downstream invariance only while TRACE obstruction holds.  
-**Decision:** This is the strongest bounded case result. The restricted-domain equation is mandatory because it makes the non-universal quantifier explicit. Do not replace it with a universal impossibility claim.
+**Decision:** This is the strongest bounded case result. The restricted-domain equation is mandatory because it makes the non-universal quantifier explicit. Treat disciplined suspension as a positive epistemic output relative to the declared corpus, not merely as failure. Do not replace it with a universal impossibility claim.
 
 ### P23 — State the Cross-Function Epistemic Transfer Principle
 
@@ -357,7 +358,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Question:** What can a scholar claim without turning the paper into first-order theology?  
 **Job:** Locate the contribution within second-order religious-studies/philosophical analysis.  
 **Reader:** Understands attribution → understands the standpoint of the paper.  
-**Earned claim:** The scholar can analyze internal truth-directed structures and their transfer conditions without deciding whether C_S or ¬C_S is ultimately correct.  
+**Earned claim:** The scholar can analyze internal truth-directed structures and their transfer conditions without deciding whether C_S or ¬C_S is ultimately correct. The architecture creates a multidisciplinary meeting point among social epistemology, provenance theory, sociology of religious knowledge, canon/cultural-memory studies, and comparative religious studies without collapsing those fields.  
 **Evidence:** CANON:D:027, D:030, D:060.  
 **Limits:** Emic truth-directedness remains real even though the paper does not endorse the answer.  
 **Live 36 cells:** XL→SYS disciplinary transport; BND→COMP emic/etic; INT→SUB prepare contribution synthesis.  
@@ -368,7 +369,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Question:** What has the paper actually contributed once the reader has traversed the case and method?  
 **Job:** Synthesize the contribution in earned order.  
 **Reader:** Has all premises/results → can reconstruct the contribution hierarchy.  
-**Earned claim:** The paper builds on inherited fixed-target comparison and domain sensitivity, develops the integrated source-to-ground architecture plus package TRACE/COMPOSE and attribution controls, obtains the bounded Rashi–Ramban package-and-bridge TRACE non-completion result, and derives cross-function transfer and selector-attribution significance.  
+**Earned claim:** The paper builds on inherited fixed-target comparison and domain sensitivity, develops the integrated source-to-ground architecture plus package TRACE/COMPOSE and attribution controls, obtains the bounded Rashi–Ramban package-and-bridge TRACE non-completion result, derives cross-function transfer and selector-attribution significance, and makes PD visible as a discovery discipline that generated candidate distinctions later independently defended.  
 **Evidence:** NOVELTY_CONTRIBUTION_MAP.md; CANON:D:019, D:032, D:038, D:050, D:058.  
 **Limits:** Synthesis does not independently prove earlier claims.  
 **Live 36 cells:** SUB→SYS contribution lift; COMP→BND typed contributions; INT→SYS reader reconstruction.  
@@ -379,7 +380,7 @@ The former standalone comparison/setup section has been dissolved. Fixed-target 
 **Question:** What is new relative to the strongest reviewed neighboring literatures?  
 **Job:** Close novelty inflation by distinguishing inherited components, the architecture developed here, and the worked result obtained here.  
 **Reader:** Knows the full argument → can state exactly what was inherited, what was developed, and what was newly obtained.  
-**Earned claim:** Established literatures supply the component ideas; this paper develops their provenance-controlled integration and obtains the bounded package-and-bridge TRACE result. No direct predecessor has been located in the reviewed comparator corpus for that integrated architecture plus worked result.  
+**Earned claim:** Established literatures supply the component ideas; this paper develops their provenance-controlled integration and obtains the bounded package-and-bridge TRACE result. Additional bounded paper-specific claims include canonical preservation of unresolved rival sets, non-transfer of lost authority to reconstruction, the missing-target-content / missing-transfer distinction, and positive disciplined suspension. No direct predecessor has been located in the reviewed comparator corpus for the integrated architecture plus worked result.  
 **Evidence:** CANON:SRC:005, SRC:038–045; CANON:D:043, D:048.  
 **Limits:** “No located direct predecessor in the reviewed corpus,” not universal priority.  
 **Live 36 cells:** XL→SYS literature-to-novelty transfer; COMP→BND component novelty versus intersection novelty; SYS→INT calibrate reader confidence.  
