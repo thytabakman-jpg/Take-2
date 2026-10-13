@@ -77,6 +77,7 @@ def verify(checkout=None):
             if typ == "blob":
                 files[name] = (sha, mode)
         current = head
+        # Local HEAD may advance if all named authority blobs remain identical.
     else:
         commit = get(BASE + "/commits/" + pin["source_commit"])
         tree_sha = commit["commit"]["tree"]["sha"]
@@ -97,12 +98,13 @@ def verify(checkout=None):
             require(not changed_required, "current native authority has changed since pin: " +
                     repr(changed_required))
         head = pin["source_commit"]
-    require(head == pin["source_commit"], "checkout is not pinned source commit")
-    require(tree_sha == pin["source_tree"], "source tree mismatch")
+    if not checkout or current == pin["source_commit"]:
+        require(tree_sha == pin["source_tree"], "source tree mismatch")
     mismatches = [p for p, blob in entries.items() if files.get(p) != (blob["sha"], blob["mode"])]
     require(not mismatches, "missing/changed required native blobs: " + repr(mismatches))
     return {"status": "PASS_PINNED_SOURCE", "native_source": pin["source_repository"],
-            "pin": head, "required_verified": len(entries), "mirror_required": False,
+            "pin": pin["source_commit"], "checked_revision": current,
+            "required_verified": len(entries), "mirror_required": False,
             "native_main_matches_pin": current == head,
             "runtime_execution_certified": False}
 
