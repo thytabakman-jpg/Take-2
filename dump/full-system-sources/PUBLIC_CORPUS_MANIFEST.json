@@ -8,9 +8,9 @@
   "file_counts": {
     "Take-3": 7,
     "Take-4": 50,
-    "Take-5": 8916
+    "Take-5": 8816
   },
-  "total_files": 8973,
+  "total_files": 8873,
   "records": [
     {
       "path": "dump/full-system-sources/Take-3/BENCHMARKS.md",
@@ -433,269 +433,9 @@
       "sha256": "4d0dba6ef8a8fb399b9d64223394dd99d4ffc230a7f325059e12ed0a1d91ce12"
     },
     {
-      "path": "dump/full-system-sources/Take-5/artifacts/full-system-campaign/SHOW_ME_THE_MATH_FULL_SYSTEM_MATH_001_2026-09-26.md",
-      "bytes": 4481,
-      "sha256": "d67558349d7568e64749418158c36b01a0de0a1d0803124b62e525430ab77cd3"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/ICC128_ASSERT_MT_HF2_PREEXECUTION_EFFECT_CONTRACT_145_2026-09-27.md",
-      "bytes": 5616,
-      "sha256": "cdf0609b1fb32ee07caec783c40ae45eb5512293952e1eb34be8c02f7573cb67"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/ICC128_LEGACY_CANONICAL_AUTHORITY_PROSE_CAMPAIGN_146_2026-09-30.md",
       "bytes": 4554,
       "sha256": "590a84afa4e6eac70152b2937308f9736e9f5c1809b09385174440a7dbc697bb"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/ICC128_LEGACY_TWO_EQUATION_PAPER_RUN_147_2026-09-30.md",
-      "bytes": 2986,
-      "sha256": "63523075a6a112fccbe72036fa483376ccea5293cf5d03e9e791bfcfb10a8a2d"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/README.md",
-      "bytes": 561,
-      "sha256": "92d7950b8cbabfc11fe5abb2a3d81315f938afe39128caa4b5b96718695ee847"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/icc128-legacy-full-system-show-math-20260926-004.json",
-      "bytes": 10177,
-      "sha256": "710293ba5785401fcbeba3fb7ea9ac25495441bb5eb20279e9bdb195322635de"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/icc128-legacy-self-portability-20260926-004.json",
-      "bytes": 4734,
-      "sha256": "70abc5e80a275c63018c7c6cceecf77c4154377f07c185f83b1971200e0c5051"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/icc128-legacy-show-math-four-targets-20260926-003.json",
-      "bytes": 6936,
-      "sha256": "605e629261fc9b160a813cba0d2a801cdfbc18dbcabb4ddd0629db23708e6799"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/icc128-legacy-tool-conductor-math-20260926-002.json",
-      "bytes": 4528,
-      "sha256": "abf341cbc425ab1ed1c77ad1f5fbc1f9aad6c8397f41348b5828ebc57ef0886e"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/icc128-legacy-whole-chat-20260926-001.json",
-      "bytes": 10124,
-      "sha256": "6b5bdbc85f304ac621dbef98e18c37a049b2b56cceeb5e7cb92b6063462f9cb1"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/mt-pd-pdaudit-mt-hf2-20260926-001.json",
-      "bytes": 3505,
-      "sha256": "e2a12d7897cc4d8b497b3724945edfc9dec86512eeb9fcabcb67d09b61906393"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/mt-pd-pdaudit-mt-hf2-20260926-001.md",
-      "bytes": 6308,
-      "sha256": "a7f5277a6fc1326fce0eee4b44ec065492cfd8722345f47d8bf5e2f2789793be"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/system-reality-audit-repair-20260926-002.json",
-      "bytes": 3701,
-      "sha256": "15752f2bc355e71ba299768a7767aac8e4fdcc742b3721a4629ffc41076f633d"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/ASSERT_MT_ASSERT_ROOT_MATRIX_HF2_IMPROVEMENTCORE_RUN_2026-09-27.md",
-      "bytes": 12318,
-      "sha256": "959ec6966fa9757ac6dbbc2e0438c1aaf49290f57ae3423cb78c747df2ead184"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/FULL_TOOL_HF2_INVOCATION_REPAIR_CLOSURE_121_2026-09-26.md",
-      "bytes": 5062,
-      "sha256": "6ebe8ca26528c1ed3750149b8c202fbc85ab977a7630c0e7af713ac7c5dd9cbf"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/FULL_TOOL_HF2_REGIME_091_TRANSPORT_121_2026-09-26.md",
-      "bytes": 1657,
-      "sha256": "d1f17eb051248f66dcf441f9412e0ffca3b67d62ee60a9bed6c1ef577ae1c86a"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/GOAL_DIRECT_TOOL_HF2_PROMPT_118_2026-09-26.md",
-      "bytes": 2964,
-      "sha256": "e57b5672dd269608f2e5238e922ab8b3b4b5dbbbbe2ba84d954fa9b81ab778e1"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/GOAL_IC123_IMPROVECORE_RUN_112_RESULT_2026-09-26.md",
-      "bytes": 3154,
-      "sha256": "dad5516531b26bf8d364a4688a529fb66fa992e6f0804c4648737f4741b8db76"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/GOAL_IC123_PRE_IMPROVECORE_112_2026-09-26.json",
-      "bytes": 2353,
-      "sha256": "2431d0177dc96dca2750c31f2afa57ab3c95c5eb952ca58d49e8f1b1eb391d96"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/GOAL_IC123_PRE_IMPROVECORE_112_2026-09-26.md",
-      "bytes": 7560,
-      "sha256": "8631c77e2731c3dbfaece399fc86392b16deaaa2ad6f761362bcea0af6e8a9e5"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/GOAL_TWO_GITHUB_ZIPS_HF2_RUN_123_2026-09-26.md",
-      "bytes": 4133,
-      "sha256": "4f39d3046c9697ee938933f1290bd5c25c2240d8ed8c84214f3c7addb4a20d20"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/GOAL_WHOLE_EVIDENCE_ANTI_LOSS_2026-09-26.md",
-      "bytes": 3065,
-      "sha256": "604de6777eff882a5363a8ca96a6ea4082c5bd4adfae1332bf4103934330d428"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/HF2_FINISH_ALL_ZIP_JOBS_130_2026-09-26.md",
-      "bytes": 2740,
-      "sha256": "133af0a39a2e740f5bd2733459d081f9670c3fd2317b9be177a1788f637d929a"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/HF2_POST_BOUND_ZIP_INTAKE_127_2026-09-26.md",
-      "bytes": 2918,
-      "sha256": "c049e0ae5a81698f5b1dfde44866f8d7e40a6dae34ffb28581e08f92162a0f82"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/HF2_SECOND_FINISH_ALL_ZIP_JOBS_131_2026-09-26.md",
-      "bytes": 3801,
-      "sha256": "4c21b663af6983823d74fe12de4fbd82b6477049e9862c5e949accb07be51343"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/HOST_RESTRICTION_GOAL_MT_GOAL_IC123_IMPROVECORE_2026-09-26.md",
-      "bytes": 6957,
-      "sha256": "19d2df43e78dea068d1d83208d0020ec3d52ce4c4fd8afaef573e8f7213b073d"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IC123_REWRITE_DIRECT_TOOL_HF2_118_2026-09-26.md",
-      "bytes": 2355,
-      "sha256": "64fad70d6313e87211291e38956721f1fc4df85a1caa0eefe948d5fb035138b4"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/ICC123_CURRENT_SYSTEM_VERIFICATION_001_2026-09-26.md",
-      "bytes": 2793,
-      "sha256": "4c8844c0a6fa582803596da5894cc08eb2af5ae817a45711e2fe65c9f854b07b"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/ICC_PROSE_ARCHITECTURE_HF1_REPAIR_2026-09-30.md",
-      "bytes": 2625,
-      "sha256": "0c768fe33c27a56da725ac7377aa03711d9e0369aeb3dbf2d8cbf2716677d0da"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVECORE_CURRENT_CHAT_RUN_103_RECEIPT_2026-09-26.md",
-      "bytes": 2067,
-      "sha256": "3a0aa7a53c3f8adff77f21a2b375ca01443fd6b9b1ed768cb103cb4bbfb5a336"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVECORE_RUN_107_RECEIPT_2026-09-26.md",
-      "bytes": 2697,
-      "sha256": "c454ff8f4052c2169a3faf14375dd2c325ad3b7175dd7bf9150c2053750df553"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVECORE_SELF_STUDY_104_RECEIPT_2026-09-26.md",
-      "bytes": 4102,
-      "sha256": "368b87a75a43c17001865fe428cd1c43be341f99a730b68f1f85f7a47e56ddc2"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVECORE_TAKEOVER_CURRENT_STATE_DELTA_001_2026-09-27.md",
-      "bytes": 4881,
-      "sha256": "6e7ea098b5cd3c446ef31718399a515d65b8bf0c0625bfe727325e55652b56ed"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVECORE_TAKEOVER_CURRENT_STATE_DELTA_002_2026-09-27.md",
-      "bytes": 6940,
-      "sha256": "815837b3b94ccecdc5a8a9534455df1464d3b59a159f32cedc524aac66d8d822"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_BOUND_ZIP_INTAKE_RECOMMENDATION_126_2026-09-26.md",
-      "bytes": 3759,
-      "sha256": "e05d5c14ec4429adfd2fff940f9767f81b688e4fd6599a3591fbabb50e534cff"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_CONFIGURED_TOOL_DURABLE_KNOWLEDGE_2026-09-26.md",
-      "bytes": 3909,
-      "sha256": "63a62788c7b80317d555dd4e3e2001281450fb06dd368e3e282f523a4d8dc86a"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_EXTERNAL_BOUND_ZIP_RUNTIME_129_2026-09-26.md",
-      "bytes": 3482,
-      "sha256": "46e1cbd9f0b825ba900a0c30e3fd6b1c4981e93b81c27dba1cd74fe2f53973f3"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_FORMAL_AUTHORITY_COLLAPSE_RUN_141_2026-09-26.md",
-      "bytes": 5188,
-      "sha256": "5408a0eb1b0976dd05031093626ec11a3e9aebf7812468981185a8b5603a0dbc"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_FUNCTION_FIRST_HOLDOUT_112_RESULT_2026-09-26.json",
-      "bytes": 2469,
-      "sha256": "5b29842262a429ee1ca3993b1b281539bd71470035e17249e6ce0d9f90804269"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_GREENFIELD_TAKE6_RUN_133_2026-09-26.md",
-      "bytes": 3363,
-      "sha256": "4dcc34a0ec4f5e6daf8ec4aaa3c2b74623008fbee08a92d8182860bfb0125f51"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_CHOICE_001_2026-09-26.json",
-      "bytes": 1688,
-      "sha256": "dc7297bf8c527a1eb8e7a99ba9597755372d005ede24b6edd3a69575cc6846db"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_DIRECT_TOOL_CAMPAIGN_119_2026-09-26.md",
-      "bytes": 2430,
-      "sha256": "207c6323602d209cd8e803b90de2aaf6672db9d05d925be6449bcebea6afc31a"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_OBSERVER_CAMPAIGN_115_2026-09-26.md",
-      "bytes": 3508,
-      "sha256": "7dc924717b5da1d2fc5d4c10997996468355aa961d64a4de727ba2e20c01db0a"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_RUN_132_2026-09-26.md",
-      "bytes": 4017,
-      "sha256": "2374b09d95c105200ad221a527ba6c0264a9f52af3088d29d464ac556fbcef3e"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_THINK_BIG_DIRECT_TOOL_120_2026-09-26.md",
-      "bytes": 3807,
-      "sha256": "10cbd076793995b4946ad14774ad58a3b0639f5e469caa27c74c512c41eee3f5"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_THINK_BIG_FIX_CAMPAIGN_117_2026-09-26.md",
-      "bytes": 3776,
-      "sha256": "84e4348e03aab803c8fc3ef8f8c8f037d60e606ad58b99c503b2e43484ec367a"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_THINK_BIG_FIX_CLOSURE_117_2026-09-26.md",
-      "bytes": 1212,
-      "sha256": "5ec55fe939f49df8aaafa73ea5bdc0448108d2ca1d7ac41ce9db69508b377cf8"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_THINK_BIG_REENTRY_122_2026-09-26.md",
-      "bytes": 2529,
-      "sha256": "4fe740445d26a7e618cdcebffd8dbd6e9b804b8c8b8f99267eb6a46f3a86ef01"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_THINK_BIG_SELECTION_116_2026-09-26.md",
-      "bytes": 2230,
-      "sha256": "4e4e86b2ece2a96f1bd27e75c60efe16ee71c3e77db79dca35a32bfd956f5b77"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_LEGACY_RESTORATION_CLOSURE_133_2026-09-26.md",
-      "bytes": 3386,
-      "sha256": "735ba7f5e0e8505f37fdc105801cb12668416e72bc078fa6e679364cf6daabbf"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_MINIMAL_HF2_REPEATED_CAMPAIGN_2026-09-26.md",
-      "bytes": 3239,
-      "sha256": "72c87703c7faf46e6526b4a6c52f4cbf376481008a2ebc4c9072e0c09a0ab5c9"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_MT_EVIDENCE_RUN_113_2026-09-26.md",
-      "bytes": 6159,
-      "sha256": "b737d3b434d784a3eff97637fa293e9e6744d62464d50b8e7c7860a6c0b349b7"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_MT_PERSISTENCE_EVIDENCE_RUN_2026-09-26.md",
-      "bytes": 6674,
-      "sha256": "1b10908f543baa28f5ef285eb7be3f4afa15214969f70b09f651fef0fe321eb1"
     },
     {
       "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_PREMATURE_RETURN_HF2_AUDIT_139_2026-09-26.md",
@@ -703,249 +443,9 @@
       "sha256": "a51b8a793493eb4fd228ee1521a7f4c1ed6ba77c415777b68aea922e45e89585"
     },
     {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_SECOND_PASS_BOUND_ZIP_HF2_128_2026-09-26.md",
-      "bytes": 1950,
-      "sha256": "43041fb92dbb7908a220b0e6133a5c888152932edcb8d5c1dc85121bad5d5c4b"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_SPECIFICATION_BEFORE_TRANSFORMATION_RUN_134_2026-09-26.md",
-      "bytes": 5158,
-      "sha256": "0fac6bdcd9786e6f6495b47eab530ecabe48754785d6dc7bdd37a019d80ae680"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_TWO_GITHUB_ZIPS_AUTONOMOUS_HF2_125_2026-09-26.md",
-      "bytes": 3734,
-      "sha256": "80afd2b55d4a114b580a9cd1142f54b2df3cbe6328e1a4962b51e571b66bd8b1"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_TWO_GITHUB_ZIPS_OBSERVER_HF2_124_2026-09-26.md",
-      "bytes": 2310,
-      "sha256": "555a64545c3c4cd60550be4d05496a94f92d9faae0c55bdf659f09a663883ae0"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_WHOLE_CHAT_EVIDENCE_RUN_114_2026-09-26.md",
-      "bytes": 5307,
-      "sha256": "c3517b93c1d210163fa5b72f16e89007fee210495cb4f9d7495a3490658c7d47"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/LEGACY_CANDIDATE_CONTROL_HOLDOUT_131_2026-09-26.md",
-      "bytes": 1843,
-      "sha256": "26f75ef9ea36bfbbad074a747324b39366f7bab19f6cfa1edcc9a20e8371c61f"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/LEGACY_RESTORED_SEMANTIC_HOLDOUT_132_2026-09-26.md",
-      "bytes": 2478,
-      "sha256": "86b15bade38df29c3c148fef4c22791c3af8000c0ae127d49810704632953be1"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/MT_DIRECT_TOOL_HF2_PROMPT_118_2026-09-26.md",
-      "bytes": 4496,
-      "sha256": "92da773ec9fbaf60db3aa1eb0221f3e2a0fdfe97d33061c633b80ab3751a55aa"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/MT_EVIDENCE_PACKET_113_2026-09-26.json",
-      "bytes": 3586,
-      "sha256": "44a790e9a0b24b18166c2e992686fd7e4ab5073d607c46025a818ef555b1d647"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/MT_WHOLE_SYSTEM_HF2_CAMPAIGN_004_2026-09-26.md",
-      "bytes": 3651,
-      "sha256": "18eb11dcdf75ecb3929744d680f2c692d1086b4245dc0b9a5fe41d7bd5f3f601"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/ROOT_MT_ROOT_GOAL_PROJECTION_AUTHORITY_RUN_145_2026-09-27.md",
-      "bytes": 7407,
-      "sha256": "6816bab23dca8061d3986f134187ead035ae3a2cd24999044baba7a94267209c"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/TWO_ZIP_LOGIC_ASSERT_GOAL_HF2_PROBLEM_IC_RUN_2026-09-26_1723ET.md",
-      "bytes": 11141,
-      "sha256": "d95beb9f925ab04ae688218bd8fbc15dc0c3ed86a00915e43ba6d73512cfec41"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/improvecore/WHOLE_CHAT_EVIDENCE_CORPUS_114_2026-09-26.json",
-      "bytes": 2594,
-      "sha256": "6d33f11d8c770bba80cc7e829255346471ef40f3cb0b2848bd35bd68637a59cc"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/mt/MT_CURRENT_CHAT_INPUT_001_2026-09-26.json",
-      "bytes": 2783,
-      "sha256": "07dc97ecb91fd76a80f9e39726fbb7decc116902c4f7ad8920de84c3ec8d137d"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/mt/MT_CURRENT_CHAT_RUN_001_2026-09-26.md",
-      "bytes": 5912,
-      "sha256": "0ac699559d966aeb32d740e554415e9012142c752eb4f99829f610821b626281"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/mt/MT_WHOLE_CONVERSATION_INPUT_002_2026-09-27.json",
-      "bytes": 3081,
-      "sha256": "0180d3b2f088076b3f3e2a5694dde9892e37c2a63ce326c2a6f733c2fd2f596b"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/mt/MT_WHOLE_CONVERSATION_RUN_002_2026-09-27.md",
-      "bytes": 8582,
-      "sha256": "07c223682040960bf5c2ee4ba2b5aa512272dd648309e87141974e7293c08af1"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/show-math/GOAL_PROBLEM_SOLUTION_RUN_001_2026-09-26.json",
-      "bytes": 1876,
-      "sha256": "22b6dff7dc779e83db0aa86d806fe614bb70c5e9dd7e83129bb9239782f7b492"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/show-math/GOAL_PROBLEM_SOLUTION_RUN_001_2026-09-26.md",
-      "bytes": 4309,
-      "sha256": "8ad7f3e92da637c23d870bd3892cb2d799be5f504848b59cee40be7515417518"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/show-math/MT_PREVIOUS_RESPONSE_AUDIT_002_2026-09-26.md",
-      "bytes": 4823,
-      "sha256": "2c85cb3fe7c030fbc6004090c583b0338ef9dfff3f9135d651d111fcbca8ac84"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/show-math/SIGMA_ROUTER_EQUATION_RECOVERY_001_2026-09-27.md",
-      "bytes": 5902,
-      "sha256": "d8d25c83776d1698b22931c02315a6b39b116a124a457b4806a14fef46061abc"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/ARCHITECTURE_ANALYSIS_CORE_DISCOVERY_PLAN_009.md",
-      "bytes": 7343,
-      "sha256": "802a61fe469634255c5e7ec5eb82b275aac38d3df793ca86816d6021712de091"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/ARCHITECTURE_GOAL_SPINE_REENTRY_010.md",
-      "bytes": 3427,
-      "sha256": "02befa32d329588a48f555b92880c9a374b12a8ff06968d774889938c3d83ee4"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/ATTACK_POSTFLIGHT_12_LENSES_009.md",
-      "bytes": 2259,
-      "sha256": "1075cf7b3f82a3ff2b68010b72b82514ab842de3379c92f447918923b34ef3b8"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/IC022_GOAL_FREEZE_001.md",
-      "bytes": 3417,
-      "sha256": "76fbcd301d00cf5b358947ef289e8dd9312a2a59a65013df495c846de9e413a7"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/IC023_ADAPTIVE_BUILD_PLAN_006.md",
-      "bytes": 3255,
-      "sha256": "58b49958a7eb805a43c243495371bbd286f1c5539a39821c12c947fdef04609f"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/IC023_EXECUTION_GATE_001.md",
-      "bytes": 3194,
-      "sha256": "f33c0aeaea137d75c80d0b7ff95c6e0b42078d0521760cf657f73899faea5274"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/IC023_GATE_002.md",
-      "bytes": 1521,
-      "sha256": "63504717475514d858314665266cfe6140fe99603fb3c1fb2d6e31300fb9c407"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/IC023_GATE_003.md",
-      "bytes": 1617,
-      "sha256": "48e38257da9a3e9d0d22a65ef871d99085fa933fa67303e5c8e0374930fd8920"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/IC023_GATE_004.md",
-      "bytes": 1747,
-      "sha256": "ca1c68bc16e32257b42b2d99607d78615918a815c52c2bc17c71a57a1a7b0253"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/IC023_GATE_005.md",
-      "bytes": 1635,
-      "sha256": "e182146546f00567999dea8a72f692b891c7aa4b8b6d7b1f15479c963e898260"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/IC023_PROMPT_REWRITE_003.md",
-      "bytes": 2043,
-      "sha256": "5fa59a293148cc0c9a1ce57ca9b25a23fdb31ca3b2cf90315353a3808b9dbfed"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/IC023_REASSESSMENT_007.md",
-      "bytes": 1268,
-      "sha256": "e550fb492a7b65c5afa35b93e9b526124bd78e729727b3e397ff3e5b72629904"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/IC024_EXECUTION_TRANCHE_001.md",
-      "bytes": 2723,
-      "sha256": "c00fdb7f9b58e4869bdecea7ce577ba91fb770472215d051df425845e80254a5"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/IC024_EXECUTION_TRANCHE_002.md",
-      "bytes": 5281,
-      "sha256": "441324b052bcb0c65dd9fbddcf05b5690bb7ddbbda694bc76cd110444cc63375"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/IC026_ACTUAL_GOAL_001.md",
-      "bytes": 2806,
-      "sha256": "81d4838377ae4b4da83faa311581324f184cdb3f8daf539ba422a50164cf1b06"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/IC026_ACTUAL_GOAL_GATE_001.md",
-      "bytes": 2541,
-      "sha256": "fbbea2a5d7be6eed1ba4a5416b80400bcdff281a7e8c12026992261a51a948a9"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/campaign/IC026_BLOCKER_REPAIR_001.md",
       "bytes": 1884,
       "sha256": "1f949b0c617d39c532a63f85e3443d15eb8948f501d2730c408706d7a6ff7df4"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/IC026_FROZEN_TARGET_002_FOUNDATION_BEFORE_MIGRATION.md",
-      "bytes": 3657,
-      "sha256": "268472d3542f3ac85580ad66f32852a310a1015277dfc36204ce7125dcc6ddfa"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/IC_12_BEFORE_12_AFTER_PROTOCOL_008.md",
-      "bytes": 3768,
-      "sha256": "441c752312ccb8842a715152acb3a68485f2a7bebf94eadbc94ee9369bd44183"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/IMPROVEMENT_CORE_ALL_TOOLS_CAMPAIGN_001.md",
-      "bytes": 9955,
-      "sha256": "a1e07551c3e6f4f54647b058e99704564c652d7d0fac580538d99940371ef739"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/IMPROVEMENT_CORE_GOAL_RECOVERY_ARCHITECTURE_REENTRY_008.md",
-      "bytes": 3763,
-      "sha256": "3e21e2b5b705b3833af932acb8bed3c058b5b989be15d4f974889c02697733fa"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/IMPROVEMENT_CORE_MTA_TARGET_SELECTION_001.md",
-      "bytes": 6007,
-      "sha256": "36ea421eecedeaa0f91246d1d373cc7861adcc3e62282fe2040707ed2b4b930e"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/MTA_ARCHITECTURE_IC_EXECUTION_005.md",
-      "bytes": 4658,
-      "sha256": "dc16cc4410550ce48ae8c8c5e4f8f17bbe63c14ba12428d30d1f6291cfdb4c59"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/MTA_COMPLETION_012.md",
-      "bytes": 1502,
-      "sha256": "78ad60f32fb87b67fdeab825cb142e26cd57217cbe247fe1b8a8a1432244e514"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/MTA_EXECUTION_SUBSTRATE_REENTRY_007.md",
-      "bytes": 2895,
-      "sha256": "2c8b2c3cbb998ff09d54e2644a4bda619fbf48fb4804684448ebd3923f103957"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/campaign/TWO_PASS_FULL_REPERTOIRE_CAMPAIGN_006.md",
-      "bytes": 3445,
-      "sha256": "5aa45956126850b2bd4811d1f33256244397687848fc0296634411056281b757"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/CURRENT_STATE.md",
-      "bytes": 546,
-      "sha256": "fb312ffc51e5cefe386ad47f0a1a60b88358917ea2a38e32e88c65e26fde7991"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/DEFINITION.md",
-      "bytes": 2669,
-      "sha256": "17d86e6f16c7d09a9925cb013c0b5da949b5e3ad668b29b6167098db56eeb56e"
     },
     {
       "path": "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/DEFINITION_002_FRAME_RESOLUTION.md",
@@ -44988,7 +44488,107 @@
       "dump/full-system-sources/Take-5/architecture/WRAPPER_TERM_PD_064.md",
       "dump/full-system-sources/Take-5/artifacts/chat-history/IMPROVECORE_RUNTIME_CHAT_2026-09-26.md",
       "dump/full-system-sources/Take-5/artifacts/full-system-campaign/FULL_SYSTEM_SHOW_ME_THE_MATH_CAMPAIGN_REPORT_001_2026-09-26.md",
-      "dump/full-system-sources/Take-5/artifacts/full-system-campaign/MT_AUDIT_PRIOR_CAMPAIGN_SUMMARY_003_2026-09-26.md"
+      "dump/full-system-sources/Take-5/artifacts/full-system-campaign/MT_AUDIT_PRIOR_CAMPAIGN_SUMMARY_003_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/full-system-campaign/SHOW_ME_THE_MATH_FULL_SYSTEM_MATH_001_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/ICC128_ASSERT_MT_HF2_PREEXECUTION_EFFECT_CONTRACT_145_2026-09-27.md",
+      "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/ICC128_LEGACY_TWO_EQUATION_PAPER_RUN_147_2026-09-30.md",
+      "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/README.md",
+      "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/icc128-legacy-full-system-show-math-20260926-004.json",
+      "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/icc128-legacy-self-portability-20260926-004.json",
+      "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/icc128-legacy-show-math-four-targets-20260926-003.json",
+      "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/icc128-legacy-tool-conductor-math-20260926-002.json",
+      "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/icc128-legacy-whole-chat-20260926-001.json",
+      "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/mt-pd-pdaudit-mt-hf2-20260926-001.json",
+      "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/mt-pd-pdaudit-mt-hf2-20260926-001.md",
+      "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/system-reality-audit-repair-20260926-002.json",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/ASSERT_MT_ASSERT_ROOT_MATRIX_HF2_IMPROVEMENTCORE_RUN_2026-09-27.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/FULL_TOOL_HF2_INVOCATION_REPAIR_CLOSURE_121_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/FULL_TOOL_HF2_REGIME_091_TRANSPORT_121_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/GOAL_DIRECT_TOOL_HF2_PROMPT_118_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/GOAL_IC123_IMPROVECORE_RUN_112_RESULT_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/GOAL_IC123_PRE_IMPROVECORE_112_2026-09-26.json",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/GOAL_IC123_PRE_IMPROVECORE_112_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/GOAL_TWO_GITHUB_ZIPS_HF2_RUN_123_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/GOAL_WHOLE_EVIDENCE_ANTI_LOSS_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/HF2_FINISH_ALL_ZIP_JOBS_130_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/HF2_POST_BOUND_ZIP_INTAKE_127_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/HF2_SECOND_FINISH_ALL_ZIP_JOBS_131_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/HOST_RESTRICTION_GOAL_MT_GOAL_IC123_IMPROVECORE_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IC123_REWRITE_DIRECT_TOOL_HF2_118_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/ICC123_CURRENT_SYSTEM_VERIFICATION_001_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/ICC_PROSE_ARCHITECTURE_HF1_REPAIR_2026-09-30.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVECORE_CURRENT_CHAT_RUN_103_RECEIPT_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVECORE_RUN_107_RECEIPT_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVECORE_SELF_STUDY_104_RECEIPT_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVECORE_TAKEOVER_CURRENT_STATE_DELTA_001_2026-09-27.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVECORE_TAKEOVER_CURRENT_STATE_DELTA_002_2026-09-27.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_BOUND_ZIP_INTAKE_RECOMMENDATION_126_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_CONFIGURED_TOOL_DURABLE_KNOWLEDGE_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_EXTERNAL_BOUND_ZIP_RUNTIME_129_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_FORMAL_AUTHORITY_COLLAPSE_RUN_141_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_FUNCTION_FIRST_HOLDOUT_112_RESULT_2026-09-26.json",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_GREENFIELD_TAKE6_RUN_133_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_CHOICE_001_2026-09-26.json",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_DIRECT_TOOL_CAMPAIGN_119_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_OBSERVER_CAMPAIGN_115_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_RUN_132_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_THINK_BIG_DIRECT_TOOL_120_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_THINK_BIG_FIX_CAMPAIGN_117_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_THINK_BIG_FIX_CLOSURE_117_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_THINK_BIG_REENTRY_122_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_THINK_BIG_SELECTION_116_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_LEGACY_RESTORATION_CLOSURE_133_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_MINIMAL_HF2_REPEATED_CAMPAIGN_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_MT_EVIDENCE_RUN_113_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_MT_PERSISTENCE_EVIDENCE_RUN_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_SECOND_PASS_BOUND_ZIP_HF2_128_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_SPECIFICATION_BEFORE_TRANSFORMATION_RUN_134_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_TWO_GITHUB_ZIPS_AUTONOMOUS_HF2_125_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_TWO_GITHUB_ZIPS_OBSERVER_HF2_124_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_WHOLE_CHAT_EVIDENCE_RUN_114_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/LEGACY_CANDIDATE_CONTROL_HOLDOUT_131_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/LEGACY_RESTORED_SEMANTIC_HOLDOUT_132_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/MT_DIRECT_TOOL_HF2_PROMPT_118_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/MT_EVIDENCE_PACKET_113_2026-09-26.json",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/MT_WHOLE_SYSTEM_HF2_CAMPAIGN_004_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/ROOT_MT_ROOT_GOAL_PROJECTION_AUTHORITY_RUN_145_2026-09-27.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/TWO_ZIP_LOGIC_ASSERT_GOAL_HF2_PROBLEM_IC_RUN_2026-09-26_1723ET.md",
+      "dump/full-system-sources/Take-5/artifacts/improvecore/WHOLE_CHAT_EVIDENCE_CORPUS_114_2026-09-26.json",
+      "dump/full-system-sources/Take-5/artifacts/mt/MT_CURRENT_CHAT_INPUT_001_2026-09-26.json",
+      "dump/full-system-sources/Take-5/artifacts/mt/MT_CURRENT_CHAT_RUN_001_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/mt/MT_WHOLE_CONVERSATION_INPUT_002_2026-09-27.json",
+      "dump/full-system-sources/Take-5/artifacts/mt/MT_WHOLE_CONVERSATION_RUN_002_2026-09-27.md",
+      "dump/full-system-sources/Take-5/artifacts/show-math/GOAL_PROBLEM_SOLUTION_RUN_001_2026-09-26.json",
+      "dump/full-system-sources/Take-5/artifacts/show-math/GOAL_PROBLEM_SOLUTION_RUN_001_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/show-math/MT_PREVIOUS_RESPONSE_AUDIT_002_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/show-math/SIGMA_ROUTER_EQUATION_RECOVERY_001_2026-09-27.md",
+      "dump/full-system-sources/Take-5/campaign/ARCHITECTURE_ANALYSIS_CORE_DISCOVERY_PLAN_009.md",
+      "dump/full-system-sources/Take-5/campaign/ARCHITECTURE_GOAL_SPINE_REENTRY_010.md",
+      "dump/full-system-sources/Take-5/campaign/ATTACK_POSTFLIGHT_12_LENSES_009.md",
+      "dump/full-system-sources/Take-5/campaign/IC022_GOAL_FREEZE_001.md",
+      "dump/full-system-sources/Take-5/campaign/IC023_ADAPTIVE_BUILD_PLAN_006.md",
+      "dump/full-system-sources/Take-5/campaign/IC023_EXECUTION_GATE_001.md",
+      "dump/full-system-sources/Take-5/campaign/IC023_GATE_002.md",
+      "dump/full-system-sources/Take-5/campaign/IC023_GATE_003.md",
+      "dump/full-system-sources/Take-5/campaign/IC023_GATE_004.md",
+      "dump/full-system-sources/Take-5/campaign/IC023_GATE_005.md",
+      "dump/full-system-sources/Take-5/campaign/IC023_PROMPT_REWRITE_003.md",
+      "dump/full-system-sources/Take-5/campaign/IC023_REASSESSMENT_007.md",
+      "dump/full-system-sources/Take-5/campaign/IC024_EXECUTION_TRANCHE_001.md",
+      "dump/full-system-sources/Take-5/campaign/IC024_EXECUTION_TRANCHE_002.md",
+      "dump/full-system-sources/Take-5/campaign/IC026_ACTUAL_GOAL_001.md",
+      "dump/full-system-sources/Take-5/campaign/IC026_ACTUAL_GOAL_GATE_001.md",
+      "dump/full-system-sources/Take-5/campaign/IC026_FROZEN_TARGET_002_FOUNDATION_BEFORE_MIGRATION.md",
+      "dump/full-system-sources/Take-5/campaign/IC_12_BEFORE_12_AFTER_PROTOCOL_008.md",
+      "dump/full-system-sources/Take-5/campaign/IMPROVEMENT_CORE_ALL_TOOLS_CAMPAIGN_001.md",
+      "dump/full-system-sources/Take-5/campaign/IMPROVEMENT_CORE_GOAL_RECOVERY_ARCHITECTURE_REENTRY_008.md",
+      "dump/full-system-sources/Take-5/campaign/IMPROVEMENT_CORE_MTA_TARGET_SELECTION_001.md",
+      "dump/full-system-sources/Take-5/campaign/MTA_ARCHITECTURE_IC_EXECUTION_005.md",
+      "dump/full-system-sources/Take-5/campaign/MTA_COMPLETION_012.md",
+      "dump/full-system-sources/Take-5/campaign/MTA_EXECUTION_SUBSTRATE_REENTRY_007.md",
+      "dump/full-system-sources/Take-5/campaign/TWO_PASS_FULL_REPERTOIRE_CAMPAIGN_006.md",
+      "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/CURRENT_STATE.md",
+      "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/DEFINITION.md"
     ],
     "removed_blobs": {
       "dump/full-system-sources/Take-5/.github/CODEOWNERS": {
@@ -45390,6 +44990,406 @@
       "dump/full-system-sources/Take-5/artifacts/full-system-campaign/MT_AUDIT_PRIOR_CAMPAIGN_SUMMARY_003_2026-09-26.md": {
         "mode": "100644",
         "sha": "b3fbab591bdd763ded94d2c8c669a76c49764773"
+      },
+      "dump/full-system-sources/Take-5/artifacts/full-system-campaign/SHOW_ME_THE_MATH_FULL_SYSTEM_MATH_001_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "7e628a18601512ab526e5916ee1ee4192286b7fe"
+      },
+      "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/ICC128_ASSERT_MT_HF2_PREEXECUTION_EFFECT_CONTRACT_145_2026-09-27.md": {
+        "mode": "100644",
+        "sha": "cd467c025dbf70347906009dedeaab3e00b16459"
+      },
+      "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/ICC128_LEGACY_TWO_EQUATION_PAPER_RUN_147_2026-09-30.md": {
+        "mode": "100644",
+        "sha": "1cd6ed308f5dc523e5486b1df58e6580dd8f031b"
+      },
+      "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/README.md": {
+        "mode": "100644",
+        "sha": "17b76545664f6a49a2cf5eaf9d18dff20e6df797"
+      },
+      "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/icc128-legacy-full-system-show-math-20260926-004.json": {
+        "mode": "100644",
+        "sha": "4cf228571ac6110e18cfa72c1d11097c02e4a994"
+      },
+      "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/icc128-legacy-self-portability-20260926-004.json": {
+        "mode": "100644",
+        "sha": "fa639464881ddfae18bda3fe2e371aa1845272bc"
+      },
+      "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/icc128-legacy-show-math-four-targets-20260926-003.json": {
+        "mode": "100644",
+        "sha": "59fda40906e9e767a001796bb696261710bd381e"
+      },
+      "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/icc128-legacy-tool-conductor-math-20260926-002.json": {
+        "mode": "100644",
+        "sha": "bc3f2251e8dd5e123f03d198d6f91d96d1b309a8"
+      },
+      "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/icc128-legacy-whole-chat-20260926-001.json": {
+        "mode": "100644",
+        "sha": "f14c48ca87b6ecf189685f19c1fea53b8db34d8a"
+      },
+      "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/mt-pd-pdaudit-mt-hf2-20260926-001.json": {
+        "mode": "100644",
+        "sha": "2aec3f4bca3e6a68d03c277f8b3534cc08f34ba8"
+      },
+      "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/mt-pd-pdaudit-mt-hf2-20260926-001.md": {
+        "mode": "100644",
+        "sha": "e0aed336bbe3c7219f0d743fd4df32832faa99d7"
+      },
+      "dump/full-system-sources/Take-5/artifacts/icc128-legacy-learning/system-reality-audit-repair-20260926-002.json": {
+        "mode": "100644",
+        "sha": "45727b9fd179fe4df7812299f77e825fbd4a5085"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/ASSERT_MT_ASSERT_ROOT_MATRIX_HF2_IMPROVEMENTCORE_RUN_2026-09-27.md": {
+        "mode": "100644",
+        "sha": "6d5c645666dd2ebff0f8810879b5fdb6466f0481"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/FULL_TOOL_HF2_INVOCATION_REPAIR_CLOSURE_121_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "00a98f3a3f142aa497bc3dc62598d472214c0896"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/FULL_TOOL_HF2_REGIME_091_TRANSPORT_121_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "87ec1fe3cac538d8c45709af92785f47e178af52"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/GOAL_DIRECT_TOOL_HF2_PROMPT_118_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "0280468906ca2759b33e3c184e9f27358ce6e977"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/GOAL_IC123_IMPROVECORE_RUN_112_RESULT_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "079f1f0c68f91a7c21ad00dc5f9246f4986caf17"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/GOAL_IC123_PRE_IMPROVECORE_112_2026-09-26.json": {
+        "mode": "100644",
+        "sha": "aa1ae29292d434b34a464ddbd0082f986702cdbf"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/GOAL_IC123_PRE_IMPROVECORE_112_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "293ae38be8de199631539cba380d62056094bd04"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/GOAL_TWO_GITHUB_ZIPS_HF2_RUN_123_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "2fc122593e1846c59bcb12a555659f944e28a971"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/GOAL_WHOLE_EVIDENCE_ANTI_LOSS_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "deb3822c96235793bb3ac479986a7f3ed8c7e519"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/HF2_FINISH_ALL_ZIP_JOBS_130_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "17096990ac85000581ec333cf5ea2a88f5b46845"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/HF2_POST_BOUND_ZIP_INTAKE_127_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "06ed5919b1bd942cd79f75a362e17e0824d49420"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/HF2_SECOND_FINISH_ALL_ZIP_JOBS_131_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "7a5376baf40d262e28bd52d92e7a8c946177ac1a"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/HOST_RESTRICTION_GOAL_MT_GOAL_IC123_IMPROVECORE_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "bcf1ee8f90b5fc8f1b02edbdbd9a664d7add5a67"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IC123_REWRITE_DIRECT_TOOL_HF2_118_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "6e073b8bf8331031fd07f749a556aa12cf2eab7d"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/ICC123_CURRENT_SYSTEM_VERIFICATION_001_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "45bc3d2998ec1a0121d18f6c807e9037d0512799"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/ICC_PROSE_ARCHITECTURE_HF1_REPAIR_2026-09-30.md": {
+        "mode": "100644",
+        "sha": "213318ba2002ae320ff21c053755cb90a819f603"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVECORE_CURRENT_CHAT_RUN_103_RECEIPT_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "f3ac0541bd939b0ec5d6ea337524348d98ed133d"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVECORE_RUN_107_RECEIPT_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "7eb2b1ad54896366d18fcfe94f95936d179be8ff"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVECORE_SELF_STUDY_104_RECEIPT_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "b1c0c4aa72b3bb836652a5fb723823b8e359dd4a"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVECORE_TAKEOVER_CURRENT_STATE_DELTA_001_2026-09-27.md": {
+        "mode": "100644",
+        "sha": "fb972e6f4046585afe35a19f6af5859c3dedae85"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVECORE_TAKEOVER_CURRENT_STATE_DELTA_002_2026-09-27.md": {
+        "mode": "100644",
+        "sha": "a67c581c97b77134a7fab35449d579801d947f71"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_BOUND_ZIP_INTAKE_RECOMMENDATION_126_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "41ddd51f6092553668e4a15c589b5308b378f434"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_CONFIGURED_TOOL_DURABLE_KNOWLEDGE_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "d5bfa1c0d15fcb11802b2cafe4f88bd75027486f"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_EXTERNAL_BOUND_ZIP_RUNTIME_129_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "442de598420652a04ed1b793ddf63581cdc257de"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_FORMAL_AUTHORITY_COLLAPSE_RUN_141_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "6b20684431636bab9c371b71e16f51c512421a87"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_FUNCTION_FIRST_HOLDOUT_112_RESULT_2026-09-26.json": {
+        "mode": "100644",
+        "sha": "e36914c64c8240023ecaa897f81faca6eb3431ab"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_GREENFIELD_TAKE6_RUN_133_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "637b93d5b1371c2d11306d19233acaa3d5ef2f8e"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_CHOICE_001_2026-09-26.json": {
+        "mode": "100644",
+        "sha": "c20023119d208d2b47e809d1471b180fe0402620"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_DIRECT_TOOL_CAMPAIGN_119_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "e38e59e43ac3188fa5c10aa074e52dbf8a10be2c"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_OBSERVER_CAMPAIGN_115_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "b716e8bd82c39ba16b30598ab4bbb25037f9b223"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_RUN_132_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "c5d17ad9d62736896d94d3a0ae6df3b4d4f574a2"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_THINK_BIG_DIRECT_TOOL_120_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "bddb65dd6d4a18254a062045ebafbcb568223315"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_THINK_BIG_FIX_CAMPAIGN_117_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "e7adb02e3d70967b9d06cfade519277bf05b6db0"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_THINK_BIG_FIX_CLOSURE_117_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "396382a7d3437ae1bccb2c9bbd9328731de0baa1"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_THINK_BIG_REENTRY_122_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "a6d880ab8b444f7c3df21c596eba761754493146"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_HF2_THINK_BIG_SELECTION_116_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "0d6308e4c1cf6165f1484846457fa28ef7df8fd4"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_LEGACY_RESTORATION_CLOSURE_133_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "e4d66561d800cc2b7310ab3d35d9112008219812"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_MINIMAL_HF2_REPEATED_CAMPAIGN_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "8a104418d8738b7c36dd9aa144f73d089848364b"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_MT_EVIDENCE_RUN_113_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "932f630287cb7bdc950c6c1c1146d6fc520cab96"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_MT_PERSISTENCE_EVIDENCE_RUN_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "8f9d1e15eb60f6d2724e88061f6b73631f39849c"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_SECOND_PASS_BOUND_ZIP_HF2_128_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "16f17a740fe4c149c8c96d9c77482a4af7001423"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_SPECIFICATION_BEFORE_TRANSFORMATION_RUN_134_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "126026b723da8a7ef69f2269807d625861f4e995"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_TWO_GITHUB_ZIPS_AUTONOMOUS_HF2_125_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "a6e184dc8172e768398ce2e0ea894e42244f4c4d"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_TWO_GITHUB_ZIPS_OBSERVER_HF2_124_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "5698c109bdd062bd593913291272aefeeb9969b5"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/IMPROVEMENTCORE_WHOLE_CHAT_EVIDENCE_RUN_114_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "aad704736d91edd2dd996244c26ef93368de015d"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/LEGACY_CANDIDATE_CONTROL_HOLDOUT_131_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "314a423b6f3b07dab1094958b378b41a582cb7f8"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/LEGACY_RESTORED_SEMANTIC_HOLDOUT_132_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "c80447fc43c41a6f4084727a96ab66cc54c1fd71"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/MT_DIRECT_TOOL_HF2_PROMPT_118_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "941198564d9b938225d8e8752883f1a9aafb1f28"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/MT_EVIDENCE_PACKET_113_2026-09-26.json": {
+        "mode": "100644",
+        "sha": "e9eaeacc8b51c76be2c7593bb4373def4dba094a"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/MT_WHOLE_SYSTEM_HF2_CAMPAIGN_004_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "56a56edf2250436ba5cf03f6e388af0939a935da"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/ROOT_MT_ROOT_GOAL_PROJECTION_AUTHORITY_RUN_145_2026-09-27.md": {
+        "mode": "100644",
+        "sha": "c7a54c9e2d02b1a570ac6d720b11ab4f6a7ec8ad"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/TWO_ZIP_LOGIC_ASSERT_GOAL_HF2_PROBLEM_IC_RUN_2026-09-26_1723ET.md": {
+        "mode": "100644",
+        "sha": "1d3d4c40921e4fa701598d08799aa7e9dd73c042"
+      },
+      "dump/full-system-sources/Take-5/artifacts/improvecore/WHOLE_CHAT_EVIDENCE_CORPUS_114_2026-09-26.json": {
+        "mode": "100644",
+        "sha": "21566a3650d300ff61385a080faddcf405545604"
+      },
+      "dump/full-system-sources/Take-5/artifacts/mt/MT_CURRENT_CHAT_INPUT_001_2026-09-26.json": {
+        "mode": "100644",
+        "sha": "a5c288ac2a555979bf01de9860574c0b7658faff"
+      },
+      "dump/full-system-sources/Take-5/artifacts/mt/MT_CURRENT_CHAT_RUN_001_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "de555841d996f5bf37e5d8a4c09bf6babb610a05"
+      },
+      "dump/full-system-sources/Take-5/artifacts/mt/MT_WHOLE_CONVERSATION_INPUT_002_2026-09-27.json": {
+        "mode": "100644",
+        "sha": "b2a01fabc610ba54687c08ade4e8883fb93ae6e2"
+      },
+      "dump/full-system-sources/Take-5/artifacts/mt/MT_WHOLE_CONVERSATION_RUN_002_2026-09-27.md": {
+        "mode": "100644",
+        "sha": "5ee69c412c206b5c7486855cb24f5146cae03f82"
+      },
+      "dump/full-system-sources/Take-5/artifacts/show-math/GOAL_PROBLEM_SOLUTION_RUN_001_2026-09-26.json": {
+        "mode": "100644",
+        "sha": "714b9f18710254479729cd8a572e3d122ae4661b"
+      },
+      "dump/full-system-sources/Take-5/artifacts/show-math/GOAL_PROBLEM_SOLUTION_RUN_001_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "79a0c67846ed219e65cbd52f1a36c4d8e0dfb24e"
+      },
+      "dump/full-system-sources/Take-5/artifacts/show-math/MT_PREVIOUS_RESPONSE_AUDIT_002_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "413b60e8df7e42c1ea14fab0ac05ba5656141e2b"
+      },
+      "dump/full-system-sources/Take-5/artifacts/show-math/SIGMA_ROUTER_EQUATION_RECOVERY_001_2026-09-27.md": {
+        "mode": "100644",
+        "sha": "8a8e6c3f2564af3a919a6ba8d1011798b71649d1"
+      },
+      "dump/full-system-sources/Take-5/campaign/ARCHITECTURE_ANALYSIS_CORE_DISCOVERY_PLAN_009.md": {
+        "mode": "100644",
+        "sha": "ae2d99a1f946b3b43d772d04b79154fa1d186019"
+      },
+      "dump/full-system-sources/Take-5/campaign/ARCHITECTURE_GOAL_SPINE_REENTRY_010.md": {
+        "mode": "100644",
+        "sha": "49460ec97857518056a3a122bd8cbcd6bbe1a4f8"
+      },
+      "dump/full-system-sources/Take-5/campaign/ATTACK_POSTFLIGHT_12_LENSES_009.md": {
+        "mode": "100644",
+        "sha": "f6345c96cf5c4a83a0366fcf52e9b4302d33dbec"
+      },
+      "dump/full-system-sources/Take-5/campaign/IC022_GOAL_FREEZE_001.md": {
+        "mode": "100644",
+        "sha": "0499c89cc97498ae7c993654d8b917b0e61ab703"
+      },
+      "dump/full-system-sources/Take-5/campaign/IC023_ADAPTIVE_BUILD_PLAN_006.md": {
+        "mode": "100644",
+        "sha": "279471e1808335eb2d5af7c0092ff323734e320b"
+      },
+      "dump/full-system-sources/Take-5/campaign/IC023_EXECUTION_GATE_001.md": {
+        "mode": "100644",
+        "sha": "407f4d4e4c0b1cdf597225dd57c417a43853bc15"
+      },
+      "dump/full-system-sources/Take-5/campaign/IC023_GATE_002.md": {
+        "mode": "100644",
+        "sha": "b8b1f15f0a8a8471f622cec5fbaa72ae4a4b11bb"
+      },
+      "dump/full-system-sources/Take-5/campaign/IC023_GATE_003.md": {
+        "mode": "100644",
+        "sha": "cb4a562803503e4675ab8b5541ef1d9f109bf3df"
+      },
+      "dump/full-system-sources/Take-5/campaign/IC023_GATE_004.md": {
+        "mode": "100644",
+        "sha": "74200718c0e8c75751bbafe1ac93fcdf33afae40"
+      },
+      "dump/full-system-sources/Take-5/campaign/IC023_GATE_005.md": {
+        "mode": "100644",
+        "sha": "8ef447e89417faee79221bfeee8dd51f2e072665"
+      },
+      "dump/full-system-sources/Take-5/campaign/IC023_PROMPT_REWRITE_003.md": {
+        "mode": "100644",
+        "sha": "9ce728986f9a2021aa63adcfd32215ec1663f8e5"
+      },
+      "dump/full-system-sources/Take-5/campaign/IC023_REASSESSMENT_007.md": {
+        "mode": "100644",
+        "sha": "dda31d6705de6915a90161f7c22f4e7875c08b4c"
+      },
+      "dump/full-system-sources/Take-5/campaign/IC024_EXECUTION_TRANCHE_001.md": {
+        "mode": "100644",
+        "sha": "763b7c15fd3497f5c2731d042fd0b4b7f7116cbc"
+      },
+      "dump/full-system-sources/Take-5/campaign/IC024_EXECUTION_TRANCHE_002.md": {
+        "mode": "100644",
+        "sha": "2a59fb998001ac31305e03adc8517ae9457629ec"
+      },
+      "dump/full-system-sources/Take-5/campaign/IC026_ACTUAL_GOAL_001.md": {
+        "mode": "100644",
+        "sha": "3ca46ac214b895a37d9b0e37d5aa70a6e2d2091c"
+      },
+      "dump/full-system-sources/Take-5/campaign/IC026_ACTUAL_GOAL_GATE_001.md": {
+        "mode": "100644",
+        "sha": "bea9ca1f6f76b21abc11deb655fcfa2ce8bacf8e"
+      },
+      "dump/full-system-sources/Take-5/campaign/IC026_FROZEN_TARGET_002_FOUNDATION_BEFORE_MIGRATION.md": {
+        "mode": "100644",
+        "sha": "dd4f3c246c6f05481a556ba23b14c9b7cdeb7ad8"
+      },
+      "dump/full-system-sources/Take-5/campaign/IC_12_BEFORE_12_AFTER_PROTOCOL_008.md": {
+        "mode": "100644",
+        "sha": "822d59358d7caf9b566b5c6aa093e9976572060d"
+      },
+      "dump/full-system-sources/Take-5/campaign/IMPROVEMENT_CORE_ALL_TOOLS_CAMPAIGN_001.md": {
+        "mode": "100644",
+        "sha": "19bd4d5e46bbb9ffc6b4ff45b31715030d9d01cb"
+      },
+      "dump/full-system-sources/Take-5/campaign/IMPROVEMENT_CORE_GOAL_RECOVERY_ARCHITECTURE_REENTRY_008.md": {
+        "mode": "100644",
+        "sha": "1f197dd6e99c7708688b56483d582d3ecd6d1804"
+      },
+      "dump/full-system-sources/Take-5/campaign/IMPROVEMENT_CORE_MTA_TARGET_SELECTION_001.md": {
+        "mode": "100644",
+        "sha": "f9541185bee8c1a2e306679e07bd6174384ca8eb"
+      },
+      "dump/full-system-sources/Take-5/campaign/MTA_ARCHITECTURE_IC_EXECUTION_005.md": {
+        "mode": "100644",
+        "sha": "b0708c6ca143890dedf7dda7e517c54e892e45af"
+      },
+      "dump/full-system-sources/Take-5/campaign/MTA_COMPLETION_012.md": {
+        "mode": "100644",
+        "sha": "3223ed9d601c21e77f64750f6839885bd14bc174"
+      },
+      "dump/full-system-sources/Take-5/campaign/MTA_EXECUTION_SUBSTRATE_REENTRY_007.md": {
+        "mode": "100644",
+        "sha": "a996e58e1e8807e0b5950571fba00044df52824b"
+      },
+      "dump/full-system-sources/Take-5/campaign/TWO_PASS_FULL_REPERTOIRE_CAMPAIGN_006.md": {
+        "mode": "100644",
+        "sha": "4951064009c25371bfc7aca698e1ee68c50a0f73"
+      },
+      "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/CURRENT_STATE.md": {
+        "mode": "100644",
+        "sha": "16200f4b3c7784442fe3796ffb9ede1cccff9712"
+      },
+      "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/DEFINITION.md": {
+        "mode": "100644",
+        "sha": "4bfde1999aa308b98a838bfde1e816b535b04d93"
       }
     }
   }
