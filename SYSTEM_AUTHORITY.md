@@ -19,6 +19,14 @@ No global consolidation or runtime-completeness claim follows from a copied file
 
 The old 8,000-file and 7,000-tool-file local mirror thresholds are retired as invalid capability-preservation proxies. Missing or mismatching required authority source blobs, unavailable provenance, unknown changes, and unverified scientific/runtime claims remain explicit blockers.
 
+## Root cause and prevention record (2026-10-13)
+
+The earlier consolidation workflow cloned entire Take-3, Take-4, and Take-5 trees into Take-2 and then treated local copy size as a completeness certificate. Its 8,000-file/7,000-tool-file thresholds measured a past snapshot shape, not evidence that capabilities or dependencies were preserved. When the planned cutover did not replace the live sources, those mirror copies became redundant while the count-based gate continued requiring them. A push-triggered restoration workflow could also reintroduce copies after a cleanup.
+
+The correction separates *where a source is stored*, *which revision it identifies*, *what semantic or operating authority it has*, and *whether its behavior has been tested*. Native-source identity now uses an explicit list of independently required file paths plus Git content hashes. Historical snapshot integrity uses content hashes and a manifest, never a minimum file count. Automatic mirror recreation is forbidden. No authority or Level 3/4 claim follows solely from the new source reference gate.
+
+During compaction, only same-relative-path, same-blob, same-mode pairs are eligible. Changed or absent native counterparts remain protected, and a commit-by-commit disposition log preserves recoverability. When GitHub write safeguards block removal, the cleanup status remains OPEN rather than being labeled complete.
+
 ## Cleanup and regeneration rule
 
 No process may silently recreate `dump/full-system-sources/Take-5/` or treat deleted exact duplicates as capability loss. Mirror removal requires an exact same-path, same-Git-blob, same-mode check against an identified Take-5 commit, an auditable per-file disposition, and preservation of changed historical copies. An authority pin cannot alone license deletion.
