@@ -2,13 +2,19 @@
   "schema": "EXTERNAL_PRIVATE_DEPENDENCIES/v1",
   "dependencies": [
     {
-      "source": "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/presentation/ICC_128_CANDIDATE_V12_FRONTIER_CLOSED_2026-09-26.md",
+      "source": "thytabakman-jpg/Take-5/legacy/icc128-legacy/snapshot/presentation/ICC_128_CANDIDATE_V12_FRONTIER_CLOSED_2026-09-26.md",
       "target": "assets/icc128/v12-frontier-closed.svg",
       "provenance_repository": "thytabakman-jpg/Reaserch",
       "provenance_blob_sha": "4f275da7fdb8d9a54bdd4c542b502567f6373ba9",
       "status": "BOUNDED_PRIVATE_SOURCE",
       "runtime_effect": "none",
-      "note": "Legacy presentation asset exists in the private source lineage but is not copied into public Take-2."
+      "note": "Legacy presentation asset exists in the private source lineage but is not copied into public Take-2.",
+      "source_repository": "thytabakman-jpg/Take-5",
+      "source_commit": "4196f7142601e50e917546b11066b11a7f353ce2",
+      "source_blob_sha": "3cbc5345349b539bfad0f3104f803727c1adf8c1",
+      "source_kind": "native_repository",
+      "historical_mirror_path": "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/presentation/ICC_128_CANDIDATE_V12_FRONTIER_CLOSED_2026-09-26.md",
+      "source_url": "https://github.com/thytabakman-jpg/Take-5/blob/4196f7142601e50e917546b11066b11a7f353ce2/legacy/icc128-legacy/snapshot/presentation/ICC_128_CANDIDATE_V12_FRONTIER_CLOSED_2026-09-26.md"
     }
   ]
 }
