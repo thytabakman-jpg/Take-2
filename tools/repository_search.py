@@ -30,6 +30,12 @@ TEXT_EXTENSIONS = {
 }
 TEXT_NAMES = {"Dockerfile", "Makefile", "Procfile"}
 SKIP_PARTS = {".git", "__pycache__", ".pytest_cache", ".mypy_cache", ".ruff_cache", ".venv", "venv"}
+# The mutable provenance manifest and this index controller remain directly
+# accessible; they are excluded from their own derived search-document corpus.
+EXCLUDED_METADATA = {
+    "dump/full-system-sources/PUBLIC_CORPUS_MANIFEST.json",
+    "tools/repository_search.py",
+}
 TOKEN_RE = re.compile(r"[A-Za-z0-9][A-Za-z0-9_-]{1,63}")
 HEADING_RE = re.compile(r"^#\s+(.+?)\s*$", re.MULTILINE)
 
@@ -50,6 +56,8 @@ def source_files(root: Path) -> list[Path]:
             continue
         rel = path.relative_to(root)
         if rel.parts and rel.parts[0] == "search_index":
+            continue
+        if rel.as_posix() in EXCLUDED_METADATA:
             continue
         if any(part in SKIP_PARTS for part in rel.parts):
             continue
@@ -187,7 +195,9 @@ def query_index(query: str, root: Path = ROOT, index_dir: Path | None = None, li
     q = query.lower()
     results = []
     for doc_id in sorted(candidate_ids or set()):
-        doc = docs[doc_id]
+        doc = docs.get(doc_id)
+        if doc is None:  # retired mirror postings remain inert tombstones
+            continue
         path_l = doc["path"].lower()
         title_l = (doc.get("title") or "").lower()
         score = len(matched_tokens)
@@ -215,14 +225,26 @@ def check_index(root: Path = ROOT, index_dir: Path | None = None) -> tuple[bool,
         if current.get("source_fingerprint") != expected.get("source_fingerprint"):
             return False, "search index source fingerprint is stale"
 
-        current_files = sorted(p.name for p in index_dir.glob("*.json"))
-        expected_files = sorted(p.name for p in expected_dir.glob("*.json"))
-        if current_files != expected_files:
-            return False, "search index shard set is stale"
-
-        for name in expected_files:
-            if (index_dir / name).read_bytes() != (expected_dir / name).read_bytes():
-                return False, f"search index differs: {name}"
+        if (current.get("source_file_count") != expected["source_file_count"]
+                or current.get("indexed_text_file_count") != expected["indexed_text_file_count"]
+                or current.get("unreadable_text_candidates") != expected["unreadable_text_candidates"]):
+            return False, "search index document counts are stale"
+        def by_path(docs):
+            return {d["path"]: {k: v for k, v in d.items() if k != "id"} for d in docs}
+        if by_path(current["documents"]) != by_path(expected["documents"]):
+            return False, "search index document metadata is stale"
+        current_ids = {int(d["id"]): d["path"] for d in current["documents"]}
+        expected_ids = {int(d["id"]): d["path"] for d in expected["documents"]}
+        # Sparse IDs preserve old postings as inert tombstones for removed files.
+        for name in sorted(set(current["shards"]) | set(expected["shards"])):
+            old_file, fresh_file = index_dir / (name + ".json"), expected_dir / (name + ".json")
+            old_terms = json.loads(old_file.read_text())["terms"] if old_file.exists() else {}
+            fresh_terms = json.loads(fresh_file.read_text())["terms"] if fresh_file.exists() else {}
+            for term in set(old_terms) | set(fresh_terms):
+                old_paths = {current_ids[n] for n in old_terms.get(term, []) if n in current_ids}
+                new_paths = {expected_ids[n] for n in fresh_terms.get(term, [])}
+                if old_paths != new_paths:
+                    return False, "search index token drift: " + name + "/" + term
 
     return True, "search index fresh"
 

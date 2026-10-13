@@ -8,9 +8,9 @@
   "file_counts": {
     "Take-3": 7,
     "Take-4": 50,
-    "Take-5": 9016
+    "Take-5": 8916
   },
-  "total_files": 9073,
+  "total_files": 8973,
   "records": [
     {
       "path": "dump/full-system-sources/Take-3/BENCHMARKS.md",
@@ -298,21 +298,6 @@
       "sha256": "8c215ec99507dab893032455c7b9f183bd92c80672ba4faa99d896fe6c658978"
     },
     {
-      "path": "dump/full-system-sources/Take-5/.github/CODEOWNERS",
-      "bytes": 66,
-      "sha256": "266a401e6bc6b539ea5688e5b7dd484f3798537414a8424fa3ca1c12d30b8ac5"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/.github/dependabot.yml",
-      "bytes": 410,
-      "sha256": "6a32eb05db759a1b12943cefb44b8f40a0f86f44cfd491f43d15ae0ef9b51f3c"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/.github/pull_request_template.md",
-      "bytes": 667,
-      "sha256": "580b1dc18f6fe8d0af8813d82f20af969d13a5488be894bf199f4c496f5310b0"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/.github/workflows/a5-tests.yml",
       "bytes": 2852,
       "sha256": "4cbb37d29d1e1597841cb365e9365304c56e3e9a5f11d46e6d536bc92cbaa9b6"
@@ -363,54 +348,9 @@
       "sha256": "5add9e5ef08fb9c63dda798b3724a1d9a5e624d279110eb598de5e1f56455536"
     },
     {
-      "path": "dump/full-system-sources/Take-5/.gitignore",
-      "bytes": 357,
-      "sha256": "7d9ecb77d323aecb596625149d966ae0530056d2bbe5a44271ee521ba570b7a3"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/ARCHITECTURE_CANDIDATE.yaml",
-      "bytes": 3656,
-      "sha256": "ace1c4ba24bedd0b2aadeec61d0df8fc48a097f806d0562d970fd7418c1c8657"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/CAPABILITY_CURRENTNESS_MATRIX.md",
-      "bytes": 4029,
-      "sha256": "ec895fe09edba50959343299edd070acfa7449ca13b0ee242514de6d0889a6c4"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/CURRENTNESS_AND_PLACEMENT_PROGRAM.md",
-      "bytes": 1875,
-      "sha256": "568fd2c203e881e0a934ad053fbf57843b3d1b9f2f10be4df361e294ed1ce316"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/FINISH_LINE.md",
-      "bytes": 1274,
-      "sha256": "2438a3e96e4a4525831de2d045646fcc4698f6ff92150c178a2054045963a6c7"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/FUNCTIONALITY_RECOVERY_LEDGER.md",
-      "bytes": 7880,
-      "sha256": "15e9c0a9128fedf17eb4427ce0a91e911dbcb7b6c6b5e494ce5ab4a24371259e"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/GITHUB_GOVERNANCE.md",
-      "bytes": 3117,
-      "sha256": "af7ba6818aea89c151ca9e7a1959de764dda309ce6c26e1059cdf3ad488f89c6"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/ICC_AUTONOMOUS_STEWARDSHIP.md",
-      "bytes": 6564,
-      "sha256": "41e61beffc9f86fb0590467a6eadd8cc5becae821b04e2c45b9ad9e466bd1fcd"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/KERNEL.yaml",
       "bytes": 5187,
       "sha256": "3301652cfeb38b3f03a24099f7e5e964949b0e8662e7b0a506ff269e3158fe4c"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/MAP_CAPTURE_POLICY.md",
-      "bytes": 672,
-      "sha256": "c0d6312b605f31347ce68dd17c78b206fd28cca65bf1f365ae79ced18c8413c7"
     },
     {
       "path": "dump/full-system-sources/Take-5/MIGRATION_STATE.yaml",
@@ -418,19 +358,9 @@
       "sha256": "3dbcea4c0e960534f1843dd064c2185e38308146e8cb62989e044ada1a9b75bf"
     },
     {
-      "path": "dump/full-system-sources/Take-5/PROMOTION_BENCHMARK.md",
-      "bytes": 1456,
-      "sha256": "a6d291f9f77016e9083d7266d49ab3ef27f5a9d771cdc2929fcbae029a9b4ee1"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/README.md",
       "bytes": 6604,
       "sha256": "b9b8a7954424da7d8dc1d645b3302752d2ea7902174db65623cd8588eb932c11"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/SECURITY.md",
-      "bytes": 1083,
-      "sha256": "68250cff068987655ca29fd22e6cd22ae89087a50d745a45b6b0c3b6a165db80"
     },
     {
       "path": "dump/full-system-sources/Take-5/SUCCESSOR_CHARTER.md",
@@ -438,34 +368,9 @@
       "sha256": "98a008fa9ceea024e5461774bc07ddbac759861d80a5692a69978b6ae2457041"
     },
     {
-      "path": "dump/full-system-sources/Take-5/architecture/A5_BEHAVIORAL_ARCHITECTURE_CANDIDATE_004.md",
-      "bytes": 5635,
-      "sha256": "59e44ba87fd05bf0be010913b1d4693ff968ff5a7301cbd80b3d41a9b41ca1bd"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/ADAPTIVE_RESPONSE_SELECTION_CONTRACT_093.md",
-      "bytes": 799,
-      "sha256": "890d0fa853e4dea961f36b5eed4b15acf7897ae198ba35033f42f12963bb9025"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/architecture/ARCHITECTURE_DECISION_036_MATH_FIRST_TOOL_SELECTION.md",
       "bytes": 5382,
       "sha256": "dd8d47b9093d3774bba860b9c647046c521b9358624b801557fc966c02bb62d6"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/ARCHITECTURE_SCAN_013.md",
-      "bytes": 2508,
-      "sha256": "cf91b682e304232b7ada924b4d476767b364810f58f47c0088b0b9211e9654f9"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/ARTIFACT_TO_WORK_INTAKE_CONTRACT_001_2026-09-25.md",
-      "bytes": 7128,
-      "sha256": "ab73eb15d6a9b97aa625779dca9e97622341018493c6dc98266f8e07ae0e91a9"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/ASSERT_COMPOUND_CONTRACT_055.md",
-      "bytes": 6223,
-      "sha256": "72436e2c6f1491d01206c96a5876949b99162ba1a8d0c329ee8432097d6a4102"
     },
     {
       "path": "dump/full-system-sources/Take-5/architecture/ASSISTANT_RESPONSE_EMISSION_BOUNDARY_065.md",
@@ -473,89 +378,9 @@
       "sha256": "b51ab77050fe63a8c472bd29a0ba34f0d6a2e0c37bcdf5589928ef9406370c52"
     },
     {
-      "path": "dump/full-system-sources/Take-5/architecture/AUTHORITY_BEFORE_FORMAL_EMISSION_141.md",
-      "bytes": 7972,
-      "sha256": "f7cf0206afba2496b4f4729d0e4bd54b59c1dd9c1553f3a7e43dfa9f30fb68f7"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/CANONICAL_FOUNDATION_034.md",
-      "bytes": 3474,
-      "sha256": "449b80915069ae724be891bb91535a1355b88bd5c80555e048e9d53fd5432648"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/CANONICAL_TOOL_IDENTITY_REPAIR_076.md",
-      "bytes": 2203,
-      "sha256": "9db5963c98104915517025c35933ff9a41222e840593c7c85e7cac58ae4757a0"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/CAPABILITY_ADMISSION_PACK_001.yaml",
-      "bytes": 3037,
-      "sha256": "a21c3cb47409dd8df10bf16d0b597177cbc9664ed47ae814111964ed8e864ea2"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/CAPABILITY_PRESERVATION_INVARIANT_097.md",
-      "bytes": 2619,
-      "sha256": "c7044062d09336e63dbc14d27a6b411ee054c6a953909f3c390a36a221c67108"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/CORRECTED_MODE_CAPABILITY_RESEARCH_ARCHITECTURE_002.md",
-      "bytes": 10257,
-      "sha256": "17f9f5bc02a58fc891442cef6f89898e327c593da7a994efa4eb31b3f4ddf764"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/CROSS_REPOSITORY_IMPROVEMENTCORE_LINEAGE_CHOICE_080.md",
-      "bytes": 7072,
-      "sha256": "743e5e60509844ebc252256d74a71db7fed481cc99517b2f3fb43532de70d882"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/DESIRED_JANE_TOOL_061.md",
-      "bytes": 6066,
-      "sha256": "92303c0f3e3476c8d2e1449305e56d9277f2b962537bd2c99065f353975d996b"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/EXACT_HISTORICAL_EQUATION_RECOVERY_CONTRACT_091.md",
-      "bytes": 1512,
-      "sha256": "ead54ed01e21e242bbc90e50efc05365a7306c96fcce3c3bc747aa2ed515f1c4"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/EXECUTION_CLAIM_INTEGRITY_117.md",
-      "bytes": 4254,
-      "sha256": "7db14d5358e0fc01fd17270574e32285548a22e52e5e33017ad8027d20045266"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/EXPLICIT_TOOL_MANIFEST_BACKFILL_161_2026-09-27.md",
-      "bytes": 2695,
-      "sha256": "2194e7951843978f56d01ee22d8d44f90f588383b16f586b58c3894f1b6775e0"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/FOCUS_ROUTE_CONTRACT_054.md",
-      "bytes": 10140,
-      "sha256": "dda42f387dc83b8a8a7bccfe160ed3dd77727eaa679bb91b826540e06ee981dd"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/FOUR_TOOL_STRONG_REALITY_RECOVERY_162_2026-09-27.md",
-      "bytes": 5326,
-      "sha256": "ef7352b336572bd508d7fa3cecce86afa78b2fe691dd95f1297996805cc57ac6"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/FULL_CONFIGURED_TOOL_INVOCATION_121.md",
-      "bytes": 6733,
-      "sha256": "b797c971fbaca903f6fafc9a141f7d147165ec449af691612135050642d7e7a3"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/FULL_RUN_DEFAULT_DISPATCH_CONTRACT_066.md",
-      "bytes": 2523,
-      "sha256": "e2d7d2d5bd4ee0a0160404457c563cf235ff30ab712e17df8047bd3e43e9a65f"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/architecture/FULL_TOOL_MATHEMATICAL_IDENTITY_CONTRACT_002_2026-09-26.md",
       "bytes": 5996,
       "sha256": "dea6b7fc8178265221d4aae1af7332dc04b1e99cf41bf354567e9774573677e0"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/GLOBAL_TOOL_EXECUTION_CONTRACT_072.md",
-      "bytes": 2256,
-      "sha256": "328f396e47862d0ad77d6e209eb79322a1912e469eb2c195e6c2089f59e600f4"
     },
     {
       "path": "dump/full-system-sources/Take-5/architecture/GOAL_FULL_TOOL_MATH_001_2026-09-27.md",
@@ -563,69 +388,9 @@
       "sha256": "9c81d85e2c6fad174c12cb18821498f34cbbb86dd98f32bd8d2dd05ccd3cc71b"
     },
     {
-      "path": "dump/full-system-sources/Take-5/architecture/GOAL_FULL_TOOL_MATH_002_2026-09-30.md",
-      "bytes": 3744,
-      "sha256": "d8fe377b6a16e1678366cd86cb20decc10423052b10ec88b01670ccd3ee9fb62"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/HF1_MATHEMATICS_084.md",
-      "bytes": 3508,
-      "sha256": "e671cd337589d6519cee99e55f8de14692d05381b0d3030a123c6eb5abdf6939"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/HOST_INTERCEPTION_AUTHORITY_BOUNDARY_001_2026-09-26.md",
-      "bytes": 1663,
-      "sha256": "85bcd7c28be7ae1a86383f32fa1a91d3221340333016f1364564cab51b92bd61"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/IC028_ADVANCED_ROOT_ARCH_FULLSPECTRUM_047.md",
-      "bytes": 10744,
-      "sha256": "cfc1e2edfb3136bcaa4b72b981d48373581afa3f28b254d7da836315cd8942f5"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/IC028_COMPOUNDING_RECONCILE_049.md",
-      "bytes": 7043,
-      "sha256": "92325688dcf4a66301f521a1874acfbca8ca3c416fac9c6edde4512f1ab08575"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/IC028_INQUIRY_COMPILER_051.md",
-      "bytes": 5673,
-      "sha256": "cbdf741125bb9d044460f04916884ec784dbf83d84fb5da1c381ba642a2ba658"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/IC028_ROLE_SEPARATION_DECISION_045.md",
-      "bytes": 5579,
-      "sha256": "4ee42c5c347f89bfdb5e3a64959e00a7056e457f8af99639b179b0355c9ed207"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/IC028_TERM_MT_MOMT_ROLE_DECISION_046.md",
-      "bytes": 11084,
-      "sha256": "36d6a9a19c32e683a1a2f0c75b7cdfb66847e2a87acb227c30c8e2e01da4c293"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/IC029_IMPROVED_CORE_SELF_AUDITED_MAP_076.md",
-      "bytes": 4951,
-      "sha256": "8a2bd674a39a3c40495b7df3a19611ae192ac129ec7ca3d29a9c5890c07b4c2e"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/architecture/ICC_HOST_INGRESS_CONTRACT_001_2026-09-27.md",
       "bytes": 2605,
       "sha256": "8f7eadf893133b0732ea248e45e8be73d0af5bdfefd8730c93ec0afc949ee9c1"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/ICC_QUESTION_DEPENDENCY_WRAPPER_075.md",
-      "bytes": 3839,
-      "sha256": "9f81915fea735e970e6cbae25b85b558c9a141d526b0b86fc505e79db9b0f80e"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/IC_JANE_WRAPPER_MATH_PLAN_037.md",
-      "bytes": 9860,
-      "sha256": "4740e7ecb9032fd292565f28e109d36713a405146b9b8ae6f049495eef8670dc"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_ACTIVATION_083.md",
-      "bytes": 2832,
-      "sha256": "f4a0c8012176ded27d1648b2f10c8a96877daf7a2edda7f73c3af8187d9af414"
     },
     {
       "path": "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_ANTI_REPEAT_110.md",
@@ -638,164 +403,14 @@
       "sha256": "f71fb1e85f0ace1557bb52b01c56b56b5421fd7cc08f65bb5b6c819021c9a9b5"
     },
     {
-      "path": "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_CONCURRENCY_PREFLIGHT_084.md",
-      "bytes": 2814,
-      "sha256": "dea48c5164bba84cd38a9efc8310b1c2a1566836c646cfea1bd1a113ac2c7d8a"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_CONFIGURED_TOOL_EXECUTION_109.md",
-      "bytes": 4384,
-      "sha256": "0ab1bb71cfb21d350dec51a0c257a3269b8a49bd0977cdbf7f6b1d39a0c9b4d4"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_DEFAULT_HF2_118.md",
-      "bytes": 3692,
-      "sha256": "fedda6d5a60424dde3d06b4a9fe602c6d9ca1e0fc0fc4f16d8373d3ec021c78d"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_EXTERNAL_ACQUISITION_090.md",
-      "bytes": 4940,
-      "sha256": "a773406801467dd4b583a201d8e8bcc59b8f319d9e04072fd9be01a4c1f2d526"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_FRONTIER_CLOSURE_106.md",
-      "bytes": 5939,
-      "sha256": "228cc9502c43dd49bb37decf2e1d0b11aeef2b98400f402d40c040b698696e7e"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_FUNCTION_FIRST_HOLDOUT_112.md",
-      "bytes": 5502,
-      "sha256": "9b86e3fc963c568e189ecfb7c7932474d8ea6a1355e9fe060eec99e6801510d8"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_INDEXED_PROGRESS_MATHEMATICS_111.md",
-      "bytes": 16168,
-      "sha256": "bddd48d5a52411f0adbc07a3e073f75157254311a51c6b45cd5bf430c9f6ac21"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_INVOCATION_DISPATCH_079.md",
-      "bytes": 941,
-      "sha256": "af714f0d3e6652cfb5d2efc216138eb3a912b5372122eb9c7d05eeb43602771d"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_LEGACY_RESTORATION_TARGET_129.md",
-      "bytes": 7190,
-      "sha256": "6e34bf68b74ac198908af4f3601761f7371972b8734654e0f0bdaaca2a5402a5"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_MATERIAL_KNOWLEDGE_CAPTURE_113.md",
       "bytes": 6187,
       "sha256": "989220c191d3d1f952a300d0c37cab0592819b58224e59a5e8822f621155fc3e"
     },
     {
-      "path": "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_MATHEMATICS_086.md",
-      "bytes": 4864,
-      "sha256": "f7c830087649e0499a031ea4e43858fb2b5c8ff516bdc2c527436ed5cb031273"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_MATH_CORPUS_INTEGRATION_090.md",
-      "bytes": 17626,
-      "sha256": "76b69f3efd098cfaa14453106f0387f327a12ce3e917a18a8004bf9a5f11c8aa"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_MAXIMIZATION_081.md",
-      "bytes": 5298,
-      "sha256": "d88b82f5262202ba91c81324fc52ab365c5898aaf8b901d878e56c3621df0080"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_PARENT_RETURN_CLOSURE_139.md",
-      "bytes": 4835,
-      "sha256": "bde676fc3ce637c7daa66636e36e463b7404ff40d72241226b7a007e3074fee4"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_RECOVERY_MANIFEST_082.json",
-      "bytes": 13496,
-      "sha256": "1673d15a521eb022d491bf4d342658dac4269986e58a40c06585f9bff4227c7e"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/JANE_CONTINUITY_RECOVERY_098.md",
-      "bytes": 1740,
-      "sha256": "9e2f95b909a6c325cfdf07d8d5f9a897533e72082339a3784ddde450c4ab9384"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/KERNEL_MATH_CONTRACT_052.md",
-      "bytes": 7302,
-      "sha256": "285ac140a2fa22e09b510fd7a65e0a88f1bb4727b3103faa19d6127a83e1f36c"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/KERNEL_MATH_CONTRACT_052.yaml",
-      "bytes": 9567,
-      "sha256": "a9009df4abeb7239278ca51f566535c37db5289d45161d2f199191339f845c1d"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/LAMBDA_MATH_QUESTION_TOOL_CONTRACT_063.md",
-      "bytes": 3317,
-      "sha256": "7f0b60ef9510e55f1f881743712b7d59074d6ae7aa4c35963ea4c7b56dfd6129"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/LEARNING_OPERATOR_TOOLKIT_035.md",
-      "bytes": 12480,
-      "sha256": "133ad371283d06a79a79b4dcc03c8e3be1ed0ff72742d32c000287e1984f4e00"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/LEARNING_TOOL_ADMISSION_DECISION_040.md",
-      "bytes": 4811,
-      "sha256": "520b615b5ac45a4efd21e686cc8ccdb464656454b9022c332a22ee7286a0a12d"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/LOAD_BEARING_SEMANTIC_OBJECT_PACKAGE_CONTRACT_064.md",
-      "bytes": 6006,
-      "sha256": "f71ced1d4b7b2df9f914152218aece4c1ea636536cc03dc7f8c700d012fb1e25"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/MATHEMATICAL_COLOR_INVARIANT_062.md",
-      "bytes": 6410,
-      "sha256": "e851d745321595575c048f24059fc25831e22d547632b012228825c836168a14"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/MATH_FIRST_WRAPPER_CLOSURE_039.md",
-      "bytes": 5024,
-      "sha256": "4166bf313d05d0574537b32c8010c13fb2329eaedcf244712ec6adbf0f74e787"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/MODE_CUBE_CAPABILITY_ARCHITECTURE_001.md",
-      "bytes": 6321,
-      "sha256": "fa077dfa5d16bb7dab261c8b33171c8e80945d265a3c2cddb7b7d2b21644c90b"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/MODE_CUBE_CAPABILITY_BUILD_PACK_001.yaml",
-      "bytes": 7610,
-      "sha256": "d2cdd481d76cf418756f78e6e6fae7f898e90fb743220a44d09d7ab7ffbe5c71"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/MOST_EFFECTIVE_OBJECTIVE_COMPILATION_001_2026-09-26.md",
-      "bytes": 1916,
-      "sha256": "aa0b527521027a75db01daa060756b5186f045611640d0a30b578188bd6479b4"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/architecture/MULTIOBJECT_FULL_TOOL_MATH_001_2026-09-27.md",
       "bytes": 12644,
       "sha256": "efa6b7ff2fe711821068cf8f1d7c674c285a7878b50a95e156fb04a4235273d3"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/NATIVE_TOOL_RECOVERY_PACK_160_2026-09-27.md",
-      "bytes": 2764,
-      "sha256": "018b7f893bca508d6f705157d54c0cfef66ee9fc66da75fd9626e9d1b4a55b68"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/OBJECT_HYPOTHESIS_RECOVERY_058.md",
-      "bytes": 2015,
-      "sha256": "1f428471d90c901a59285424da0d764737f47424d3bc436de184a3f90c96e511"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/OBSERVER_ALL_TOOLS_SWEEP_038.md",
-      "bytes": 10042,
-      "sha256": "38cab737839eefdb417e6369220c3603ea7a322aead1cc1bbbf916647d342856"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/PORTABLE_MATHEMATICAL_OBJECT_CONTRACT_001_2026-09-26.md",
-      "bytes": 3390,
-      "sha256": "8af8543890301347352307d6f58dc7efb033a1cf65d33a6b1fafc6e497a4ff02"
     },
     {
       "path": "dump/full-system-sources/Take-5/architecture/PROJECT_MANAGER_ALL_TOOLS_HF2_CAMPAIGN_001_2026-09-27.md",
@@ -816,121 +431,6 @@
       "path": "dump/full-system-sources/Take-5/architecture/PROJECT_MANAGER_FULL_TOOL_MATH_003_2026-09-27.md",
       "bytes": 3368,
       "sha256": "4d0dba6ef8a8fb399b9d64223394dd99d4ffc230a7f325059e12ed0a1d91ce12"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/PROSE_ARCHITECTURE_READER_LOAD_MATHEMATICS_004_2026-09-30.md",
-      "bytes": 5766,
-      "sha256": "021b66f01a3f14e36137c2c410b6f8249d259452e1f11720d2be67074a777f73"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/PROSE_FIRST_MENTION_PERSON_DATES_MATHEMATICS_002_2026-09-30.md",
-      "bytes": 2165,
-      "sha256": "8dc8f52d0f8b084369b4ad142d657422aea27f6534ea67e0cf24b1611dfbd031"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/PROSE_NUMERIC_YEAR_DATING_MATHEMATICS_002_2026-09-30.md",
-      "bytes": 2840,
-      "sha256": "5e5f33c9d01bca350d4ee451dc5b8e7ad2018c6435349fbe16d0e1f34355b0d8"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/PROSE_PROTECTED_TRANSITION_MATHEMATICS_001_2026-09-30.md",
-      "bytes": 7988,
-      "sha256": "be6c47842b452c3556fe0d12de376b379173017fc459fec29c9e549f66a7a5c7"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/PROSE_RAISE_CEILING_MATHEMATICS_003_2026-09-30.md",
-      "bytes": 3215,
-      "sha256": "c456da157deac2e4066e627cfdae828c4fc76367974fcdecda6e85ba459f00cc"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/PROTECTED_TRANSITION_INTEGRITY_090.md",
-      "bytes": 3950,
-      "sha256": "5ea09147eef61fb2457444859e2bcd0d391c4db0730d61e69bf1ecb9d252d288"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/QUESTION_TOOL_RENAME_REGISTRY_001.yaml",
-      "bytes": 2847,
-      "sha256": "d6092e46acff30afc922fbc4177c3bb7a336a9477c5f6c974201ecbe77d7e552"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/QUESTION_WORTH_ASKING_CONTRACT_056.md",
-      "bytes": 2222,
-      "sha256": "821f0dc623d3c1d8f1fd206ac9e065b9d454ce36ef70854cf6e8ab176f0a73c6"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/RELATION_BASIS_AND_ADMISSION_001_2026-09-26.md",
-      "bytes": 1670,
-      "sha256": "e7b7497b6689f6bc6b4b92a66f5ba1d26d5d369051cc9d796e9355306440f0ca"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/RESULT_PATH_AUTHORITY_DECISION_057.md",
-      "bytes": 984,
-      "sha256": "c5311196179cf9e725aba7d7724ba206e34faebe4dfb4de9cb3778d74c2155d3"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/ROOT_CAUSE_MATHEMATICS_087.md",
-      "bytes": 5586,
-      "sha256": "82101eb3b38b2264dc8330597946dd2281eb3ac306c4cf05c9beb534be5bd3ee"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/SIX_BY_SIX_BY_SIX_FOUNDATION_031.md",
-      "bytes": 5591,
-      "sha256": "624714e99020a8e51d20f15a672b4a5272376af293733c3e3cd147adaef1a0ae"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/SOLUTION_TO_MY_PROBLEM_CONTRACT_059.md",
-      "bytes": 3205,
-      "sha256": "605eb8cfce6fa7ab171b97ec954139411c007d996a33f23dcdbac8a7059d44ab"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/SOLUTION_TO_MY_PROBLEM_CONTRACT_060.md",
-      "bytes": 2787,
-      "sha256": "cf04e92af132e1a64493cea94b56ca51a2a35d36ab7b75e63e3d91a5cfdfd32f"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/SPECIFICATION_BEFORE_TRANSFORMATION_INVARIANT_134.md",
-      "bytes": 7197,
-      "sha256": "4e5130786565900f521a3698f452ac01d8fd5086c4ef0a76a68f759c1cbed0f8"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/TAKE_TWO_DISCOVERY_REENTRY_INTEGRATION_001.md",
-      "bytes": 5567,
-      "sha256": "94e536c5375fb86d92120074203456675ac5a357d24bae03a9accbf889853430"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/TAKE_TWO_OPERATING_LAW_099.md",
-      "bytes": 2171,
-      "sha256": "c0fa726fe02f28e9f86e2768befe01e13984a236f616792c56b857d354ef2061"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/TOOL_CONDUCTOR_PORTABLE_MATH_073.md",
-      "bytes": 3916,
-      "sha256": "48ad9b3ad4c8022d7267049ba0312cb5d9bac6fcd01824eedc33a37c66c945fe"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/WRAPPER_CANONICAL_CONTRACT_053.md",
-      "bytes": 14560,
-      "sha256": "c34d4bf3de00f54e35381c6639dad6c3b57169a5bd28a2be206d4e52530508c0"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/architecture/WRAPPER_TERM_PD_064.md",
-      "bytes": 1303,
-      "sha256": "6bdaa4cbe65afd29537b02dbaaf5dca96b89c36f6a8b227a6103b935ba3121fb"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/chat-history/IMPROVECORE_RUNTIME_CHAT_2026-09-26.md",
-      "bytes": 9699,
-      "sha256": "ab252e896068c3ad73dbff1c5f4f1813fd6f8c08d233613b52699c44cfbdba18"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/full-system-campaign/FULL_SYSTEM_SHOW_ME_THE_MATH_CAMPAIGN_REPORT_001_2026-09-26.md",
-      "bytes": 13660,
-      "sha256": "c95eddbb04abf8d9580d1138e6170211b280e2c16b77b06aa37afc09d7813a84"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/artifacts/full-system-campaign/MT_AUDIT_PRIOR_CAMPAIGN_SUMMARY_003_2026-09-26.md",
-      "bytes": 8439,
-      "sha256": "f94664dc3f2ac55695606f04d4164f5f2b172bc264b7ff8aa44492ff78d57644"
     },
     {
       "path": "dump/full-system-sources/Take-5/artifacts/full-system-campaign/SHOW_ME_THE_MATH_FULL_SYSTEM_MATH_001_2026-09-26.md",
@@ -45382,5 +44882,515 @@
     "repository": "Reaserch",
     "content_copied": false,
     "reason": "source is private while Take-2 is public; no private content is published by this consolidation"
+  },
+  "mirror_deduplication": {
+    "source_repo": "thytabakman-jpg/Take-5",
+    "donor_commit": "4196f7142601e50e917546b11066b11a7f353ce2",
+    "original_take2_commit": "7c7df0db2285354bdc4651bb7e878a4e9c3271fa",
+    "comparison": "exact path, Git blob hash, and mode",
+    "removed_paths": [
+      "dump/full-system-sources/Take-5/.github/CODEOWNERS",
+      "dump/full-system-sources/Take-5/.github/dependabot.yml",
+      "dump/full-system-sources/Take-5/.github/pull_request_template.md",
+      "dump/full-system-sources/Take-5/.gitignore",
+      "dump/full-system-sources/Take-5/ARCHITECTURE_CANDIDATE.yaml",
+      "dump/full-system-sources/Take-5/CAPABILITY_CURRENTNESS_MATRIX.md",
+      "dump/full-system-sources/Take-5/CURRENTNESS_AND_PLACEMENT_PROGRAM.md",
+      "dump/full-system-sources/Take-5/FINISH_LINE.md",
+      "dump/full-system-sources/Take-5/FUNCTIONALITY_RECOVERY_LEDGER.md",
+      "dump/full-system-sources/Take-5/GITHUB_GOVERNANCE.md",
+      "dump/full-system-sources/Take-5/ICC_AUTONOMOUS_STEWARDSHIP.md",
+      "dump/full-system-sources/Take-5/MAP_CAPTURE_POLICY.md",
+      "dump/full-system-sources/Take-5/PROMOTION_BENCHMARK.md",
+      "dump/full-system-sources/Take-5/SECURITY.md",
+      "dump/full-system-sources/Take-5/architecture/A5_BEHAVIORAL_ARCHITECTURE_CANDIDATE_004.md",
+      "dump/full-system-sources/Take-5/architecture/ADAPTIVE_RESPONSE_SELECTION_CONTRACT_093.md",
+      "dump/full-system-sources/Take-5/architecture/ARCHITECTURE_SCAN_013.md",
+      "dump/full-system-sources/Take-5/architecture/ARTIFACT_TO_WORK_INTAKE_CONTRACT_001_2026-09-25.md",
+      "dump/full-system-sources/Take-5/architecture/ASSERT_COMPOUND_CONTRACT_055.md",
+      "dump/full-system-sources/Take-5/architecture/AUTHORITY_BEFORE_FORMAL_EMISSION_141.md",
+      "dump/full-system-sources/Take-5/architecture/CANONICAL_FOUNDATION_034.md",
+      "dump/full-system-sources/Take-5/architecture/CANONICAL_TOOL_IDENTITY_REPAIR_076.md",
+      "dump/full-system-sources/Take-5/architecture/CAPABILITY_ADMISSION_PACK_001.yaml",
+      "dump/full-system-sources/Take-5/architecture/CAPABILITY_PRESERVATION_INVARIANT_097.md",
+      "dump/full-system-sources/Take-5/architecture/CORRECTED_MODE_CAPABILITY_RESEARCH_ARCHITECTURE_002.md",
+      "dump/full-system-sources/Take-5/architecture/CROSS_REPOSITORY_IMPROVEMENTCORE_LINEAGE_CHOICE_080.md",
+      "dump/full-system-sources/Take-5/architecture/DESIRED_JANE_TOOL_061.md",
+      "dump/full-system-sources/Take-5/architecture/EXACT_HISTORICAL_EQUATION_RECOVERY_CONTRACT_091.md",
+      "dump/full-system-sources/Take-5/architecture/EXECUTION_CLAIM_INTEGRITY_117.md",
+      "dump/full-system-sources/Take-5/architecture/EXPLICIT_TOOL_MANIFEST_BACKFILL_161_2026-09-27.md",
+      "dump/full-system-sources/Take-5/architecture/FOCUS_ROUTE_CONTRACT_054.md",
+      "dump/full-system-sources/Take-5/architecture/FOUR_TOOL_STRONG_REALITY_RECOVERY_162_2026-09-27.md",
+      "dump/full-system-sources/Take-5/architecture/FULL_CONFIGURED_TOOL_INVOCATION_121.md",
+      "dump/full-system-sources/Take-5/architecture/FULL_RUN_DEFAULT_DISPATCH_CONTRACT_066.md",
+      "dump/full-system-sources/Take-5/architecture/GLOBAL_TOOL_EXECUTION_CONTRACT_072.md",
+      "dump/full-system-sources/Take-5/architecture/GOAL_FULL_TOOL_MATH_002_2026-09-30.md",
+      "dump/full-system-sources/Take-5/architecture/HF1_MATHEMATICS_084.md",
+      "dump/full-system-sources/Take-5/architecture/HOST_INTERCEPTION_AUTHORITY_BOUNDARY_001_2026-09-26.md",
+      "dump/full-system-sources/Take-5/architecture/IC028_ADVANCED_ROOT_ARCH_FULLSPECTRUM_047.md",
+      "dump/full-system-sources/Take-5/architecture/IC028_COMPOUNDING_RECONCILE_049.md",
+      "dump/full-system-sources/Take-5/architecture/IC028_INQUIRY_COMPILER_051.md",
+      "dump/full-system-sources/Take-5/architecture/IC028_ROLE_SEPARATION_DECISION_045.md",
+      "dump/full-system-sources/Take-5/architecture/IC028_TERM_MT_MOMT_ROLE_DECISION_046.md",
+      "dump/full-system-sources/Take-5/architecture/IC029_IMPROVED_CORE_SELF_AUDITED_MAP_076.md",
+      "dump/full-system-sources/Take-5/architecture/ICC_QUESTION_DEPENDENCY_WRAPPER_075.md",
+      "dump/full-system-sources/Take-5/architecture/IC_JANE_WRAPPER_MATH_PLAN_037.md",
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_ACTIVATION_083.md",
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_CONCURRENCY_PREFLIGHT_084.md",
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_CONFIGURED_TOOL_EXECUTION_109.md",
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_DEFAULT_HF2_118.md",
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_EXTERNAL_ACQUISITION_090.md",
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_FRONTIER_CLOSURE_106.md",
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_FUNCTION_FIRST_HOLDOUT_112.md",
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_INDEXED_PROGRESS_MATHEMATICS_111.md",
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_INVOCATION_DISPATCH_079.md",
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_LEGACY_RESTORATION_TARGET_129.md",
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_MATHEMATICS_086.md",
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_MATH_CORPUS_INTEGRATION_090.md",
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_MAXIMIZATION_081.md",
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_PARENT_RETURN_CLOSURE_139.md",
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_RECOVERY_MANIFEST_082.json",
+      "dump/full-system-sources/Take-5/architecture/JANE_CONTINUITY_RECOVERY_098.md",
+      "dump/full-system-sources/Take-5/architecture/KERNEL_MATH_CONTRACT_052.md",
+      "dump/full-system-sources/Take-5/architecture/KERNEL_MATH_CONTRACT_052.yaml",
+      "dump/full-system-sources/Take-5/architecture/LAMBDA_MATH_QUESTION_TOOL_CONTRACT_063.md",
+      "dump/full-system-sources/Take-5/architecture/LEARNING_OPERATOR_TOOLKIT_035.md",
+      "dump/full-system-sources/Take-5/architecture/LEARNING_TOOL_ADMISSION_DECISION_040.md",
+      "dump/full-system-sources/Take-5/architecture/LOAD_BEARING_SEMANTIC_OBJECT_PACKAGE_CONTRACT_064.md",
+      "dump/full-system-sources/Take-5/architecture/MATHEMATICAL_COLOR_INVARIANT_062.md",
+      "dump/full-system-sources/Take-5/architecture/MATH_FIRST_WRAPPER_CLOSURE_039.md",
+      "dump/full-system-sources/Take-5/architecture/MODE_CUBE_CAPABILITY_ARCHITECTURE_001.md",
+      "dump/full-system-sources/Take-5/architecture/MODE_CUBE_CAPABILITY_BUILD_PACK_001.yaml",
+      "dump/full-system-sources/Take-5/architecture/MOST_EFFECTIVE_OBJECTIVE_COMPILATION_001_2026-09-26.md",
+      "dump/full-system-sources/Take-5/architecture/NATIVE_TOOL_RECOVERY_PACK_160_2026-09-27.md",
+      "dump/full-system-sources/Take-5/architecture/OBJECT_HYPOTHESIS_RECOVERY_058.md",
+      "dump/full-system-sources/Take-5/architecture/OBSERVER_ALL_TOOLS_SWEEP_038.md",
+      "dump/full-system-sources/Take-5/architecture/PORTABLE_MATHEMATICAL_OBJECT_CONTRACT_001_2026-09-26.md",
+      "dump/full-system-sources/Take-5/architecture/PROSE_ARCHITECTURE_READER_LOAD_MATHEMATICS_004_2026-09-30.md",
+      "dump/full-system-sources/Take-5/architecture/PROSE_FIRST_MENTION_PERSON_DATES_MATHEMATICS_002_2026-09-30.md",
+      "dump/full-system-sources/Take-5/architecture/PROSE_NUMERIC_YEAR_DATING_MATHEMATICS_002_2026-09-30.md",
+      "dump/full-system-sources/Take-5/architecture/PROSE_PROTECTED_TRANSITION_MATHEMATICS_001_2026-09-30.md",
+      "dump/full-system-sources/Take-5/architecture/PROSE_RAISE_CEILING_MATHEMATICS_003_2026-09-30.md",
+      "dump/full-system-sources/Take-5/architecture/PROTECTED_TRANSITION_INTEGRITY_090.md",
+      "dump/full-system-sources/Take-5/architecture/QUESTION_TOOL_RENAME_REGISTRY_001.yaml",
+      "dump/full-system-sources/Take-5/architecture/QUESTION_WORTH_ASKING_CONTRACT_056.md",
+      "dump/full-system-sources/Take-5/architecture/RELATION_BASIS_AND_ADMISSION_001_2026-09-26.md",
+      "dump/full-system-sources/Take-5/architecture/RESULT_PATH_AUTHORITY_DECISION_057.md",
+      "dump/full-system-sources/Take-5/architecture/ROOT_CAUSE_MATHEMATICS_087.md",
+      "dump/full-system-sources/Take-5/architecture/SIX_BY_SIX_BY_SIX_FOUNDATION_031.md",
+      "dump/full-system-sources/Take-5/architecture/SOLUTION_TO_MY_PROBLEM_CONTRACT_059.md",
+      "dump/full-system-sources/Take-5/architecture/SOLUTION_TO_MY_PROBLEM_CONTRACT_060.md",
+      "dump/full-system-sources/Take-5/architecture/SPECIFICATION_BEFORE_TRANSFORMATION_INVARIANT_134.md",
+      "dump/full-system-sources/Take-5/architecture/TAKE_TWO_DISCOVERY_REENTRY_INTEGRATION_001.md",
+      "dump/full-system-sources/Take-5/architecture/TAKE_TWO_OPERATING_LAW_099.md",
+      "dump/full-system-sources/Take-5/architecture/TOOL_CONDUCTOR_PORTABLE_MATH_073.md",
+      "dump/full-system-sources/Take-5/architecture/WRAPPER_CANONICAL_CONTRACT_053.md",
+      "dump/full-system-sources/Take-5/architecture/WRAPPER_TERM_PD_064.md",
+      "dump/full-system-sources/Take-5/artifacts/chat-history/IMPROVECORE_RUNTIME_CHAT_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/full-system-campaign/FULL_SYSTEM_SHOW_ME_THE_MATH_CAMPAIGN_REPORT_001_2026-09-26.md",
+      "dump/full-system-sources/Take-5/artifacts/full-system-campaign/MT_AUDIT_PRIOR_CAMPAIGN_SUMMARY_003_2026-09-26.md"
+    ],
+    "removed_blobs": {
+      "dump/full-system-sources/Take-5/.github/CODEOWNERS": {
+        "mode": "100644",
+        "sha": "da4af01b4b902e663c15085e3107a03d1557f65e"
+      },
+      "dump/full-system-sources/Take-5/.github/dependabot.yml": {
+        "mode": "100644",
+        "sha": "7a161daa79a647519a4026cff6bd700c47ac94a4"
+      },
+      "dump/full-system-sources/Take-5/.github/pull_request_template.md": {
+        "mode": "100644",
+        "sha": "a5aacfbe353775cab8599b9a05b98299bc744f25"
+      },
+      "dump/full-system-sources/Take-5/.gitignore": {
+        "mode": "100644",
+        "sha": "0ebdc9fd56002b2e15fb02d2aa2c80904c6ca786"
+      },
+      "dump/full-system-sources/Take-5/ARCHITECTURE_CANDIDATE.yaml": {
+        "mode": "100644",
+        "sha": "fb123af4875fb6046c97b392e0fab0098cbcb863"
+      },
+      "dump/full-system-sources/Take-5/CAPABILITY_CURRENTNESS_MATRIX.md": {
+        "mode": "100644",
+        "sha": "4f519679847336196e0ef9224d23466ea3bd9868"
+      },
+      "dump/full-system-sources/Take-5/CURRENTNESS_AND_PLACEMENT_PROGRAM.md": {
+        "mode": "100644",
+        "sha": "be7e5f90ce93a2e81866859f25ddc7580b9ddcdd"
+      },
+      "dump/full-system-sources/Take-5/FINISH_LINE.md": {
+        "mode": "100644",
+        "sha": "44593a450a4bfa7848ff7c4eb007f819a85bfa72"
+      },
+      "dump/full-system-sources/Take-5/FUNCTIONALITY_RECOVERY_LEDGER.md": {
+        "mode": "100644",
+        "sha": "1e9f1efe4d449ada04eb60e23b382748bfa14714"
+      },
+      "dump/full-system-sources/Take-5/GITHUB_GOVERNANCE.md": {
+        "mode": "100644",
+        "sha": "065a330c69f0daf6a600912a9fee1b75976ba3ec"
+      },
+      "dump/full-system-sources/Take-5/ICC_AUTONOMOUS_STEWARDSHIP.md": {
+        "mode": "100644",
+        "sha": "afdc32a488dfe25b6604646f2b4ad6023eafe5f0"
+      },
+      "dump/full-system-sources/Take-5/MAP_CAPTURE_POLICY.md": {
+        "mode": "100644",
+        "sha": "08e73e08d8e96c1d0bb10e5e1112dde06e0706fd"
+      },
+      "dump/full-system-sources/Take-5/PROMOTION_BENCHMARK.md": {
+        "mode": "100644",
+        "sha": "038dd3288048529eda3b3f835acfd27fc1b30dfe"
+      },
+      "dump/full-system-sources/Take-5/SECURITY.md": {
+        "mode": "100644",
+        "sha": "9cbd828d33f8f46f973df7b7f287f823fe9a5e5e"
+      },
+      "dump/full-system-sources/Take-5/architecture/A5_BEHAVIORAL_ARCHITECTURE_CANDIDATE_004.md": {
+        "mode": "100644",
+        "sha": "a83091c5d912a61ade198eeacdfbdfeb5a13a8ae"
+      },
+      "dump/full-system-sources/Take-5/architecture/ADAPTIVE_RESPONSE_SELECTION_CONTRACT_093.md": {
+        "mode": "100644",
+        "sha": "4f799f9c798d5d231085ecc8fc55c21a108457f8"
+      },
+      "dump/full-system-sources/Take-5/architecture/ARCHITECTURE_SCAN_013.md": {
+        "mode": "100644",
+        "sha": "58df9f47ee28e78f8e5ef238b9f49683cdf2ccfe"
+      },
+      "dump/full-system-sources/Take-5/architecture/ARTIFACT_TO_WORK_INTAKE_CONTRACT_001_2026-09-25.md": {
+        "mode": "100644",
+        "sha": "1e736d78739abd947c80c214e68806aebe511a74"
+      },
+      "dump/full-system-sources/Take-5/architecture/ASSERT_COMPOUND_CONTRACT_055.md": {
+        "mode": "100644",
+        "sha": "c36d1a6e8c4f724833c6208bd55aa1d75e635586"
+      },
+      "dump/full-system-sources/Take-5/architecture/AUTHORITY_BEFORE_FORMAL_EMISSION_141.md": {
+        "mode": "100644",
+        "sha": "04c9eeba93c3567742c212d9adaa242be47ff48a"
+      },
+      "dump/full-system-sources/Take-5/architecture/CANONICAL_FOUNDATION_034.md": {
+        "mode": "100644",
+        "sha": "6c0d24017ac2937e086e87dabfc1db3b46ca7caf"
+      },
+      "dump/full-system-sources/Take-5/architecture/CANONICAL_TOOL_IDENTITY_REPAIR_076.md": {
+        "mode": "100644",
+        "sha": "af597974b8087b27b9e867f0ae91f1c13f0bdefa"
+      },
+      "dump/full-system-sources/Take-5/architecture/CAPABILITY_ADMISSION_PACK_001.yaml": {
+        "mode": "100644",
+        "sha": "ac97b2152741f5252bab77eb7fa4f525a4abb39b"
+      },
+      "dump/full-system-sources/Take-5/architecture/CAPABILITY_PRESERVATION_INVARIANT_097.md": {
+        "mode": "100644",
+        "sha": "e6a7b2aa4553f7052789cf271455ae8a8a780cad"
+      },
+      "dump/full-system-sources/Take-5/architecture/CORRECTED_MODE_CAPABILITY_RESEARCH_ARCHITECTURE_002.md": {
+        "mode": "100644",
+        "sha": "99a1b90c379ef67fb4488ca33350854a814b27ea"
+      },
+      "dump/full-system-sources/Take-5/architecture/CROSS_REPOSITORY_IMPROVEMENTCORE_LINEAGE_CHOICE_080.md": {
+        "mode": "100644",
+        "sha": "5f4a6d7a67d57798d9e684f4ad9da6774881e880"
+      },
+      "dump/full-system-sources/Take-5/architecture/DESIRED_JANE_TOOL_061.md": {
+        "mode": "100644",
+        "sha": "55f621d82dc1b640ba6e1d076388df7c4a9d9eea"
+      },
+      "dump/full-system-sources/Take-5/architecture/EXACT_HISTORICAL_EQUATION_RECOVERY_CONTRACT_091.md": {
+        "mode": "100644",
+        "sha": "192b161b7864c3d214137efec4523e23a90fc35b"
+      },
+      "dump/full-system-sources/Take-5/architecture/EXECUTION_CLAIM_INTEGRITY_117.md": {
+        "mode": "100644",
+        "sha": "087670547639eec415d3c383d53b423642a4c361"
+      },
+      "dump/full-system-sources/Take-5/architecture/EXPLICIT_TOOL_MANIFEST_BACKFILL_161_2026-09-27.md": {
+        "mode": "100644",
+        "sha": "7e0e7fd38ec82902b36edf508200657512a5a01d"
+      },
+      "dump/full-system-sources/Take-5/architecture/FOCUS_ROUTE_CONTRACT_054.md": {
+        "mode": "100644",
+        "sha": "8d05b8a83deb08b8a7bb4d2145177c5f15af8e90"
+      },
+      "dump/full-system-sources/Take-5/architecture/FOUR_TOOL_STRONG_REALITY_RECOVERY_162_2026-09-27.md": {
+        "mode": "100644",
+        "sha": "dc39d2dd5e03625373b8cb4d17db3132bfa7e6d3"
+      },
+      "dump/full-system-sources/Take-5/architecture/FULL_CONFIGURED_TOOL_INVOCATION_121.md": {
+        "mode": "100644",
+        "sha": "591225daead5326d0df7acdbf59f622ca1f639de"
+      },
+      "dump/full-system-sources/Take-5/architecture/FULL_RUN_DEFAULT_DISPATCH_CONTRACT_066.md": {
+        "mode": "100644",
+        "sha": "f360ef397234eefbc9259838414465cd29bc29c2"
+      },
+      "dump/full-system-sources/Take-5/architecture/GLOBAL_TOOL_EXECUTION_CONTRACT_072.md": {
+        "mode": "100644",
+        "sha": "da625653cf5b8626a0effc4c2aad37f02f31b631"
+      },
+      "dump/full-system-sources/Take-5/architecture/GOAL_FULL_TOOL_MATH_002_2026-09-30.md": {
+        "mode": "100644",
+        "sha": "ff1c83248b036d3c32144416c894953970ac2c6b"
+      },
+      "dump/full-system-sources/Take-5/architecture/HF1_MATHEMATICS_084.md": {
+        "mode": "100644",
+        "sha": "cae946539edd4b43a9dfd4df184c643522f2fb9c"
+      },
+      "dump/full-system-sources/Take-5/architecture/HOST_INTERCEPTION_AUTHORITY_BOUNDARY_001_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "8492bbef1b08c3cad6b23adca995a98fdfb6f7f3"
+      },
+      "dump/full-system-sources/Take-5/architecture/IC028_ADVANCED_ROOT_ARCH_FULLSPECTRUM_047.md": {
+        "mode": "100644",
+        "sha": "3566899068cf4b1a41bf8fadfe3dfe5e0e74a311"
+      },
+      "dump/full-system-sources/Take-5/architecture/IC028_COMPOUNDING_RECONCILE_049.md": {
+        "mode": "100644",
+        "sha": "b0cc87663fd29a69f9701a94862d38e8526cb054"
+      },
+      "dump/full-system-sources/Take-5/architecture/IC028_INQUIRY_COMPILER_051.md": {
+        "mode": "100644",
+        "sha": "4e4bbf91264b3b536e038108c42a65e224f5c71f"
+      },
+      "dump/full-system-sources/Take-5/architecture/IC028_ROLE_SEPARATION_DECISION_045.md": {
+        "mode": "100644",
+        "sha": "88cb281335c9e2dfdf7ae06c1d453de52f48d380"
+      },
+      "dump/full-system-sources/Take-5/architecture/IC028_TERM_MT_MOMT_ROLE_DECISION_046.md": {
+        "mode": "100644",
+        "sha": "b6d1b179cdab18c9d9fbe6ffa090b2dc00fb31d3"
+      },
+      "dump/full-system-sources/Take-5/architecture/IC029_IMPROVED_CORE_SELF_AUDITED_MAP_076.md": {
+        "mode": "100644",
+        "sha": "6c4b4ba342005e3597a59a9d86e670026ea008e6"
+      },
+      "dump/full-system-sources/Take-5/architecture/ICC_QUESTION_DEPENDENCY_WRAPPER_075.md": {
+        "mode": "100644",
+        "sha": "f5ae5130517a0c0a323e91b3c4378a6af75b8bf1"
+      },
+      "dump/full-system-sources/Take-5/architecture/IC_JANE_WRAPPER_MATH_PLAN_037.md": {
+        "mode": "100644",
+        "sha": "4ff005b8598f23ad646c8fd3cd23787ec44804a9"
+      },
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_ACTIVATION_083.md": {
+        "mode": "100644",
+        "sha": "3888f2eb07c7b5b0711b3a3296305221e2c4787b"
+      },
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_CONCURRENCY_PREFLIGHT_084.md": {
+        "mode": "100644",
+        "sha": "a1406f1662f9dca17b01b6734464a5994d58c55c"
+      },
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_CONFIGURED_TOOL_EXECUTION_109.md": {
+        "mode": "100644",
+        "sha": "9a63b1be6f8ce21d9bf0a0f10642ca75378ec7df"
+      },
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_DEFAULT_HF2_118.md": {
+        "mode": "100644",
+        "sha": "ab9d2af8dd433b9ec7605b4f2c3ba25aa8262062"
+      },
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_EXTERNAL_ACQUISITION_090.md": {
+        "mode": "100644",
+        "sha": "9e4f116120ed1a384a12db3922fb59568ae70e37"
+      },
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_FRONTIER_CLOSURE_106.md": {
+        "mode": "100644",
+        "sha": "87f71a7c41fc2b39c9476c06f2bf6ec338049c92"
+      },
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_FUNCTION_FIRST_HOLDOUT_112.md": {
+        "mode": "100644",
+        "sha": "3da103aa720c06394997494a224a312acf8b334d"
+      },
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_INDEXED_PROGRESS_MATHEMATICS_111.md": {
+        "mode": "100644",
+        "sha": "34243865826cd5afb9bf66b67c05f813e03bf538"
+      },
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_INVOCATION_DISPATCH_079.md": {
+        "mode": "100644",
+        "sha": "a828deda7c70431a8fad7a7704a9f4a3a78c86b1"
+      },
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_LEGACY_RESTORATION_TARGET_129.md": {
+        "mode": "100644",
+        "sha": "997ddfbc22c38bec3398b7728fd90afcb80bbe1e"
+      },
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_MATHEMATICS_086.md": {
+        "mode": "100644",
+        "sha": "3ed669bad5e3932b31a4d26d9a21e9b2ccebe4c2"
+      },
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_MATH_CORPUS_INTEGRATION_090.md": {
+        "mode": "100644",
+        "sha": "e3696d1c3d4647f097ec411d98426592a671094b"
+      },
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_MAXIMIZATION_081.md": {
+        "mode": "100644",
+        "sha": "99b20e3944b6181a8da53a1bbcfefe3ae09132a7"
+      },
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_PARENT_RETURN_CLOSURE_139.md": {
+        "mode": "100644",
+        "sha": "77e1330ffa6e1f316f023d2ef1283379d24fd58b"
+      },
+      "dump/full-system-sources/Take-5/architecture/IMPROVEMENT_CORE_RECOVERY_MANIFEST_082.json": {
+        "mode": "100644",
+        "sha": "6eaebe55e361549a295a996fb90ee79efeacd8b5"
+      },
+      "dump/full-system-sources/Take-5/architecture/JANE_CONTINUITY_RECOVERY_098.md": {
+        "mode": "100644",
+        "sha": "05c8bc84f1011afbab57eb00add558b037344d41"
+      },
+      "dump/full-system-sources/Take-5/architecture/KERNEL_MATH_CONTRACT_052.md": {
+        "mode": "100644",
+        "sha": "9d3e55799c1131e7d166dab3d0611fb9348ef698"
+      },
+      "dump/full-system-sources/Take-5/architecture/KERNEL_MATH_CONTRACT_052.yaml": {
+        "mode": "100644",
+        "sha": "dc5b788c4a786a3799cc61f97b1a33b954304b2e"
+      },
+      "dump/full-system-sources/Take-5/architecture/LAMBDA_MATH_QUESTION_TOOL_CONTRACT_063.md": {
+        "mode": "100644",
+        "sha": "87c41ccd267491d0f0db5c1b4a0c6572505cb8df"
+      },
+      "dump/full-system-sources/Take-5/architecture/LEARNING_OPERATOR_TOOLKIT_035.md": {
+        "mode": "100644",
+        "sha": "bf17a5960895aaf3239cf4c54fe0d70445bfd1a6"
+      },
+      "dump/full-system-sources/Take-5/architecture/LEARNING_TOOL_ADMISSION_DECISION_040.md": {
+        "mode": "100644",
+        "sha": "67544e08caaf6143d2afaf0e2c29c169cab9433d"
+      },
+      "dump/full-system-sources/Take-5/architecture/LOAD_BEARING_SEMANTIC_OBJECT_PACKAGE_CONTRACT_064.md": {
+        "mode": "100644",
+        "sha": "7d9f4001a9408c7b013de273fdca5295581b33d4"
+      },
+      "dump/full-system-sources/Take-5/architecture/MATHEMATICAL_COLOR_INVARIANT_062.md": {
+        "mode": "100644",
+        "sha": "6604c3016cf488881dae7f76657a49520147fec1"
+      },
+      "dump/full-system-sources/Take-5/architecture/MATH_FIRST_WRAPPER_CLOSURE_039.md": {
+        "mode": "100644",
+        "sha": "27e678c05b5002686e799705116dbafde8dac886"
+      },
+      "dump/full-system-sources/Take-5/architecture/MODE_CUBE_CAPABILITY_ARCHITECTURE_001.md": {
+        "mode": "100644",
+        "sha": "5427fdf7b2f537c4c3b3765f1f5a7b4be9636827"
+      },
+      "dump/full-system-sources/Take-5/architecture/MODE_CUBE_CAPABILITY_BUILD_PACK_001.yaml": {
+        "mode": "100644",
+        "sha": "acb4b991aeec534b85dbfdbc8e6d842287e51a56"
+      },
+      "dump/full-system-sources/Take-5/architecture/MOST_EFFECTIVE_OBJECTIVE_COMPILATION_001_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "ecb82af2a35e36f7e1ad39674a3265bad1e011c4"
+      },
+      "dump/full-system-sources/Take-5/architecture/NATIVE_TOOL_RECOVERY_PACK_160_2026-09-27.md": {
+        "mode": "100644",
+        "sha": "1a2f4780c96f8708a24846725a3c565406baed52"
+      },
+      "dump/full-system-sources/Take-5/architecture/OBJECT_HYPOTHESIS_RECOVERY_058.md": {
+        "mode": "100644",
+        "sha": "fd71408474ebaf1b6a5c55a58c8238976c1ce9c6"
+      },
+      "dump/full-system-sources/Take-5/architecture/OBSERVER_ALL_TOOLS_SWEEP_038.md": {
+        "mode": "100644",
+        "sha": "2bbaac4d49fb43f038b74fe37d513de5cf68e2dc"
+      },
+      "dump/full-system-sources/Take-5/architecture/PORTABLE_MATHEMATICAL_OBJECT_CONTRACT_001_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "1e2faee29131e7953250eacd9c1ed92823e60c19"
+      },
+      "dump/full-system-sources/Take-5/architecture/PROSE_ARCHITECTURE_READER_LOAD_MATHEMATICS_004_2026-09-30.md": {
+        "mode": "100644",
+        "sha": "c7abce0e6258336396b593ae202a04ea88a9ccf9"
+      },
+      "dump/full-system-sources/Take-5/architecture/PROSE_FIRST_MENTION_PERSON_DATES_MATHEMATICS_002_2026-09-30.md": {
+        "mode": "100644",
+        "sha": "ec3278552a7376e30f708e2c76d7400aee361a90"
+      },
+      "dump/full-system-sources/Take-5/architecture/PROSE_NUMERIC_YEAR_DATING_MATHEMATICS_002_2026-09-30.md": {
+        "mode": "100644",
+        "sha": "43599de81f276dd1c0b1f955eee3769f5816832d"
+      },
+      "dump/full-system-sources/Take-5/architecture/PROSE_PROTECTED_TRANSITION_MATHEMATICS_001_2026-09-30.md": {
+        "mode": "100644",
+        "sha": "9e8820dcb582f3c8dcdd9bdd6f58bf7fdc8b553a"
+      },
+      "dump/full-system-sources/Take-5/architecture/PROSE_RAISE_CEILING_MATHEMATICS_003_2026-09-30.md": {
+        "mode": "100644",
+        "sha": "dfab0719ce8e8ffd0e3ab7a4b217046bb526e1b6"
+      },
+      "dump/full-system-sources/Take-5/architecture/PROTECTED_TRANSITION_INTEGRITY_090.md": {
+        "mode": "100644",
+        "sha": "bbdb9699ab2a78c5f678a5b8bb564d742531ffee"
+      },
+      "dump/full-system-sources/Take-5/architecture/QUESTION_TOOL_RENAME_REGISTRY_001.yaml": {
+        "mode": "100644",
+        "sha": "b9594ab6538bb543448557feb427c8ce93fa4935"
+      },
+      "dump/full-system-sources/Take-5/architecture/QUESTION_WORTH_ASKING_CONTRACT_056.md": {
+        "mode": "100644",
+        "sha": "82c2c40ceed6a0b5a5b519407f1d2bae3d74f9e0"
+      },
+      "dump/full-system-sources/Take-5/architecture/RELATION_BASIS_AND_ADMISSION_001_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "ac3f55ca7b60b558b13ba8af6b9261bce21e849b"
+      },
+      "dump/full-system-sources/Take-5/architecture/RESULT_PATH_AUTHORITY_DECISION_057.md": {
+        "mode": "100644",
+        "sha": "fb3b980ff8fcf8473f089e0d5e08dc3ca6b4c57c"
+      },
+      "dump/full-system-sources/Take-5/architecture/ROOT_CAUSE_MATHEMATICS_087.md": {
+        "mode": "100644",
+        "sha": "960a2f8e747df6ada1879dc326a95ea7aa32cbb5"
+      },
+      "dump/full-system-sources/Take-5/architecture/SIX_BY_SIX_BY_SIX_FOUNDATION_031.md": {
+        "mode": "100644",
+        "sha": "6a71715354630dfb75e4fed27da6ef08515b47d5"
+      },
+      "dump/full-system-sources/Take-5/architecture/SOLUTION_TO_MY_PROBLEM_CONTRACT_059.md": {
+        "mode": "100644",
+        "sha": "4e50153a09626807fecbdad5a5f007b4b3252088"
+      },
+      "dump/full-system-sources/Take-5/architecture/SOLUTION_TO_MY_PROBLEM_CONTRACT_060.md": {
+        "mode": "100644",
+        "sha": "085aef6df0e1c09bf250fdb79874fc4ef2f6cc58"
+      },
+      "dump/full-system-sources/Take-5/architecture/SPECIFICATION_BEFORE_TRANSFORMATION_INVARIANT_134.md": {
+        "mode": "100644",
+        "sha": "0306c822d29430a2093e9176f6cfbdf0d6028466"
+      },
+      "dump/full-system-sources/Take-5/architecture/TAKE_TWO_DISCOVERY_REENTRY_INTEGRATION_001.md": {
+        "mode": "100644",
+        "sha": "bbf424d645036ec502607ce73027691b8eb41633"
+      },
+      "dump/full-system-sources/Take-5/architecture/TAKE_TWO_OPERATING_LAW_099.md": {
+        "mode": "100644",
+        "sha": "75c2d682b43b3afba955c5d6439075d2ef176e67"
+      },
+      "dump/full-system-sources/Take-5/architecture/TOOL_CONDUCTOR_PORTABLE_MATH_073.md": {
+        "mode": "100644",
+        "sha": "723fb5fdfc5fa1affcce0adaf5fe123dad8171c1"
+      },
+      "dump/full-system-sources/Take-5/architecture/WRAPPER_CANONICAL_CONTRACT_053.md": {
+        "mode": "100644",
+        "sha": "a90a24e3f97c137a21c95c732c59c856626808da"
+      },
+      "dump/full-system-sources/Take-5/architecture/WRAPPER_TERM_PD_064.md": {
+        "mode": "100644",
+        "sha": "b7d84235d8fc065128d0e67c5af9028ded23433c"
+      },
+      "dump/full-system-sources/Take-5/artifacts/chat-history/IMPROVECORE_RUNTIME_CHAT_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "223fb14df5ed81c579af0c11bc27c29e88c8a2a5"
+      },
+      "dump/full-system-sources/Take-5/artifacts/full-system-campaign/FULL_SYSTEM_SHOW_ME_THE_MATH_CAMPAIGN_REPORT_001_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "811345b0e888af25dda7c27b6ee666eac310e845"
+      },
+      "dump/full-system-sources/Take-5/artifacts/full-system-campaign/MT_AUDIT_PRIOR_CAMPAIGN_SUMMARY_003_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "b3fbab591bdd763ded94d2c8c669a76c49764773"
+      }
+    }
   }
 }
