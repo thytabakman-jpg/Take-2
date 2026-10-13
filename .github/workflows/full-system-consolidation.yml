@@ -1,37 +1,22 @@
-name: full-system-consolidation
+name: native-source-authority-verification
 
+# Historical full-system consolidation no longer runs on branch pushes.
+# Restoring the old local mirror is explicit via:
+# tools/full_system_consolidate.sh --restore-full-mirror
+# This workflow is optional; normal verification runs locally without runners.
 on:
-  push:
-    branches:
-      - improvecore/final-consolidation-20260930
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  consolidate:
-    if: github.actor != 'github-actions[bot]'
+  verify-native-source:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Consolidate public lineage
-        run: |
-          chmod +x tools/full_system_consolidate.sh
-          tools/full_system_consolidate.sh
-      - name: Commit consolidated corpus
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dump/full-system-sources
-          if git diff --cached --quiet; then
-            echo "No corpus delta"
-          else
-            git commit -m "Consolidate full public system corpus into Take-2"
-            git push origin HEAD:${GITHUB_REF_NAME}
-          fi
+      - name: Verify pinned Take-5 authority in its source repository
+        run: python tools/check_full_system_authority.py
