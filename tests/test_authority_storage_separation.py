@@ -56,6 +56,27 @@ class NativeAuthorityTests(unittest.TestCase):
             with self.assertRaises(RuntimeError):
                 native.verify()
 
+    def test_current_native_main_changed_required_blob_fails(self):
+        newer = "1" * 40
+        changed = {
+            "sha": "2" * 40, "truncated": False,
+            "tree": [dict(item) for item in self.tree["tree"]],
+        }
+        changed["tree"][0]["sha"] = "3" * 40
+
+        def get_with_drift(url):
+            if url.endswith("/commits/main"):
+                return {"sha": newer}
+            if url.endswith("/commits/" + newer):
+                return {"commit": {"tree": {"sha": changed["sha"]}}}
+            if "/git/trees/" + changed["sha"] in url:
+                return changed
+            return self.fake_get(url)
+
+        with patch.object(native, "get", side_effect=get_with_drift):
+            with self.assertRaises(RuntimeError):
+                native.verify()
+
     def test_missing_required_pin_fails_closed(self):
         data = dict(self.pin)
         data["required_files"] = dict(self.pin["required_files"])
