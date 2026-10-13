@@ -1,5 +1,8 @@
 # Education / Sukkos recovery dump
 
+**Research-web connection (2026-10-13):** The [Reaserch five-repository recovery entrance](https://github.com/thytabakman-jpg/Reaserch/blob/main/projects/curriculum-design-research/research-web/EDUCATION_EXTERNAL_WEB_RECOVERY_2026_10_13.md) identifies this original evidence collection; the [dismantling/source-conservation ledger](https://github.com/thytabakman-jpg/Reaserch/blob/main/projects/curriculum-design-research/research-web/EDUCATION_SOURCE_DECOMPOSITION_LEDGER_2026_10_13.md) distinguishes reusable instructional research from archived source copies. This folder remains the **original recovery source**, not a new active authority or a second master booklet guide. No archive item is approved or migrated merely because its collection has been linked.
+
+
 This directory preserves exact current-main text/code bytes recovered from
 `thytabakman-jpg/Reaserch` for the Education / Jewish Holiday Booklet system.
 
