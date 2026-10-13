@@ -8,9 +8,9 @@
   "file_counts": {
     "Take-3": 7,
     "Take-4": 50,
-    "Take-5": 8716
+    "Take-5": 8616
   },
-  "total_files": 8773,
+  "total_files": 8673,
   "records": [
     {
       "path": "dump/full-system-sources/Take-3/BENCHMARKS.md",
@@ -658,91 +658,6 @@
       "sha256": "7fe6db7f2e7dd80bc683481111720db15c22f421052876e4e47d1f5d7ecc3ddb"
     },
     {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/20_INTERFACE__CONTRACT.md",
-      "bytes": 634,
-      "sha256": "c3d0960c990ed3ce28e1bb4d9cd078664c8b8d36c8bedf2acd4bf1e7a8249276"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/21_INTERFACE__INWARD.md",
-      "bytes": 630,
-      "sha256": "9d7f0501c11aa49f418491033465b0bf2d0f3bdfc7aef5249d104c5818675e14"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/22_INTERFACE__OUTWARD.md",
-      "bytes": 632,
-      "sha256": "9d21e43ffda3062efc68036c4621574a4a99cb7a1301951618339c29c4c0f8ee"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/23_INTERFACE__ISOLATE.md",
-      "bytes": 632,
-      "sha256": "c7e7660ea26b89b128733a46bd2c09e06725f9a636378ba0bb2721bbb8a5cf9a"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/24_INTERFACE__COUPLE.md",
-      "bytes": 630,
-      "sha256": "6787ebdffd367b46986414daf69484cacd0fe23d655914ac8ad6587e54288c93"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/25_BOUNDARY_DECOMPOSITION__EXPAND.md",
-      "bytes": 656,
-      "sha256": "0e5479d5adac62f5fd65d117c9dbb7489ae1ade23f160dfe23eb636aa24f7d84"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/26_BOUNDARY_DECOMPOSITION__CONTRACT.md",
-      "bytes": 660,
-      "sha256": "7d6b69c695cf893f12514575cc4bb1620295f111c32bd7d1760c08dd63513e73"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/27_BOUNDARY_DECOMPOSITION__INWARD.md",
-      "bytes": 656,
-      "sha256": "7f0cf5bb03ce01c84f87f7dc00e50db76aa138c98405d79d724876f54c236360"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/28_BOUNDARY_DECOMPOSITION__OUTWARD.md",
-      "bytes": 658,
-      "sha256": "d03236af0a1ca6f4e422ddcd0a88c4adf5e5171bbda2b4e91195ed0e67550969"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/29_BOUNDARY_DECOMPOSITION__ISOLATE.md",
-      "bytes": 658,
-      "sha256": "25d6a1a55981c63fa3abea896619d5eae0f9af28de05a88a916a318664d9031a"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/30_BOUNDARY_DECOMPOSITION__COUPLE.md",
-      "bytes": 656,
-      "sha256": "4d534a9648fb76674f49651524fffddc235c56e3b8ee8e0aaac4965aa0ca7fa7"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/31_CROSS_LAYER__EXPAND.md",
-      "bytes": 634,
-      "sha256": "279cd07770c8491c7d24db9a660a0ea8a75ac5cac3383a817b0b0d7875136f4a"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/32_CROSS_LAYER__CONTRACT.md",
-      "bytes": 638,
-      "sha256": "4d3eef5fa1c87560e0adc9727ab78bd546034be262396a69e4acf59131ad99cd"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/33_CROSS_LAYER__INWARD.md",
-      "bytes": 634,
-      "sha256": "d4fea546ad413305371607368334bfe58ba1c021e3f66ca8b1220f4ef9cdb398"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/34_CROSS_LAYER__OUTWARD.md",
-      "bytes": 636,
-      "sha256": "b9c14135150d14ac83cf28917cc7c4d241d8da66490c2f1e6e32d0a69653e620"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/35_CROSS_LAYER__ISOLATE.md",
-      "bytes": 636,
-      "sha256": "88fc8540dbedaae3f92901db6a70615cc89e7ace5c494fd29d85374dfd17f1d4"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/36_CROSS_LAYER__COUPLE.md",
-      "bytes": 634,
-      "sha256": "4223820aaf8a8d66b2e052fafccbece0379a9fed660bc5a993c42a8862e7297e"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/README.md",
       "bytes": 463,
       "sha256": "b2bae015a4a5c6c20c0727b3e4c22fe6b005fbf24cbaf1c66c27fb32f2620ddf"
@@ -753,69 +668,9 @@
       "sha256": "14f3b1f30211f8bbf2fc2ad924838a2bf5c2113ddc165ec9a99aca89fdf44433"
     },
     {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/ALL_TOOLS_HF2_PASS_001.md",
-      "bytes": 1050,
-      "sha256": "8aab324557886c8c95b344dd138eb9ad7fc544bfdf8d3255ebb27e628aa2d869"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/ALL_TOOLS_HF2_PASS_002.md",
-      "bytes": 1670,
-      "sha256": "eb6afce270cd6808a0c0106b5c66f57fa661cf54ac8df154ef5c7077882b6ef1"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/ASSERT_FINAL_PROMPT_001.md",
-      "bytes": 722,
-      "sha256": "3eaf8a28cece176d594fd26207cbb3e76fd2a171c1ad884037ec5e3bf1641181"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/ASSERT_HF2_PROMPT_001.md",
-      "bytes": 847,
-      "sha256": "967ad9c7c4529459c80a3861de4a1751f5ffb9f0dccc3228121fc281d47d75a8"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/ASSERT_PROMPT_001.md",
-      "bytes": 1188,
-      "sha256": "391e73b556faa0ffb6df4e3769af94bc214cc776b3ba978d1b75c0ff08416809"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/GOAL_HF2_PROMPT_001.md",
-      "bytes": 975,
-      "sha256": "c8065f4c5be1b2c38656eaaee1eb57c52d481e397ce27959518ab838768664ad"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/IMPROVEMENTCORE_CONSUMPTION_001.md",
-      "bytes": 1172,
-      "sha256": "8bb72c79c3552f55594a2ed6c6af41fe7b2cd72b561500b9d386145894d3772e"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/IMPROVEMENTCORE_MANDATORY_SPINE_001.md",
       "bytes": 1746,
       "sha256": "e0d1fb3b62cc61f366ba05182f0c05a9f62d207683b26af9fd8619b8b7b0b25f"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/IMPROVEMENTCORE_POST_VALIDATION_001.md",
-      "bytes": 871,
-      "sha256": "63a1658d5fa588192d55826decb571de8cc3755997fb8eba061f3d5cbb28540b"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/MT_PROMPT_001.md",
-      "bytes": 1583,
-      "sha256": "7229cb5aa25ab2e0fbbecdf8877581b96a3889709e37ca699f3107b60f758dc7"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/OUTER_SEQUENCE_REENTRY_001.md",
-      "bytes": 924,
-      "sha256": "ddc00ff11e72b3e26f31088dad6cd4f091783a1d916bd32337fcc67752a365b9"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/PREPROJECT_DEFINITION_GATE_ANALYSIS_001.md",
-      "bytes": 3149,
-      "sha256": "bf5c0cb508d60506a9d6dd26c6f46d7f3a1bc8e954d71d04dec2f07f578c996b"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/VALIDATION_PROMOTION_001.md",
-      "bytes": 726,
-      "sha256": "9485455eea8bbf198d2372e9dc9a09b1d7bd11ba882ef979d51ab5985815e0ab"
     },
     {
       "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/ACCEPTANCE_GATES.md",
@@ -823,109 +678,9 @@
       "sha256": "571a8dc1bb39538e41da736c7bc0f821045dba6e08853931528e972959410a9c"
     },
     {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/ACTIVITY_MODEL.md",
-      "bytes": 1630,
-      "sha256": "014bb3d49b42b855d8093b26f3a4117f3cd3d426a8df5f148e02985fea5bd688"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/ARCHITECTURE_AUDIT.md",
-      "bytes": 2582,
-      "sha256": "7979fc82a17bef5127d2395d54e769e359abd60819bcb7bf677eaa60e79e1890"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/ARTIFACT_SPEC.md",
-      "bytes": 1880,
-      "sha256": "cff40d4a53eb9dac4b24e544a9194f8493f7aca39bdf5d08fe93a0beff562a76"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/ART_DIRECTION.md",
-      "bytes": 1827,
-      "sha256": "91d8245d2a800ae79b63bf4e175be3bf5b8397722a7e36fd361fa927d98f6fcd"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/ASSERT_BASELINE.md",
-      "bytes": 1624,
-      "sha256": "986f31e8f0a6cd88c53aecb3ca571ef5c4b4161ab8634e270257738d4ca9ff8a"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/AUTHORITY_REGISTRY.md",
-      "bytes": 2601,
-      "sha256": "0037c00e2d879a42afc454c206d6d41fdf17bf5d684bd09c2c68c077d3a3ab24"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/CHANGE_CONTROL.md",
-      "bytes": 1091,
-      "sha256": "305019c2d0e27efcebdebf69d165838b4c9bbcd6f835efc8296d5721dd3fa12c"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/CLASSROOM_USE.md",
-      "bytes": 1561,
-      "sha256": "03332d7dcef8f3cc88b30527ba0f7e7d03886a30089b4c8f12b432fa2c43630c"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/CONTROLLER.md",
-      "bytes": 3151,
-      "sha256": "a3607e5e48f12c38aa8885c5a99bbcfe2dc71ed51f2385f536e351c5439d9ddf"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/CURRENT_STATE.md",
-      "bytes": 1544,
-      "sha256": "ee9a68d50886320b2af03bc41852b33a060aa6608fe0187b813647d4daa1b1d7"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/DECISION_LOG.md",
-      "bytes": 2587,
-      "sha256": "caf3ed699ba84c9d26bc77e5d0bbf5a8a472f2534e60a1fb281110bf4e51737b"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/DEPENDENCY_GRAPH.md",
-      "bytes": 1667,
-      "sha256": "587fb2070d063271890caa5068744f2df842dd21df381c21b619f485944b4eeb"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/EXACT_COPY.md",
-      "bytes": 2809,
-      "sha256": "7ce79b15c691e1b082844db3aeccb6136551d6864860a0721f864d94039dab2c"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/FOUR_PAGE_ARCHITECTURE.md",
-      "bytes": 1903,
-      "sha256": "575e73bc5f5732ac6b52394454a973aa1882306f5f3c27aea67bd9735a016fee"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/GOAL.md",
       "bytes": 1489,
       "sha256": "6d24a25487ec93c0d08dc2ae9f96808ec2f17d690d06a76aa8bd0e0e8cc7e8ec"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/IS_OUGHT_BOUNDARY.md",
-      "bytes": 1025,
-      "sha256": "fbda7419820cfc8141b25ef5533156b2ae42ec2e33382ab6982c0d08e169c20d"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/JEWISH_OPERATION.md",
-      "bytes": 1239,
-      "sha256": "01603c2d0de7d61ec1804bafabe761c5f74579a4e731d458f1d2b6b392baf32e"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/LEARNER_MODEL.md",
-      "bytes": 1246,
-      "sha256": "82435309600dc9e6c0d52da642b79bbf4a573259616d23d0fa073dc8da1ab945"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/LESSONS_LEDGER.md",
-      "bytes": 3378,
-      "sha256": "6537de007dfa2d83a39c317cfe02183ff8dee5036f4b91bf5fdfcbe4744f827a"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/OPEN_QUESTIONS.md",
-      "bytes": 1278,
-      "sha256": "52e987ea07817cc0736d1ebb0d3754261471eaf8db8acfe5444a7d2e69b1bdef"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/PHILOSOPHY.md",
-      "bytes": 1242,
-      "sha256": "ae0356fd70c3fdd708f6a91228dcbefe022f88177d174db7b36fc09c1867e575"
     },
     {
       "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/PROJECT_CHARTER.md",
@@ -933,104 +688,9 @@
       "sha256": "714afa688ef71b67f28499e19814f162fd4d8675eefbd7a0e874af89f36080ca"
     },
     {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/PROJECT_MANAGEMENT_BASIS.md",
-      "bytes": 2249,
-      "sha256": "d53e639067cae4666439241f5869b245621fcde9f6d75f41c17582bd90030c06"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/QUESTION_MODEL.md",
-      "bytes": 2136,
-      "sha256": "3cb7cff8b9e62b17a575d05708df7df52de7c777439c01ad6a5c882e7f0306c5"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/RAID.md",
-      "bytes": 1601,
-      "sha256": "e80be42f2626d63bc5d198b99efee522f26026f0773b004715f9a4fa84006022"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/README.md",
       "bytes": 2324,
       "sha256": "7a562cc69e16e5e3f6e2a0b89e6d4aba09238f8defa8f1a7d5f9d4393bfa56ac"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/ROUTE_LOCK.md",
-      "bytes": 1878,
-      "sha256": "775212309d3aedb4583e9fd62c640bbc1e7ac05451f4c36428ee9b95e97e7239"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/SOURCE_BOUNDARY.md",
-      "bytes": 723,
-      "sha256": "e28dd5e24cb612bb92ee8dc31340d00a753e839d3684d271f5802f0173a3fb0f"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/SOURCE_LOCK.md",
-      "bytes": 3124,
-      "sha256": "7a8e26a8ee029238c053bb34ea837b39b81d004b709b47b2e590cc2b624d717b"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/SOURCE_MAP.md",
-      "bytes": 1390,
-      "sha256": "f2b99274ff720f39f3ff1e7bce8aa417d935c44748e1ea81a2607abc4fdbf613"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/STUDENT_SPEC.md",
-      "bytes": 1441,
-      "sha256": "d1e5168e4ac2e8057f2c2031ef1c355ea1174a9ae34e4d3035e4dfdd3e8e12e4"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/SUKKOS_EMBODIMENT.md",
-      "bytes": 1597,
-      "sha256": "4cd8f7f068aaaf6e56ec97d6d0bc2efb5503acb78cc62d4e5217a65014ad2b94"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/VISUAL_MASTER.md",
-      "bytes": 2316,
-      "sha256": "9de0c0a67ff05d8f04fdce1abbd0f238a1c20f7709730581d106a2f213c16a82"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/WBS.md",
-      "bytes": 1712,
-      "sha256": "505626b8ed39d30fbd76ad8f5925891a40fa4c1955a02d497ef6a6edeccc054b"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/01_SYSTEM__EXPAND.md",
-      "bytes": 900,
-      "sha256": "9dbe2f02220f8ee3fa9352b126f8f83147f81c243444ddc1b4211e763b84a305"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/02_SYSTEM__CONTRACT.md",
-      "bytes": 859,
-      "sha256": "90be26b93781948f446da783b4e0258a68bf7d15b2fdea936f568c4372dbae1e"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/03_SYSTEM__INWARD.md",
-      "bytes": 857,
-      "sha256": "339c92170efe0e01924be6377424b55fb7cbe72d081d521f4d3c1cb8d3e7d11e"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/04_SYSTEM__OUTWARD.md",
-      "bytes": 844,
-      "sha256": "34c9c62e87a5713f6d19228822612b08444f861632d5d20c92c856289c3f3d63"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/05_SYSTEM__ISOLATE.md",
-      "bytes": 829,
-      "sha256": "fa0482165e61ce8003e56d4ddec996035959b7aad1a8c91f9d577e164ebb4184"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/06_SYSTEM__COUPLE.md",
-      "bytes": 859,
-      "sha256": "3d70fafa3f6144c01395027abed64dac9fd6ca6ba54300a878fb02b8a48cffb4"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/07_SUBSYSTEM__EXPAND.md",
-      "bytes": 867,
-      "sha256": "9f7fb3040f156f502c44d296d13cf19b72baae93f954f47ff379a3a939eb2d60"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/08_SUBSYSTEM__CONTRACT.md",
-      "bytes": 819,
-      "sha256": "d9725de04ecec8fe5069d4a6005df86972b64d9def78db3cb380976942037467"
     },
     {
       "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/09_SUBSYSTEM__INWARD.md",
@@ -1238,169 +898,9 @@
       "sha256": "70719285b604b98187b0ada3b0becbc502c7c1447222b260832bce48301be283"
     },
     {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/ARTIFACT_SPEC.md",
-      "bytes": 574,
-      "sha256": "e9676604e25f05afcb595725fa511b9aa5fa90dc5bbb44b98763c7bc7fdc6f4c"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/AUTHORITY_REGISTRY.md",
-      "bytes": 927,
-      "sha256": "3c3843664f34d9a3c0ca5d8d736296019e119b78953f89a0490b5763d1702334"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/CHANGE_CONTROL.md",
-      "bytes": 453,
-      "sha256": "96a9a2cdec64b62388baa145e4cbe0b8fb5f8d3c9c1f28f9e1ad74d96ca72750"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/CLASSROOM_USE.md",
-      "bytes": 573,
-      "sha256": "cd0e4d478ec2bac5eb234edda6e955a53fc8001303ed98bcdf42741d87ffffaf"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/COMMUNICATIONS.md",
-      "bytes": 292,
-      "sha256": "fb5a05436eeaca1c92d713384a084b441c323af11c33be679e389436bf284a6a"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/CURRENT_STATE.md",
-      "bytes": 403,
-      "sha256": "c3042e323d9afb95377b099d14096a7a77342d71205a800ebaa1ba25b152da25"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/DECISION_LOG.md",
-      "bytes": 552,
-      "sha256": "8dc5ca91f516be88bc830782c80fcb00a11194d9fe188bf66595c8e5a86acd90"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/DEPENDENCIES.md",
-      "bytes": 449,
-      "sha256": "c9a855c3445f22f3c77c786e2848cdb3df979d24e159863f5af5eb248b6737fb"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/EVIDENCE.md",
-      "bytes": 608,
-      "sha256": "685244e8c0a198e183938e37262a7fe6a2a765513eab3addb65cfd49e2ec4230"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/EXACT_COPY.md",
-      "bytes": 3130,
-      "sha256": "6dada1de3406602bf000bd91ee4cebd13f3deb77cc62ccc644d09a9fd4ac6835"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/FOUR_PAGE_ARCHITECTURE.md",
-      "bytes": 2042,
-      "sha256": "ee45a13cf2cca3b3cb748c08e5cab9190e1f459d02093c7db18f7a8911829a95"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/GOAL.md",
-      "bytes": 523,
-      "sha256": "22b48ffc6b7cd9cc54c370d1c51eb94d4f0b50bd2cb1564270a05ac5c65270e8"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/HANDOFFS.md",
-      "bytes": 417,
-      "sha256": "80d849015fb4f2312b189785ea6f78db81cc9c90448c4311262f90c24b8f78ee"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/IDENTITY.md",
-      "bytes": 367,
-      "sha256": "4ab27053b62ee6cdfe84fb5489e0ab2c17e32bf9dd0dadf3849a71190261f7a0"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/INTERFACES.md",
-      "bytes": 530,
-      "sha256": "9f7ca6b7f0556110176ecf9be48afc776795c468d6d7f6581a6e560618c7376f"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/LESSONS_LEDGER.md",
-      "bytes": 462,
-      "sha256": "a0eca90aecef00e3c3bebec1dff49313ce625b90ffa4a108b79b47fe10590971"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/LIFECYCLE.md",
-      "bytes": 297,
-      "sha256": "39ae63bfe9759f96dff858b566717d7852156a16f606acae8480937a078f968a"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/OPEN_QUESTIONS.md",
-      "bytes": 241,
-      "sha256": "545829b62c81f98c98ae576821a65495f6aa36e73940a1a659d28954d35e26fb"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/PROJECT_CHARTER.md",
-      "bytes": 910,
-      "sha256": "817b6059ea722c41a7bbec3455fdf807d5435c01d53e5368ef384804a82b864b"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/PROJECT_STATE.json",
       "bytes": 2121,
       "sha256": "4e94d931de99f8a4d367670c8798ce4e46e85c02c21c96b9b33ebee534a3f732"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/PROMOTION_RECEIPT.md",
-      "bytes": 483,
-      "sha256": "1a9eb37a5eac59d2edb6dda3a6abbe2eb4747bcd8e87125d33fd6a3db423d40c"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/QUESTION_MODEL.md",
-      "bytes": 1349,
-      "sha256": "cf9104c6771c6f6e1ad2d95bcdf7225f5cf7024e52fe2199dda29ab982dca1a1"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/RAID.md",
-      "bytes": 659,
-      "sha256": "98e313428778703d74df3ee444975e97c81df4932230993d7bb3066ea576e3d1"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/RENDER_QA.md",
-      "bytes": 968,
-      "sha256": "230bbb75efc93f69eeba9f1a09c39269f63ac0a4fe35293f5b0098675d411b7f"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/RESOURCES.md",
-      "bytes": 269,
-      "sha256": "ab3eec3b7a8a6adea44ed7e82849985d83a830adafe1f32d5c88aeb3ccd51624"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/SCHEDULE.md",
-      "bytes": 274,
-      "sha256": "0495ee0afc67c894ced2f9c78f98262d95d1a39ea86cfee1777f882a3bb8decb"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/SCOPE.md",
-      "bytes": 492,
-      "sha256": "c467c9a0f0d56435869e08346979bd5f2b98dbb8060aafdb8baafe223874e1e8"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/SOURCE_LOCK.md",
-      "bytes": 1430,
-      "sha256": "105eb828d644e4c75ea7c3aff3f5def7a5f51da1e0dbcfca927148a795f38ce3"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/STAKEHOLDERS.md",
-      "bytes": 424,
-      "sha256": "8653c59cc35370f17771758985237a289e372d9de23b14c7d39e026e0583f819"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/VERIFICATION.md",
-      "bytes": 1420,
-      "sha256": "ab7ed3d2ec33fae5dbb672fd99901865df57b0a816777923b676d981ed694c5a"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/VISUAL_MASTER.md",
-      "bytes": 1105,
-      "sha256": "6d5863f34c76c6582e759ba08d96c1a89886eb3ffe3aa86a5e3be9b84851bb0c"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/WBS.md",
-      "bytes": 368,
-      "sha256": "c4f05d5a0853c4a1caa0b23ea5dd4c93785102f4502c75a3f023f80671a05b40"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/tool-runs/MT_IMPROVEMENTCORE_BUILD_001.md",
-      "bytes": 1491,
-      "sha256": "935e132d8d5419d31eee398bb427436c61f61f34183680e1afd398440bf88567"
     },
     {
       "path": "dump/full-system-sources/Take-5/projects/tool-system/ANTI_LOSS_CONTRACT.md",
@@ -44188,7 +43688,107 @@
       "dump/full-system-sources/Take-5/projects/project-manager/coverage/16_COMPONENT__OUTWARD.md",
       "dump/full-system-sources/Take-5/projects/project-manager/coverage/17_COMPONENT__ISOLATE.md",
       "dump/full-system-sources/Take-5/projects/project-manager/coverage/18_COMPONENT__COUPLE.md",
-      "dump/full-system-sources/Take-5/projects/project-manager/coverage/19_INTERFACE__EXPAND.md"
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/19_INTERFACE__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/20_INTERFACE__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/21_INTERFACE__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/22_INTERFACE__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/23_INTERFACE__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/24_INTERFACE__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/25_BOUNDARY_DECOMPOSITION__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/26_BOUNDARY_DECOMPOSITION__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/27_BOUNDARY_DECOMPOSITION__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/28_BOUNDARY_DECOMPOSITION__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/29_BOUNDARY_DECOMPOSITION__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/30_BOUNDARY_DECOMPOSITION__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/31_CROSS_LAYER__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/32_CROSS_LAYER__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/33_CROSS_LAYER__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/34_CROSS_LAYER__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/35_CROSS_LAYER__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/36_CROSS_LAYER__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/ALL_TOOLS_HF2_PASS_001.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/ALL_TOOLS_HF2_PASS_002.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/ASSERT_FINAL_PROMPT_001.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/ASSERT_HF2_PROMPT_001.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/ASSERT_PROMPT_001.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/GOAL_HF2_PROMPT_001.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/IMPROVEMENTCORE_CONSUMPTION_001.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/IMPROVEMENTCORE_POST_VALIDATION_001.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/MT_PROMPT_001.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/OUTER_SEQUENCE_REENTRY_001.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/PREPROJECT_DEFINITION_GATE_ANALYSIS_001.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/VALIDATION_PROMOTION_001.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/ARTIFACT_SPEC.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/AUTHORITY_REGISTRY.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/CHANGE_CONTROL.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/CLASSROOM_USE.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/COMMUNICATIONS.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/CURRENT_STATE.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/DECISION_LOG.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/DEPENDENCIES.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/EVIDENCE.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/EXACT_COPY.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/FOUR_PAGE_ARCHITECTURE.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/GOAL.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/HANDOFFS.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/IDENTITY.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/INTERFACES.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/LESSONS_LEDGER.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/LIFECYCLE.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/OPEN_QUESTIONS.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/PROJECT_CHARTER.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/PROMOTION_RECEIPT.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/QUESTION_MODEL.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/RAID.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/RENDER_QA.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/RESOURCES.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/SCHEDULE.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/SCOPE.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/SOURCE_LOCK.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/STAKEHOLDERS.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/VERIFICATION.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/VISUAL_MASTER.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/WBS.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/tool-runs/MT_IMPROVEMENTCORE_BUILD_001.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/ACTIVITY_MODEL.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/ARCHITECTURE_AUDIT.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/ARTIFACT_SPEC.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/ART_DIRECTION.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/ASSERT_BASELINE.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/AUTHORITY_REGISTRY.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/CHANGE_CONTROL.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/CLASSROOM_USE.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/CONTROLLER.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/CURRENT_STATE.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/DECISION_LOG.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/DEPENDENCY_GRAPH.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/EXACT_COPY.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/FOUR_PAGE_ARCHITECTURE.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/IS_OUGHT_BOUNDARY.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/JEWISH_OPERATION.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/LEARNER_MODEL.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/LESSONS_LEDGER.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/OPEN_QUESTIONS.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/PHILOSOPHY.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/PROJECT_MANAGEMENT_BASIS.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/QUESTION_MODEL.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/RAID.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/ROUTE_LOCK.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/SOURCE_BOUNDARY.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/SOURCE_LOCK.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/SOURCE_MAP.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/STUDENT_SPEC.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/SUKKOS_EMBODIMENT.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/VISUAL_MASTER.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/WBS.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/01_SYSTEM__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/02_SYSTEM__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/03_SYSTEM__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/04_SYSTEM__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/05_SYSTEM__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/06_SYSTEM__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/07_SUBSYSTEM__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/08_SUBSYSTEM__CONTRACT.md"
     ],
     "removed_blobs": {
       "dump/full-system-sources/Take-5/.github/CODEOWNERS": {
@@ -45390,6 +44990,406 @@
       "dump/full-system-sources/Take-5/projects/project-manager/coverage/19_INTERFACE__EXPAND.md": {
         "mode": "100644",
         "sha": "8568cb2506a06429fc6e5cab8653731b5b9fb012"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/20_INTERFACE__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "232c5ac7c43965132ecaa6b71dca62ecaebd4800"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/21_INTERFACE__INWARD.md": {
+        "mode": "100644",
+        "sha": "8144d8ed3ca8c292fee2f3b2b6de9761c57e63fa"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/22_INTERFACE__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "844c9094dd6b2b5f631d87e4595555d010262a16"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/23_INTERFACE__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "2f7ec1ce397c45a70fe2edb4473d7aa56e75856a"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/24_INTERFACE__COUPLE.md": {
+        "mode": "100644",
+        "sha": "690352c70e23c4e0cb072cccb213c8c051abc449"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/25_BOUNDARY_DECOMPOSITION__EXPAND.md": {
+        "mode": "100644",
+        "sha": "a0bdedb5c8758846e56c97b2d8a82869888b0b69"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/26_BOUNDARY_DECOMPOSITION__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "a0623ef29c74f0726b1a59ae64c034591a3904fe"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/27_BOUNDARY_DECOMPOSITION__INWARD.md": {
+        "mode": "100644",
+        "sha": "c5b3a542ea96383b24e903eaac5c5de604ba92be"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/28_BOUNDARY_DECOMPOSITION__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "d71c1d5e24f1870575bf7cb9aaac87218af8ba34"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/29_BOUNDARY_DECOMPOSITION__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "554304260999c68d3b23c0822d5011bac2934db2"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/30_BOUNDARY_DECOMPOSITION__COUPLE.md": {
+        "mode": "100644",
+        "sha": "6fdf1e4f969c78ae05efcc43e7ca9448ffa54210"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/31_CROSS_LAYER__EXPAND.md": {
+        "mode": "100644",
+        "sha": "708afcfffc4b800cc41d87e52fce64a9b0031201"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/32_CROSS_LAYER__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "7dc6f1d72807c8b864d7ea7693cade3c7ec9cb80"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/33_CROSS_LAYER__INWARD.md": {
+        "mode": "100644",
+        "sha": "cd35a83814a9e7465ef8ed674100e773b9e76c4a"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/34_CROSS_LAYER__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "2f3e5b804a922e987d0945d53c95c76a361baf11"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/35_CROSS_LAYER__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "432e039b4a71a6f0f13d93737ef531ec15d1765a"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/36_CROSS_LAYER__COUPLE.md": {
+        "mode": "100644",
+        "sha": "401b546d0cdcd2a78302d715483c2c680ffff6b5"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/ALL_TOOLS_HF2_PASS_001.md": {
+        "mode": "100644",
+        "sha": "f13d0c9080e136aab814fe5790a4865bacb051c0"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/ALL_TOOLS_HF2_PASS_002.md": {
+        "mode": "100644",
+        "sha": "68ef3c941c055ce3e2ebc26679401e31c2f96893"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/ASSERT_FINAL_PROMPT_001.md": {
+        "mode": "100644",
+        "sha": "6dec21a8d37fe054932c2864fcd89ae6117dbb45"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/ASSERT_HF2_PROMPT_001.md": {
+        "mode": "100644",
+        "sha": "c730c5f1bc6913aca879552345069b656a91d137"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/ASSERT_PROMPT_001.md": {
+        "mode": "100644",
+        "sha": "176272c94246b3a9922b693c73016810ae186a8b"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/GOAL_HF2_PROMPT_001.md": {
+        "mode": "100644",
+        "sha": "8dc554cfc8fda131cd264ba260b4cce364ad7641"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/IMPROVEMENTCORE_CONSUMPTION_001.md": {
+        "mode": "100644",
+        "sha": "419862560b7b990de8ea4bc8c17b475ea2fe6bf8"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/IMPROVEMENTCORE_POST_VALIDATION_001.md": {
+        "mode": "100644",
+        "sha": "29de012a5af129c07c1a2beb05e36508efb41d4a"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/MT_PROMPT_001.md": {
+        "mode": "100644",
+        "sha": "c435e07ea212de138ecbbe3d8857dfb401509ae6"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/OUTER_SEQUENCE_REENTRY_001.md": {
+        "mode": "100644",
+        "sha": "d4d4f8d738f8e248717300545ff5030c0f4edce0"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/PREPROJECT_DEFINITION_GATE_ANALYSIS_001.md": {
+        "mode": "100644",
+        "sha": "d6f54febdd23f537bf82af09684869d2a75baa2e"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/tool-runs/VALIDATION_PROMOTION_001.md": {
+        "mode": "100644",
+        "sha": "69abee5c75f4eaaee076f5b2db4fd3837bd23d31"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/ARTIFACT_SPEC.md": {
+        "mode": "100644",
+        "sha": "aefcf8d2fb02c1b4235cd900ba3742dc051566f7"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/AUTHORITY_REGISTRY.md": {
+        "mode": "100644",
+        "sha": "1b58c73ef1dfcb10bdcaac0525af30870126a6fc"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/CHANGE_CONTROL.md": {
+        "mode": "100644",
+        "sha": "4e90c130aa399e63677dea88543c5570bb981f64"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/CLASSROOM_USE.md": {
+        "mode": "100644",
+        "sha": "14c9a495a81f509db2f460cde893a37dadaae538"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/COMMUNICATIONS.md": {
+        "mode": "100644",
+        "sha": "88ce0056d96d5aa2c00d810f56e9be565eec6e59"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/CURRENT_STATE.md": {
+        "mode": "100644",
+        "sha": "235e4634ba490ba47952402597b7c66051d76c88"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/DECISION_LOG.md": {
+        "mode": "100644",
+        "sha": "844a31ea58a33382168537b9e22d85018706ccda"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/DEPENDENCIES.md": {
+        "mode": "100644",
+        "sha": "286b7ec4a9e47af7f1bc5d5fe9bf58a7cd1ef37c"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/EVIDENCE.md": {
+        "mode": "100644",
+        "sha": "d01cae798465a011e7a8e43c44924c532ac6ea16"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/EXACT_COPY.md": {
+        "mode": "100644",
+        "sha": "ee2ac509516c2eb84080208d977526009ae3f4ed"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/FOUR_PAGE_ARCHITECTURE.md": {
+        "mode": "100644",
+        "sha": "bb5a698f5b7de03270817af847178f3d94fefaa5"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/GOAL.md": {
+        "mode": "100644",
+        "sha": "ca6726bfffae81471bd4dfd53639f651b1635887"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/HANDOFFS.md": {
+        "mode": "100644",
+        "sha": "8522a157106daeb8153f6fb96017e0ed0d82b7d8"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/IDENTITY.md": {
+        "mode": "100644",
+        "sha": "dd516840116b6a9567aa783e3f9cf42a3cad53ee"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/INTERFACES.md": {
+        "mode": "100644",
+        "sha": "858c3b6d5991272c1ba68a4534b7b2d72105a892"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/LESSONS_LEDGER.md": {
+        "mode": "100644",
+        "sha": "f87fde865d20b118b3eb355e35c3aa3fa4bb4eec"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/LIFECYCLE.md": {
+        "mode": "100644",
+        "sha": "f24ba0d654b2660690407485ba95ca95776c8c7b"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/OPEN_QUESTIONS.md": {
+        "mode": "100644",
+        "sha": "b19a3c88f2e7e712f067cf0397599341a5774fd4"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/PROJECT_CHARTER.md": {
+        "mode": "100644",
+        "sha": "3251eb80b6b6cf568fecb52de3480cc895ff931c"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/PROMOTION_RECEIPT.md": {
+        "mode": "100644",
+        "sha": "2cabd4ec1fab5f4fbb7076aa23514be01b7a44b2"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/QUESTION_MODEL.md": {
+        "mode": "100644",
+        "sha": "dd2e1419a191dc209a465828c90db5f51898a13c"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/RAID.md": {
+        "mode": "100644",
+        "sha": "727d1c431f4de8a84040f2e77b8eb0e445420aec"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/RENDER_QA.md": {
+        "mode": "100644",
+        "sha": "bd994270b465cfe5d8f542682e84f76e257fe874"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/RESOURCES.md": {
+        "mode": "100644",
+        "sha": "f669e5a697786483d97787cf81e960d4e8939b1f"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/SCHEDULE.md": {
+        "mode": "100644",
+        "sha": "b35bddbebb86a2ebfd4ac22840326a38220b95c6"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/SCOPE.md": {
+        "mode": "100644",
+        "sha": "801350421cdd979e5e6f1266bd6e520bfdefc4b8"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/SOURCE_LOCK.md": {
+        "mode": "100644",
+        "sha": "58363a79f3b174583ed4a06ddab1a6f74b67207c"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/STAKEHOLDERS.md": {
+        "mode": "100644",
+        "sha": "82e0b9d3b3e37ba03e8dcb5cefd44d15e8d16890"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/VERIFICATION.md": {
+        "mode": "100644",
+        "sha": "d2acec3cd22877668004a0fcfdeed7cc9b35c9a6"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/VISUAL_MASTER.md": {
+        "mode": "100644",
+        "sha": "016236750681828c0719dbe2acae31d2208ffbf5"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/WBS.md": {
+        "mode": "100644",
+        "sha": "721620ce1668058c3d3dc3238d71dfcf0df4fd8a"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet-2-frame-resolution/tool-runs/MT_IMPROVEMENTCORE_BUILD_001.md": {
+        "mode": "100644",
+        "sha": "cc2fcd81350fc7c641efd0f2ef2ef7a3635ca0ab"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/ACTIVITY_MODEL.md": {
+        "mode": "100644",
+        "sha": "f332c54662c9ee63e5acf7eed91482e09483fcef"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/ARCHITECTURE_AUDIT.md": {
+        "mode": "100644",
+        "sha": "8d0836f4b6a300890df8ccca7accb66e3bb6e254"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/ARTIFACT_SPEC.md": {
+        "mode": "100644",
+        "sha": "ed42984fe2de0ad7fa6cb4f0cccc549b71225c1d"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/ART_DIRECTION.md": {
+        "mode": "100644",
+        "sha": "df055be95896dcdd33dfe3dbe632a87c63973a66"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/ASSERT_BASELINE.md": {
+        "mode": "100644",
+        "sha": "e58f53960da166a6aa433e6d5640392939876e0f"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/AUTHORITY_REGISTRY.md": {
+        "mode": "100644",
+        "sha": "72174de661fc9a59fb0c51f3f5cfe54d0298b41f"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/CHANGE_CONTROL.md": {
+        "mode": "100644",
+        "sha": "dfd4709a2e3b8d95a08dec3cf87c2e1a2e3ff83c"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/CLASSROOM_USE.md": {
+        "mode": "100644",
+        "sha": "fbcceb8733d1940f18371963aa64368a3caf4038"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/CONTROLLER.md": {
+        "mode": "100644",
+        "sha": "6580b470424300e74918901281605bf5c8c8a981"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/CURRENT_STATE.md": {
+        "mode": "100644",
+        "sha": "25ce366234484648a675271b795e3cf6bbd1b232"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/DECISION_LOG.md": {
+        "mode": "100644",
+        "sha": "3aa6bcc2ba6a4a3bea56b25032bb4a70a2bce8f0"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/DEPENDENCY_GRAPH.md": {
+        "mode": "100644",
+        "sha": "05e436f71023e776643fdee5af54bc61e7e45714"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/EXACT_COPY.md": {
+        "mode": "100644",
+        "sha": "0e1cd54a452d1cb495e5ff78f7268587dfdde3cc"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/FOUR_PAGE_ARCHITECTURE.md": {
+        "mode": "100644",
+        "sha": "aae22edd888e1172c5df47ac109ca9b629243207"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/IS_OUGHT_BOUNDARY.md": {
+        "mode": "100644",
+        "sha": "a22977cee920afdcc847127246656a0c0be2e186"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/JEWISH_OPERATION.md": {
+        "mode": "100644",
+        "sha": "e911a474b950cbfd6fdce579f60e6e2c69df7282"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/LEARNER_MODEL.md": {
+        "mode": "100644",
+        "sha": "83536af73d13e7dac5f22311a1b025882524043e"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/LESSONS_LEDGER.md": {
+        "mode": "100644",
+        "sha": "23a6eda51b452d68eb78cd4ece2821e449c7c4fd"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/OPEN_QUESTIONS.md": {
+        "mode": "100644",
+        "sha": "ce1b047dd2c8dacf71b33fd6fd0b6e9cbf4e17cc"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/PHILOSOPHY.md": {
+        "mode": "100644",
+        "sha": "4a49dcacaf91962c1b4c8068930add1b434a285d"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/PROJECT_MANAGEMENT_BASIS.md": {
+        "mode": "100644",
+        "sha": "8505c0109e358ab799950ab8cb0bd65e437240c8"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/QUESTION_MODEL.md": {
+        "mode": "100644",
+        "sha": "95aa8be97f83dcbf255f4a46d942cc4a25f6ad96"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/RAID.md": {
+        "mode": "100644",
+        "sha": "3879fe0ccd8fe0f52cbfe3eb6e3c95277d6bca1c"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/ROUTE_LOCK.md": {
+        "mode": "100644",
+        "sha": "ae406b7f79a69ffc1a509d5353f9ca40c5f8f24f"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/SOURCE_BOUNDARY.md": {
+        "mode": "100644",
+        "sha": "7c05956f445563ee2a6c35fd86c77d6c1cc89800"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/SOURCE_LOCK.md": {
+        "mode": "100644",
+        "sha": "f05c0121573cb074ab6a64e652ff4d0da852ea67"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/SOURCE_MAP.md": {
+        "mode": "100644",
+        "sha": "e8d0251e3a8754d67f7e3ad6610ebaa9694e4273"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/STUDENT_SPEC.md": {
+        "mode": "100644",
+        "sha": "378cb8329e023ee0e29dab3b1701f972172d4799"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/SUKKOS_EMBODIMENT.md": {
+        "mode": "100644",
+        "sha": "01a91764d3f2c9aecfbb8f9a0a5a49a3c46be9f1"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/VISUAL_MASTER.md": {
+        "mode": "100644",
+        "sha": "371b6364506bfb4e95b81d5ae2978210ff751cd8"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/WBS.md": {
+        "mode": "100644",
+        "sha": "0948b87218f2cb95f6e41464b34dc775f579b57c"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/01_SYSTEM__EXPAND.md": {
+        "mode": "100644",
+        "sha": "b558419308330e0929167d85dc61806eb6307eb8"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/02_SYSTEM__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "554af107243d37820a381c5f6560f45c06c396bf"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/03_SYSTEM__INWARD.md": {
+        "mode": "100644",
+        "sha": "6f2168ece4f4bfb7f578ffd70a14d9ce1dd4e886"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/04_SYSTEM__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "fe6bc9364691a7ecaa816400c15bef7a123d1e05"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/05_SYSTEM__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "6403c690ce03bb41de5f922dfd4ec7bde1a494d1"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/06_SYSTEM__COUPLE.md": {
+        "mode": "100644",
+        "sha": "3c140f96945cc3d78d2797675e2b8c954986f97c"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/07_SUBSYSTEM__EXPAND.md": {
+        "mode": "100644",
+        "sha": "3ed40d1678e929b8a1c7f938d7dbbb7868872be8"
+      },
+      "dump/full-system-sources/Take-5/projects/sukkos-question-booklet/coverage/08_SUBSYSTEM__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "9224ca00a0494d8808d094d9efeb432eb4abf66d"
       }
     }
   }
