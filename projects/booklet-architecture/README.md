@@ -1,0 +1,7 @@
+# Four-page educational booklet architecture — source home
+
+**Status:** recovered original **working design model**, not the current final authority for another booklet or a validated universal pedagogy. The independently developed [2026-09-29 Four-Page Educational Booklet Architecture](FOUR_PAGE_BOOKLET_ARCHITECTURE_WORKING_MODEL.md) remains unchanged, with eight explicit open invariance questions.
+
+**Research placement (navigation, not transfer of source ownership):** [Reaserch Instructional-Design Research — recovered candidate](https://github.com/thytabakman-jpg/Reaserch/blob/main/projects/curriculum-design-research/research-web/instructional-design-research/objects/FOUR_PAGE_RESPONSE_ARCHITECTURE_RECOVERY_CANDIDATE_2026_10_13.md) studies this working model's equation-as-scene, response-requirements, proto-technology/embodied-system and agency mechanisms. [Cross-repository discovery index](https://github.com/thytabakman-jpg/Reaserch/blob/main/projects/curriculum-design-research/research-web/EDUCATION_HIDDEN_WEB_DISCOVERY_AND_INTEGRATION_2026_10_13.md) records provenance, archive layers, incomplete map coverage and current independent project authorities.
+
+**Original evidence boundary:** the working model is not automatically the model for all science, teen or Jewish lessons. The exact packet goal and acceptance controls, rather than this Take-2 navigation page, decide where a pattern is useful. No recovered ZIP bytes or missing historical source packets are claimed to be loaded by this link. 
