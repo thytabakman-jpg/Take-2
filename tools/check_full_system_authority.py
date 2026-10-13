@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+# The legacy file-count checks below measured snapshot completeness, not tool capability.
 ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / "dump" / "full-system-sources"
 T5 = BASE / "Take-5"
