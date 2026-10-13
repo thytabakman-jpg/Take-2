@@ -70,17 +70,17 @@ When native GitHub code search is unavailable:
 This path uses exact GitHub file fetches and therefore does not depend on GitHub code-search
 index availability.
 
-## Refresh behavior
+## Refresh behavior without GitHub runners
 
-The kernel-fitness workflow rebuilds and verifies the derived index on every run. On pushes
-to `main`, a changed index is committed back automatically with the repository Actions
-token. Pull requests validate the builder and query behavior without granting the index
-authority over source.
+The search index is derived metadata, not a source of authority. File deletion, source editing, or compacting the historical Take-5 mirror invalidates its recorded source fingerprint. Do not claim that the committed index is fresh merely because a workflow file exists.
 
-## Source-referenced files and runner-free maintenance
+From a complete local Take-2 checkout run:
 
-The Take-2 search index covers its own present readable working-tree files, not every file ever preserved in its historical migration dump and not the entire Take-5 repository. After exact duplicate removal, stale Take-2 snapshot paths must be removed from this derived index. Run `python tools/repository_search.py build` followed by `python tools/repository_search.py check` in a local checkout; no GitHub Actions runner is required. Never retain a stale generated index as proof that a retired mirror file still exists.
+```bash
+python tools/repository_search.py build
+python tools/repository_search.py check
+```
 
-Discover files removed from Take-2's historical mirror through the source-references authority pin and recorded per-file deletion provenance, then consult the **native** Take-5 Git repository. A source reference does not become a local searchable copy or a transfer of authority.
+The native Take-5 authority verifier does not need the duplicated snapshot or a search index. `tools/compact_verified_mirror.py` rebuilds and verifies this index after actual local batch deletions. A remote GitHub workflow may provide additional verification when runners are available, but it is not the completion route for this campaign.
 
-If a current checked-out corpus is inaccessible, mark search coverage OPEN instead of claiming the checked-in index is fresh.
+Until a verified rebuild is committed, any previously saved search index is a historical snapshot and cannot certify coverage of current tracked source files.
