@@ -1,0 +1,115 @@
+{
+  "schema": "TAKE2_NATIVE_TAKE5_AUTHORITY_PIN/v1",
+  "authority": "reference-only; no local takeover",
+  "source_repository": "thytabakman-jpg/Take-5",
+  "source_commit": "4196f7142601e50e917546b11066b11a7f353ce2",
+  "source_tree": "4196f7142601e50e917546b11066b11a7f353ce2",
+  "required_files": {
+    "integration/CURRENT_EXECUTION_CLAIM_INTEGRITY.md": {
+      "sha": "ebc6f6bd9269b9fc68db3542da53efe4616ee5fd",
+      "mode": "100644"
+    },
+    "integration/CURRENT_FULL_TOOL_INVOCATION.md": {
+      "sha": "69734c161d04f6ded4cdf0f83c586053a089c69f",
+      "mode": "100644"
+    },
+    "integration/CURRENT_HF1.md": {
+      "sha": "21cca6732ae92104bf5116bdab46738ccc5c039c",
+      "mode": "100644"
+    },
+    "integration/CURRENT_HF2.md": {
+      "sha": "6cfdb35c549a252124baff3b930a0a170ec55b0a",
+      "mode": "100644"
+    },
+    "integration/CURRENT_ICC128_CONVERSATION_CONTROL.md": {
+      "sha": "d92c1d7b6bc91fa28f556f66bc36296ec7f4bad7",
+      "mode": "100644"
+    },
+    "integration/CURRENT_ICC128_LEGACY_MATH.md": {
+      "sha": "767eeb4796e172388dad59c7989163a325e43ca3",
+      "mode": "100644"
+    },
+    "integration/CURRENT_IMPROVEMENT_CORE.md": {
+      "sha": "d76236317b2378afc51ee7a3bd6f21ecad483b88",
+      "mode": "100644"
+    },
+    "integration/CURRENT_MATHEMATICAL_COLORING.md": {
+      "sha": "56ed4b1318eb8ddb67fc5f44bda4422de5ffc1da",
+      "mode": "100644"
+    },
+    "integration/CURRENT_PROTECTED_TRANSITION_INTEGRITY.md": {
+      "sha": "dcf5ea9f9a47f68f5a9772c476f961d1616cd194",
+      "mode": "100644"
+    },
+    "integration/CURRENT_ROOT_CAUSE.md": {
+      "sha": "7ba1c94a1c2ccf02066b8a0d690ea4ad71fe0a21",
+      "mode": "100644"
+    },
+    "integration/CURRENT_SHOW_ME_THE_MATH.md": {
+      "sha": "3e3afe87cb333eb838045f47433cba505ddde35e",
+      "mode": "100644"
+    },
+    "integration/CURRENT_TOOL_PROJECT_ORGANIZATION.md": {
+      "sha": "a389439ea3bcd2d31195f7428ca444c73abc9b71",
+      "mode": "100644"
+    },
+    "integration/CURRENT_TOOL_REALITY.md": {
+      "sha": "76988c3a789ece1f7776c83f47a1bdc636e5abdb",
+      "mode": "100644"
+    },
+    "architecture/ASSERT_COMPOUND_CONTRACT_055.md": {
+      "sha": "c36d1a6e8c4f724833c6208bd55aa1d75e635586",
+      "mode": "100644"
+    },
+    "architecture/CAPABILITY_PRESERVATION_INVARIANT_097.md": {
+      "sha": "e6a7b2aa4553f7052789cf271455ae8a8a780cad",
+      "mode": "100644"
+    },
+    "architecture/EXECUTION_CLAIM_INTEGRITY_117.md": {
+      "sha": "087670547639eec415d3c383d53b423642a4c361",
+      "mode": "100644"
+    },
+    "architecture/FULL_CONFIGURED_TOOL_INVOCATION_121.md": {
+      "sha": "591225daead5326d0df7acdbf59f622ca1f639de",
+      "mode": "100644"
+    },
+    "architecture/FULL_RUN_DEFAULT_DISPATCH_CONTRACT_066.md": {
+      "sha": "f360ef397234eefbc9259838414465cd29bc29c2",
+      "mode": "100644"
+    },
+    "architecture/GLOBAL_TOOL_EXECUTION_CONTRACT_072.md": {
+      "sha": "da625653cf5b8626a0effc4c2aad37f02f31b631",
+      "mode": "100644"
+    },
+    "architecture/IMPROVEMENT_CORE_DEFAULT_HF2_118.md": {
+      "sha": "ab9d2af8dd433b9ec7605b4f2c3ba25aa8262062",
+      "mode": "100644"
+    },
+    "architecture/TOOL_CONDUCTOR_PORTABLE_MATH_073.md": {
+      "sha": "723fb5fdfc5fa1affcce0adaf5fe123dad8171c1",
+      "mode": "100644"
+    },
+    "architecture/WRAPPER_CANONICAL_CONTRACT_053.md": {
+      "sha": "a90a24e3f97c137a21c95c732c59c856626808da",
+      "mode": "100644"
+    },
+    "legacy/icc128-legacy/MANIFEST.yaml": {
+      "sha": "96ba9e1a6fd7fd597a2d1e91196b3eb4fcb1ba20",
+      "mode": "100644"
+    },
+    "runtime/icc_entry.py": {
+      "sha": "8aaf8d7470f62944ab8b0d79195fc26e6553a0f1",
+      "mode": "100644"
+    },
+    "projects/tool-system/AUTHORITY_REGISTRY.md": {
+      "sha": "9b483b79f29631bef701c64f1bf4662bdc5b38ba",
+      "mode": "100644"
+    },
+    "projects/tool-system/README.md": {
+      "sha": "1abeef57a6dedfd3abeb5a01df78423f64b36692",
+      "mode": "100644"
+    }
+  },
+  "assurance": "Git blob hashes and tree verified at pin; source main currentness separately checked at verification",
+  "no_mirror_required": true
+}
