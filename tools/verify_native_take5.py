@@ -85,6 +85,17 @@ def verify(checkout=None):
         require(tree["sha"] == pin["source_tree"], "source tree mismatch")
         files = {x["path"]: (x["sha"], x["mode"]) for x in tree["tree"] if x["type"] == "blob"}
         current = get(BASE + "/commits/main")["sha"]
+        if current != pin["source_commit"]:
+            latest_commit = get(BASE + "/commits/" + current)
+            latest_tree = get(BASE + "/git/trees/" +
+                              latest_commit["commit"]["tree"]["sha"] + "?recursive=1")
+            require(latest_tree["truncated"] is False, "truncated latest native source tree")
+            latest_files = {x["path"]: (x["sha"], x["mode"])
+                            for x in latest_tree["tree"] if x["type"] == "blob"}
+            changed_required = [p for p, blob in entries.items()
+                                if latest_files.get(p) != (blob["sha"], blob["mode"])]
+            require(not changed_required, "current native authority has changed since pin: " +
+                    repr(changed_required))
         head = pin["source_commit"]
     require(head == pin["source_commit"], "checkout is not pinned source commit")
     require(tree_sha == pin["source_tree"], "source tree mismatch")
