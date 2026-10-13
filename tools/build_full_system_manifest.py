@@ -47,5 +47,5 @@ payload = {
         "reason": "source is private while Take-2 is public; no private content is published by this consolidation",
     },
 }
-OUT.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+# When an explicitly restored archive is reindexed, retain the previous\n# deduplication provenance instead of silently erasing historical dispositions.\nif OUT.exists():\n    previous = json.loads(OUT.read_text(encoding="utf-8"))\n    for key in ("mirror_deduplication", "historical_mirror_deduplication"):\n        if previous.get(key):\n            payload["historical_mirror_deduplication"] = previous[key]\n\nOUT.write_text(json.dumps(payload, indent=2), encoding="utf-8")
 print(json.dumps({"manifest": str(OUT.relative_to(ROOT)), "file_counts": counts, "total_files": len(records)}))
