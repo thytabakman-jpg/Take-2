@@ -4,6 +4,15 @@ import json
 from pathlib import Path
 
 # The legacy file-count checks below measured snapshot completeness, not tool capability.
+import os
+import sys
+
+# Default to independently verified native authority. The old local snapshot
+# gate remains available only for diagnosing archived full-mirror captures.
+if os.environ.get("TAKE2_AUTHORITY_MODE", "native") == "native":
+    from verify_native_take5 import main as verify_native
+    sys.exit(verify_native())
+
 ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / "dump" / "full-system-sources"
 T5 = BASE / "Take-5"
