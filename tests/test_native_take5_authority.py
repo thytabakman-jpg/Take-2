@@ -38,19 +38,19 @@ class NativeTake5AuthorityTests(unittest.TestCase):
     def test_changed_source_blobs_fail(self):
         self.fake_tree["tree"][0]["sha"] = "0" * 40
         with patch.object(native, "get", self.fake_get):
-            with self.assertRaises(AssertionError):
+            with self.assertRaises(RuntimeError):
                 native.verify()
 
     def test_missing_native_blob_fails(self):
         self.fake_tree["tree"].pop()
         with patch.object(native, "get", self.fake_get):
-            with self.assertRaises(AssertionError):
+            with self.assertRaises(RuntimeError):
                 native.verify()
 
     def test_truncated_tree_fails(self):
         self.fake_tree["truncated"] = True
         with patch.object(native, "get", self.fake_get):
-            with self.assertRaises(AssertionError):
+            with self.assertRaises(RuntimeError):
                 native.verify()
 
     def test_changed_main_does_not_misstate_currentness(self):
