@@ -16,6 +16,35 @@ CORE = ("integration/CURRENT_HF2.md", "integration/CURRENT_IMPROVEMENT_CORE.md",
         "legacy/icc128-legacy/MANIFEST.yaml")
 
 
+REQUIRED_PATHS = (
+    "integration/CURRENT_EXECUTION_CLAIM_INTEGRITY.md",
+    "integration/CURRENT_FULL_TOOL_INVOCATION.md",
+    "integration/CURRENT_HF1.md",
+    "integration/CURRENT_HF2.md",
+    "integration/CURRENT_ICC128_CONVERSATION_CONTROL.md",
+    "integration/CURRENT_ICC128_LEGACY_MATH.md",
+    "integration/CURRENT_IMPROVEMENT_CORE.md",
+    "integration/CURRENT_MATHEMATICAL_COLORING.md",
+    "integration/CURRENT_PROTECTED_TRANSITION_INTEGRITY.md",
+    "integration/CURRENT_ROOT_CAUSE.md",
+    "integration/CURRENT_SHOW_ME_THE_MATH.md",
+    "integration/CURRENT_TOOL_PROJECT_ORGANIZATION.md",
+    "integration/CURRENT_TOOL_REALITY.md",
+    "architecture/ASSERT_COMPOUND_CONTRACT_055.md",
+    "architecture/CAPABILITY_PRESERVATION_INVARIANT_097.md",
+    "architecture/EXECUTION_CLAIM_INTEGRITY_117.md",
+    "architecture/FULL_CONFIGURED_TOOL_INVOCATION_121.md",
+    "architecture/FULL_RUN_DEFAULT_DISPATCH_CONTRACT_066.md",
+    "architecture/GLOBAL_TOOL_EXECUTION_CONTRACT_072.md",
+    "architecture/IMPROVEMENT_CORE_DEFAULT_HF2_118.md",
+    "architecture/TOOL_CONDUCTOR_PORTABLE_MATH_073.md",
+    "architecture/WRAPPER_CANONICAL_CONTRACT_053.md",
+    "legacy/icc128-legacy/MANIFEST.yaml",
+    "runtime/icc_entry.py",
+    "projects/tool-system/AUTHORITY_REGISTRY.md",
+    "projects/tool-system/README.md",
+)
+
 def get(url):
     req = urllib.request.Request(url, headers={"User-Agent": "take2-native-authority-check"})
     with urllib.request.urlopen(req, timeout=30) as res:
@@ -32,7 +61,7 @@ def verify(checkout=None):
     entries = pin["required_files"]
     require(pin["schema"] == "TAKE2_NATIVE_TAKE5_AUTHORITY_PIN/v1", "invalid schema")
     require(pin["source_repository"] == "thytabakman-jpg/Take-5", "invalid source repository")
-    require(len(entries) >= 26 and all(p in entries for p in CORE), "required source identities missing")
+    require(set(entries) >= set(REQUIRED_PATHS), "required source identities missing")
     require(bool(re.fullmatch("[0-9a-f]{40}", pin["source_commit"])), "invalid commit pin")
     require(bool(re.fullmatch("[0-9a-f]{40}", pin["source_tree"])), "invalid tree pin")
     if checkout:
