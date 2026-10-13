@@ -8,9 +8,9 @@
   "file_counts": {
     "Take-3": 7,
     "Take-4": 50,
-    "Take-5": 8416
+    "Take-5": 8316
   },
-  "total_files": 8473,
+  "total_files": 8373,
   "records": [
     {
       "path": "dump/full-system-sources/Take-3/BENCHMARKS.md",
@@ -42988,7 +42988,107 @@
       "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/30_BOUNDARY_DECOMPOSITION__COUPLE.md",
       "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/31_CROSS_LAYER__EXPAND.md",
       "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/32_CROSS_LAYER__CONTRACT.md",
-      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/33_CROSS_LAYER__INWARD.md"
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/33_CROSS_LAYER__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/34_CROSS_LAYER__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/35_CROSS_LAYER__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/36_CROSS_LAYER__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/README.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/evidence/README.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/history/README.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/runs/README.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/AUTHORITY_REGISTRY.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/CHANGE_CONTROL.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/CURRENT_STATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/DECISION_LOG.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/DEPENDENCIES.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/HANDOFF_SURFACE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/IDENTITY.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/LESSONS_LEDGER.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/MANIFEST.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/MATHEMATICS.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/OPEN_QUESTIONS.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/PROTECTED_BEHAVIORS.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/README.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/REGRESSION_CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/RUNTIME.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/01_SYSTEM__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/02_SYSTEM__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/03_SYSTEM__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/04_SYSTEM__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/05_SYSTEM__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/06_SYSTEM__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/07_SUBSYSTEM__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/08_SUBSYSTEM__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/09_SUBSYSTEM__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/10_SUBSYSTEM__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/11_SUBSYSTEM__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/12_SUBSYSTEM__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/13_COMPONENT__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/14_COMPONENT__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/15_COMPONENT__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/16_COMPONENT__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/17_COMPONENT__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/18_COMPONENT__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/19_INTERFACE__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/20_INTERFACE__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/21_INTERFACE__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/22_INTERFACE__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/23_INTERFACE__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/24_INTERFACE__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/25_BOUNDARY_DECOMPOSITION__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/26_BOUNDARY_DECOMPOSITION__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/27_BOUNDARY_DECOMPOSITION__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/28_BOUNDARY_DECOMPOSITION__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/29_BOUNDARY_DECOMPOSITION__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/30_BOUNDARY_DECOMPOSITION__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/31_CROSS_LAYER__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/32_CROSS_LAYER__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/33_CROSS_LAYER__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/34_CROSS_LAYER__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/35_CROSS_LAYER__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/36_CROSS_LAYER__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/README.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/evidence/README.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/history/README.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/runs/README.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/AUTHORITY_REGISTRY.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/CHANGE_CONTROL.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/CURRENT_STATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/DECISION_LOG.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/DEPENDENCIES.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/HANDOFF_SURFACE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/IDENTITY.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/LESSONS_LEDGER.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/MANIFEST.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/MATHEMATICS.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/OPEN_QUESTIONS.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/PROTECTED_BEHAVIORS.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/README.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/REGRESSION_CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/RUNTIME.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/01_SYSTEM__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/02_SYSTEM__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/03_SYSTEM__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/04_SYSTEM__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/05_SYSTEM__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/06_SYSTEM__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/07_SUBSYSTEM__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/08_SUBSYSTEM__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/09_SUBSYSTEM__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/10_SUBSYSTEM__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/11_SUBSYSTEM__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/12_SUBSYSTEM__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/13_COMPONENT__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/14_COMPONENT__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/15_COMPONENT__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/16_COMPONENT__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/17_COMPONENT__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/18_COMPONENT__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/19_INTERFACE__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/20_INTERFACE__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/21_INTERFACE__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/22_INTERFACE__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/23_INTERFACE__ISOLATE.md"
     ],
     "removed_blobs": {
       "dump/full-system-sources/Take-5/.github/CODEOWNERS": {
@@ -45390,6 +45490,406 @@
       "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/33_CROSS_LAYER__INWARD.md": {
         "mode": "100644",
         "sha": "827a053bb28feda1886ede48d485dc990bc50717"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/34_CROSS_LAYER__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "15d1a4d7509b83557b5318619474963f66da3346"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/35_CROSS_LAYER__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "77c4933e98d42ab83e1fa51cbf8b136b3252c210"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/36_CROSS_LAYER__COUPLE.md": {
+        "mode": "100644",
+        "sha": "081323ab702bcb76052bf7a73fc31171f1bdf695"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/README.md": {
+        "mode": "100644",
+        "sha": "1b1711a0ef533455def60d4e7b61ce55e89d68ce"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/evidence/README.md": {
+        "mode": "100644",
+        "sha": "3a19d9e963aede44ee86d1bd6455e5a4c0443d50"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/history/README.md": {
+        "mode": "100644",
+        "sha": "35626bc3fd2442bdb53f0e5e27dfaff8fb9a1223"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/runs/README.md": {
+        "mode": "100644",
+        "sha": "e8ddf5cadc198ea905ab4a7f8fee8a6d09724608"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/AUTHORITY_REGISTRY.md": {
+        "mode": "100644",
+        "sha": "f55597e2f45fc35f1f6481f4acb0f8e26d115c84"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/CHANGE_CONTROL.md": {
+        "mode": "100644",
+        "sha": "7e38be9b804df8f120fa1f04d8447a8b6b15480f"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/CURRENT_STATE.md": {
+        "mode": "100644",
+        "sha": "a772664772d049ac5c01e36d1b309464c4711cc0"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/DECISION_LOG.md": {
+        "mode": "100644",
+        "sha": "924a95b77e24bf2f91fc1e73020148652e465175"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/DEPENDENCIES.md": {
+        "mode": "100644",
+        "sha": "4bbe739ce295054845852ffadd0ad328e50ebf0a"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/HANDOFF_SURFACE.md": {
+        "mode": "100644",
+        "sha": "c6d385f31427fff7273a522a8b0ba110af923df0"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/IDENTITY.md": {
+        "mode": "100644",
+        "sha": "891e571b08e5b64fbe2b9b4b6d13e1e38c0d1c9a"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/LESSONS_LEDGER.md": {
+        "mode": "100644",
+        "sha": "d75aadc5d0fe25465f988a0356b7faea1011cab7"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/MANIFEST.md": {
+        "mode": "100644",
+        "sha": "ce0ef3eaa1ebfda13aea5586209ead224f0f994a"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/MATHEMATICS.md": {
+        "mode": "100644",
+        "sha": "19ade6e031d58eb2beac147860d426cc400bdad4"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/OPEN_QUESTIONS.md": {
+        "mode": "100644",
+        "sha": "b34deabb5c7619f1dce9f732c10f9fb9920ba0d5"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/PROTECTED_BEHAVIORS.md": {
+        "mode": "100644",
+        "sha": "48b9f2aaba9e7e907449ec4cf5225ec99a378012"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/README.md": {
+        "mode": "100644",
+        "sha": "907b42903114b413daf634764294631121c5428e"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/REGRESSION_CONTRACT.md": {
+        "mode": "100644",
+        "sha": "752fd412c7c344eb97151c0bcc8369bfac0de3bc"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/RUNTIME.md": {
+        "mode": "100644",
+        "sha": "c7f12c87d7c837d235fe0a0af54c5217628dd407"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/01_SYSTEM__EXPAND.md": {
+        "mode": "100644",
+        "sha": "c6884b2c28f1cb635cf61e2e1333d4a52cf23bb8"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/02_SYSTEM__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "eff7030aeb8f34b6ca815f244963dd1ff95b0419"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/03_SYSTEM__INWARD.md": {
+        "mode": "100644",
+        "sha": "b2327c2a724787aaacc834626a366272d2d86a92"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/04_SYSTEM__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "fc1ce60a9290d941d1c9c9728fa71d0a1e6bbd35"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/05_SYSTEM__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "de8a0dc9477bc61e6b18ff8f61a9f5c386a8f8c2"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/06_SYSTEM__COUPLE.md": {
+        "mode": "100644",
+        "sha": "dc98c6904299bed1169c31a4475b826eaa59dae3"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/07_SUBSYSTEM__EXPAND.md": {
+        "mode": "100644",
+        "sha": "8c17faf7d0029d486d1a26604377e42119c7bd04"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/08_SUBSYSTEM__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "590e5bd98bc4181f2ae3caf69aa84d2bf38fa3d7"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/09_SUBSYSTEM__INWARD.md": {
+        "mode": "100644",
+        "sha": "2d047e1fff21fac540472f38ee65ada1a4e9e469"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/10_SUBSYSTEM__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "2408b6900196619be4c78d4b7409db646e10509d"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/11_SUBSYSTEM__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "38a2908660e37220bfd5822eed8f494d9c975dd7"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/12_SUBSYSTEM__COUPLE.md": {
+        "mode": "100644",
+        "sha": "75b52a733db6ac9b5bb69edaa936b76b734be9ef"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/13_COMPONENT__EXPAND.md": {
+        "mode": "100644",
+        "sha": "734c207ec76f08cd18df5680dbe3c9da97dcd84a"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/14_COMPONENT__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "e9be55d6223a0bd3f8d4c851360fc8fa174a11ae"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/15_COMPONENT__INWARD.md": {
+        "mode": "100644",
+        "sha": "11aff3055845470a194a99b398d89606d1ef801f"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/16_COMPONENT__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "2dae972b0c6ba7f5c5f3bbdf77f2ffc58fa75c73"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/17_COMPONENT__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "d3a75d6cea0560435809bf6289d3475b12366cca"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/18_COMPONENT__COUPLE.md": {
+        "mode": "100644",
+        "sha": "2d3c6433504982c090795733a9d54865fcbc9709"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/19_INTERFACE__EXPAND.md": {
+        "mode": "100644",
+        "sha": "bdeeec7556bcba059939f5b3608ae15ca0232d01"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/20_INTERFACE__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "6b570dab0841bebf17009dda5a9761cbb8b62d78"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/21_INTERFACE__INWARD.md": {
+        "mode": "100644",
+        "sha": "73d9e356e202d0d50c8d9a4ba6b7964fbbb09abf"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/22_INTERFACE__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "ec45c2f4c1e7b9b273b764e3ce95ca9aff8be9a9"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/23_INTERFACE__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "5dd07d9f3e8f676fa21e0e6deaff52321f27986f"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/24_INTERFACE__COUPLE.md": {
+        "mode": "100644",
+        "sha": "5bacfb42a6b7c207325db1f17f999fec80416685"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/25_BOUNDARY_DECOMPOSITION__EXPAND.md": {
+        "mode": "100644",
+        "sha": "9536bc84dd56d9fcdb58f180125e02cbced82ec7"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/26_BOUNDARY_DECOMPOSITION__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "a75e2a12058388788b998018341d3c272540d7ab"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/27_BOUNDARY_DECOMPOSITION__INWARD.md": {
+        "mode": "100644",
+        "sha": "a295423ba3ff33d81a5655324ae83b984e1ec57a"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/28_BOUNDARY_DECOMPOSITION__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "40e3d8dc04e2b3f2eb893421591ef7a69e1ca14d"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/29_BOUNDARY_DECOMPOSITION__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "f3ff57559f1a3e89978df02da96f1a645a42254c"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/30_BOUNDARY_DECOMPOSITION__COUPLE.md": {
+        "mode": "100644",
+        "sha": "1e0ee4d2b501e5ea7243e946eb0b435b94f570ad"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/31_CROSS_LAYER__EXPAND.md": {
+        "mode": "100644",
+        "sha": "9208f55d9fb36f9b47e6c9b2b63c563b289bdacf"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/32_CROSS_LAYER__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "d1454e7ed482ab8c2235c9d00e4929286cad7d28"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/33_CROSS_LAYER__INWARD.md": {
+        "mode": "100644",
+        "sha": "427d7eb25c4a2d96d94f5e2117c02ec809aa6ade"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/34_CROSS_LAYER__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "b9e91908e859fd5dbeebcb4ec438c58c257b38e5"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/35_CROSS_LAYER__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "5b8b6b991346b8c0bb2e094c8e5861687c09665f"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/36_CROSS_LAYER__COUPLE.md": {
+        "mode": "100644",
+        "sha": "5f444783fefc7a99b4ddfa2eb6df7311c9defce4"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/coverage/README.md": {
+        "mode": "100644",
+        "sha": "1922ae79faddc58adc6558c0e1ed976e8cf24cf4"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/evidence/README.md": {
+        "mode": "100644",
+        "sha": "bd417f0549af91cd19db9e1033f349e455723498"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/history/README.md": {
+        "mode": "100644",
+        "sha": "a09f5bd0595a81b9e9b03327f1a55eb6e195423f"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c01/runs/README.md": {
+        "mode": "100644",
+        "sha": "e02923f1cd82f6f917a24b48ac4c74c326281ab2"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/AUTHORITY_REGISTRY.md": {
+        "mode": "100644",
+        "sha": "30d9ca663ea51642060bf703b5e5d380b236933c"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/CHANGE_CONTROL.md": {
+        "mode": "100644",
+        "sha": "c0b9266899049205331150a3d576db127b2f7395"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/CURRENT_STATE.md": {
+        "mode": "100644",
+        "sha": "b9f69790235cb289c10f24a731e87182ce823df2"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/DECISION_LOG.md": {
+        "mode": "100644",
+        "sha": "212553c09a92be7891c335cf62d317bdd7c58ec8"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/DEPENDENCIES.md": {
+        "mode": "100644",
+        "sha": "ceace5b2ccc2207a2259cd621b70d8699b42197f"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/HANDOFF_SURFACE.md": {
+        "mode": "100644",
+        "sha": "fdef3419b724078790395861c0af64effc4b9ce0"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/IDENTITY.md": {
+        "mode": "100644",
+        "sha": "bfc6b57944a9d40533819904be9f2dbb64a2906d"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/LESSONS_LEDGER.md": {
+        "mode": "100644",
+        "sha": "d949ac763ae1f29c71684727f5f0205572b0d187"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/MANIFEST.md": {
+        "mode": "100644",
+        "sha": "5a5139a19087575a8687a05abd6dac109a49a5be"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/MATHEMATICS.md": {
+        "mode": "100644",
+        "sha": "fd1ae487fbe98d88519075827378522add4545bf"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/OPEN_QUESTIONS.md": {
+        "mode": "100644",
+        "sha": "827dbe26d342d4c2cce2e7b62e36eac4be0fbf68"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/PROTECTED_BEHAVIORS.md": {
+        "mode": "100644",
+        "sha": "d03c0e91dd34a200544e1ffbf806656c0d1144a4"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/README.md": {
+        "mode": "100644",
+        "sha": "edb6d9e01e4e582c1fa7dbee8f9418b1414fc529"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/REGRESSION_CONTRACT.md": {
+        "mode": "100644",
+        "sha": "d08a902ab35a2db7d44daaabd8e1a130118118a9"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/RUNTIME.md": {
+        "mode": "100644",
+        "sha": "d0eb62a445967f6a6e3f007d8cc68a486387a142"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/01_SYSTEM__EXPAND.md": {
+        "mode": "100644",
+        "sha": "3b7c11816ed9904c6ad21c3424b02a1910ddef48"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/02_SYSTEM__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "09804769f81e6f57add77e83bc41b62f406a38c7"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/03_SYSTEM__INWARD.md": {
+        "mode": "100644",
+        "sha": "21f4b127a98a67abe902cf0e19a85399240a07d4"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/04_SYSTEM__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "f3de1dfbbe202a05b9139710a141b27b7036181e"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/05_SYSTEM__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "17140d9b111177d9e2a3dc6d95da26f919de9547"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/06_SYSTEM__COUPLE.md": {
+        "mode": "100644",
+        "sha": "e1233bcd02684d270f2315af7dc218daf62519aa"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/07_SUBSYSTEM__EXPAND.md": {
+        "mode": "100644",
+        "sha": "fdb51f70d5bbe52612bd1dcc879546d05700cd26"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/08_SUBSYSTEM__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "901480df303f9369141122686eb0086e054192de"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/09_SUBSYSTEM__INWARD.md": {
+        "mode": "100644",
+        "sha": "3085d4a9e379d7bdc143daf22a36b7224b971934"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/10_SUBSYSTEM__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "4cc54e7f8d312aab0732c346987c89f0026d54eb"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/11_SUBSYSTEM__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "2dcde0f2d7729421a0f7e857e3b23418a212f92b"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/12_SUBSYSTEM__COUPLE.md": {
+        "mode": "100644",
+        "sha": "f6e17b44885f63548847c8385acf52497080cbef"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/13_COMPONENT__EXPAND.md": {
+        "mode": "100644",
+        "sha": "aacb792133ae75574551a8d23cb837ebbcc9a4e1"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/14_COMPONENT__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "46b21c0e3786e45e5e16c775f122ed6e620b2efb"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/15_COMPONENT__INWARD.md": {
+        "mode": "100644",
+        "sha": "ba95e5fcd070ec7e0d736441f5d0d205f1327a0c"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/16_COMPONENT__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "d82514893ad7227525a20cca26f847caeefa09c4"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/17_COMPONENT__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "7974a473d2ba7302fb15aa854e87b53ac150dc3c"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/18_COMPONENT__COUPLE.md": {
+        "mode": "100644",
+        "sha": "9d9985cc5fb850d2556dcdb6c3292006bedba6c7"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/19_INTERFACE__EXPAND.md": {
+        "mode": "100644",
+        "sha": "950872380571418745e09e31dc35298f89daf01e"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/20_INTERFACE__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "bca369ad7c7c2f7b5a9cd008a8363f0be2df25f0"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/21_INTERFACE__INWARD.md": {
+        "mode": "100644",
+        "sha": "ade47f84518df0649cb8f1adaba8b2e8402277df"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/22_INTERFACE__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "a587f81c7b0f4c9a0f7b9701fd4833b271f2db1e"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/c02/coverage/23_INTERFACE__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "8df324bac27cbc49d108793830eae5d24d87fba1"
       }
     }
   }
