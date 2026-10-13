@@ -8,9 +8,9 @@
   "file_counts": {
     "Take-3": 7,
     "Take-4": 50,
-    "Take-5": 8816
+    "Take-5": 8716
   },
-  "total_files": 8873,
+  "total_files": 8773,
   "records": [
     {
       "path": "dump/full-system-sources/Take-3/BENCHMARKS.md",
@@ -448,101 +448,6 @@
       "sha256": "1f949b0c617d39c532a63f85e3443d15eb8948f501d2730c408706d7a6ff7df4"
     },
     {
-      "path": "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/DEFINITION_002_FRAME_RESOLUTION.md",
-      "bytes": 4450,
-      "sha256": "161561358caece1a88e12a2d614fb64755a12eda52cc6213a7a420ede3511236"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/DEFINITION_STATE.json",
-      "bytes": 2170,
-      "sha256": "2f9cfe45a1357f4142e74f14c9313bccf21ba485c64effcdbe86e43c3cd3d605"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/DEFINITION_STATE_002.json",
-      "bytes": 2154,
-      "sha256": "38019168a309bb22fcd48288f967146b7d58bd20372b1cc7ec4b614581d41215"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/PROJECT_MANAGER_RUN_001.md",
-      "bytes": 1889,
-      "sha256": "e05c083240a2cd431919179d9e34fee172f26799bfc2fdef98bd2bdcd7feb525"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/WHOLE_CONVERSATION_GOAL_PROBLEM_RUN_001.md",
-      "bytes": 3303,
-      "sha256": "241e0a960e31d478f50526b999a733282c063ec1126363d9632ff9cac1149264"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/dump/example-zero/notes.txt",
-      "bytes": 207,
-      "sha256": "1ce88ae6c7d1850366508963ebd82c47c7164498ece7bd43532f1a9819761327"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/dump/example-zero/take5.json",
-      "bytes": 22,
-      "sha256": "2e0aea497b832b8775912ef6e23df5cc76c94285c5a3b5f1ea46c9cd9d8b6727"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/historical_controllers/IC022.yaml",
-      "bytes": 46306,
-      "sha256": "b9d6c4f9ab5192d5a04455eea74f02cbf3337ed3dab2bfe6e33a7af75e7eb4a4"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/historical_controllers/IC023.yaml",
-      "bytes": 4580,
-      "sha256": "d540f0aead2804df06b7be1de54278bff1be14d1380bb6980b4ce0bdfb6430dd"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/historical_controllers/IC024-G1.yaml",
-      "bytes": 4369,
-      "sha256": "636f58bf31db8f4e669935797d3ed67d95c1c5ed1035e53ef8c6b803e01e69fb"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/historical_controllers/IC024-G2.yaml",
-      "bytes": 5418,
-      "sha256": "600606cf4db17e7eeccbd6a8abe1ae27a985539044a06bd7239ca1e7f87c7592"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/historical_controllers/IC024-G3.yaml",
-      "bytes": 7378,
-      "sha256": "99b888f47002bfeddd3bc920583de0e69e3cab95bd79f80d222a2ab76f9f0dab"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/historical_controllers/IC024.yaml",
-      "bytes": 3591,
-      "sha256": "568b8a2331ce2f010fa6fa9d5974d11f91ca9cdbdc77c8108935e3e395672908"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/historical_controllers/IC028.yaml",
-      "bytes": 9338,
-      "sha256": "f725c521e94357377f38a0a30740482948999927ed0bfe9500e2b2c838e19a91"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/historical_controllers/IC028_CANONICAL_CURRENT_STATE.md",
-      "bytes": 18322,
-      "sha256": "e59f99ebb88859f219e9c9698ab86d40ab712ff195f9990b7d9e9da6ae6e7f66"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/historical_controllers/README.md",
-      "bytes": 2404,
-      "sha256": "fa452fbd6a1fbcda4e2c9399be518689f97ce129cef6bd8ae919e40fd6e9bdde"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/ASSERT_FULL36_ARCHITECTURE_DEBT_071_2026-09-25.md",
-      "bytes": 2591,
-      "sha256": "5dad7b815b501563cd3af079fb52e78901eb14cc5485057dee0e34e5f7e9300b"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/CAPABILITY_PRESERVATION_MANIFEST_100.json",
-      "bytes": 9759,
-      "sha256": "d0954327437e973ffa1f2f97bf0cd0758bcaf24020a998fb482cd530620c2e6d"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/CROSS_CHAT_INTEGRATION_CLOSURE_MARKER_060_2026-09-25.md",
-      "bytes": 968,
-      "sha256": "f219727130f80368d8e5e56d8ace5c361336974dea11f015f00a4e4b10ed8dbb"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/integration/CROSS_CHAT_INTEGRATION_INBOX_2026-09-25.md",
       "bytes": 20332,
       "sha256": "89a0e18688b78f32c83752c0c057fd03b1fca7093ca30861cb1c823e6935a819"
@@ -558,11 +463,6 @@
       "sha256": "4ac8389d601d6bd6bb6d6a232e1a784bcca54a11c5bbc281f14f69c6bfe6009d"
     },
     {
-      "path": "dump/full-system-sources/Take-5/integration/CURRENT_HF1.md",
-      "bytes": 2710,
-      "sha256": "e7c585350bbdf17b6c5606c980a84f8b4af2576d53d928e0a599202b902b99db"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/integration/CURRENT_HF2.md",
       "bytes": 5807,
       "sha256": "241fefef39d1d43a59746231301227259bb3a9db2ac8b3f56a375cb8216b214c"
@@ -573,19 +473,9 @@
       "sha256": "5470129e88f48eb79942c126f317fa0a086fbc4651d71f2c29447420a7632be0"
     },
     {
-      "path": "dump/full-system-sources/Take-5/integration/CURRENT_ICC128_LEGACY_MATH.md",
-      "bytes": 3167,
-      "sha256": "2f2988de550e5b581303c64339b115e842a0244a73bd8b18118c33ce1ad0ccc3"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/integration/CURRENT_IMPROVEMENT_CORE.md",
       "bytes": 37354,
       "sha256": "71a10ea858dfc12ee3ab4b2b730ab9c971c9d56810b61f1c5eec07fc7578ce1e"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/CURRENT_MATHEMATICAL_COLORING.md",
-      "bytes": 7537,
-      "sha256": "cac000d16ef627b99fa2bf9087ecc1f08bdd71e2c28610beea9f53c7e0903cf6"
     },
     {
       "path": "dump/full-system-sources/Take-5/integration/CURRENT_PROTECTED_TRANSITION_INTEGRITY.md",
@@ -596,16 +486,6 @@
       "path": "dump/full-system-sources/Take-5/integration/CURRENT_ROOT_CAUSE.md",
       "bytes": 5016,
       "sha256": "5c121ffafbbb9d2c2439e0d50dd1f36ded97f6f6b2ca10b1c90fcf24f15f9caa"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/CURRENT_SHOW_ME_THE_MATH.md",
-      "bytes": 5334,
-      "sha256": "bc1d5a028d5f4d95f1d7168c903c3bc7a91dc61d814d542bf8f777866c702794"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/CURRENT_SYSTEM_CLEANUP_160_2026-09-27.md",
-      "bytes": 2584,
-      "sha256": "55bfbec5b5dc3f2f38b20602aa70f11754d34e6f652f3adcb91da970bfa76479"
     },
     {
       "path": "dump/full-system-sources/Take-5/integration/CURRENT_TOOL_PROJECT_ORGANIZATION.md",
@@ -623,21 +503,6 @@
       "sha256": "f312479bf94714c7677e3f043c4b8b91f0911fed47b23bec6b66b8c8c65bcfcb"
     },
     {
-      "path": "dump/full-system-sources/Take-5/integration/IC128_LEGACY_BEHAVIOR_BENCHMARK_129.yaml",
-      "bytes": 3107,
-      "sha256": "2e1a4b7d182ee5331992e5164be79353404a3ac3912862d40368a1c28db36040"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/ICC123_CURRENTNESS_DELTA_002_2026-09-25.md",
-      "bytes": 7412,
-      "sha256": "385405a92392ed30dfba567e5da4895783d281e08e9c306c006796f95e37052c"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/ICC123_THREE_DAY_DEPENDENCY_PROVENANCE_MAP_001.yaml",
-      "bytes": 5180,
-      "sha256": "080e990b5a2e27368dc93129d6daa1bd0c988c677b2643f1334d8f8a0ca062af"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/integration/ICC123_THREE_DAY_RECOVERY_CAMPAIGN_001_2026-09-25.md",
       "bytes": 5768,
       "sha256": "8c18c2be9cff8a3d11b5814c558a03c3988d60db5b747c88230abf0696eb4ada"
@@ -648,24 +513,9 @@
       "sha256": "6e6fd490a334763394b86cec80d5ecc381eed2b7e4c9534bdc273a4318ec5e80"
     },
     {
-      "path": "dump/full-system-sources/Take-5/integration/ICC124_LINEAGE_RECOVERY_001_2026-09-25.md",
-      "bytes": 1220,
-      "sha256": "d10c3e2e64772ccaac6a1eade0ccb552ad4724365db989f0b6dafa15d3776d30"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/integration/ICC128_KERNEL_RESEARCH_RELATIVE_CLOSURE_001_2026-09-25.md",
       "bytes": 5705,
       "sha256": "6d45b038e7cc65f6f63545f1de4e3a0cc4fd6ab459ba944dc2be08135ac869dd"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/ICC128_LEGACY_ACTIVATION.md",
-      "bytes": 1210,
-      "sha256": "d87f5f3214f8eaa9a6f372398a7bceeba0df4e03999c3bc1c49beeb2b4eccd4f"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/ICC128_LEGACY_LEARNING_REPORT_CONTRACT.md",
-      "bytes": 2678,
-      "sha256": "cab2fa16cfb284381dba0eddfc13104fed7764dd85a0152f617d11f6e7d83c82"
     },
     {
       "path": "dump/full-system-sources/Take-5/integration/ICC128_SYSTEM_CLOSURE_LEDGER_056_2026-09-25.md",
@@ -673,254 +523,14 @@
       "sha256": "f269df25185797e0f9d17dff2104a349fa34e6bcb206dd688d3eacb3d7085f82"
     },
     {
-      "path": "dump/full-system-sources/Take-5/integration/ICC23_ICC128_SEMANTIC_DRIFT_REPAIR_066_2026-09-25.md",
-      "bytes": 4164,
-      "sha256": "73fad16446d6e0bdabca0ce5f175aa6d5bae3a876e3e0ff1c322339376d534f3"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/ICC_SHUTDOWN_HANDOFF_2026-09-25.md",
-      "bytes": 11080,
-      "sha256": "c6b787f8f7fa24dbc542f1d6213e6aaefb889dfc9e655dc53961207684454814"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/ICC_WRAPPER_REDESIGN_CONVERSATION_CAPTURE_074_2026-09-25.md",
-      "bytes": 10488,
-      "sha256": "b759c58d760ba80af988873f93b633f9e3a00b90ddb86413f3b59aa42c6b9b83"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/IMPROVECORE_CAPABILITY_RECOVERY_WORKSTREAM_100.yaml",
-      "bytes": 1884,
-      "sha256": "c0f244290dc8ab104853e9ab91642dc379219428cc126b95527bb497361dc936"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/IMPROVECORE_CHAT_EXPORT_GITHUB_INPUT_105_2026-09-26.md",
-      "bytes": 1740,
-      "sha256": "0ef4d48d9e4da8ab7e33dbdf201f1ecbb79f681a0ee5b04011beac72e7913216"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/IMPROVECORE_CHAT_HISTORY_4_MONTH_INPUT_101_2026-09-26.md",
-      "bytes": 18993,
-      "sha256": "fa9f541fd45e88345ac5f98c1c564172cd78c76ac9f3e062a4b96bb25895cb64"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/IMPROVECORE_CURRENT_CHAT_INPUT_103_2026-09-26.md",
-      "bytes": 1577,
-      "sha256": "077a1d7d9cc0f3d0aeb455066ceb0908513849faf4daa1e1d11f2ffd601aea7c"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/IMPROVECORE_KUREPA_CONVERSATION_POINTER_102_2026-09-26.md",
-      "bytes": 1252,
-      "sha256": "7a3c0c017a12c6ad8f17a46a5b385a02095358e7bea80365e53327de509dd1f6"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/IMPROVECORE_LEGACY_RESTORATION_CAMPAIGN_130.md",
-      "bytes": 1326,
-      "sha256": "0301aae52fea52ae0df5c3df01fe976135291b60b80530d1db7e0293a840c926"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/IMPROVECORE_LEGACY_SEMANTIC_HOLDOUT_PACKET_132.json",
-      "bytes": 10861,
-      "sha256": "c1535d092fa326f688fc37cbd02ff5685a584069398a7a84ed8b88a0960f74da"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/IMPROVECORE_RECOVERY_BLUEPRINT_100.md",
-      "bytes": 3298,
-      "sha256": "99ccb92fdc051b4c408bba59990c7f36c398ab67e5db718994900a8847573ba4"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/IMPROVECORE_SELF_STUDY_INPUT_104_2026-09-26.md",
-      "bytes": 5666,
-      "sha256": "46bfa63de3ed6c179770f1f49c8d3acbadc522f32fb6ded8c71d46851478b810"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/IMPROVECORE_TWO_EPISODE_TOOL_RUN_INPUT_105_2026-09-26.md",
-      "bytes": 1371,
-      "sha256": "14fab61998568480ac19c230cbd762ab1221391a58e5ff7666c899432448bf4c"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/IMPROVEMENTCORE_HISTORICAL_REPLAY_BASIS_001.json",
-      "bytes": 2445,
-      "sha256": "f2117e9138fc0a12d6554d0ad3ea968197e29c943dbdf4d3d1a11c88554ebd7d"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/IMPROVEMENT_CORE_CONCURRENCY_WORKSTREAM_084.yaml",
-      "bytes": 1416,
-      "sha256": "2f409e871f9f1562b3f8a3f5246c846d0c75520af78f2f81f15f50852e2647aa"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/IMPROVEMENT_CORE_DURABLE_LEARNING_110.json",
-      "bytes": 355,
-      "sha256": "ca4b98ef6bc42036e0b12e0072b013ee94304f93470c6d08bdfd9e7df63bd89e"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/IMPROVEMENT_CORE_KNOWLEDGE_LEDGER_113.json",
-      "bytes": 8142,
-      "sha256": "164c4bcb967ad93614e71aab736454774c612ec0b7ce806a0165757c3f2d1e7f"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/OBSERVER_MODE_REPROMPT_DEFECT_073_2026-09-25.md",
-      "bytes": 2047,
-      "sha256": "05b35569161be43c15785804358b9ef7bc893632433055bcd9c9c10632a6e76b"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/REASERCH_POST_CUTOVER_RECONCILIATION_FINAL_002_2026-09-25.md",
-      "bytes": 4644,
-      "sha256": "371481407ad3d8a0941ada4d108822f86318eea6ef5b57f35a41e7fd49ffc150"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/REASERCH_POST_CUTOVER_RECONCILIATION_PASS_001_2026-09-25.md",
-      "bytes": 2498,
-      "sha256": "6ddb54cad8f5abfc1a59b7bb0bfc9e2f9cbd005d26387ff7c5eeab9eeaedb1a7"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/REASERCH_POST_MIGRATION_DRIFT_2026-09-25.md",
-      "bytes": 1683,
-      "sha256": "4fd07e4fc28bac6e3b9bc646bf849df72e1fe09b06e211911455b7a46b12026b"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/integration/SEMANTIC_PACKAGE_BACKFILL_001_2026-09-25.md",
-      "bytes": 1484,
-      "sha256": "3e7a828cde880c2189030e80d9a9ffba6e7d82dd5fb4d30a476641caaf6ae71a"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/legacy/icc128-legacy/MANIFEST.yaml",
-      "bytes": 3969,
-      "sha256": "22649232a17fd5f385d02d328ba80c43493244f026e94875af4c123185dda948"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/legacy/icc128-legacy/README.md",
-      "bytes": 567,
-      "sha256": "e45de4cc25bac8a3680fad236f282f85488443f1a1d68fc78a69bb0f4b30428f"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/contracts/ICC128_AUTONOMOUS_CONTROLLER_CURRENT.yaml",
-      "bytes": 6051,
-      "sha256": "d0df525f534348f77e2fddf96361dbb170061612470e66727660d2d5ff260a28"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/contracts/ICC128_RHO_POLICY_CURRENT.yaml",
-      "bytes": 4301,
-      "sha256": "23c97bba8af8e62f4f17c45f7e846d078cfabbd61e2fa2609055293c64a8d658"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/contracts/ICC128_SEMANTIC_GENERATOR_CURRENT.yaml",
-      "bytes": 4878,
-      "sha256": "f405768abe6a39c65a427c3a08dba095816be16678340d622005528e340b5f1a"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/math/ICC128_FULL_TOOL_MATH_002_2026-09-26.md",
-      "bytes": 6404,
-      "sha256": "7b1200f4c09cf38350dedf63cef58c42f5685bcc7e8723177d0a0e21a48cdc45"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/presentation/ICC128_PRESENTATION_CURRENT.yaml",
-      "bytes": 994,
-      "sha256": "1bc89aa1b2c246e167ac4b9a151f4c222e6eb92778679db4dc291298e8faf685"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/presentation/ICC_128_CANDIDATE_V12_FRONTIER_CLOSED_2026-09-26.md",
-      "bytes": 218,
-      "sha256": "cdc84ddd7cf0b5e1359b26d34e8c136e58d02b896c29d67ad49baba5f13491f8"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/runtime/icc128_autonomous_controller.py",
-      "bytes": 4592,
-      "sha256": "a33ce55e6a0797918739455d58188a9be6f4fe16c5dc725e23e5c8e050041f34"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/runtime/icc128_semantic_generator_adapter.py",
-      "bytes": 3746,
-      "sha256": "1c20521ad2f29ad94d0ad637856c371aa8f937dbc1517996c1658e4f221ed22c"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/runtime/rho128_policy.py",
-      "bytes": 5005,
-      "sha256": "273ea01d236ff744b9ee0fae5494658039f7891d198d18b028c870aa07fcb5c6"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/validation/ICC128_RUNTIME_AND_HOST_BOUNDARY_CLOSURE_001_2026-09-26.md",
-      "bytes": 3182,
-      "sha256": "df021d1f1678ecf85ffcb1d75d68c387970a5bebf346348459f79481a2e6e63a"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/migration/LEGACY_CONNECTION_AND_QUEUE_POLICY_025.md",
-      "bytes": 2594,
-      "sha256": "180c16290235b23e027f22bf998fad13d51e6f89d9c4038c7f979db25790d154"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/migration/LEGACY_ISSUE_WORK_IMPORT_001.md",
-      "bytes": 1404,
-      "sha256": "61033dd82828288e65dd05bde949ae0583462c4ecb870cfa25d642fdd1d0f372"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/core-system-mathematics/architecture-v2/RECOVERED_MATH_PAIR_CHEAP36_SIGMA_001_2026-09-27.md",
-      "bytes": 940,
-      "sha256": "ef82eef4c54a35a5f338a8baa5f5f38c1ef49effaa3ff144922b568742784ad1"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/AUTHORITY_REGISTRY.md",
-      "bytes": 882,
-      "sha256": "1afc860dff345176c17ac0de358b79ab897fff8e6dd773b98158d23119c2e8c9"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/COMPARISON.md",
-      "bytes": 1691,
-      "sha256": "e2d0d75757e6d1867b6c6f70d8efae5e2a973f1ff27e8652f3e75bb71e167bd3"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/CURRENT_STATE.md",
-      "bytes": 1573,
-      "sha256": "ccf2978d648f7a6bf3709d7647ec038e0d68654d7f7d68b424e0a2a67eb707b9"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/DECISION_LOG.md",
-      "bytes": 415,
-      "sha256": "f9cee4f18d0aa9bfe0c2d4034d792d4563327f3d099fa640dca81eff01e4a3d1"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/EVIDENCE.md",
-      "bytes": 3499,
-      "sha256": "df20ce962021ab8c7ef11122aafaed1e1e3090711de10fa20cfdcdfd80217d29"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/GOAL.md",
-      "bytes": 872,
-      "sha256": "3b4e5f14e0be500fefcfe886e21ce4b6b82cbdd472a644ffa29177fd9646df00"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/LESSONS_LEDGER.md",
-      "bytes": 712,
-      "sha256": "7a952001b1aefcad898c6c4e683b070b13e02e749b53e8ca5400a1dbd5f2c4b8"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/MATHEMATICS.md",
       "bytes": 3410,
       "sha256": "df2f6071183d0ed12c11cbbdbd5a15f5e74aa066aacd1c7adc740ef2c78361ab"
     },
     {
-      "path": "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/PROJECT_CHARTER.md",
-      "bytes": 1703,
-      "sha256": "0fb5db9b0bd1ed077b33566d9aec8567432b1d9e195f6763e4789ae3abd2f898"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/PROJECT_MANAGER_DECISION_001.md",
-      "bytes": 2467,
-      "sha256": "4a28b35ffd8bc952f5e716dace5dc24ea3f6ddd96249ee5ec45df484bcd21178"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/PROJECT_MANAGER_RUN_001.md",
-      "bytes": 2064,
-      "sha256": "ad3a0925fdc2b04bf6d6deafff1c7e6c17d95827c9d935bb5a6c32a17c62f8e8"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/PROJECT_STATE.json",
       "bytes": 3942,
       "sha256": "5b9740874d513fbadc5d6caa944ac9870ed3eac3613e67e0ad7dd7a8183a5e70"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/RAID.md",
-      "bytes": 883,
-      "sha256": "39f070e9ca7658a1ef7a72084dda2f3d00e253a1ae9d15765779710b5a8f3d76"
     },
     {
       "path": "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/SOLUTION.md",
@@ -938,11 +548,6 @@
       "sha256": "c826dd88584bd421ad7d78b34c8a9583b7abf28127314e0c11025fb99a8413c2"
     },
     {
-      "path": "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/WBS.md",
-      "bytes": 835,
-      "sha256": "f796afb9795e0d70def31af9aed6586b7337d176f56cda2280d6918601e6a4a1"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/projects/project-manager/AUTHORITY_REGISTRY.md",
       "bytes": 1423,
       "sha256": "45550c3b2eb9e034ee6e60095e0ba588148cfd593a8f2b13b42b1e3b394e4db0"
@@ -951,11 +556,6 @@
       "path": "dump/full-system-sources/Take-5/projects/project-manager/CHANGE_CONTROL.md",
       "bytes": 1225,
       "sha256": "1f09bddff4ebb6412f515104a3c0cf63af91504a092da52812f82ce5f09bb393"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/COMMUNICATIONS.md",
-      "bytes": 472,
-      "sha256": "35704dcc71e96a8e3a9b7c503972bf0754c9991dcd2e86ae4848b0928b41be55"
     },
     {
       "path": "dump/full-system-sources/Take-5/projects/project-manager/CONTROLLER.md",
@@ -1043,11 +643,6 @@
       "sha256": "0773e2536593351977cef0c46bb075c258774ca4508885ea447e4c503110eccc"
     },
     {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/SCHEDULE.md",
-      "bytes": 571,
-      "sha256": "a445d3e2222d776c38c0042968861153860556393856c4e63efcecb3e072f78e"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/projects/project-manager/SELF_MANAGEMENT.md",
       "bytes": 791,
       "sha256": "5bca1a71587c1df28454d97a7ac3a87cae2dbea7c72eb77dc8695b7c5653a411"
@@ -1061,101 +656,6 @@
       "path": "dump/full-system-sources/Take-5/projects/project-manager/WBS.md",
       "bytes": 1156,
       "sha256": "7fe6db7f2e7dd80bc683481111720db15c22f421052876e4e47d1f5d7ecc3ddb"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/01_SYSTEM__EXPAND.md",
-      "bytes": 624,
-      "sha256": "39f66c1acb05e2768083adbbdccd38a20535f2f3fb069c7641302490e1fad438"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/02_SYSTEM__CONTRACT.md",
-      "bytes": 628,
-      "sha256": "0993ff2a71d4baedd593a67903dc8afc4b48db2caa30354f9099accaa1e80b01"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/03_SYSTEM__INWARD.md",
-      "bytes": 624,
-      "sha256": "dd808eddd16b72c67d47a4d668ee30fb9e54984eaafeded024031faa06e3809c"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/04_SYSTEM__OUTWARD.md",
-      "bytes": 626,
-      "sha256": "cd1c1102765f94706ca08ecc1ac640d00a97f32037615405430fa8d3f1bb3e93"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/05_SYSTEM__ISOLATE.md",
-      "bytes": 626,
-      "sha256": "530d1745fcc3d103d1fcf43fec5cbfca1a682f491059c3c4c08fb2d37201fa5a"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/06_SYSTEM__COUPLE.md",
-      "bytes": 624,
-      "sha256": "291df79f873afbe7f10f2514155377b43705555bf3939c0f7020e93ef215ecb9"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/07_SUBSYSTEM__EXPAND.md",
-      "bytes": 630,
-      "sha256": "905a771bd2d9fd64a6346c78019fc7b97a876af0f543fac69df2c8704dfa1dec"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/08_SUBSYSTEM__CONTRACT.md",
-      "bytes": 634,
-      "sha256": "b2eb9f2555d8ad832b370ce60d7a0414c8fa2d122651cda61112cf280a945f85"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/09_SUBSYSTEM__INWARD.md",
-      "bytes": 630,
-      "sha256": "5902e5ebcd950dc616d6d30e080ae097009905c4b9237a0caf5793ea9109bbad"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/10_SUBSYSTEM__OUTWARD.md",
-      "bytes": 632,
-      "sha256": "33e9bcb95ae7051304915f09e9fa89f01bf3284889f84cf51c1f31898397effd"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/11_SUBSYSTEM__ISOLATE.md",
-      "bytes": 632,
-      "sha256": "fb99c91ea8569d8a706a331170817634fadc999f9fa61de526b5638afcc8822e"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/12_SUBSYSTEM__COUPLE.md",
-      "bytes": 630,
-      "sha256": "22bf3e3dd01e27a6421aef2ebe66de00ad6a13f673d2778a955ffbaed6a60c51"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/13_COMPONENT__EXPAND.md",
-      "bytes": 630,
-      "sha256": "3819519b30446764394c3831166ea31a72686df1bf7a10554246dbc8a0a8b7ab"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/14_COMPONENT__CONTRACT.md",
-      "bytes": 634,
-      "sha256": "99eadff852d20a41a622dd6eeb2a43fb8dec06de7bf6ca7701c086629b404366"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/15_COMPONENT__INWARD.md",
-      "bytes": 630,
-      "sha256": "03d982856305be58b4ded86ff2f0d24ecad94ec224c6672bb06a0887d903e0c7"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/16_COMPONENT__OUTWARD.md",
-      "bytes": 632,
-      "sha256": "13b9abfbf0b6b81a20f42197c34184c16a7d85844d91b48bc257960510ae84b6"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/17_COMPONENT__ISOLATE.md",
-      "bytes": 632,
-      "sha256": "cba6da468ee02648ede91164ff4ee3858c45348023fec0e0ef04554f4d37d34d"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/18_COMPONENT__COUPLE.md",
-      "bytes": 630,
-      "sha256": "d7f733257e2c49536409be85a35d0df04fa41059542da2f18ec52765713f1c6d"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/19_INTERFACE__EXPAND.md",
-      "bytes": 630,
-      "sha256": "322e04f0cce22fc078dce6a21dbd8f2f5bd03800fd588326e1b9b82b3a49ff68"
     },
     {
       "path": "dump/full-system-sources/Take-5/projects/project-manager/coverage/20_INTERFACE__CONTRACT.md",
@@ -44588,7 +44088,107 @@
       "dump/full-system-sources/Take-5/campaign/MTA_EXECUTION_SUBSTRATE_REENTRY_007.md",
       "dump/full-system-sources/Take-5/campaign/TWO_PASS_FULL_REPERTOIRE_CAMPAIGN_006.md",
       "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/CURRENT_STATE.md",
-      "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/DEFINITION.md"
+      "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/DEFINITION.md",
+      "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/DEFINITION_002_FRAME_RESOLUTION.md",
+      "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/DEFINITION_STATE.json",
+      "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/DEFINITION_STATE_002.json",
+      "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/PROJECT_MANAGER_RUN_001.md",
+      "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/WHOLE_CONVERSATION_GOAL_PROBLEM_RUN_001.md",
+      "dump/full-system-sources/Take-5/dump/example-zero/notes.txt",
+      "dump/full-system-sources/Take-5/dump/example-zero/take5.json",
+      "dump/full-system-sources/Take-5/historical_controllers/IC022.yaml",
+      "dump/full-system-sources/Take-5/historical_controllers/IC023.yaml",
+      "dump/full-system-sources/Take-5/historical_controllers/IC024-G1.yaml",
+      "dump/full-system-sources/Take-5/historical_controllers/IC024-G2.yaml",
+      "dump/full-system-sources/Take-5/historical_controllers/IC024-G3.yaml",
+      "dump/full-system-sources/Take-5/historical_controllers/IC024.yaml",
+      "dump/full-system-sources/Take-5/historical_controllers/IC028.yaml",
+      "dump/full-system-sources/Take-5/historical_controllers/IC028_CANONICAL_CURRENT_STATE.md",
+      "dump/full-system-sources/Take-5/historical_controllers/README.md",
+      "dump/full-system-sources/Take-5/integration/ASSERT_FULL36_ARCHITECTURE_DEBT_071_2026-09-25.md",
+      "dump/full-system-sources/Take-5/integration/CAPABILITY_PRESERVATION_MANIFEST_100.json",
+      "dump/full-system-sources/Take-5/integration/CROSS_CHAT_INTEGRATION_CLOSURE_MARKER_060_2026-09-25.md",
+      "dump/full-system-sources/Take-5/integration/CURRENT_HF1.md",
+      "dump/full-system-sources/Take-5/integration/CURRENT_ICC128_LEGACY_MATH.md",
+      "dump/full-system-sources/Take-5/integration/CURRENT_MATHEMATICAL_COLORING.md",
+      "dump/full-system-sources/Take-5/integration/CURRENT_SHOW_ME_THE_MATH.md",
+      "dump/full-system-sources/Take-5/integration/CURRENT_SYSTEM_CLEANUP_160_2026-09-27.md",
+      "dump/full-system-sources/Take-5/integration/IC128_LEGACY_BEHAVIOR_BENCHMARK_129.yaml",
+      "dump/full-system-sources/Take-5/integration/ICC123_CURRENTNESS_DELTA_002_2026-09-25.md",
+      "dump/full-system-sources/Take-5/integration/ICC123_THREE_DAY_DEPENDENCY_PROVENANCE_MAP_001.yaml",
+      "dump/full-system-sources/Take-5/integration/ICC124_LINEAGE_RECOVERY_001_2026-09-25.md",
+      "dump/full-system-sources/Take-5/integration/ICC128_LEGACY_ACTIVATION.md",
+      "dump/full-system-sources/Take-5/integration/ICC128_LEGACY_LEARNING_REPORT_CONTRACT.md",
+      "dump/full-system-sources/Take-5/integration/ICC23_ICC128_SEMANTIC_DRIFT_REPAIR_066_2026-09-25.md",
+      "dump/full-system-sources/Take-5/integration/ICC_SHUTDOWN_HANDOFF_2026-09-25.md",
+      "dump/full-system-sources/Take-5/integration/ICC_WRAPPER_REDESIGN_CONVERSATION_CAPTURE_074_2026-09-25.md",
+      "dump/full-system-sources/Take-5/integration/IMPROVECORE_CAPABILITY_RECOVERY_WORKSTREAM_100.yaml",
+      "dump/full-system-sources/Take-5/integration/IMPROVECORE_CHAT_EXPORT_GITHUB_INPUT_105_2026-09-26.md",
+      "dump/full-system-sources/Take-5/integration/IMPROVECORE_CHAT_HISTORY_4_MONTH_INPUT_101_2026-09-26.md",
+      "dump/full-system-sources/Take-5/integration/IMPROVECORE_CURRENT_CHAT_INPUT_103_2026-09-26.md",
+      "dump/full-system-sources/Take-5/integration/IMPROVECORE_KUREPA_CONVERSATION_POINTER_102_2026-09-26.md",
+      "dump/full-system-sources/Take-5/integration/IMPROVECORE_LEGACY_RESTORATION_CAMPAIGN_130.md",
+      "dump/full-system-sources/Take-5/integration/IMPROVECORE_LEGACY_SEMANTIC_HOLDOUT_PACKET_132.json",
+      "dump/full-system-sources/Take-5/integration/IMPROVECORE_RECOVERY_BLUEPRINT_100.md",
+      "dump/full-system-sources/Take-5/integration/IMPROVECORE_SELF_STUDY_INPUT_104_2026-09-26.md",
+      "dump/full-system-sources/Take-5/integration/IMPROVECORE_TWO_EPISODE_TOOL_RUN_INPUT_105_2026-09-26.md",
+      "dump/full-system-sources/Take-5/integration/IMPROVEMENTCORE_HISTORICAL_REPLAY_BASIS_001.json",
+      "dump/full-system-sources/Take-5/integration/IMPROVEMENT_CORE_CONCURRENCY_WORKSTREAM_084.yaml",
+      "dump/full-system-sources/Take-5/integration/IMPROVEMENT_CORE_DURABLE_LEARNING_110.json",
+      "dump/full-system-sources/Take-5/integration/IMPROVEMENT_CORE_KNOWLEDGE_LEDGER_113.json",
+      "dump/full-system-sources/Take-5/integration/OBSERVER_MODE_REPROMPT_DEFECT_073_2026-09-25.md",
+      "dump/full-system-sources/Take-5/integration/REASERCH_POST_CUTOVER_RECONCILIATION_FINAL_002_2026-09-25.md",
+      "dump/full-system-sources/Take-5/integration/REASERCH_POST_CUTOVER_RECONCILIATION_PASS_001_2026-09-25.md",
+      "dump/full-system-sources/Take-5/integration/REASERCH_POST_MIGRATION_DRIFT_2026-09-25.md",
+      "dump/full-system-sources/Take-5/integration/SEMANTIC_PACKAGE_BACKFILL_001_2026-09-25.md",
+      "dump/full-system-sources/Take-5/legacy/icc128-legacy/MANIFEST.yaml",
+      "dump/full-system-sources/Take-5/legacy/icc128-legacy/README.md",
+      "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/contracts/ICC128_AUTONOMOUS_CONTROLLER_CURRENT.yaml",
+      "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/contracts/ICC128_RHO_POLICY_CURRENT.yaml",
+      "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/contracts/ICC128_SEMANTIC_GENERATOR_CURRENT.yaml",
+      "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/math/ICC128_FULL_TOOL_MATH_002_2026-09-26.md",
+      "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/presentation/ICC128_PRESENTATION_CURRENT.yaml",
+      "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/presentation/ICC_128_CANDIDATE_V12_FRONTIER_CLOSED_2026-09-26.md",
+      "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/runtime/icc128_autonomous_controller.py",
+      "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/runtime/icc128_semantic_generator_adapter.py",
+      "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/runtime/rho128_policy.py",
+      "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/validation/ICC128_RUNTIME_AND_HOST_BOUNDARY_CLOSURE_001_2026-09-26.md",
+      "dump/full-system-sources/Take-5/migration/LEGACY_CONNECTION_AND_QUEUE_POLICY_025.md",
+      "dump/full-system-sources/Take-5/migration/LEGACY_ISSUE_WORK_IMPORT_001.md",
+      "dump/full-system-sources/Take-5/projects/core-system-mathematics/architecture-v2/RECOVERED_MATH_PAIR_CHEAP36_SIGMA_001_2026-09-27.md",
+      "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/AUTHORITY_REGISTRY.md",
+      "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/COMPARISON.md",
+      "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/CURRENT_STATE.md",
+      "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/DECISION_LOG.md",
+      "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/EVIDENCE.md",
+      "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/GOAL.md",
+      "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/LESSONS_LEDGER.md",
+      "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/PROJECT_CHARTER.md",
+      "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/PROJECT_MANAGER_DECISION_001.md",
+      "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/PROJECT_MANAGER_RUN_001.md",
+      "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/RAID.md",
+      "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/WBS.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/COMMUNICATIONS.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/SCHEDULE.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/01_SYSTEM__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/02_SYSTEM__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/03_SYSTEM__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/04_SYSTEM__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/05_SYSTEM__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/06_SYSTEM__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/07_SUBSYSTEM__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/08_SUBSYSTEM__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/09_SUBSYSTEM__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/10_SUBSYSTEM__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/11_SUBSYSTEM__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/12_SUBSYSTEM__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/13_COMPONENT__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/14_COMPONENT__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/15_COMPONENT__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/16_COMPONENT__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/17_COMPONENT__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/18_COMPONENT__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/19_INTERFACE__EXPAND.md"
     ],
     "removed_blobs": {
       "dump/full-system-sources/Take-5/.github/CODEOWNERS": {
@@ -45390,6 +44990,406 @@
       "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/DEFINITION.md": {
         "mode": "100644",
         "sha": "4bfde1999aa308b98a838bfde1e816b535b04d93"
+      },
+      "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/DEFINITION_002_FRAME_RESOLUTION.md": {
+        "mode": "100644",
+        "sha": "c0d3532c2bd780094395a73ee47b8932362b79fb"
+      },
+      "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/DEFINITION_STATE.json": {
+        "mode": "100644",
+        "sha": "9e9a856c2b41c69b9a89393090041165f43b5d9a"
+      },
+      "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/DEFINITION_STATE_002.json": {
+        "mode": "100644",
+        "sha": "be944d8c97091a78c02b6587d259af40d6e44dfc"
+      },
+      "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/PROJECT_MANAGER_RUN_001.md": {
+        "mode": "100644",
+        "sha": "ebff3132bc3095fc254617636791281f9b441061"
+      },
+      "dump/full-system-sources/Take-5/candidates/sukkos-question-gap/WHOLE_CONVERSATION_GOAL_PROBLEM_RUN_001.md": {
+        "mode": "100644",
+        "sha": "5a38e2203a3807e941fc96c55a4dc27300086d64"
+      },
+      "dump/full-system-sources/Take-5/dump/example-zero/notes.txt": {
+        "mode": "100644",
+        "sha": "139dd4e1d0a3d29a2e2e4e67ffb7801a9989614c"
+      },
+      "dump/full-system-sources/Take-5/dump/example-zero/take5.json": {
+        "mode": "100644",
+        "sha": "16286310794843dd01abcf934bf4385c9aab6547"
+      },
+      "dump/full-system-sources/Take-5/historical_controllers/IC022.yaml": {
+        "mode": "100644",
+        "sha": "66a353802953a15c9923c0a8a155e7e205f30597"
+      },
+      "dump/full-system-sources/Take-5/historical_controllers/IC023.yaml": {
+        "mode": "100644",
+        "sha": "b78d61bf9034bf3d94717ee69505cc9bb76993f8"
+      },
+      "dump/full-system-sources/Take-5/historical_controllers/IC024-G1.yaml": {
+        "mode": "100644",
+        "sha": "7e664b906a80d8f9382f9f2a8e910e88162b6ab3"
+      },
+      "dump/full-system-sources/Take-5/historical_controllers/IC024-G2.yaml": {
+        "mode": "100644",
+        "sha": "aac2a13f555c91f62478cc8c1aa36dde05529142"
+      },
+      "dump/full-system-sources/Take-5/historical_controllers/IC024-G3.yaml": {
+        "mode": "100644",
+        "sha": "4e05c9752bd546153a8be42ad492d5130262853a"
+      },
+      "dump/full-system-sources/Take-5/historical_controllers/IC024.yaml": {
+        "mode": "100644",
+        "sha": "cf63e738aaf9400d0f765dc270db1ceb34d7ec62"
+      },
+      "dump/full-system-sources/Take-5/historical_controllers/IC028.yaml": {
+        "mode": "100644",
+        "sha": "641e1d02bf4baa1f2dd50e70891261a155904834"
+      },
+      "dump/full-system-sources/Take-5/historical_controllers/IC028_CANONICAL_CURRENT_STATE.md": {
+        "mode": "100644",
+        "sha": "6b9859b581062f6c5ea2f5c952244f89952612ff"
+      },
+      "dump/full-system-sources/Take-5/historical_controllers/README.md": {
+        "mode": "100644",
+        "sha": "f21ec21bfb661b9d0045f8ec6065d34a9eaef71b"
+      },
+      "dump/full-system-sources/Take-5/integration/ASSERT_FULL36_ARCHITECTURE_DEBT_071_2026-09-25.md": {
+        "mode": "100644",
+        "sha": "020018d2485aca9d38288d77fca321410fe445d7"
+      },
+      "dump/full-system-sources/Take-5/integration/CAPABILITY_PRESERVATION_MANIFEST_100.json": {
+        "mode": "100644",
+        "sha": "8097ed75ce22a5914609014a976fbcc00224b854"
+      },
+      "dump/full-system-sources/Take-5/integration/CROSS_CHAT_INTEGRATION_CLOSURE_MARKER_060_2026-09-25.md": {
+        "mode": "100644",
+        "sha": "8412ffc827cb27f9d897b2c8a988638bb719b239"
+      },
+      "dump/full-system-sources/Take-5/integration/CURRENT_HF1.md": {
+        "mode": "100644",
+        "sha": "21cca6732ae92104bf5116bdab46738ccc5c039c"
+      },
+      "dump/full-system-sources/Take-5/integration/CURRENT_ICC128_LEGACY_MATH.md": {
+        "mode": "100644",
+        "sha": "767eeb4796e172388dad59c7989163a325e43ca3"
+      },
+      "dump/full-system-sources/Take-5/integration/CURRENT_MATHEMATICAL_COLORING.md": {
+        "mode": "100644",
+        "sha": "56ed4b1318eb8ddb67fc5f44bda4422de5ffc1da"
+      },
+      "dump/full-system-sources/Take-5/integration/CURRENT_SHOW_ME_THE_MATH.md": {
+        "mode": "100644",
+        "sha": "3e3afe87cb333eb838045f47433cba505ddde35e"
+      },
+      "dump/full-system-sources/Take-5/integration/CURRENT_SYSTEM_CLEANUP_160_2026-09-27.md": {
+        "mode": "100644",
+        "sha": "07564919cecdb643036cdb957704141435ad6c91"
+      },
+      "dump/full-system-sources/Take-5/integration/IC128_LEGACY_BEHAVIOR_BENCHMARK_129.yaml": {
+        "mode": "100644",
+        "sha": "c2008545c8f19f6f668410212b04974b983e3219"
+      },
+      "dump/full-system-sources/Take-5/integration/ICC123_CURRENTNESS_DELTA_002_2026-09-25.md": {
+        "mode": "100644",
+        "sha": "7eb0585507d9cbfa3450e82062e20038ff494618"
+      },
+      "dump/full-system-sources/Take-5/integration/ICC123_THREE_DAY_DEPENDENCY_PROVENANCE_MAP_001.yaml": {
+        "mode": "100644",
+        "sha": "41384b2901130ed817e96945697795ce183bcd1a"
+      },
+      "dump/full-system-sources/Take-5/integration/ICC124_LINEAGE_RECOVERY_001_2026-09-25.md": {
+        "mode": "100644",
+        "sha": "3cc9023b05743ad2019bc61ee502ce1bbb6f05da"
+      },
+      "dump/full-system-sources/Take-5/integration/ICC128_LEGACY_ACTIVATION.md": {
+        "mode": "100644",
+        "sha": "af3293725d9f000a2e804f673552a9382cd58fbb"
+      },
+      "dump/full-system-sources/Take-5/integration/ICC128_LEGACY_LEARNING_REPORT_CONTRACT.md": {
+        "mode": "100644",
+        "sha": "d681ece5d068b43e7d0e46acf32f437f7b6da275"
+      },
+      "dump/full-system-sources/Take-5/integration/ICC23_ICC128_SEMANTIC_DRIFT_REPAIR_066_2026-09-25.md": {
+        "mode": "100644",
+        "sha": "08b00dc4299d8e4c39d8dea42a8c020e29d37333"
+      },
+      "dump/full-system-sources/Take-5/integration/ICC_SHUTDOWN_HANDOFF_2026-09-25.md": {
+        "mode": "100644",
+        "sha": "6e58ddbc307932c1972dad42308f7801b7db713b"
+      },
+      "dump/full-system-sources/Take-5/integration/ICC_WRAPPER_REDESIGN_CONVERSATION_CAPTURE_074_2026-09-25.md": {
+        "mode": "100644",
+        "sha": "4adb2e0f90bd7303dba8168a902a000877b627b7"
+      },
+      "dump/full-system-sources/Take-5/integration/IMPROVECORE_CAPABILITY_RECOVERY_WORKSTREAM_100.yaml": {
+        "mode": "100644",
+        "sha": "4a70a3faf915d69ea843eaae2441c4da01df82ed"
+      },
+      "dump/full-system-sources/Take-5/integration/IMPROVECORE_CHAT_EXPORT_GITHUB_INPUT_105_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "a5c3237ea62c247f2b990fd3919b3f2c8b5332da"
+      },
+      "dump/full-system-sources/Take-5/integration/IMPROVECORE_CHAT_HISTORY_4_MONTH_INPUT_101_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "3599a757b707c4e2dc9986947aeebfcb6b35d4da"
+      },
+      "dump/full-system-sources/Take-5/integration/IMPROVECORE_CURRENT_CHAT_INPUT_103_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "0f359a3232ccf34911b41b8abb30bb39172d2291"
+      },
+      "dump/full-system-sources/Take-5/integration/IMPROVECORE_KUREPA_CONVERSATION_POINTER_102_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "65a1cf9d1c48d774610949b8f588f9f3510ad0d7"
+      },
+      "dump/full-system-sources/Take-5/integration/IMPROVECORE_LEGACY_RESTORATION_CAMPAIGN_130.md": {
+        "mode": "100644",
+        "sha": "799defa72cc056d1764a7ef9d7a75489d34a798f"
+      },
+      "dump/full-system-sources/Take-5/integration/IMPROVECORE_LEGACY_SEMANTIC_HOLDOUT_PACKET_132.json": {
+        "mode": "100644",
+        "sha": "b16ac8f3dde65b5d96424b4184a6a243bd12179a"
+      },
+      "dump/full-system-sources/Take-5/integration/IMPROVECORE_RECOVERY_BLUEPRINT_100.md": {
+        "mode": "100644",
+        "sha": "ff1d7443bb0771ba065fe7545da6784bd91cb36e"
+      },
+      "dump/full-system-sources/Take-5/integration/IMPROVECORE_SELF_STUDY_INPUT_104_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "f1b6ec9a35224fd1209d5cc6bdd533d1f19a7493"
+      },
+      "dump/full-system-sources/Take-5/integration/IMPROVECORE_TWO_EPISODE_TOOL_RUN_INPUT_105_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "fdd314ecdb6ada9c78c1f7a3a44b453e86457d52"
+      },
+      "dump/full-system-sources/Take-5/integration/IMPROVEMENTCORE_HISTORICAL_REPLAY_BASIS_001.json": {
+        "mode": "100644",
+        "sha": "72668517a4081ca6f3e1460fc89ebf65ddaecb9e"
+      },
+      "dump/full-system-sources/Take-5/integration/IMPROVEMENT_CORE_CONCURRENCY_WORKSTREAM_084.yaml": {
+        "mode": "100644",
+        "sha": "ecea4f5326d70042e36ef3e965f86db2930face3"
+      },
+      "dump/full-system-sources/Take-5/integration/IMPROVEMENT_CORE_DURABLE_LEARNING_110.json": {
+        "mode": "100644",
+        "sha": "6d57b7102e3691bc1e77ac59c5be2254854af8f1"
+      },
+      "dump/full-system-sources/Take-5/integration/IMPROVEMENT_CORE_KNOWLEDGE_LEDGER_113.json": {
+        "mode": "100644",
+        "sha": "9c2bf32b0f8e337ec8cd5700cbafa6f531dcdc0f"
+      },
+      "dump/full-system-sources/Take-5/integration/OBSERVER_MODE_REPROMPT_DEFECT_073_2026-09-25.md": {
+        "mode": "100644",
+        "sha": "1642c462fffb573d1f6d8a39d4e6b7a2cc5eb457"
+      },
+      "dump/full-system-sources/Take-5/integration/REASERCH_POST_CUTOVER_RECONCILIATION_FINAL_002_2026-09-25.md": {
+        "mode": "100644",
+        "sha": "9ff1a5ee81f89c8502dc2bf31b4db4805308ffc7"
+      },
+      "dump/full-system-sources/Take-5/integration/REASERCH_POST_CUTOVER_RECONCILIATION_PASS_001_2026-09-25.md": {
+        "mode": "100644",
+        "sha": "a2c6fc48b64512b3ac8dd2e4497f7d8215a78dc6"
+      },
+      "dump/full-system-sources/Take-5/integration/REASERCH_POST_MIGRATION_DRIFT_2026-09-25.md": {
+        "mode": "100644",
+        "sha": "7a37ca8e93c98cefae85f61aa4b02e9a279ec136"
+      },
+      "dump/full-system-sources/Take-5/integration/SEMANTIC_PACKAGE_BACKFILL_001_2026-09-25.md": {
+        "mode": "100644",
+        "sha": "ee7d02a00276362dedec668f7dc79375830f23c8"
+      },
+      "dump/full-system-sources/Take-5/legacy/icc128-legacy/MANIFEST.yaml": {
+        "mode": "100644",
+        "sha": "96ba9e1a6fd7fd597a2d1e91196b3eb4fcb1ba20"
+      },
+      "dump/full-system-sources/Take-5/legacy/icc128-legacy/README.md": {
+        "mode": "100644",
+        "sha": "d39c0e001137c9945b896619e782ff8c4f141261"
+      },
+      "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/contracts/ICC128_AUTONOMOUS_CONTROLLER_CURRENT.yaml": {
+        "mode": "100644",
+        "sha": "e0eb421d8b4bf424f0bc1814f152ac98becc7f53"
+      },
+      "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/contracts/ICC128_RHO_POLICY_CURRENT.yaml": {
+        "mode": "100644",
+        "sha": "f916e3f5ccdf9c25bb177cd9dea8da83a5c500ba"
+      },
+      "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/contracts/ICC128_SEMANTIC_GENERATOR_CURRENT.yaml": {
+        "mode": "100644",
+        "sha": "19a6bdc37555dd02bf116bd1308c499c339dc819"
+      },
+      "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/math/ICC128_FULL_TOOL_MATH_002_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "eef6b2df3c7e567e50e5b3402ec9607827f290d5"
+      },
+      "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/presentation/ICC128_PRESENTATION_CURRENT.yaml": {
+        "mode": "100644",
+        "sha": "9b290e5790200e272f021be97d8c2048072d7d7d"
+      },
+      "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/presentation/ICC_128_CANDIDATE_V12_FRONTIER_CLOSED_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "3cbc5345349b539bfad0f3104f803727c1adf8c1"
+      },
+      "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/runtime/icc128_autonomous_controller.py": {
+        "mode": "100644",
+        "sha": "26c1c0cdcf48dbeeaf89b97f8b7556efd084acfa"
+      },
+      "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/runtime/icc128_semantic_generator_adapter.py": {
+        "mode": "100644",
+        "sha": "7902ff2954f39d322a44bec5d8f122c3302e9fc6"
+      },
+      "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/runtime/rho128_policy.py": {
+        "mode": "100644",
+        "sha": "b9688ab3d388ba76e93f0ec4d8713b9ebcea98de"
+      },
+      "dump/full-system-sources/Take-5/legacy/icc128-legacy/snapshot/validation/ICC128_RUNTIME_AND_HOST_BOUNDARY_CLOSURE_001_2026-09-26.md": {
+        "mode": "100644",
+        "sha": "78ae5739092f1d147c2155c890e0e6dcc51e20ad"
+      },
+      "dump/full-system-sources/Take-5/migration/LEGACY_CONNECTION_AND_QUEUE_POLICY_025.md": {
+        "mode": "100644",
+        "sha": "82b8cbd57fe0b8b85d62b5ef3aa49ceeb5bf348b"
+      },
+      "dump/full-system-sources/Take-5/migration/LEGACY_ISSUE_WORK_IMPORT_001.md": {
+        "mode": "100644",
+        "sha": "35fa7a8130ba7a5d520b3d07d80258334d4e3c36"
+      },
+      "dump/full-system-sources/Take-5/projects/core-system-mathematics/architecture-v2/RECOVERED_MATH_PAIR_CHEAP36_SIGMA_001_2026-09-27.md": {
+        "mode": "100644",
+        "sha": "bca2123e5c9e61216992475bea1be14c1d53f405"
+      },
+      "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/AUTHORITY_REGISTRY.md": {
+        "mode": "100644",
+        "sha": "8db083372e2beaf31fce52792a3bd9e59ccaf7ad"
+      },
+      "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/COMPARISON.md": {
+        "mode": "100644",
+        "sha": "9ca3c7b1e70f2c6e1e01856c6e960ef9b671f42c"
+      },
+      "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/CURRENT_STATE.md": {
+        "mode": "100644",
+        "sha": "c99e5a38c5db0a469b8be6e1ed63812432b3150e"
+      },
+      "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/DECISION_LOG.md": {
+        "mode": "100644",
+        "sha": "b2defbbc653fe6aba5b7db3bc21216189f4861a6"
+      },
+      "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/EVIDENCE.md": {
+        "mode": "100644",
+        "sha": "eff2747d3c5638c268ae952bc7c0d8b2ff622182"
+      },
+      "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/GOAL.md": {
+        "mode": "100644",
+        "sha": "c9a6af7bac0d38bf20395402eb9525ecd1083dbe"
+      },
+      "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/LESSONS_LEDGER.md": {
+        "mode": "100644",
+        "sha": "65735116dfc27436fa5e36065fbc7899463c03a8"
+      },
+      "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/PROJECT_CHARTER.md": {
+        "mode": "100644",
+        "sha": "c179369b08e488d991f68875e6178ae6a488ca1e"
+      },
+      "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/PROJECT_MANAGER_DECISION_001.md": {
+        "mode": "100644",
+        "sha": "6264f7df655f27e7e1359f89cff2c2e32e677817"
+      },
+      "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/PROJECT_MANAGER_RUN_001.md": {
+        "mode": "100644",
+        "sha": "8cedb59640374cb344827d273ab4f8066151b9e2"
+      },
+      "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/RAID.md": {
+        "mode": "100644",
+        "sha": "c339410cf357e242823624d904d9ce7d1172376c"
+      },
+      "dump/full-system-sources/Take-5/projects/icc118-favored-variant-recovery/WBS.md": {
+        "mode": "100644",
+        "sha": "645de8052533dbc6b883ccaa8661c1579ac0567a"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/COMMUNICATIONS.md": {
+        "mode": "100644",
+        "sha": "7a041342aba14dd82b7923c50f45e83a53a83616"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/SCHEDULE.md": {
+        "mode": "100644",
+        "sha": "6893431ea4854de214917eb33edc7439898c0f93"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/01_SYSTEM__EXPAND.md": {
+        "mode": "100644",
+        "sha": "160c97ba74b992301506bb11b6c6cba8798b6720"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/02_SYSTEM__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "37a6f867432943d01a3323aa4337d836cd946448"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/03_SYSTEM__INWARD.md": {
+        "mode": "100644",
+        "sha": "a5c18fb8e39522c9ee470ce8f0244de1ee6ddc18"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/04_SYSTEM__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "e33319714613854af64b54c641ec7ae817a362b5"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/05_SYSTEM__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "9e851a5e2e2af4fe1eda912ae04279291d9d16b4"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/06_SYSTEM__COUPLE.md": {
+        "mode": "100644",
+        "sha": "c8187820dee87b1ef04b029ab33d0bf30da6ac3e"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/07_SUBSYSTEM__EXPAND.md": {
+        "mode": "100644",
+        "sha": "41572fecb7ebef40c27172439645c5aa8629ce83"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/08_SUBSYSTEM__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "ac3c207c3cae2dc8eab67874e6fce1c181b9499f"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/09_SUBSYSTEM__INWARD.md": {
+        "mode": "100644",
+        "sha": "8daffa41f13c631d3b1ea9306ed74fc082dc7f54"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/10_SUBSYSTEM__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "91eb960728e678a8c10b750030caa2412a6882ba"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/11_SUBSYSTEM__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "2bed58cbc526e019feecacd000aa6219049cb1f6"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/12_SUBSYSTEM__COUPLE.md": {
+        "mode": "100644",
+        "sha": "f871981ab4f0c405d6f0bd4e3dad9b7c66b3f1f6"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/13_COMPONENT__EXPAND.md": {
+        "mode": "100644",
+        "sha": "e0dd02acdb747c3fbbee445011f2bb1c875dbe85"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/14_COMPONENT__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "57c47e406d35d8c2cdd5636d7bba86be0a3dda28"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/15_COMPONENT__INWARD.md": {
+        "mode": "100644",
+        "sha": "21548ff771a20e965a0da58830e9094a01c4b4a8"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/16_COMPONENT__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "55659b13f758d5982da6685e33fee186d83540c8"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/17_COMPONENT__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "c3ca4fe08238a68aeea9ea2747a9f10651cd7368"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/18_COMPONENT__COUPLE.md": {
+        "mode": "100644",
+        "sha": "2b445f64c0401530495e42e5d6faae30b34ff9d8"
+      },
+      "dump/full-system-sources/Take-5/projects/project-manager/coverage/19_INTERFACE__EXPAND.md": {
+        "mode": "100644",
+        "sha": "8568cb2506a06429fc6e5cab8653731b5b9fb012"
       }
     }
   }
