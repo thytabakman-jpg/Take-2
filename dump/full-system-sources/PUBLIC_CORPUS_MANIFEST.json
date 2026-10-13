@@ -8,9 +8,9 @@
   "file_counts": {
     "Take-3": 7,
     "Take-4": 50,
-    "Take-5": 8516
+    "Take-5": 8416
   },
-  "total_files": 8573,
+  "total_files": 8473,
   "records": [
     {
       "path": "dump/full-system-sources/Take-3/BENCHMARKS.md",
@@ -818,514 +818,14 @@
       "sha256": "7ae0aaeca06992fa9d157f646f2caf3e8bc3b3d32da3e9d61ca23f1447b2c17d"
     },
     {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/DECISION_LOG.md",
-      "bytes": 243,
-      "sha256": "2d7578b91114de7653d3a9b71066953f60f67a065215736e4d914a2bbc5a4ddb"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/DEPENDENCIES.md",
-      "bytes": 422,
-      "sha256": "6da98b02089bc3782f2b52f76951d8b4f3cbcf4772bbd13db1a3ae93dc2e47e4"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/HANDOFF_SURFACE.md",
-      "bytes": 416,
-      "sha256": "f5765c6c3689d70ee8e2d3a3fb58a2761f2ae5ddf8d7d9ca2b338e11cabf8263"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/IDENTITY.md",
-      "bytes": 250,
-      "sha256": "01c903677fab7e795a0f6d3edca17a1093f95b2c0013bfe860e89449ac57ae15"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/LESSONS_LEDGER.md",
-      "bytes": 332,
-      "sha256": "388ae6812d0553a98d6c80993158ae84dc0b7650a510b7e9490ca3222fb8dab1"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/MANIFEST.md",
-      "bytes": 2074,
-      "sha256": "d31dd9e8f9a62d971c64a35ab9c38855860964a0dffbcd532802f877234fba3f"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/MATHEMATICS.md",
-      "bytes": 405,
-      "sha256": "c72071c3843287e02e8b275f5b8f86d72206b6db82ea18bbb055531918c3b325"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/OPEN_QUESTIONS.md",
-      "bytes": 283,
-      "sha256": "9334f5540c46ae99fbf66d9be468b2d60a2909936b56c4ac4093407a33de6f6c"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/PROTECTED_BEHAVIORS.md",
-      "bytes": 386,
-      "sha256": "d5ecb640e7ffb4f189ca4936afe0259a3d4e94be0301c7bfb460b9db63e91d61"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/README.md",
-      "bytes": 624,
-      "sha256": "36882c28e6faf4a449d12e8656fa4ff0067b0367a26b146eac6b7bc667c91d41"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/REGRESSION_CONTRACT.md",
-      "bytes": 563,
-      "sha256": "f2e8960c50a7e5f0d717fa0c187b2e6b3ca8fe1735a83205d2a09e97012ea2dc"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/RUNTIME.md",
-      "bytes": 381,
-      "sha256": "0c8bb51f05950b1cc442742f7cccfa91ad4838fdab443fb228d3f3615af13dd4"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/SOURCE_MAP.md",
       "bytes": 471,
       "sha256": "4f61a260e1354f43c9bf5692ff7e3e5cd7ee1f5cef6d0ebd20e64d9b437800d3"
     },
     {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/01_SYSTEM__EXPAND.md",
-      "bytes": 469,
-      "sha256": "010bb86bc92d17ec69def1c96cb3a8f0457125c347a57ea9db84057a04899336"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/02_SYSTEM__CONTRACT.md",
-      "bytes": 473,
-      "sha256": "a31edaeba18ca39ef4a2f5611bff65b44d9e0302c7c5e42c29c64fe46122d26d"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/03_SYSTEM__INWARD.md",
-      "bytes": 469,
-      "sha256": "13752f1d0bd8b454a709403c44cfe4afa4f5a99cdcc2371bbdaceaee325324e7"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/04_SYSTEM__OUTWARD.md",
-      "bytes": 471,
-      "sha256": "fbc70dc5df9e27c3f312c79fb0651b9e54debe2d400e393434537806bba41aa6"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/05_SYSTEM__ISOLATE.md",
-      "bytes": 471,
-      "sha256": "fcc6494b72a0eae24f7fcf3a24038901e211031a41ce2f9c962d60b808eb1177"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/06_SYSTEM__COUPLE.md",
-      "bytes": 469,
-      "sha256": "d9173712d780fc248bd0ba3a32e68b5e42445a423176b3c588c9a96896d5f640"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/07_SUBSYSTEM__EXPAND.md",
-      "bytes": 475,
-      "sha256": "129058542ce3c7f75d2fdba4319bed9049f40c227173af8c0063b76ee449c1fb"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/08_SUBSYSTEM__CONTRACT.md",
-      "bytes": 479,
-      "sha256": "2853a110f6b0cd3e3fac995088b4486bd25470f30794bef46a96aa8fe6f98b3b"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/09_SUBSYSTEM__INWARD.md",
-      "bytes": 475,
-      "sha256": "e56688625a1ad38504e7dbe5a683b595448877ad365669c19e1169ae0cea944d"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/10_SUBSYSTEM__OUTWARD.md",
-      "bytes": 477,
-      "sha256": "076d5f97755d6a164874d9294b45f05b4452470c48281dc195bbe62e45d44f0a"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/11_SUBSYSTEM__ISOLATE.md",
-      "bytes": 477,
-      "sha256": "b12959c88f0a58057a2d457d47ed3eb85596ec635ca076543f2817e5b6fcc171"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/12_SUBSYSTEM__COUPLE.md",
-      "bytes": 475,
-      "sha256": "d7c4e4236f0f2231bcc7557504f87e5d20bce68d15f7925517ff1a8c59e745f0"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/13_COMPONENT__EXPAND.md",
-      "bytes": 475,
-      "sha256": "53756839c509865904cd17ae9a43a7680551c2878a7d726bcc0be1062b185c30"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/14_COMPONENT__CONTRACT.md",
-      "bytes": 479,
-      "sha256": "6ebd09ff489ef48d6dd30935c0a43d6fc347e6c84c4bafab57dee5b1473a1a53"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/15_COMPONENT__INWARD.md",
-      "bytes": 475,
-      "sha256": "554df52d34240678a369b03ab4708b8776ab3285930f85cc9f7d788e80acf496"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/16_COMPONENT__OUTWARD.md",
-      "bytes": 477,
-      "sha256": "5faff777ce1f3e6fc91ddc6a992a5f522b6d1f5a35479b3c689ebf216f5fe2fc"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/17_COMPONENT__ISOLATE.md",
-      "bytes": 477,
-      "sha256": "cc10e745cf0630bbf4706608a140a01dbd24c02429f50633ed2b8c9ec5ba432e"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/18_COMPONENT__COUPLE.md",
-      "bytes": 475,
-      "sha256": "16e210dff8ca30f6e5cdccc85e0d9da438962ee4958b0e33c403afd20298de90"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/19_INTERFACE__EXPAND.md",
-      "bytes": 475,
-      "sha256": "a38bfee801e98a56ae8c321fe264f697be2ac9ce532a312e0c4c1a623f5f8efa"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/20_INTERFACE__CONTRACT.md",
-      "bytes": 479,
-      "sha256": "c576c1760608331b07496a6406d36b806bd90d942d090defe3cb520c6d8f0482"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/21_INTERFACE__INWARD.md",
-      "bytes": 475,
-      "sha256": "ffa7196631b2468701cc1e8b75858f0d63b73f4b361b5f2048ab29e3a298fd6a"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/22_INTERFACE__OUTWARD.md",
-      "bytes": 477,
-      "sha256": "19dd5610985a1f9d9db4917d251b2a0d7eb78259d8d008dcf440ca51d15b36c2"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/23_INTERFACE__ISOLATE.md",
-      "bytes": 477,
-      "sha256": "4d87f7a54b8e640e3597a0075336cf997f0ff677cdf20bf9871a10df36cd7a59"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/24_INTERFACE__COUPLE.md",
-      "bytes": 475,
-      "sha256": "b2473cee5a98af9a9410e83dcd6962ef75d81e5190f9492006338fedcd49e41b"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/25_BOUNDARY_DECOMPOSITION__EXPAND.md",
-      "bytes": 501,
-      "sha256": "d210dbfc02fd48465e6d7a60e7933878d79233f54db6f4f1baaa3111a7187310"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/26_BOUNDARY_DECOMPOSITION__CONTRACT.md",
-      "bytes": 505,
-      "sha256": "f292046dc18722308561dd437adb1f464f2a4bcec9a85906d2d2a2ce5eed4c99"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/27_BOUNDARY_DECOMPOSITION__INWARD.md",
-      "bytes": 501,
-      "sha256": "aebc6b47eb07341e7d6dd06c85cc54f5022980969ca988d8208f2b4597d956f1"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/28_BOUNDARY_DECOMPOSITION__OUTWARD.md",
-      "bytes": 503,
-      "sha256": "d5189fd1f21125f4810fc3c28674142f98bb875e76ed8d094340b9b309faa474"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/29_BOUNDARY_DECOMPOSITION__ISOLATE.md",
-      "bytes": 503,
-      "sha256": "0ff6dccb7007125ed69199b381b88392b5bea16381f5e8ea3d238e58dfefabc0"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/30_BOUNDARY_DECOMPOSITION__COUPLE.md",
-      "bytes": 501,
-      "sha256": "4d2fbcce496fafc77d7e5ab26fd03e874de6ee80cf999951c57fd0ef2a8d64c0"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/31_CROSS_LAYER__EXPAND.md",
-      "bytes": 479,
-      "sha256": "096ae73ee721636b89d29c1fc0de506fe0bbbc24b7811a31ccda4688a5faafd7"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/32_CROSS_LAYER__CONTRACT.md",
-      "bytes": 483,
-      "sha256": "a46df9bc0f9778e6b826784fccf00acf8cc6d76e26ea479d71ee9e4042021eef"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/33_CROSS_LAYER__INWARD.md",
-      "bytes": 479,
-      "sha256": "fb4ce48af98399f45645b58f8fd88d2704d635e92a01c2fdb3d3464591a680b4"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/34_CROSS_LAYER__OUTWARD.md",
-      "bytes": 481,
-      "sha256": "13f7b86987718bb704dbb4445a28e06fc700c9c35184d6e41c4f0cbf6d7393d6"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/35_CROSS_LAYER__ISOLATE.md",
-      "bytes": 481,
-      "sha256": "85ad6dac969a3d8dda2117e5e0c13b2a36c5619f30be2e66a9f62b009b88d912"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/36_CROSS_LAYER__COUPLE.md",
-      "bytes": 479,
-      "sha256": "95454ba9f28d18b801110fab157becdd7d7c2470bb97be7b52b0351b50dbc86b"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/README.md",
-      "bytes": 243,
-      "sha256": "096ebc2ef857279bce96a2fc91dab783192434d34b7aadc6e3e89f2e9d5c77a3"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/evidence/README.md",
-      "bytes": 160,
-      "sha256": "4aa38137f48655c2d9273125085a010a4f4658835c3f2bf746a25d965ae9dd66"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/history/README.md",
-      "bytes": 159,
-      "sha256": "caf6d4072d48a7ce128dc4983ac3debba7fbdc8ba68b3576445f857690485a21"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/runs/README.md",
-      "bytes": 164,
-      "sha256": "070cad59c4617e5da397f93fb5af2db101f547b17c15f79760107ad9084b0f00"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/AUTHORITY_REGISTRY.md",
-      "bytes": 974,
-      "sha256": "0a511c2f8a2eb75e2626744da6512ca1772ee9e09201f3652aaf6dc40fb2c2c6"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/CHANGE_CONTROL.md",
-      "bytes": 407,
-      "sha256": "93089d8e89d4fa7d767719e7bfc37ceaee5c637c01d36da27de06945b4816aca"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/CURRENT_STATE.md",
-      "bytes": 489,
-      "sha256": "0f7479350ae8af8781227bf888cef900f7eaf0ec84cf024f9f3484cf18dd13bc"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/DECISION_LOG.md",
-      "bytes": 253,
-      "sha256": "f33c67eb5be96424d2c5e3e5f8188c5e66ef44bc611ed6a60a4668c9882353d6"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/DEPENDENCIES.md",
-      "bytes": 432,
-      "sha256": "508c69c068455eead5b1b176b1443aa2b792886f70741d5cfe536806f4166c25"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/HANDOFF_SURFACE.md",
-      "bytes": 436,
-      "sha256": "c0f448c308245edc8e326581e5131c9b16ff409ad4fff2c8a2359713f8ec35e8"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/IDENTITY.md",
-      "bytes": 270,
-      "sha256": "d4cdef060bb4272dc300bff3aeda980d7d13c3c5042f6bc914d4e4ea5ebc9d84"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/LESSONS_LEDGER.md",
-      "bytes": 342,
-      "sha256": "1936959fe6ea35bbafef00375c36b393bae1994a4fa89dd88dce75735b3a2fc7"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/MANIFEST.md",
-      "bytes": 2094,
-      "sha256": "457e33b01e66e507546a503a3733f425dade8aff35a125bae3f4342cdc680e9e"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/MATHEMATICS.md",
-      "bytes": 415,
-      "sha256": "0024e697e735debd722cea495ba626f5d36bde4535ae2a2a7f82ac66221ab0fa"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/OPEN_QUESTIONS.md",
-      "bytes": 293,
-      "sha256": "5f6fea09f20b8ec9c199eee7f97515cd95c7f3b52ed64f072a7912b8a29d9be5"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/PROTECTED_BEHAVIORS.md",
-      "bytes": 396,
-      "sha256": "3f78d84c07854b448a8f0a67bbafc948faaefa34c0e35be89c55323c96b18035"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/README.md",
-      "bytes": 644,
-      "sha256": "8fa5c157a4190887321aa11de7bea697ffa2ba02edd0f1f577de0fd89e1dde84"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/REGRESSION_CONTRACT.md",
-      "bytes": 573,
-      "sha256": "e010879968615ddb9bd30e130b8d7c2eb81676bb1bf3f0ffc061a28a132f35fb"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/RUNTIME.md",
-      "bytes": 391,
-      "sha256": "fa9922a5de6a55642e54813bcf904ca63821c2f3a8cfb802d005f63664e87184"
-    },
-    {
       "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/SOURCE_MAP.md",
       "bytes": 481,
       "sha256": "edaefdaacceff640d28fd0da38134cedcae67a90f9d12381ff7be2d3552e040c"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/01_SYSTEM__EXPAND.md",
-      "bytes": 489,
-      "sha256": "18705fcbfe37a3c341c4ac63b80a879e1d932520ec9ec09838a1859f6bff891c"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/02_SYSTEM__CONTRACT.md",
-      "bytes": 493,
-      "sha256": "4feedaa440ddbfe12e7080f8b7cc745fa410d146fb79a78f134faa442b15dc26"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/03_SYSTEM__INWARD.md",
-      "bytes": 489,
-      "sha256": "45075619ba44c46d69e0fa979c8bdd0594a7d99f5e72af91ba2afbcc84abe168"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/04_SYSTEM__OUTWARD.md",
-      "bytes": 491,
-      "sha256": "d21ee8c4b40a7cad0ded7eea83a3f09a28a1dcccb8771b2fe354c7c9eaf523aa"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/05_SYSTEM__ISOLATE.md",
-      "bytes": 491,
-      "sha256": "ae2d91ee50be173e5301258baea52aa25b7b30162a5da90bba9e0de763b035f3"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/06_SYSTEM__COUPLE.md",
-      "bytes": 489,
-      "sha256": "c89a5212615dbbce387caf32f68f1f462246f3d6fa521a8660c9f911804d65a8"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/07_SUBSYSTEM__EXPAND.md",
-      "bytes": 495,
-      "sha256": "5530f699a0eee7c64b0fc1a73cae32fc5b6274b8015f48ccbb589f380121855c"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/08_SUBSYSTEM__CONTRACT.md",
-      "bytes": 499,
-      "sha256": "5cffa4f06b9efa6402081ace62791da1c78ee29cd7fd2b83568a1fff31e1ba36"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/09_SUBSYSTEM__INWARD.md",
-      "bytes": 495,
-      "sha256": "d4b9bc934f0a0dc12c8dcde539d479018c3089d5051018be286c6684c1c22296"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/10_SUBSYSTEM__OUTWARD.md",
-      "bytes": 497,
-      "sha256": "da396f706cb5be5a34366d6e72e48863e6b6206cd3c11bcb2f546b7be75500d4"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/11_SUBSYSTEM__ISOLATE.md",
-      "bytes": 497,
-      "sha256": "cb843d457ccde870fa0ff22ce056916183250cbba2b68f9e2917c8af97ef59d1"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/12_SUBSYSTEM__COUPLE.md",
-      "bytes": 495,
-      "sha256": "30eccd3137a252f4371abeadcedc7acf8e9240113a8b77baa1707fcd0552ccfc"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/13_COMPONENT__EXPAND.md",
-      "bytes": 495,
-      "sha256": "5170b0672e31652757f089098b2b533375d7a5988b97acf7b7af1cae400dd0fe"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/14_COMPONENT__CONTRACT.md",
-      "bytes": 499,
-      "sha256": "6d1edaa743b76a13046b3474d8663a10d78bd34c6772e513b7a2c43cef6cc140"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/15_COMPONENT__INWARD.md",
-      "bytes": 495,
-      "sha256": "51763a6e7fbd54dd91969eefefc2e7dd9b956d148becb37aab6ba1b2be142f92"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/16_COMPONENT__OUTWARD.md",
-      "bytes": 497,
-      "sha256": "b78d1c81098e840229ebe4c17ab80a9e81a26c131a0cd2446658f1aed6a28580"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/17_COMPONENT__ISOLATE.md",
-      "bytes": 497,
-      "sha256": "749e6b26d00c55b8a721d64b82698a99072d3819e9da3cd5aaf77ce14a2a4719"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/18_COMPONENT__COUPLE.md",
-      "bytes": 495,
-      "sha256": "8369938f4a406cd596ebfe4cf9d9e483b6cbb50fe385dd48aa22227952f58684"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/19_INTERFACE__EXPAND.md",
-      "bytes": 495,
-      "sha256": "4c41f4dbb17470b4b8e869797ebd53efaf59899ffbbe1cf2d10d4b7279211e30"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/20_INTERFACE__CONTRACT.md",
-      "bytes": 499,
-      "sha256": "ca77aae1dd3d0890e21eda5500d86fa91ad28f704cf729af2ab4f4fa73b675b5"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/21_INTERFACE__INWARD.md",
-      "bytes": 495,
-      "sha256": "5bf09a09bdae5d7a8ece6010b7413e8b67196af923132162b196c8465cd4a1c6"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/22_INTERFACE__OUTWARD.md",
-      "bytes": 497,
-      "sha256": "a02d3f2e97d4a5940580d03cfb0f1ac4b59943cdbc803442d6646259bf4a7f3c"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/23_INTERFACE__ISOLATE.md",
-      "bytes": 497,
-      "sha256": "b3a044fcac49768dd2825e7975a2f05e930fdf67985260fbcc9da7b474a7523f"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/24_INTERFACE__COUPLE.md",
-      "bytes": 495,
-      "sha256": "7dc9077fc9f85ce3047e9d206220229d465f8b58336cb074ad62c1113a46e5f0"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/25_BOUNDARY_DECOMPOSITION__EXPAND.md",
-      "bytes": 521,
-      "sha256": "8352af199db610ecfc894b169ca61a5e93eb2517af9ccb90fd2a78ff28f7caab"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/26_BOUNDARY_DECOMPOSITION__CONTRACT.md",
-      "bytes": 525,
-      "sha256": "83701c150763b2a172bf8876ee23a0aa3b5b2b0ba7ea649d8fba18c9842a38aa"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/27_BOUNDARY_DECOMPOSITION__INWARD.md",
-      "bytes": 521,
-      "sha256": "d93a34662e6a8406ce4cc9ee26c5b2876c1f8351f886cc77c5dc0818d7c10373"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/28_BOUNDARY_DECOMPOSITION__OUTWARD.md",
-      "bytes": 523,
-      "sha256": "bfc171ab44825b6df88909a55d2e4a875495702ab08e3454975fec281151a6b6"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/29_BOUNDARY_DECOMPOSITION__ISOLATE.md",
-      "bytes": 523,
-      "sha256": "bb5b322f43c2bd2a543125803392bf7b559035e8cfc4f98132b12e800f1ff09a"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/30_BOUNDARY_DECOMPOSITION__COUPLE.md",
-      "bytes": 521,
-      "sha256": "234d4192e0dbfddb9fc22a4daeb74bfc10b1817d4b26bb813c8c1d14543c1488"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/31_CROSS_LAYER__EXPAND.md",
-      "bytes": 499,
-      "sha256": "a689f039e328b5792e91b250a116914f9e18bc5da4abd96b1633a7715ba8bb5e"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/32_CROSS_LAYER__CONTRACT.md",
-      "bytes": 503,
-      "sha256": "47a13bd510f8141e97ff26bb5712959f7bada172b7d3c8bff24f2d3e022b96f4"
-    },
-    {
-      "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/33_CROSS_LAYER__INWARD.md",
-      "bytes": 499,
-      "sha256": "c164ed0494787616c5d1c1e75720e40daf42edd7d4c0d83eb593ed93223fe1d2"
     },
     {
       "path": "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/34_CROSS_LAYER__OUTWARD.md",
@@ -43388,7 +42888,107 @@
       "dump/full-system-sources/Take-5/projects/tool-system/current-tools/architecture/runs/README.md",
       "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/AUTHORITY_REGISTRY.md",
       "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/CHANGE_CONTROL.md",
-      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/CURRENT_STATE.md"
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/CURRENT_STATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/DECISION_LOG.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/DEPENDENCIES.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/HANDOFF_SURFACE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/IDENTITY.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/LESSONS_LEDGER.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/MANIFEST.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/MATHEMATICS.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/OPEN_QUESTIONS.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/PROTECTED_BEHAVIORS.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/README.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/REGRESSION_CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/RUNTIME.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/01_SYSTEM__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/02_SYSTEM__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/03_SYSTEM__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/04_SYSTEM__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/05_SYSTEM__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/06_SYSTEM__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/07_SUBSYSTEM__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/08_SUBSYSTEM__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/09_SUBSYSTEM__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/10_SUBSYSTEM__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/11_SUBSYSTEM__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/12_SUBSYSTEM__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/13_COMPONENT__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/14_COMPONENT__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/15_COMPONENT__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/16_COMPONENT__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/17_COMPONENT__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/18_COMPONENT__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/19_INTERFACE__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/20_INTERFACE__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/21_INTERFACE__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/22_INTERFACE__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/23_INTERFACE__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/24_INTERFACE__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/25_BOUNDARY_DECOMPOSITION__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/26_BOUNDARY_DECOMPOSITION__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/27_BOUNDARY_DECOMPOSITION__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/28_BOUNDARY_DECOMPOSITION__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/29_BOUNDARY_DECOMPOSITION__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/30_BOUNDARY_DECOMPOSITION__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/31_CROSS_LAYER__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/32_CROSS_LAYER__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/33_CROSS_LAYER__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/34_CROSS_LAYER__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/35_CROSS_LAYER__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/36_CROSS_LAYER__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/README.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/evidence/README.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/history/README.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/runs/README.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/AUTHORITY_REGISTRY.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/CHANGE_CONTROL.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/CURRENT_STATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/DECISION_LOG.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/DEPENDENCIES.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/HANDOFF_SURFACE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/IDENTITY.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/LESSONS_LEDGER.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/MANIFEST.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/MATHEMATICS.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/OPEN_QUESTIONS.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/PROTECTED_BEHAVIORS.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/README.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/REGRESSION_CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/RUNTIME.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/01_SYSTEM__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/02_SYSTEM__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/03_SYSTEM__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/04_SYSTEM__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/05_SYSTEM__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/06_SYSTEM__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/07_SUBSYSTEM__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/08_SUBSYSTEM__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/09_SUBSYSTEM__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/10_SUBSYSTEM__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/11_SUBSYSTEM__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/12_SUBSYSTEM__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/13_COMPONENT__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/14_COMPONENT__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/15_COMPONENT__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/16_COMPONENT__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/17_COMPONENT__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/18_COMPONENT__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/19_INTERFACE__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/20_INTERFACE__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/21_INTERFACE__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/22_INTERFACE__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/23_INTERFACE__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/24_INTERFACE__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/25_BOUNDARY_DECOMPOSITION__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/26_BOUNDARY_DECOMPOSITION__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/27_BOUNDARY_DECOMPOSITION__INWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/28_BOUNDARY_DECOMPOSITION__OUTWARD.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/29_BOUNDARY_DECOMPOSITION__ISOLATE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/30_BOUNDARY_DECOMPOSITION__COUPLE.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/31_CROSS_LAYER__EXPAND.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/32_CROSS_LAYER__CONTRACT.md",
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/33_CROSS_LAYER__INWARD.md"
     ],
     "removed_blobs": {
       "dump/full-system-sources/Take-5/.github/CODEOWNERS": {
@@ -45390,6 +44990,406 @@
       "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/CURRENT_STATE.md": {
         "mode": "100644",
         "sha": "0d67dd22d0dc9d2562af151fdb30d1fddffcf40f"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/DECISION_LOG.md": {
+        "mode": "100644",
+        "sha": "e422703a239fee789de52c7912501e8c524bfdac"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/DEPENDENCIES.md": {
+        "mode": "100644",
+        "sha": "d3c383b19ec7c30efd75a98fd80a629e0a674b6a"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/HANDOFF_SURFACE.md": {
+        "mode": "100644",
+        "sha": "b3fe4510d0e05c369fc16b0e791893a4b81025a2"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/IDENTITY.md": {
+        "mode": "100644",
+        "sha": "f25c075051be3c0e53d6a6a95956d334eeb46589"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/LESSONS_LEDGER.md": {
+        "mode": "100644",
+        "sha": "d60d017e7f21db9b61534ff5a30e6043cbf70a62"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/MANIFEST.md": {
+        "mode": "100644",
+        "sha": "8e77c3819bf1893e948ba5c7085dd7b0410d9571"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/MATHEMATICS.md": {
+        "mode": "100644",
+        "sha": "5c7a360e15aa2ce541728430c3c45d554cf39ba2"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/OPEN_QUESTIONS.md": {
+        "mode": "100644",
+        "sha": "1e76dc46877bab2a259fa94141b13326dc2ab2f0"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/PROTECTED_BEHAVIORS.md": {
+        "mode": "100644",
+        "sha": "e864b3f05c821d1a623a57ce93ec202c4ed85f69"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/README.md": {
+        "mode": "100644",
+        "sha": "565217d4a2444ef81086e463ce8f070dfcc71f6a"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/REGRESSION_CONTRACT.md": {
+        "mode": "100644",
+        "sha": "41720e6a55426c23093c8cba9e85a74aa6fb8775"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/RUNTIME.md": {
+        "mode": "100644",
+        "sha": "c03f09112bd2227f196e65682eaeacd1299e6116"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/01_SYSTEM__EXPAND.md": {
+        "mode": "100644",
+        "sha": "bb83242f3acdf5c23356620d31adf8e073f6dc4c"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/02_SYSTEM__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "bea40c829bf51e1f50fc8307c60059b26eac9325"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/03_SYSTEM__INWARD.md": {
+        "mode": "100644",
+        "sha": "213cc7111e39e651ef3425f095083ca492a74a4c"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/04_SYSTEM__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "8dffc55704885e7013b58606f3834cff61f0cc42"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/05_SYSTEM__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "e6a236308afe1ac926ab78824cb9b43cacc9a039"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/06_SYSTEM__COUPLE.md": {
+        "mode": "100644",
+        "sha": "356dc19bd88c101eae85f8f81cd94ba7665a7f10"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/07_SUBSYSTEM__EXPAND.md": {
+        "mode": "100644",
+        "sha": "70e1b297bc6c3d4c0c12dfdeb48dc8717b402193"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/08_SUBSYSTEM__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "c408b159009f38b317f67d1b1afb49067eb99497"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/09_SUBSYSTEM__INWARD.md": {
+        "mode": "100644",
+        "sha": "96101dec7dd99e4468d20907a72f60e1415a79bf"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/10_SUBSYSTEM__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "05624e4c370d24126e3c3a18b09438990c9b84a9"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/11_SUBSYSTEM__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "fa463a15a577d64943945cad5ca5f7baead37286"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/12_SUBSYSTEM__COUPLE.md": {
+        "mode": "100644",
+        "sha": "fd3c6347fa5602867766b7c7ed1745f467e42a12"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/13_COMPONENT__EXPAND.md": {
+        "mode": "100644",
+        "sha": "4907380a53bc441639b141bb89f08ff956258f3e"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/14_COMPONENT__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "3e1fcb4d0e0299b08d32c764443a0a3752b06a60"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/15_COMPONENT__INWARD.md": {
+        "mode": "100644",
+        "sha": "f7cfda57dd9273508da66221b2da4ac296739858"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/16_COMPONENT__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "b3ed54e3fdf80da9a116868d1309c5c6c420bef7"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/17_COMPONENT__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "e0290c1abe0dc950f9e81a60791c88ad1a2ae6fa"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/18_COMPONENT__COUPLE.md": {
+        "mode": "100644",
+        "sha": "5ef0d02f6398f1cdcd690cfbcd2375146cf4f35c"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/19_INTERFACE__EXPAND.md": {
+        "mode": "100644",
+        "sha": "e967985ba0ff8b4446bdb9dfb57192d207ed61e1"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/20_INTERFACE__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "76a32dca2be52f1af9e5a2bfd057d5a3c0ca4bb2"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/21_INTERFACE__INWARD.md": {
+        "mode": "100644",
+        "sha": "264cd8057468bac2f67c5fca02fc490116fea4be"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/22_INTERFACE__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "2a3306569cb31999eb955f81aa20acafd147c501"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/23_INTERFACE__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "1653bfa691bace325db6824991c58859e3352522"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/24_INTERFACE__COUPLE.md": {
+        "mode": "100644",
+        "sha": "b800dc1e124e05aab7d788e56828ea052d229b85"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/25_BOUNDARY_DECOMPOSITION__EXPAND.md": {
+        "mode": "100644",
+        "sha": "dda9dda4ea16627bfb6c76574fa25fc94be67092"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/26_BOUNDARY_DECOMPOSITION__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "ab51f2820ce60cfcf36576325569d4d3662b256b"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/27_BOUNDARY_DECOMPOSITION__INWARD.md": {
+        "mode": "100644",
+        "sha": "6cfe949d7df0ebb0a99328f0ad263b5ec3965952"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/28_BOUNDARY_DECOMPOSITION__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "6ab00f228c2b8305b98ceefc2c4fb543038da0f0"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/29_BOUNDARY_DECOMPOSITION__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "7ca8e556ee3f741b1caa606882b2d82d7cf306e1"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/30_BOUNDARY_DECOMPOSITION__COUPLE.md": {
+        "mode": "100644",
+        "sha": "3514deac398ac08be8b24ee477baeeb376880648"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/31_CROSS_LAYER__EXPAND.md": {
+        "mode": "100644",
+        "sha": "5803f5df0f8df4cfb2341f4c774b2a5a72feb440"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/32_CROSS_LAYER__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "6758e39493487aebb0d28ea4f8700995957888ad"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/33_CROSS_LAYER__INWARD.md": {
+        "mode": "100644",
+        "sha": "dccb93928476f892d243b20c20782b72a0bcca5c"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/34_CROSS_LAYER__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "69d5194b0c7068289778d08e4e33ba1d9e2fbe89"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/35_CROSS_LAYER__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "522fc6803ec7007124793dcf4329db29dbda8041"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/36_CROSS_LAYER__COUPLE.md": {
+        "mode": "100644",
+        "sha": "c7e929b82c82d70c4fce9771ec3993f1c517bc88"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/coverage/README.md": {
+        "mode": "100644",
+        "sha": "8f4df6096fed0fb5ba15710bc7cc5cc64fd64d76"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/evidence/README.md": {
+        "mode": "100644",
+        "sha": "861a8fab97a61a29cbb7dfead490d287de013f17"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/history/README.md": {
+        "mode": "100644",
+        "sha": "2bc8fc3e181bf3120a1158ce3fdd79b4ab8bc5d3"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/assert/runs/README.md": {
+        "mode": "100644",
+        "sha": "295db12124129a89b3068b34d2372b0bed936fee"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/AUTHORITY_REGISTRY.md": {
+        "mode": "100644",
+        "sha": "aaae00c4d738ad6939a740b2afc1ebc90b94c6e5"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/CHANGE_CONTROL.md": {
+        "mode": "100644",
+        "sha": "045cc634cc834150053d5b933006b40e5775f167"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/CURRENT_STATE.md": {
+        "mode": "100644",
+        "sha": "4a12d7cc5fb956822c7d0fd8a08e290a62309c2b"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/DECISION_LOG.md": {
+        "mode": "100644",
+        "sha": "735c17419643c1d2174f54f23e965a25ef85cd7f"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/DEPENDENCIES.md": {
+        "mode": "100644",
+        "sha": "1b03db10db3dd1e470a4706b2f07c83ef4185d80"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/HANDOFF_SURFACE.md": {
+        "mode": "100644",
+        "sha": "89fc6039e1f189d9576b8a39300b834a87ab0e09"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/IDENTITY.md": {
+        "mode": "100644",
+        "sha": "7d0fa5ae01dc01261d007febf9c567cd5962337f"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/LESSONS_LEDGER.md": {
+        "mode": "100644",
+        "sha": "b5fe2a98202c2476b8dd9f016e6774c1b1d54f93"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/MANIFEST.md": {
+        "mode": "100644",
+        "sha": "eddfe355797817d7691ea41935b1fbe7739b92d5"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/MATHEMATICS.md": {
+        "mode": "100644",
+        "sha": "4422dccd5d1fd99388c82f083692a32753b1032e"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/OPEN_QUESTIONS.md": {
+        "mode": "100644",
+        "sha": "d606e659cdc51fb840905a3ff99e864c791fe2d8"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/PROTECTED_BEHAVIORS.md": {
+        "mode": "100644",
+        "sha": "d0664308a99261b100e98e932fd81172e3557ae4"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/README.md": {
+        "mode": "100644",
+        "sha": "02dd90053da944f1de9325e7bf2aa0c0ce70142c"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/REGRESSION_CONTRACT.md": {
+        "mode": "100644",
+        "sha": "3d5301e8cfdeea248269cfd0d5c716d4bf1d23f9"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/RUNTIME.md": {
+        "mode": "100644",
+        "sha": "24c3fc181e06074d3e18f6454ae13178e1290197"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/01_SYSTEM__EXPAND.md": {
+        "mode": "100644",
+        "sha": "e11cff9f5726e363a282285f890565a1f09dc00c"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/02_SYSTEM__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "ddf1abf6a47fb0445c42d8f9191662ec4111755f"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/03_SYSTEM__INWARD.md": {
+        "mode": "100644",
+        "sha": "0f69f1f97aa9f199269aa4a27911d349825d26fa"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/04_SYSTEM__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "ab5c740f09c829ef2884fb906c822139e8263519"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/05_SYSTEM__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "1de236557b45c8800d8253da16e3b7ab137316ae"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/06_SYSTEM__COUPLE.md": {
+        "mode": "100644",
+        "sha": "d75360e9f273287a14f8a7aa0e3630109a6b4c04"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/07_SUBSYSTEM__EXPAND.md": {
+        "mode": "100644",
+        "sha": "4be5e89da2b611135160f369d6313008eb2e923d"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/08_SUBSYSTEM__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "e96e63b7425122615b4ad5ae5e19394cb09de0d3"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/09_SUBSYSTEM__INWARD.md": {
+        "mode": "100644",
+        "sha": "c288dc866e6bd2d0f660b4575cd1a2a65f7cf775"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/10_SUBSYSTEM__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "f1a3f5f50322f59b1fefc7a35aed938e19346a48"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/11_SUBSYSTEM__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "7a3c56c1be12aca880994ac359c7a661073edbda"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/12_SUBSYSTEM__COUPLE.md": {
+        "mode": "100644",
+        "sha": "c07df9a866713a40ef9409c095f05bd2e520c921"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/13_COMPONENT__EXPAND.md": {
+        "mode": "100644",
+        "sha": "2026491417fc510646b19cd846f367615fe60683"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/14_COMPONENT__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "5b4e1a21d5f6ea03c57468a73d659136462700fc"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/15_COMPONENT__INWARD.md": {
+        "mode": "100644",
+        "sha": "0603e763a57851d831b0ebe3436affbfae7242ff"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/16_COMPONENT__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "67ac50bbbda2d7fc1b894bff2140dfd67df739bc"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/17_COMPONENT__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "e495d066a2e09410e5e3b6d988bff9a1ccb65abb"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/18_COMPONENT__COUPLE.md": {
+        "mode": "100644",
+        "sha": "d027a6d8aa9730f360c0194f4213f3272abc6af8"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/19_INTERFACE__EXPAND.md": {
+        "mode": "100644",
+        "sha": "58b56c1637ae4dba4313f6153b6f6e00fe7f506e"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/20_INTERFACE__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "e31a64ea1eecc9e9cd767c6c29d90cd74fbdab86"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/21_INTERFACE__INWARD.md": {
+        "mode": "100644",
+        "sha": "76a2a9613d72c81f540e8d0e20c6364ce3dd6c50"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/22_INTERFACE__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "07f80eb4920b44a20ed5a61d44de460e6f459722"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/23_INTERFACE__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "62b1c4969fbd59eb8bd8a9b855a13b0f22107cdc"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/24_INTERFACE__COUPLE.md": {
+        "mode": "100644",
+        "sha": "d30d45e5e61d29a121ef8e040900b4725dd70578"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/25_BOUNDARY_DECOMPOSITION__EXPAND.md": {
+        "mode": "100644",
+        "sha": "f9356bac58d7268da91cd1946739b73d6eefe974"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/26_BOUNDARY_DECOMPOSITION__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "0f762f930a9930e32ccc922793cc99e0043fbe3d"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/27_BOUNDARY_DECOMPOSITION__INWARD.md": {
+        "mode": "100644",
+        "sha": "1d9cf1defc2acf3359cf651422c3f729991ddca7"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/28_BOUNDARY_DECOMPOSITION__OUTWARD.md": {
+        "mode": "100644",
+        "sha": "e3546d3b59965c1d7e2c1b29aed86eb233b5ec60"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/29_BOUNDARY_DECOMPOSITION__ISOLATE.md": {
+        "mode": "100644",
+        "sha": "768fb7cbc5aca9a1c603ebd125292c02cc27924d"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/30_BOUNDARY_DECOMPOSITION__COUPLE.md": {
+        "mode": "100644",
+        "sha": "131e7cabe84c2403db734616f657141c09829bfa"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/31_CROSS_LAYER__EXPAND.md": {
+        "mode": "100644",
+        "sha": "a357d6f49cd304044e61438416efe719d7bc0cdc"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/32_CROSS_LAYER__CONTRACT.md": {
+        "mode": "100644",
+        "sha": "d42feca5821f0ee22a1a73cb32a62a93e9343879"
+      },
+      "dump/full-system-sources/Take-5/projects/tool-system/current-tools/biasperturbation/coverage/33_CROSS_LAYER__INWARD.md": {
+        "mode": "100644",
+        "sha": "827a053bb28feda1886ede48d485dc990bc50717"
       }
     }
   }
