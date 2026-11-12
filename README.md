@@ -2,8 +2,7 @@
 
 Take-2 is a clean-room research operating kernel.
 
-It does not copy the legacy Reaserch repository. Capabilities migrate only after they
-demonstrate value under an explicit experiment.
+The kernel does not treat the legacy Reaserch architecture as automatically admitted. It does, however, preserve selected historical Reaserch source snapshots under `dump/`; those archives are evidence, not a claim of current Take-2 authority. Capabilities migrate only after they demonstrate value under an explicit experiment.
 
 Current phase: bootstrap with executable dump/reorganization path.
 
@@ -14,6 +13,12 @@ Core design target:
 PD is not an add-on audit layer. The demonstrated PD operations are intended to be part
 of the kernel's reasoning/control loop. Only capabilities with adequate evidence are
 promoted into the stable kernel; experimental capabilities remain explicitly typed.
+
+## Approved-source precedence and deferred migration
+
+[Research-System](https://github.com/thytabakman-jpg/Research-System) and [ICC-System](https://github.com/thytabakman-jpg/ICC-System) are the two user-approved destination repositories. Each file placed in either has the user's explicit approval and is authoritative for the subject and responsibility it actually governs. Where an approved file conflicts with an older file on the same responsibility, the approved file controls; an older `canonical`, `current`, or `locked` label does not reverse that precedence. The two destination repositories govern their respective research and ICC subjects, not each other's unrelated responsibilities.
+
+This does not mean the migration is complete. Legacy repositories retain historical evidence, experiments, and responsibility for work not yet represented by an approved replacement. In particular, Take-5 remains the current working ICC runtime until an independently authorized and verified cutover. Migration and legacy cleanup are deferred, not prerequisites to using the approved files. This README does not authorize moving, deleting, promoting, or importing any file; new admission to either approved repository requires explicit user approval.
 
 ## Dump and reorganize
 
@@ -30,12 +35,11 @@ machine-readable provenance receipt. See `DUMP_INTERFACE.md`.
 
 The source corpus is never deleted or rewritten by this runner.
 
-The legacy repository remains authoritative for every capability and project not yet
-admitted to Take-2.
+Where no approved destination file governs the responsibility, the existing source owner retains it. Take-2 experiments and archival copies do not override approved Research-System or ICC-System files and do not independently transfer legacy authority.
 
 ## Native Take-5 authority and duplicate control (2026-10-13)
 
-Take-2 no longer requires a second local copy of the Take-5 portfolio to recognize its current authority. The source of truth is the public [Take-5 repository](https://github.com/thytabakman-jpg/Take-5). `source-references/TAKE5_AUTHORITY_PIN.json` identifies 26 critical native files by full source revision and Git blob hash.
+Take-2 no longer requires a second local copy of the Take-5 portfolio to recognize its current authority. For working ICC runtime and tool responsibilities not yet transferred to an approved ICC-System file, the native source remains the public [Take-5 repository](https://github.com/thytabakman-jpg/Take-5). `source-references/TAKE5_AUTHORITY_PIN.json` identifies 26 critical native files by full source revision and Git blob hash.
 
 - `python tools/check_full_system_authority.py` verifies the pinned native-source tree and reports drift from the current Take-5 main branch. This is a source-identity check, **not** evidence that runtime functionality passed.
 - `python tools/verify_native_take5.py --take5-checkout /path/to/Take-5` verifies against an exact local checkout instead of making network calls.
