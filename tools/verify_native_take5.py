@@ -10,6 +10,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 PIN = ROOT / "source-references/TAKE5_AUTHORITY_PIN.json"
 BASE = "https://api.github.com/repos/thytabakman-jpg/Take-5"
+LEGACY_MANIFEST = "legacy/icc128-legacy/MANIFEST.yaml"
+LEGACY_REFERENCE_LOADER = "runtime/legacy_reference.py"
+LEGACY_REFERENCE_COMMIT = "d7416cfae3bb31128cd627b87059a3aa7222aba3"
 CORE = ("integration/CURRENT_HF2.md", "integration/CURRENT_IMPROVEMENT_CORE.md",
         "integration/CURRENT_FULL_TOOL_INVOCATION.md", "runtime/icc_entry.py",
         "projects/tool-system/AUTHORITY_REGISTRY.md",
@@ -56,6 +59,29 @@ def require(ok, message):
         raise RuntimeError(message)
 
 
+def include_archived_manifest(files, read_manifest):
+    if LEGACY_MANIFEST not in files and LEGACY_REFERENCE_LOADER in files:
+        files[LEGACY_MANIFEST] = read_manifest()
+    return files
+
+
+def local_files(checkout, ref="HEAD", path=None):
+    args = ["git", "-C", str(checkout), "ls-tree", "-r", ref]
+    if path is not None:
+        args.extend(("--", path))
+    files = {}
+    for line in subprocess.check_output(args, text=True).splitlines():
+        meta, name = line.split("\t", 1)
+        mode, typ, sha = meta.split()
+        if typ == "blob":
+            files[name] = (sha, mode)
+    return files
+
+
+def local_manifest(checkout):
+    return local_files(checkout, LEGACY_REFERENCE_COMMIT, LEGACY_MANIFEST)[LEGACY_MANIFEST]
+
+
 def verify(checkout=None):
     pin = json.loads(PIN.read_text(encoding="utf-8"))
     entries = pin["required_files"]
@@ -69,30 +95,40 @@ def verify(checkout=None):
             return subprocess.check_output(["git", "-C", str(checkout), *a], text=True).strip()
         head = git("rev-parse", "HEAD")
         tree_sha = git("rev-parse", "HEAD^{tree}")
-        lines = git("ls-tree", "-r", "HEAD").splitlines()
-        files = {}
-        for line in lines:
-            meta, name = line.split("\t", 1)
-            mode, typ, sha = meta.split()
-            if typ == "blob":
-                files[name] = (sha, mode)
+        files = include_archived_manifest(local_files(checkout), lambda: local_manifest(checkout))
         current = head
         # Local HEAD may advance if all named authority blobs remain identical.
     else:
+        archived = {}
+
+        def remote_manifest():
+            if LEGACY_MANIFEST not in archived:
+                snapshot = get(BASE + "/commits/" + LEGACY_REFERENCE_COMMIT)
+                tree = get(BASE + "/git/trees/" + snapshot["commit"]["tree"]["sha"] + "?recursive=1")
+                require(tree["truncated"] is False, "truncated legacy reference tree")
+                archived.update({x["path"]: (x["sha"], x["mode"]) for x in tree["tree"]
+                                 if x["type"] == "blob" and x["path"] == LEGACY_MANIFEST})
+            return archived[LEGACY_MANIFEST]
+
         commit = get(BASE + "/commits/" + pin["source_commit"])
         tree_sha = commit["commit"]["tree"]["sha"]
         tree = get(BASE + "/git/trees/" + pin["source_tree"] + "?recursive=1")
         require(tree["truncated"] is False, "truncated source tree")
         require(tree["sha"] == pin["source_tree"], "source tree mismatch")
-        files = {x["path"]: (x["sha"], x["mode"]) for x in tree["tree"] if x["type"] == "blob"}
+        files = include_archived_manifest(
+            {x["path"]: (x["sha"], x["mode"]) for x in tree["tree"] if x["type"] == "blob"},
+            remote_manifest,
+        )
         current = get(BASE + "/commits/main")["sha"]
         if current != pin["source_commit"]:
             latest_commit = get(BASE + "/commits/" + current)
             latest_tree = get(BASE + "/git/trees/" +
                               latest_commit["commit"]["tree"]["sha"] + "?recursive=1")
             require(latest_tree["truncated"] is False, "truncated latest native source tree")
-            latest_files = {x["path"]: (x["sha"], x["mode"])
-                            for x in latest_tree["tree"] if x["type"] == "blob"}
+            latest_files = include_archived_manifest(
+                {x["path"]: (x["sha"], x["mode"]) for x in latest_tree["tree"] if x["type"] == "blob"},
+                remote_manifest,
+            )
             changed_required = [p for p, blob in entries.items()
                                 if latest_files.get(p) != (blob["sha"], blob["mode"])]
             require(not changed_required, "current native authority has changed since pin: " +

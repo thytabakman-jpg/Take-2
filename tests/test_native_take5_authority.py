@@ -62,6 +62,14 @@ class NativeTake5AuthorityTests(unittest.TestCase):
             result = native.verify()
         self.assertFalse(result["native_main_matches_pin"])
 
+    def test_retired_manifest_is_verified_against_archived_bytes(self):
+        manifest = native.LEGACY_MANIFEST
+        blob = self.pin["required_files"][manifest]
+        expected = (blob["sha"], blob["mode"])
+        files = {native.LEGACY_REFERENCE_LOADER: ("1" * 40, "100644")}
+        self.assertEqual(native.include_archived_manifest(files, lambda: expected)[manifest], expected)
+        self.assertNotIn(manifest, native.include_archived_manifest({}, lambda: expected))
+
 
 if __name__ == "__main__":
     unittest.main()

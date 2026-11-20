@@ -48,3 +48,7 @@ Take-2 no longer requires a second local copy of the Take-5 portfolio to recogni
 - No GitHub Actions runner is required for the native verifier, tests, or the local deduplication workflow. Source mismatches fail closed; historical changed copies are not silently discarded.
 
 The original `dump/full-system-sources/` corpus is historical migration evidence. It may be reduced only through exact-content matching, source-hash receipts, and verification that altered historical copies retain their own provenance. The attached current search index is derived metadata and requires regeneration after actual file deletion.
+
+## Retained historical inputs
+
+Reaserch hosts the [education recovery collection](https://github.com/thytabakman-jpg/Reaserch/tree/main/System-Wide%20Experiments/System%20Recovery%20and%20Successor%20Studies/Take-2%20Education%20Recovery) and [PD records](https://github.com/thytabakman-jpg/Reaserch/tree/main/System-Wide%20Experiments/Kernel%20and%20Controller%20Experiments/Take-2/pd). The Take-2 kernel check and recovery tests read their original inputs from this repository's pinned Git history. Use a full Git checkout to run them.
