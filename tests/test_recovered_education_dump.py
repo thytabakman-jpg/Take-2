@@ -6,10 +6,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 from dump_reorganize import run
+from legacy_reference import legacy_reference
 
 class RecoveredEducationDumpTests(unittest.TestCase):
     def test_reaserch_recovery_dump_is_complete_and_processable(self):
-        source = ROOT / "dump" / "education-sukkos-recovery" / "reaserch"
+        source = legacy_reference("dump/education-sukkos-recovery/reaserch")
         with tempfile.TemporaryDirectory() as td:
             result = run(source, Path(td) / "organized")
         self.assertEqual(result["counts"]["source_files"], 73)

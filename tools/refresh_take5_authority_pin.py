@@ -4,6 +4,7 @@ import json
 import subprocess
 import sys
 from pathlib import Path
+from verify_native_take5 import include_archived_manifest, local_files, local_manifest, verify
 
 ROOT = Path(__file__).resolve().parents[1]
 PIN = ROOT / "source-references/TAKE5_AUTHORITY_PIN.json"
@@ -28,20 +29,15 @@ def main(donor):
     required = set(pin["required_files"])
     if len(required) < 26:
         raise RuntimeError("Authority source register unexpectedly shrank")
-    files = {}
-    for line in git(donor, "ls-tree", "-r", "HEAD").splitlines():
-        meta, path = line.split("\t", 1)
-        mode, kind, sha = meta.split()
-        if kind == "blob":
-            files[path] = {"mode": mode, "sha": sha}
+    files = include_archived_manifest(local_files(donor), lambda: local_manifest(donor))
     missing = sorted(required - files.keys())
     if missing:
         raise RuntimeError("Required native authority files disappeared: " + repr(missing))
-    pin["required_files"] = {name: files[name] for name in sorted(required)}
+    pin["required_files"] = {name: {"sha": files[name][0], "mode": files[name][1]}
+                             for name in sorted(required)}
     pin["source_commit"] = git(donor, "rev-parse", "HEAD")
     pin["source_tree"] = git(donor, "rev-parse", "HEAD^{tree}")
     PIN.write_text(json.dumps(pin, indent=2) + "\n", encoding="utf-8")
-    from verify_native_take5 import verify
     result = verify(donor)
     print(json.dumps(result, indent=2))
 

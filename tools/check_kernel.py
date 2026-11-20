@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 from pathlib import Path
 import yaml,sys
+from legacy_reference import legacy_reference
 R=Path(__file__).resolve().parents[1]
 k=yaml.safe_load((R/"KERNEL.yaml").read_text())
 l=yaml.safe_load((R/"state/ledger.yaml").read_text())
-pd=yaml.safe_load((R/"pd/CORE.yaml").read_text())
+pd=yaml.safe_load(legacy_reference("pd/CORE.yaml").read_text(encoding="utf-8"))
 errors=[]
 required=k["primitives"]
 ids={}
