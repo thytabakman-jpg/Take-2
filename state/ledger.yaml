@@ -16,7 +16,7 @@ objects:
   - id: take2:experiment:rebt-isought-001
     kind: experiment
     status: verified
-    authority: experiments/001-rebt-isought/REPORT.md
+    authority: https://github.com/thytabakman-jpg/Reaserch/blob/main/System-Wide%20Experiments/Kernel%20and%20Controller%20Experiments/Take-2/experiments/001-rebt-isought/REPORT.md
   - id: external:reaserch:operator-math-v2
     kind: external_reference
     status: supported
@@ -24,7 +24,7 @@ objects:
   - id: take2:experiment:operator-math-002
     kind: experiment
     status: ready
-    authority: experiments/002-operator-math/PLAN.md
+    authority: https://github.com/thytabakman-jpg/Reaserch/blob/main/System-Wide%20Experiments/Kernel%20and%20Controller%20Experiments/Take-2/experiments/002-operator-math/PLAN.md
   - id: external:reaserch:compositional-core-005
     kind: external_reference
     status: candidate
@@ -32,7 +32,7 @@ objects:
   - id: take2:experiment:compositional-core-003
     kind: experiment
     status: verified
-    authority: experiments/003-compositional-core/REPORT.md
+    authority: https://github.com/thytabakman-jpg/Reaserch/blob/main/System-Wide%20Experiments/Kernel%20and%20Controller%20Experiments/Take-2/experiments/003-compositional-core/REPORT.md
   - id: external:reaserch:modifier-router-math-001
     kind: external_reference
     status: candidate
@@ -40,7 +40,7 @@ objects:
   - id: take2:experiment:modifier-router-004
     kind: experiment
     status: verified
-    authority: experiments/004-modifier-router-math/REPORT.md
+    authority: https://github.com/thytabakman-jpg/Reaserch/blob/main/System-Wide%20Experiments/Kernel%20and%20Controller%20Experiments/Take-2/experiments/004-modifier-router-math/REPORT.md
   - id: external:reaserch:update-transition-math-001
     kind: external_reference
     status: candidate
@@ -48,7 +48,7 @@ objects:
   - id: take2:experiment:update-transition-005
     kind: experiment
     status: verified
-    authority: experiments/005-update-transition-math/REPORT.md
+    authority: https://github.com/thytabakman-jpg/Reaserch/blob/main/System-Wide%20Experiments/Kernel%20and%20Controller%20Experiments/Take-2/experiments/005-update-transition-math/REPORT.md
   - id: external:reaserch:state-math-001
     kind: external_reference
     status: candidate
@@ -56,25 +56,25 @@ objects:
   - id: take2:experiment:state-math-006
     kind: experiment
     status: verified
-    authority: experiments/006-state-math/REPORT.md
+    authority: https://github.com/thytabakman-jpg/Reaserch/blob/main/System-Wide%20Experiments/Kernel%20and%20Controller%20Experiments/Take-2/experiments/006-state-math/REPORT.md
 relations:
   - id: rel:state-math-006-references-reaserch
     type: references
     source: take2:experiment:state-math-006
     target: external:reaserch:state-math-001
-    authority: experiments/006-state-math/REPORT.md
+    authority: https://github.com/thytabakman-jpg/Reaserch/blob/main/System-Wide%20Experiments/Kernel%20and%20Controller%20Experiments/Take-2/experiments/006-state-math/REPORT.md
     evidence: [reaserch:c636413c544c4e73bb4cbe225fe069cb759ada64]
   - id: rel:update-transition-005-references-reaserch
     type: references
     source: take2:experiment:update-transition-005
     target: external:reaserch:update-transition-math-001
-    authority: experiments/005-update-transition-math/REPORT.md
+    authority: https://github.com/thytabakman-jpg/Reaserch/blob/main/System-Wide%20Experiments/Kernel%20and%20Controller%20Experiments/Take-2/experiments/005-update-transition-math/REPORT.md
     evidence: [reaserch:fa84646ddef480f9f7e133432e5f8b72ea668bd2]
   - id: rel:modifier-router-004-references-reaserch
     type: references
     source: take2:experiment:modifier-router-004
     target: external:reaserch:modifier-router-math-001
-    authority: experiments/004-modifier-router-math/REPORT.md
+    authority: https://github.com/thytabakman-jpg/Reaserch/blob/main/System-Wide%20Experiments/Kernel%20and%20Controller%20Experiments/Take-2/experiments/004-modifier-router-math/REPORT.md
     evidence: [reaserch:73149692d369f397217a8e46f87764a3ec843f04]
   - id: rel:pd-part-of-kernel
     type: part_of
@@ -86,19 +86,19 @@ relations:
     type: references
     source: take2:experiment:rebt-isought-001
     target: external:reaserch:rebt-is-ought
-    authority: experiments/001-rebt-isought/REPORT.md
+    authority: https://github.com/thytabakman-jpg/Reaserch/blob/main/System-Wide%20Experiments/Kernel%20and%20Controller%20Experiments/Take-2/experiments/001-rebt-isought/REPORT.md
     evidence: [legacy:projects/rebt-is-ought]
   - id: rel:core003-references-reaserch
     type: references
     source: take2:experiment:compositional-core-003
     target: external:reaserch:compositional-core-005
-    authority: experiments/003-compositional-core/REPORT.md
+    authority: https://github.com/thytabakman-jpg/Reaserch/blob/main/System-Wide%20Experiments/Kernel%20and%20Controller%20Experiments/Take-2/experiments/003-compositional-core/REPORT.md
     evidence: [reaserch:fc4e34a5357a37c5434122bdfbf199536ebb0d78]
   - id: rel:operator-math-002-compares-legacy
     type: compares_against
     source: take2:experiment:operator-math-002
     target: external:reaserch:operator-math-v2
-    authority: experiments/002-operator-math/PLAN.md
+    authority: https://github.com/thytabakman-jpg/Reaserch/blob/main/System-Wide%20Experiments/Kernel%20and%20Controller%20Experiments/Take-2/experiments/002-operator-math/PLAN.md
     evidence: [legacy:PR-96]
 events:
   - id: evt:bootstrap-pr1-fitness
@@ -112,7 +112,7 @@ transitions:
     baseline: take2:kernel
     target: take2:experiment:state-math-006
     authority: Take-2 experiment scope
-    evidence: [experiments/006-state-math/REPORT.md]
+    evidence: [https://github.com/thytabakman-jpg/Reaserch/blob/main/System-Wide%20Experiments/Kernel%20and%20Controller%20Experiments/Take-2/experiments/006-state-math/REPORT.md]
     protected: [five_durable_primitives, eight_role_semantics, OPEN, incomparability, legacy_authority]
     validators: [kernel_fitness, A16]
     status: VERIFIED
@@ -121,7 +121,7 @@ transitions:
     baseline: take2:kernel
     target: take2:experiment:update-transition-005
     authority: Take-2 experiment scope
-    evidence: [experiments/005-update-transition-math/REPORT.md]
+    evidence: [https://github.com/thytabakman-jpg/Reaserch/blob/main/System-Wide%20Experiments/Kernel%20and%20Controller%20Experiments/Take-2/experiments/005-update-transition-math/REPORT.md]
     protected: [five_durable_primitives, eight_role_semantics, OPEN, incomparability, legacy_authority]
     validators: [kernel_fitness, A16]
     status: VERIFIED
@@ -130,7 +130,7 @@ transitions:
     baseline: take2:kernel
     target: take2:experiment:modifier-router-004
     authority: Take-2 experiment scope
-    evidence: [experiments/004-modifier-router-math/REPORT.md]
+    evidence: [https://github.com/thytabakman-jpg/Reaserch/blob/main/System-Wide%20Experiments/Kernel%20and%20Controller%20Experiments/Take-2/experiments/004-modifier-router-math/REPORT.md]
     protected: [eight_role_boundary, OPEN, incomparability, legacy_authority]
     validators: [kernel_fitness, A16]
     status: VERIFIED
@@ -139,7 +139,7 @@ transitions:
     baseline: take2:kernel
     target: take2:experiment:compositional-core-003
     authority: Take-2 experiment scope
-    evidence: [experiments/003-compositional-core/REPORT.md]
+    evidence: [https://github.com/thytabakman-jpg/Reaserch/blob/main/System-Wide%20Experiments/Kernel%20and%20Controller%20Experiments/Take-2/experiments/003-compositional-core/REPORT.md]
     protected: [legacy_authority, OPEN, incomparability, eight_role_boundary]
     validators: [kernel_fitness, A16]
     status: VERIFIED
@@ -148,7 +148,7 @@ transitions:
     baseline: take2:kernel
     target: take2:experiment:rebt-isought-001
     authority: Take-2 experiment scope
-    evidence: [experiments/001-rebt-isought/transition.yaml]
+    evidence: [https://github.com/thytabakman-jpg/Reaserch/blob/main/System-Wide%20Experiments/Kernel%20and%20Controller%20Experiments/Take-2/experiments/001-rebt-isought/transition.yaml]
     protected: [legacy_authority, frozen_REBT_isought_results]
     validators: [kernel_fitness, A16]
     status: VERIFIED
@@ -156,7 +156,7 @@ observations:
   - id: obs:state-math-006:analytic-result
     type: research_result
     subject: take2:experiment:state-math-006
-    source: experiments/006-state-math/REPORT.md
+    source: https://github.com/thytabakman-jpg/Reaserch/blob/main/System-Wide%20Experiments/Kernel%20and%20Controller%20Experiments/Take-2/experiments/006-state-math/REPORT.md
     observed_at: 2026-09-24T00:00:00-04:00
     result:
       status: SUPPORTED
@@ -166,7 +166,7 @@ observations:
   - id: obs:update-transition-005:analytic-result
     type: research_result
     subject: take2:experiment:update-transition-005
-    source: experiments/005-update-transition-math/REPORT.md
+    source: https://github.com/thytabakman-jpg/Reaserch/blob/main/System-Wide%20Experiments/Kernel%20and%20Controller%20Experiments/Take-2/experiments/005-update-transition-math/REPORT.md
     observed_at: 2026-09-24T00:00:00-04:00
     result:
       status: SUPPORTED
@@ -176,7 +176,7 @@ observations:
   - id: obs:modifier-router-004:analytic-result
     type: research_result
     subject: take2:experiment:modifier-router-004
-    source: experiments/004-modifier-router-math/REPORT.md
+    source: https://github.com/thytabakman-jpg/Reaserch/blob/main/System-Wide%20Experiments/Kernel%20and%20Controller%20Experiments/Take-2/experiments/004-modifier-router-math/REPORT.md
     observed_at: 2026-09-24T00:00:00-04:00
     result:
       status: SUPPORTED
@@ -186,7 +186,7 @@ observations:
   - id: obs:compositional-core-003:analytic-result
     type: research_result
     subject: take2:experiment:compositional-core-003
-    source: experiments/003-compositional-core/REPORT.md
+    source: https://github.com/thytabakman-jpg/Reaserch/blob/main/System-Wide%20Experiments/Kernel%20and%20Controller%20Experiments/Take-2/experiments/003-compositional-core/REPORT.md
     observed_at: 2026-09-24T00:00:00-04:00
     result:
       status: SUPPORTED
@@ -198,7 +198,7 @@ observations:
   - id: obs:rebt-isought-001:analytic-result
     type: research_result
     subject: take2:experiment:rebt-isought-001
-    source: experiments/001-rebt-isought/REPORT.md
+    source: https://github.com/thytabakman-jpg/Reaserch/blob/main/System-Wide%20Experiments/Kernel%20and%20Controller%20Experiments/Take-2/experiments/001-rebt-isought/REPORT.md
     observed_at: 2026-09-24T00:00:00-04:00
     result:
       status: SUPPORTED
