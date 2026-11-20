@@ -26,7 +26,21 @@ mkdir -p "$DEST"
 
 for name in Take-3 Take-4 Take-5; do
   src="$TMP/$name"
-  git clone --depth=1 "https://github.com/$OWNER/$name.git" "$src"
+  # Take-3 and Take-4 have finished as standalone experiments. Restore their
+  # exact final experiment trees even after the default branches are retired.
+  case "$name" in
+    Take-3) snapshot="d85bef9ae256c3b59b88ae4aff3d2eeb41fcc3a7" ;;
+    Take-4) snapshot="a93f3801555b75c88b180ec08bc136041662c785" ;;
+    *) snapshot="" ;;
+  esac
+  if [[ -n "$snapshot" ]]; then
+    git init --quiet "$src"
+    git -C "$src" fetch --quiet --depth=1 "https://github.com/$OWNER/$name.git" "$snapshot"
+    git -C "$src" checkout --quiet --detach FETCH_HEAD
+    [[ "$(git -C "$src" rev-parse HEAD)" == "$snapshot" ]]
+  else
+    git clone --depth=1 "https://github.com/$OWNER/$name.git" "$src"
+  fi
   head="$(git -C "$src" rev-parse HEAD)"
   rm -rf "$DEST/$name"
   mkdir -p "$DEST/$name"
